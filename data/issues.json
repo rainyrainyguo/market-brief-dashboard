@@ -4,6 +4,242 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-09-16-am",
+      "date": "2026-09-16",
+      "period": "am",
+      "time": "07:55",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-09-16T07:55:11-07:00",
+      "summary": "9 月 16 日早报｜截至湾区时间 07:55。今天宏观仍是第一主线：零售和进口价格偏强，Fed 决议尚待公布；产业侧的新变化是 SK Hynix–Intel 美国制造磋商与 Anthropic 推理算力扩张。研究重点为过去约半天，与网站上一期 9 月 15 日早报去重；不补造缺失晚报。",
+      "cards": [
+        {
+          "category": "macro",
+          "title": "零售与进口价格偏强，Fed 今日决议更值得看后续路径",
+          "status": "数据已公布；利率决定待公布",
+          "importance": "高",
+          "body": [
+            "9 月 16 日公布：美国 8 月零售销售环比 +1.2%，高于预期 +0.8%；控制组销售 +1.4%。进口价格环比 +0.7%、同比 +7.0%。零售额未经通胀调整，进口价格指数不包含关税。",
+            "截至本期截稿，Fed 尚未公布决定。市场预期加息 25bp 至 3.75%–4.00%；政策声明与季度预测将于今天湾区时间 11:00 公布，记者会 11:30 开始。"
+          ],
+          "whyImportant": "分析：需求韧性与输入性价格压力并存，令“只因油价暂时上涨而紧缩”的解释不够完整。今天更重要的是点阵图与后续政策指引，而非单独押注这一次 25bp。",
+          "investmentImpact": "分析：对 NVDA、MU、MRVL、LITE、COHR 等，若后续利率路径上移而盈利预期未同步上修，估值仍承压。财政发债与期限溢价也可能支撑长端利率，不能预设 Fed 会买债压低收益率；目前没有此类政策宣布。",
+          "tags": [
+            "Fed",
+            "零售销售",
+            "通胀",
+            "美债",
+            "期限溢价"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜零售销售与进口价格",
+              "url": "https://www.reuters.com/business/retail-consumer/us-retail-sales-rebound-sharply-august-2026-09-16/"
+            },
+            {
+              "title": "Reuters｜Fed 决议前瞻",
+              "url": "https://www.reuters.com/business/warshs-words-may-matter-more-than-anticipated-fed-rate-hike-2026-09-16/"
+            },
+            {
+              "title": "Reuters｜债市压力与干预预期",
+              "url": "https://www.reuters.com/business/bond-market-woes-likely-factor-fed-intervention-seen-unlikely-2026-09-16/"
+            }
+          ],
+          "id": "2026-09-16-am-1"
+        },
+        {
+          "category": "macro",
+          "title": "原油回落有新增供应缓冲，但不能等同于能源风险解除",
+          "status": "盘中报价；供应安排据媒体报道",
+          "importance": "高",
+          "body": [
+            "Reuters 报道沙特正通过阿曼 Sohar 附近船对船转运向亚洲炼厂提供更多原油。9 月 16 日 13:07 UTC（湾区 06:07），Brent 约 107.45 美元，跌 1.2%；WTI 约 103.87 美元。欧洲柴油仍接近纪录高位。"
+          ],
+          "whyImportant": "分析：新增转运安排缓和最坏供应情景，但原油与成品油短缺不是同一件事；Brent 回落不保证运输燃料成本同步下降。",
+          "investmentImpact": "分析：油价回落对科技估值是边际缓和，而非战争风险反转。继续观察“柴油/运输成本 → 商品价格 → 通胀预期 → 美债收益率”，不把当天油价下跌直接解释为 Fed 转鸽。",
+          "tags": [
+            "原油",
+            "Brent",
+            "柴油",
+            "中东",
+            "通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜沙特经阿曼增加供应、柴油仍紧张",
+              "url": "https://www.reuters.com/business/energy/oil-falls-us-crude-inventories-rise-despite-saudi-supply-concerns-2026-09-16/"
+            }
+          ],
+          "id": "2026-09-16-am-2"
+        },
+        {
+          "category": "semi",
+          "title": "SK Hynix 与 Intel 洽谈在美国制造存储：仍是探索，不是落地订单",
+          "status": "消息人士报道；未达成决定",
+          "importance": "高",
+          "body": [
+            "Reuters 9 月 16 日披露，方案可能包括租用 Intel 俄亥俄设施，或与 Intel、云厂商成立合资企业。SK Hynix 表示尚无确定事项；拟生产哪种存储芯片也未明确。"
+          ],
+          "whyImportant": "分析：新增信号是客户锁定存储供应、制造本土化与厂房融资安排可能结合，而不是短期 HBM 供给已经增加。",
+          "investmentImpact": "分析：对 INTC 是潜在资产利用与融资改善；对 MU 是美国本土竞争版图的中长期变量。未有产品、产能和投产时间前，不据此下调近期 DRAM/HBM 价格判断，也不把它当成 Intel 已获得先进逻辑代工订单。",
+          "tags": [
+            "SK Hynix",
+            "INTC",
+            "MU",
+            "HBM",
+            "DRAM",
+            "美国制造"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜SK Hynix–Intel 美国制造磋商",
+              "url": "https://www.reuters.com/world/asia-pacific/sk-hynix-talks-with-intel-about-deal-make-memory-chips-us-first-time-sources-say-2026-09-16/"
+            }
+          ],
+          "id": "2026-09-16-am-3"
+        },
+        {
+          "category": "ai",
+          "title": "Anthropic 据报签澳大利亚算力租约：安全放缓讨论不等于停止扩容",
+          "status": "消息人士报道；仍需审批",
+          "importance": "高",
+          "body": [
+            "Reuters 9 月 16 日援引消息人士称，Anthropic 签署澳大利亚首份数据中心租约，涉及规划总容量 2.16GW 的园区，计划从 2027 年起上线、用于推理。双方未评论，交易仍需澳大利亚外资审查批准。"
+          ],
+          "whyImportant": "分析：这是对“讨论前沿训练放缓就意味着全部 AI 基建需求下降”的反例线索。训练能力治理与推理服务扩张，应分开跟踪。",
+          "investmentImpact": "分析：对计算、存储、网络与电力链偏正面，但园区规划容量不等于已通电负荷，也不能换算成确定的 NVDA、MU 或光模块供应商收入；需等审批、设备采购和建设进度。",
+          "tags": [
+            "Anthropic",
+            "推理",
+            "数据中心",
+            "CapEx",
+            "NVDA",
+            "MU"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Anthropic 澳大利亚数据中心租约",
+              "url": "https://www.reuters.com/world/asia-pacific/anthropic-signs-first-australia-data-centre-agreement-2026-09-16/"
+            }
+          ],
+          "id": "2026-09-16-am-4"
+        },
+        {
+          "category": "ai",
+          "title": "欧盟支持讨论 AI 放缓，监管信号从企业表态走向政府协调",
+          "status": "公开政策表态；非已生效暂停令",
+          "importance": "高",
+          "body": [
+            "9 月 16 日，欧盟委员会主席冯德莱恩表示支持放缓前沿 AI 的呼吁，将邀请主要实验室讨论风险治理，并提及模型评估、验证和安全。"
+          ],
+          "whyImportant": "分析：相比上一期企业间安全协调，新增的是政府层面的介入；但支持讨论与实施强制训练上限、暂停令，仍有实质区别。",
+          "investmentImpact": "分析：短期增加前沿模型和相关硬件的监管不确定性，也提高安全评测与合规需求。目前这条消息本身不构成 GPU 订单取消或云厂商资本开支下调的证据。",
+          "tags": [
+            "欧盟",
+            "AI安全",
+            "监管",
+            "GPU",
+            "CapEx"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜欧盟拟邀请前沿实验室讨论",
+              "url": "https://www.reuters.com/world/eus-von-der-leyen-invite-frontier-labs-talks-tackling-ai-risks-2026-09-16/"
+            }
+          ],
+          "id": "2026-09-16-am-5"
+        },
+        {
+          "category": "ai",
+          "title": "Cohere 与 Aleph Alpha 签正式合并协议，企业私有化 AI 继续整合",
+          "status": "已签协议；交割待审批",
+          "importance": "中高",
+          "body": [
+            "9 月 16 日，两家公司签署正式合并协议；计划此前已于 4 月披露，本次新增的是协议进展。Schwarz Group 将投资 5 亿欧元，交易仍待监管批准。"
+          ],
+          "whyImportant": "分析：企业 AI 的竞争不只比模型能力，也比数据控制、部署边界和本地合规。正式协议不等于交易已完成。",
+          "investmentImpact": "分析：有利于主权云与私有化推理需求的持续验证，但融资不是收入、并购不是付费采用。后续应看客户续费、部署规模和计算成本，而不是只看合并估值。",
+          "tags": [
+            "Cohere",
+            "Aleph Alpha",
+            "企业AI",
+            "主权云",
+            "私有化部署"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Cohere–Aleph Alpha 正式协议",
+              "url": "https://www.reuters.com/legal/transactional/cohere-aleph-alpha-combine-target-enterprise-ai-market-2026-09-16/"
+            }
+          ],
+          "id": "2026-09-16-am-6"
+        },
+        {
+          "category": "robot",
+          "title": "Physical AI / 机器人：本期未核实到新增投资级量化进展",
+          "status": "本次检索无实质新增",
+          "importance": "低",
+          "body": [
+            "本次检索未确认过去约半天内新增的跨本体泛化、触觉/力控、数据效率、人工干预率、运行可靠性、硬件成本或真实付费部署指标。上一期已报道的 Agility Digit 5 不重复作为新消息。"
+          ],
+          "whyImportant": "分析：缺少新增证据不等于产业停滞，也不能用普通演示替代真实部署指标。",
+          "investmentImpact": "本期不因机器人演示调整 TSLA、TER、ON、ADI 或执行器/减速器供应链判断。继续等待客户验证的 uptime、干预率、每小时成本和付费合同。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "Agility",
+            "TSLA",
+            "TER",
+            "ON",
+            "ADI"
+          ],
+          "sources": [
+            {
+              "title": "Agility｜9 月 15 日公告（去重依据）",
+              "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale"
+            },
+            {
+              "title": "Figure｜官方新闻（检索入口）",
+              "url": "https://www.figure.ai/news"
+            }
+          ],
+          "verificationNote": "这是本次检索范围内的结论，不是对全行业没有新闻的保证；跟踪入口不作为“没有新闻”的证明。",
+          "id": "2026-09-16-am-7"
+        },
+        {
+          "category": "macro",
+          "title": "今天接下来只看四个验证点",
+          "status": "观察清单，非已发生结果",
+          "importance": "高",
+          "body": [
+            "1. 11:00 的 Fed 声明和季度预测：是一次调整，还是更持续的紧缩路径？11:30 记者会后，再判断市场如何解读。",
+            "2. 美债长端收益率与科技股能否同时稳定：若油价回落而收益率仍上升，应分别检查政策路径和期限溢价。",
+            "3. SK Hynix–Intel 是否出现公司正式协议、芯片类型及投产时间；Anthropic 项目是否取得审批或采购确认。",
+            "4. 日本利率与日元：关注 BOJ 前的预期变化。“JGB 收益率上升 → 资金回流/套息收缩 → 全球流动性趋紧”是条件性传导，不把它写成已确认的大规模资金撤离。"
+          ],
+          "whyImportant": "这些条件用于检验上面的分析，不能用价格波动倒推出订单、产能或政策已经改变。",
+          "investmentImpact": "把利率引起的估值变化与公司订单、毛利率、产能兑现分开观察；本期不新增未经核实的信用利差、资金流或中期选举政策数字。",
+          "tags": [
+            "Fed",
+            "美债",
+            "BOJ",
+            "日元",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Fed 公布时间与季度预测",
+              "url": "https://www.reuters.com/business/warshs-words-may-matter-more-than-anticipated-fed-rate-hike-2026-09-16/"
+            },
+            {
+              "title": "Reuters｜全球市场与日元背景",
+              "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-09-16/"
+            }
+          ],
+          "id": "2026-09-16-am-8"
+        }
+      ]
+    },
+    {
       "id": "2026-09-15-am",
       "date": "2026-09-15",
       "period": "am",
