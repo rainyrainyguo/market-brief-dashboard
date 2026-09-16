@@ -1,0 +1,971 @@
+{
+  "schemaVersion": 1,
+  "title": "Market Brief",
+  "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
+  "issues": [
+    {
+      "id": "2026-09-14-pm",
+      "date": "2026-09-14",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "timeApproximate": true,
+      "updatedAt": "2026-09-14T19:00:00-07:00",
+      "summary": "相比早间，最重要的不是 10Y 突破 5% 本身，而是原油冲高回吐、半导体出现“硬件→软件”轮动，以及 ASML 给出与 AI slowdown 叙事相反的强 CapEx 信号。",
+      "cards": [
+        {
+          "id": "2026-09-14-pm-1",
+          "category": "macro",
+          "title": "原油盘中大涨后明显回吐：供应风险没解决，但市场提高了“谈判降温”的概率",
+          "status": "已发生",
+          "importance": "高",
+          "body": [
+            "Brent 盘中一度接近 $110，随后大幅回吐并收在约 $105.7。推动回吐的核心是市场重新计入美伊谈判可能性；但 Saudi East–West pipeline 仍停运、胡塞袭击与 Hormuz 航运风险都没有消失。"
+          ],
+          "whyImportant": "早上最坏的传导链是“沙特管线中断 → Brent 持续 $110+ → 通胀预期再抬升 → Fed 连续加息 → 10Y 进一步上行 → 科技估值再压缩”。油价没站稳 $110，说明这条链暂时没有继续加速。",
+          "investmentImpact": "短期对高估值科技是边际缓和，但还不能当成中东风险反转；如果油价重新站稳 $110–115，压力会迅速回来。",
+          "tags": [
+            "Fed",
+            "Hormuz"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Oil settles higher after Saudi strikes stoke supply worries",
+              "url": "https://www.reuters.com/business/energy/oil-prices-jump-more-than-3-after-new-strikes-saudi-strait-hormuz-2026-09-13/"
+            },
+            {
+              "title": "Reuters｜Hormuz talks postponed; Houthi attacks continue",
+              "url": "https://www.reuters.com/live/live-hormuz-talks-postponed-oil-prices-jump-houthi-attacks-saudi-arabia-continue-2026-09-14/"
+            }
+          ],
+          "provenance": "历史简报迁移",
+          "updateNote": "新增盘中冲高后的回吐与收盘表现；管线停运属于持续背景。"
+        },
+        {
+          "id": "2026-09-14-pm-2",
+          "category": "macro",
+          "title": "10Y 仍在 5% 附近：现在长端压力不只是 Fed",
+          "status": "已发生",
+          "importance": "高",
+          "body": [
+            "美国 10 年期国债收益率突破 5% 后仍维持在关键区域。驱动不仅包括能源通胀和加息预期，还包括美国财政赤字、持续发债，以及 AI 数据中心建设带来的企业债供给。"
+          ],
+          "whyImportant": "这意味着“Fed 停止加息 → 10Y 自动回到 4% 多”不再是可靠假设。期限溢价本身就可能把长端收益率维持在高位。",
+          "investmentImpact": "长端利率高企通常压低远期现金流估值。盈利与自由现金流兑现更强的公司可能相对抗压，但不能仅凭存储或 AI 基建标签就认定安全；还需比较估值、杠杆和订单持续性。",
+          "tags": [
+            "Fed"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜US 10-year yields reach 5%, highest since 2023",
+              "url": "https://www.reuters.com/business/us-10-year-yields-reach-5-highest-since-2023-2026-09-14/"
+            }
+          ],
+          "provenance": "历史简报迁移",
+          "updateNote": "跟踪延续：10Y 突破 5% 已见早报；本条补充期限溢价和债券供给的分析，不作为新政策。"
+        },
+        {
+          "id": "2026-09-14-pm-3",
+          "category": "semi",
+          "title": "今天最重要的市场结构：SOX 大跌，但 Nasdaq 只小幅下跌，出现“AI 硬件 → 软件”轮动",
+          "status": "已发生",
+          "importance": "高",
+          "body": [
+            "费城半导体指数收跌约 5.9%，NVDA、MU、AMD、AVGO 等明显承压，但 Nasdaq 整体跌幅远小于芯片板块，一些软件股反而上涨。"
+          ],
+          "whyImportant": "半导体与软件表现分化，提示市场可能正在重新评估不同环节对持续 AI CapEx 增长的依赖程度。这是对价格行为的解释，单凭板块涨跌不能确认 AI 总需求上升或下降。",
+          "investmentImpact": "NVDA、MU、AVGO 与光互联的估值可能承压；软件/应用层相对表现较强。当前所列来源未提供大型 GPU、HBM 或光模块订单取消的证据，应继续核对订单、ASP 和客户 CapEx 指引，区分估值压缩与产业基本面变化。",
+          "tags": [
+            "NVDA",
+            "AMD",
+            "MU",
+            "AVGO",
+            "HBM",
+            "GPU",
+            "CapEx"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Wall Street ends down, calls for AI slowdown pummel chipmakers",
+              "url": "https://www.reuters.com/business/ai-warnings-knock-nasdaq-futures-pressure-tech-stocks-2026-09-14/"
+            },
+            {
+              "title": "Reuters｜Tech stocks slide on AI slowdown talks",
+              "url": "https://www.reuters.com/world/china/tech-stocks-slide-ai-slowdown-talks-2026-09-14/"
+            }
+          ],
+          "provenance": "历史简报迁移",
+          "updateNote": "新增美国收盘后的半导体与软件相对表现。"
+        },
+        {
+          "id": "2026-09-14-pm-4",
+          "category": "semi",
+          "title": "ASML 产能信号：据 JPMorgan，2027 EUV 接近满订，研究 2028 年超 110 台",
+          "status": "已确认",
+          "importance": "高",
+          "body": [
+            "Reuters 转述 JPMorgan 与 ASML CFO 会面后的信息：ASML 正研究 2028 年生产超过 110 台 EUV 设备。报道同时称，2027 年产能接近满订。这里的 2028 年产量仍是研究中的计划，并非已交付数量。"
+          ],
+          "whyImportant": "这一产能信号不支持“AI 减速讨论已经立刻打断全部半导体 CapEx”的判断。先进制程投入具有多年周期，但产能规划也不保证最终订单、交付或收入完全兑现。",
+          "investmentImpact": "对 ASML、先进制程、HBM/DRAM 以及 TSMC/Intel/Samsung/SK Hynix 的多年资本开支判断偏正面。",
+          "tags": [
+            "ASML",
+            "TSMC",
+            "HBM",
+            "DRAM",
+            "Intel",
+            "Samsung",
+            "SK Hynix",
+            "CapEx"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜ASML examining ways it can make more than 110 EUV tools in 2028",
+              "url": "https://www.reuters.com/business/media-telecom/asml-examining-ways-it-can-make-more-than-110-euv-tools-2028-jpmorgan-says-2026-09-14/"
+            }
+          ],
+          "provenance": "历史简报迁移",
+          "updateNote": "新增 JPMorgan 与 ASML CFO 沟通后的 EUV 产能信息。"
+        },
+        {
+          "id": "2026-09-14-pm-5",
+          "category": "ai",
+          "title": "企业 AI 的真实瓶颈开始从“模型能力”转向“数据与 IP 保密”",
+          "status": "已发生",
+          "importance": "中高",
+          "body": [
+            "据 The Information、Reuters 转述，Palantir、Nvidia、Booz Allen 等对 Anthropic/OpenAI 模型的使用更谨慎，核心问题是 proprietary data、代码与安全数据能否真正不被保留或误用。Palantir 要求不可撤销的 zero-data-retention 保证；Nvidia 对 Claude 的内部使用也更偏非敏感场景。"
+          ],
+          "whyImportant": "企业级 AI 的 adoption 不再只是“模型 benchmark 足够高就会用”。数据边界、审计、隔离环境、合规与 IP 保护正在变成购买决策的硬门槛。",
+          "investmentImpact": "潜在利好 private AI、isolated cloud、on-prem/self-hosted inference、企业数据治理，以及能提供完整安全边界的平台。",
+          "tags": [
+            "Anthropic",
+            "Nvidia"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Palantir, Nvidia curb AI model use over data fears",
+              "url": "https://www.reuters.com/business/palantir-nvidia-curb-ai-model-use-over-data-fears-information-reports-2026-09-14/"
+            }
+          ],
+          "provenance": "历史简报迁移"
+        },
+        {
+          "id": "2026-09-14-pm-6",
+          "category": "ai",
+          "title": "Microsoft 把 AI safety 从口号变成训练规范",
+          "status": "已发生",
+          "importance": "中",
+          "body": [
+            "Microsoft 发布未来模型的 draft “constitution”，要求模型不得抵抗关机或纠正，并把违反规范视为失败。"
+          ],
+          "whyImportant": "这说明“pace the frontier”正在从少数 CEO 的讨论转成更具体的模型治理流程。",
+          "investmentImpact": "短期不改变 MSFT 盈利，但会提高 frontier AI 的评测、安全与治理投入；长期利好 eval/monitoring/security 工具链。",
+          "tags": [
+            "MSFT"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Microsoft drafts code of conduct to keep its AI under human control",
+              "url": "https://www.reuters.com/legal/litigation/microsoft-drafts-code-conduct-keep-its-ai-under-human-control-2026-09-14/"
+            }
+          ],
+          "provenance": "历史简报迁移"
+        },
+        {
+          "id": "2026-09-14-pm-7",
+          "category": "robot",
+          "title": "Physical AI：过去半天没有新的投资级量化突破",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "没有看到新的 zero-shot、cross-embodiment、tactile/force、intervention rate、uptime、BOM 降本或真实 paid deployment 数据。"
+          ],
+          "whyImportant": "普通 humanoid demo 不能证明真实工厂可靠性和经济性。",
+          "investmentImpact": "不因为 demo 改变机器人产业判断。",
+          "tags": [
+            "机器人"
+          ],
+          "sources": [
+            {
+              "title": "Boston Dynamics · 官方进展跟踪（非新增公告）",
+              "url": "https://bostondynamics.com/blog/",
+              "role": "watchlist"
+            }
+          ],
+          "provenance": "历史简报迁移",
+          "verificationNote": "保留原简报“无实质更新”记录。链接是跟踪入口，不是证明该时段没有新闻的证据。"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-14-am",
+      "date": "2026-09-14",
+      "period": "am",
+      "time": "08:00",
+      "timezone": "America/Los_Angeles",
+      "timeApproximate": true,
+      "updatedAt": "2026-09-14T08:00:00-07:00",
+      "summary": "宏观明显主导：10Y 正式突破 5%，油价维持高位，同时“放慢 frontier AI”第一次明显进入芯片股定价。",
+      "cards": [
+        {
+          "id": "2026-09-14-am-1",
+          "category": "macro",
+          "title": "10Y 正式突破 5%，成为科技估值的核心风险线",
+          "status": "已发生",
+          "importance": "高",
+          "body": [
+            "美国 10 年期国债收益率升破 5%，为 2023 年以来首次。"
+          ],
+          "whyImportant": "油价抬高通胀预期，Fed 更鹰；同时美国财政赤字和债券供给抬升期限溢价。两条线同时压制长久期资产估值。",
+          "investmentImpact": "对高估值科技尤其不利。5% 本身是心理与资产配置阈值，因为债券收益率变得更有竞争力。",
+          "tags": [
+            "Fed"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜US 10-year yields reach 5%, highest since 2023",
+              "url": "https://www.reuters.com/business/us-10-year-yields-reach-5-highest-since-2023-2026-09-14/"
+            }
+          ],
+          "provenance": "历史简报迁移"
+        },
+        {
+          "id": "2026-09-14-am-2",
+          "category": "macro",
+          "title": "Fed 预期完成鹰派反转：多数经济学家预计本周加息，且不少人预期之后还有一次",
+          "status": "市场预期",
+          "importance": "高",
+          "body": [
+            "Reuters 调查显示，85% 经济学家预计 Fed 在 9 月会议加息 25bp；接受更远期调查的人里，过半预计到 2027 年 3 月前至少还会再加一次。"
+          ],
+          "whyImportant": "市场从“单次加息是否已 price in”转向“会不会进入连续收紧路径”。真正影响科技股的是终点利率与长端收益率，而不是这一次 25bp 本身。",
+          "investmentImpact": "如果点阵图暗示更多加息，高估值科技/半导体将继续承压；如果只加一次且 10Y 回落，则可能出现利空出尽。",
+          "tags": [
+            "Fed"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Fed rate hike on Wednesday now likely, say economists",
+              "url": "https://www.reuters.com/business/fed-rate-hike-wednesday-now-likely-say-economists-least-one-more-follow-2026-09-14/"
+            }
+          ],
+          "provenance": "历史简报迁移"
+        },
+        {
+          "id": "2026-09-14-am-3",
+          "category": "macro",
+          "title": "Hormuz 风险从军事袭击扩展到航运、保险和合规层面",
+          "status": "已发生",
+          "importance": "高",
+          "body": [
+            "区域谈判被推迟，Hormuz 航运仍受严重干扰；沙特 East–West pipeline 又因袭击停运。"
+          ],
+          "whyImportant": "即使没有新的爆炸，保险费率、船东风险偏好和航线可用性本身也会降低有效运输能力。",
+          "investmentImpact": "航运成本与油价风险溢价可能更持久，继续通过通胀 → Fed → 美债 → 科技估值传导。",
+          "tags": [
+            "Fed",
+            "Hormuz"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Morning Bid: Shipping oil gets ever harder, costlier",
+              "url": "https://www.reuters.com/markets/europe/global-markets-view-europe-2026-09-14/"
+            },
+            {
+              "title": "Reuters｜Hormuz talks postponed; Houthi attacks continue",
+              "url": "https://www.reuters.com/live/live-hormuz-talks-postponed-oil-prices-jump-houthi-attacks-saudi-arabia-continue-2026-09-14/"
+            }
+          ],
+          "provenance": "历史简报迁移"
+        },
+        {
+          "id": "2026-09-14-am-4",
+          "category": "ai",
+          "title": "“frontier AI 减速”首次明显进入股票定价",
+          "status": "已发生",
+          "importance": "高",
+          "body": [
+            "Anthropic CEO Dario Amodei 呼吁放慢模型能力提升，Sam Altman 与 Elon Musk 表示支持相关方向；全球 AI 相关股票、尤其芯片股明显下跌。"
+          ],
+          "whyImportant": "市场开始担心：如果 frontier training cadence 变慢，超大 GPU 集群、HBM、networking 的边际增速也可能放缓。",
+          "investmentImpact": "目前是估值叙事风险更大于基本面风险，因为没有看到已签大型 GPU/HBM/光模块订单被取消。",
+          "tags": [
+            "Anthropic",
+            "HBM",
+            "GPU"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Anthropic CEO urges AI companies to slow model development",
+              "url": "https://www.reuters.com/business/anthropic-ceo-urges-ai-companies-slow-model-development-2026-09-12/"
+            },
+            {
+              "title": "Reuters｜Global AI stocks fall as industry chiefs call for slowing development",
+              "url": "https://www.reuters.com/world/china/ai-linked-asian-stocks-slump-after-top-lab-ceos-call-slowing-down-technologys-2026-09-14/"
+            }
+          ],
+          "provenance": "历史简报迁移"
+        },
+        {
+          "id": "2026-09-14-am-5",
+          "category": "semi",
+          "title": "High-NA EUV adoption 加速，先进制程多年 CapEx 仍强",
+          "status": "已发生",
+          "importance": "高",
+          "body": [
+            "TSMC、Samsung、SK Hynix 都给出了 High-NA 导入时间表；Intel 已处理超过 100 万片 wafer，Micron 已订购设备。"
+          ],
+          "whyImportant": "晶圆厂的长期先进节点路线并没有因为 AI safety 讨论而改变。",
+          "investmentImpact": "对 ASML 以及 memory/logic 的长期工艺资本开支偏正面，是“AI slowdown ≠ 设备订单立刻转弱”的直接证据。",
+          "tags": [
+            "ASML",
+            "TSMC",
+            "Intel",
+            "Samsung",
+            "SK Hynix",
+            "CapEx",
+            "MU"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜ASML extends chipmaking dominance as customers embrace High NA",
+              "url": "https://www.reuters.com/world/asia-pacific/asml-extends-chipmaking-dominance-customers-embrace-high-na-2026-09-14/"
+            }
+          ],
+          "provenance": "历史简报迁移"
+        },
+        {
+          "id": "2026-09-14-am-6",
+          "category": "robot",
+          "title": "Boston Dynamics：Atlas 尚未规模化部署，IPO 时间线可能推迟到更远",
+          "status": "已发生",
+          "importance": "高",
+          "body": [
+            "Hyundai 高管表示 Boston Dynamics 2027 年 IPO 可能性不高，公司仍亏损且 Atlas 尚未规模部署；Hyundai 计划 2028 年开始在美国 Georgia 工厂部署 humanoid。"
+          ],
+          "whyImportant": "这是很好的“现实校验”：机器人会跳舞、会演示复杂动作，不等于已经达到长期 uptime、低 intervention rate 和可接受的每小时成本。",
+          "investmentImpact": "对 TSLA/Figure/Unitree 等 humanoid 估值同样适用：在真实 deployment、MTBF、uptime、维护成本公开前，不应把 demo 线性外推成收入。",
+          "tags": [
+            "TSLA",
+            "Figure",
+            "Unitree",
+            "Hyundai",
+            "Boston Dynamics",
+            "机器人"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜IPO for humanoid robot maker Boston Dynamics unlikely in 2027",
+              "url": "https://www.reuters.com/business/media-telecom/ipo-humanoid-robot-maker-boston-dynamics-unlikely-2027-executive-says-2026-09-14/"
+            }
+          ],
+          "provenance": "历史简报迁移"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-13-pm",
+      "date": "2026-09-13",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "timeApproximate": true,
+      "updatedAt": "2026-09-13T19:00:00-07:00",
+      "summary": "周末风险开始进入真实市场价格：原油夜盘走高、科技期货承压，Fed 与 BOJ 同周偏紧的组合成为核心宏观变量。",
+      "cards": [
+        {
+          "id": "2026-09-13-pm-1",
+          "category": "macro",
+          "title": "Saudi pipeline + Hormuz 风险开始被夜盘真实计价",
+          "status": "已发生",
+          "importance": "高",
+          "body": [
+            "原油夜盘跳涨，市场从“担心周一跳价”转为“已经开始重新定价供应中断”。"
+          ],
+          "whyImportant": "Saudi East–West pipeline 是 Hormuz 受限时的重要替代通道，停运把中东供应风险从单一 chokepoint 扩展成多点失效。",
+          "investmentImpact": "油价 → 通胀 → Fed 预期 → 美债收益率 → 科技估值的链条重新加强。",
+          "tags": [
+            "Fed",
+            "Hormuz"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Oil prices / Saudi strikes / Hormuz",
+              "url": "https://www.reuters.com/business/energy/oil-prices-jump-more-than-3-after-new-strikes-saudi-strait-hormuz-2026-09-13/"
+            },
+            {
+              "title": "Reuters｜Saudi pipeline outage threatens loss of 4% of global supply",
+              "url": "https://www.reuters.com/business/energy/saudi-pipeline-outage-threatens-loss-4-global-oil-supply-2026-09-13/"
+            }
+          ],
+          "provenance": "历史简报迁移",
+          "updateNote": "新增周日夜盘的原油价格反应。"
+        },
+        {
+          "id": "2026-09-13-pm-2",
+          "category": "macro",
+          "title": "Fed + BOJ 同周偏紧：全球流动性压力不是单一美国问题",
+          "status": "市场预期",
+          "importance": "高",
+          "body": [
+            "市场同时为 Fed 和 BOJ 的收紧做准备。"
+          ],
+          "whyImportant": "美国利率上行压缩估值，日本利率上行又可能推动资金回流、降低 carry trade 吸引力。",
+          "investmentImpact": "Fed ↑ + JGB ↑ / 日元 ↑ 可能形成双重流动性压力，对高 beta 科技和半导体最敏感。",
+          "tags": [
+            "Fed",
+            "BOJ",
+            "日本",
+            "日元"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Take Five: Rates, risks and rivalries",
+              "url": "https://www.reuters.com/business/take-five/global-markets-themes-graphic-2026-09-11/"
+            }
+          ],
+          "provenance": "历史简报迁移",
+          "updateNote": "会议前风险跟踪；并非 Fed 或 BOJ 已宣布加息。"
+        },
+        {
+          "id": "2026-09-13-pm-3",
+          "category": "macro",
+          "title": "日元投机仓位转为净多：日本资金回流逻辑开始出现在仓位数据里",
+          "status": "已发生",
+          "importance": "中高",
+          "body": [
+            "CFTC 数据显示日元非商业仓位从大幅净空转为净多，是数月来的重要反转。"
+          ],
+          "whyImportant": "这反映市场在交易 BOJ 加息与日本投资者可能减少海外 carry 的预期。",
+          "investmentImpact": "若日元持续升值、JGB 收益率走高，全球风险资产的边际流动性可能下降。",
+          "tags": [
+            "BOJ",
+            "日本",
+            "日元"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Speculators turn net long on yen for first time since February",
+              "url": "https://www.reuters.com/world/asia-pacific/speculators-turn-net-long-yen-first-time-since-february-2026-09-13/"
+            }
+          ],
+          "provenance": "历史简报迁移",
+          "updateNote": "历史原稿重复了早报仓位数据，未列新变化；保留归档，后续更新不重复计为新闻。"
+        },
+        {
+          "id": "2026-09-13-pm-4",
+          "category": "ai",
+          "title": "Anthropic 连续第二季 adjusted operating profit 为正的报道，给 AI 商业化一个重要正面信号",
+          "status": "媒体报道 / 未独立核实",
+          "importance": "中高",
+          "body": [
+            "FT 报道 Anthropic 告知股东，本季度 adjusted operating income 将连续第二季为正；Reuters 尚未独立核实。"
+          ],
+          "whyImportant": "如果成立，说明 frontier AI 并非只有芯片供应商赚钱，模型公司也开始出现 operating leverage。",
+          "investmentImpact": "对 AI inference/enterprise demand 偏正面，但要注意其毛利口径在扣除训练成本和部分渠道分成前很高，不能简单类比成熟 SaaS。",
+          "tags": [
+            "Anthropic"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Anthropic tells investors it will be profitable for second straight quarter, FT reports",
+              "url": "https://www.reuters.com/business/retail-consumer/anthropic-tells-investors-it-will-be-profitable-second-straight-quarter-ft-2026-09-13/"
+            }
+          ],
+          "provenance": "历史简报迁移"
+        },
+        {
+          "id": "2026-09-13-pm-5",
+          "category": "ai",
+          "title": "Hyundai 自研 ADAS 延后两年，中间阶段转向 Nvidia",
+          "status": "已发生",
+          "importance": "中",
+          "body": [
+            "Hyundai 将自研驾驶辅助软件推迟到 2029 年，并计划 2028 年先用 Nvidia 的平台推出 Level 2+/2++。"
+          ],
+          "whyImportant": "即使大型车企拥有大量工程资源，自研 autonomy 全栈仍然很难；通用计算/软件平台具备更强的 fallback 价值。",
+          "investmentImpact": "对 NVDA automotive/autonomy stack 偏正面，也提醒市场不要低估 autonomous stack 的工程复杂度。",
+          "tags": [
+            "NVDA",
+            "Nvidia",
+            "Hyundai"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Hyundai Motor to roll out in-house driver-assist system in 2029",
+              "url": "https://www.reuters.com/business/autos-transportation/hyundai-motor-roll-out-in-house-driver-assist-system-2029-2026-09-13/"
+            }
+          ],
+          "provenance": "历史简报迁移",
+          "updateNote": "补录周日关于自研 ADAS 时间表的报道；此前依赖 Nvidia 的讨论见前一日晚报。"
+        },
+        {
+          "id": "2026-09-13-pm-6",
+          "category": "robot",
+          "title": "Physical AI：没有新的 humanoid 量化突破",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "未见新的 intervention rate、uptime、tactile、cross-embodiment 或付费部署数据。"
+          ],
+          "whyImportant": "没有数据就不把 demo 当成投资信号。",
+          "investmentImpact": "维持原判断。",
+          "tags": [],
+          "sources": [
+            {
+              "title": "Boston Dynamics · 官方进展跟踪（非新增公告）",
+              "url": "https://bostondynamics.com/blog/",
+              "role": "watchlist"
+            }
+          ],
+          "provenance": "历史简报迁移",
+          "verificationNote": "保留原简报“无实质更新”记录。链接是跟踪入口，不是证明该时段没有新闻的证据。"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-13-am",
+      "date": "2026-09-13",
+      "period": "am",
+      "time": "08:00",
+      "timezone": "America/Los_Angeles",
+      "timeApproximate": true,
+      "updatedAt": "2026-09-13T08:00:00-07:00",
+      "summary": "最重要的新信息是 Saudi East–West pipeline 的修复时间可能比初判严重得多，开始出现真实供应缺口的风险。",
+      "cards": [
+        {
+          "id": "2026-09-13-am-1",
+          "category": "macro",
+          "title": "Saudi East–West pipeline 修复时间可能长达数周",
+          "status": "已发生 / 维修时间为来源估计",
+          "importance": "高",
+          "body": [
+            "Reuters 报道，管线停运后 Yanbu 可用于维持出口的库存只有约 5–7 天；部分消息人士估计修复可能需要 5–6 周，另一些认为可更快部分恢复。"
+          ],
+          "whyImportant": "如果一周内不能恢复，这不再只是“风险溢价”，而会开始影响真实出口能力。",
+          "investmentImpact": "Brent 与通胀上行风险显著增强；对科技股通过 Fed 与长端收益率形成负面传导。",
+          "tags": [
+            "Fed"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Saudi pipeline outage threatens loss of 4% of global oil supply",
+              "url": "https://www.reuters.com/business/energy/saudi-pipeline-outage-threatens-loss-4-global-oil-supply-2026-09-13/"
+            }
+          ],
+          "provenance": "历史简报迁移"
+        },
+        {
+          "id": "2026-09-13-am-2",
+          "category": "macro",
+          "title": "日元投机仓位转净多，资金回流预期升温",
+          "status": "已发生",
+          "importance": "中高",
+          "body": [
+            "CFTC 数据显示，日元非商业仓位从前一周大幅净空反转为净多。"
+          ],
+          "whyImportant": "市场开始更认真交易 BOJ 加息、日元升值和日本投资者资产回流。",
+          "investmentImpact": "JGB 收益率上升 → 日元升值 → carry trade 收缩 → 全球风险资产流动性下降。",
+          "tags": [
+            "BOJ",
+            "日本",
+            "日元"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Speculators turn net long on yen for first time since February",
+              "url": "https://www.reuters.com/world/asia-pacific/speculators-turn-net-long-yen-first-time-since-february-2026-09-13/"
+            }
+          ],
+          "provenance": "历史简报迁移"
+        },
+        {
+          "id": "2026-09-13-am-3",
+          "category": "ai",
+          "title": "AI safety 正在从行业讨论变成中期选举与监管议题",
+          "status": "尚待确认",
+          "importance": "中",
+          "body": [
+            "美国政界对 AI safety 与增长的立场分化加剧：一边强调风险与治理，另一边担心监管让中国获益。"
+          ],
+          "whyImportant": "监管如果从企业自愿承诺升级为 duty-of-care、独立评测或发布限制，会直接改变 frontier labs 的成本结构与 release cadence。",
+          "investmentImpact": "大型平台因合规能力更强可能相对受益；对 frontier training 的边际增长构成政策不确定性。",
+          "tags": [],
+          "sources": [
+            {
+              "title": "Reuters｜Trump dismisses AI safety alarm",
+              "url": "https://www.reuters.com/world/trump-says-there-is-sick-conspiracy-against-ai-data-centers-2026-09-14/"
+            }
+          ],
+          "provenance": "历史简报迁移",
+          "verificationNote": "来源事后补录：所列报道发布日期为 2026-09-14，晚于本期归档日期；原稿时间归属尚待核实。",
+          "originalStatus": "已发生"
+        },
+        {
+          "id": "2026-09-13-am-4",
+          "category": "robot",
+          "title": "Physical AI：无新的投资级信号",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "没有新的 paid deployment、可靠性、触觉或跨机体迁移量化数据。"
+          ],
+          "whyImportant": "不填充普通 demo。",
+          "investmentImpact": "无。",
+          "tags": [],
+          "sources": [
+            {
+              "title": "Boston Dynamics · 官方进展跟踪（非新增公告）",
+              "url": "https://bostondynamics.com/blog/",
+              "role": "watchlist"
+            }
+          ],
+          "provenance": "历史简报迁移",
+          "verificationNote": "保留原简报“无实质更新”记录。链接是跟踪入口，不是证明该时段没有新闻的证据。"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-12-pm",
+      "date": "2026-09-12",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "timeApproximate": true,
+      "updatedAt": "2026-09-12T19:00:00-07:00",
+      "summary": "中东同时出现升级与潜在降温信号；AI 侧最大的变化是“放慢 frontier capability”得到多位头部 CEO 支持。",
+      "cards": [
+        {
+          "id": "2026-09-12-pm-1",
+          "category": "macro",
+          "title": "中东风险变得双向：基础设施受袭升级，但美国暂未全面扩大直接军事介入",
+          "status": "已发生",
+          "importance": "高",
+          "body": [
+            "Saudi East–West pipeline 遭袭并停运，Houthi 在红海方向加大压力；同时美国没有立即直接扩大军事行动。"
+          ],
+          "whyImportant": "市场需要同时给“供应受损”和“可能避免全面升级”两个相反情景定价。",
+          "investmentImpact": "油价波动会非常大；方向取决于供应恢复速度和是否出现新的直接报复。",
+          "tags": [],
+          "sources": [
+            {
+              "title": "Reuters｜Saudis shut down oil pipeline as Houthis tighten grip on Red Sea shipping",
+              "url": "https://www.reuters.com/business/energy/saudis-shut-down-oil-pipeline-houthis-tighten-grip-red-sea-shipping-2026-09-12/"
+            }
+          ],
+          "provenance": "历史简报迁移"
+        },
+        {
+          "id": "2026-09-12-pm-2",
+          "category": "ai",
+          "title": "Anthropic CEO Amodei 呼吁放慢 frontier model 能力提升，Altman 与 Musk 表示支持",
+          "status": "已发生",
+          "importance": "高",
+          "body": [
+            "Amodei 提出三步框架，包括独立评估、frontier labs 协调安全标准，以及国际合作；他强调不是停止训练，而是放慢能力推进以争取安全时间。"
+          ],
+          "whyImportant": "这是第一次由多个头部 AI 领导者公开支持“pacing”，潜在影响下一代超大训练 run 的时间表。",
+          "investmentImpact": "短期不等于已签 GPU/HBM 订单取消；中期要观察是否形成正式行业协议或监管要求。",
+          "tags": [
+            "Anthropic",
+            "HBM",
+            "GPU"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Anthropic CEO urges AI companies to slow model development",
+              "url": "https://www.reuters.com/business/anthropic-ceo-urges-ai-companies-slow-model-development-2026-09-12/"
+            },
+            {
+              "title": "Dario Amodei · We Must Pace the Frontier",
+              "url": "https://darioamodei.com/post/we-must-pace-the-frontier"
+            }
+          ],
+          "provenance": "历史简报迁移",
+          "updateNote": "延续早间倡议，补充其他 AI 公司负责人的回应；不等于签署训练暂停协议。"
+        },
+        {
+          "id": "2026-09-12-pm-3",
+          "category": "ai",
+          "title": "Hyundai 更依赖 Nvidia 的 autonomy stack",
+          "status": "尚待确认",
+          "importance": "中",
+          "body": [
+            "Hyundai 自研驾驶辅助软件延后到 2029，计划 2028 年先部署 Nvidia 平台。"
+          ],
+          "whyImportant": "表明车企自研 autonomy 软件栈比预期更难，平台化供应商可成为重要 fallback。",
+          "investmentImpact": "对 NVDA automotive / Physical AI 计算平台偏正面。",
+          "tags": [
+            "NVDA",
+            "Nvidia",
+            "Hyundai"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Hyundai Motor to roll out in-house driver-assist system in 2029",
+              "url": "https://www.reuters.com/business/autos-transportation/hyundai-motor-roll-out-in-house-driver-assist-system-2029-2026-09-13/"
+            }
+          ],
+          "provenance": "历史简报迁移",
+          "verificationNote": "来源事后补录：所列报道发布日期为 2026-09-13，晚于本期归档日期；原稿时间归属尚待核实。",
+          "originalStatus": "已发生"
+        },
+        {
+          "id": "2026-09-12-pm-4",
+          "category": "robot",
+          "title": "Physical AI：没有新的可靠性/部署量化突破",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "没有新的 zero-shot、cross-embodiment、tactile、intervention rate、uptime 或 paid deployment 数据。"
+          ],
+          "whyImportant": "不把普通 demo 作为投资信号。",
+          "investmentImpact": "无。",
+          "tags": [],
+          "sources": [
+            {
+              "title": "Boston Dynamics · 官方进展跟踪（非新增公告）",
+              "url": "https://bostondynamics.com/blog/",
+              "role": "watchlist"
+            }
+          ],
+          "provenance": "历史简报迁移",
+          "verificationNote": "保留原简报“无实质更新”记录。链接是跟踪入口，不是证明该时段没有新闻的证据。"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-12-am",
+      "date": "2026-09-12",
+      "period": "am",
+      "time": "08:00",
+      "timezone": "America/Los_Angeles",
+      "timeApproximate": true,
+      "updatedAt": "2026-09-12T08:00:00-07:00",
+      "summary": "宏观风险明显升级：Saudi East–West pipeline 遭袭，使 Hormuz 受阻后的替代出口路线也受到威胁。",
+      "cards": [
+        {
+          "id": "2026-09-12-am-1",
+          "category": "macro",
+          "title": "Saudi East–West pipeline 遭袭并停运：能源运输出现多点失效风险",
+          "status": "已发生",
+          "importance": "高",
+          "body": [
+            "Saudi East–West pipeline 在无人机袭击后暂时关闭。这条管线过去数月是 Hormuz 受限后的重要替代路线，可运输约 4–5 百万桶/日。"
+          ],
+          "whyImportant": "原本的风险是单一海峡 chokepoint；现在绕行管线也受损，意味着供应系统冗余下降。",
+          "investmentImpact": "战争 → 油价 → 通胀 → 美债收益率 → 科技估值这条链显著变强。",
+          "tags": [
+            "Hormuz"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Saudis shut down oil pipeline as Houthis tighten grip on Red Sea shipping",
+              "url": "https://www.reuters.com/business/energy/saudis-shut-down-oil-pipeline-houthis-tighten-grip-red-sea-shipping-2026-09-12/"
+            },
+            {
+              "title": "Reuters｜Saudi Arabia says drones launched from Iraq hit East-West pipeline",
+              "url": "https://www.reuters.com/world/middle-east/saudi-arabia-says-drones-launched-iraq-hit-east-west-pipeline-holds-off-2026-09-11/"
+            }
+          ],
+          "provenance": "历史简报迁移"
+        },
+        {
+          "id": "2026-09-12-am-2",
+          "category": "macro",
+          "title": "美国高油价开始更明显地变成中期选举与政策约束",
+          "status": "已发生 / 政策仍在演变",
+          "importance": "中高",
+          "body": [
+            "能源价格持续高位，使政府在 Iran、炼油、战略库存和贸易政策上的政治约束更强。"
+          ],
+          "whyImportant": "临近中期选举，高汽油/柴油价格会直接影响通胀感受和选民情绪。",
+          "investmentImpact": "未来几个月能源政策与外交可能更明显地服务于压低油价；但若地缘冲突继续扩大，政策工具可能不够快。",
+          "tags": [],
+          "sources": [
+            {
+              "title": "Reuters｜Morning Bid: Take a hike",
+              "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-2026-09-11/"
+            }
+          ],
+          "provenance": "历史简报迁移"
+        },
+        {
+          "id": "2026-09-12-am-3",
+          "category": "ai",
+          "title": "Anthropic 正式把“pace the frontier”放到台面上",
+          "status": "已发生",
+          "importance": "高",
+          "body": [
+            "Amodei 公开提出放慢模型能力进步，强调要给安全测试、独立评估和治理争取时间。"
+          ],
+          "whyImportant": "如果从自愿倡议演变成正式协作或监管，frontier training cadence 才会真正受到约束。",
+          "investmentImpact": "短期对既有 AI 基建订单影响有限；中期增大 NVDA/HBM/networking 的增长斜率不确定性。",
+          "tags": [
+            "NVDA",
+            "Anthropic",
+            "HBM"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Anthropic CEO urges AI companies to slow model development",
+              "url": "https://www.reuters.com/business/anthropic-ceo-urges-ai-companies-slow-model-development-2026-09-12/"
+            },
+            {
+              "title": "Dario Amodei · We Must Pace the Frontier",
+              "url": "https://darioamodei.com/post/we-must-pace-the-frontier"
+            }
+          ],
+          "provenance": "历史简报迁移"
+        },
+        {
+          "id": "2026-09-12-am-4",
+          "category": "robot",
+          "title": "Physical AI：无实质新进展",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "没有满足筛选门槛的新数据。"
+          ],
+          "whyImportant": "不汇报普通 demo。",
+          "investmentImpact": "无。",
+          "tags": [],
+          "sources": [
+            {
+              "title": "Boston Dynamics · 官方进展跟踪（非新增公告）",
+              "url": "https://bostondynamics.com/blog/",
+              "role": "watchlist"
+            }
+          ],
+          "provenance": "历史简报迁移",
+          "verificationNote": "保留原简报“无实质更新”记录。链接是跟踪入口，不是证明该时段没有新闻的证据。"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-11-pm",
+      "date": "2026-09-11",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "timeApproximate": true,
+      "updatedAt": "2026-09-11T19:00:00-07:00",
+      "summary": "这一期的核心是：CPI 让加息概率上升，但债券并未继续失控；同时财政赤字与 Anthropic/Nvidia 资本关系成为新的中期变量。",
+      "cards": [
+        {
+          "id": "2026-09-11-pm-1",
+          "category": "macro",
+          "title": "CPI 后加息概率明显升高，但市场当日仍能反弹",
+          "status": "已发生",
+          "importance": "高",
+          "body": [
+            "8 月 CPI 环比 0.4%、同比 3.4%；核心 CPI 环比 0.3%。数据发布后，市场对 9 月加息的概率明显上调，但股票仍反弹，10Y 从盘中高位回落。"
+          ],
+          "whyImportant": "说明市场更怕的是“通胀继续超预期 + 10Y 持续突破”，而不是单次 25bp 本身。",
+          "investmentImpact": "如果 Fed 加一次但长端回落，科技可能出现利空出尽；如果油价继续推高通胀，则风险重新上升。",
+          "tags": [
+            "Fed"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜VIEW Stocks, bonds rally after August inflation report",
+              "url": "https://www.reuters.com/business/view-august-core-inflation-reading-boosts-rate-hike-expectations-2026-09-11/"
+            }
+          ],
+          "provenance": "历史简报迁移"
+        },
+        {
+          "id": "2026-09-11-pm-2",
+          "category": "macro",
+          "title": "美国财政赤字并没有真正改善：8 月 headline 下降主要是日历效应",
+          "status": "已发生",
+          "importance": "高",
+          "body": [
+            "美国 8 月 headline 财政赤字降至 $167B，但经福利支付时点调整后约为 $248B，同比略增；财年迄今赤字约 $1.97T，高于上一财年全年。"
+          ],
+          "whyImportant": "持续高赤字意味着国债供给和利息支出压力难消失。",
+          "investmentImpact": "财政/发债 → 期限溢价 → 长端利率，是高估值科技的结构性估值约束。",
+          "tags": [],
+          "sources": [
+            {
+              "title": "Reuters｜US budget deficit shrinks in August, year-to-date flat at $1.97 trillion",
+              "url": "https://www.reuters.com/markets/us/us-budget-deficit-shrinks-august-year-to-date-flat-197-trillion-2026-09-11/"
+            }
+          ],
+          "provenance": "历史简报迁移"
+        },
+        {
+          "id": "2026-09-11-pm-3",
+          "category": "ai",
+          "title": "Nvidia 可能成为 Anthropic 超大 IPO 的锚定投资者",
+          "status": "市场预期 / 谈判中",
+          "importance": "高",
+          "body": [
+            "Reuters 报道 Anthropic 正讨论让 Nvidia 成为潜在 IPO 的 anchor investor，Nvidia 可能投入最高约 $10B；Anthropic 目标募资最高约 $100B，潜在估值约 $2T。"
+          ],
+          "whyImportant": "一方面验证 frontier AI 对算力资本的巨大需求；另一方面也让市场更关注“供应商投资客户、客户再买算力”的资本循环结构。",
+          "investmentImpact": "对 NVDA 需求偏正面，但未来投资者会更严格区分最终用户现金流需求与生态内部资本支持。",
+          "tags": [
+            "NVDA",
+            "Anthropic",
+            "Nvidia"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Nvidia in talks to invest in Anthropic's mega IPO",
+              "url": "https://www.reuters.com/legal/transactional/nvidia-talks-invest-anthropics-mega-ipo-sources-say-2026-09-11/"
+            }
+          ],
+          "provenance": "历史简报迁移"
+        },
+        {
+          "id": "2026-09-11-pm-4",
+          "category": "macro",
+          "title": "Fed 与 BOJ 的关键会议周即将到来",
+          "status": "市场预期",
+          "importance": "中高",
+          "body": [
+            "市场同时关注 Fed 是否首次在 2026 年加息，以及 BOJ 是否进一步收紧。"
+          ],
+          "whyImportant": "美国长端利率与日本 carry trade 可能同时收紧全球流动性。",
+          "investmentImpact": "对半导体与高 beta 科技尤其重要。",
+          "tags": [
+            "Fed",
+            "BOJ",
+            "日本"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Take Five: Rates, risks and rivalries",
+              "url": "https://www.reuters.com/business/take-five/global-markets-themes-graphic-2026-09-11/"
+            }
+          ],
+          "provenance": "历史简报迁移"
+        },
+        {
+          "id": "2026-09-11-pm-5",
+          "category": "robot",
+          "title": "Physical AI：无达到门槛的新信号",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "没有新的可信 zero-shot / reliability / deployment 数据。"
+          ],
+          "whyImportant": "普通 demo 不改变投资判断。",
+          "investmentImpact": "无。",
+          "tags": [],
+          "sources": [
+            {
+              "title": "Boston Dynamics · 官方进展跟踪（非新增公告）",
+              "url": "https://bostondynamics.com/blog/",
+              "role": "watchlist"
+            }
+          ],
+          "provenance": "历史简报迁移",
+          "verificationNote": "保留原简报“无实质更新”记录。链接是跟踪入口，不是证明该时段没有新闻的证据。"
+        }
+      ]
+    }
+  ]
+}
