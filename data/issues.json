@@ -4,6 +4,352 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-09-15-am",
+      "date": "2026-09-15",
+      "period": "am",
+      "time": "08:00",
+      "timezone": "America/Los_Angeles",
+      "timeApproximate": true,
+      "updatedAt": "2026-09-15T08:00:00-07:00",
+      "summary": "这一期我把昨晚已经讲过但没有新进展的 ASML / High-NA EUV、10Y 接近 5%、一般性的 AI slowdown 讨论先去掉。真正新增、且对未来 1–12 个月判断最重要的变化，主要集中在：中东能源运输风险进一步实体化、Fed 路径继续转鹰、MU 台湾劳资风险，以及 AI slowdown 从“舆论”开始向行业协调/监管预期演变。",
+      "cards": [
+        {
+          "id": "2026-09-15-am-1",
+          "category": "macro",
+          "title": "霍尔木兹海峡已经不是“风险溢价”，而是在出现真实运输冻结。",
+          "status": "已发生",
+          "importance": "高",
+          "body": [
+            "Kpler 数据显示，周一通过 Hormuz 的大宗商品船只只剩 4 艘，前一天还有 10 艘，而战前通常约 125 艘/日。同时，Gulf Arab states 与 Iran 原计划讨论海峡通行的会谈被推迟，Bab el-Mandeb 的船只流量也从 28 艘降到 21 艘。",
+            "更关键的是 Saudi East–West Pipeline 仍离线。Reuters 报道称，这条原本用于绕开 Hormuz 的管道若持续停运，Saudi 可供出口的原油可能在数日内变得非常紧张；最新修复时间判断从“很快”到 8 周都有。Goldman Sachs 认为持续中断会明显提高 Brent >$120 的概率，Capital Economics 的极端情景则是如果关闭数周，Brent 可能接近 $130。截至欧洲早盘，Brent 约 $105.74，盘中一度 $108.43。",
+            "传导链： Hormuz + Saudi 绕行管道同时受限 → 实际出口能力下降 → 油价不再只是“战争风险溢价” → 通胀二次上行 → Fed 更难停止紧缩 → 长端利率维持高位 → AI/半导体估值继续受压。"
+          ],
+          "whyImportant": "原文分析摘录：传导链： Hormuz + Saudi 绕行管道同时受限 → 实际出口能力下降 → 油价不再只是“战争风险溢价” → 通胀二次上行 → Fed 更难停止紧缩 → 长端利率维持高位 → AI/半导体估值继续受压。",
+          "investmentImpact": "原文分析摘录：传导链： Hormuz + Saudi 绕行管道同时受限 → 实际出口能力下降 → 油价不再只是“战争风险溢价” → 通胀二次上行 → Fed 更难停止紧缩 → 长端利率维持高位 → AI/半导体估值继续受压。",
+          "tags": [
+            "Hormuz",
+            "原油",
+            "Fed"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜原文引用",
+              "url": "https://www.reuters.com/world/middle-east/hormuz-traffic-dwindles-after-middle-east-attacks-intensify-2026-09-15/"
+            },
+            {
+              "title": "Reuters｜原文引用",
+              "url": "https://www.reuters.com/business/energy/oil-prices-rise-saudi-pipeline-outage-fresh-attacks-raise-supply-concerns-2026-09-15/"
+            },
+            {
+              "title": "查看原 Chat 早报",
+              "url": "https://chatgpt.com/share/6aaa052c-7b40-83e8-be74-f98b0e2828d7"
+            }
+          ],
+          "provenance": "原 Chat 早报迁移",
+          "verificationNote": "按原 Chat 内容迁移；数字、预测和状态为当时原文表述，本次未重新搜集或独立核验。"
+        },
+        {
+          "id": "2026-09-15-am-2",
+          "category": "macro",
+          "title": "Fed 本周加息概率升到 92%+，市场开始讨论的不再只是“一次加息”。",
+          "status": "市场定价",
+          "importance": "高",
+          "body": [
+            "10Y 美债收益率升到约 5.004%，为 2007 年以来高位；Fed 周三加息的市场概率已经超过 92%。美元指数也回到约两周高位。",
+            "更值得注意的是，Morgan Stanley overnight 把自己的基准预测改成：9 月 +25bp，12 月再 +25bp。它给出的理由不是单纯能源价格，而是“能源二阶效应 + AI 投资导致需求偏强 + 中性利率可能更高 + Fed credibility”。",
+            "这意味着市场现在真正担心的情景正在从：",
+            "“Fed 被油价逼着加一次”",
+            "逐渐转向：",
+            "“2026–27 出现一个小型重新加息周期”。",
+            "对你关注的 MU / NVDA / MRVL / LITE / COHR 这类长久期 AI 资产而言，第二种情景的估值杀伤力明显更大。"
+          ],
+          "whyImportant": "原文分析摘录：这意味着市场现在真正担心的情景正在从：",
+          "investmentImpact": "原文分析摘录：对你关注的 MU / NVDA / MRVL / LITE / COHR 这类长久期 AI 资产而言，第二种情景的估值杀伤力明显更大。",
+          "tags": [
+            "Fed",
+            "美债",
+            "MU",
+            "NVDA"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜原文引用",
+              "url": "https://www.reuters.com/world/africa/dollar-near-two-week-high-oil-surge-lifts-yields-fed-hike-bets-2026-09-15/"
+            },
+            {
+              "title": "Reuters｜原文引用",
+              "url": "https://www.reuters.com/business/morgan-stanley-turns-more-hawkish-forecasts-two-fed-hikes-ecb-move-2026-09-15/"
+            },
+            {
+              "title": "查看原 Chat 早报",
+              "url": "https://chatgpt.com/share/6aaa052c-7b40-83e8-be74-f98b0e2828d7"
+            }
+          ],
+          "provenance": "原 Chat 早报迁移",
+          "verificationNote": "按原 Chat 内容迁移；数字、预测和状态为当时原文表述，本次未重新搜集或独立核验。"
+        },
+        {
+          "id": "2026-09-15-am-3",
+          "category": "macro",
+          "title": "日本这条全球流动性线也在升温，但现在有“预期过头”的风险。",
+          "status": "市场预期",
+          "importance": "中高",
+          "body": [
+            "日元此前快速升到约 152.89/USD 的七个月高点，市场甚至一度在押注 BOJ 把加息速度提高到每季度一次、未来一年政策利率超过 2%。日本 10Y JGB 也重新升破 3%。但 Reuters 采访的策略师认为市场可能已经过度鹰派；如果周五 BOJ 没有比预期更激进，日元可能重新退向约 157。",
+            "这里最重要的不是 USD/JPY 本身，而是：",
+            "JGB 收益率↑ / 日元↑ → 日本资金回流 + carry trade 收缩 → 全球风险资产边际流动性下降。",
+            "不过现在 Fed 也在同步收紧，所以美日利差并没有像普通 BOJ 加息周期那样迅速收窄。换句话说，日本资金回流压力是真的，但目前还不是单边逻辑。"
+          ],
+          "whyImportant": "原文分析摘录：这里最重要的不是 USD/JPY 本身，而是：",
+          "investmentImpact": "原文分析摘录：不过现在 Fed 也在同步收紧，所以美日利差并没有像普通 BOJ 加息周期那样迅速收窄。换句话说，日本资金回流压力是真的，但目前还不是单边逻辑。",
+          "tags": [
+            "BOJ",
+            "JGB",
+            "日元",
+            "流动性"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜原文引用",
+              "url": "https://www.reuters.com/world/asia-pacific/yen-rally-faces-moment-truth-boj-risks-disappointing-markets-2026-09-15/"
+            },
+            {
+              "title": "Reuters｜原文引用",
+              "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-2026-09-15/"
+            },
+            {
+              "title": "查看原 Chat 早报",
+              "url": "https://chatgpt.com/share/6aaa052c-7b40-83e8-be74-f98b0e2828d7"
+            }
+          ],
+          "provenance": "原 Chat 早报迁移",
+          "verificationNote": "按原 Chat 内容迁移；数字、预测和状态为当时原文表述，本次未重新搜集或独立核验。"
+        },
+        {
+          "id": "2026-09-15-am-4",
+          "category": "semi",
+          "title": "Micron 台湾劳资纠纷升级，已经进入“可能投票罢工”的阶段。",
+          "status": "尚未影响生产",
+          "importance": "高",
+          "body": [
+            "Micron 台湾两个工会合计代表其约 15,000 名当地员工中的 80%+。工会要求建立长期利润分享机制，提出把 全球营业利润的 15% 分配给员工；如果 9 月 18 日和 21 日的谈判仍没有具体方案，工会表示将推动 strike vote。",
+            "目前有两点必须分开：",
+            "- 已发生： 劳资谈判明显升级。\n- 尚未发生： 目前没有罢工，也没有生产中断。",
+            "为什么我觉得这条对 MU 比昨晚的 AI slowdown 讨论更值得关注：台湾是 Micron 最大制造基地之一，而且直接涉及 DRAM / HBM。在当前 memory 本来就偏紧的情况下，如果真发生生产扰动，逻辑甚至可能是：",
+            "短期 MU 运营风险↑，但全行业 DRAM/HBM ASP 与 SK Hynix / Samsung 定价权反而↑。",
+            "所以这是一条“公司层面利空、行业供需可能反向受益”的事件，不应该简单理解成 memory demand 转弱。"
+          ],
+          "whyImportant": "原文分析摘录：为什么我觉得这条对 MU 比昨晚的 AI slowdown 讨论更值得关注：台湾是 Micron 最大制造基地之一，而且直接涉及 DRAM / HBM。在当前 memory 本来就偏紧的情况下，如果真发生生产扰动，逻辑甚至可能是：",
+          "investmentImpact": "原文分析摘录：所以这是一条“公司层面利空、行业供需可能反向受益”的事件，不应该简单理解成 memory demand 转弱。",
+          "tags": [
+            "MU",
+            "DRAM",
+            "HBM",
+            "SK Hynix",
+            "Samsung"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜原文引用",
+              "url": "https://www.reuters.com/business/world-at-work/micron-taiwan-union-presses-profit-sharing-demand-keeps-strike-preparations-2026-09-15/"
+            },
+            {
+              "title": "Reuters｜原文引用",
+              "url": "https://wsau.com/2026/09/15/micron-taiwan-union-presses-profit-sharing-demand-keeps-strike-preparations-alive/"
+            },
+            {
+              "title": "查看原 Chat 早报",
+              "url": "https://chatgpt.com/share/6aaa052c-7b40-83e8-be74-f98b0e2828d7"
+            }
+          ],
+          "provenance": "原 Chat 早报迁移",
+          "verificationNote": "按原 Chat 内容迁移；数字、预测和状态为当时原文表述，本次未重新搜集或独立核验。"
+        },
+        {
+          "id": "2026-09-15-am-5",
+          "category": "semi",
+          "title": "MediaTek 正式把 TSMC 2nm 带进旗舰手机芯片。",
+          "status": "已发生",
+          "importance": "中",
+          "body": [
+            "MediaTek 发布 Dimensity 9600 Pro，采用 TSMC 2nm；其 on-device generative AI NPU 性能较上一代提升约 51%。第一批客户预计仍包括 Xiaomi、Oppo、Vivo。更值得注意的是 MediaTek 还在向数据中心扩张，面向一家大型美国云厂商的首款 AI accelerator 计划在 2026 年底量产。",
+            "这条对股票的意义主要是：",
+            "TSMC： N2 从高端 CPU/AI 向手机 SoC 扩散，量产利用率逻辑更扎实。  \nQCOM： 高端 Android 市场竞争进一步加剧。  \nAI 行业： on-device inference 继续提高每台终端的 silicon content，而 AI 不再只等于数据中心 GPU。"
+          ],
+          "whyImportant": "原文分析摘录：这条对股票的意义主要是：",
+          "investmentImpact": "原文分析摘录：TSMC： N2 从高端 CPU/AI 向手机 SoC 扩散，量产利用率逻辑更扎实。  \nQCOM： 高端 Android 市场竞争进一步加剧。  \nAI 行业： on-device inference 继续提高每台终端的 silicon content，而 AI 不再只等于数据中心 GPU。",
+          "tags": [
+            "MediaTek",
+            "TSMC",
+            "2nm",
+            "QCOM"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜原文引用",
+              "url": "https://www.reuters.com/business/media-telecom/mediatek-launches-new-mobile-chip-using-tsmcs-most-advanced-technology-2026-09-15/"
+            },
+            {
+              "title": "查看原 Chat 早报",
+              "url": "https://chatgpt.com/share/6aaa052c-7b40-83e8-be74-f98b0e2828d7"
+            }
+          ],
+          "provenance": "原 Chat 早报迁移",
+          "verificationNote": "按原 Chat 内容迁移；数字、预测和状态为当时原文表述，本次未重新搜集或独立核验。"
+        },
+        {
+          "id": "2026-09-15-am-6",
+          "category": "ai",
+          "title": "OpenAI、Anthropic、Google DeepMind 已经开始直接协调 AI safety。",
+          "status": "媒体报道，Reuters 未独立核实",
+          "importance": "高",
+          "body": [
+            "Bloomberg 引述 OpenAI policy chief Chris Lehane 称，三家公司已经讨论数周如何协调 AI safety；OpenAI 还表示支持针对 catastrophic AI risk 的 bipartisan legislation。Reuters 明确写明它暂时无法独立核实这一报道。",
+            "这比周末 CEO 们单独喊“应该放慢”多走了一步：  \n从个人表态 → 行业内协调 → 潜在政策框架。",
+            "但目前仍然没有看到：\n- GPU 订单取消；\n- 数据中心项目取消；\n- hyperscaler CapEx guidance 下调。",
+            "事实上 BofA 当前仍估计五大 hyperscaler 2026 CapEx 约 $795B，2027 约 $1.08T。Reuters 采访的投资人也明确把目前 AI 半导体下跌描述为：市场先处罚“picks-and-shovels”，但要真正确认 AI CapEx 拐点，需要看到订单或数据中心建设被取消。",
+            "所以我目前仍然把昨天 NVDA / AVGO / AMD / MU 的下跌定义为：",
+            "监管/叙事风险 + 利率估值压缩 > 已确认的 AI 基建基本面恶化。",
+            "这是今天最值得继续观察的区别。"
+          ],
+          "whyImportant": "原文分析摘录：这比周末 CEO 们单独喊“应该放慢”多走了一步：  \n从个人表态 → 行业内协调 → 潜在政策框架。",
+          "investmentImpact": "原文分析摘录：监管/叙事风险 + 利率估值压缩 > 已确认的 AI 基建基本面恶化。",
+          "tags": [
+            "OpenAI",
+            "Anthropic",
+            "Google",
+            "CapEx"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜原文引用",
+              "url": "https://www.reuters.com/technology/openai-is-working-with-anthropic-google-ai-safety-bloomberg-news-reports-2026-09-15/"
+            },
+            {
+              "title": "Reuters｜原文引用",
+              "url": "https://www.reuters.com/legal/transactional/investors-nervous-about-ai-spending-slowdown-after-industry-warnings-2026-09-15/"
+            },
+            {
+              "title": "查看原 Chat 早报",
+              "url": "https://chatgpt.com/share/6aaa052c-7b40-83e8-be74-f98b0e2828d7"
+            }
+          ],
+          "provenance": "原 Chat 早报迁移",
+          "verificationNote": "按原 Chat 内容迁移；数字、预测和状态为当时原文表述，本次未重新搜集或独立核验。"
+        },
+        {
+          "id": "2026-09-15-am-7",
+          "category": "ai",
+          "title": "AI inference 与 networking 的竞争层开始继续扩张。",
+          "status": "已发生",
+          "importance": "中",
+          "body": [
+            "Intel 前员工创办的 Delos Data 融资 $100M，目标是解决 heterogeneous AI data center 里 chip-to-chip 数据移动效率问题；创始人明确认为未来 agentic AI 数据中心不会再只有 Nvidia GPU，而会混合 AMD、Cerebras、不同 accelerator。",
+            "这对你关注的 MRVL / AVGO / LITE / COHR 是一个结构性正面信号，而不是 Delos 本身有多重要：随着 accelerator 越来越异构，networking / interconnect / optics 的价值占比继续上升。算力本身不是唯一 bottleneck，“让昂贵芯片别等数据”正在变成新的 ROI 优化重点。"
+          ],
+          "whyImportant": "原文分析摘录：这对你关注的 MRVL / AVGO / LITE / COHR 是一个结构性正面信号，而不是 Delos 本身有多重要：随着 accelerator 越来越异构，networking / interconnect / optics 的价值占比继续上升。算力本身不是唯一 bottleneck，“让昂贵芯片别等数据”正在变成新的 ROI 优化重点。",
+          "investmentImpact": "原文分析摘录：这对你关注的 MRVL / AVGO / LITE / COHR 是一个结构性正面信号，而不是 Delos 本身有多重要：随着 accelerator 越来越异构，networking / interconnect / optics 的价值占比继续上升。算力本身不是唯一 bottleneck，“让昂贵芯片别等数据”正在变成新的 ROI 优化重点。",
+          "tags": [
+            "Delos Data",
+            "MRVL",
+            "AVGO",
+            "LITE",
+            "COHR"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜原文引用",
+              "url": "https://www.reuters.com/business/delos-data-chip-startup-founded-by-intel-veterans-raises-100-million-ai-networks-2026-09-15/"
+            },
+            {
+              "title": "查看原 Chat 早报",
+              "url": "https://chatgpt.com/share/6aaa052c-7b40-83e8-be74-f98b0e2828d7"
+            }
+          ],
+          "provenance": "原 Chat 早报迁移",
+          "verificationNote": "按原 Chat 内容迁移；数字、预测和状态为当时原文表述，本次未重新搜集或独立核验。"
+        },
+        {
+          "id": "2026-09-15-am-8",
+          "category": "robot",
+          "title": "Agility Digit 5 给出了比普通 humanoid demo 更有投资价值的 operational 数据。",
+          "status": "已发生（沿用原文）",
+          "importance": "中高",
+          "body": [
+            "Agility 新一代 Digit 5 的几个数字比较值得看：",
+            "- 负重提高到约 50 lb；\n- 单次工作约 90 分钟；\n- 自动充电约 9 分钟；\n- 目标支持 每天 >20 小时运行；\n- 加入 proximity sensing，在靠近人时可以减速、停止甚至 shutdown；\n- 公司已有 >$300M 多年订单。",
+            "Agility 此前还披露，Digit 已在客户环境累计运行 65,000+ 小时，覆盖 9 个 customer facilities。",
+            "这条我会计入真正的 Physical AI signal，因为它同时碰到了我们一直在看的三项：",
+            "uptime / duty cycle + safety + paid deployment。",
+            "它不是 zero-shot 或 tactile intelligence 的突破，但它说明 humanoid 竞争已经开始从“能不能走、能不能搬东西”转向：",
+            "每小时成本、能运行多久、能否在人旁边工作、能否稳定进入真实工厂。",
+            "这会提高 TSLA Optimus、Figure、Unitree 后续披露的门槛——以后只有 demo 已经越来越不够了。"
+          ],
+          "whyImportant": "原文分析摘录：这条我会计入真正的 Physical AI signal，因为它同时碰到了我们一直在看的三项：",
+          "investmentImpact": "原文分析摘录：这会提高 TSLA Optimus、Figure、Unitree 后续披露的门槛——以后只有 demo 已经越来越不够了。",
+          "tags": [
+            "Agility",
+            "Digit 5",
+            "机器人",
+            "TSLA",
+            "Figure",
+            "Unitree"
+          ],
+          "sources": [
+            {
+              "title": "Business Insider｜原文引用",
+              "url": "https://www.businessinsider.com/agility-robotics-reveals-early-look-at-digit-5-humanoid-robot-2026-9"
+            },
+            {
+              "title": "Agility Robotics｜原文引用",
+              "url": "https://www.agilityrobotics.com/content/agility-robotics-to-go-public-through-merger-with-churchill-capital-corp-xi"
+            },
+            {
+              "title": "查看原 Chat 早报",
+              "url": "https://chatgpt.com/share/6aaa052c-7b40-83e8-be74-f98b0e2828d7"
+            }
+          ],
+          "provenance": "原 Chat 早报迁移",
+          "verificationNote": "按原 Chat 内容迁移；数字、预测和状态为当时原文表述，本次未重新搜集或独立核验。"
+        },
+        {
+          "id": "2026-09-15-am-9",
+          "category": "macro",
+          "title": "今天开盘后最关注的 4 个验证点",
+          "status": "观察清单",
+          "importance": "高",
+          "body": [
+            "1. Brent 是否重新站上 $110。如果出现，会重新强化“连续加息”交易。",
+            "2. 10Y 能否守在 5% 上方。这是科技股估值是否继续压缩，比 Fed 单次 +25bp 更关键。",
+            "3. MU 是否继续显著弱于其它 memory 股。如果是，说明市场开始单独计入台湾劳资风险，而不是只交易 AI slowdown。",
+            "4. NVDA / AVGO / AMD / MU 的跌幅是否继续明显大于 META / MSFT / AMZN。 如果持续，就是市场仍在优先砍“AI picks-and-shovels duration”，而不是认为整个 AI 商业需求同时崩掉。"
+          ],
+          "whyImportant": "原文后续观察清单，保留当期判断的验证条件。",
+          "investmentImpact": "这些是需要观察的条件，不代表后续走势已经发生。",
+          "tags": [
+            "Brent",
+            "Fed",
+            "MU",
+            "NVDA",
+            "AVGO",
+            "AMD",
+            "META",
+            "MSFT",
+            "AMZN"
+          ],
+          "sources": [
+            {
+              "title": "查看原 Chat 早报",
+              "url": "https://chatgpt.com/share/6aaa052c-7b40-83e8-be74-f98b0e2828d7"
+            }
+          ],
+          "provenance": "原 Chat 早报迁移"
+        }
+      ],
+      "provenance": "原 Chat 早报迁移",
+      "originalSource": "https://chatgpt.com/share/6aaa052c-7b40-83e8-be74-f98b0e2828d7"
+    },
+    {
       "id": "2026-09-14-pm",
       "date": "2026-09-14",
       "period": "pm",
