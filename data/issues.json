@@ -4,6 +4,269 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-09-17-am",
+      "date": "2026-09-17",
+      "period": "am",
+      "time": "08:03",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-09-17T08:03:39-07:00",
+      "summary": "9 月 17 日早报｜截至湾区时间 08:03。油价回落缓解估值压力，但就业韧性尚未支持快速转向宽松。产业新增聚焦光互连扩产、CoreWeave 融资，以及欧洲自动驾驶合作。与昨晚简报去重；盘中行情不是收盘，合作目标不是已实现收入。",
+      "cards": [
+        {
+          "category": "macro",
+          "title": "油价继续下跌、科技股反弹；不是 Fed 已转鸽",
+          "status": "盘中行情；后续加息概率属于市场定价",
+          "importance": "高",
+          "body": [
+            "9 月 17 日湾区时间 06:24，Brent 报 102.72 美元/桶、跌 2.94%，WTI 报 100.47 美元、跌 1.91%。06:38，美股标普涨 0.94%、纳指涨 1.25%；报道显示 10 年期美债收益率回落。以上均为盘中快照。",
+            "同一市场报道显示，10 月再加息概率约 49%，前一天约 44%。因此，“股市上涨”与“加息预期消失”不是一回事。油市报道仍指沙特受损管道维修时间不明；转运缓解供应压力，不等于战争或供应中断已结束。"
+          ],
+          "whyImportant": "分析：今天的新变化是油价下行与风险资产反弹同时出现，而不是昨晚加息决定发生逆转。价格反应不能单独证明市场只在交易某一个因素。",
+          "investmentImpact": "分析：战争与供应风险 → 能源/运输成本 → 通胀预期 → 美债收益率 → 科技估值。油价持续回落会减轻 NVDA、MU、MRVL 等的折现率压力；若柴油紧张持续或能源再涨，缓和可能逆转。仍需盈利兑现，不能把反弹等同于估值安全。",
+          "tags": [
+            "原油",
+            "美债",
+            "Fed",
+            "NVDA",
+            "MU",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜06:24 PT 原油市场",
+              "url": "https://www.reuters.com/business/energy/oil-prices-extend-losses-fears-middle-east-supply-disruptions-ease-2026-09-17/"
+            },
+            {
+              "title": "Reuters｜美股早盘与加息定价",
+              "url": "https://www.reuters.com/business/wall-st-futures-rise-fed-rate-hike-lifts-long-standing-overhang-2026-09-17/"
+            }
+          ],
+          "id": "2026-09-17-am-1"
+        },
+        {
+          "category": "macro",
+          "title": "初请失业金低于预期，但房地产数据不支持全面过热",
+          "status": "官方数据已发布；假日扰动与政策含义为解读",
+          "importance": "高",
+          "body": [
+            "美国劳工部 9 月 17 日公布：截至 9 月 12 日当周初请失业金 19.6 万，较前周减少 1 万；四周均值 20.325 万。截至 9 月 5 日当周续请为 173 万。Reuters 调查预期初请 20.8 万，并提醒劳动节附近的季调波动可能夸大改善。",
+            "同日公布的 8 月独栋住宅开工环比增加 7.6%，但独栋建筑许可减少 1.8%，总开工减少 2.6%。开工数据为季调年化口径，且抽样误差较大，不能把单月反弹当成确定趋势。"
+          ],
+          "whyImportant": "分析：低裁员给 Fed 继续抗通胀的空间，但不等于招聘、工资与利率敏感需求全面加速。住房许可走弱提供了需求约束的另一面。",
+          "investmentImpact": "分析：未来 1–12 个月更适合采用条件判断：就业稳定且核心通胀黏着，利率高位维持风险较大；若住房、招聘与工资同步降温，后续紧缩空间可能受限。不能凭一周初请决定买卖，也不能由此断言 10 月必加息。",
+          "tags": [
+            "就业",
+            "初请失业金",
+            "房地产",
+            "Fed"
+          ],
+          "sources": [
+            {
+              "title": "美国劳工部｜9 月 17 日周度申领数据",
+              "url": "https://www.dol.gov/ui/data.pdf"
+            },
+            {
+              "title": "美国 Census｜8 月住宅建设",
+              "url": "https://www.census.gov/construction/nrc/pdf/newresconst.pdf"
+            },
+            {
+              "title": "Reuters｜预期差与劳动节扰动",
+              "url": "https://www.reuters.com/business/us-weekly-jobless-claims-unexpectedly-fall-2026-09-17/"
+            }
+          ],
+          "id": "2026-09-17-am-2"
+        },
+        {
+          "category": "macro",
+          "title": "英国暂停主动卖债：政策利率与长债供给不能混为一谈",
+          "status": "英国政策已公布；日本决议仍待公布",
+          "importance": "高",
+          "body": [
+            "英国央行 9 月 17 日公布以 6–3 维持利率 3.75%，三名委员主张加息 25bp。同时调整缩表安排：在公布新执行细节前暂停 APF 国债拍卖，相关细节将在 2027 年 4 月前公布；保留 1,200 亿英镑最长久期债券作为纸币发行支持资产，其余政策持债继续按多年计划退出。",
+            "Reuters 报道英国 30 年国债收益率当日盘中降约 12bp 至 5.74%。美国、日本不自动适用这一政策。BOJ 决议仍待日本时间 9 月 18 日公布；今天加息预期不能写成已发生的日本加息。",
+            "天然气补充：英国央行今天公布的纪要记录，9 月 14 日英国批发天然气为 207 便士/therm。它是有日期的背景值，不是今早气价，也不能代表美国天然气价格。"
+          ],
+          "whyImportant": "分析：央行可以一边警惕通胀、一边减少向市场释放长久期债券；长债供给与期限溢价并不完全由政策利率决定。",
+          "investmentImpact": "分析：英国长债的缓和不能外推为 Fed 将买债压收益率。美国仍需看财政/发债 → 期限溢价 → 长端利率；日本则看 JGB/日元 → 资金回流与套息交易 → 全球流动性。两条都是待验证的传导链，不是已确认资金大规模撤出科技股。",
+          "tags": [
+            "英国央行",
+            "缩表",
+            "期限溢价",
+            "天然气",
+            "BOJ",
+            "JGB"
+          ],
+          "sources": [
+            {
+              "title": "英国央行｜9 月政策与会议纪要",
+              "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026"
+            },
+            {
+              "title": "Reuters｜英国长债反应",
+              "url": "https://www.reuters.com/business/investors-cheer-boe-move-pause-gilt-sales-driving-bond-rally-2026-09-17/"
+            },
+            {
+              "title": "BOJ｜会议日程",
+              "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
+            }
+          ],
+          "id": "2026-09-17-am-3"
+        },
+        {
+          "category": "semi",
+          "title": "GlobalFoundries–Marvell 扩大 SiGe 产能协议：光互连有了更具体的供给承诺",
+          "status": "公司正式公告；新增产能与收入尚待兑现",
+          "importance": "高",
+          "body": [
+            "9 月 17 日，GlobalFoundries 与 Marvell 宣布扩大多年合作，在美国 Vermont 的 Burlington 工厂增加 SiGe 产能，面向可插拔光模块、近封装光学 NPO 和共封装光学 CPO。GF 称现有技术支持每通道 200G 光互连；公告未给出新增产能数量、合同金额或明确爬坡时间。"
+          ],
+          "whyImportant": "分析：这是已有生产合作上的扩产安排，比普通技术演示更接近供应保障；AI 集群瓶颈不只在 GPU，也在数据搬运的带宽、功耗和供货。",
+          "investmentImpact": "分析：对 MRVL 的供应可见度与 GFS 的特色工艺需求偏正面，但不能立即换算利润增量。对 LITE、COHR 等只是行业需求线索，并非其获得订单的证据；也不能据此断言 CPO 已经替代可插拔模块。",
+          "tags": [
+            "MRVL",
+            "GFS",
+            "SiGe",
+            "光互连",
+            "CPO",
+            "LITE",
+            "COHR"
+          ],
+          "sources": [
+            {
+              "title": "GlobalFoundries｜9 月 17 日扩产合作公告",
+              "url": "https://gf.com/news-and-events/news/globalfoundries-and-marvell-expand-collaboration-fornext-generation-optical-connectivity/"
+            }
+          ],
+          "id": "2026-09-17-am-4"
+        },
+        {
+          "category": "ai",
+          "title": "CoreWeave 拟发 30 亿美元可转债：算力需求与融资成本要一起看",
+          "status": "融资计划已公告；尚非全部完成募资",
+          "importance": "高",
+          "body": [
+            "CoreWeave 9 月 17 日宣布拟发行 30 亿美元、2033 年到期的可转债，并给予初始购买方最多追加 5 亿美元的选择权；利率和初始转股条件在定价时确定。部分资金拟用于有上限的反稀释对冲，其余用于一般公司用途。",
+            "Reuters 同日报道，公司另设最多出售 3,500 万股的 ATM 市价增发计划；实际是否发行取决于市场条件。公司披露签约电力容量约 4.2GW，6 月底为 3.7GW。签约容量不等于已通电容量，发行上限也不等于现金已经到账。"
+          ],
+          "whyImportant": "分析：AI 基建的需求增长与大额外部融资需求可以同时成立。融资能支撑扩容，但每股价值还取决于资金价格、稀释、设备利用率与回款。",
+          "investmentImpact": "分析：CRWV 的核心观察点是最终票息/转股溢价、实际增发、投产与现金流。对 NVDA 是客户扩容融资的线索，不是新增 GPU 订单确认；不能把有上限的反稀释对冲理解成完全没有稀释风险。",
+          "tags": [
+            "CRWV",
+            "NVDA",
+            "AI 基建",
+            "融资",
+            "稀释",
+            "电力"
+          ],
+          "sources": [
+            {
+              "title": "CoreWeave｜9 月 17 日可转债公告",
+              "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-Proposed-3-0-Billion-Convertible-Senior-Notes-Offering-c9f5439b9/default.aspx"
+            },
+            {
+              "title": "Reuters｜ATM 与签约电力进展",
+              "url": "https://www.reuters.com/legal/transactional/coreweave-launches-3-billion-convertible-debt-sale-2026-09-17/"
+            }
+          ],
+          "id": "2026-09-17-am-5"
+        },
+        {
+          "category": "ai",
+          "title": "Amazon 加入安全讨论，但未支持全行业放缓 AI",
+          "status": "公司向媒体正式表态；不是新监管命令",
+          "importance": "中",
+          "body": [
+            "Reuters 9 月 17 日报道，Amazon 主张模型在充分测试并具备安全保障后发布，但没有呼吁全行业放慢研发。这次新增的是 Amazon 的立场，不重复昨晚已讲过的 OpenAI 披露框架。"
+          ],
+          "whyImportant": "分析：行业在测试与保护措施上趋同，不代表对研发节奏、停训或资本开支形成一致决定。",
+          "investmentImpact": "分析：对 AMZN/AWS，应分开观察模型上线审核、企业客户采用和算力建设。该表态不足以证明 AWS 扩容下降或 NVDA 订单取消；安全评测、审计与权限管理则可能成为企业采购的更重要条件。",
+          "tags": [
+            "AMZN",
+            "AWS",
+            "AI 安全",
+            "企业 AI"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Amazon 对 AI 安全的回应",
+              "url": "https://www.reuters.com/business/retail-consumer/amazon-enters-ai-safety-fray-calls-rigorous-testing-safeguards-2026-09-17/"
+            }
+          ],
+          "id": "2026-09-17-am-6"
+        },
+        {
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：Lucid–Bolt 的欧洲合作是潜在量产通道，不是已部署车队",
+          "status": "正式合作公告；部署目标与技术选型仍为前瞻",
+          "importance": "中",
+          "body": [
+            "Lucid 9 月 17 日公告与 Bolt 合作，目标在欧洲部署至少 25,000 辆自动驾驶汽车，基于其未来 Midsize 平台，预计使用 NVIDIA Hyperion；Bolt 拟拥有并运营车队。公告把 SAE Level 4 写作开发目标，未披露付费运营规模、合同金额、干预率或 uptime。",
+            "这不是普通演示，而是车厂、计算平台与运营商的合作信号；但尚不能认定为 25,000 辆不可撤销采购订单或已完成的付费部署。",
+            "人形与操作机器人方面，本次检索未核实到过去约半天内新增、足以改变判断的 zero-shot 泛化、跨本体迁移、触觉/力控、数据效率、人工干预率、硬件单位成本或客户付费指标。Figure、Physical Intelligence、Gemini Robotics 的旧进展不再包装成今日新闻。"
+          ],
+          "whyImportant": "分析：自动驾驶落地需要车辆、软件、当地监管与运营体系一起到位；平台选型的投资意义大于演示，但仍弱于可复核的商业运营数据。",
+          "investmentImpact": "分析：对 LCID、NVDA 是潜在渠道和平台采用信号，对 TSLA 是竞争格局观察项；未来 1–12 个月应看审批、定点合同、首批交付和单位运营成本，而非提前计入整支车队收入。不据此上调 ON、ADI、TER 或 Nabtesco、Harmonic Drive、THK、Nidec 等机器人供应链订单。",
+          "verificationNote": "机器人无新增指标是本次检索范围内的结论，不是全行业没有进展的保证；研究入口仅用于持续跟踪。",
+          "tags": [
+            "Physical AI",
+            "LCID",
+            "NVDA",
+            "TSLA",
+            "机器人",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Lucid｜欧洲自动驾驶合作原公告",
+              "url": "https://ir.lucidmotors.com/news-releases/news-release-details/lucid-and-bolt-partner-develop-and-deploy-autonomous-mobility"
+            },
+            {
+              "title": "Figure｜官方进展（跟踪入口）",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜研究（跟踪入口）",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "Google DeepMind｜更新（跟踪入口）",
+              "url": "https://deepmind.google/blog/"
+            }
+          ],
+          "id": "2026-09-17-am-7"
+        },
+        {
+          "category": "macro",
+          "title": "接下来四个验证点：反弹能否转成可持续的盈利与流动性改善",
+          "status": "观察清单；不是新增已发生数据",
+          "importance": "高",
+          "body": [
+            "1）能源与政策：看原油回落能否传到柴油、天然气和后续 CPI/PPI/PCE，而不是用一天油价替代通胀数据；再看就业与工资能否支持 Fed 路径调整。",
+            "2）日本与美元：等待 BOJ 正式决议，联看 JGB、日元和实际跨境资金流。不把日元走强自动等同于日本投资者已大规模卖出美股。",
+            "3）财政与信用：分别看国债拍卖、期限溢价、信用利差及 AI 企业融资条款。本期未核实到足以单列的新美国赤字/发债政策或资金流数字，不以推测填空。",
+            "4）政策与订单兑现：中期选举前继续追踪电费、关税和监管落地；本期不把昨日法案再算新进展。产业看 GF–Marvell 扩产时间、CoreWeave 定价与通电、Lucid–Bolt 合同与许可。"
+          ],
+          "whyImportant": "分析：价格反弹、融资公告、产能协议和真实盈利是不同层次的证据，不能互相替代。",
+          "investmentImpact": "分析：本期核心判断是“估值压力边际缓和，盈利兑现门槛仍高”。未来 1–12 个月，优先区分能把需求转成现金流的公司，与仍需持续融资来支撑增长的公司；这不是个股买卖指令。",
+          "tags": [
+            "观察清单",
+            "PCE",
+            "日元",
+            "财政",
+            "信用利差",
+            "中期选举"
+          ],
+          "sources": [
+            {
+              "title": "BOJ｜会议日程",
+              "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
+            }
+          ],
+          "id": "2026-09-17-am-8"
+        }
+      ]
+    },
+    {
       "id": "2026-09-16-pm",
       "date": "2026-09-16",
       "period": "pm",
