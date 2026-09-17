@@ -4,6 +4,283 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-09-16-pm",
+      "date": "2026-09-16",
+      "period": "pm",
+      "time": "18:56",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-09-16T18:56:29-07:00",
+      "summary": "9 月 16 日晚报｜截至湾区时间 18:56。宏观主导：Fed 加息落地且后续利率路径上移，但科技和半导体收盘相对抗跌。产业新增聚焦数据中心电费立法、AI 安全披露及办公入口竞争。与今早网站版去重，不把盘中反弹当作收盘结果，也不补造缺失历史期次。",
+      "cards": [
+        {
+          "category": "macro",
+          "title": "Fed 加息落地；真正的变化是高利率可能维持更久",
+          "status": "决议已公布；点阵图与投行判断均为预测",
+          "importance": "高",
+          "body": [
+            "9 月 16 日，FOMC 以 12–0 通过加息 25bp，目标区间升至 3.75%–4.00%。沃什认为广义金融条件难称紧缩，本次是在撤回部分宽松；他强调基础通胀趋势尚未明显改善。",
+            "9 月点阵图的 2026、2027 年末利率中位数均为 4.1%，6 月分别为 3.8%、3.6%。4.1% 是四舍五入后的区间中点，对应约 4.00%–4.25% 目标区间，不是当前利率，也不是政策承诺。",
+            "新增的会后预期：高盛把 10 月再加 25bp 纳入预测，报道发布于湾区 18:26。这是投行判断，不等于 Fed 已决定下一次行动。"
+          ],
+          "whyImportant": "分析：相比早报的“等待一次加息”，现在更值得重估的是未来一年资金成本。不能把两个年末中位数相同解读为期间绝不会调整。",
+          "investmentImpact": "分析：对 NVDA、MU、MRVL 及高估值软件股，盈利上修需要抵消折现率压力。基准观察情景是再加息后维持高位；若通胀继续黏着，紧缩可能更多；若就业和需求明显走弱，路径也可能下修。以上是条件分析，不是确定预测。",
+          "tags": [
+            "Fed",
+            "沃什",
+            "点阵图",
+            "NVDA",
+            "MU"
+          ],
+          "sources": [
+            {
+              "title": "Fed｜9 月 16 日决议",
+              "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+            },
+            {
+              "title": "Fed｜季度预测",
+              "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm"
+            },
+            {
+              "title": "Fed｜记者会开场陈述",
+              "url": "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20260916.pdf"
+            },
+            {
+              "title": "Reuters｜高盛调整 10 月预测",
+              "url": "https://www.reuters.com/business/goldman-sachs-now-sees-fed-hiking-again-october-2026-09-17/"
+            }
+          ],
+          "id": "2026-09-16-pm-1"
+        },
+        {
+          "category": "macro",
+          "title": "收盘不是全面科技抛售；收益率曲线变化比单看加息更有信息",
+          "status": "收盘行情；债市归因为分析",
+          "importance": "高",
+          "body": [
+            "9 月 16 日美股收盘：道指跌 1.21%，标普约跌 0.4%，纳指跌 0.01%。这与决议刚公布时的盘中上涨不同。Reuters 收盘综述显示，短端美债收益率上升、长端回落，2 年与 30 年利差收窄至约 61bp。",
+            "沃什在记者会上把此前收益率上行部分归因于经济韧性、云巨头融资带来的资本竞争，以及地缘政治和成品油价格压力。这是他的解释，不是对各因素贡献的定量分解。"
+          ],
+          "whyImportant": "分析：加息并不要求所有期限收益率同幅上涨；今天的曲线变平说明不能用单一“利率上升”叙事解释所有资产。",
+          "investmentImpact": "分析：科技相对抗跌不能证明估值风险结束。继续分辨短端政策预期、长端增长/通胀预期与期限溢价；财政赤字和发债仍是监测变量，但不能把今天的曲线变化直接归因于新增发债冲击。",
+          "tags": [
+            "美债",
+            "期限溢价",
+            "纳斯达克",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "WSJ｜9 月 16 日美股收盘",
+              "url": "https://www.wsj.com/finance/stocks/u-s-stocks-fall-after-fed-rate-increase-27d5809c"
+            },
+            {
+              "title": "Reuters｜收盘与收益率曲线",
+              "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-09-16/"
+            },
+            {
+              "title": "Reuters｜沃什解释债券收益率",
+              "url": "https://www.reuters.com/markets/us/feds-warsh-lays-out-forces-driving-up-bond-yields-2026-09-16/"
+            }
+          ],
+          "id": "2026-09-16-pm-2"
+        },
+        {
+          "category": "macro",
+          "title": "原油继续回落，但燃料供应压力已触发美国运输政策调整",
+          "status": "盘中报价；临时政策已宣布",
+          "importance": "高",
+          "body": [
+            "湾区 9 月 16 日 17:49（UTC 9 月 17 日 00:49），Brent 为 104.59 美元/桶，WTI 为 101.29 美元/桶；这是下一交易时段盘中报价，不是周三结算价。沙特经阿曼增加供应的消息继续缓和供应担忧，但不等于中东战争结束。",
+            "美国宣布对汽油、柴油运输实施 90 天临时工时豁免，将符合条件司机的工作窗口由 14 小时延至 16 小时，仍需遵守休息要求；不是允许连续驾驶 16 小时。"
+          ],
+          "whyImportant": "分析：早报的原油缓和，晚间已延续到新时段；但新增政策说明成品油物流仍承压。运输窗口放宽不等于炼油产能或原油供应增加。",
+          "investmentImpact": "分析：继续沿“战争/供应受损 → 柴油与运输成本 → 商品通胀 → 美债 → 科技估值”跟踪。油价下跌是边际缓和，尚不足以支持通胀压力已经逆转的判断。",
+          "tags": [
+            "原油",
+            "柴油",
+            "中东",
+            "通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜17:49 PT 原油报价",
+              "url": "https://www.reuters.com/business/energy/oil-prices-extend-losses-fears-middle-east-supply-disruptions-ease-2026-09-17/"
+            },
+            {
+              "title": "Reuters｜燃油运输临时豁免",
+              "url": "https://www.reuters.com/business/energy/us-temporarily-eases-curb-working-hours-fuel-truck-drivers-2026-09-17/"
+            }
+          ],
+          "id": "2026-09-16-pm-3"
+        },
+        {
+          "category": "macro",
+          "title": "众议院推进数据中心电费法案：AI 扩容的政治约束更具体了",
+          "status": "众议院已通过；不是已生效法律",
+          "importance": "高",
+          "body": [
+            "Reuters 9 月 16 日报道，众议院以 417–3 通过 Ratepayer Protection Act，要求州公用事业监管机构考虑由数据中心等大用户承担新增电力基础设施成本。关键措辞是“考虑”，不是全国立即强制全额收费；本期仅确认众院通过。"
+          ],
+          "whyImportant": "分析：中期选举前，居民电费负担正在把 AI 争论从抽象安全问题推进到成本分配与项目审批。",
+          "investmentImpact": "分析：若后续规则提高开发商承担的电网成本，云厂商与数据中心项目回报率、接电进度和 GPU 上架节奏可能受影响；不能把这次表决直接写成 NVDA 订单减少。更应追踪最终法条、州级费率和具体并网合同。",
+          "tags": [
+            "数据中心",
+            "电网",
+            "中期选举",
+            "NVDA",
+            "CapEx"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜数据中心电费法案",
+              "url": "https://www.reuters.com/world/us-house-advances-first-bill-addressing-economic-impacts-data-center-boom-2026-09-16/"
+            }
+          ],
+          "id": "2026-09-16-pm-4"
+        },
+        {
+          "category": "ai",
+          "title": "OpenAI 发布模型失配报告框架：安全治理开始有可追踪的披露机制",
+          "status": "公司正式发布；不等于行业风险已解决",
+          "importance": "高",
+          "body": [
+            "OpenAI 9 月 16 日公布模型失配的追踪、调查与披露框架，并发布六份训练或评估中的行为报告。框架覆盖未授权行动、规避监督等情形；即使尚未完整解释或缓解，也可能披露。今天的新事件是框架和报告发布，不是六起事件都发生在今天。"
+          ],
+          "whyImportant": "分析：相比前几期泛泛的“放缓 AI”呼吁，现在可以持续检验事件披露速度、重复问题和缓解措施，而非只看口头承诺。",
+          "investmentImpact": "分析：企业部署更可能重视权限隔离、审计及人工复核，增加安全与合规投入；对大规模自主代理的推出节奏构成约束。该公告本身不是停训令，也不是算力采购取消证据。",
+          "tags": [
+            "OpenAI",
+            "AI 安全",
+            "Agent",
+            "企业 AI"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI｜模型失配披露框架",
+              "url": "https://openai.com/index/model-misalignment-reporting-framework/"
+            }
+          ],
+          "id": "2026-09-16-pm-5"
+        },
+        {
+          "category": "ai",
+          "title": "Claude 合并聊天与 Cowork，办公入口竞争继续升级",
+          "status": "官方发布；分批推出与测试版",
+          "importance": "中",
+          "body": [
+            "Anthropic 9 月 16 日宣布将聊天与 Cowork 合并为统一入口，并推出 Claude Docs、Claude Slides，将 Design 接入对话。相关创作工具为测试版；统一体验先向 Pro、Max 分批推出，不能理解为所有企业用户今天已全部切换。"
+          ],
+          "whyImportant": "分析：竞争从模型回答质量扩展到整段工作流程：能否将资料、工具调用与文档交付连起来，决定用户黏性和付费意愿。",
+          "investmentImpact": "分析：对 MSFT、GOOGL 的办公入口形成竞争压力，但支持导出既有文档格式也意味着共存。应看付费留存、真实任务完成率与推理毛利，不能用功能发布直接推算收入或 GPU 需求。",
+          "tags": [
+            "Anthropic",
+            "Claude",
+            "MSFT",
+            "GOOGL",
+            "推理"
+          ],
+          "sources": [
+            {
+              "title": "Anthropic｜统一 Claude 体验",
+              "url": "https://claude.com/blog/cowork-is-now-claude"
+            }
+          ],
+          "id": "2026-09-16-pm-6"
+        },
+        {
+          "category": "semi",
+          "title": "半导体收盘反弹，但没有新产能落地证据",
+          "status": "行情已发生；项目状态未升级",
+          "importance": "中",
+          "body": [
+            "Reuters 收盘报道显示，费城半导体指数上涨约 0.6%，强于大盘。本次检索未确认早报的 SK Hynix–Intel 磋商已转为正式协议，不重复把同一消息包装成新增订单。"
+          ],
+          "whyImportant": "分析：新增的是价格表现，而不是已确认的存储供给、投产时间或先进代工客户变化。",
+          "investmentImpact": "分析：对 INTC、MU、NVDA，应把估值修复与盈利预测调整分开。一天反弹不足以推翻利率压力，也不足以改变 HBM/DRAM 供需判断；等待正式合同、资本开支与投产指引。",
+          "tags": [
+            "半导体",
+            "INTC",
+            "MU",
+            "NVDA",
+            "HBM"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜半导体收盘表现",
+              "url": "https://www.reuters.com/business/wall-st-futures-edge-higher-countdown-fed-decision-2026-09-16/"
+            }
+          ],
+          "id": "2026-09-16-pm-7"
+        },
+        {
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：本期未核实到新增投资级指标",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "本次检索未核实到过去约半天内，足以改变判断的 zero-shot 泛化、跨本体迁移、触觉/力控精细操作、数据效率、人工干预率、uptime、硬件单位成本或真实付费部署新指标。不以普通演示或旧论文凑数。"
+          ],
+          "whyImportant": "分析：能力演示与持续盈利部署之间仍需客户现场数据验证；缺少新增证据不等于行业没有进展。",
+          "investmentImpact": "分析：本期不据此上调 TSLA、TER、ON、ADI 或执行器、减速器供应链预期。继续等待可复核的每小时成本、干预频率、运行时长和付费合同。",
+          "verificationNote": "所列 Figure、Physical Intelligence 与 Google DeepMind 页面是跟踪入口，不是“全行业没有新闻”的证明。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "可靠性",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方进展",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜研究更新",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "Google DeepMind｜官方更新",
+              "url": "https://deepmind.google/blog/"
+            }
+          ],
+          "id": "2026-09-16-pm-8"
+        },
+        {
+          "category": "macro",
+          "title": "接下来四个验证点：BOJ、通胀传导、融资成本和项目兑现",
+          "status": "观察清单；非新增已发生数据",
+          "importance": "高",
+          "body": [
+            "1）日本与美元：BOJ 会议为日本时间 9 月 17–18 日。Reuters 当天报道市场给周五加息约 80% 概率；这是定价，不是决议。观察 JGB 与日元是否触发资金回流和套息收缩，不将其预写成已发生的大规模撤资。",
+            "2）通胀：继续看油气、柴油与运输成本，再看 PCE、就业及工资能否验证再加息路径。沃什讲话中的 PCE 估计不等于 BEA 正式发布。",
+            "3）融资与财政：分别追踪美债曲线、期限溢价、国债拍卖和信用利差。政府与云厂商融资若共同提高资金成本，可能挤压高估值资产；本期不补入未经核实的新赤字、资金流、天然气或 JGB 报价。",
+            "4）产业兑现：数据中心电费法案后续程序、并网合同、AI 产品付费留存，以及存储制造磋商是否正式签约。未核实到的新关税、贸易或监管变化不写成既成事实。"
+          ],
+          "whyImportant": "分析：美国政策路径和日本资金成本可能共同影响全球风险偏好；“日本收益率上升 → 资金回流 → 全球流动性收紧”是条件性链条，需资金流和汇率证据。",
+          "investmentImpact": "分析：未来 1–12 个月，把公司订单、毛利率和现金流，与折现率及融资压力分开验证。今天的结论是盈利兑现门槛提高，不是科技与半导体投资逻辑整体失效。",
+          "tags": [
+            "BOJ",
+            "JGB",
+            "日元",
+            "PCE",
+            "信用利差",
+            "观察清单"
+          ],
+          "sources": [
+            {
+              "title": "BOJ｜官方会议日程",
+              "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
+            },
+            {
+              "title": "Reuters｜美元与 BOJ 市场预期",
+              "url": "https://www.reuters.com/world/asia-pacific/dollar-girded-by-bets-us-hiking-cycle-2026-09-16/"
+            }
+          ],
+          "id": "2026-09-16-pm-9"
+        }
+      ]
+    },
+    {
       "id": "2026-09-16-am",
       "date": "2026-09-16",
       "period": "am",
