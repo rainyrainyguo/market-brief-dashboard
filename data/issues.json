@@ -4,6 +4,264 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-09-18-am",
+      "date": "2026-09-18",
+      "period": "am",
+      "time": "08:01",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-09-18T08:01:41-07:00",
+      "summary": "9 月 18 日早报｜截至湾区时间 08:01。BOJ 加息 25bp 至 1.25%，但日元走弱，表明市场更在意后续节奏而非本次已充分定价的动作；油价回落仍伴随沙特管道与霍尔木兹航运风险。产业新增聚焦 Solidigm 美国 NAND 方案、Anthropic 湿实验室自动化，以及 Spirit AI 的产线部署和数据采集指标。与昨晚简报去重；公司目标、在讨论项目和自报测试均不视为已兑现收入。",
+      "cards": [
+        {
+          "id": "2026-09-18-am-1",
+          "category": "macro",
+          "title": "BOJ 加息至 1.25%，但日元走弱：市场不相信会快速连续收紧",
+          "status": "决议与记者会已发生；未来路径仍未承诺",
+          "importance": "高",
+          "body": [
+            "9 月 18 日，BOJ 以 7–2 票把政策利率从 1.00% 上调至 1.25%，为 31 年最高。植田和男表示政策阶段已转向预防通胀超过 2%，不排除连续加息或单次 50bp，但同时没有给出下一次行动的时间表。",
+            "两名偏鸽委员反对本次加息。美元兑日元在记者会后升逾 1.2% 至约 158.07，日元跌至两周低点；美元指数约升 0.25% 至 100.48。市场反应说明本次 25bp 已高度定价，分歧票与缺乏明确近端指引削弱了日元多头。",
+            "BOJ 认为加息后金融条件仍宽松，1.25% 已进入其估计的 1.1%–2.5% 名义中性利率区间。Reuters 调查的分析师预期到 2027 年 3 月升至 1.5%、第二季度升至 1.75%，但这是预测，不是 BOJ 承诺。"
+          ],
+          "whyImportant": "分析：日本利率上升并不必然立即带来日元升值或全球流动性收缩。真正的传导要经过 JGB 收益率与对冲成本上升 → 日本资金配置变化/套息交易收缩 → 全球债券与高估值资产折现率变化。本次日元反跌说明市场暂未看到足够快的近端收紧。",
+          "investmentImpact": "分析：中期看，继续加息会逐步提高日本政府债务再融资成本，并提升 JGB 相对吸引力；但平均期限使财政利息压力不会一天内完全传导。对 NVDA、TSLA 等长久期成长股，风险来自实际美债/JGB联动和跨境资金流，而不是本次加息标题本身。日元进一步走弱还可能通过进口能源价格重新增加日本通胀与干预风险。",
+          "tags": [
+            "BOJ",
+            "JGB",
+            "日元",
+            "套息交易",
+            "全球流动性",
+            "日本债务",
+            "NVDA",
+            "TSLA"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜BOJ 加息、植田记者会与后续路径",
+              "url": "https://www.reuters.com/world/asia-pacific/boj-raises-interest-rates-31-year-high-widely-expected-move-2026-09-18/"
+            },
+            {
+              "title": "Reuters｜日元、美元与市场定价反应",
+              "url": "https://www.reuters.com/world/asia-pacific/yen-weak-ahead-boj-decision-rate-hike-expected-2026-09-18/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-18-am-2",
+          "category": "macro",
+          "title": "油价从低位回升：供应缓冲预期仍未解决实物流风险",
+          "status": "盘中行情与航运数据已报道；修复时间仍不确定",
+          "importance": "高",
+          "body": [
+            "截至 14:11 GMT，Brent 跌 0.31% 至 104.49 美元/桶，WTI 反升 0.86% 至 102.79 美元；两者分别从 101.92 美元和 99.39 美元的日内低点明显回升。市场一边交易沙特可能在数日内恢复东—西管道约一半容量，一边重新计入战线扩大与运输风险。",
+            "沙特东—西管道三座泵站受损，完整维修时间不明。Reuters 转述 Bloomberg 报道，Saudi Aramco 已告知至少两家欧洲炼厂下月无法获得沙特原油。周四仅四艘商品船通过霍尔木兹海峡，低于十日均值约 16 艘；船舶关闭应答器会使统计存在误差。",
+            "中国 8 月成品油出口同比增加 12.7%，对全球产品供应提供部分缓冲；但美国与伊朗在 6 月临时协议破裂后仍未恢复和谈。"
+          ],
+          "whyImportant": "分析：油价下跌不等于物流恢复。当前传导链仍是战争与航运风险 → 原油/柴油/LNG 实物短缺 → 通胀与利润率压力 → Fed 路径和美债收益率 → 科技估值。只有管道、港口和海峡通行持续恢复，地缘溢价才可能真正回落。",
+          "investmentImpact": "分析：对高估值科技，Brent 较周内高点回落是边际利好，但 WTI 从 100 美元下方反弹提醒风险并未解除。对数据中心与半导体，应继续关注柴油、电力和运输成本，而非只看原油单一价格。本期未核实到新的可比美国天然气价格，不用其他地区旧报价填补。",
+          "tags": [
+            "中东",
+            "伊朗",
+            "沙特",
+            "霍尔木兹",
+            "Brent",
+            "WTI",
+            "通胀",
+            "Fed"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜9 月 18 日原油、沙特管道与霍尔木兹航运",
+              "url": "https://www.reuters.com/business/energy/oil-prices-fall-1-hopes-limited-supply-disruptions-2026-09-18/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-18-am-3",
+          "category": "macro",
+          "title": "资金流数据看似矛盾：股票仍有买盘，但基金赎回与信用撤资同时存在",
+          "status": "两组周度数据已发布；统计口径不同",
+          "importance": "高",
+          "body": [
+            "LSEG Lipper 数据显示，截至 9 月 18 日当周，美国股票基金净赎回 314.4 亿美元，连续第四周流出；大型股基金流出 287.1 亿美元。与此同时，科技行业基金净流入 7.75 亿美元，短中期政府债和美国国债基金流入 34.9 亿美元。",
+            "另一组 BofA 引用的 EPFR 数据显示，截至周三的一周，全球股票流入 793 亿美元，其中美国股票流入 638 亿美元；投资级债券流出 10 亿美元，高收益债流出 25 亿美元。两组数据覆盖的基金样本、截止时间和分类不同，不能把差异直接视为其中一组错误。",
+            "BofA 同时指出高收益信用利差仍接近纪录低位，因此债券资金撤出尚未等同于信用危机，但若利差突然重定价，会成为增长预期恶化的重要信号。"
+          ],
+          "whyImportant": "分析：当前不是简单的“全面 risk-on”或“全面 risk-off”。资金可能一边减少传统大型股基金和信用债敞口，一边通过其他股票载体或行业基金增加科技仓位。价格上涨与总量赎回可以并存。",
+          "investmentImpact": "分析：对高估值科技，科技行业流入支持短线相对强势，但信用资金撤出与利差极窄意味着缓冲有限。若高收益利差开始快速扩大，应把它视为比单日纳指涨跌更重要的风险偏好信号；在此之前，不能仅凭一套资金流数据断言机构全面看多或看空。",
+          "tags": [
+            "资金流",
+            "信用利差",
+            "科技基金",
+            "高收益债",
+            "美债",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜LSEG Lipper 美国基金流向",
+              "url": "https://www.reuters.com/business/us-equity-funds-post-fourth-weekly-outflow-inflation-worries-rate-concerns-2026-09-18/"
+            },
+            {
+              "title": "Reuters｜BofA/EPFR 股票与信用资金流",
+              "url": "https://www.reuters.com/world/china/investors-buy-us-stocks-fastest-pace-three-months-bofa-says-2026-09-18/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-18-am-4",
+          "category": "macro",
+          "title": "美国制造业产出意外下降，但 AI 建设仍提供局部支撑",
+          "status": "官方数据已公布；行业支撑为报道解读",
+          "importance": "中",
+          "body": [
+            "美联储 9 月 18 日公布，美国 8 月制造业产出环比下降 0.3%，结束连续七个月增长；7 月为增长 0.2%。Reuters 调查预期为增长 0.3%，实际明显低于预期；同比仍增长 0.9%。",
+            "报道指出 AI 基础设施建设继续支撑部分制造活动，但单一总量数据没有给出 AI 相关设备的独立产出或订单增速。"
+          ],
+          "whyImportant": "分析：这组数据说明经济并非全面过热，与低初请失业金、偏强零售数据形成更复杂的组合。Fed 面对的是能源和价格压力上升、但部分实体活动降温，而不是单向度的强增长。",
+          "investmentImpact": "分析：对科技估值，制造业降温可能限制利率上行空间；对半导体盈利，却不能把“AI 建设仍支撑”直接外推为所有芯片需求都强。应继续区分数据中心资本开支、消费电子、汽车与工业半导体周期。",
+          "tags": [
+            "美国制造业",
+            "工业产出",
+            "Fed",
+            "AI 基建",
+            "经济增长"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美国 8 月制造业产出",
+              "url": "https://www.reuters.com/business/us-manufacturing-output-falls-august-after-rising-seven-straight-months-2026-09-18/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-18-am-5",
+          "category": "semi",
+          "title": "Solidigm 考虑在美国建 NAND 厂：与 Intel 俄亥俄谈判是两条不同路线",
+          "status": "消息人士报道；公司确认评估但无具体决定",
+          "importance": "高",
+          "body": [
+            "Reuters 引述三名消息人士称，SK Hynix 旗下 Solidigm 正考虑在美国建设 NAND 闪存工厂，纽约州北部是主要候选地。公司仅确认正在评估增强竞争力的多种方案，尚未确定项目、投资金额、产能或投产时间。",
+            "该方案与 SK Hynix 同 Intel 商谈在俄亥俄生产存储芯片的项目相互独立。美国工厂可降低 Solidigm 对中国大连唯一 NAND 工厂的依赖，并缓冲关税和设备出口限制；但美国制造成本更高，新产能落地通常需要多年。",
+            "报道还称美国政府对韩国和台湾芯片企业施压，若不扩大美国生产，可能面临最高 100% 关税；这属于政策威胁，不是已经生效的统一税率。"
+          ],
+          "whyImportant": "分析：这条消息把存储本土化从此前模糊的 Intel 合作，扩展为独立绿地工厂选项。它更像供应链与贸易政策保险，而不是短期增加 NAND 供给。",
+          "investmentImpact": "分析：对 SK Hynix/Solidigm 是降低中国单厂依赖的长期选项，对 INTC 是潜在合作并非唯一方案；若 Solidigm 选择独立建厂，Intel 资产利用率改善的确定性反而下降。对 MU、WDC/SanDisk 和 STX，未来竞争影响取决于补贴、实际产能和投产周期，现阶段不应因一项评估就下调近期 NAND 价格或盈利判断。",
+          "tags": [
+            "Solidigm",
+            "SK Hynix",
+            "NAND",
+            "INTC",
+            "MU",
+            "WDC",
+            "STX",
+            "关税"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Solidigm 美国 NAND 工厂评估",
+              "url": "https://www.reuters.com/world/asia-pacific/sk-hynixs-solidigm-unit-is-weighing-nand-memory-chip-factory-us-sources-say-2026-09-18/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-18-am-6",
+          "category": "ai",
+          "title": "Anthropic 建立湿实验室：AI 从科研软件延伸到机器人执行",
+          "status": "实验室已获公司确认；自动化规模与效果尚未披露",
+          "importance": "中高",
+          "body": [
+            "Anthropic 生命科学负责人确认，公司已在旧金山湾区建立湿实验室，部分实验在内部完成，部分交给外部伙伴。发言人强调该实验室并非专门用于药物发现，公司目前也不开展临床试验。",
+            "Reuters 引述消息人士称，公司希望 Claude 指挥机器人设备，以有限人工干预执行科学实验；Anthropic 表示仍需要人工监督。公司未披露机器人数量、实验成功率、人工干预率、吞吐量、成本或候选药物进展。",
+            "公司此前推出 Claude Science 和 Model Hardware Standard，并向 Genentech、Bristol Myers Squibb、Novo Nordisk 等提供相关工具或服务；客户关系不等于本次实验室已有新增收入。"
+          ],
+          "whyImportant": "分析：这是一条 AI agent 向真实物理工作流延伸的证据，潜在价值在于缩短“模型提出实验—机器人执行—结果反馈”的闭环。但药物研发最终仍需实验验证和临床流程，不能把实验室成立等同于药物管线成功。",
+          "investmentImpact": "分析：对 Anthropic、实验室自动化和云算力链是需求线索，也可能增加生命科学行业对数据隔离和竞争边界的担忧。对 NVDA、自动化设备或制药公司尚无可量化订单影响；未来应看实验周期缩短幅度、干预率、可复现性和付费客户规模。",
+          "tags": [
+            "Anthropic",
+            "Claude",
+            "实验室自动化",
+            "AI agent",
+            "生物科技",
+            "NVDA"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Anthropic 湿实验室与生命科学计划",
+              "url": "https://www.reuters.com/world/anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-2026-09-18/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-18-am-7",
+          "category": "robot",
+          "title": "Physical AI：Spirit AI 披露产线部署与数据采集，但泛化指标仍不足",
+          "status": "公司自报指标与部署；付费条款和可靠性未披露",
+          "importance": "中高",
+          "body": [
+            "Spirit AI 称，其机器人在结构化客厅中的简单任务成功率达到 90%；目前有数十台 Moz1 轮式人形机器人部署在 CATL 和京东产线。公司没有披露任务定义、连续运行 uptime、人工干预率、故障间隔、付费金额或部署是否仍属于试点。",
+            "公司约有 1,000 名数据采集承包者，在家庭和工厂记录人类动作；其路线偏重真实世界数据，并称多样化的“脏数据”比只收集高精度重复动作更有利于模型改进。精细任务如拧瓶盖和未见任务仍是难点。",
+            "Spirit AI 还称机器人具有全身力控，交互力过大时自动急停；但没有给出力控精度、误触发率或安全事故统计。公司预计家用人形机器人至少还需约八年，这属于管理层判断，不是确定时间表。"
+          ],
+          "whyImportant": "分析：这条进展同时涉及 robot-data efficiency、真实产线部署和 force-control 安全机制，比普通舞蹈或搬运演示更有投资价值；但 90% 仅适用于结构化简单任务，不能与昨晚 Figure 在陌生家庭的 zero-shot 指标直接比较。",
+          "investmentImpact": "分析：对中国具身智能数据采集和软件路线是正面验证，对 CATL、京东是自动化观察项；但没有合同金额与可靠性数据前，不外推为 ON、ADI、TER、Nabtesco、Harmonic Drive、THK 或 Nidec 的确定订单。下一步应要求分任务成功率、干预率、uptime、单位小时成本和从试点转为付费规模部署的证据。",
+          "tags": [
+            "Physical AI",
+            "Spirit AI",
+            "CATL",
+            "京东",
+            "机器人数据",
+            "力控",
+            "真实部署"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Spirit AI 数据、成功率与产线部署",
+              "url": "https://www.reuters.com/world/asia-pacific/founder-chinese-startup-spirit-ai-says-robot-brains-set-2027-breakthrough-2026-09-18/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-18-am-8",
+          "category": "macro",
+          "title": "接下来四个验证点：政策落地后，重点转向传导是否真的发生",
+          "status": "观察清单；不是新增已发生数据",
+          "importance": "高",
+          "body": [
+            "1）日本：跟踪加息后 JGB 曲线、日元和实际跨境资金流。日元走弱若持续，可能重新抬升进口通胀和干预风险；不能把 BOJ 加息自动等同于全球套息交易已解除。",
+            "2）能源与美国利率：观察沙特管道恢复、霍尔木兹船流、柴油和 LNG，而不是只看 Brent；联看 10 月 Fed 加息定价、长端美债与期限溢价。财政赤字和发债压力本期没有足以单列的新政策变化。",
+            "3）信用与资金流：比较后续 Lipper 与 EPFR 的同口径趋势，并盯住高收益利差是否从极窄水平快速扩大；单周不同样本数据不能替代持续趋势。",
+            "4）产业兑现：Solidigm 要看选址、补贴、正式投资与产能；Anthropic 要看实验自动化效率与付费采用；Spirit AI 要看干预率、uptime、单位经济性和正式合同。昨晚 Figure 的 30 家庭测试没有新增数据，本期不重复。"
+          ],
+          "whyImportant": "分析：本期最重要的变化，是 BOJ 从预期变成行动、机器人和实验室自动化从演示走向有限真实场景；但市场与产业的二阶传导仍未完成。",
+          "investmentImpact": "分析：未来 1–12 个月，宏观上优先看实际收益率、信用和资金流，产业上优先看正式资本开支、可靠性与现金流。对高估值科技和机器人供应链，都应把“项目讨论、公司自报测试、真实付费收入”分成不同证据等级；这不是个股买卖指令。",
+          "tags": [
+            "观察清单",
+            "BOJ",
+            "Fed",
+            "期限溢价",
+            "信用利差",
+            "半导体",
+            "机器人部署"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜BOJ 加息与政策路径",
+              "url": "https://www.reuters.com/world/asia-pacific/boj-raises-interest-rates-31-year-high-widely-expected-move-2026-09-18/"
+            },
+            {
+              "title": "Reuters｜沙特管道与霍尔木兹航运",
+              "url": "https://www.reuters.com/business/energy/oil-prices-fall-1-hopes-limited-supply-disruptions-2026-09-18/"
+            },
+            {
+              "title": "Reuters｜美国股票与信用资金流",
+              "url": "https://www.reuters.com/world/china/investors-buy-us-stocks-fastest-pace-three-months-bofa-says-2026-09-18/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-09-17-pm",
       "date": "2026-09-17",
       "period": "pm",
