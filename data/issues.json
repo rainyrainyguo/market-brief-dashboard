@@ -4,6 +4,267 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-09-17-pm",
+      "date": "2026-09-17",
+      "period": "pm",
+      "time": "19:04",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-09-17T19:04:05-07:00",
+      "summary": "9 月 17 日晚报｜截至湾区时间 19:04。美股在油价与收益率回落下反弹，但 10 月再加息概率反而升至 53.1%，不能把上涨解读为 Fed 转鸽；中东实物供给风险仍在扩大。产业新增中，Anthropic 披露 AI 参与下一代模型研发的量化指标，Nebius 提价与 Crusoe 融资同时显示算力需求强、资本强度也高；Figure 的 30 个陌生家庭测试则给出较少见的机器人零样本泛化量化证据。",
+      "cards": [
+        {
+          "id": "2026-09-17-pm-1",
+          "category": "macro",
+          "title": "美股收盘反弹，但 10 月再加息概率同时升至 53.1%",
+          "status": "收盘行情已发生；加息概率为市场定价",
+          "importance": "高",
+          "body": [
+            "9 月 17 日收盘，道指涨 0.62% 至 51,779.85，标普 500 涨 1.14% 至 7,637.74，纳指涨 1.69% 至 26,418.30；科技板块涨约 2.2%，费城半导体指数涨逾 3%。油价和美债收益率回落帮助高久期资产反弹。",
+            "同一时间，期货市场给 10 月再加息 25bp 的概率为 53.1%，一周前为 27.2%；10 年期美债收益率在亚洲早盘约 4.936%，本周稍早曾突破 5%。因此，股市上涨与政策路径转鸽并未同时发生。"
+          ],
+          "whyImportant": "分析：这次收盘更像“风险溢价与折现率从极端位置回落”，而不是市场已排除进一步紧缩。短端政策路径和长端期限溢价仍可能分别抬高融资成本；财政赤字与发债压力没有因为一天债券反弹而消失。",
+          "investmentImpact": "分析：对 NVDA、MU、MRVL、LITE、COHR 等高估值或高周期科技股，短线估值压力边际缓和；但若后续 CPI/PPI/PCE、工资或油价令加息路径再上移，反弹仍可能被折现率逆转。收盘涨幅不能替代订单、毛利率和自由现金流验证。",
+          "tags": [
+            "Fed",
+            "美债",
+            "期限溢价",
+            "纳指",
+            "SOX",
+            "NVDA",
+            "MU",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜9 月 17 日美股收盘与加息定价",
+              "url": "https://www.reuters.com/business/wall-st-futures-rise-fed-rate-hike-lifts-long-standing-overhang-2026-09-17/"
+            },
+            {
+              "title": "Reuters｜全球市场与 10 年期美债",
+              "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-09-18/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-17-pm-2",
+          "category": "macro",
+          "title": "油价下跌，但中东实物供给风险反而新增",
+          "status": "行情与袭击已报道；管道损失上限为交易员估计",
+          "importance": "高",
+          "body": [
+            "9 月 17 日两大原油期货均收跌约 1%；进入亚洲时段后，Brent 报 103.77 美元/桶、WTI 报 100.88 美元，继续跌约 1%。替代运输与部分恢复供给的希望压低价格，但油价仍在 100 美元上方。",
+            "新增风险是沙特与也门胡塞武装发生新一轮跨境袭击，中东战线扩大；沙特东—西输油管已有三座泵站受损，比先前评估多一座。报道引述交易员称，若长期关闭，可能影响最多约 4% 的全球供应；这是情景估计，不是已发生的供应损失。"
+          ],
+          "whyImportant": "分析：价格下跌与物理风险上升可以同时发生。市场当前押注替代线路缓冲，但一旦维修、保险或航运恶化，传导链仍是战争升级 → 原油/柴油与运输成本 → 通胀 → 美债收益率 → 科技估值。",
+          "investmentImpact": "分析：油价回落对风险偏好有利，但尚不足以宣告能源冲击结束。尤其需看柴油等成品油是否同步回落；本期未核实到可比的新美国天然气现货数据，不用旧的英国气价替代。对半导体和 AI 基建，应把能源成本、长端利率与企业盈利分别跟踪。",
+          "tags": [
+            "中东",
+            "伊朗",
+            "胡塞武装",
+            "Brent",
+            "WTI",
+            "通胀",
+            "柴油"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜9 月 18 日亚洲早盘原油与中东供给风险",
+              "url": "https://www.reuters.com/business/energy/oil-prices-fall-1-hopes-limited-supply-disruptions-2026-09-18/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-17-pm-3",
+          "category": "macro",
+          "title": "BOJ 决议尚未公布；83% 加息定价把焦点推向后续指引",
+          "status": "决议待公布；83% 为掉期市场定价",
+          "importance": "高",
+          "body": [
+            "截至本期截稿，BOJ 决议尚未公布；Reuters 所列公布窗口为 03:00–05:00 GMT，植田和男记者会为 06:30 GMT。日元报 156.19 兑 1 美元、跌约 0.1%，掉期市场给本次加息的概率约 83%。",
+            "高预期意味着即使加息落地，真正的边际信息也可能来自后续正常化速度和紧迫度。市场还在定价此后按季度加息，但这只是预期，不能写成 BOJ 已承诺。"
+          ],
+          "whyImportant": "分析：日本利率上行 → JGB 相对吸引力提高 → 日本资金回流或日元融资套息收缩 → 全球风险资产流动性趋紧，是条件性传导链。当前没有证据证明已发生大规模撤离美股。",
+          "investmentImpact": "分析：若 BOJ 指引比定价更鹰，日元与全球长端利率可能共同收紧高估值科技的金融条件；若仅兑现加息而指引温和，市场反应可能有限。对 NVDA、TSLA 和长久期成长股，关键是实际资金流与收益率，而不是单凭“日本加息”四个字交易。",
+          "tags": [
+            "BOJ",
+            "JGB",
+            "日元",
+            "套息交易",
+            "全球流动性",
+            "NVDA",
+            "TSLA"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜BOJ 决议前的日元与市场定价",
+              "url": "https://www.reuters.com/world/asia-pacific/yen-weak-ahead-boj-decision-rate-hike-expected-2026-09-18/"
+            },
+            {
+              "title": "BOJ｜货币政策会议日程",
+              "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-17-pm-4",
+          "category": "semi",
+          "title": "SOX 涨逾 3%：新增证据是估值反弹，不是半导体订单上修",
+          "status": "指数收盘已发生；本期无新增行业订单确认",
+          "importance": "中",
+          "body": [
+            "费城半导体指数 9 月 17 日收涨逾 3%，与科技股、油价和收益率的方向一致。早报已报道的 GlobalFoundries–Marvell SiGe 扩产没有新的产能数字、合同金额或爬坡时间，本期不重复包装。",
+            "本次检索未确认截稿后新增、足以单独改变 HBM/DRAM、GPU、光互连或晶圆代工盈利预测的公司订单或业绩指引。"
+          ],
+          "whyImportant": "分析：指数价格反应可以领先基本面，但不能自动证明供需或盈利预期已经上调。把折现率驱动的反弹与 EPS 修正分开，能减少追涨时把宏观缓和误当成订单兑现的风险。",
+          "investmentImpact": "分析：NVDA、MU、MRVL、LITE、COHR 的下一步验证仍是出货、ASP、毛利率和客户资本开支；若长端利率继续回落，估值弹性可能延续，但没有新增基本面证据时，不据此上调 1–12 个月盈利假设。",
+          "tags": [
+            "SOX",
+            "NVDA",
+            "MU",
+            "MRVL",
+            "LITE",
+            "COHR",
+            "估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜9 月 17 日科技与半导体指数收盘",
+              "url": "https://www.reuters.com/business/wall-st-futures-rise-fed-rate-hike-lifts-long-standing-overhang-2026-09-17/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-17-pm-5",
+          "category": "ai",
+          "title": "Anthropic 首次量化 Claude 参与下一代模型研发的程度",
+          "status": "公司自行披露；计划引入第三方核验",
+          "importance": "高",
+          "body": [
+            "Anthropic 披露，截至 2026 年 8 月，Claude 在其内部 AI 研发任务中“主导”26%，超过 90% 的工作达到“AI 协作”或更高等级；但没有任何被测工作达到完全自主。其定义中，“主导”是从高层提示完成大部分端到端任务，同时仍由人监督。",
+            "公司称最常用的内部平台同时约有 30,000 个研发代理；8 月超过 10 亿次决策中，在线监控器阻止了 0.002%，约每 47,000 次一次。这个数字是被拦截率，不是代理错误率或安全事故率。"
+          ],
+          "whyImportant": "分析：这是前沿实验室把“AI 加速 AI 研发”从定性叙述推进到量化披露的尝试，可能同时提高研发生产率和治理紧迫性。但指标由公司设计并自评，尚不能与其他实验室直接横向比较。",
+          "investmentImpact": "分析：若这类自动化率持续上升，模型迭代、推理调用和算力需求可能加快，对 NVDA 及云基础设施偏正面；同时也可能推动更严格的监控、披露或训练节奏监管。投资上应等待第三方核验和跨期可比数据，不能把 26% 解读为 Claude 已自主研发下一代模型。",
+          "tags": [
+            "Anthropic",
+            "Claude",
+            "AI 代理",
+            "AI 研发",
+            "治理",
+            "NVDA"
+          ],
+          "sources": [
+            {
+              "title": "Anthropic｜AI 研发自动化与监督指标",
+              "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development"
+            },
+            {
+              "title": "Reuters｜Anthropic 内部研发指标报道",
+              "url": "https://www.reuters.com/business/anthropic-says-claude-now-leads-quarter-work-building-its-next-ai-models-2026-09-17/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-17-pm-6",
+          "category": "ai",
+          "title": "Nebius 再次提价、Crusoe 完成大额融资：需求强与资本强度并存",
+          "status": "提价与融资已宣布；合同额不等于已确认收入",
+          "importance": "高",
+          "body": [
+            "Nebius 将从 10 月 1 日起把部分 NVIDIA GPU 按需租赁价上调 17%–21%，部分 CPU-only 实例上调 25%，部分内存产品约上调 41%；这是三个月内第二次提价。长期预订大集群仍可获得承诺折扣，因此挂牌价不等于实际成交价。",
+            "Crusoe 完成 39 亿美元 Series F，投后估值 309 亿美元，NVIDIA 等参与。公司称合同总价值超过 1,400 亿美元、签约容量超过 6GW，但目前只有 1GW 已运营；合同价值的确认条件、期限和利润率仍需观察。"
+          ],
+          "whyImportant": "分析：Nebius 的提价是算力稀缺与短期定价权的直接信号；Crusoe 的融资和签约容量则说明需求扩张仍需要巨额资本。两者合看，比单看订单或募资更能反映 neocloud 的经济模型。",
+          "investmentImpact": "分析：对 NVDA 是客户扩容和 GPU 租赁定价仍强的正面线索，但不是新增芯片采购量确认。对 NBIS 及同类企业，真正决定股权价值的是实际合同折扣、通电速度、利用率、融资成本和现金流；6GW 签约与 1GW 运营之间的差距既是增长储备，也是执行风险。",
+          "tags": [
+            "NBIS",
+            "Crusoe",
+            "NVDA",
+            "AI 云",
+            "GPU 租赁",
+            "融资",
+            "电力"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Nebius 10 月提价",
+              "url": "https://www.reuters.com/technology/nebius-hikes-ai-cloud-prices-again-demand-computing-power-soars-2026-09-17/"
+            },
+            {
+              "title": "Reuters｜Crusoe Series F 与容量披露",
+              "url": "https://www.reuters.com/business/ai-infrastructure-provider-crusoe-valued-309-billion-latest-funding-round-2026-09-17/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-17-pm-7",
+          "category": "robot",
+          "title": "Physical AI：Figure 在 30 个陌生家庭给出零样本泛化量化结果",
+          "status": "公司测试结果；尚未独立复现或商业部署",
+          "importance": "高",
+          "body": [
+            "Figure 发布 Helix 2.5，在 30 个从未用于训练的湾区家庭测试整理客厅、折毛巾和铺床三类全身任务。相同任务数据下，从零训练的策略严格端到端成功率为 9%，使用 Index 人类行为预训练后为 56%；完成整项任务才计成功，不给部分分。",
+            "同一个固定 checkpoint 用于全部 30 个家庭，评测家庭和物体没有做现场微调。需要准确限定：“zero-shot”针对新环境和新物体，三类行为本身仍用其他地点采集的数据做过微调。",
+            "Helix 2.5 以一半任务适配数据达到先前 Helix 02 的成功率，并在 30 个陌生家庭泛化；若需要人为安全干预，该次 rollout 会中止并判失败。但公司没有披露总体人工干预率、连续运行 uptime、任务速度、单位成本或付费客户部署。"
+          ],
+          "whyImportant": "分析：这是本期少见的投资级机器人进展，同时触及 zero-shot generalization、human-to-humanoid transfer 和 robot-data efficiency，而不是普通演示。成功率从 9% 到 56% 说明广泛人类行为预训练可能明显减少每个新场景的机器人数据需求；56% 也说明可靠性距离无人值守商业化仍远。",
+          "investmentImpact": "分析：对 Figure 的数据路线及机器人训练算力需求偏正面，也为 NVDA 等计算平台提供需求线索；但尚不能据此确认 ON、ADI、TER、Nabtesco、Harmonic Drive、THK 或 Nidec 获得订单。未来 1–12 个月最关键的增量证据是独立复现、任务时长分布、干预率、uptime、硬件成本和真实付费部署。",
+          "tags": [
+            "Physical AI",
+            "Figure",
+            "Helix 2.5",
+            "zero-shot",
+            "机器人数据",
+            "NVDA",
+            "uptime"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜Helix 2.5 30 个陌生家庭测试",
+              "url": "https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-17-pm-8",
+          "category": "macro",
+          "title": "下一期验证清单：先看 BOJ，再看能源风险是否重新传回利率",
+          "status": "观察清单；不是新增已发生数据",
+          "importance": "高",
+          "body": [
+            "1）日本：等待 BOJ 正式决议和记者会，比较实际指引与 83% 加息定价；随后看日元、JGB、美债和实际跨境资金流，不用单一汇率波动倒推大规模资金回流。",
+            "2）美国宏观：跟踪油价、柴油及后续 CPI/PPI/PCE、就业和工资，判断 10 月加息概率是否继续上升；财政赤字、国债发行与期限溢价仍需单独观察。本期未核实到足以单列的新信用利差、资金流或中期选举政策数字。",
+            "3）AI 基建：看 Nebius 提价后的成交折扣与客户留存、Crusoe 从 1GW 运营向 6GW 签约容量转换的速度，以及早报所述 CoreWeave 融资的最终条款。",
+            "4）机器人：要求 Figure 补充独立评测、总体干预率、uptime、单位任务成本和付费部署；没有这些指标，不把技术进展直接外推为零部件公司的收入。"
+          ],
+          "whyImportant": "分析：今晚的核心矛盾是“风险资产反弹”与“通胀/政策/供给风险仍高”并存；产业侧则是“AI 与机器人能力、需求进步”与“资本、可靠性和商业兑现约束”并存。",
+          "investmentImpact": "分析：未来 1–12 个月应优先选择能够把稀缺资源、模型能力或泛化进展转成可验证现金流的公司，同时对高杠杆扩张和只靠演示支撑估值的公司保持更高证据门槛。这是研究框架，不是个股买卖指令。",
+          "tags": [
+            "观察清单",
+            "BOJ",
+            "PCE",
+            "期限溢价",
+            "AI 基建",
+            "机器人部署"
+          ],
+          "sources": [
+            {
+              "title": "BOJ｜货币政策会议日程",
+              "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
+            },
+            {
+              "title": "Anthropic｜研发自动化与监督指标",
+              "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development"
+            },
+            {
+              "title": "Figure｜Helix 2.5 测试说明",
+              "url": "https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-09-17-am",
       "date": "2026-09-17",
       "period": "am",
