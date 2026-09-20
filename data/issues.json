@@ -4,6 +4,265 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-09-19-pm",
+      "date": "2026-09-19",
+      "period": "pm",
+      "time": "19:04",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-09-19T19:04:30-07:00",
+      "summary": "9 月 19 日晚报｜截至湾区时间 19:04。胡塞武装已认领对利雅得“敏感地点”和延布 Aramco 设施的袭击，沙特称拦截了飞向利雅得的导弹并挫败多地袭击；土耳其则表示可按三国防务协议满足沙特部分军事与技术需求。周末仍没有新的正常交易油价、美债或科技股收盘价。AI 与科技侧，特朗普宣布拟设新的 AI 顾问和“AI force”但未给实施细节；Nippon Life 据报计划投入约 127.5 亿美元做基础设施项目融资，包括美国数据中心。中国维持贷款市场报价利率不变。半导体与机器人没有新增投资级订单或量化指标。",
+      "cards": [
+        {
+          "id": "2026-09-19-pm-1",
+          "category": "macro",
+          "title": "胡塞认领利雅得与延布方向袭击，土耳其提出按防务协议支援沙特",
+          "status": "袭击认领、沙特拦截通报与土耳其表态已发生；设施损失和支援形式仍未确认",
+          "importance": "高",
+          "updateNote": "相较早报仅有烟雾、火焰与原因未明，晚间新增的是胡塞正式认领、沙特军方拦截通报，以及土耳其可提供支援的公开表态。",
+          "body": [
+            "也门胡塞武装称以导弹和无人机袭击利雅得“敏感地点”，并称攻击了红海石油出口枢纽延布的一处 Aramco 设施。这似乎是当前升级以来其首次公开声称袭击利雅得；胡塞没有说明具体目标，沙特也尚未公布机场、储运或能源设施的损失。",
+            "沙特主导的联军称，防空系统摧毁了一枚飞向利雅得的导弹，并挫败了针对 Bish、Farasan、Taif 和延布的袭击，但没有说明是否存在其他损害。现场烟雾与火焰因此仍不能直接换算成已确认供应损失。",
+            "土耳其外长 Fidan 表示，土耳其准备依据上月与沙特、巴基斯坦签署的三方防务协议，满足沙特可能出现的部分军事或技术需求；协议把对一国的武装攻击视为对三国的攻击。巴基斯坦同时表示，目前尚未讨论立即采取军事回应。"
+          ],
+          "whyImportant": "分析：风险已经从“现场异常、等待归因”推进到袭击方认领、沙特拦截和盟友讨论支援，但仍没有可核实的设施损失或供应中断数字。若三国防务协议从政治表态转为部署，冲突可能进一步国际化；若支援仅限技术、防空或外交，市场影响会弱得多。",
+          "investmentImpact": "分析：传导链仍是中东战线扩大 → 沙特东—西管道、延布与红海替代出口能力受压 → 原油、柴油、LNG、航运与保险成本 → 通胀预期/Fed 路径/美债收益率 → 高估值科技估值。周末市场休市，尚无新的正常交易价格证明投资者如何定价。周一应先看设施损失、船流和成品油，而不是把袭击认领直接等同于确定的供应缺口。",
+          "tags": [
+            "中东",
+            "胡塞武装",
+            "沙特",
+            "利雅得",
+            "延布",
+            "Aramco",
+            "土耳其",
+            "防务协议",
+            "原油",
+            "柴油"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜胡塞认领利雅得与延布方向袭击、沙特通报拦截",
+              "url": "https://www.reuters.com/world/middle-east/saudi-civil-defence-sends-all-clear-after-danger-warning-capital-riyadh-2026-09-19/"
+            },
+            {
+              "title": "Reuters｜土耳其称可按三国防务协议满足沙特军事需求",
+              "url": "https://www.reuters.com/business/aerospace-defense/turkey-says-it-could-help-meet-saudi-military-needs-under-defence-pact-2026-09-19/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-19-pm-2",
+          "category": "macro",
+          "title": "中国连续第 16 个月维持 LPR：全球偏鹰环境限制宽松空间",
+          "status": "利率已公布；后续降息路径属于分析师预测",
+          "importance": "中高",
+          "body": [
+            "中国 9 月一年期贷款市场报价利率维持 3.00%，五年期维持 3.50%，连续第 16 个月不变，符合 Reuters 调查中全部 21 位受访者的预期。",
+            "Reuters 指出，Fed 上周加息并暗示后续仍可能收紧，美中 10 年期国债收益率之差接近纪录高位；人民币仍在走强。报道引用的分析师认为，银行净息差与从通缩向温和通胀的过渡，也限制了广泛降息空间。",
+            "“今年余下时间维持不变”是部分分析师的基准预测，不是中国央行承诺；若国内增长明显弱于预期，降息风险仍存在。"
+          ],
+          "whyImportant": "分析：今早的中国 AI 讨论聚焦强供给、弱需求；晚间新增的利率决定说明，货币政策暂未用全面降息回应这一失衡。外部高利率、汇率和银行利润约束，使中国科技需求的修复更依赖财政、收入与资产负债表政策，而非单一利率工具。",
+          "investmentImpact": "分析：若中国宽松空间受限，消费电子、工业与本土云需求的复苏可能更依赖实际订单和财政落地；对 MU、ADI、ON、TSLA 及中国互联网/硬件链不能仅凭政策预期上调需求。美中收益率差扩大也可能影响美元、人民币和跨境资金流，但本次决定本身不证明资本已经大规模撤离中国或流向美国科技股。",
+          "tags": [
+            "中国",
+            "LPR",
+            "PBOC",
+            "人民币",
+            "Fed",
+            "收益率差",
+            "科技需求",
+            "宏观"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜中国 9 月维持贷款市场报价利率不变",
+              "url": "https://www.reuters.com/business/finance/china-keeps-benchmark-lending-rates-unchanged-16th-month-september-2026-09-20/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-19-pm-3",
+          "category": "ai",
+          "title": "Nippon Life 据报拟投入约 127.5 亿美元做基础设施项目融资，包含美国数据中心",
+          "status": "Nikkei 报道、Reuters 尚未独立核实；不是已完成放款或数据中心订单",
+          "importance": "高",
+          "body": [
+            "Nikkei Asia 据报称，日本生命保险计划向基础设施融资投入 2 万亿日元，按报道汇率约 127.5 亿美元，其中包括美国数据中心建设。Nippon Life 拟采用项目融资，由具体项目未来现金流偿还贷款。",
+            "报道称，美国项目融资平均可提供超过 2% 的利差，并帮助保险资金分散投资组合。公司还考虑在 2026 财年末前向日本数据中心项目放贷，目标到 2035 财年把相关未偿余额翻倍至 2 万亿日元。",
+            "Reuters 无法立即独立核实报道，Nippon Life 也未立即回应；2 万亿日元是基础设施融资计划总额，不等于全部投向美国数据中心，更不等于资金已经拨付。"
+          ],
+          "whyImportant": "分析：这是一条 AI 基建融资供给的新增线索，也把日本保险资本、数据中心项目债与 BOJ 正常化后的资产配置联系起来。保险资金愿意以项目现金流为基础提供长期资本，可能缓解部分项目融资压力；但它也会对电力、许可、客户合同和偿债覆盖提出更强约束。",
+          "investmentImpact": "分析：对数据中心开发商、云厂商及 NVDA、网络、存储与电力设备链是潜在融资支持，不是新增采购订单。项目融资利差超过 2% 说明债权人要求风险补偿；若美债/JGB 收益率继续上升，项目回报门槛也会抬高。日本利率上升并不必然导致资金全部回流国内——这项计划反而显示海外美元资产仍具吸引力；真正要看最终项目名单、放款速度、并网与现金流。",
+          "tags": [
+            "Nippon Life",
+            "日本",
+            "数据中心",
+            "项目融资",
+            "AI基建",
+            "NVDA",
+            "JGB",
+            "资本流动",
+            "信用利差"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Nippon Life 据报拟投约 127.5 亿美元做基础设施融资",
+              "url": "https://www.reuters.com/world/asia-pacific/japans-nippon-life-plans-13-billion-data-center-financing-us-nikkei-asia-reports-2026-09-19/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-19-pm-4",
+          "category": "ai",
+          "title": "特朗普拟任命新 AI 顾问并设“AI force”，但尚无权限或规则细节",
+          "status": "总统公开宣布意向；人选、组织、权限与实施时间均未公布",
+          "importance": "中高",
+          "body": [
+            "特朗普在社交平台表示，将任命一名新的 AI 顾问（“AI czar”）并建立一支“AI force”，但没有说明人选、机构归属、预算、法定权限或时间表。白宫未立即补充回应。",
+            "他同时强调不会阻碍 AI 行业增长，并称对违法行为可使用现有民事与刑事司法体系处理。此前担任 AI 顾问的 David Sacks 已在春季离任并转任外部顾问；Sacks 也主张由开发商承担产品安全责任，而不是建立新的联邦规则。",
+            "声明出现在 Trump–Xi 会面前夕；美中计划讨论 AI 安全、稀土与贸易。但“将设立”不等于行政命令、人员任命或监管框架已经落地。"
+          ],
+          "whyImportant": "分析：在 AI 安全事故和行业放缓讨论升温之际，政府新增协调职位可能影响监管、责任归属、国家安全与对华政策；但当前措辞仍偏向增长和事后执法，而非新的前置许可或训练限制。",
+          "investmentImpact": "分析：对 NVDA、云厂商和前沿模型公司的近期资本开支不是直接利空，因为没有新限制生效；对 OpenAI、Anthropic、Google、Meta 等，潜在风险来自未来顾问是否推动强制披露、产品责任或国家安全审查。现阶段不把“AI force”当成新增预算、采购订单或联邦监管机构。",
+          "tags": [
+            "Trump",
+            "AI政策",
+            "AI安全",
+            "监管",
+            "中期选举",
+            "美中关系",
+            "NVDA",
+            "OpenAI",
+            "Anthropic"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜特朗普拟任命新 AI 顾问并建立 AI force",
+              "url": "https://www.reuters.com/world/us/trump-says-he-will-create-ai-force-name-ai-czar-2026-09-19/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-19-pm-5",
+          "category": "semi",
+          "title": "半导体：周末没有新增订单，明日美中会谈仍只是议程",
+          "status": "无新增基本面确认；政策结果待公布",
+          "importance": "中",
+          "body": [
+            "本次检索未确认今早截稿后新增、足以改变 GPU、HBM/DRAM、NAND、光互连、晶圆代工或模拟/功率半导体盈利预测的公司订单、产能兑现或正式业绩指引。",
+            "美国与中国代表仍计划周日会谈，议题包括 AI 模型安全、稀土、贸易和关税休战；截至本期没有书面结果。会议地点和参会安排的更新不等于出口限制、稀土交付或关税政策已经改变。",
+            "周末没有新的美国科技股或费城半导体指数收盘价，因此不以期货传闻或旧收盘替代基本面证据。"
+          ],
+          "whyImportant": "分析：政策会谈可能影响模型规则、关键矿物和供应链成本，但在正式结果前，议程不能替代订单、许可证、库存和毛利率数据。周末尤其容易把政治表态提前计入盈利预测。",
+          "investmentImpact": "分析：对 NVDA、AMD、MU、INTC、ON、ADI、MRVL、LITE、COHR，下一步仍看正式出口规则、稀土实际出货、客户资本开支、ASP、良率和毛利率。Nippon Life 的融资计划只是下游项目资本来源线索，不能直接换算成某家芯片公司的收入。",
+          "tags": [
+            "半导体",
+            "NVDA",
+            "AMD",
+            "MU",
+            "INTC",
+            "稀土",
+            "出口管制",
+            "美中会谈",
+            "订单"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美中周日会谈将讨论 AI 安全与贸易",
+              "url": "https://www.reuters.com/business/finance/us-treasurys-bessent-chinas-he-meet-sunday-jpmorgan-headquarters-2026-09-19/"
+            },
+            {
+              "title": "Reuters｜Nippon Life 数据中心融资计划报道",
+              "url": "https://www.reuters.com/world/asia-pacific/japans-nippon-life-plans-13-billion-data-center-financing-us-nikkei-asia-reports-2026-09-19/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-19-pm-6",
+          "category": "robot",
+          "title": "Physical AI：晚间仍无新增投资级量化进展",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "本次检索未确认今早截稿后新增、足以改变判断的 zero-shot generalization、cross-embodiment transfer、触觉/力控与精细操作、robot-data efficiency、人工干预率、连续 uptime、硬件 BOM 或真实付费 deployment/design win。",
+            "Figure 的陌生家庭测试、Spirit AI 的产线部署和既有 Gemini Robotics 进展均没有新增可复核指标，本期不重复。Nippon Life 的数据中心融资可能支持机器人训练算力，但不是机器人客户部署或零部件定点。",
+            "持续跟踪 Figure、Physical Intelligence 与 Google DeepMind 官方更新；这些入口是观察来源，不是证明全行业没有其他进展。"
+          ],
+          "whyImportant": "分析：没有新公开指标不等于产业停滞，只表示本期没有达到投资判断所需的证据门槛。融资计划、演示视频和模型发布都不能替代现场可靠性与单位经济性。",
+          "investmentImpact": "分析：对 NVDA、ON、ADI、TER、TSLA、Unitree、Nabtesco、Harmonic Drive、THK、Nidec 等，继续等待独立复现、分任务成功率、人工干预率、uptime、每小时/每任务成本、BOM 与正式付费合同。没有这些数据时，不上调零部件订单假设。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "zero-shot",
+            "cross-embodiment",
+            "干预率",
+            "uptime",
+            "BOM",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方进展跟踪（非本期新增公告）",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方博客（非本期新增公告）",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "Google DeepMind｜官方博客（非本期新增公告）",
+              "url": "https://deepmind.google/blog/"
+            }
+          ],
+          "verificationNote": "跟踪入口不是“没有新闻”的独立证明；本条只记录本次检索没有发现达到门槛的新增量化指标。"
+        },
+        {
+          "id": "2026-09-19-pm-7",
+          "category": "macro",
+          "title": "下一期验证清单：设施损失、周一开盘、政策结果与融资落地",
+          "status": "观察清单；不是新增已发生数据",
+          "importance": "中高",
+          "body": [
+            "中东：等待沙特确认利雅得和延布设施是否受损、东—西管道恢复程度、红海与霍尔木兹实际船流，以及土耳其支援是否从表态变成部署。认领与拦截通报都不能替代供应损失数字。",
+            "市场：周末没有新的正常交易油价、天然气、美债收益率、美元、信用利差或科技股收盘。周一联看原油、柴油、通胀预期、Fed 10 月定价、长端美债和科技期货，并把短端政策路径与财政/发债导致的期限溢价分开。",
+            "日本与信用：看 BOJ 加息后的 JGB 曲线、日元及实际跨境资金流；跟踪 Nippon Life 最终项目清单、放款速度、利差、并网和偿债现金流。海外项目融资计划说明资金回流并非单向结论。",
+            "政策与产业：等待美中会谈是否形成 AI、稀土或关税的书面结果；等待特朗普公布 AI 顾问人选、权限或行政文件。半导体看订单与毛利率，机器人继续要求干预率、uptime、单位成本和付费部署。"
+          ],
+          "whyImportant": "分析：本期最重要的组合是地缘风险从未确认现场迹象推进到袭击认领与盟友支援表态，同时长期资金仍在寻找 AI 数据中心项目收益。风险升级和融资供给可以同时存在，不能用其中一条抵消另一条。",
+          "investmentImpact": "分析：未来 1–12 个月，宏观上优先看能源实物流、成品油通胀、实际收益率、期限溢价、信用利差和中期选举政策；产业上优先看项目能否完成许可、并网、融资和客户签约。若战争推高能源与利率，而数据中心继续以更高利差融资，高估值科技会更依赖现金流兑现；这不是个股买卖指令。",
+          "tags": [
+            "观察清单",
+            "中东",
+            "油价",
+            "Fed",
+            "BOJ",
+            "JGB",
+            "信用利差",
+            "美中会谈",
+            "数据中心",
+            "机器人"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜胡塞认领袭击与沙特拦截通报",
+              "url": "https://www.reuters.com/world/middle-east/saudi-civil-defence-sends-all-clear-after-danger-warning-capital-riyadh-2026-09-19/"
+            },
+            {
+              "title": "Reuters｜中国维持 LPR 不变",
+              "url": "https://www.reuters.com/business/finance/china-keeps-benchmark-lending-rates-unchanged-16th-month-september-2026-09-20/"
+            },
+            {
+              "title": "Reuters｜特朗普拟设 AI 顾问与 AI force",
+              "url": "https://www.reuters.com/world/us/trump-says-he-will-create-ai-force-name-ai-czar-2026-09-19/"
+            },
+            {
+              "title": "Reuters｜Nippon Life 数据中心融资计划报道",
+              "url": "https://www.reuters.com/world/asia-pacific/japans-nippon-life-plans-13-billion-data-center-financing-us-nikkei-asia-reports-2026-09-19/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-09-19-am",
       "date": "2026-09-19",
       "period": "am",
