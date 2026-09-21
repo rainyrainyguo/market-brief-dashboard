@@ -4,6 +4,274 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-09-20-pm",
+      "date": "2026-09-20",
+      "period": "pm",
+      "time": "18:56",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-09-20T18:56:21-07:00",
+      "summary": "9 月 20 日晚报｜截至湾区时间 18:56。周日晚间全球市场开始交易后，Brent 与 WTI 不涨反跌，反映沙特出口恢复暂时压过胡塞袭击风险；但欧洲航煤预计第四季度短缺 51 万桶/日、柴油创纪录，说明原油屏幕价格与成品油实物紧张仍在分化。Kashkari 表示美国通胀压力不限于能源，10 月再加息概率约 55%；日元在 BOJ 加息后仍偏弱并出现“汇率询价”报道。美中会谈提出 AI 安全事件通知机制，但中国尚未公开接受，先进 AI 芯片和制造设备出口管制明确不在该机制议程内。半导体价格表现偏强但无新增订单，机器人没有新增投资级量化进展。",
+      "cards": [
+        {
+          "id": "2026-09-20-pm-1",
+          "category": "macro",
+          "title": "油价开盘回落：沙特出口恢复压过袭击风险，但运输路径更集中于霍尔木兹",
+          "status": "周日晚间期货报价与船运数据已发布；设施修复和持续出口能力仍待验证",
+          "importance": "高",
+          "updateNote": "相较早报只有海湾股市反应、没有全球油价，晚间新增的是 Brent/WTI 开盘后的实际定价，以及沙特出口路线和数量的变化。",
+          "body": [
+            "截至 9 月 21 日 00:31 GMT，Brent 跌 0.78% 至 103.06 美元/桶，WTI 跌 0.89% 至 99.41 美元。油价没有因利雅得与延布方向的袭击继续上涨，市场当前更重视沙特出口恢复。",
+            "Kpler 数据显示，沙特 9 月原油出口已回升至每日 400 万桶以上，8 月为 240 万桶；经霍尔木兹海峡的沙特装船量升至每日 290 万桶，8 月约为 70 万桶。胡塞袭击东—西管道并使部分延布装运暂停后，Aramco 增加了经霍尔木兹的出口。",
+            "出口总量回升缓解即时短缺，但更多货物重新依赖霍尔木兹，并不等于运输风险消失。沙特设施维修时间、红海通行和伊朗对海峡的政策仍未完全明朗。"
+          ],
+          "whyImportant": "分析：价格下跌说明市场暂时相信沙特可以补回部分供应，但路线从红海转向霍尔木兹会降低系统冗余。如果霍尔木兹保持可用，油价风险溢价可能继续回落；如果海峡冲突再升级，更多集中在该路线的出口反而扩大尾部风险。",
+          "investmentImpact": "分析：短期传导是沙特出口恢复 → 原油回落 → 通胀与美债压力边际缓和 → 科技估值获得支持；尾部链条仍是霍尔木兹或红海再受阻 → 原油/柴油/LNG和保险成本上升 → CPI/PCE与Fed路径 → 长端美债和高估值科技。对 NVDA、MU、MRVL 等，油价回落是折现率层面的利好，不是订单上修证据。",
+          "tags": [
+            "原油",
+            "Brent",
+            "WTI",
+            "沙特",
+            "Aramco",
+            "霍尔木兹",
+            "延布",
+            "胡塞武装",
+            "通胀",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜沙特出口恢复之际油价回落",
+              "url": "https://www.reuters.com/business/energy/oil-rises-after-houthi-attack-saudi-capital-2026-09-20/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-20-pm-2",
+          "category": "macro",
+          "title": "Kashkari称通胀不限于能源；10月加息概率约55%，日元进入干预观察",
+          "status": "Fed官员讲话与市场报价已发生；后续加息及日本干预仍是预期",
+          "importance": "高",
+          "body": [
+            "明尼阿波利斯联储主席 Kashkari 表示，美国通胀在服务业等多个领域仍然过高，并非只由油价驱动；他支持上周把联邦基金利率上调 25bp 至 3.75%–4.00%。最新预测中，除两名官员外，其余 Fed 决策者都预计今年至少还会加息一次。",
+            "利率市场给 10 月再加息 25bp 的概率约 55%，一周前为 42.5%。Kashkari 的表态意味着，即使原油短线回落，只要核心服务和其他类别没有明显降温，Fed 仍可能继续紧缩。",
+            "日元报约 156.64 兑 1 美元，上周累计下跌 2%。BOJ 加息至 1.25% 后，日元仍因两张反对票和缺少明确鹰派指引而走弱；日本媒体称当局进行了汇率询价。汇率询价常被视为可能干预的前兆，但不等于已经入市买入日元。",
+            "日本市场因假期休市、流动性偏低；亚洲早盘标普500期货涨 0.3%、纳指期货涨 0.4%，韩国科技股较重的指数涨 1.1%。风险资产反弹与加息概率上升可以同时发生。"
+          ],
+          "whyImportant": "分析：本轮宏观矛盾不是“油价跌所以Fed转鸽”，而是能源压力边际缓和、核心通胀与服务价格仍黏着。日本方面，政策利率上升却未带来持续日元升值，说明资金回流和套息收缩尚未形成单向趋势。",
+          "investmentImpact": "分析：对高估值科技，短线油价和期货改善有利，但短端政策路径仍偏鹰；财政赤字、国债供给和期限溢价对长端收益率的压力也没有消失。日本链条仍需验证：JGB收益率/对冲成本上升 → 资金回流或套息收缩 → 全球流动性趋紧。若日元干预落地或Fed继续上调路径，NVDA、TSLA及长久期成长股的波动可能放大。",
+          "tags": [
+            "Fed",
+            "Kashkari",
+            "加息",
+            "核心通胀",
+            "美债",
+            "期限溢价",
+            "BOJ",
+            "日元",
+            "汇率干预",
+            "科技期货"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Kashkari称美国各领域通胀仍过高",
+              "url": "https://www.reuters.com/business/feds-kashkari-says-inflation-goes-beyond-oil-prices-according-fox-news-interview-2026-09-20/"
+            },
+            {
+              "title": "Reuters｜日元波动引发干预观察、10月加息概率约55%",
+              "url": "https://www.reuters.com/world/asia-pacific/volatile-yen-draws-intervention-watch-other-currencies-subdued-2026-09-21/"
+            },
+            {
+              "title": "Reuters｜亚洲科技股与美股期货走高",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-21/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-20-pm-3",
+          "category": "macro",
+          "title": "欧洲第四季度航煤预计短缺51万桶/日：成品油压力没有跟随原油回落",
+          "status": "库存与船运数据已发布；第四季度缺口为机构预测",
+          "importance": "高",
+          "body": [
+            "Energy Aspects 预计，欧洲第四季度航煤缺口为每日 51 万桶；同期美国预计小幅盈余 1.8 万桶/日，亚太盈余 41.9 万桶/日。该预测不是已发生的供应缺口，但与当前低库存和进口依赖方向一致。",
+            "欧洲自伊朗战争爆发以来约一半的中东航煤进口被切断，正从美国、加拿大、尼日利亚和韩国补货。Kpler 数据显示，9 月韩国向欧洲出口航煤约 12.9 万桶/日，为 2022 年 10 月以来最高。",
+            "截至 9 月 10 日当周，Amsterdam–Rotterdam–Antwerp 独立储存的航煤库存降至七年最低；欧洲柴油本周创纪录高位。航煤与柴油都属于中间馏分，炼化和区域物流约束使其可以在原油下跌时继续偏紧。"
+          ],
+          "whyImportant": "分析：原油期货反映边际桶和宏观预期，航煤、柴油则更直接体现可用炼厂产能、库存与运输路线。欧洲缺口由亚洲跨区套利填补，能缓冲最坏情景，却增加运输距离、成本和对外部供应的依赖。",
+          "investmentImpact": "分析：中东供应受阻 → 欧洲航煤/柴油库存下降 → 航空、物流和工业成本上升 → 企业利润率与消费者价格 → CPI/PCE及利率路径。对科技估值，关键不是Brent单日下跌，而是成品油压力能否真正回落；对航空、运输和欧洲工业则是更直接的成本风险。",
+          "tags": [
+            "欧洲",
+            "航煤",
+            "柴油",
+            "中间馏分",
+            "库存",
+            "韩国",
+            "炼油",
+            "通胀",
+            "物流",
+            "能源"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜欧洲第四季度面临航煤缺口、韩国成为新增供应方",
+              "url": "https://www.reuters.com/business/energy/europe-faces-q4-jet-fuel-supply-deficit-even-south-korea-becomes-latest-big-2026-09-21/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-20-pm-4",
+          "category": "ai",
+          "title": "美方提出美中AI安全事件通知机制；中国回应不明，芯片出口管制不在议程",
+          "status": "美方提案与会谈已经发生；中方尚未公开接受，机制尚未建立",
+          "importance": "高",
+          "updateNote": "相较早报仅有会谈议程，晚间新增的是会谈已结束、美方提出具体AI通知机制，以及出口管制明确未纳入该机制谈判。",
+          "body": [
+            "Bessent 在纽约会谈结束后表示，美方提出建立新的美中 AI 对话和安全事件通知机制，重点覆盖上升到国家安全层面的共同威胁与事件，供本周 Trump–Xi 峰会考虑。",
+            "中国副总理何立峰及中方贸易谈判代表离场时没有对媒体讲话，中国是否接受提案仍不清楚。Trump 与 Xi 在 5 月曾讨论 AI 磋商，但当时的论坛也没有正式建立。",
+            "美国贸易代表 Greer 明确表示，先进 AI 芯片和半导体制造设备的出口管制不在本次 AI 机制讨论议程内。因此，安全对话不能解释为对 NVDA、AMD 或设备出口限制的放松。",
+            "双方还讨论把 5 月约定的“Board of Trade”流程投入运作，以识别可能削减关税的非战略商品；具体商品清单、稀土交付改进和关税休战延期均未宣布。"
+          ],
+          "whyImportant": "分析：如果最终形成正式通知机制，美中AI竞争可能首次拥有针对高风险事件的透明度和危机沟通渠道，有助于降低误判；但它与模型能力限制、训练暂停和芯片出口许可是不同政策层次。当前只有美方提案，没有双边协议。",
+          "investmentImpact": "分析：对 OpenAI、Anthropic、Google、Meta 等，潜在新增要求可能涉及重大安全事件定义、披露和国家安全协调；对 NVDA、AMD、MU、INTC及设备链，本期没有出口规则改善。若峰会只落实沟通机制而不调整芯片限制，估值影响更偏风险溢价而非收入；若后续关税和稀土出现书面安排，再评估机器人、汽车和硬件供应链。",
+          "tags": [
+            "美中关系",
+            "AI安全",
+            "事件通知",
+            "国家安全",
+            "Bessent",
+            "Trump",
+            "Xi",
+            "出口管制",
+            "NVDA",
+            "关税"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美方提出美中AI安全事件通知机制",
+              "url": "https://www.reuters.com/business/finance/us-treasurys-bessent-chinas-he-launch-talks-ai-trade-critical-minerals-2026-09-20/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-20-pm-5",
+          "category": "semi",
+          "title": "半导体随亚洲科技股走高，但晚间没有新增订单或盈利指引",
+          "status": "市场价格变化已发生；无新增公司基本面确认",
+          "importance": "中",
+          "body": [
+            "周一亚洲早盘，韩国科技股权重较高的指数上涨 1.1%，MSCI亚太除日本指数涨 0.3%，纳指期货涨 0.4%。市场叙事仍是AI数据需求支持芯片股，同时油价回落改善风险偏好。",
+            "日本现货市场因Silver Week假期休市，日经期货涨约0.5%；低流动性意味着跨市场价格信号需要谨慎解读。",
+            "本次检索未确认早报截稿后新增、足以改变GPU、HBM/DRAM、NAND、光互连或晶圆代工盈利预测的订单、产能兑现或正式公司指引。早报已经报道的长鑫存储第五代DRAM平台量产没有新增产量、良率或客户认证数据，本期不重复。"
+          ],
+          "whyImportant": "分析：半导体价格上涨可以反映宏观风险缓和和AI主题资金回流，但不能自动证明EPS、出货或毛利率预期已经上调。尤其在Fed路径仍偏鹰时，折现率和拥挤度可能快速覆盖产业叙事。",
+          "investmentImpact": "分析：对 NVDA、MU、MRVL、LITE、COHR 等，短线风险偏好偏正面；未来1–12个月仍需用客户资本开支、出货、ASP、良率和毛利率验证。长鑫量产是中长期竞争变量，不是今晚亚洲芯片股上涨的单一原因，也不足以直接下调全球DRAM盈利预测。",
+          "tags": [
+            "半导体",
+            "亚洲股市",
+            "AI数据",
+            "NVDA",
+            "MU",
+            "MRVL",
+            "LITE",
+            "COHR",
+            "CXMT",
+            "估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜AI数据需求支持亚洲科技股、美股期货走高",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-21/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-20-pm-6",
+          "category": "robot",
+          "title": "Physical AI：晚间未核实到新增投资级量化进展",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "本次检索未确认早报截稿后新增、足以改变判断的 zero-shot generalization、cross-embodiment transfer、触觉/力控与精细操作、robot-data efficiency、人工干预率、连续 uptime、硬件 BOM 或真实付费 deployment/design win。",
+            "Figure 的陌生家庭测试、Spirit AI 的产线部署以及既有 Gemini Robotics、Physical Intelligence 进展均没有新增可复核指标，本期不重复。美中AI通知机制没有涉及机器人部署标准，稀土和磁体也没有新交付协议。",
+            "持续跟踪 Figure、Physical Intelligence 与 Google DeepMind 官方更新；这些入口是观察来源，不是“全行业没有新闻”的独立证明。"
+          ],
+          "whyImportant": "分析：没有公开新指标不等于产业停滞，只表示本期证据门槛未被满足。AI政策提案、芯片股上涨和普通机器人演示都不能替代现场可靠性、干预率和单位经济性。",
+          "investmentImpact": "分析：对 NVDA、ON、ADI、TER、TSLA、Unitree、Nabtesco、Harmonic Drive、THK、Nidec 等，继续等待独立复现、分任务成功率、人工干预率、uptime、每小时/每任务成本、BOM与正式付费合同。没有这些数据时，不上调零部件订单假设。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "zero-shot",
+            "cross-embodiment",
+            "触觉",
+            "干预率",
+            "uptime",
+            "BOM",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方进展跟踪（非本期新增公告）",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方博客（非本期新增公告）",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "Google DeepMind｜官方博客（非本期新增公告）",
+              "url": "https://deepmind.google/blog/"
+            }
+          ],
+          "verificationNote": "跟踪入口不是“没有新闻”的独立证明；本条只记录本次检索未发现达到门槛的新增量化指标。"
+        },
+        {
+          "id": "2026-09-20-pm-7",
+          "category": "macro",
+          "title": "下一期验证清单：沙特出口持续性、Fed与日元、美中峰会及产业兑现",
+          "status": "观察清单；不是新增已发生数据",
+          "importance": "中高",
+          "body": [
+            "能源：验证沙特每日400万桶以上出口能否持续、经霍尔木兹的集中度是否进一步上升，并跟踪东—西管道、延布、红海和海峡船流。联看Brent、WTI、美国天然气、欧洲柴油与航煤，不能用原油单一价格代表实物市场。",
+            "美国宏观：跟踪10月加息定价、核心服务通胀、即将公布的PCE、就业和工资；分别观察短端Fed路径与财政赤字/国债发行造成的期限溢价。本期未出现新的财政或发债政策变化。",
+            "日本与流动性：观察汇率询价是否升级为实际干预，以及假期后JGB曲线、日元和跨境资金流。日本加息不自动等于资金已大规模回流，日元走弱也不等于全球套息交易没有风险。",
+            "政策与产业：等待Trump–Xi峰会是否把AI通知机制、关税或稀土安排写入正式文件；半导体看订单、良率与毛利率，机器人继续要求干预率、uptime、单位成本和付费部署。"
+          ],
+          "whyImportant": "分析：今晚最重要的组合是原油回落、成品油仍紧，科技资产上涨、Fed路径仍偏鹰，美中AI沟通出现提案、芯片出口限制却没有松动。这些信号方向不同，不能用单一标题概括为全面risk-on或全面缓和。",
+          "investmentImpact": "分析：未来1–12个月，宏观上优先看能源实物流、核心通胀、实际收益率、期限溢价、信用利差和日元资金流；产业上优先看安全机制是否落地、芯片订单与利润以及机器人可靠性。若原油回落但成品油和核心通胀不降，高估值科技仍会面对较高折现率；这不是个股买卖指令。",
+          "tags": [
+            "观察清单",
+            "沙特出口",
+            "霍尔木兹",
+            "Fed",
+            "PCE",
+            "美债",
+            "日元",
+            "美中峰会",
+            "半导体",
+            "机器人"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜沙特出口恢复与油价回落",
+              "url": "https://www.reuters.com/business/energy/oil-rises-after-houthi-attack-saudi-capital-2026-09-20/"
+            },
+            {
+              "title": "Reuters｜Kashkari谈广泛通胀压力",
+              "url": "https://www.reuters.com/business/feds-kashkari-says-inflation-goes-beyond-oil-prices-according-fox-news-interview-2026-09-20/"
+            },
+            {
+              "title": "Reuters｜日元干预观察与Fed定价",
+              "url": "https://www.reuters.com/world/asia-pacific/volatile-yen-draws-intervention-watch-other-currencies-subdued-2026-09-21/"
+            },
+            {
+              "title": "Reuters｜美方提出美中AI安全通知机制",
+              "url": "https://www.reuters.com/business/finance/us-treasurys-bessent-chinas-he-launch-talks-ai-trade-critical-minerals-2026-09-20/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-09-20-am",
       "date": "2026-09-20",
       "period": "am",
