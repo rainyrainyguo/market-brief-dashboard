@@ -4,6 +4,334 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-09-22-am",
+      "date": "2026-09-22",
+      "period": "am",
+      "time": "08:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-09-22T08:00:02-07:00",
+      "summary": "9 月 22 日早报｜截至湾区时间08:00。伊朗提出若美国减轻军事压力并解除港口封锁，可在七天内重开霍尔木兹；沙特东—西管道已低速重启，Brent因此跌破99美元，但美伊会谈尚未排期、管道完全恢复可能仍需数周。AI资产继续上涨的同时，信用市场开始区分风险：AI相关债券利差约115bp，高于大盘78bp。产业新增聚焦阿里自研AI芯片与超大模型计划、Meta Muse早期下载量、Palo Alto按年订阅的AI安全服务，以及Apple推进本地AI计算。机器人未出现新的投资级部署或可靠性指标。",
+      "cards": [
+        {
+          "id": "2026-09-22-am-1",
+          "category": "macro",
+          "title": "伊朗提出七天内重开霍尔木兹，沙特东—西管道低速重启；油价跌至两周低位",
+          "status": "伊朗条件性提议与沙特管道重启已报道；美伊会谈、海峡开放及管道完全恢复尚未落实",
+          "importance": "高",
+          "updateNote": "昨晚市场只是在交易油价回落；今早新增的是伊朗明确提出重开海峡的条件与时间窗口，以及沙特东—西管道实际低速恢复。",
+          "body": [
+            "截至11:51 GMT，Brent 11月合约跌2.1%至98.23美元/桶；WTI 10月合约跌2.59%至93.30美元，交投更活跃的11月合约跌2.55%至90.01美元，均触及9月8日以来低位。",
+            "一名伊朗高级官员称，如果美国减轻军事压力并解除对伊朗港口的封锁，伊朗可在七天内重开霍尔木兹海峡；赴纽约参加联合国大会的伊朗代表团获授权恢复外交接触。美国国务卿Rubio表示愿意在联合国期间与伊朗接触，但目前没有安排会面，因此这仍是条件性提议，不是协议或已开放航道。",
+            "三名知情人士称，沙特已重启9月13日遭无人机袭击后关闭的东—西管道，并可能恢复延布装船。管道当前仍以低速运行，沙特希望恢复约400万桶/日能力，但完全恢复可能需要数周；Aramco尚未公开置评。",
+            "法国还在与美国协调拟议中的联合国安理会霍尔木兹航运任务，但草案尚未流通、安理会也未表决。过去类似方案曾因中国和俄罗斯反对而失败。"
+          ],
+          "whyImportant": "分析：相较单纯的外交口风，本期同时出现明确的海峡开放条件和绕行管道恢复，实物供应冗余边际改善；但两条路径都尚未正常化，市场把成功概率提前计入油价。",
+          "investmentImpact": "分析：伊朗开放提议/沙特管道重启 → 原油与通胀预期下降 → 长端美债压力缓和 → 高估值科技估值获得支持。反向风险是美伊条件谈不拢、管道修复延迟或新袭击 → 霍尔木兹与红海替代路线再次同时受压 → 原油、柴油、LNG与保险成本反弹。美国和欧洲柴油仍偏高，不能用Brent跌破99美元直接宣布成品油通胀已经消失。",
+          "tags": [
+            "伊朗",
+            "霍尔木兹",
+            "沙特",
+            "东—西管道",
+            "延布",
+            "原油",
+            "外交",
+            "联合国",
+            "通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜伊朗重开海峡提议与油价跌至两周低位",
+              "url": "https://www.reuters.com/business/energy/oil-rises-slightly-ahead-potential-us-iran-talks-2026-09-22/"
+            },
+            {
+              "title": "Reuters｜沙特东—西管道低速重启",
+              "url": "https://www.reuters.com/business/energy/saudi-arabia-restarts-east-west-oil-pipeline-resume-exports-yanbu-sources-say-2026-09-22/"
+            },
+            {
+              "title": "Reuters｜美国愿意接触伊朗但尚无会面安排",
+              "url": "https://www.reuters.com/world/middle-east/us-open-meeting-iran-un-no-meeting-scheduled-yet-rubio-says-2026-09-22/"
+            },
+            {
+              "title": "Reuters｜法国考虑霍尔木兹联合国安理会方案",
+              "url": "https://www.reuters.com/world/france-mulls-new-un-security-council-resolution-hormuz-diplomats-say-2026-09-22/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-22-am-2",
+          "category": "macro",
+          "title": "全球科技股延续反弹、10年期美债约4.93%；Fed与BOJ再加息概率仍未消失",
+          "status": "亚洲与欧洲市场行情已发生；美国盘中和后续央行行动仍属市场定价",
+          "importance": "高",
+          "body": [
+            "Meta Muse与AI主题继续带动全球科技股，欧洲STOXX 600一度上涨0.5%，半导体板块偏强；美国纳指开盘后刷新盘中高位。油价跌破100美元推动美国10年期收益率降至约4.93%，美元从近两个月高位回落。",
+            "美元兑日元约157.15，日元在BOJ上周加息后仍偏弱。市场给BOJ 10月再次加息约30%概率、Fed 10月加息约50%概率；这些是市场快照，不是央行承诺。",
+            "油价下跌主要缓解能源与长端通胀风险，不能消除昨晚Musalem所说的需求型通胀。日本方面，加息后日元仍未持续走强，也没有新证据证明日本资金已经大规模从美债或美股回流。"
+          ],
+          "whyImportant": "分析：当前市场组合是AI盈利预期和地缘缓和推动风险资产上涨，同时美日短端政策仍偏鹰。长端收益率下降与未来继续加息可以并存，不能把科技股上涨概括成全球货币政策转鸽。",
+          "investmentImpact": "分析：短期对NVDA、AMD、META、ARM等是估值与动量利好；若Brent和成品油持续回落，Fed加息上限可能下降。日本传导仍需验证：JGB收益率/对冲成本上升 → 日本资金回流或套息收缩 → 全球风险资产流动性趋紧。本期没有新的美国财政、国债发行或期限溢价政策变化，也没有可比的新就业、工资、CPI/PPI/PCE数据。",
+          "tags": [
+            "全球市场",
+            "科技股",
+            "美债",
+            "Fed",
+            "BOJ",
+            "日元",
+            "美元",
+            "加息预期",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜AI乐观与油价低于100美元推动全球股市",
+              "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-09-22/"
+            },
+            {
+              "title": "Reuters｜美元、日元及美日加息定价",
+              "url": "https://www.reuters.com/world/asia-pacific/yen-squeezed-hawkish-turn-grips-central-banks-2026-09-22/"
+            },
+            {
+              "title": "Reuters｜纳指盘中高位与中东进展",
+              "url": "https://www.reuters.com/business/wall-st-futures-pause-after-ai-rally-focus-mideast-tensions-2026-09-22/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-22-am-3",
+          "category": "macro",
+          "title": "AI债券利差扩大至约115bp：资本仍可获得，但信用市场开始要求更高补偿",
+          "status": "当前利差与发行案例已报道；明年4200亿美元发行额为市场预测",
+          "importance": "高",
+          "body": [
+            "Reuters报道，AI相关公司债的平均利差约115bp，高于整体公司债市场约78bp。投资者开始担心数据中心建设令超大规模云厂商的借款需求快速且难以预测，并要求更清晰的发行计划和更高回报。",
+            "市场预计超大规模云厂商明年公司债发行总额可能达到创纪录的4200亿美元；这是预测，不是已经完成的融资。Alphabet和Meta等优质发行人也需要提供更有吸引力的条款，说明强资产负债表不能完全抵消供给集中与资本开支风险。",
+            "股权市场仍保持开放：数据中心电力、冷却和模块系统公司Accelevation寻求最高53.7亿美元IPO估值，拟发行3000万股、最多融资7.2亿美元，主要用途之一是再融资现有债务；其私募股东上市后预计仍控制约85%投票权。"
+          ],
+          "whyImportant": "分析：昨晚的监管问询关注杠杆传染，今早新增的是可量化的一级信用定价。AI需求强劲、股票上涨与债权人提高风险补偿可以同时发生；债券投资者更在意现金流、债务供给和回收期限。",
+          "investmentImpact": "分析：AI资本开支/发债增加 → 债券供给与信用利差上升 → 数据中心融资成本和项目回报门槛提高 → 上游GPU、网络、存储与电力订单兑现速度受约束。对META、GOOGL等不是偿债危机信号，但对ORCL、neocloud和高杠杆开发商更敏感。Accelevation IPO显示资本窗口仍开着，却也说明部分融资首先用于修复资本结构，而不是全部转化为新增产能。",
+          "tags": [
+            "AI债券",
+            "信用利差",
+            "发债",
+            "数据中心",
+            "META",
+            "GOOGL",
+            "Accelevation",
+            "IPO",
+            "融资成本"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜AI债券供给与信用利差分化",
+              "url": "https://www.reuters.com/legal/transactional/corporate-bond-buyers-get-picky-with-flood-ai-debt-2026-09-22/"
+            },
+            {
+              "title": "Reuters｜Accelevation寻求最高53.7亿美元IPO估值",
+              "url": "https://www.reuters.com/technology/accelevation-backers-aim-raise-720-million-us-ipo-2026-09-22/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-22-am-4",
+          "category": "semi",
+          "title": "阿里公布Zhenwu V900芯片与5万亿至10万亿参数模型计划：全栈路线扩大，但尚未量产",
+          "status": "公司发布与目标已宣布；性能为公司自报，模型、芯片量产和20GW容量均未兑现",
+          "importance": "高",
+          "body": [
+            "阿里巴巴在杭州云栖大会公布T-Head自研AI芯片Zhenwu V900，称其性能为上一代的三倍、可组成大规模集群，预计2027年初进入量产。公司没有披露可独立比较的训练/推理基准、制程、良率、客户订单或单位成本。",
+            "阿里计划开发5万亿至10万亿参数的下一代模型，最高约为当前Qwen 3.8 Max参数规模的四倍；参数数量是规模指标，不自动等同于能力、数据质量、推理效率或商业回报。",
+            "CEO吴泳铭还提出到2032年阿里云数据中心容量超过20GW的目标。公司港股上涨5.1%至一个月高位；股价反应和长期容量目标都不是已经确认的资本支出、通电容量或芯片收入。"
+          ],
+          "whyImportant": "分析：这是中国AI从模型、芯片到数据中心一体化路线的新增节点，也是在美国高端芯片限制下提高本土计算自主性的尝试。真正改变竞争格局需要芯片按期量产、软件栈适配和模型单位经济性，而不是只看参数规模。",
+          "investmentImpact": "分析：对BABA是云业务差异化与长期资本开支信号；对NVDA、AMD及中国AI芯片链是竞争观察项，但V900在2027年量产前不会立刻替代现有GPU订单。20GW目标若兑现会利好电力、网络、光互连和存储需求，同时也放大融资、并网、水与监管约束。未来1–12个月看外部基准、产量、客户采用和实际资本支出。",
+          "tags": [
+            "阿里巴巴",
+            "Zhenwu V900",
+            "T-Head",
+            "Qwen",
+            "AI芯片",
+            "超大模型",
+            "数据中心",
+            "NVDA",
+            "AMD"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜阿里公布新AI芯片、更大模型与20GW目标",
+              "url": "https://www.reuters.com/business/retail-consumer/alibaba-plans-ai-model-with-5-trillion-10-trillion-parameters-unveils-new-chip-2026-09-22/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-22-am-5",
+          "category": "ai",
+          "title": "Meta Muse十二天下载量达280万：早期采用强，但付费转化仍是估值核心",
+          "status": "下载量、产品定价与股价已报道；收入、留存和分析师预测尚未兑现",
+          "importance": "高",
+          "body": [
+            "Meta于9月8日推出可发送邮件、预订旅行和执行交易的Muse AI agent，基础版免费，另有每月20美元和100美元两档付费方案。Reuters报道，Muse在美国和加拿大上线12天下载量达到约280万。",
+            "Meta股价自发布以来上涨逾20%、市值增加超过2000亿美元。下载量反映获客速度，不等于月活、留存、实际任务成功率、付费用户或收入。",
+            "Jefferies估算，如果Muse最终达到10亿用户且3%转为付费，2027年年收入可能达到108亿美元；这是依赖极强用户规模与转化假设的情景分析，不是Meta指引。"
+          ],
+          "whyImportant": "分析：相比单纯模型发布，Muse开始提供可观察的分发与定价信号，说明消费级agent可能形成订阅和交易执行层；但市场当前给出的市值增量远快于公开收入证据。",
+          "investmentImpact": "分析：对META，潜在上行来自订阅收入、用户时长和跨应用agent入口；风险来自推理成本、任务可靠性、第三方权限、安全责任，以及agent对既有广告和Marketplace浏览路径的替代。对AMD、INTC等算力链是需求叙事，不是确定订单。下一步必须看日/月活、留存、付费转化、ARPU、推理成本和对广告收入的净影响。",
+          "tags": [
+            "META",
+            "Muse",
+            "AI agent",
+            "下载量",
+            "订阅",
+            "付费转化",
+            "广告",
+            "Marketplace",
+            "估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Meta Muse早期下载、定价与分析师收入情景",
+              "url": "https://www.reuters.com/business/wall-street-expects-metas-ai-agent-shape-into-new-revenue-engine-2026-09-22/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-22-am-6",
+          "category": "ai",
+          "title": "Palo Alto推出按年订阅的多模型AI安全服务：从安全需求进入可售产品",
+          "status": "产品已宣布全球销售；定价、客户数量、合同额和收入确认尚未披露",
+          "importance": "中",
+          "body": [
+            "Palo Alto Networks推出Unit 42 Continuous Frontier AI Defense，使用Anthropic Claude Mythos 5、OpenAI GPT-5.6-Cyber及开放权重模型，持续测试企业网页应用、API与云基础设施的漏洞和攻击路径。",
+            "服务提供代码级修复建议与虚拟补丁，采用年度订阅，价格取决于客户选择的模型组合。公司没有披露标价、首批客户、续约率或利润率。",
+            "这是一项正式商业服务，不只是安全倡议；但模型品牌被纳入产品不等于相关模型公司已披露独立收入或长期排他合作。"
+          ],
+          "whyImportant": "分析：近期agent越界与安全事故正在转化为企业可采购的持续评测、攻击模拟和修复服务。多模型组合也表明企业安全层可能独立于单一基础模型，成为新的控制点。",
+          "investmentImpact": "分析：对PANW是新增订阅与Unit 42服务收入机会，也可能强化其平台交叉销售；对OpenAI和Anthropic是企业分发渠道。未来应看合同金额、客户数量、毛利率、模型调用成本和真实漏洞修复效果。没有这些数据前，不把产品发布直接计入明显EPS上修。",
+          "tags": [
+            "PANW",
+            "Unit 42",
+            "网络安全",
+            "AI安全",
+            "OpenAI",
+            "Anthropic",
+            "订阅",
+            "漏洞管理"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Palo Alto推出多模型AI安全订阅服务",
+              "url": "https://www.reuters.com/technology/palo-alto-networks-unveils-ai-powered-cybersecurity-service-using-claude-gpt-2026-09-22/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-22-am-7",
+          "category": "ai",
+          "title": "Apple用高端Mac争夺本地AI计算：降低token成本是卖点，企业份额仍是约束",
+          "status": "新Mac与演示已发布；成本优势、企业采用和云端替代程度尚未独立验证",
+          "importance": "中",
+          "body": [
+            "Apple推出面向企业和AI开发者的高端Mac mini与Mac Studio，最高配置价格可达约2万美元，核心卖点是利用Apple Silicon统一内存在本地运行更大的模型，减少按token付费的云端推理成本。",
+            "公司演示用四台Mac Studio、从一个墙上电源插座供电，运行一个万亿参数模型。该演示没有提供与同等云端GPU在吞吐、延迟、精度、软件适配和总拥有成本上的独立对比。",
+            "Apple在企业桌面市场份额约4.6%，Windows约91.3%。本地AI路线因此首先是小基数的工作站机会，而不是已证明会大规模替代Microsoft、OpenAI、Anthropic或NVIDIA数据中心计算。"
+          ],
+          "whyImportant": "分析：AI成本竞争开始从数据中心GPU延伸到本地工作站。统一内存和能效可能适合隐私敏感、反复推理或模型开发场景，但大规模训练、集中式服务和高并发仍有不同经济性。",
+          "investmentImpact": "分析：对AAPL是提高高端Mac ASP与企业渗透的机会；对MSFT和NVDA是边缘/工作站计算路线的竞争信号，不是数据中心需求立即下降的证据。未来看实际企业部署、软件生态、内存容量、每token成本、能耗及设备利用率，而非只看一次参数规模演示。",
+          "tags": [
+            "AAPL",
+            "Mac Studio",
+            "本地AI",
+            "Apple Silicon",
+            "统一内存",
+            "NVDA",
+            "MSFT",
+            "推理成本"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Apple以新Mac推动本地AI计算",
+              "url": "https://www.reuters.com/business/retail-consumer/with-new-macs-apple-aims-take-microsoft-nvidia-rush-lower-ai-costs-2026-09-22/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-22-am-8",
+          "category": "robot",
+          "title": "Physical AI：今早未核实到新增投资级部署或可靠性指标",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本次检索未确认昨晚截稿后新增、足以改变投资判断的zero-shot generalization、cross-embodiment transfer、触觉/力控与精细操作、robot-data efficiency、人工干预率、连续uptime、硬件BOM或真实付费deployment/design win。",
+            "9月18日发布的RoboHarm机器人安全评测与9月21日报道的约7000台全球人形机器人销量均早于本期时间窗口，且昨晚之前已可获得；本期不把它们重新包装成今早新闻。",
+            "阿里新模型、Meta Muse、Palo Alto安全服务和Apple本地AI都可能影响通用模型或算力生态，但没有披露机器人客户部署、执行器/传感器定点、生产性任务成功率或付费规模。"
+          ],
+          "whyImportant": "分析：没有新指标不等于产业停滞，只意味着今早公开证据没有越过投资门槛。模型参数、下载量、普通演示和安全服务不能替代机器人现场可靠性与单位经济性。",
+          "investmentImpact": "分析：对NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Nabtesco、Harmonic Drive、THK、Nidec等，继续等待独立复现、分任务成功率、人工干预率、uptime、每小时/每任务成本、BOM、独立付费客户和复购。没有这些数据时，不上调零部件订单假设。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "zero-shot",
+            "跨本体",
+            "触觉",
+            "干预率",
+            "uptime",
+            "BOM",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜公开进展入口",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜公开研究入口",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "Google DeepMind｜公开研究入口",
+              "url": "https://deepmind.google/blog/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-22-am-9",
+          "category": "macro",
+          "title": "下一期验证清单：海峡开放、成品油、AI信用与产品转化",
+          "status": "观察清单；不是新增已发生数据",
+          "importance": "中",
+          "body": [
+            "中东与能源：确认美伊是否安排正式会面、伊朗七天提议是否形成书面条件、霍尔木兹船流是否恢复，以及沙特东—西管道和延布装船能否从低速转为稳定运行。联看柴油、航煤、LNG和保险，不能只看Brent。",
+            "美国宏观与信用：等待PCE、就业和工资；跟踪Fed加息定价、两年期/10年期曲线、国债拍卖、期限溢价，以及AI债券115bp利差是否继续扩大。本期没有新的财政或发债政策。",
+            "日本与资金：观察JGB、日元及是否实际干预，并用跨境资金流验证日本收益率上升是否导致资金回流或套息收缩。",
+            "产业：阿里看V900独立基准、量产和客户；Meta看Muse活跃、留存、付费转化与广告净影响；PANW看安全服务合同与毛利率；Apple看本地AI的企业TCO和部署；Trump–Xi会面前继续等待关税、稀土和芯片规则的书面变化；机器人继续要求干预率、uptime、单位成本与付费部署。"
+          ],
+          "whyImportant": "分析：今早最重要的分化是，地缘缓和预期改善资产价格，信用市场却对AI资本开支提高风险补偿；产业发布也从同一时间出现模型规模、下载量、订阅服务和本地计算四种不同证据。",
+          "investmentImpact": "分析：未来1–12个月，宏观上优先看海峡和管道的实际吞吐、成品油、核心通胀、实际收益率、期限溢价与信用利差；产业上优先看产品转化、芯片量产、融资成本和现金流。若油价下跌而AI信用利差继续扩大，高估值科技可能从宏观估值修复转向公司级兑现分化；这不是个股买卖指令。",
+          "tags": [
+            "观察清单",
+            "霍尔木兹",
+            "成品油",
+            "PCE",
+            "美债",
+            "信用利差",
+            "Meta",
+            "阿里",
+            "PANW",
+            "机器人"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜伊朗提议、沙特管道与油价",
+              "url": "https://www.reuters.com/business/energy/oil-rises-slightly-ahead-potential-us-iran-talks-2026-09-22/"
+            },
+            {
+              "title": "Reuters｜AI债券供给与信用利差",
+              "url": "https://www.reuters.com/legal/transactional/corporate-bond-buyers-get-picky-with-flood-ai-debt-2026-09-22/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-09-21-pm",
       "date": "2026-09-21",
       "period": "pm",
