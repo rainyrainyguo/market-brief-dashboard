@@ -4,6 +4,331 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-09-21-pm",
+      "date": "2026-09-21",
+      "period": "pm",
+      "time": "18:55",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-09-21T18:55:57-07:00",
+      "summary": "9 月 21 日晚报｜截至湾区时间 18:55。纳指收涨2.26%并创纪录，SOX涨4.3%，但两年期美债收益率上升、10年期回落，显示估值修复与继续加息预期并存。中期选举压力首次促使关键州共和党参议员候选人公开要求尽快结束伊朗战争并缓解燃油成本；加州同日签署七项数据中心监管法案。AI侧新增OpenAI推动全球技术标准，以及不列颠哥伦比亚省针对安全预警责任提起诉讼。半导体大涨仍缺少新增订单；机器人没有新的投资级量化进展。",
+      "cards": [
+        {
+          "id": "2026-09-21-pm-1",
+          "category": "macro",
+          "title": "纳指创纪录、油价与10年期美债回落；短端利率却继续计入加息",
+          "status": "收盘行情与Fed官员讲话已发生；后续加息仍属市场定价",
+          "importance": "高",
+          "updateNote": "相较早报的盘中快照，本期新增完整收盘、收益率曲线分化，以及Musalem对进一步加息的明确判断。",
+          "body": [
+            "9月21日收盘，纳指涨2.26%至27,122.09，创6月2日以来首次纪录收盘；标普500涨1.49%至7,764.70，道指涨0.71%至52,048.83。标普11个板块中8个上涨，通信服务涨4.16%、信息技术涨2.4%；标普上涨/下跌家数约1.4:1，但纳斯达克新低127家、高于新高64家，说明指数强势仍包含内部差异。",
+            "较晚行情显示，WTI跌4.86%至95.43美元/桶，Brent跌3.62%至100.11美元；10年期美债收益率下降约4.5bp至4.951%，而两年期收益率小升至4.751%。长端回落支持成长股估值，短端坚挺则说明市场没有消除进一步加息预期。",
+            "St. Louis Fed主席Musalem表示，需求与商品冲击共同推高通胀，当前3.75%–4.00%的政策利率仍偏宽松；市场大致给10月加息五成左右概率，并计入到2027年4月最多三次25bp加息。Musalem不是当前FOMC投票委员，这也是个人判断而非委员会承诺。",
+            "美元兑日元升至约157.42；日本此前的汇率询价尚未被确认升级为实际干预，日本假期也降低了现货价格信号的完整性。"
+          ],
+          "whyImportant": "分析：今晚不是简单的全面risk-on，而是油价与长端收益率回落带来估值修复、短端政策路径仍偏鹰。收益率曲线分化说明市场同时交易较低远期增长/通胀风险和更高近期政策约束。",
+          "investmentImpact": "分析：短期链条是原油回落 → 通胀预期与10年期收益率下降 → NVDA、AMD、META等高久期资产估值上修；反向链条是核心需求型通胀偏强 → Fed继续加息 → 两年期与融资成本上升 → 科技股估值和AI项目回报门槛承压。财政赤字、国债供给与期限溢价本期没有新的政策数字，不能用一天10年期收益率下跌证明长期发债压力消失。",
+          "tags": [
+            "美股",
+            "纳指",
+            "原油",
+            "美债",
+            "收益率曲线",
+            "Fed",
+            "Musalem",
+            "日元",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜纳指纪录收盘、板块与市场广度",
+              "url": "https://www.reuters.com/business/wall-st-futures-rise-ai-stocks-gain-oil-prices-slide-2026-09-21/"
+            },
+            {
+              "title": "Reuters｜油价、2年期与10年期美债及日元收盘",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-21/"
+            },
+            {
+              "title": "Reuters｜Musalem称可能仍需进一步加息",
+              "url": "https://www.reuters.com/business/feds-musalem-says-more-rate-hikes-likely-needed-quell-inflation-2026-09-21/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-21-pm-2",
+          "category": "macro",
+          "title": "伊朗战争与燃油成本进入关键州中期选举：候选人转向不等于政策已改变",
+          "status": "候选人公开表态与民调已发布；停战、燃油税暂停和柴油出口限制均未生效",
+          "importance": "高",
+          "body": [
+            "在竞争激烈的密歇根和爱荷华参议员选举中，共和党候选人Mike Rogers与Ashley Hinson公开要求尽快结束伊朗战争；两人此前都支持特朗普对伊朗动武的权限。Hinson还提出暂停汽油税、暂停柴油出口，Rogers也主张暂停州和联邦汽油税并临时停止柴油出口。",
+            "这些是竞选立场，不是国会通过的法案或行政措施。暂停燃油税可能暂时降低终端价格，但会影响交通财政；限制柴油出口可能缓解部分美国供应，却可能推高海外价格和贸易摩擦，实际效果取决于期限、库存和炼化能力。",
+            "Reuters/Ipsos最新调查显示，特朗普总体支持率降至32%，生活成本处理支持率为17%，民主党在国会中期选举偏好上以43%对35%领先共和党。该调查样本为1,277名成年人、误差约3个百分点；它是民意快照，不是选举结果。"
+          ],
+          "whyImportant": "分析：过去几期的战争→柴油→食品/运输通胀链条，已经开始转成候选人立场和潜在政策工具。能源价格不再只是市场变量，也可能影响停战压力、税收、出口政策和国会对总统战争权限的约束。",
+          "investmentImpact": "分析：若政治压力推动停火或修复霍尔木兹/红海运输，原油、柴油、通胀与长端收益率的风险溢价可能下降，利好高估值科技；若仅采取国内燃油税或出口限制而战争延续，美国泵价可能暂时缓和，但全球成品油紧张和财政成本仍在。当前不据候选人转向调整NVDA、AMD或半导体订单判断，也不把民调直接当作政策落地。",
+          "tags": [
+            "伊朗战争",
+            "中期选举",
+            "柴油",
+            "汽油税",
+            "出口限制",
+            "特朗普",
+            "民调",
+            "通胀",
+            "政策风险"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜两名共和党参议员候选人要求尽快结束伊朗战争",
+              "url": "https://www.reuters.com/world/us/two-republican-senate-candidates-call-swift-end-iran-war-diverging-trump-2026-09-21/"
+            },
+            {
+              "title": "Reuters/Ipsos｜特朗普支持率与生活成本民调",
+              "url": "https://www.reuters.com/world/us/trump-approval-falls-career-low-32-high-costs-bite-reutersipsos-poll-finds-2026-09-21/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-21-pm-3",
+          "category": "macro",
+          "title": "AI去杠杆进入金融稳定审查：美英央行据报询问银行对大型交易公司的敞口",
+          "status": "FT报道监管问询；Reuters未独立核实，央行与相关公司未确认",
+          "importance": "高",
+          "body": [
+            "Financial Times据知情人士报道，美联储与英格兰银行正在向全球银行询问其对大型交易公司的敞口、日内风险变化和风控运作。导火索是7月AI与芯片股下跌期间，Situational Awareness基金遭遇保证金压力并向Citadel Securities出售大部分上市股票组合。",
+            "报道估计Jane Street当月因该基金及其他科技资产敞口损失约150亿美元。美国SEC上月还向Goldman Sachs、JPMorgan、Citigroup和Bank of America发出传票，调查该基金的杠杆、触发追加保证金的交易及其与贷款人的沟通。",
+            "Reuters无法立即独立核实本次央行问询；美联储、英格兰银行拒绝置评，Jane Street未立即回应。监管问询不等于银行出现损失、资本不足或新一轮强制平仓。"
+          ],
+          "whyImportant": "分析：AI估值波动可能通过基金杠杆、做市商投资和银行授信放大，而不只停留在股票价格。监管部门关注日内敞口与风控，说明7月事件已从单一基金问题上升为跨机构传染路径审查。",
+          "investmentImpact": "分析：AI/芯片股下跌 → 高杠杆基金追加保证金 → 集中卖出与做市商损失 → 银行缩减授信/提高保证金 → 风险资产流动性收紧。今晚没有新的广泛信用利差或银行资产质量恶化证据，因此不能称为信用危机；但在AMD、NVDA等重新快速上涨时，杠杆和拥挤度是比单日涨幅更重要的尾部风险。",
+          "tags": [
+            "金融稳定",
+            "AI杠杆",
+            "Situational Awareness",
+            "Jane Street",
+            "美联储",
+            "英格兰银行",
+            "SEC",
+            "信用风险",
+            "流动性"
+          ],
+          "sources": [
+            {
+              "title": "Reuters转述FT｜美英央行据报审查银行对交易公司的敞口",
+              "url": "https://www.reuters.com/business/finance/us-fed-boe-step-up-scrutiny-bank-exposure-trading-firms-after-jane-street-loss-2026-09-21/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-21-pm-4",
+          "category": "ai",
+          "title": "加州一次签署七项数据中心法案：电网、水和土地成本开始由项目承担",
+          "status": "七项州法已签署；具体项目成本与迁址反应尚未披露",
+          "importance": "高",
+          "body": [
+            "加州州长Newsom于9月21日签署七项数据中心法案，涉及AB 1577、AB 2383、AB 2469、AB 2619、SB 886、SB 887和SB 1168。要求项目披露电力、水、土地和劳动力信息，并向地方政府和供水机构提供用水、效率、供给及抗旱规划。",
+            "新法要求数据中心承担必要的电网和供水升级成本，防止成本转嫁给普通及低收入电力用户；项目还需遵守州能源采购要求，并在争取司法快速审批前证明符合能源、水和燃料消耗标准。数据中心也不能再笼统依赖环境豁免。",
+            "行业组织警告，规则叠加和不确定性可能把项目推向其他州；目前没有披露META、GOOGL、MSFT、AMZN、ORCL或neocloud已取消、缩减或迁移的具体项目。"
+          ],
+          "whyImportant": "分析：AI基建约束从地方反弹和政策讨论推进到正式州法。GPU需求只有在土地、供电、用水、许可和社区成本都能解决时才会转成可运行算力；加州作为大型科技公司总部和重要数据中心市场，其规则也可能成为其他州参考。",
+          "investmentImpact": "分析：对云厂商和数据中心开发商，潜在影响是更高的前期资本、较长审批和更严格选址，可能压低边际项目回报；对电网升级、清洁电力、水循环和冷却设备链是需求线索。对NVDA、网络和存储供应商不是订单立即减少的证据；未来1–12个月应看具体费率决定、并网计划、项目迁址及谁承担资本成本。",
+          "tags": [
+            "加州",
+            "数据中心",
+            "AI基建",
+            "电网",
+            "水资源",
+            "土地",
+            "监管",
+            "云计算",
+            "资本开支"
+          ],
+          "sources": [
+            {
+              "title": "加州州长办公室｜七项数据中心法案与具体要求",
+              "url": "https://www.gov.ca.gov/2026/09/21/governor-newsom-signs-most-comprehensive-data-center-laws-in-the-nation-providing-communities-more-control-on-water-electricity-and-land-use/"
+            },
+            {
+              "title": "Reuters｜加州签署数据中心监管法案组合",
+              "url": "https://www.reuters.com/legal/litigation/california-governor-signs-broad-data-center-oversight-bill-package-2026-09-21/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-21-pm-5",
+          "category": "ai",
+          "title": "OpenAI推动全球前沿AI技术标准：把“调速”转成测量与事件报告框架",
+          "status": "公司政策倡议已发布；国际标准、美国政策与执行机制尚未形成",
+          "importance": "中",
+          "body": [
+            "OpenAI呼吁美国主导前沿AI全球技术标准，覆盖递归自我改进等高风险能力，并主张建立共同测量方法、事件报告协议，以及相互补充的国家与国际标准。",
+            "公司把“pacing”解释为不是固定放慢速度，而是让安全对齐、评测与防护部署保持在能力增长之前。CEO Sam Altman预计周三在联合国安理会讨论AI与国际安全。",
+            "特朗普政府目前反对普遍放慢研发，担心给予中国追赶空间。OpenAI的倡议也不等于美中刚同意的事件热线已经包含共同模型阈值、训练暂停或芯片规则。"
+          ],
+          "whyImportant": "分析：安全争论正在从“要不要放慢”转向可测量能力、事件披露和跨国技术协议。若形成标准，企业客户与监管机构将更容易比较模型风险；若只停留在倡议层面，则不会自动改变发布节奏或资本开支。",
+          "investmentImpact": "分析：对OpenAI、Anthropic、Google、Meta等，潜在成本来自评测、报告、审计和产品责任；对安全工具与治理服务商可能形成新预算。对NVDA和云算力，倡议本身既不是停训决定，也不是新增订单；未来看美国正式政策、UN后续、标准组织参与及开发商是否披露可复核指标。",
+          "tags": [
+            "OpenAI",
+            "AI安全",
+            "技术标准",
+            "pacing",
+            "事件报告",
+            "递归自我改进",
+            "联合国",
+            "监管"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜OpenAI呼吁美国主导全球AI技术标准",
+              "url": "https://www.reuters.com/legal/government/openai-calls-us-take-lead-global-efforts-develop-technical-standards-2026-09-21/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-21-pm-6",
+          "category": "ai",
+          "title": "不列颠哥伦比亚省起诉OpenAI：安全预警是否触发报告义务成为核心争点",
+          "status": "诉讼已提交；指控尚未获法院裁决，因果关系与法律义务仍待审理",
+          "importance": "高",
+          "body": [
+            "加拿大不列颠哥伦比亚省在旧金山联邦法院起诉OpenAI及Sam Altman，指控公司在今年2月Tumbler Ridge校园枪击案前未对已被安全团队标记的高风险对话采取足够行动。案件造成9人死亡，其中多数为儿童。",
+            "诉状称，涉案用户讨论枪支暴力后账户被停用，但随后注册新账户继续策划；省政府要求赔偿公共恢复成本并改变安全流程。上述内容是原告指控，不是已认定事实。",
+            "OpenAI表示其采取措施防止伤害，并在可信威胁出现时与主管机关合作。案件与30多名受害者家属及佛罗里达州的相关诉讼一道，显示模型安全事件可能转化为民事责任和政府索赔。"
+          ],
+          "whyImportant": "分析：投资变量不只是模型是否能识别危险内容，而是识别后何时必须升级、跨账户关联、保存证据并通知执法。法院若明确更高的注意或报告义务，可能改变整个前沿模型行业的安全运营成本。",
+          "investmentImpact": "分析：对OpenAI是法律、声誉与流程整改风险；对微软等合作方目前没有披露直接财务责任。对行业而言，这可能增加身份与账户风控、人工审核、事件留痕、执法接口和保险需求。诉讼提出不等于OpenAI已承担责任，也不足以证明用户增长或企业采用将立即下降。",
+          "tags": [
+            "OpenAI",
+            "诉讼",
+            "AI安全",
+            "产品责任",
+            "内容安全",
+            "报告义务",
+            "加拿大",
+            "风险管理"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜不列颠哥伦比亚省就校园枪击案起诉OpenAI",
+              "url": "https://www.reuters.com/legal/government/british-columbia-sues-openai-over-tumbler-ridge-school-shooting-2026-09-21/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-21-pm-7",
+          "category": "semi",
+          "title": "SOX收涨4.3%，AMD、Intel和Arm大涨；估值重定价仍快于订单",
+          "status": "收盘价格已发生；本期没有新增客户订单、出货或盈利指引",
+          "importance": "高",
+          "updateNote": "相较早报的盘中数据，本期新增SOX与个股完整收盘；基本面证据仍未同步增加。",
+          "body": [
+            "费城半导体指数收涨4.3%；AMD约涨10%，Intel涨12.2%，Arm涨17%。AMD延续对第二GPU平台、推理CPU和整机系统份额的乐观定价；Intel和Arm的涨幅也显示本次行情并非只集中在单一公司。",
+            "Reuters估算AMD未来12个月市盈率约41倍，明显高于NVIDIA约16.3倍，但仍略低于AMD过去10年约44倍均值。相对估值受到盈利基数、周期位置和增长预期影响，不能只用一个倍数判断便宜或昂贵。",
+            "本次检索未确认早报后新增的GPU、HBM/DRAM、NAND、光互连、晶圆代工或先进封装订单、产能兑现或公司指引。早报的长鑫DRAM量产与台湾先进封装园区也没有新良率、客户或近期产能数据。"
+          ],
+          "whyImportant": "分析：板块大涨反映油债缓和、AI资金回流和对竞争格局的重新定价，但价格信号跑在EPS、出货和毛利率验证之前。纳斯达克新低数仍高于新高数，也提示风险偏好并非毫无分化。",
+          "investmentImpact": "分析：对AMD、INTC、ARM是短期动量和融资条件利好，对NVDA是竞争与相对估值观察项；未来1–12个月仍要看客户资本开支、GPU/CPU出货、软件生态、ASP、良率与毛利率。若短端利率继续上升或AI杠杆重新收缩，高倍数与高拥挤度公司会对任何指引落空更敏感。",
+          "tags": [
+            "SOX",
+            "AMD",
+            "INTC",
+            "ARM",
+            "NVDA",
+            "AI芯片",
+            "估值",
+            "订单",
+            "毛利率"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜半导体指数及AMD、Intel、Arm收盘表现",
+              "url": "https://www.reuters.com/business/wall-st-futures-rise-ai-stocks-gain-oil-prices-slide-2026-09-21/"
+            },
+            {
+              "title": "Reuters｜AMD估值与AI竞争预期",
+              "url": "https://www.reuters.com/business/amd-becomes-latest-chipmaker-reach-1-trillion-valuation-ai-demand-2026-09-21/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-21-pm-8",
+          "category": "robot",
+          "title": "Physical AI：晚间未核实到新增投资级量化进展",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本次检索未确认早报截稿后新增、足以改变判断的zero-shot generalization、cross-embodiment transfer、触觉/力控与精细操作、robot-data efficiency、人工干预率、连续uptime、硬件BOM或真实付费deployment/design win。",
+            "早报已披露的全球约7000台人形机器人销量基线与中国IPO收入质量审查没有新增独立数据，本期不重复。美股AI与半导体上涨、加州数据中心法案和OpenAI标准倡议都不是机器人客户部署或零部件定点。",
+            "持续跟踪Figure、Physical Intelligence与Google DeepMind公开入口；这些入口用于观察，不是“全行业没有进展”的独立证明。"
+          ],
+          "whyImportant": "分析：没有新公开指标不等于研发停滞，只表示晚间信息未达到投资判断门槛。机器人估值最容易把演示、融资和研究采购误写成稳定生产性部署。",
+          "investmentImpact": "分析：对NVDA、ON、ADI、TER、TSLA、Unitree、Nabtesco、Harmonic Drive、THK、Nidec等，继续要求独立复现、分任务成功率、人工干预率、uptime、每小时/每任务成本、BOM、独立付费客户及复购。没有这些数据时，不上调零部件订单假设。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "zero-shot",
+            "跨本体",
+            "触觉",
+            "干预率",
+            "uptime",
+            "BOM",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜公开进展入口",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜公开研究入口",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "Google DeepMind｜公开研究入口",
+              "url": "https://deepmind.google/blog/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-21-pm-9",
+          "category": "macro",
+          "title": "下一期验证清单：PCE与曲线、能源实物、加州执行和AI杠杆",
+          "status": "观察清单；不是新增已发生数据",
+          "importance": "中",
+          "body": [
+            "美国宏观：等待PCE、就业和工资，联看10月与年末加息定价、两年期/10年期曲线、国债拍卖和期限溢价。本期没有新的财政法案、发债计划、广泛信用利差或同口径资金流数据。",
+            "能源与战争：验证WTI/Brent下跌能否传到美国柴油、欧洲航煤、LNG和运输保险；跟踪霍尔木兹船流、延布、船对船转运、卡塔尔修复和美国SPR。观察竞选表态是否变成停战、燃油税或柴油出口政策。",
+            "日本与全球流动性：观察日本复市后的JGB曲线、日元、实际干预与跨境资金流。日本收益率上升 → 资金回流或套息收缩 → 全球风险资产流动性趋紧，仍需数据验证。",
+            "产业与监管：看加州七项法律如何落实到费率、并网、用水和具体项目；OpenAI标准倡议、UN讨论及诉讼是否带来可执行义务；半导体要求订单与盈利验证，机器人继续要求干预率、uptime、单位成本与独立付费部署。"
+          ],
+          "whyImportant": "分析：今晚同时出现风险资产纪录高位、短端利率偏鹰、能源政治化、AI基建正式监管和杠杆审查。价格、竞选表态、签署成法、监管问询与现金流属于不同证据层次。",
+          "investmentImpact": "分析：未来1–12个月，宏观上优先看核心通胀、成品油、实际收益率、期限溢价、信用与中期选举政策；产业上优先看数据中心真实并网成本、AI安全责任、芯片订单和机器人可靠性。若估值继续扩张而融资、监管和订单没有同步改善，回撤对高估值科技和半导体会更敏感；这不是个股买卖指令。",
+          "tags": [
+            "观察清单",
+            "PCE",
+            "美债",
+            "能源",
+            "中期选举",
+            "日元",
+            "数据中心",
+            "AI安全",
+            "半导体",
+            "机器人"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜纳指纪录收盘与利率背景",
+              "url": "https://www.reuters.com/business/wall-st-futures-rise-ai-stocks-gain-oil-prices-slide-2026-09-21/"
+            },
+            {
+              "title": "加州州长办公室｜数据中心法案组合",
+              "url": "https://www.gov.ca.gov/2026/09/21/governor-newsom-signs-most-comprehensive-data-center-laws-in-the-nation-providing-communities-more-control-on-water-electricity-and-land-use/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-09-21-am",
       "date": "2026-09-21",
       "period": "am",
