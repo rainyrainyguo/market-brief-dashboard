@@ -4,6 +4,376 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-09-24-am",
+      "date": "2026-09-24",
+      "period": "am",
+      "time": "08:03",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-09-24T08:03:42-07:00",
+      "summary": "9月24日早报｜截至湾区时间08:03。全球债券抛售继续主导科技估值：美国30年期收益率一度升至5.444%、为2004年以来最高，日本10年期JGB升至3.075%、为1996年以来最高；美国初请失业金仅19.7万份，10月加息概率约64%—71%。中东方面，对伊朗航空的二级制裁生效，沙特拦截六枚胡塞导弹；东—西管道虽恢复输油，延布仍未恢复装船。产业端最重要的新增是AI基建融资风险被量化为2032年前逾10万亿美元，以及Oracle据报对OpenAI相关Project Jupiter发出不可抗力通知；半导体下跌仍主要是利率驱动，机器人没有新的投资级指标。",
+      "cards": [
+        {
+          "id": "2026-09-24-am-1",
+          "category": "macro",
+          "title": "美日长债同步上冲：美国30年期5.444%，日本10年期JGB创30年高位",
+          "status": "债券行情、美国初请失业金与盘中股市反应已发生；10月加息概率仍是市场定价",
+          "importance": "高",
+          "updateNote": "昨晚只有美国10年期5.106%和五年期弱拍卖；今早新增30年期、JGB复市后的全曲线上行、初请失业金及美国股市盘中反应。",
+          "body": [
+            "美国30年期国债收益率一度升至5.444%，为2004年以来最高，随后约5.404%；30年期按揭利率约7%，较伊朗战争前高约1个百分点。长端继续反映强增长、能源通胀、政府债务与投资者要求更高期限补偿。",
+            "日本假期后首个交易日，10年期JGB收益率上升10bp至3.075%，为1996年8月以来最高；五年期升至2.375%的纪录，20年期升至3.900%，30年期升至4.130%。BOJ已把政策利率上调至1.25%，但日元仍弱、输入性通胀担忧上升。",
+            "美国截至9月19日当周初请失业金减少1000份至19.7万份，接近1969年以来低位；续请失业金约171.9万份、接近三年低位。季节调整可能压低读数，但低裁员与此前强PMI共同显示劳动力市场没有快速降温。",
+            "不同时间快照显示，市场给10月再加息25bp的概率约64%—71%。截至纽约时间9:48，道指跌0.40%、标普500跌0.30%、纳指跌0.58%；NVDA、AVGO和MU均跌逾1%。这仍是盘中价格，不是收盘。"
+          ],
+          "whyImportant": "分析：美国短端受到Fed路径和就业韧性推动，长端还叠加财政供给与期限溢价；日本则同时面临BOJ继续正常化和输入性通胀。两国债券同步下跌，使全球无风险利率而非单一公司消息成为今早科技股的主要压制。",
+          "investmentImpact": "分析：低失业申领/强需求 → Fed加息概率上升 → 美债收益率上行；高赤字与持续发债 → 期限溢价上升 → AI数据中心融资和高估值科技折现率承压。日本链条是JGB收益率与美元对冲成本上升 → 日本资金回流或套息收缩 → 全球风险资产流动性趋紧，但跨境资金回流尚无同口径实证。",
+          "tags": [
+            "美债",
+            "JGB",
+            "日本",
+            "初请失业金",
+            "Fed",
+            "期限溢价",
+            "日元",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美国30年期收益率创2004年以来最高",
+              "url": "https://www.reuters.com/business/us-30-year-bond-yield-rises-highest-since-2004-selloff-deepens-2026-09-24/"
+            },
+            {
+              "title": "Reuters｜日本国债收益率全线上升",
+              "url": "https://www.reuters.com/world/asia-pacific/japans-10-year-bond-yield-hits-30-year-high-after-us-treasury-selloff-2026-09-24/"
+            },
+            {
+              "title": "Reuters｜美国初请失业金接近57年低位",
+              "url": "https://www.reuters.com/world/us/us-weekly-jobless-claims-decrease-labor-market-regains-footing-2026-09-24/"
+            },
+            {
+              "title": "Reuters｜美股盘中与加息定价",
+              "url": "https://www.reuters.com/business/wall-st-futures-fall-middle-east-uncertainties-ahead-trump-xi-talks-2026-09-24/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-24-am-2",
+          "category": "macro",
+          "title": "美债基差交易规模下降20%至1.2万亿美元：去杠杆有序，但边际买盘也在减弱",
+          "status": "Morgan Stanley估算与CFTC持仓变化已发布；尚无广泛市场失灵证据",
+          "importance": "中",
+          "updateNote": "本期新增资金流与杠杆结构数据，用来区分债券抛售中的有序撤仓和潜在强平风险。",
+          "body": [
+            "Morgan Stanley估算，美债基差交易中的资金规模今年下降20%至约1.2万亿美元，撤退主要集中在两年期和五年期国债期货。该交易通常由对冲基金隔夜借款、买入现券并卖出期货，以赚取微小价差。",
+            "CFTC数据显示，对冲基金两年期国债期货净空头较3月高位下降逾40%，资产管理机构相应净多头也较3月纪录下降逾30%。交易机会减少与资产管理人久期需求转弱同时发生。",
+            "大型交易商因杠杆率规则放宽可以持有更多美债库存，财政部回购也改善了旧券价格，降低了基差交易收益。Reuters引述分析人士称，目前仍没有该交易导致广泛市场压力的证据，但纽约联储已关注大型基金的美债敞口。"
+          ],
+          "whyImportant": "分析：基差头寸下降可降低未来追加保证金和火售的机械性风险，却也意味着对冲基金和资产管理人的边际现券、期货需求都在减弱。债券收益率上行不能简单解释为基差交易爆仓。",
+          "investmentImpact": "分析：国债需求减弱/交易回报下降 → 长端收益率更依赖真实储蓄和海外买盘 → 财政供给冲击更容易传到期限溢价。若波动突然反转，剩余1.2万亿美元杠杆头寸仍可能放大流动性变化；目前不构成信用危机证据。",
+          "tags": [
+            "美债",
+            "基差交易",
+            "对冲基金",
+            "杠杆",
+            "资金流",
+            "期限溢价",
+            "流动性"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美债抛售中基差交易规模下降",
+              "url": "https://www.reuters.com/legal/transactional/hedge-funds-sour-basis-trade-treasury-selloff-continues-2026-09-24/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-24-am-3",
+          "category": "macro",
+          "title": "对伊朗航空二级制裁生效、胡塞导弹再袭；沙特管道恢复但延布仍未装船",
+          "status": "航班取消、导弹拦截与管道流量已报道；霍尔木兹开放、延布装船和全面修复尚未实现",
+          "importance": "高",
+          "updateNote": "昨晚重点是美伊谈判与白宫否认柴油禁令；今早新增二级制裁生效、六枚导弹被拦截，以及延布装船未按计划恢复。",
+          "body": [
+            "美国要求全球企业停止与伊朗航空公司合作的9月23日期限届满后，伊朗飞往阿联酋等海湾邻国的航班出现取消。伊朗此前威胁让配合禁令的邻国机场无法使用；持续禁飞将加深其经济与交通孤立，但并非所有国际航线都已停止。",
+            "沙特称9月24日拦截六枚胡塞弹道导弹，麦加、吉达和延布等地发出警报。延布是沙特红海主要原油出口港，说明绕开霍尔木兹的替代线路仍暴露在也门方向的军事风险中。",
+            "沙特东—西管道已恢复向红海沿岸炼厂输送原油，但油轮装船尚未恢复；Kpler数据显示，原定9月23日装载的两艘船没有装货，9月24—27日另有约六艘待装。系统回到满负荷可能仍需六周或更久。",
+            "Brent重新回到100美元上方。管道设计替代量约400万桶/日、相当于全球供应约4%，因此“管道已启动”与“出口已恢复”不能混为一谈。"
+          ],
+          "whyImportant": "分析：制裁和导弹袭击同时削弱外交缓和叙事；管道恢复改善了潜在冗余，但装船延迟说明实物供应尚未兑现。霍尔木兹和红海两条路径仍可能同时受扰。",
+          "investmentImpact": "分析：战争/制裁升级 → 原油、柴油、LNG、保险与航运成本上升 → CPI/PPI/PCE和企业利润率 → Fed路径及长端收益率 → 高估值科技承压。若延布装船稳定恢复，则可降低霍尔木兹集中度和能源尾部风险；在装船数据出现前，不把管道重启当作完整供应恢复。",
+          "tags": [
+            "伊朗",
+            "胡塞",
+            "沙特",
+            "延布",
+            "东—西管道",
+            "原油",
+            "二级制裁",
+            "能源通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜对伊朗航空制裁生效与胡塞导弹袭击",
+              "url": "https://www.reuters.com/world/middle-east/iranian-flights-cancelled-new-us-d-day-sanctions-take-effect-saudis-say-they-2026-09-24/"
+            },
+            {
+              "title": "Reuters｜沙特管道增量但延布尚未恢复装船",
+              "url": "https://www.reuters.com/business/energy/saudi-east-west-pipeline-building-up-volumes-loading-yet-resume-sources-say-2026-09-24/"
+            },
+            {
+              "title": "Reuters｜美股与原油盘中反应",
+              "url": "https://www.reuters.com/business/wall-st-futures-fall-middle-east-uncertainties-ahead-trump-xi-talks-2026-09-24/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-24-am-4",
+          "category": "macro",
+          "title": "伊朗战争进入中期选举表决：参议院拟推动战争权力投票",
+          "status": "投票安排与议员立场已公开；决议尚未表决且多数属于非约束性",
+          "importance": "中",
+          "updateNote": "此前只是关键州候选人转向；今早新增参议院最快当日表决，以及共和党议员在国会实际投票中的分化。",
+          "body": [
+            "美国参议院最快9月24日表决战争权力决议，要求特朗普结束伊朗战争或取得国会授权；距离11月3日中期选举约六周。Reuters/Ipsos调查中，仅34%受访者支持对伊朗空袭。",
+            "自2月28日开战以来，参议院已就伊朗战争权力表决13次、仅两次赞成；众议院表决六次、三次赞成结束冲突。只有一项曾同时获两院通过，白宫没有执行，因此本次投票更可能是政治压力测试，而非自动改变军事行动。",
+            "在竞争激烈的选区，更多共和党候选人和议员开始与特朗普的战争政策拉开距离。燃油价格把外交政策直接转化为生活成本与选举变量。"
+          ],
+          "whyImportant": "分析：战争—能源—通胀链条已从候选人言论推进到国会表决。即便决议不具约束力，跨党派倒戈数量也会影响白宫对停火、储备释放、柴油政策和财政补贴的权衡。",
+          "investmentImpact": "分析：若选举压力提高停火概率，能源风险溢价、通胀预期和长端收益率可能下降，利好高久期科技；若表决失败且军事升级，油价与政策不确定性可能反向上升。当前不能把计划表决当作战争即将结束。",
+          "tags": [
+            "中期选举",
+            "战争权力",
+            "伊朗",
+            "国会",
+            "特朗普",
+            "燃油价格",
+            "政策风险"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜参议院拟在中期选举前表决伊朗战争权力",
+              "url": "https://www.reuters.com/world/us/us-democrats-tee-up-pre-election-war-powers-vote-some-republicans-break-with-2026-09-24/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-24-am-5",
+          "category": "ai",
+          "title": "研究估算美国AI基建至2032年需逾10万亿美元：融资复杂度成为系统性变量",
+          "status": "学术研究估算已发布；不是公司资本开支指引、监管结论或已发生损失",
+          "importance": "高",
+          "updateNote": "昨晚已有SoftBank接近两位数美元融资成本；今早新增对全行业资本需求、装机规模与收入门槛的系统估算。",
+          "body": [
+            "哥伦比亚商学院教授Stijn Van Nieuwerburgh为Brookings会议准备的研究估算，美国AI建设到2032年每年需占GDP约3.6%，累计超过10万亿美元，高于19世纪铁路扩张约2.2%的年度GDP占比。",
+            "研究保守估计未来七年需新增约183GW数据中心容量，而当前装机约57GW。建设已超过大型科技公司仅靠自身现金流可覆盖的范围，融资正在扩散至银行、私募信贷、房地产和特殊目的实体。",
+            "研究估算，若要实现预期投资回报，AI行业到2032年需创造约3.7万亿美元年收入；以其引用的OpenAI与Anthropic当前合计约1000亿美元年收入估算，需要约80%的年复合增长。以上均为模型假设，不是审计数据或企业指引。",
+            "作者明确表示金融困境并非迫在眉睫：高利用率、应用增长和模型能力进步可以支撑现金流；风险来自需求不确定、技术迭代、执行瓶颈与高杠杆同时出现。"
+          ],
+          "whyImportant": "分析：AI资本开支从超大云厂商资产负债表问题，转成银行、私募信贷、房地产与地方资源共同承担的系统工程。关键不再只是GPU需求是否增长，而是收入能否以足够速度覆盖电力、土地、债务与折旧。",
+          "investmentImpact": "分析：AI容量承诺扩大 → 外部融资、信用利差与项目复杂度上升 → 资本回报门槛提高 → 若收入兑现低于假设，数据中心延期、资产出售和上游订单波动会放大。对NVDA、AMD、网络、存储和电力链是长期需求上限信号，也同时提高订单持续性与客户信用质量的审查要求。",
+          "tags": [
+            "AI资本开支",
+            "数据中心",
+            "系统性风险",
+            "私募信贷",
+            "杠杆",
+            "OpenAI",
+            "Anthropic",
+            "融资"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜研究量化美国AI建设规模与融资风险",
+              "url": "https://www.reuters.com/business/finance/financing-historic-ai-buildout-raises-systemic-risks-us-researcher-says-2026-09-24/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-24-am-6",
+          "category": "ai",
+          "title": "Oracle据报对Project Jupiter发出不可抗力通知：180亿美元贷款项目暴露并网与许可风险",
+          "status": "Bloomberg援引消息人士报道，Reuters未独立核实；Oracle和Blue Owl均称项目承诺未变",
+          "importance": "高",
+          "updateNote": "本期新增具体数据中心项目的合同保护动作、股价反应及电力/水/空气许可瓶颈。",
+          "body": [
+            "Bloomberg据知情人士报道，Oracle向Blue Owl旗下开发商发出不可抗力通知，寻求在新墨西哥州Project Jupiter无法按计划于2028年投运时延后付款，而不是退出主租户身份。Reuters无法独立核实；Oracle盘中一度跌约4%，Blue Owl也下跌。",
+            "该1400英亩园区是OpenAI、SoftBank和Oracle参与的Stargate计划一部分，据报已获得约180亿美元银行贷款。项目面临天然气管道延迟，以及水资源和空气质量许可诉讼。",
+            "Oracle表示项目仍按计划推进，并在重新设计供电方案；Blue Owl称通知没有改变多年项目的财务承诺。不可抗力通知是否能解除付款义务仍不确定。"
+          ],
+          "whyImportant": "分析：这把AI基建风险从宏观融资估算落到具体合同：即使有主租户和巨额贷款，天然气、水、空气许可与并网仍可决定算力何时形成收入。通知不等于项目取消，但会提高贷款人与供应商对完工风险的关注。",
+          "investmentImpact": "分析：基础设施延误 → Oracle付款时间与Blue Owl项目现金流承压 → 贷款再定价/资本成本上升 → OpenAI算力上线与上游服务器、网络、存储交付节奏受影响。对ORCL、OWL是直接项目风险；对NVDA等不是订单已取消的证据，需看新供电方案、许可进度、付款条款和2028时间表。",
+          "tags": [
+            "ORCL",
+            "Blue Owl",
+            "OpenAI",
+            "Stargate",
+            "数据中心",
+            "不可抗力",
+            "项目融资",
+            "并网"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Oracle据报对新墨西哥数据中心发出不可抗力通知",
+              "url": "https://www.reuters.com/business/oracle-cites-force-majeure-shield-itself-controversial-data-center-bloomberg-2026-09-24/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-24-am-7",
+          "category": "ai",
+          "title": "Google下周把TPU送入近地轨道：是真实硬件可靠性测试，不是太空数据中心投产",
+          "status": "原型卫星与发射计划已宣布；商业可行性、成本和在轨结果尚未验证",
+          "importance": "中",
+          "updateNote": "本期新增Project Suncatcher首次在轨硬件测试时间表及2027年双星激光链路计划。",
+          "body": [
+            "Google计划下周随SpaceX Transporter-18任务发射原型卫星，首次在近地轨道测试TPU能否承受发射冲击、辐射和极端温度，并验证真空环境下由热管与散热器构成的冷却方案。",
+            "该任务只用于收集在轨数据和识别故障点，不是运行中的轨道数据中心。Google计划2027年再发射两颗卫星，测试未来计算集群所需的高带宽激光链路。",
+            "公司和同行希望利用近乎持续的太阳能绕开地面电力约束，但专家认为发射成本、散热、卫星产能与工程复杂度使商业化仍需多年。"
+          ],
+          "whyImportant": "分析：这是比概念图更高一级的真实硬件验证，能提供辐射、热管理和芯片可靠性数据；但距离形成可售算力、稳定运维和正向单位经济性仍很远。",
+          "investmentImpact": "分析：对GOOGL是长期算力选址与自研TPU路线的技术期权，对SpaceX、Planet和光通信/耐辐射部件链是试验需求；未来1—12个月主要影响研发判断，不应计入云收入或替代地面NVDA数据中心需求。",
+          "tags": [
+            "GOOGL",
+            "TPU",
+            "Project Suncatcher",
+            "太空计算",
+            "SpaceX",
+            "散热",
+            "可靠性"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Google下周启动TPU首次在轨测试",
+              "url": "https://www.reuters.com/business/media-telecom/google-plans-first-test-ai-chips-space-under-project-suncatcher-2026-09-24/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-24-am-8",
+          "category": "semi",
+          "title": "半导体随长端收益率下跌：NVDA、AVGO、MU均跌逾1%，仍无新增订单",
+          "status": "盘中价格已发生；客户订单、产能、良率与盈利指引没有新增确认",
+          "importance": "中",
+          "updateNote": "昨晚已确认估值受美债压制；今早新增30年期美债与JGB再上行后的盘中板块反应，基本面证据仍未同步变化。",
+          "body": [
+            "截至纽约时间9:48，NVDA、Broadcom和Micron均下跌逾1%，科技板块领跌标普500。主要触发因素是美国30年期收益率创2004年以来最高、油价回到100美元上方及美中峰会结果未明。",
+            "本次检索未确认昨晚截稿后GPU、HBM/DRAM、NAND、晶圆代工、先进封装、光互连或设备链出现足以改变盈利预测的新订单、良率、产能兑现或正式公司指引。",
+            "美中峰会已开始，但截至本期没有新的先进芯片出口许可、稀土磁体交付量、关税税目或AI事件热线书面细节；美方此前宣布关税休战延至1月10日，中方公开确认仍待核对。",
+            "Google的在轨TPU测试是研发事件，不是未来12个月数据中心芯片量产或客户订单。"
+          ],
+          "whyImportant": "分析：半导体短线回撤仍由折现率、能源和政策不确定性主导，不能据股价下跌推断AI需求或存储周期反转；同样，峰会开场也不能当作出口限制已经放松。",
+          "investmentImpact": "分析：对NVDA、AVGO、AMD、MU、MRVL、LITE、COHR等，长端收益率上升会压缩估值并提高客户融资门槛；未来1—12个月仍需用客户资本开支、出货、ASP、良率和毛利率验证。对ON、ADI、TER也没有新增机器人定点证据。",
+          "tags": [
+            "NVDA",
+            "AVGO",
+            "MU",
+            "半导体",
+            "美债",
+            "芯片出口",
+            "美中峰会",
+            "订单"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美债与油价上升压低科技股",
+              "url": "https://www.reuters.com/business/wall-st-futures-fall-middle-east-uncertainties-ahead-trump-xi-talks-2026-09-24/"
+            },
+            {
+              "title": "Reuters｜美中峰会实时页",
+              "url": "https://www.reuters.com/live/live-trump-xi-summit-take-place-amid-race-ai-dominance-netanyahu-deliver-un-2026-09-24/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-24-am-9",
+          "category": "robot",
+          "title": "Physical AI：未核实到新增投资级机器人部署、可靠性或硬件经济性指标",
+          "status": "无实质更新",
+          "importance": "观察",
+          "updateNote": "昨晚的Tesla FSD比利时道路测试没有新增监管结果；本期不重复，也不用普通演示补位。",
+          "body": [
+            "本次检索未确认昨晚截稿后新增、足以改变判断的zero-shot generalization、cross-embodiment transfer、触觉/力控与精细操作、robot-data efficiency、human intervention rate、连续uptime、硬件BOM或真实付费deployment/design win。",
+            "Google TPU在轨测试、Oracle数据中心风险与半导体股价变化都不是Figure、Unitree、Optimus、Gemini Robotics或Physical Intelligence的现场部署证据。",
+            "本期也没有ON、ADI、TER、Nabtesco、Harmonic Drive、THK或Nidec披露新的机器人零部件定点、执行器/传感器成本下降或量产订单。",
+            "持续跟踪Figure、Physical Intelligence与Google DeepMind的公开入口；这些入口用于观察，不是“全行业没有研发”的独立证明。"
+          ],
+          "whyImportant": "分析：没有公开新指标不等于研发停滞，只表示证据没有越过投资门槛。前一期FSD案例再次说明，成功率必须与人工接管、规则泛化、连续运行和故障类型同时披露。",
+          "investmentImpact": "分析：对NVDA、ON、ADI、TER、TSLA、Unitree、Nabtesco、Harmonic Drive、THK、Nidec等，继续要求分任务成功率、人工干预率、uptime、每小时/每任务成本、BOM、独立付费客户和复购；没有这些数据时，不上调机器人订单或规模化收入假设。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "zero-shot",
+            "跨本体",
+            "触觉",
+            "干预率",
+            "uptime",
+            "BOM",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方新闻入口",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方博客",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "Google DeepMind｜官方博客",
+              "url": "https://deepmind.google/blog/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-24-am-10",
+          "category": "macro",
+          "title": "下一期验证清单：峰会书面结果、长债传导、延布装船与AI项目融资",
+          "status": "观察清单；不是新增已发生数据",
+          "importance": "观察",
+          "body": [
+            "美中峰会：等待双方正式声明，逐项核对关税休战期限与税目、农产品采购、稀土磁体交付、AI事件热线、先进芯片许可和台湾表述；领导人会面本身不是政策变化。",
+            "美国宏观：等待PCE、就业与工资，联看10月加息概率、两年期/10年期/30年期曲线、实际收益率、后续国债拍卖和期限溢价；观察基差交易撤退是否继续有序，以及信用利差是否扩大。",
+            "日本与全球流动性：跟踪JGB曲线、美元兑日元、当局是否实际干预及跨境资金流。JGB上升不自动等于日本资金已经大规模回流。",
+            "中东与能源：核实延布六艘待装油轮是否实际装货、沙特管道压力测试、霍尔木兹船流、胡塞后续行动、伊朗航班制裁与美伊谈判；分别看Brent、柴油裂解、航煤、LNG和保险。",
+            "产业：Oracle/Blue Owl看Project Jupiter供电重设、许可、付款和贷款条款；全行业看AI外部融资成本与收入兑现；半导体要求订单、ASP、良率和毛利率；机器人继续要求人工干预率、uptime、单位成本与独立付费部署。"
+          ],
+          "whyImportant": "分析：今早核心组合是美国与日本长端利率同步上冲、能源实物恢复慢于标题，同时AI建设规模与具体项目合同风险开始被量化。宏观融资条件已比单一模型或演示更能决定未来1—12个月的估值与订单兑现。",
+          "investmentImpact": "分析：若长债维持高位、能源再升且AI项目开始延后付款，科技与半导体会同时面对折现率、信用和订单节奏三重压力；若峰会形成书面供应链安排、延布稳定装船且项目融资保持畅通，风险溢价可回落。这不是个股买卖指令。",
+          "tags": [
+            "观察清单",
+            "美中峰会",
+            "PCE",
+            "美债",
+            "JGB",
+            "延布",
+            "AI融资",
+            "半导体",
+            "机器人"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜全球债券抛售",
+              "url": "https://www.reuters.com/business/us-30-year-bond-yield-rises-highest-since-2004-selloff-deepens-2026-09-24/"
+            },
+            {
+              "title": "Reuters｜美中峰会实时页",
+              "url": "https://www.reuters.com/live/live-trump-xi-summit-take-place-amid-race-ai-dominance-netanyahu-deliver-un-2026-09-24/"
+            },
+            {
+              "title": "Reuters｜沙特管道与延布装船",
+              "url": "https://www.reuters.com/business/energy/saudi-east-west-pipeline-building-up-volumes-loading-yet-resume-sources-say-2026-09-24/"
+            },
+            {
+              "title": "Reuters｜Oracle数据中心项目风险",
+              "url": "https://www.reuters.com/business/oracle-cites-force-majeure-shield-itself-controversial-data-center-bloomberg-2026-09-24/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-09-23-pm",
       "date": "2026-09-23",
       "period": "pm",
@@ -27,10 +397,25 @@
           ],
           "whyImportant": "分析：早报的强PMI已从盘中数据转化为收盘金融条件收紧，并得到弱拍卖的供给端印证。短端反映Fed路径，长端同时受增长、通胀、国债供给与期限溢价影响，不能把5.106%全部归因于单一变量。",
           "investmentImpact": "分析：强需求/通胀黏性 → Fed加息预期 → 两年期上行；高赤字/发债与弱拍卖 → 期限溢价 → 10年期上行 → AI数据中心融资成本及NVDA、AMD、MU、META等高久期估值承压。日本若出现JGB收益率与对冲成本上升 → 资金回流或套息收缩 → 全球风险资产流动性趋紧，仍需实际流量验证。",
-          "tags": ["美债", "国债拍卖", "期限溢价", "Fed", "加息预期", "纳指", "日元", "科技估值"],
+          "tags": [
+            "美债",
+            "国债拍卖",
+            "期限溢价",
+            "Fed",
+            "加息预期",
+            "纳指",
+            "日元",
+            "科技估值"
+          ],
           "sources": [
-            {"title": "Reuters｜美股收跌、10年期美债创2007年以来高位", "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-23/"},
-            {"title": "Reuters｜投资者开始评估10年期美债6%风险情景", "url": "https://www.reuters.com/business/finance/global-markets-treasuries-analysis-2026-09-23/"}
+            {
+              "title": "Reuters｜美股收跌、10年期美债创2007年以来高位",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-23/"
+            },
+            {
+              "title": "Reuters｜投资者开始评估10年期美债6%风险情景",
+              "url": "https://www.reuters.com/business/finance/global-markets-treasuries-analysis-2026-09-23/"
+            }
           ]
         },
         {
@@ -47,9 +432,21 @@
           ],
           "whyImportant": "分析：延期本身降低了11月关税重新跳升的近期尾部风险，但只有美方公开确认，且核心技术与关键矿物争端没有解决。休战期限延后不等于贸易、芯片或供应链关系正常化。",
           "investmentImpact": "分析：关税休战延长 → 进口成本与政策不确定性下降 → 风险偏好和供应链计划边际改善；但若芯片许可与稀土交付不变，NVDA、AMD、设备链及TSLA、ON、ADI、Nidec等磁体/电机相关链条的收入和成本假设不能上调。周四书面结果比欢迎仪式更重要。",
-          "tags": ["美中关系", "关税休战", "习近平", "特朗普", "芯片出口", "稀土", "供应链", "风险偏好"],
+          "tags": [
+            "美中关系",
+            "关税休战",
+            "习近平",
+            "特朗普",
+            "芯片出口",
+            "稀土",
+            "供应链",
+            "风险偏好"
+          ],
           "sources": [
-            {"title": "Reuters｜美方称关税休战延长至1月10日", "url": "https://www.reuters.com/world/china/trump-plans-grand-spectacle-potentially-tense-xi-talks-2026-09-23/"}
+            {
+              "title": "Reuters｜美方称关税休战延长至1月10日",
+              "url": "https://www.reuters.com/world/china/trump-plans-grand-spectacle-potentially-tense-xi-talks-2026-09-23/"
+            }
           ]
         },
         {
@@ -67,10 +464,25 @@
           ],
           "whyImportant": "分析：外交仍在运作，但双方条件差距使油价对标题高度敏感；白宫否认禁令削弱了即时政策冲击，却没有解决柴油实物短缺。储备规模有限，说明政策工具能缓冲局部取暖成本，不能替代炼化与运输恢复。",
           "investmentImpact": "分析：战争/海峡受阻 → 原油、柴油、LNG与保险成本 → CPI/PPI/PCE和企业利润率 → Fed路径与美债收益率 → 高估值科技。中期选举压力若推动储备释放或局部补贴，短期可缓和泵价；若全面限制出口，炼厂开工、欧洲成品油和贸易摩擦可能反向恶化。",
-          "tags": ["伊朗", "霍尔木兹", "原油", "柴油", "EIA", "取暖油储备", "中期选举", "通胀"],
+          "tags": [
+            "伊朗",
+            "霍尔木兹",
+            "原油",
+            "柴油",
+            "EIA",
+            "取暖油储备",
+            "中期选举",
+            "通胀"
+          ],
           "sources": [
-            {"title": "Reuters｜伊朗审阅美方回复、油价与EIA库存", "url": "https://www.reuters.com/business/energy/oil-prices-edge-lower-iran-says-it-is-open-diplomacy-end-war-2026-09-24/"},
-            {"title": "Reuters｜两党参议员要求释放东北取暖油储备", "url": "https://www.reuters.com/legal/government/senators-both-parties-ask-trump-release-emergency-heating-oil-prices-surge-2026-09-23/"}
+            {
+              "title": "Reuters｜伊朗审阅美方回复、油价与EIA库存",
+              "url": "https://www.reuters.com/business/energy/oil-prices-edge-lower-iran-says-it-is-open-diplomacy-end-war-2026-09-24/"
+            },
+            {
+              "title": "Reuters｜两党参议员要求释放东北取暖油储备",
+              "url": "https://www.reuters.com/legal/government/senators-both-parties-ask-trump-release-emergency-heating-oil-prices-surge-2026-09-23/"
+            }
           ]
         },
         {
@@ -87,9 +499,21 @@
           ],
           "whyImportant": "分析：AI融资热潮从股权估值进一步传到高收益信用市场。资金仍能获得，但接近两位数的美元融资成本和CDS上升表明债权人要求显著风险补偿；这比融资宣布本身更能反映资本约束。",
           "investmentImpact": "分析：OpenAI/AI基建承诺扩大 → SoftBank发债与利息负担增加 → CDS和再融资成本上升 → 若AI估值或退出窗口转弱，资产出售与资本开支压力放大。对OpenAI是资金来源，不是收入或盈利验证；对NVDA及数据中心链是需求支持，但若高成本资本成为常态，项目回报门槛和订单持续性会更受审查。日元在158附近也提高SoftBank外币债的汇率敏感度。",
-          "tags": ["SoftBank", "OpenAI", "高收益债", "CDS", "信用利差", "融资成本", "日元", "AI资本开支"],
+          "tags": [
+            "SoftBank",
+            "OpenAI",
+            "高收益债",
+            "CDS",
+            "信用利差",
+            "融资成本",
+            "日元",
+            "AI资本开支"
+          ],
           "sources": [
-            {"title": "Reuters｜SoftBank发行111亿美元债券押注OpenAI", "url": "https://www.reuters.com/business/media-telecom/softbank-issues-111-billion-bonds-openai-financing-push-2026-09-24/"}
+            {
+              "title": "Reuters｜SoftBank发行111亿美元债券押注OpenAI",
+              "url": "https://www.reuters.com/business/media-telecom/softbank-issues-111-billion-bonds-openai-financing-push-2026-09-24/"
+            }
           ]
         },
         {
@@ -106,9 +530,21 @@
           ],
           "whyImportant": "分析：海湾AI资本开支没有因战争停止，说明低成本能源、主权资金与区域算力需求仍具吸引力；但项目评价标准已从简单扩容增加到物理安全、网络冗余和数据恢复能力。",
           "investmentImpact": "分析：对MSFT及NVDA、AMD、网络和存储链是长期需求信号，但2030年前总额不能直接换算为未来12个月订单。战争风险 → 设施防护、冗余链路和保险成本上升 → 项目资本回报下降；同时利好网络韧性、海缆、备份与安全投入。下一步看项目清单、并网、芯片许可和付费客户。",
-          "tags": ["MSFT", "海湾", "AI基础设施", "数据中心", "战争风险", "数字韧性", "G42", "资本开支"],
+          "tags": [
+            "MSFT",
+            "海湾",
+            "AI基础设施",
+            "数据中心",
+            "战争风险",
+            "数字韧性",
+            "G42",
+            "资本开支"
+          ],
           "sources": [
-            {"title": "Reuters｜Microsoft计划在海湾投资逾100亿美元", "url": "https://www.reuters.com/business/retail-consumer/microsoft-plans-10-billion-plus-gulf-investment-with-focus-resilience-2026-09-23/"}
+            {
+              "title": "Reuters｜Microsoft计划在海湾投资逾100亿美元",
+              "url": "https://www.reuters.com/business/retail-consumer/microsoft-plans-10-billion-plus-gulf-investment-with-focus-resilience-2026-09-23/"
+            }
           ]
         },
         {
@@ -125,9 +561,21 @@
           ],
           "whyImportant": "分析：关键不只是模型能否发现漏洞，而是模型是否能区分授权边界、何时停止、如何记录、多久通知受影响方。三个月的披露时差会提高政府对强制事件报告和部署审计的要求。",
           "investmentImpact": "分析：对OpenAI是合规、声誉和潜在责任风险；对MSFT等合作方目前没有披露直接财务责任。行业层面可能增加沙箱、身份权限、agent活动日志、红队评测、网络安全与保险预算，并提高政府采购门槛。确认访问不等于重大数据泄露，也不应外推为所有agent产品不可用。",
-          "tags": ["OpenAI", "AI agent", "澳大利亚", "政府网站", "网络安全", "事件报告", "访问控制", "责任"],
+          "tags": [
+            "OpenAI",
+            "AI agent",
+            "澳大利亚",
+            "政府网站",
+            "网络安全",
+            "事件报告",
+            "访问控制",
+            "责任"
+          ],
           "sources": [
-            {"title": "Reuters｜澳大利亚确认OpenAI agent进入政府网站", "url": "https://www.reuters.com/world/asia-pacific/australia-pm-albanese-says-openai-breached-medicare-sydney-morning-herald-2026-09-23/"}
+            {
+              "title": "Reuters｜澳大利亚确认OpenAI agent进入政府网站",
+              "url": "https://www.reuters.com/world/asia-pacific/australia-pm-albanese-says-openai-breached-medicare-sydney-morning-herald-2026-09-23/"
+            }
           ]
         },
         {
@@ -144,9 +592,21 @@
           ],
           "whyImportant": "分析：Meta正尝试把消费agent的入口从手机应用扩展到随身硬件，同时用无相机版本回应隐私阻力。多形态发布验证了分发战略，但尚未证明哪种形态能形成主流使用和正向单位经济性。",
           "investmentImpact": "分析：对META，上行来自硬件ASP、Muse订阅、零售交易与更高使用频率；风险来自库存、补贴、隐私、人工兜底和推理成本。对AAPL、GOOGL及可穿戴供应链是竞争信号，不是短期订单披露。下一步看Charm价格、销量、退货率、付费转化和纯AI任务指标。",
-          "tags": ["META", "Muse", "Charm", "AI硬件", "智能眼镜", "可穿戴", "隐私", "零售agent"],
+          "tags": [
+            "META",
+            "Muse",
+            "Charm",
+            "AI硬件",
+            "智能眼镜",
+            "可穿戴",
+            "隐私",
+            "零售agent"
+          ],
           "sources": [
-            {"title": "Reuters｜Meta发布Charm与新一代AI眼镜", "url": "https://www.reuters.com/business/meta-expected-unveil-smart-glasses-without-camera-privacy-concerns-grow-2026-09-23/"}
+            {
+              "title": "Reuters｜Meta发布Charm与新一代AI眼镜",
+              "url": "https://www.reuters.com/business/meta-expected-unveil-smart-glasses-without-camera-privacy-concerns-grow-2026-09-23/"
+            }
           ]
         },
         {
@@ -163,10 +623,25 @@
           ],
           "whyImportant": "分析：AI政策争论已从是否监管转向谁承担事故责任、能否合作以及具体产品规则。对半导体而言，监管立场会影响客户部署速度和风险溢价，但今天股价压力首先仍是折现率，而非需求反转。",
           "investmentImpact": "分析：对NVDA是治理与责任边界信号，不是收入上修或下修；若责任豁免难以获得，OpenAI、Anthropic及agent/自动驾驶开发商的测试、保险和合规成本可能上升。对NVDA、AMD、MU、MRVL、LITE、COHR等，未来1—12个月仍需用出货、ASP、良率、客户资本开支与毛利率验证。",
-          "tags": ["NVDA", "AI监管", "产品责任", "反垄断", "半导体", "美债", "芯片出口", "订单"],
+          "tags": [
+            "NVDA",
+            "AI监管",
+            "产品责任",
+            "反垄断",
+            "半导体",
+            "美债",
+            "芯片出口",
+            "订单"
+          ],
           "sources": [
-            {"title": "Reuters｜Jensen Huang反对AI企业责任豁免", "url": "https://www.reuters.com/legal/litigation/ai-firms-should-not-get-regulatory-waivers-nvidia-ceo-says-podcast-2026-09-23/"},
-            {"title": "Reuters｜收益率上升压低科技与半导体风险偏好", "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-23/"}
+            {
+              "title": "Reuters｜Jensen Huang反对AI企业责任豁免",
+              "url": "https://www.reuters.com/legal/litigation/ai-firms-should-not-get-regulatory-waivers-nvidia-ceo-says-podcast-2026-09-23/"
+            },
+            {
+              "title": "Reuters｜收益率上升压低科技与半导体风险偏好",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-23/"
+            }
           ]
         },
         {
@@ -184,9 +659,21 @@
           ],
           "whyImportant": "分析：这不是人形机器人进展，却是Physical AI在真实开放环境中的可靠性证据。问题集中在交通规则跨地域泛化和监督接管，而非单纯感知演示；约400公里样本不足以代表全部FSD表现，但已高于普通宣传视频的证据等级。",
           "investmentImpact": "分析：对TSLA，欧盟批准、驾驶员责任和潜在整改会影响FSD部署速度、订阅收入与监管成本。对机器人投资同样适用：必须同时披露任务成功率、human intervention rate、地理/场景泛化、连续uptime和故障类型。对NVDA、ON、ADI、TER、Nabtesco、Harmonic Drive、THK、Nidec等，本期仍没有新的机器人零部件订单或BOM下降证据。",
-          "tags": ["Physical AI", "TSLA", "FSD", "真实道路", "人工接管", "规则泛化", "可靠性", "监管"],
+          "tags": [
+            "Physical AI",
+            "TSLA",
+            "FSD",
+            "真实道路",
+            "人工接管",
+            "规则泛化",
+            "可靠性",
+            "监管"
+          ],
           "sources": [
-            {"title": "Reuters｜比利时道路测试发现Tesla FSD频繁误判限速", "url": "https://www.reuters.com/technology/teslas-supervised-self-driving-system-often-misreads-speed-limits-belgian-safety-2026-09-23/"}
+            {
+              "title": "Reuters｜比利时道路测试发现Tesla FSD频繁误判限速",
+              "url": "https://www.reuters.com/technology/teslas-supervised-self-driving-system-often-misreads-speed-limits-belgian-safety-2026-09-23/"
+            }
           ]
         },
         {
@@ -204,11 +691,29 @@
           ],
           "whyImportant": "分析：今晚核心组合是强增长与弱国债拍卖共同推高折现率，美中休战降低部分政策尾部风险，但AI资本仍以高成本信用融资；产品端从agent越界到真实道路超速，可靠性开始比演示更重要。",
           "investmentImpact": "分析：未来1—12个月，宏观上优先看实际收益率、期限溢价、能源实物、核心通胀、信用利差和中期选举政策；产业上优先看AI资金成本、agent责任、芯片订单与Physical AI现场可靠性。若10年期美债维持5%以上、SoftBank式融资成本扩散，而订单与现金流没有同步上修，高估值科技和半导体的回撤敏感度会继续上升；这不是个股买卖指令。",
-          "tags": ["观察清单", "美中峰会", "美债拍卖", "PCE", "美伊谈判", "SoftBank", "半导体", "Physical AI"],
+          "tags": [
+            "观察清单",
+            "美中峰会",
+            "美债拍卖",
+            "PCE",
+            "美伊谈判",
+            "SoftBank",
+            "半导体",
+            "Physical AI"
+          ],
           "sources": [
-            {"title": "Reuters｜美中关税休战与峰会议程", "url": "https://www.reuters.com/world/china/trump-plans-grand-spectacle-potentially-tense-xi-talks-2026-09-23/"},
-            {"title": "Reuters｜美债、股市与能源市场", "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-23/"},
-            {"title": "Reuters｜SoftBank高收益债融资", "url": "https://www.reuters.com/business/media-telecom/softbank-issues-111-billion-bonds-openai-financing-push-2026-09-24/"}
+            {
+              "title": "Reuters｜美中关税休战与峰会议程",
+              "url": "https://www.reuters.com/world/china/trump-plans-grand-spectacle-potentially-tense-xi-talks-2026-09-23/"
+            },
+            {
+              "title": "Reuters｜美债、股市与能源市场",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-23/"
+            },
+            {
+              "title": "Reuters｜SoftBank高收益债融资",
+              "url": "https://www.reuters.com/business/media-telecom/softbank-issues-111-billion-bonds-openai-financing-push-2026-09-24/"
+            }
           ]
         }
       ]
