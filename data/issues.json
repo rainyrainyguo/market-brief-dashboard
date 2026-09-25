@@ -4,6 +4,354 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-09-25-am",
+      "date": "2026-09-25",
+      "period": "am",
+      "time": "07:55",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-09-25T07:55:29-07:00",
+      "summary": "9月25日早报｜截至湾区时间07:55。美国8月核心资本品订单环比增长1.6%、显著强于预期，密歇根大学一年通胀预期却升至4.6%；10月加息概率仍在约三分之二，10年期美债约5.1%。美国股票基金五周来首次净流入且高度集中于大型股和科技。中东正探索分阶段停火，但尚无协议；Brent与WTI价差扩大、美国柴油创纪录，显示自愿限制出口可能反而压低炼厂开工。美中贸易细节推迟至周一公布，高端芯片明确不在本轮安排内。产业端，Akamai与Anthropic签下七年116亿美元云合同并授权约17亿美元内存采购，是本期最强的付费算力需求证据；数据中心融资则进入更严格的客户、供电和担保审查。Physical AI方面，英国开放超过600万条战场无人系统检测数据，Tesla欧洲FSD表决至少推迟到12月。",
+      "cards": [
+        {
+          "id": "2026-09-25-am-1",
+          "category": "macro",
+          "title": "资本品订单大增、消费者通胀预期升至4.6%：Fed约三分之二加息定价未退",
+          "status": "美国资本品订单和密歇根大学调查已发布；10月加息概率属于市场定价，PCE、就业与工资数据尚未更新",
+          "importance": "高",
+          "updateNote": "昨晚只有长端收益率与股市收盘；今早新增企业设备投资、消费者通胀预期、盘中市场和周度资金流证据。",
+          "body": [
+            "美国8月不含飞机的非国防资本品订单环比增长1.6%，高于市场预期的0.5%；7月增幅由零上修至0.6%。核心资本品出货增长0.6%，订单同比增长10.6%。其中电气设备环比增长1.1%，计算机增长1.5%、同比增长20.1%，通信设备同比增长35.8%。这是企业投资和AI相关设备需求信号，不是消费、通胀或GDP终值。",
+            "密歇根大学9月消费者信心终值降至48.1，低于8月的51.7、较1月低15%；一年通胀预期由4.0%升至4.6%，五年预期由3.3%升至3.4%。调查预期不是已经实现的CPI/PCE，但会影响工资、消费和Fed对通胀心理的判断。",
+            "截至Reuters市场快照，道指涨0.44%、标普500涨0.29%、纳指涨0.41%，科技板块约涨1%，而11个标普行业中8个下跌；10年期美债约5.1%，市场给10月加息约64%—69%概率。指数反弹与市场宽度偏弱并存。",
+            "截至9月25日当周，美国股票基金净流入376亿美元，为五周来首次、也是6月17日以来最大；大型股净流入366亿美元、科技基金净流入48.9亿美元，小盘和中盘基金仍净流出。债券基金净流入59.3亿美元、货币基金约110亿美元，显示资金并非全面追逐风险，而是集中在大型AI与流动性资产。"
+          ],
+          "whyImportant": "分析：企业设备投资强、消费者信心弱且通胀预期升高，构成增长来源集中而通胀风险未退的组合。强资本开支支撑AI订单和短期GDP，却也让Fed更难迅速放松；资金流入大型科技说明投资者仍买增长，但市场宽度和长端利率都限制估值扩张。",
+          "investmentImpact": "分析：设备投资/就业韧性与通胀预期上升 → Fed加息概率维持高位 → 两年期和实际利率偏高；财政供给与期限补偿 → 10年期/30年期维持高位 → AI项目融资成本及高估值科技终值承压。股票资金集中流入大型AI → 短期支撑NVDA、MSFT、MU等动量，但若订单或现金流不及预期，拥挤交易会放大回撤。本期没有新的CPI、PPI、PCE、正式就业或工资数据，也没有新的财政法案、赤字或发债计划；日本方面也没有新增实际干预或跨境资金回流证据。",
+          "tags": [
+            "美国资本品",
+            "消费者信心",
+            "通胀预期",
+            "Fed",
+            "美债",
+            "资金流",
+            "AI资本开支",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美国核心资本品订单8月大幅增长",
+              "url": "https://www.reuters.com/business/us-core-capital-goods-orders-surge-august-2026-09-25/"
+            },
+            {
+              "title": "Reuters｜美国消费者信心与通胀预期",
+              "url": "https://www.reuters.com/world/us/us-consumer-sentiment-eases-four-month-low-september-2026-09-25/"
+            },
+            {
+              "title": "Reuters｜美股盘中、收益率与加息定价",
+              "url": "https://www.reuters.com/business/wall-st-futures-gain-ai-enthusiasm-eases-worries-over-higher-oil-prices-yields-2026-09-25/"
+            },
+            {
+              "title": "Reuters｜美国股票基金五周来首次净流入",
+              "url": "https://www.reuters.com/business/us-equity-funds-post-first-inflow-five-weeks-renewed-ai-optimism-2026-09-25/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-25-am-2",
+          "category": "macro",
+          "title": "美伊分阶段停火仍在探索；Brent—WTI价差扩大暴露柴油干预副作用",
+          "status": "停火路径由接近谈判人士披露，尚无协议；油价、柴油和航运报价已发生，自愿减出口仍非强制政策",
+          "importance": "高",
+          "updateNote": "昨晚国会决议失败、政府仅要求柴油企业自愿减量；今早新增分阶段停火方案、Brent—WTI价差和炼厂减产风险的量化。",
+          "body": [
+            "接近谈判人士称，美伊正在探索分阶段安排：伊朗重开霍尔木兹，美国解除海上封锁，随后推进更广泛停火。该路径尚未形成书面协议，也没有确认海峡、沙特延布装船或卡塔尔LNG已恢复正常；自2月以来，约五分之一全球油气运输仍受到限制。",
+            "截至1215 GMT，Brent跌1.3%至105.26美元/桶，WTI跌1.9%至92.78美元；Brent本周仍涨约1.5%，WTI却跌约7.4%。Brent相对WTI溢价一度达到12.83美元，为5月以来最大，说明全球供应风险与美国本土政策扭曲方向不同。",
+            "美国超低硫柴油期货约6.528美元/加仑、处纪录高位。美国净柴油出口约120万桶/日、产量约510万桶/日；分析师估算，若全面出口禁令导致储罐约一个月内填满，炼厂原油加工量可能下降逾200万桶/日、约12%，进而减少汽油和航煤供应。",
+            "能源部长已联系大型炼厂要求自愿限制柴油出口，但没有强制配额、期限或企业承诺。墨西哥湾至亚洲VLCC运费据报已由战前约1600万美元升至约5000万美元，美国原油出口三个月均值可能降至战前以来最低；这些物流成本不会因屏幕油价单日下跌而立即消失。"
+          ],
+          "whyImportant": "分析：外交预期压低边际原油风险溢价，但炼化、储运和政策干预令成品油与地区价差恶化。若以限制出口压低美国柴油价格，可能通过炼厂减产反推汽油、航煤和欧洲柴油价格，形成新的通胀路径。",
+          "investmentImpact": "分析：分阶段停火/海峡开放 → 原油、LNG、运费与保险下降 → CPI/PPI/PCE和长端收益率压力缓和 → 高估值科技受益。反向链条是战争延续或柴油干预 → 炼厂开工下降、成品油短缺与贸易摩擦 → 通胀预期/Fed路径/美债收益率上升 → 科技估值和数据中心运营成本承压。当前应分别看Brent、WTI、柴油、航煤、LNG和实际船流，不能用单一油价宣布能源冲击结束。",
+          "tags": [
+            "伊朗",
+            "霍尔木兹",
+            "停火",
+            "Brent",
+            "WTI",
+            "柴油",
+            "炼厂",
+            "航运",
+            "能源通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美伊探索分阶段安排、油价回落",
+              "url": "https://www.reuters.com/business/energy/oil-prices-fall-markets-look-iran-truce-remain-wary-attacks-oil-facilities-2026-09-25/"
+            },
+            {
+              "title": "Reuters｜柴油出口讨论扩大Brent—WTI价差",
+              "url": "https://www.reuters.com/business/energy/talk-us-export-ban-diesel-deepens-us-crude-futures-discount-global-benchmark-2026-09-25/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-25-am-3",
+          "category": "macro",
+          "title": "美中贸易细节推迟至周一；高端芯片明确不在本轮安排内",
+          "status": "USTR已说明公布时间与高端芯片排除范围；完整税目、稀土交付和执行文本仍未发布",
+          "importance": "高",
+          "updateNote": "昨晚峰会只有沟通表述；今早新增USTR对公布时间、部分商品豁免方向及高端芯片范围的说明。",
+          "body": [
+            "美国贸易代表Greer表示，美中谈判细节将于周一公布。财政部长Bessent重申关税休战延长至2027年1月10日，但截至本期仍没有可逐项核对的完整税目、配额和执行文件。",
+            "Greer称双方同意让部分关键商品免受未来贸易争端影响：美国方向包括农业和医疗设备，中国方向包括消费品和非敏感商品。具体清单、数量、起始日及中方对应文本仍待公布，因此目前只能视为美方口径。",
+            "需要许可证的高质量、高端美国芯片明确不在本轮谈判范围，Greer称其为美国的“王冠上的宝石”。截至截稿，没有NVIDIA、AMD或半导体设备的新出口许可，也没有稀土磁体交付数量。"
+          ],
+          "whyImportant": "分析：峰会后最关键的新增并非广泛贸易突破，而是把高端芯片从本轮安排中明确排除。关税休战可降低一般商品的近期尾部风险，但AI算力和先进制造的战略边界没有放松。",
+          "investmentImpact": "分析：部分商品豁免/休战延期 → 一般进口成本和供应链不确定性边际下降；高端芯片继续受许可约束 → NVDA、AMD及设备链的中国收入假设不能上调。对TSLA、ON、ADI、Nidec及机器人电机/磁体链，只有周一出现稀土税目、配额和交付数据后，才可调整成本与产能判断。",
+          "tags": [
+            "美中贸易",
+            "关税休战",
+            "USTR",
+            "高端芯片",
+            "出口许可",
+            "稀土",
+            "NVDA",
+            "AMD"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美中贸易细节周一公布，高端芯片不在谈判范围",
+              "url": "https://www.reuters.com/world/china/details-us-china-trade-talks-come-monday-says-greer-2026-09-25/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-25-am-4",
+          "category": "ai",
+          "title": "Akamai与Anthropic签下七年116亿美元云合同：付费算力需求得到实证",
+          "status": "合同、认股权与资本开支授权已披露；收入确认节奏、利用率和最终回报尚未兑现",
+          "importance": "高",
+          "updateNote": "这是昨晚后新增的具体多年付费合同与资本开支安排，比模型发布或长期容量目标更接近可验证现金流。",
+          "body": [
+            "Akamai与Anthropic签署七年、总额116亿美元的云服务合同。Anthropic还将获得最多相当于Akamai 5%股权的认股权：约2%与初始承诺相关，另约3%取决于未来增加90亿美元支出。",
+            "Akamai预计为初始部署投入约55亿美元资本开支，并把2026年资本开支计划增加17亿美元，用于预购包括内存在内的组件；公司授权Jabil采购约17亿美元内存部件。",
+            "Akamai尚未把该合同计入当前全年收入预测，也没有披露逐年收入、容量上线、利用率、毛利率或Anthropic的最低使用量。合同金额因此不能等同于已经确认的收入或自由现金流。"
+          ],
+          "whyImportant": "分析：与远期AI基建愿景不同，这是明确期限、金额、资本开支和股权激励的付费算力合同，证明前沿模型公司正在把需求转化为第三方云采购；同时也把执行和客户集中风险转移到Akamai资产负债表。",
+          "investmentImpact": "分析：对AKAM是多年收入与云平台扩张机会，但55亿美元初始资本开支、利用率和单一客户信用会决定回报；对ANTHROPIC是算力保障，不是盈利证明。对JBL及内存、服务器、网络供应链是实质需求线索；对NVDA等仍未披露具体加速器供应商或订单。若Anthropic增长低于合同假设，Akamai折旧、融资与剩余容量风险会上升。",
+          "tags": [
+            "Akamai",
+            "Anthropic",
+            "云计算",
+            "116亿美元",
+            "资本开支",
+            "Jabil",
+            "内存",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Akamai与Anthropic签署116亿美元云服务合同",
+              "url": "https://www.reuters.com/technology/akamai-anthropic-sign-116-billion-cloud-services-deal-2026-09-24/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-25-am-5",
+          "category": "ai",
+          "title": "数据中心IPO与项目融资开始分化，Fed官员提出“太大而不能倒”问题",
+          "status": "IPO筹备、项目担保与Fed官员讲话已报道；估值、上市时间、系统性结论和救助政策均未形成",
+          "importance": "高",
+          "updateNote": "昨晚聚焦电网资金；今早新增融资市场对供电、客户集中和担保结构的具体审查，以及Fed官员的系统性风险提问。",
+          "body": [
+            "DayOne据报计划10月中旬路演、11月上市，可能寻求最高50亿美元融资和约200亿美元估值；公司称已有2.1GW预订。上市时间和估值仍可能变化。相较之下，SB Energy的IPO据报因SEC问询、估值和客户集中担忧而延后，原拟估值约600亿美元。",
+            "投资者正要求项目披露已通电或有合同保障的容量、客户质量以及take-or-pay条款。报道还称，NVIDIA为OpenAI在俄亥俄州数据中心租约提供最高1050亿美元担保并投入15亿美元；担保是需求与信用支持，也把关联风险集中到芯片供应商。",
+            "堪萨斯城联储主席Schmid表示，需要了解AI与数据中心企业、合同和融资网络是否正变得“太大而不能倒”。这是风险问题和监管观察，不是Fed认定存在系统性危机，更不是救助承诺。",
+            "昨晚已披露的Oracle/Blue Owl Project Jupiter又有后续分析称项目可能延迟约一年，Blue Owl股权投入约30亿美元；报道估算AI建设到2028年需约1.5万亿美元外部融资。Oracle和Blue Owl仍称承诺未变，延迟与融资估算都不等于订单已取消。"
+          ],
+          "whyImportant": "分析：AI基础设施资本市场正在从“有数据中心就给高估值”转向核查电力、客户、合同和担保。Fed官员开始询问相互依赖是否构成系统性风险，说明单个项目延期可能通过银行、私募信贷、云客户和芯片供应商传导。",
+          "investmentImpact": "分析：已通电容量/长期合同/强担保 → 融资成本下降、项目更易兑现；许可延迟/客户集中/交叉担保 → 信用利差和股权回报门槛上升 → 数据中心、GPU、网络和存储交付节奏分化。对NVDA，担保可支持近期需求，却增加客户与项目集中敞口；对ORCL、Blue Owl及拟上市开发商，现金流和完工风险比名义GW更重要。目前没有广泛信用危机证据。",
+          "tags": [
+            "数据中心",
+            "IPO",
+            "项目融资",
+            "信用风险",
+            "NVIDIA",
+            "OpenAI",
+            "DayOne",
+            "Fed",
+            "太大而不能倒"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜数据中心IPO面临更严格投资者审查",
+              "url": "https://www.reuters.com/legal/transactional/data-center-ipo-hopefuls-brave-tougher-market-investor-scrutiny-grows-2026-09-25/"
+            },
+            {
+              "title": "Reuters｜Fed官员询问AI生态是否正在变得太大而不能倒",
+              "url": "https://www.reuters.com/business/finance/feds-schmid-need-understand-if-ai-ecosystem-getting-too-big-fail-2026-09-25/"
+            },
+            {
+              "title": "Reuters｜Oracle与Blue Owl项目延迟牵动AI融资",
+              "url": "https://www.reuters.com/business/energy/oracle-blue-owl-project-delay-sends-ripples-through-ai-financing-sources-say-2026-09-24/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-25-am-6",
+          "category": "ai",
+          "title": "Microsoft把Code与Autopilot嵌入Copilot：企业agent进入身份、权限和成本控制层",
+          "status": "产品与预览时间已宣布；采用率、收入、任务成功率和单位经济性尚未披露",
+          "importance": "中",
+          "updateNote": "本期新增企业级agent产品更新；与消费端演示相比，其身份、权限与成本管理设计更接近正式部署条件。",
+          "body": [
+            "Microsoft将Word、Excel和PowerPoint更深地嵌入Copilot，并推出用自然语言生成应用与仪表盘的Code工具。Code计划月底向部分用户早期开放，之后进入Premium和Pro预览。",
+            "Autopilot被描述为拥有独立目录身份、在受控权限下工作的数字同事，将于月底进入私人预览。公司还增加AI成本管理功能，让企业追踪agent和模型调用支出。",
+            "Microsoft没有披露试点客户、任务成功率、人工接管率、模型成本、付费席位或收入增量；股价盘初约涨3%是市场反应，不是产品商业化证明。"
+          ],
+          "whyImportant": "分析：企业agent的瓶颈正从能否生成文本转向能否被授予可审计身份、最小权限和预算。把Office工作流、代码生成、身份和成本控制放在同一平台，有利于Microsoft强化企业入口，但也增加错误执行和数据权限责任。",
+          "investmentImpact": "分析：对MSFT，上行来自Copilot席位、Azure调用和平台锁定；风险来自推理成本、权限事故、任务可靠性和企业采用慢于预期。对OpenAI及算力链是需求线索，不是新增订单。下一步应看付费用户、任务完成率、人工干预率、每任务成本和续约率。",
+          "tags": [
+            "Microsoft",
+            "Copilot",
+            "AI agent",
+            "Code",
+            "Autopilot",
+            "身份权限",
+            "成本管理",
+            "企业软件"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Microsoft升级Copilot并推出代码与agent工具",
+              "url": "https://www.reuters.com/technology/microsoft-revamps-copilot-with-code-generation-agentic-ai-tools-2026-09-25/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-25-am-7",
+          "category": "semi",
+          "title": "17亿美元内存采购授权形成实质需求；高端芯片出口规则没有放松",
+          "status": "Akamai资本开支和Jabil采购授权已披露；内存类型、供应商、交付量及高端芯片新许可均未公布",
+          "importance": "高",
+          "updateNote": "昨晚半导体没有新订单；今早新增明确的内存采购授权，同时美中谈判进一步确认不覆盖需许可的高端芯片。",
+          "body": [
+            "Akamai为Anthropic算力合同把2026年资本开支增加17亿美元，并授权Jabil采购约17亿美元内存组件。这是具体采购预算，但没有披露DRAM、HBM或NAND的拆分，也没有确认Micron、Samsung、SK Hynix等供应商、数量或交付时间。",
+            "USTR明确表示，需要许可证的高端美国芯片不在美中本轮贸易安排内。截至本期，没有NVIDIA、AMD或半导体设备的新出口许可，也没有稀土磁体的执行性数量。",
+            "市场快照中Micron和Marvell约涨1%，NVIDIA小幅上涨；这些价格变化与Akamai采购授权不能替代GPU、HBM、代工、先进封装或光互连的正式公司指引。"
+          ],
+          "whyImportant": "分析：相较泛化的AI资本开支目标，17亿美元采购授权是更高证据等级的存储需求；但缺少产品结构和供应商意味着不能直接换算为某家内存公司的收入。贸易层面，高端算力边界保持不变。",
+          "investmentImpact": "分析：对JBL是直接执行机会，对MU、Samsung、SK Hynix是潜在需求池而非已确认design win；若采购偏普通DRAM/NAND，受益结构会不同于HBM。对NVDA、AMD和设备链，美中峰会没有带来政策上修。未来1—12个月仍需看供应商披露、出货、ASP、良率、客户资本开支和毛利率。",
+          "tags": [
+            "半导体",
+            "内存",
+            "Jabil",
+            "Akamai",
+            "Anthropic",
+            "MU",
+            "HBM",
+            "芯片出口",
+            "采购授权"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Akamai合同带来约17亿美元内存采购授权",
+              "url": "https://www.reuters.com/technology/akamai-anthropic-sign-116-billion-cloud-services-deal-2026-09-24/"
+            },
+            {
+              "title": "Reuters｜高端芯片不在美中本轮贸易安排内",
+              "url": "https://www.reuters.com/world/china/details-us-china-trade-talks-come-monday-says-greer-2026-09-25/"
+            },
+            {
+              "title": "Reuters｜半导体盘中表现与宏观环境",
+              "url": "https://www.reuters.com/business/wall-st-futures-gain-ai-enthusiasm-eases-worries-over-higher-oil-prices-yields-2026-09-25/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-25-am-8",
+          "category": "robot",
+          "title": "英国开放600万条战场检测数据；Tesla欧洲FSD表决至少推迟至12月",
+          "status": "英国数据开放计划与欧盟议程推迟已发生；模型改进、干预率、正式采购和欧盟批准均未验证",
+          "importance": "高",
+          "updateNote": "昨晚没有机器人新指标；今早新增真实环境数据资产与自动驾驶监管部署两项可影响投资判断的进展。",
+          "body": [
+            "英国将允许最多12家本土企业使用由乌克兰无人系统采集的战场影像与视频数据库，其中包含超过600万条坦克、火炮、防空、步兵和空中目标检测记录。项目要求方案同时满足乌克兰和英国需求，目标包括自主目标识别和分布式决策。",
+            "这些数据来自能飞行、航行或陆地移动的无人系统，具备真实对抗环境和多载体价值；英国政府称系统始终保留人工参与。公开报道没有披露训练样本许可、模型基准、zero-shot或跨本体提升幅度、human intervention rate、uptime、合同金额或量产design win。",
+            "Tesla监督式FSD的欧盟层面表决从原定10月推迟；10月6日议程只安排约25分钟继续讨论，最早明显可行的表决时间在12月。批准需要至少15个成员国且覆盖欧盟65%人口；瑞典等对超速问题仍有担忧。",
+            "前一期比利时约400公里测试发现FSD在多数受测30km/h路段平均行驶44km/h；今早没有新的道路测试数据，但监管推迟把该可靠性问题转化为真实商业部署延迟。本期仍未核实到Figure、Unitree、Optimus、Gemini Robotics或Physical Intelligence新的付费部署、BOM或连续uptime。"
+          ],
+          "whyImportant": "分析：600万条真实战场检测可提高robot-data efficiency，并帮助研究跨载体的感知与分布式协同，但数据规模不自动等于策略泛化或可靠性。Tesla表决延后则说明真实道路规则泛化会直接影响市场准入，证据等级高于普通演示。",
+          "investmentImpact": "分析：对英国无人系统、感知与边缘计算企业是研发和潜在采购入口，但在合同、成功率和干预率披露前不能计入规模收入。对TSLA，欧盟批准延后会推迟FSD订阅与软件收入，并可能增加本地化验证和整改成本。对NVDA、ON、ADI、TER、Nabtesco、Harmonic Drive、THK、Nidec等，本期仍无新机器人零部件定点或BOM下降证据。",
+          "tags": [
+            "Physical AI",
+            "无人系统",
+            "战场数据",
+            "robot-data efficiency",
+            "跨载体",
+            "TSLA",
+            "FSD",
+            "人工干预",
+            "欧洲监管"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜英国企业使用乌克兰战场数据开发AI无人系统",
+              "url": "https://www.reuters.com/business/aerospace-defense/uk-firms-use-ukraine-battlefield-data-ai-drone-swarm-development-2026-09-25/"
+            },
+            {
+              "title": "Reuters｜欧盟对Tesla监督式FSD的表决推迟",
+              "url": "https://www.reuters.com/business/eu-vote-teslas-supervised-self-driving-system-pushed-back-2026-09-25/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-25-am-9",
+          "category": "macro",
+          "title": "下一期验证清单：正式通胀、停火实物流、贸易文本与AI合同兑现",
+          "status": "观察清单；不是新增已发生数据",
+          "importance": "观察",
+          "updateNote": "按今早新增证据更新验证顺序。",
+          "body": [
+            "美国宏观：等待下周PCE、就业和工资，联看10月加息概率、两年期/10年期/30年期曲线、实际收益率、国债拍卖与期限溢价。验证资本品订单是否转化为正式GDP和企业利润，并观察一年通胀预期4.6%是否持续。",
+            "中东与能源：核实分阶段方案能否形成书面停火、霍尔木兹是否实际开放、延布是否稳定装船；分别跟踪Brent、WTI、柴油、航煤、LNG、保险和船运。政府自愿减出口要求要看企业承诺、炼厂开工和是否升级为强制政策。",
+            "贸易与日本：周一逐项核对美中税目、配额、稀土交付和执行日期；高端芯片目前明确不在范围。继续观察JGB曲线、日元、实际干预和跨境资金流，不能把高收益率自动写成日本资金已回流。",
+            "AI与半导体：Akamai/Anthropic看容量上线、收入确认、利用率、内存供应商和资本回报；数据中心融资看IPO、供电、take-or-pay、担保与信用利差；Microsoft看Copilot付费采用、任务成功率和每任务成本；半导体要求订单、ASP、良率和毛利率。",
+            "Physical AI：英国战场数据看是否带来可复核的zero-shot、跨本体、数据效率、人工干预和真实采购指标；Tesla看欧盟12月议程与限速整改；其他机器人继续要求连续uptime、BOM、独立付费客户和复购。"
+          ],
+          "whyImportant": "分析：今早核心组合是企业AI投资强、消费者通胀预期高、长端利率仍贵，而资金继续集中流向大型科技；中东外交和美中贸易都有方向性表述，但缺少能直接改变实物流与芯片许可的执行文件。",
+          "investmentImpact": "分析：未来1—12个月，宏观上优先看正式通胀、实际收益率、期限溢价、能源实物流和政策执行；产业上优先看已签合同的利用率与现金流、内存真实供应商、数据中心信用结构和Physical AI现场可靠性。若资本开支继续强而收入、供电与低成本融资不能同步兑现，高估值科技和半导体会同时面对折现率与项目回报压力；这不是个股买卖指令。",
+          "tags": [
+            "观察清单",
+            "PCE",
+            "美伊停火",
+            "美中贸易",
+            "JGB",
+            "AI合同",
+            "半导体",
+            "Physical AI"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美国核心资本品订单",
+              "url": "https://www.reuters.com/business/us-core-capital-goods-orders-surge-august-2026-09-25/"
+            },
+            {
+              "title": "Reuters｜美伊停火探索与油价",
+              "url": "https://www.reuters.com/business/energy/oil-prices-fall-markets-look-iran-truce-remain-wary-attacks-oil-facilities-2026-09-25/"
+            },
+            {
+              "title": "Reuters｜美中贸易细节与高端芯片范围",
+              "url": "https://www.reuters.com/world/china/details-us-china-trade-talks-come-monday-says-greer-2026-09-25/"
+            },
+            {
+              "title": "Reuters｜Akamai与Anthropic云合同",
+              "url": "https://www.reuters.com/technology/akamai-anthropic-sign-116-billion-cloud-services-deal-2026-09-24/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-09-24-pm",
       "date": "2026-09-24",
       "period": "pm",
