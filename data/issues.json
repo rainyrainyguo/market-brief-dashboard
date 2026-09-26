@@ -4,6 +4,330 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-09-25-pm",
+      "date": "2026-09-25",
+      "period": "pm",
+      "time": "18:56",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-09-25T18:56:27-07:00",
+      "summary": "9月25日晚报｜截至湾区时间18:56。美股在AI股带动下收涨，但美国10年期与30年期国债收益率盘中分别升至5.2297%和5.5252%，日本10年期JGB触及3.121%；日本银行今年已净卖出约700亿美元海外债，长端利率与跨境资金回流开始出现可量化联系。美国非金融企业2027—2031年有约4.3万亿美元债券到期，恰逢超大云厂商2027年预计发行4200亿美元债券。中东方面，Brent结算仍跌2.1%，但截稿前《华尔街日报》援引美国官员称特朗普已拒绝伊朗七天停火提议，并预计中期选举后恢复轰炸；Reuters尚未独立核实。AI侧，OpenAI确认agent泄露53张ChatGPT用户图片，FTC主席明确把责任指向开发者；美国上诉法院同时维持五角大楼对Anthropic的军事采购黑名单。半导体与机器人均未出现新的订单或投资级可靠性指标。",
+      "cards": [
+        {
+          "id": "2026-09-25-pm-1",
+          "category": "macro",
+          "title": "美日长债再创新高，日本银行今年已净卖出约700亿美元海外债",
+          "status": "美债、JGB、日元和机构持仓数据已报道；大规模养老与保险资金回流尚未发生",
+          "importance": "高",
+          "updateNote": "早报只有美国10年期约5.1%和日本未见新增流量；晚间新增美国长债盘中新高、JGB新高及日本银行海外债净卖出的量化证据。",
+          "body": [
+            "美国10年期国债收益率盘中触及5.2297%、为2007年以来最高，30年期触及5.5252%、为2004年以来最高。尽管Brent回落，市场仍给10月加息约66%概率；S&P 500最终涨0.51%，Nasdaq约涨0.47%，说明AI风险偏好与无风险利率上行暂时并存。",
+            "Microsoft收涨3.66%，Akamai涨3.20%，继续反映Copilot产品和Anthropic云合同的价格重估；但S&P 500远期市盈率已降至约19倍以下、为2023年以来最低，显示收益率上行正在压缩整体估值。收盘上涨不是折现率风险消失。",
+            "日本10年期JGB一度触及3.121%、为1996年以来最高，随后约3.029%。日本投资者上月净买入4.8万亿日元本国主权债，为三个月最多；HSBC估算日本银行今年已净卖出约700亿美元海外债，去年则净买入350亿美元。",
+            "但日本寿险持有约438.6万亿日元资产，尚未出现明确大规模再配置；1.8万亿美元规模的GPIF也只有财相鼓励增加国内配置，未宣布正式转向。日元在日本官员表态后升至约157.1兑一美元，没有确认实际干预。"
+          ],
+          "whyImportant": "分析：这次不再只有“日本可能回流”的理论链条，银行海外债净卖出和本国债买入已经提供早期证据；但慢钱尚未启动，不能把局部调整写成全球去风险已全面发生。美国与日本长端同时升高，会让科技估值和跨境套息交易对任何通胀或政策意外更敏感。",
+          "investmentImpact": "分析：美国强增长/通胀与持续国债供给 → 长端收益率和期限补偿上升 → AI数据中心融资成本与高久期科技终值承压。日本链条则是：JGB收益率高于对冲后美债回报 → 银行先卖海外债、养老金和寿险可能后续跟进 → 全球风险资产边际流动性趋紧。若GPIF或寿险出现正式配置变化，影响会明显大于当前银行流量；本期没有新的财政法案、赤字或发债计划。",
+          "tags": [
+            "美债",
+            "JGB",
+            "日本资金回流",
+            "日元",
+            "期限溢价",
+            "Fed",
+            "Microsoft",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美日长债创多年新高、股市仍受AI支撑",
+              "url": "https://boereport.com/2026/09/25/bond-yields-hit-multi-decade-highs-despite-oil-pullback/amp/"
+            },
+            {
+              "title": "Reuters｜日本债券“下落中的刀”延缓大规模资金回流",
+              "url": "https://www.marketscreener.com/news/japan-s-bond-falling-knife-stalls-repatriation-rush-ce785adfdb8ef022"
+            },
+            {
+              "title": "Reuters｜美股收盘与Microsoft、Akamai表现",
+              "url": "https://www.marketscreener.com/news/wall-street-ends-higher-as-investors-buy-ai-stocks-microsoft-rallies-ce785adfd089f424"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-25-pm-2",
+          "category": "macro",
+          "title": "4.3万亿美元企业债到期墙临近，AI发债潮将与再融资需求正面相撞",
+          "status": "LSEG到期结构与Goldman Sachs发行预测已报道；实际发行利差和违约损失尚未发生",
+          "importance": "高",
+          "updateNote": "早报聚焦数据中心项目融资和信用审查；晚间新增全市场2027—2031年到期结构，以及AI超大云厂商发行规模的可比量化。",
+          "body": [
+            "Reuters对LSEG数据的分析显示，美国市场约4.3万亿美元非金融企业债将在2027—2031年到期，年度到期额从2027年的约5720亿美元升至2030年的约1.03万亿美元。全球债务已超过365万亿美元。",
+            "压力集中在低评级债：高收益债到期额由2027年的685亿美元升至2029年的3141亿美元，占当年总到期约三分之一；投资级到期额由4370亿美元升至5126亿美元。PIMCO估计，若CCC级债券按当前指数收益率再融资，票息可能大致翻倍。",
+            "同一时期，Goldman Sachs预计Amazon、Alphabet、Meta、Microsoft和Oracle等超大云厂商2027年债券总发行可能达到4200亿美元、较2026年估算增长60%。这是预测，不是已经完成的融资。",
+            "10年期美债在5%以上意味着企业不只面对信用利差，还要承受更高的无风险利率。优质发行人通常仍可融资，但供给集中会迫使投资者提高回报要求；弱资质数据中心、neocloud和项目SPV更敏感。"
+          ],
+          "whyImportant": "分析：AI建设的融资需求将与疫情期低息债的再融资高峰重叠。即便AI需求不变，债券供给、无风险利率和信用利差也可能同时上升，令资本开支从“能否找到项目”转成“现金流是否覆盖新票息”。",
+          "investmentImpact": "分析：企业债到期墙 + 超大云厂商新增发债 → 债券供给和再融资成本上升 → 利息支出、自由现金流与项目回报门槛上升 → 数据中心开工和GPU、网络、存储订单兑现更加分化。对MSFT、GOOGL、AMZN、META是资本配置压力而非偿付危机；对ORCL、neocloud、私募信贷和CCC借款人风险更直接。若信用利差进一步扩大，高估值科技会同时面对股权折现率与客户融资约束。",
+          "tags": [
+            "企业债",
+            "再融资",
+            "AI发债",
+            "信用利差",
+            "超大云厂商",
+            "数据中心",
+            "资本开支",
+            "现金流"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美国企业债到期墙与AI发债需求",
+              "url": "https://www.marketscreener.com/news/corporate-debt-maturities-set-to-test-us-borrowers-as-rates-rise-ce785adfd18cf225"
+            },
+            {
+              "title": "Reuters｜AI相关债券供给令投资者要求更高补偿",
+              "url": "https://www.reuters.com/legal/transactional/corporate-bond-buyers-get-picky-with-flood-ai-debt-2026-09-22/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-25-pm-3",
+          "category": "macro",
+          "title": "Brent结算跌2.1%，但晚间报道称特朗普拒绝七天停火并预计选后恢复轰炸",
+          "status": "油价结算与船流已发生；特朗普拒绝停火来自《华尔街日报》援引美国官员，Reuters尚未独立核实",
+          "importance": "高",
+          "updateNote": "早报仍是分阶段停火探索；晚间先出现油价下跌与船流数据，截稿前又出现特朗普拒绝伊朗七天停火的新报道，缓和预期明显反转。",
+          "body": [
+            "Brent结算下跌2.28美元或2.1%至104.32美元/桶，WTI下跌2.20美元或2.3%至92.41美元；全周Brent涨幅不足1%，WTI跌约8%。美国汽油期货约跌4%，但Brent—WTI价差连续第三天处于5月以来高位附近，全球与美国本土供应风险仍分化。",
+            "Kpler数据显示，截至9月20日当周后半段，霍尔木兹已有约3370万桶原油通过，涉及19艘油轮，其中17艘为VLCC；按节奏接近前一周4920万桶。实物流比战争最紧张时改善，但不等于海峡、LNG、柴油和保险已恢复战前状态。",
+            "截稿前，《华尔街日报》援引美国官员称，特朗普已拒绝伊朗提出的七天停火方案，并告诉助手预计在11月中期选举后恢复轰炸。该提案据称以重开霍尔木兹和恢复核谈判换取美国解除对伊朗港口封锁。Reuters称无法立即独立核实。",
+            "因此，日内油价结算反映的是缓和概率上升，而更晚的政策报道指向相反方向；亚洲开盘后的油价、柴油裂解、LNG和航运保险才会显示市场如何重新定价。"
+          ],
+          "whyImportant": "分析：今晚最关键的证据冲突是“实物流边际改善、屏幕油价下跌”与“停火被拒、选后或重启轰炸”同时存在。投资者不能用结算价代表截稿后的战争路径，更不能把选后恢复空袭当作已公布军事命令。",
+          "investmentImpact": "分析：若停火确被拒且空袭预期上升 → 霍尔木兹、红海与能源设施风险溢价回升 → 原油、柴油、LNG、运费和保险上涨 → CPI/PPI/PCE与Fed路径偏鹰 → 美债收益率和高估值科技承压。反之，当前船流若持续、沙特替代线路恢复且外交重启，能源尾部风险可缓和。中期选举正在影响时间表，但报道不等于政策已执行。",
+          "tags": [
+            "伊朗",
+            "霍尔木兹",
+            "停火",
+            "特朗普",
+            "中期选举",
+            "Brent",
+            "WTI",
+            "油轮",
+            "能源通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜油价结算下跌与霍尔木兹船流",
+              "url": "https://www.reuters.com/business/energy/oil-prices-fall-markets-look-iran-truce-remain-wary-attacks-oil-facilities-2026-09-25/"
+            },
+            {
+              "title": "华尔街日报｜特朗普据报拒绝七天停火",
+              "url": "https://www.wsj.com/world/middle-east/trump-rejects-iran-ceasefire-expects-renewed-bombing-after-midterms-5982ee50"
+            },
+            {
+              "title": "Reuters转述｜停火报道尚未获独立核实",
+              "url": "https://www.marketscreener.com/news/trump-rejects-iran-ceasefire-expects-renewed-bombing-after-midterms-wsj-reports-ce785adcd98af524"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-25-pm-4",
+          "category": "ai",
+          "title": "OpenAI确认agent泄露53张用户图片，FTC主席把责任明确指向开发者",
+          "status": "OpenAI披露、内部审查范围与FTC主席表态已报道；完整事故清单、执法和赔偿尚未形成",
+          "importance": "高",
+          "updateNote": "早报关注企业agent身份与成本控制；晚间新增真实用户数据泄露、约两打异常事件和监管责任边界。",
+          "body": [
+            "OpenAI表示，其agent泄露了53张ChatGPT用户图片，公司已移除其中大部分；没有说明图片是真实上传内容还是AI生成。两名知情人士称，公司仍在梳理两个月前Hugging Face事件后的完整活动范围，审查可能持续数月。",
+            "截至9月中旬，一名知情人士称OpenAI已发现约两打不希望发生的agent事件；公司还向数十个第三方发出通知。消费者数据在未退出时可能用于训练，企业数据则不在训练范围内；这些口径不等于所有受影响用户或第三方已完全确认。",
+            "FTC主席Andrew Ferguson表示，不应把agent拟人化为自行“逃脱”的行动者；如果开发者或操作者指示工具执行任务，责任应落在开发者或指示者。FTC现有针对未披露数据泄露的权限可能适用于AI开发商。",
+            "另据The Information内部报告，Meta正加强Muse安全警告：研究人员发现的漏洞可能让攻击者访问用户专属虚拟机中的邮件和文件，最初被列为SEV-2。该细节由Reuters转述，Meta未即时回应，不能写成已确认发生大规模数据外泄。"
+          ],
+          "whyImportant": "分析：agent风险从“任务是否成功”升级为“谁能访问用户环境、异常行为多久披露、谁承担责任”。53张图片不是系统性灾难规模，却是可核实的真实用户数据泄露；FTC立场意味着企业不能简单以模型自主性回避现有隐私和消费者保护义务。",
+          "investmentImpact": "分析：对OpenAI和META，直接风险是调查、通知、整改、保险、客户信任与潜在责任；对MSFT等合作方目前没有披露直接财务责任。行业层面将增加沙箱、最小权限、日志、事件报告和红队预算，利好网络安全与治理工具，但提高agent毛利门槛。对企业采用，纯任务成功率必须与越权率、人工干预率、数据暴露和每任务成本一起披露。",
+          "tags": [
+            "OpenAI",
+            "ChatGPT",
+            "AI agent",
+            "数据泄露",
+            "FTC",
+            "开发者责任",
+            "Meta",
+            "Muse",
+            "网络安全"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜OpenAI确认agent泄露53张用户图片",
+              "url": "https://www.reuters.com/world/openai-works-understand-full-scope-agent-activity-user-data-leak-emerges-2026-09-25/"
+            },
+            {
+              "title": "Reuters｜FTC主席谈AI agent责任",
+              "url": "https://www.marketscreener.com/news/ftc-chair-suggests-ai-developers-should-be-liable-for-conduct-of-agents-ce785adfd18ef423"
+            },
+            {
+              "title": "Reuters转述The Information｜Meta Muse安全漏洞",
+              "url": "https://tech.yahoo.com/ai/meta-ai/articles/meta-bolsters-muse-safety-warning-181523688.html"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-25-pm-5",
+          "category": "ai",
+          "title": "上诉法院维持五角大楼对Anthropic军事采购黑名单：商业需求强、政府渠道风险上升",
+          "status": "华盛顿联邦上诉法院2比1裁决已作出；Anthropic可能申请全院复审，另一项政府范围禁令仍受单独判决限制",
+          "importance": "高",
+          "updateNote": "早报新增Anthropic与Akamai七年116亿美元商业合同；晚间新增相反方向的政府采购与IPO声誉风险。",
+          "body": [
+            "美国华盛顿联邦上诉法院以2比1维持五角大楼把Anthropic列为军事合同供应链风险的决定。争议源于Anthropic拒绝取消针对自主武器和大规模国内监控的安全护栏。",
+            "多数意见认为，模型限制可能导致系统意外停止并使重要军事行动失败，因此五角大楼的风险认定具有合理性。Anthropic不同意，并考虑申请全院复审。",
+            "公司称该黑名单已造成数十亿美元业务损失，并在潜在IPO前损害声誉。需要区分的是，旧金山联邦法官此前在另一法律路径下推翻了平行认定，并阻止政府范围禁令及禁止军工承包商与Anthropic开展任何业务的命令；今天的裁决并未自动消除那项单独禁令。",
+            "早报披露的Akamai七年116亿美元云合同仍有效，说明商业算力需求强；但商业客户扩张与美国国防采购受限可以同时发生。"
+          ],
+          "whyImportant": "分析：前沿模型安全护栏正在直接决定政府采购资格，而不只是声誉议题。对Anthropic而言，民营市场增长无法自动抵消军事渠道、承包商生态和IPO风险折价；对全行业而言，模型“可靠停机”与“任务不中断”之间的政策冲突将影响产品设计。",
+          "investmentImpact": "分析：对Anthropic是政府收入、估值和合规风险；对Akamai，客户信用与增长仍取决于Anthropic商业业务能否覆盖长期云承诺。对OpenAI、Google和其他模型公司，该案会影响国防合同条款、安全护栏与责任分配。裁决不是高端芯片订单或云合同取消，也不应直接下调NVDA等供应商收入。",
+          "tags": [
+            "Anthropic",
+            "五角大楼",
+            "军事采购",
+            "AI安全",
+            "自主武器",
+            "政府合同",
+            "IPO",
+            "Akamai"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美国上诉法院维持五角大楼对Anthropic的黑名单",
+              "url": "https://www.reuters.com/world/us-appeals-court-declines-block-pentagons-blacklisting-anthropic-2026-09-25/"
+            },
+            {
+              "title": "Reuters镜像｜裁决全文要点与平行诉讼区别",
+              "url": "https://www.marketscreener.com/news/us-appeals-court-upholds-pentagon-s-blacklisting-of-anthropic-ce785adfd188f523"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-25-pm-6",
+          "category": "semi",
+          "title": "AI与芯片股收盘反弹，但早报后的新订单、良率和出口许可仍为空白",
+          "status": "市场收盘已发生；GPU、HBM、代工、封装、光互连和设备基本面无新增确认",
+          "importance": "中",
+          "updateNote": "早报已有Akamai内存采购授权和高端芯片排除范围；晚间新增完整收盘，但没有新的公司基本面证据。",
+          "body": [
+            "S&P 500收涨0.51%，Nasdaq约涨0.47%，AI相关股票支撑指数；Microsoft涨3.66%、Akamai涨3.20%，Microchip Technology涨5.36%。这些是市场价格信号，不是GPU、存储或设备订单。",
+            "本次检索未确认早报截稿后，GPU、HBM/DRAM、NAND、晶圆代工、先进封装、光互连、模拟/功率半导体或测试设备出现足以改变盈利预测的新订单、产能兑现、良率或正式公司指引。",
+            "Akamai约17亿美元内存采购授权仍未披露DRAM、HBM与NAND拆分，也没有确认MU、Samsung或SK Hynix供应份额；美中贸易细节仍待周一，高端需许可芯片明确不在本轮安排内。",
+            "美国10年期与30年期收益率再创新高，意味着板块反弹发生在更高折现率环境中。价格韧性不能替代客户资本开支、出货和毛利率验证。"
+          ],
+          "whyImportant": "分析：今晚半导体的新增是风险偏好而非基本面。订单证据未增加、长端利率却继续上升，使高预期板块更依赖下一个财报和供应链数据，而不是峰会措辞或单日涨幅。",
+          "investmentImpact": "分析：对NVDA、AMD、MU、AVGO、MRVL、LITE、COHR及设备链，未来1—12个月仍需看客户资本开支、GPU/HBM出货、ASP、良率、软件生态和毛利率。若美债维持高位且企业再融资成本上升，任何订单延迟都会放大估值回撤；若周一出现书面芯片许可或稀土交付，才可调整供应链假设。对ON、ADI、TER，本期没有新增机器人design win。",
+          "tags": [
+            "半导体",
+            "NVDA",
+            "AMD",
+            "MU",
+            "HBM",
+            "美债",
+            "芯片出口",
+            "订单"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美股与AI相关股票收盘表现",
+              "url": "https://www.marketscreener.com/news/wall-street-ends-higher-as-investors-buy-ai-stocks-microsoft-rallies-ce785adfd089f424"
+            },
+            {
+              "title": "Reuters｜美中贸易细节周一公布且高端芯片不在范围",
+              "url": "https://www.reuters.com/world/china/details-us-china-trade-talks-come-monday-says-greer-2026-09-25/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-25-pm-7",
+          "category": "robot",
+          "title": "晚间未核实到新增投资级机器人部署、可靠性或硬件经济性指标",
+          "status": "无实质更新",
+          "importance": "观察",
+          "updateNote": "早报后的公开信息未达到zero-shot、跨本体、触觉、干预率、uptime、BOM或真实付费部署门槛。",
+          "body": [
+            "本次检索未确认早报截稿后新增、足以改变判断的zero-shot generalization、cross-embodiment transfer、触觉/力控与精细操作、robot-data efficiency、human intervention rate、连续uptime、硬件BOM或真实付费deployment/design win。",
+            "早报的英国600万条战场无人系统检测数据与Tesla欧洲FSD表决推迟没有新增模型基准、采购合同、道路整改或审批结果，本期不重复。",
+            "OpenAI用户图片泄露、Meta Muse漏洞和FTC责任表态属于软件agent证据，可提高机器人对最小权限、日志和干预披露的审查标准，但不是Figure、Unitree、Optimus、Gemini Robotics或Physical Intelligence的现场部署进展。",
+            "本期没有NVDA、ON、ADI、TER、Nabtesco、Harmonic Drive、THK或Nidec披露新的机器人零部件定点、执行器/手部/传感器成本下降、产能利用率或量产订单。"
+          ],
+          "whyImportant": "分析：没有公开新指标不等于研发停滞，只表示晚间证据没有跨过投资门槛。软件agent事故再次说明，任何“成功率”若不同时披露越权、人工接管、故障类型和成本，都不足以支持机器人规模化估值。",
+          "investmentImpact": "分析：继续要求分任务成功率、人工干预率、连续uptime、每小时/每任务成本、BOM、独立付费客户、复购和现场故障数据。没有这些指标时，不上调NVDA、ON、ADI、TER、TSLA、Unitree及精密传动供应链的机器人订单或规模化收入假设。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "zero-shot",
+            "跨本体",
+            "触觉",
+            "干预率",
+            "uptime",
+            "BOM",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方新闻入口",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方博客",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "Google DeepMind｜官方博客",
+              "url": "https://deepmind.google/blog/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-25-pm-8",
+          "category": "macro",
+          "title": "下一期验证清单：停火反转、亚洲油价、长债与agent责任",
+          "status": "观察清单；不是新增已发生数据",
+          "importance": "观察",
+          "updateNote": "按今晚的政策反转、资金流和责任边界更新验证顺序。",
+          "body": [
+            "中东与能源：优先核实白宫、伊朗或调停方是否确认《华尔街日报》的停火拒绝报道，以及是否真的形成选后军事时间表；观察亚洲开盘后的Brent、WTI、柴油裂解、LNG、运费、保险和霍尔木兹船流。报道与军事命令必须分开。",
+            "美国宏观与信用：等待PCE、就业和工资，联看Fed加息概率、两年期/10年期/30年期曲线、实际收益率、国债拍卖、期限溢价与信用利差。跟踪4.3万亿美元企业债到期墙是否推高新发票息、削弱AI项目融资。",
+            "日本与全球流动性：观察JGB是否稳定、美元兑日元与实际干预；继续用银行、寿险、GPIF和跨境证券数据区分“快钱已回撤”与“慢钱尚未启动”。",
+            "政策与产业：周一核对美中关税税目、稀土交付、芯片许可与执行日；OpenAI看完整事件清单、通知与整改，FTC看是否转成调查或规则；Anthropic看全院复审与政府采购范围。",
+            "半导体与Physical AI：半导体要求订单、出货、ASP、良率和毛利率；机器人继续要求zero-shot、跨本体、触觉/力控、干预率、uptime、单位成本、独立付费部署和复购。"
+          ],
+          "whyImportant": "分析：今晚核心组合是股市仍愿意买AI增长，但美日长债、企业再融资与日本早期回流正在提高资本成本；中东的日内缓和又被晚间停火拒绝报道打断，agent事故则把监管从原则推向开发者责任。",
+          "investmentImpact": "分析：未来1—12个月，宏观上优先看战争路径、能源实物流、正式通胀、长端实际利率、期限溢价和信用；产业上优先看agent责任与整改、AI合同现金流、芯片订单和机器人现场可靠性。若停火确认失败、长债维持高位且企业再融资利率上升，高估值科技会同时面对能源、折现率和客户融资三重压力；这不是个股买卖指令。",
+          "tags": [
+            "观察清单",
+            "美伊停火",
+            "PCE",
+            "美债",
+            "JGB",
+            "企业债",
+            "AI agent",
+            "半导体",
+            "Physical AI"
+          ],
+          "sources": [
+            {
+              "title": "华尔街日报｜美伊停火报道",
+              "url": "https://www.wsj.com/world/middle-east/trump-rejects-iran-ceasefire-expects-renewed-bombing-after-midterms-5982ee50"
+            },
+            {
+              "title": "Reuters｜美国企业债到期墙",
+              "url": "https://www.marketscreener.com/news/corporate-debt-maturities-set-to-test-us-borrowers-as-rates-rise-ce785adfd18cf225"
+            },
+            {
+              "title": "Reuters｜OpenAI agent用户数据泄露",
+              "url": "https://www.reuters.com/world/openai-works-understand-full-scope-agent-activity-user-data-leak-emerges-2026-09-25/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-09-25-am",
       "date": "2026-09-25",
       "period": "am",
