@@ -4,6 +4,247 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-09-26-pm",
+      "date": "2026-09-26",
+      "period": "pm",
+      "time": "18:55",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-09-26T18:55:28-07:00",
+      "summary": "9月26日晚报｜截至湾区时间18:55。周末没有新的美股、美债、JGB或原油交易，今晚最重要的变化来自政策与法律：北京方面称，美中已就涉及约300亿美元商品的双向降税安排、11月继续AI对话及AI事件沟通渠道达成共识；税目、时间表以及美方同等详细文件仍未公开，先进芯片出口规则也未见变化。伊朗则称已看到特朗普对七天和平方案的初步反应，但仍在等待调停方传递美国最终立场，不能把初步反应写成正式接受或拒绝。Apple被美国陪审团裁定因Taptic Engine侵犯两项触觉专利、应赔逾57亿美元，公司将上诉；这是真实法律风险，但尚非最终现金支出。半导体没有新增订单或许可，机器人没有新增投资级指标。",
+      "cards": [
+        {
+          "id": "2026-09-26-pm-1",
+          "category": "macro",
+          "title": "北京称美中达成约300亿美元双向降税与AI对话安排；执行细节仍缺",
+          "status": "中方外交部已公布八点共识；具体税目、降税幅度、实施时间及同等详细的美方文件尚未公开",
+          "importance": "高",
+          "updateNote": "今早仍只有峰会后缺少可估值书面细节；今晚新增中方正式披露双向降税安排、贸易理事会、11月AI对话及AI事件沟通渠道。",
+          "body": [
+            "中国外交部称，习近平访美期间，美中同意建立双边贸易理事会，并形成涉及约300亿美元商品的双向降税安排；双方也认可经济团队工作，并同意延续此前吉隆坡经贸磋商成果。此前美方称关税休战延至2027年1月10日，这次中方披露把政策信号推进了一步。",
+            "公开信息没有列出商品清单、各自降税幅度、实施日期、法定程序或企业采购承诺，因此‘300亿美元’不能直接当作已经实现的新增贸易额或利润。美方截至截稿也未发布一份同等详细、可逐项核对的执行文件。",
+            "AI方面，中方称双方将讨论人工智能的风险与收益，下一轮对话安排在11月，并建立AI相关事件沟通渠道。这是治理与危机沟通机制，不是联合研发、算力采购或模型收入合同。",
+            "中方还称双方同意伊朗应履行不发展核武器的承诺，任何国家或实体都不应对国际水道征收通行费。这一表述触及霍尔木兹争议，但没有形成美伊停火、海峡开放或海运执行协议。"
+          ],
+          "whyImportant": "相较只有会晤措辞，贸易理事会、降税框架、下一轮AI对话和事件渠道都属于可追踪的机制进展；但缺少税目、日期和美方细则，使其目前更接近政策框架而非已经进入企业报表的现金流。",
+          "investmentImpact": "若降税清单覆盖LNG、农业、消费电子或工业品 → 跨境成本和通胀压力边际下降 → 风险偏好改善；若AI事件渠道按期运行 → 极端技术事故的误判风险下降。反之，若执行清单迟迟不出，市场只能下调尾部风险，不能上调NVDA、AAPL、TSLA、BABA等公司的收入。先进AI芯片、制造设备许可和稀土交付没有公开变化，相关供应链假设维持不变。",
+          "tags": [
+            "美中关系",
+            "关税",
+            "300亿美元",
+            "贸易理事会",
+            "AI对话",
+            "事件沟通",
+            "芯片出口",
+            "稀土",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters转述中国外交部｜美中双向降税、AI对话与事件沟通安排",
+              "url": "https://in.marketscreener.com/news/china-us-agree-to-30-billion-tariff-cut-ai-dialogue-during-xi-visit-china-foreign-ministry-says-ce785adcd98ef525"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-26-pm-2",
+          "category": "macro",
+          "title": "伊朗称已看到特朗普初步反应，但仍等待美国经调停方给出最终立场",
+          "status": "伊朗外长最新表态已发生；美国正式接受、拒绝或反建议仍未通过调停方确认",
+          "importance": "高",
+          "updateNote": "今早是伊朗已提交七天方案、美国没有正式答复；今晚新增伊朗确认已看到特朗普的初步反应，但强调最终立场仍待调停方传递。",
+          "body": [
+            "伊朗外长Abbas Araqchi周日表示，德黑兰已经看到美国总统特朗普对伊朗方案的初步反应，但尚未收到调停方转达的美国最终立场。伊朗将等到明确回复后再决定下一步。",
+            "Araqchi没有公开初步反应的具体内容，因此不能把它等同于接受、拒绝或已经提出反建议。今早所述方案仍是：美方若接受条件，可启动七天倒计时，随后重开霍尔木兹并暂停多条战线战斗。",
+            "中方公布的美中峰会共识包括伊朗不发展核武器及国际水道不应被征收通行费，但这只是美中对原则的表述，不替代美国经卡塔尔等调停方对伊朗方案的正式回复。",
+            "周末没有新的Brent、WTI、柴油、LNG、美债或美元交易可验证价格反应。上一交易日价格属于早前期次，本期不重复，也不把外交标题直接写成风险资产已经上涨或下跌。"
+          ],
+          "whyImportant": "外交进程从‘完全没有回应’推进到伊朗确认存在初步反应，但决定性证据仍缺。市场下一次定价的关键不是表态数量，而是调停方是否传递一份可执行的接受、拒绝或反建议，以及海峡船流是否真实恢复。",
+          "investmentImpact": "正式接受或形成可执行反建议 → 霍尔木兹与红海供应风险下降 → 原油、柴油、LNG和保险成本回落 → 通胀预期与长端收益率压力缓和 → 高估值科技受益。正式拒绝或再度军事升级 → 能源与期限溢价上升 → Fed路径更鹰、科技与半导体估值承压。当前仍处二元事件前，不能据初步反应调整盈利假设。",
+          "tags": [
+            "伊朗",
+            "美国",
+            "特朗普",
+            "霍尔木兹",
+            "调停",
+            "停火",
+            "原油",
+            "通胀",
+            "美债",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜伊朗等待调停方传递美国最终立场",
+              "url": "https://www.devdiscourse.com/article/international/3982926-iran-says-awaiting-response-through-mediators-after-trump-reaction-to-proposal"
+            },
+            {
+              "title": "Reuters转述中国外交部｜美中对伊朗核问题与国际水道的原则表述",
+              "url": "https://in.marketscreener.com/news/china-us-agree-to-30-billion-tariff-cut-ai-dialogue-during-xi-visit-china-foreign-ministry-says-ce785adcd98ef525"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-26-pm-3",
+          "category": "ai",
+          "title": "Apple被陪审团裁定触觉专利侵权、赔偿逾57亿美元；公司将上诉",
+          "status": "陪审团裁决已作出；上诉、判决确认、赔偿调整及持续许可义务尚未确定",
+          "importance": "高",
+          "updateNote": "今早没有新增科技公司法律事件；今晚新增美国陪审团对Apple Taptic Engine的逾57亿美元裁决。",
+          "body": [
+            "美国陪审团裁定，Apple在iPhone和Apple Watch的Taptic Engine中侵犯圣迭戈公司Taction的两项触觉技术专利，应赔偿逾57亿美元。Reuters称这是美国迄今金额最大的此类裁决。",
+            "Apple表示其Taptic Engine与Taction技术根本不同，公司没有使用对方技术并将上诉。Taction于2021年起诉；案件曾在2023年被联邦地区法院判定不侵权，后于去年被联邦巡回上诉法院恢复审理。",
+            "陪审团裁决不是最终、不可撤销的现金支出。后续可能经历判后动议、赔偿调整、上诉、和解或重审；公开报道也没有说明未来产品是否需要持续许可、设计变更或销售禁令。",
+            "这项触觉技术用于手机与手表反馈，但不是机器人触觉/力控或精细操作突破，不能归入Physical AI投资进展。"
+          ],
+          "whyImportant": "57亿美元相对单一专利诉讼规模巨大，足以成为AAPL未来数季的法律与披露观察项；但证据层次必须区分陪审团裁决与最终支付，避免把尚可上诉的金额直接计入现金流。",
+          "investmentImpact": "对AAPL的直接风险是一次性赔偿、潜在持续许可费和法律费用；若裁决在上诉后维持，可能压低特定期间利润与自由现金流。对iPhone、Watch销量和供应链目前没有停产或禁售证据，也不能从一次裁决推导长期硬件毛利率已经下降。对触觉器件与专利许可行业，案件提高了知识产权价值和诉讼风险溢价。",
+          "tags": [
+            "AAPL",
+            "Apple",
+            "Taptic Engine",
+            "触觉",
+            "专利",
+            "诉讼",
+            "赔偿",
+            "iPhone",
+            "Apple Watch"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Apple触觉专利案陪审团裁决",
+              "url": "https://www.reuters.com/legal/litigation/us-jury-says-apple-owes-record-57-billion-haptic-technology-patent-case-2026-09-26/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-26-pm-4",
+          "category": "semi",
+          "title": "半导体：美中框架未改变先进芯片规则，周末仍无新增订单或指引",
+          "status": "贸易与AI沟通机制有新增；芯片出口许可、实体清单、稀土交付和公司基本面无新增确认",
+          "importance": "观察",
+          "updateNote": "今早仅能确认无政策文件；今晚虽有中方八点共识，但公开内容仍没有先进AI芯片或制造设备规则变化。",
+          "body": [
+            "美中新增的约300亿美元双向降税框架和AI事件沟通渠道，没有公开列入先进AI芯片、半导体制造设备、实体清单或单家公司出口许可证。AI治理对话不等于算力贸易限制放松。",
+            "本次检索未确认今早截稿后GPU、HBM/DRAM、NAND、晶圆代工、先进封装、光互连、模拟/功率半导体或测试设备出现足以改变盈利预测的新订单、出货、良率、产能兑现或公司指引。",
+            "周末没有新的SOX或个股交易。周五收盘与收益率已经属于上一期，今晚不把旧价格重复写成需求、政策或估值信号。",
+            "降税清单若后续覆盖服务器部件、消费电子、工业设备或美国LNG，可能分别影响供应链成本或数据中心能源预期；在清单发布前，不做公司级映射。"
+          ],
+          "whyImportant": "市场最容易把‘AI对话’误读为‘芯片限制松绑’。目前可确认的是风险沟通机制和贸易框架，而不是NVDA、AMD或设备链的许可、订单与毛利率变化。",
+          "investmentImpact": "对NVDA、AMD、MU、AVGO、MRVL、LITE、COHR及半导体设备链，未来1—12个月仍需用客户资本开支、GPU/HBM出货、ASP、良率、软件生态和毛利率验证。只有正式税目、许可证或稀土交付数据出现，才调整供应链与收入假设。对ON、ADI、TER也没有新增机器人定点证据。",
+          "tags": [
+            "NVDA",
+            "AMD",
+            "MU",
+            "半导体",
+            "芯片出口",
+            "关税",
+            "稀土",
+            "HBM",
+            "订单",
+            "估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters转述中国外交部｜美中八点共识公开内容",
+              "url": "https://in.marketscreener.com/news/china-us-agree-to-30-billion-tariff-cut-ai-dialogue-during-xi-visit-china-foreign-ministry-says-ce785adcd98ef525"
+            },
+            {
+              "title": "NVIDIA｜官方新闻入口",
+              "url": "https://nvidianews.nvidia.com/"
+            },
+            {
+              "title": "AMD｜官方新闻入口",
+              "url": "https://www.amd.com/en/newsroom.html"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-26-pm-5",
+          "category": "robot",
+          "title": "Physical AI / 机器人：未核实到新增投资级部署、可靠性或硬件经济性指标",
+          "status": "无实质更新",
+          "importance": "观察",
+          "updateNote": "今早以来没有达到zero-shot、跨本体、触觉/力控、数据效率、干预率、uptime、BOM或真实付费部署门槛的新证据。",
+          "body": [
+            "本次检索未确认Figure、Unitree、Tesla Optimus、Google/Gemini Robotics或Physical Intelligence在zero-shot generalization、cross-embodiment transfer、触觉/力控与精细操作、robot-data efficiency、human intervention rate、连续uptime、硬件BOM或真实付费deployment/design win方面出现新量化进展。",
+            "Apple的Taptic Engine专利裁决涉及消费电子触觉反馈，并不证明机器人末端执行器、灵巧手、力矩传感器或触觉闭环能力改善，本期不把法律事件包装成机器人技术进展。",
+            "美中AI对话与降税框架也未披露机器人整机、执行器、减速器、传感器或稀土磁体的具体税目和交付承诺；本期没有ON、ADI、TER、Nabtesco、Harmonic Drive、THK或Nidec的新定点或量产订单。",
+            "前期Tesla FSD道路测试与全球约7000台人形机器人销量基线没有新增监管、复购或现场故障数据，本期不重复。"
+          ],
+          "whyImportant": "没有公开新指标不等于研发停滞，只表示晚间证据没有越过投资门槛。消费电子触觉专利、贸易框架、研究采购和演示都不能替代机器人在真实任务中的自治率与单位经济性。",
+          "investmentImpact": "继续要求分任务成功率、人工干预率、连续uptime、每小时/每任务成本、BOM、独立付费客户、复购和现场故障数据。没有这些指标时，不上调NVDA、ON、ADI、TER、TSLA、Unitree及精密传动供应链的机器人订单或规模化收入假设。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "zero-shot",
+            "跨本体",
+            "触觉",
+            "干预率",
+            "uptime",
+            "BOM",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方新闻入口",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方博客",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "Google DeepMind｜官方博客",
+              "url": "https://deepmind.google/blog/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-26-pm-6",
+          "category": "macro",
+          "title": "下一期验证清单：降税税目、美国正式回复与周一跨资产开盘",
+          "status": "观察清单；不是新增已发生数据",
+          "importance": "观察",
+          "updateNote": "按今晚‘美中机制有进展但执行细节缺失、美伊出现初步反应但最终立场未到、市场休市’的证据结构排序。",
+          "body": [
+            "美中政策：等待美方正式文件，并核对约300亿美元安排的商品清单、各自降税幅度、实施日期、贸易理事会议程、11月AI对话地点及事件沟通渠道的启用标准；先进芯片、设备、实体清单和稀土必须另看正式文本。",
+            "中东与能源：确认调停方是否向伊朗传递美国最终立场，七天倒计时是否启动，霍尔木兹船流、延布装船、沙特设施安全和胡塞行动是否变化；周一分别看Brent、WTI、柴油裂解、LNG、保险和能源股，不能只看原油。",
+            "美国宏观：等待PCE、就业和工资，联看Fed加息定价、两年期/10年期/30年期曲线、实际收益率、国债拍卖和期限溢价。观察地缘与降税消息是否通过通胀预期、美元和长债传到科技估值。",
+            "日本与全球流动性：复市后观察JGB曲线、美元兑日元、实际干预及跨境资金流；JGB收益率上升 → 日本资金回流或套息收缩 → 全球风险资产流动性趋紧，仍需真实资金流验证。",
+            "产业：Apple看判后动议、上诉、赔偿调整和持续许可义务；半导体要求订单、ASP、良率、毛利率及正式政策文件；机器人继续要求纯自主成功率、人工干预率、uptime、单位成本、独立付费部署和复购。"
+          ],
+          "whyImportant": "今晚的核心组合是：美中峰会终于出现可追踪机制，但尚未给出企业级执行清单；美伊沟通从零回应推进到初步反应，却仍没有最终立场；Apple出现巨额陪审团裁决，但现金影响仍取决于上诉。",
+          "investmentImpact": "未来1—12个月，宏观上优先看降税执行、霍尔木兹实物流、成品油与LNG、核心通胀、实际收益率、期限溢价和信用利差；产业上优先看正式芯片规则、Apple诉讼路径与机器人现场指标。若周一能源风险下降且降税细节落地，风险溢价可回落；若美伊最终答复破裂、长债再升而芯片订单无上修，高估值科技与半导体仍最敏感。这不是个股买卖指令。",
+          "tags": [
+            "观察清单",
+            "美中关税",
+            "AI对话",
+            "美伊谈判",
+            "霍尔木兹",
+            "PCE",
+            "美债",
+            "JGB",
+            "Apple",
+            "机器人"
+          ],
+          "sources": [
+            {
+              "title": "Reuters转述中国外交部｜美中八点共识",
+              "url": "https://in.marketscreener.com/news/china-us-agree-to-30-billion-tariff-cut-ai-dialogue-during-xi-visit-china-foreign-ministry-says-ce785adcd98ef525"
+            },
+            {
+              "title": "Reuters｜伊朗等待美国最终立场",
+              "url": "https://www.devdiscourse.com/article/international/3982926-iran-says-awaiting-response-through-mediators-after-trump-reaction-to-proposal"
+            },
+            {
+              "title": "Reuters｜Apple触觉专利裁决",
+              "url": "https://www.reuters.com/legal/litigation/us-jury-says-apple-owes-record-57-billion-haptic-technology-patent-case-2026-09-26/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-09-26-am",
       "date": "2026-09-26",
       "period": "am",
