@@ -4,6 +4,350 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-09-28-am",
+      "date": "2026-09-28",
+      "period": "am",
+      "time": "08:03",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-09-28T08:03:52-07:00",
+      "summary": "9月28日早报｜截至湾区时间08:03。宏观继续主导：Brent升4%至约108.5美元，美债2年/10年/30年期收益率约4.914%/5.22%/5.52%，10月再加息概率约68%，纳指期货一度跌1%。美伊将与卡塔尔调停方分别谈判，但尚无停火；卡塔尔把对欧洲和亚洲客户的LNG不可抗力延长至11月至12月。美中正式公布合计600亿美元商品降税清单，却未改变芯片出口限制。产业端，NVIDIA追加1500亿美元回购并推出agent隔离工具；Meta组建企业AI平台；Cerebras获得约100MW系统供货安排。Physical AI未出现新的量化部署指标。",
+      "cards": [
+        {
+          "id": "2026-09-28-am-1",
+          "category": "macro",
+          "title": "Brent升至108.5美元、美债全线上行：市场进入“更高更久”定价",
+          "status": "油价、收益率与期货行情已发生；10月加息概率仍是市场定价",
+          "importance": "高",
+          "updateNote": "昨晚亚洲开盘Brent约106美元、30年期美债5.5185%；今早新增Brent进一步升至108.5美元、2年/10年/30年期收益率与风险资产回落。",
+          "body": [
+            "Brent期货上涨约4%至108.5美元/桶，9月累计上涨约20%，较2月底开战前高约50%；成品油涨幅更大。市场给Fed 10月连续第二次加息约68%概率，并计入到2027年底约90bp进一步收紧。这是市场预期，不是FOMC承诺。",
+            "两年期美债收益率当日升约5bp至4.914%，9月累计升56bp、为2023年2月以来最大月度升幅；10年期升约4bp至5.22%，30年期约5.52%。2年与10年收益率差由一个月前约40bp收窄至约30bp。",
+            "S&P 500期货一度跌0.5%、纳指期货跌1%；美元指数升至101.39的两个月高位。市场隐含通胀预期仍低于5月高点，Reuters引述市场分析认为本轮名义收益率上升更多来自实际收益率和政策路径，而非失控的通胀风险溢价。",
+            "本期没有新的CPI、PPI、PCE、就业、工资、财政赤字、发债计划或国债拍卖结果；不能把长端上行全部归因于财政，也不能用一天价格证明信用危机。"
+          ],
+          "whyImportant": "油价与实际收益率同时上升，会同时抬高企业成本、Fed路径和折现率。AI现金流和订单若不能同步上修，高估值科技更难仅靠主题扩张抵消资本成本。",
+          "investmentImpact": "美伊僵局 → 原油、柴油与保险成本上升 → 通胀与Fed加息定价增强 → 2年期及长端美债收益率上行 → 数据中心融资成本与NVDA、AMD、MU、META等高久期估值承压。财政供给与期限溢价仍是长端的独立风险，但本期没有新的财政数据。",
+          "tags": [
+            "Brent",
+            "美债",
+            "Fed",
+            "加息预期",
+            "实际收益率",
+            "美元",
+            "科技估值",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜全球市场转向“更高更久”定价",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-28/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-28-am-2",
+          "category": "macro",
+          "title": "美伊将与调停方分别会谈；卡塔尔LNG不可抗力延至冬季",
+          "status": "会谈安排与LNG通知已确认；停火、霍尔木兹开放及供应恢复尚未发生",
+          "importance": "高",
+          "updateNote": "昨晚只有特朗普称本周可能继续谈判；今早新增卡塔尔调停方分别会谈的具体安排，以及QatarEnergy对欧洲、亚洲客户延长不可抗力。",
+          "body": [
+            "一名知情官员称，卡塔尔调停方预计周一或周二分别与伊朗外长Araqchi和美方会谈，讨论伊朗七天方案的修改版；伊朗媒体确认Araqchi周一上午在纽约会见调停方。美方代表身份尚未公开。",
+            "伊朗原方案要求结束伊朗与黎巴嫩战事、解冻数十亿美元资产、解除石油制裁和港口封锁，之后才重开霍尔木兹并恢复核谈判。特朗普已公开拒绝原方案，因此新会谈只是外交渠道继续，不是双方已经缩小全部条件差距。",
+            "QatarEnergy把对意大利Edison的LNG不可抗力延长至12月初，对孟加拉国、巴基斯坦等亚洲客户延长至11月。Edison称再取消6船，累计未交付35船；其已用美国供应替代23船。卡塔尔截至8月底仅出口18船LNG，去年同期为509船。",
+            "英国柴油零售价升至每升199.18便士的纪录，平均家庭车加满接近110英镑、较战前多31英镑。原油出口回升没有同步解决炼化、柴油和LNG短缺。"
+          ],
+          "whyImportant": "外交渠道重新运作可降低极端尾部风险，但冬季LNG合同已把战争影响从现货标题推进到真实交付违约。欧洲与亚洲争夺替代货源，会使天然气、电力、物流和工业成本在冬季继续偏高。",
+          "investmentImpact": "谈判若形成书面停火与航道安排 → 油气和保险风险溢价下降 → 通胀与长端收益率压力缓和；反之，LNG不可抗力延长 → 欧洲与亚洲竞购美国等替代气源 → 电力和数据中心成本、PPI与利润率承压。成品油与天然气必须独立于Brent跟踪。",
+          "tags": [
+            "美伊",
+            "卡塔尔",
+            "LNG",
+            "霍尔木兹",
+            "柴油",
+            "欧洲",
+            "亚洲",
+            "能源通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美伊将与卡塔尔调停方分别会谈",
+              "url": "https://www.reuters.com/world/middle-east/us-iran-set-hold-separate-talks-with-mediators-monday-or-tuesday-official-says-2026-09-28/"
+            },
+            {
+              "title": "Reuters｜卡塔尔延长LNG不可抗力",
+              "url": "https://www.reuters.com/business/energy/qatar-will-not-deliver-gas-european-client-edison-until-beginning-december-2026-09-28/"
+            },
+            {
+              "title": "Reuters｜英国柴油零售价创纪录",
+              "url": "https://www.reuters.com/business/energy/uk-diesel-prices-hit-record-highs-due-impact-iran-war-2026-09-28/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-28-am-3",
+          "category": "macro",
+          "title": "美中合计600亿美元商品降税清单正式公布；芯片限制不在内",
+          "status": "双方商品清单与休战延期已公开；具体税率执行及芯片许可没有变化",
+          "importance": "高",
+          "updateNote": "上一期只有中方约300亿美元框架和美方细节缺失；今早新增美方公开清单、双方合计600亿美元口径及中方确认休战延至1月10日。",
+          "body": [
+            "美中同意分别对约300亿美元、合计600亿美元的非敏感商品给予更优惠关税待遇。中国清单包括美国玉米、小麦、高粱、肉类、乳制品、木材、化妆品和医疗器械，不包括大豆；美国清单包括中国小家电、餐具、床品、玩具和儿童座椅等。",
+            "中国商务部确认关税休战延长两个月至2027年1月10日。双方还同意设农业工作组，中国将在2027和2028年每年进口1000万吨美国煤炭，约相当于中国年度煤炭进口的2%；LNG和石油不在清单内。",
+            "双方确认AI事件沟通渠道并计划11月底前继续对话，但没有披露触发阈值、参与机构或约束性规则。先进AI芯片、半导体设备、实体清单和单家公司出口许可证没有变化。",
+            "与此同时，中国沪深300一度下跌约1.9%至一年低位，市场仍担忧美国国会推动限制敏感政府系统使用中国AI数据中心光模块；该法案尚未通过。"
+          ],
+          "whyImportant": "清单把峰会口头成果推进到可核对商品层面，降低部分消费品与农产品政策尾部风险；但核心科技与关键基础设施竞争被刻意留在协议之外，贸易缓和不能外推为芯片脱钩逆转。",
+          "investmentImpact": "关税下调 → 部分进口成本与供应链不确定性下降 → 消费、农业和物流风险溢价改善；但芯片与光互连限制维持 → NVDA、AMD、COHR、LITE及中国光模块厂商的政策假设不变。只有正式芯片许可证、实体清单或设备规则变化，才可调整半导体收入模型。",
+          "tags": [
+            "美中贸易",
+            "关税",
+            "农业",
+            "煤炭",
+            "AI事件渠道",
+            "芯片出口",
+            "光模块",
+            "供应链"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美中公布600亿美元商品降税安排",
+              "url": "https://www.reuters.com/business/aerospace-defense/china-says-us-trade-truce-extension-creates-space-advance-talks-2026-09-28/"
+            },
+            {
+              "title": "白宫｜中国拟降税商品清单",
+              "url": "https://www.whitehouse.gov/wp-content/uploads/2026/09/China-Import-List.pdf"
+            },
+            {
+              "title": "白宫｜美国拟降税商品清单",
+              "url": "https://www.whitehouse.gov/wp-content/uploads/2026/09/US-Public-List.pdf"
+            },
+            {
+              "title": "Reuters｜美国议员拟限制中国数据中心光模块",
+              "url": "https://www.reuters.com/legal/litigation/us-lawmakers-aim-keep-chinas-datacenter-tech-out-sensitive-government-systems-2026-09-25/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-28-am-4",
+          "category": "macro",
+          "title": "日本最高汇率官员发出“非常明确”警告，实际干预仍未发生",
+          "status": "日美口头警告已发生；外汇干预与跨境资金回流尚未确认",
+          "importance": "中",
+          "updateNote": "昨晚只有服务通胀和BOJ偏鹰纪要；今早新增日本最高汇率官员对日美共同信号的公开升级。",
+          "body": [
+            "日本最高汇率官员Atsushi Mimura要求市场认真对待东京与华盛顿上周针对日元发出的“非常明确”信号，并称自己对近期日元走势既不满意也不放心。",
+            "特朗普上周向日本首相高市早苗表达对日元疲弱的担忧，日本财务相与美国财长Bessent也重申日元低估值得关注。Mimura拒绝说明日本是否会再次干预。",
+            "美元兑日元约157，日元在口头警告后小幅走强。本期没有实际干预金额、JGB新增收盘或保险、养老金及跨境资金流数据。"
+          ],
+          "whyImportant": "日美同时表态提高了接近160时的干预概率，但口头警告不等于资金已经回流。真正影响全球流动性的变量仍是BOJ加息、JGB相对收益、美元对冲成本和日本机构配置。",
+          "investmentImpact": "日本通胀/BOJ偏鹰与干预风险 → JGB及汇率波动上升 → 套息交易收缩或本土资金回流 → 美债和全球风险资产边际买盘减弱。该链条仍需真实资金流验证；若只是口头干预，影响可能短暂。",
+          "tags": [
+            "日本",
+            "日元",
+            "汇率干预",
+            "BOJ",
+            "JGB",
+            "资金回流",
+            "全球流动性"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜日本最高汇率官员警告市场",
+              "url": "https://www.reuters.com/world/asia-pacific/japan-top-fx-diplomat-urges-markets-heed-very-clear-warning-yen-2026-09-28/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-28-am-5",
+          "category": "ai",
+          "title": "NVIDIA推出OpenShell与Sentry；佛州则要求法院限制OpenAI新模型开发",
+          "status": "安全软件已发布、诉讼请求已提交；工具效果和法院裁定均未验证",
+          "importance": "高",
+          "updateNote": "昨晚只知道特朗普反对普遍放慢AI；今早新增一套可部署的agent隔离工具，以及州政府寻求直接限制模型开发的司法请求。",
+          "body": [
+            "NVIDIA发布OpenShell，利用CPU硬件能力隔离AI agent，并与Arm、Intel合作扩大兼容性；另一套Sentry通过独立NVIDIA芯片监控并在agent试图逃逸时切断。首批合作伙伴包括Anthropic。",
+            "NVIDIA称这些工具若在前沿实验室评测阶段部署，可能阻止此前Hugging Face事件；这是公司判断，尚无独立复现、误报率、性能开销或大规模生产部署数据。",
+            "佛罗里达州检察长在儿童伤害诉讼中请求法院禁止OpenAI在没有外部监督下开发新模型，并要求阻止未成年人使用ChatGPT及限制产品赋予“人类属性”。法院尚未裁定，OpenAI也未立即回应。",
+            "两件事代表同一压力的不同路径：产业试图把agent越界转成硬件隔离与运行时控制，州政府则寻求用诉讼直接约束模型开发。"
+          ],
+          "whyImportant": "AI安全正在从原则与自愿评测进入可售基础设施和潜在司法禁令。若运行时隔离有效，企业部署门槛可下降；若法院接受外部监督或开发限制，行业发布流程、未成年人产品设计和责任成本都会改变。",
+          "investmentImpact": "对NVDA、INTC、Arm是安全计算栈和企业分发机会，但没有定价、客户数与性能数据前不能计入明显收入。对OpenAI是高影响、低确定性的法律风险；诉讼请求不等于禁令已生效。行业将增加沙箱、权限控制、日志、外部评测、年龄保障和保险预算。",
+          "tags": [
+            "NVDA",
+            "OpenShell",
+            "Sentry",
+            "AI agent",
+            "OpenAI",
+            "佛罗里达",
+            "诉讼",
+            "安全隔离"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜NVIDIA发布agent安全软件",
+              "url": "https://www.reuters.com/legal/litigation/nvidia-releases-ai-safety-software-it-says-could-have-stopped-hugging-face-hack-2026-09-28/"
+            },
+            {
+              "title": "Reuters｜佛州请求法院限制OpenAI新模型开发",
+              "url": "https://www.reuters.com/world/florida-asks-court-bar-openai-developing-new-models-part-child-harm-lawsuit-2026-09-28/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-28-am-6",
+          "category": "ai",
+          "title": "Meta组建企业AI平台并挖角MongoDB CEO：从消费agent转向企业分发",
+          "status": "高管任命与平台方向已宣布；企业客户、合同与收入尚未披露",
+          "importance": "中",
+          "updateNote": "前期只跟踪Muse消费端下载、人工接管和硬件入口；今早新增企业AI业务组织与负责人。",
+          "body": [
+            "Meta聘请MongoDB CEO Chirantan “CJ” Desai担任新设首席企业平台官，直接向Mark Zuckerberg汇报，负责把Meta模型、agent和工具转成企业可部署产品。",
+            "Meta Enterprise Platform将覆盖Muse、Meta Business Agent及编码工具。公司没有披露正式定价、首批客户、销售团队规模、云部署方式、合同额或毛利率。",
+            "MongoDB任命前CEO Dev Ittycheria为临时CEO并启动继任者搜索；MongoDB股价盘中一度下跌18%，反映关键管理层离任风险，而不是数据库需求已经变化。"
+          ],
+          "whyImportant": "Meta正在把AI商业化从广告、消费订阅和硬件入口扩展到企业软件。招聘具有ServiceNow、Cloudflare和MongoDB背景的负责人，说明企业工作流、数据与平台销售可能成为独立收入路线。",
+          "investmentImpact": "对META，上行来自企业订阅、agent部署和模型分发；风险来自推理成本、数据治理、与MSFT/GOOGL/AMZN及独立软件商竞争。对MDB是管理层与执行不确定性。没有客户、ARR和毛利前，不把组织设立直接计入EPS上修。",
+          "tags": [
+            "META",
+            "MongoDB",
+            "企业AI",
+            "Muse",
+            "agent",
+            "SaaS",
+            "管理层"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Meta聘请MongoDB CEO领导企业AI平台",
+              "url": "https://www.reuters.com/technology/mongodb-ceo-desai-steps-down-lead-metas-enterprise-platform-2026-09-28/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-28-am-7",
+          "category": "semi",
+          "title": "NVIDIA追加1500亿美元回购；Cerebras获约100MW推理系统供货安排",
+          "status": "回购授权和供货安排已宣布；实际回购节奏、交易金额与交付兑现仍待验证",
+          "importance": "高",
+          "updateNote": "昨晚半导体只新增RTX PRO 5500潜在中国许可传闻；今早新增NVIDIA资本回报决策与Cerebras真实推理基础设施安排。",
+          "body": [
+            "NVIDIA把股票回购授权增加1500亿美元，使剩余可回购额度达到2350亿美元，计划在2028财年前使用。公司7月季末现金及现金等价物为224.4亿美元；股价约为未来12个月盈利的16.5倍，为2015年1月以来最低倍数。",
+            "授权不等于立即完成回购，实际执行仍取决于现金流、股价和投资需求。NVIDIA股价早盘上涨逾3%；此前公司预计2028财年收入增长约70%，这是公司指引而非已实现结果。",
+            "Cerebras将向云计算初创Gimlet Labs供应CS-4芯片与系统，目标总功耗约100MW，计划在未来一至两年交付并于2027年上线云服务。双方未披露交易金额，Gimlet负责后续运营维护。",
+            "约100MW是明确容量信号，主要针对低延迟推理和前沿模型；它验证NVIDIA之外的架构需求，但不等于数据中心已建成、利用率已锁定或NVIDIA订单被替代。"
+          ],
+          "whyImportant": "NVIDIA的大额回购显示现金生成和管理层对估值的信心，同时也会引发资本应优先用于回购、创业投资还是产能与研发的比较。Cerebras安排则提供了比融资或演示更强的替代推理芯片需求证据。",
+          "investmentImpact": "对NVDA，回购提高每股收益与下行支撑，但若AI资本开支或客户信用恶化，2350亿美元额度也不会自动兑现。对Cerebras是2027年收入与部署线索；对NVDA/AMD是竞争观察项。未来看实际回购、CS-4交付、Gimlet融资、并网、利用率、每token成本和客户合同。",
+          "tags": [
+            "NVDA",
+            "股票回购",
+            "Cerebras",
+            "Gimlet Labs",
+            "推理",
+            "100MW",
+            "CS-4",
+            "半导体"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜NVIDIA追加1500亿美元回购授权",
+              "url": "https://www.reuters.com/business/nvidia-adds-150-billion-existing-share-repurchase-plan-2026-09-28/"
+            },
+            {
+              "title": "NVIDIA投资者关系｜最新公告入口",
+              "url": "https://investor.nvidia.com/home/default.aspx"
+            },
+            {
+              "title": "Reuters｜Cerebras向Gimlet供应约100MW AI系统",
+              "url": "https://www.reuters.com/technology/cerebras-supply-ai-systems-cloud-computing-startup-gimlet-labs-2026-09-28/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-28-am-8",
+          "category": "robot",
+          "title": "未核实到新增投资级机器人部署、可靠性或硬件经济性指标",
+          "status": "无实质更新",
+          "importance": "中",
+          "updateNote": "昨晚Momenta与Stellantis量产合作是最新design win；今早没有新的车型、SOP、接管率或人形机器人现场数据。",
+          "body": [
+            "本次检索未确认Figure、Unitree、Tesla Optimus、Google/Gemini Robotics或Physical Intelligence在zero-shot generalization、cross-embodiment transfer、触觉/力控与精细操作、robot-data efficiency、human intervention rate、连续uptime、硬件BOM或真实付费deployment/design win方面出现新的量化进展。",
+            "Google DeepMind官方新闻页没有9月28日新增机器人发布；Figure最新可见的zero-shot 30个家庭测试发布于9月17日，早于本期窗口。Momenta合作也没有新增车型数量、量产时间、单车收入或安全数据。",
+            "本期没有ON、ADI、TER、Nabtesco、Harmonic Drive、THK或Nidec披露新的机器人零部件定点、执行器/灵巧手/传感器/电池/减速器成本下降、产能利用率或独立客户复购。"
+          ],
+          "whyImportant": "没有新指标不等于研发停滞，只表示公开证据没有越过投资门槛。软件agent安全工具、AI芯片订单和汽车量产合作不能替代人形机器人现场可靠性与单位经济性。",
+          "investmentImpact": "继续要求分任务成功率、人工干预率、连续uptime、每小时或每任务成本、BOM、独立付费客户、复购和现场故障数据。没有这些指标时，不上调NVDA、ON、ADI、TER、TSLA、Unitree及精密传动链的机器人收入假设。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "zero-shot",
+            "跨本体",
+            "触觉",
+            "干预率",
+            "uptime",
+            "BOM",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方新闻入口",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方博客",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "Google DeepMind｜官方新闻入口",
+              "url": "https://deepmind.google/blog/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-28-am-9",
+          "category": "macro",
+          "title": "下一期验证：调停结果、核心数据、关税执行与AI兑现",
+          "status": "观察清单；不是新增已发生数据",
+          "importance": "中",
+          "body": [
+            "美伊与能源：核实卡塔尔调停是否形成书面反建议、停火或霍尔木兹安排；跟踪Brent、柴油裂解、LNG现货、卡塔尔取消货、运费与保险，区分原油出口恢复和气体/成品油短缺。",
+            "美国宏观：等待PCE、GDP、制造业、就业与工资；联看10月加息概率、2年/10年/30年曲线、实际收益率、国债拍卖、期限溢价、信用利差及AI项目融资。市场预期不是已发生数据。",
+            "日本与全球流动性：观察日元是否再接近160、是否实际干预、JGB曲线及保险、养老金和跨境资金流。口头警告不能证明日本资金已经回流。",
+            "政策与产业：核对美中降税税率、生效时间和企业实际使用；芯片与光模块另看许可证和法案进度。NVIDIA看回购执行与安全工具客户，Cerebras看100MW交付和利用率，Meta看企业客户与ARR，OpenAI看法院是否发出任何临时命令。",
+            "Physical AI：继续要求zero-shot、跨本体、触觉闭环、干预率、uptime、BOM、独立付费部署和复购；不以普通演示补位。"
+          ],
+          "whyImportant": "今早核心组合是能源与实际收益率共同推高折现率，外交渠道却仍在；贸易缓和已有商品清单，但核心科技限制不变；产业出现资本回报、安全基础设施和替代推理订单三种不同证据。",
+          "investmentImpact": "未来1—12个月，宏观优先级仍高于单次产品发布。若谈判失败、LNG和柴油继续紧、实际收益率维持高位，科技与半导体同时承受成本、融资和估值压力；若能源实物改善且AI订单与现金流兑现，NVIDIA式回购与Cerebras式供货可增强基本面支撑。这不是个股买卖指令。",
+          "tags": [
+            "观察清单",
+            "美伊谈判",
+            "PCE",
+            "美债",
+            "日本",
+            "关税",
+            "AI安全",
+            "半导体",
+            "机器人"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜全球市场与Fed定价",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-28/"
+            },
+            {
+              "title": "Reuters｜美伊调停安排",
+              "url": "https://www.reuters.com/world/middle-east/us-iran-set-hold-separate-talks-with-mediators-monday-or-tuesday-official-says-2026-09-28/"
+            },
+            {
+              "title": "Reuters｜美中降税清单",
+              "url": "https://www.reuters.com/business/aerospace-defense/china-says-us-trade-truce-extension-creates-space-advance-talks-2026-09-28/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-09-27-pm",
       "date": "2026-09-27",
       "period": "pm",
