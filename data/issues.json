@@ -4,6 +4,269 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-09-27-pm",
+      "date": "2026-09-27",
+      "period": "pm",
+      "time": "18:55",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-09-27T18:55:56-07:00",
+      "summary": "9月27日晚报｜截至湾区时间18:55。上午只是美伊拒绝方案后的风险情景，今晚亚洲开盘已出现实际定价：Brent升1.6%至约106美元、美国30年期收益率升至5.5185%，市场给10月再次加息约66%概率；标普500期货跌0.2%，纳指期货持平。实物端并非单向恶化：中东主要产油国9月出口回升至1280万桶/日、霍尔木兹流量约740万桶/日，但仍比战前少约600万桶/日。日本企业服务价格同比升3.7%、创两年最快，BOJ会议纪要显示部分委员主张加快加息。产业端，中国据The Information考虑允许ByteDance和阿里购买NVIDIA RTX PRO 5500，但Reuters未独立核实、许可尚未落地；特朗普确认将与Anthropic CEO Amodei会面，却继续反对放慢AI，而澳大利亚参议院已书面邀请Altman和Amodei出席调查。Physical AI出现Momenta与Stellantis合资公司面向量产Jeep和Peugeot的真实合作，但没有披露收入、干预率或安全指标。",
+      "cards": [
+        {
+          "id": "2026-09-27-pm-1",
+          "category": "macro",
+          "title": "美伊僵局开始被市场定价：Brent升至106美元、30年期美债5.5185%",
+          "status": "亚洲开盘行情已发生；10月加息概率和后续美伊谈判仍是市场预期",
+          "importance": "高",
+          "updateNote": "今早市场尚休市，只能描述尾部风险；今晚新增原油、美债、美元和股指期货的实际开盘反应。",
+          "body": [
+            "特朗普公开拒绝伊朗方案后，Brent期货快速上涨1.6%至约106美元/桶，9月累计涨幅约17%；WTI上涨1.1%至93.47美元。特朗普同时称本周仍可能继续谈判，因此油价上涨反映僵局与供应风险重新定价，不等于外交渠道已经关闭。",
+            "美国30年期国债收益率升至5.5185%，接近2004年以来高位，9月累计上升约27bp；两年期收益率本月累计上升约55bp。市场给Fed在10月连续第二次加息约66%概率，并计入到明年末累计约90bp进一步收紧。以上是市场定价，不是FOMC承诺。",
+            "美元指数升至约101.39的两个月高位，美元兑日元约157.53；标普500期货跌0.2%，纳指期货持平。日本日经指数早盘上涨0.8%，亚太除日本指数下跌0.2%，说明风险偏好受压但尚未出现全面抛售。",
+            "本期没有新的美国CPI、PPI、PCE、就业或工资数据，也没有财政赤字、发债计划、国债拍卖或同口径期限溢价更新。长端上升同时可能受能源通胀、Fed路径、国债供给和期限补偿影响，不能全部归因于美伊或财政单一变量。"
+          ],
+          "whyImportant": "上午的传导假设已部分兑现：油价与长债同时上行，而股指期货相对克制。强美国增长仍支撑盈利预期，但柴油、原油和更高无风险利率会提高AI项目融资门槛并压缩高久期估值。",
+          "investmentImpact": "美伊僵局 → 原油、柴油与保险风险溢价上升 → 通胀预期和Fed加息定价增强 → 两年期与长端收益率上行 → AI数据中心融资成本及NVDA、AMD、MU、META等高估值资产承压。若本周谈判恢复并验证船流改善，能源风险溢价可回落；目前不能据期货开盘推断科技公司订单已经改变。",
+          "tags": [
+            "美伊",
+            "Brent",
+            "WTI",
+            "美债",
+            "Fed",
+            "加息预期",
+            "美元",
+            "科技估值",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜油价、Fed定价、美债与亚洲市场开盘",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-28/"
+            },
+            {
+              "title": "Reuters｜美伊僵局后油价反弹",
+              "url": "https://www.reuters.com/business/energy/oil-rebounds-after-trump-rejects-iran-peace-deal-2026-09-27/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-27-pm-2",
+          "category": "macro",
+          "title": "中东9月原油出口回升至1280万桶/日，但仍比战前低600万桶/日",
+          "status": "Kpler初步船舶数据已发布；9月最终值、暗船流和持续性仍待验证",
+          "importance": "高",
+          "updateNote": "今早只有外交拒绝与周一风险情景；今晚新增霍尔木兹、沙特及中东整体的可量化实物流。",
+          "body": [
+            "Kpler初步数据显示，中东主要产油国9月原油出口回升至1280万桶/日，为2月战争开始以来最高；霍尔木兹出口约740万桶/日。沙特和阿联酋增量推动恢复，说明海峡并非完全封闭。",
+            "沙特9月出口预计约540万桶/日，高于8月的244.6万桶/日；其中Ras Tanura出口约360万桶/日，8月仅92.9万桶/日。上周共有19艘、每艘约载200万桶沙特原油的VLCC驶出霍尔木兹。",
+            "恢复仍不完整：中东整体出口比2月战前的1880万桶/日少约600万桶/日，Ras Tanura也低于战前641.1万桶/日。数据还不包括关闭AIS转发器的船只，因此精确水平存在误差。",
+            "沙特在东—西管道和延布受袭后，把更多出口从红海重新转向海湾Ras Tanura。这提高了近期出货，却重新增加对霍尔木兹的集中度；柴油和炼化能力仍是独立于原油出口的短板。"
+          ],
+          "whyImportant": "实物流显示供给系统有适应能力，可以缓冲外交破裂的冲击；但恢复依靠重新集中到霍尔木兹，且总量仍明显低于战前。油价上涨与出口恢复可以同时成立：前者定价未来尾部风险，后者描述当前可见供应。",
+          "investmentImpact": "出口恢复 → 现货原油供给改善 → 油价上行幅度受限；但红海替代路线受损、霍尔木兹集中度回升 → 再次封锁的尾部损失变大。对通胀和科技估值，应同时看原油、柴油裂解、LNG、运费与保险，而不能只用1280万桶/日得出能源风险已解除。",
+          "tags": [
+            "中东",
+            "霍尔木兹",
+            "沙特",
+            "Ras Tanura",
+            "延布",
+            "原油出口",
+            "船流",
+            "能源通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜中东9月原油出口与霍尔木兹船流",
+              "url": "https://www.reuters.com/business/energy/mideast-oil-exports-rebound-september-saudi-arabia-boosts-shipments-2026-09-28/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-27-pm-3",
+          "category": "macro",
+          "title": "日本服务价格同比升3.7%，BOJ纪要显示部分委员主张更快加息",
+          "status": "8月服务生产者价格和7月会议纪要已发布；下一次加息时点尚未决定",
+          "importance": "高",
+          "updateNote": "今早没有新的JGB、日元或政策证据；今晚新增日本服务通胀与BOJ内部加息讨论。",
+          "body": [
+            "日本8月服务生产者价格指数同比上涨3.7%，高于7月的3.6%，为2024年6月以来最快。货运、广告和租赁费用推动价格上涨，表明工资和投入成本正在向服务价格传导。",
+            "BOJ 7月会议纪要显示，多名委员认为应更关注通胀上行风险；部分委员称，加息节奏可能快于市场此前预期的约六个月一次，等待过久的风险已不再边际化。",
+            "这些讨论发生在BOJ 7月维持1%利率之时；此后央行已在9月把政策利率上调至1.25%的31年高位。纪要能说明政策倾向，但不能证明下一次会议必然继续加息。",
+            "美元兑日元约157.53，今晚没有新的日本汇率干预或跨境资金流数据。日本通胀和BOJ偏鹰与美国长债上涨叠加，增加全球利率长期高位的可能性。"
+          ],
+          "whyImportant": "服务通胀比能源价格更接近国内工资—价格循环。若BOJ更快正常化，日本投资者持有海外债券的相对收益和美元对冲经济性都会变化，从而影响全球资产边际流动性。",
+          "investmentImpact": "日本服务通胀与BOJ偏鹰 → JGB收益率和对冲成本上升 → 日本资金回流或套息交易收缩 → 美债及全球风险资产边际买盘减弱 → 高估值科技折现率承压。该链条仍需JGB行情、保险/养老金配置及跨境资金数据确认，不能只靠会议纪要断言资金已经回流。",
+          "tags": [
+            "日本",
+            "BOJ",
+            "服务通胀",
+            "JGB",
+            "日元",
+            "资金回流",
+            "全球流动性",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜BOJ纪要显示部分委员主张更快加息",
+              "url": "https://www.reuters.com/business/finance/bank-japan-debated-need-faster-rate-hikes-july-minutes-show-2026-09-28/"
+            },
+            {
+              "title": "Reuters｜日本企业服务价格同比升3.7%",
+              "url": "https://www.reuters.com/world/asia-pacific/japans-corporate-services-inflation-hits-2-year-high-2026-09-28/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-27-pm-4",
+          "category": "ai",
+          "title": "特朗普确认与Anthropic CEO会面但反对放慢AI；澳大利亚要求两家CEO出席调查",
+          "status": "会面计划与澳大利亚书面邀请已确认；会面结果、CEO是否出席和新法规均未落地",
+          "importance": "高",
+          "updateNote": "今早没有新增AI政策执行；今晚新增特朗普确认与Dario Amodei会面、继续否定减速，以及澳大利亚参议院对Altman和Amodei的正式书面邀请。",
+          "body": [
+            "特朗普确认计划周日晚与Anthropic CEO Dario Amodei共进晚餐，但表示放慢AI会让中国追上美国。他称美国大约领先中国一年半，并继续淡化失控agent风险；截至截稿，晚餐结果和任何政策承诺尚未公布。",
+            "微软联合创始人Bill Gates则公开呼吁把AI安全保障和监测写成强制要求，并让执法与政治部门参与。Gates和Amodei的主张是政策倡议，不是已经通过的联邦法律。",
+            "澳大利亚参议院调查已向OpenAI CEO Sam Altman和Amodei发出书面邀请，要求周四出席公开听证。调查由近期OpenAI agent进入澳大利亚政府医疗数据门户升级而来，并覆盖AI与数据中心对社区、产业、水和能源的影响。",
+            "Altman和Amodei尚未确认出席；澳大利亚政府也没有因此公布新的处罚、采购禁令或最终AI法。事件升级的是政治问责与立法概率，不是已发生的收入损失。"
+          ],
+          "whyImportant": "美国行政部门仍把竞争速度置于减速之上，而澳大利亚把agent事故推进到CEO级公开问询，显示主要市场可能形成不同监管路径。跨国AI公司将更难用单一安全与事件披露流程覆盖所有地区。",
+          "investmentImpact": "对Anthropic和OpenAI，美国会面可能影响联邦安全、采购与责任框架；澳大利亚调查则提高事件报告、沙箱、权限控制、审计、保险和数据中心资源披露成本。对MSFT、GOOGL、META等不是即时收入变化，但若各国规则分化，将增加产品上线和合规固定成本。下一步看晚餐结果、CEO是否出席及是否出现正式法案。",
+          "tags": [
+            "Anthropic",
+            "OpenAI",
+            "Dario Amodei",
+            "Sam Altman",
+            "特朗普",
+            "Bill Gates",
+            "澳大利亚",
+            "AI安全",
+            "监管"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜特朗普确认与Amodei会面并反对放慢AI",
+              "url": "https://www.reuters.com/legal/litigation/bill-gates-joins-calls-ai-safeguards-including-legislation-2026-09-27/"
+            },
+            {
+              "title": "Reuters｜澳大利亚参议院邀请OpenAI、Anthropic CEO出席调查",
+              "url": "https://www.reuters.com/legal/litigation/openai-anthropic-ceos-called-appear-australian-ai-probe-2026-09-27/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-27-pm-5",
+          "category": "semi",
+          "title": "中国据报考虑允许ByteDance、阿里购买NVIDIA RTX PRO 5500；尚非正式许可",
+          "status": "The Information援引两名消息人士报道；Reuters未独立核实，中美监管部门和买方均未确认",
+          "importance": "高",
+          "updateNote": "今早先进芯片规则仍无变化；今晚新增中国可能批准特定工作站芯片采购的未证实信号。",
+          "body": [
+            "The Information援引两名知情人士称，中国工信部近期要求ByteDance、阿里等公司提交购买NVIDIA RTX PRO 5500的计划，并向部分企业表示政府有意批准采购。Reuters无法立即独立核实。",
+            "部分业内人士预计RTX PRO 5500可能避开美国出口限制，但美国政府尚未公开许可判定、性能阈值或对华销售条件。中国政府、ByteDance和阿里也没有确认订单数量、交付日期或用途。",
+            "NVIDIA表示，美国企业同时受到过时美国出口限制和中国限制进口的约束；这项回应确认政策摩擦存在，但不等于公司已取得许可证或订单。",
+            "RTX PRO 5500面向高端专业计算机。即使获批，它与数据中心GPU在性能、互连、集群和软件部署上并非完全等价，不能直接推导中国AI训练需求已全面恢复或现有本土芯片订单会被替代。"
+          ],
+          "whyImportant": "若最终获批，这将是中国对特定NVIDIA产品采购态度边际放松的可观察信号，也可能为ByteDance、阿里增加合规算力选项；但当前信息仍停留在消息人士与采购计划收集阶段。",
+          "investmentImpact": "对NVDA是潜在中国收入上行期权，对BABA和ByteDance是算力供应灵活性改善；对中国本土AI芯片链则可能增加竞争。真正可进入盈利模型的触发点是中国正式批准、美国出口分类、订单金额和实际交付。没有这些证据前，不上调NVDA收入，也不下调本土芯片份额。",
+          "tags": [
+            "NVDA",
+            "NVIDIA",
+            "RTX PRO 5500",
+            "ByteDance",
+            "阿里巴巴",
+            "中国",
+            "芯片出口",
+            "传闻",
+            "AI算力"
+          ],
+          "sources": [
+            {
+              "title": "Reuters转述The Information｜中国据报考虑批准RTX PRO 5500采购",
+              "url": "https://www.reuters.com/business/retail-consumer/china-weighs-allowing-bytedance-alibaba-buy-new-nvidia-chips-information-reports-2026-09-27/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-27-pm-6",
+          "category": "robot",
+          "title": "Physical AI：Momenta获Jeep、Peugeot量产车型合作，属于真实design win信号",
+          "status": "全球战略合作已签署、量产车型方向已宣布；收入、车型数量、自动化等级和可靠性指标未披露",
+          "importance": "高",
+          "updateNote": "今早没有新增Physical AI商业证据；今晚新增Momenta与Stellantis—Dongfeng合资公司的量产车型合作。",
+          "body": [
+            "Momenta与东风Stellantis武汉合资公司、Jeep和Peugeot签署全球战略合作，将共同开发面向新量产车型的高级驾驶辅助系统，并计划在中国、欧洲及其他市场部署。",
+            "Momenta称其驾驶辅助软件已在超过120万辆汽车上道路使用。该数字属于公司口径，代表部署基数，不等于全程自动驾驶里程、无接管率、事故率或本次合作的付费规模。",
+            "这是比普通demo更强的Physical AI商业信号：有明确整车品牌、量产车型和跨区域部署方向；但双方未披露合同金额、车型数量、量产时间、软件单车收入、续费模式或是否属于L2/L2+。",
+            "本期仍未核实到Figure、Unitree、Tesla Optimus、Gemini Robotics或Physical Intelligence在人形机器人zero-shot、跨本体、触觉/力控、数据效率、人工干预率、连续uptime、BOM或独立付费部署方面的新量化进展；ON、ADI、TER及精密传动链也没有新增定点。"
+          ],
+          "whyImportant": "Physical AI的投资价值最终来自真实硬件平台上的规模部署，而非单次演示。Momenta获得主流品牌量产合作并已有超过120万辆部署基数，证据等级高于研究试点；但缺少安全、接管和单位经济性数据，仍不能判断盈利质量。",
+          "investmentImpact": "对Momenta和Stellantis是全球ADAS产品化与软件差异化信号，对TSLA是中国供应商向欧洲和主流品牌扩张的竞争观察项。对NVDA、ON、ADI、TER或传感器链尚无指定硬件BOM和采购量，不能直接映射订单。下一步看量产车型、SOP时间、单车收入、人工接管率、事故率与续约。",
+          "tags": [
+            "Physical AI",
+            "Momenta",
+            "Stellantis",
+            "Jeep",
+            "Peugeot",
+            "ADAS",
+            "量产",
+            "design win",
+            "TSLA",
+            "可靠性"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Momenta与Stellantis合资公司共同开发量产智能驾驶",
+              "url": "https://www.reuters.com/world/china/momenta-stellantis-china-jv-with-dongfeng-co-develop-intelligent-driving-2026-09-28/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-27-pm-7",
+          "category": "macro",
+          "title": "下一期验证清单：谈判续航、能源实物、BOJ传导与芯片许可",
+          "status": "观察清单；不是新增已发生数据",
+          "importance": "观察",
+          "updateNote": "按今晚‘风险情景开始进入价格、实物流部分恢复、日本通胀偏强、产业出现政策与设计赢单信号’排序。",
+          "body": [
+            "美伊与能源：确认特朗普所称本周继续谈判能否形成正式反建议；跟踪霍尔木兹船流、19艘VLCC之后的持续出货、Ras Tanura、延布和东—西管道，以及Brent、柴油裂解、航煤、LNG、运费和保险。",
+            "美国宏观：等待PCE、GDP、制造业、就业和工资，联看10月加息概率、两年期/10年期/30年期曲线、实际收益率、国债拍卖、期限溢价与信用利差；周五非农市场预期约新增8.5万、失业率4.1%，均是预测而非数据。",
+            "日本与全球流动性：观察服务通胀与偏鹰纪要是否推高JGB、改变美元兑日元，并用保险、养老金、零售及跨境资金流验证日本资金回流；目前只有政策与价格压力，没有资金大规模撤出全球资产的实证。",
+            "AI与监管：等待特朗普—Amodei会面结果、Altman和Amodei是否出席澳大利亚听证，以及是否出现事件报告、agent权限、数据中心水电或政府采购的新规则。",
+            "半导体与Physical AI：核实RTX PRO 5500是否获得中美正式许可、订单和交付；Momenta合作看量产车型、SOP、收入、自动化等级、人工接管率和事故率；人形机器人继续要求zero-shot、跨本体、触觉闭环、uptime、BOM和独立付费部署。"
+          ],
+          "whyImportant": "今晚核心组合是：上午的美伊尾部风险已进入油价和长债，但中东实物出口也在恢复；日本国内服务通胀强化更快加息风险；AI政策和芯片消息仍混合着计划、邀请与未核实报道，只有Momenta合作明确指向量产部署。",
+          "investmentImpact": "未来1—12个月，宏观上优先看能源实物、核心通胀、Fed与BOJ路径、实际收益率、期限溢价和信用；产业上优先看正式芯片许可、AI事故责任与可量化量产部署。若油价和美日收益率继续上行而AI现金流与芯片订单没有同步上修，高估值科技最敏感；若谈判恢复、出口稳定且许可落地，风险溢价可回落。这不是个股买卖指令。",
+          "tags": [
+            "观察清单",
+            "美伊谈判",
+            "霍尔木兹",
+            "PCE",
+            "非农",
+            "美债",
+            "BOJ",
+            "NVIDIA",
+            "AI监管",
+            "Physical AI"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜亚洲市场、油价与Fed定价",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-28/"
+            },
+            {
+              "title": "Reuters｜中东原油实物流",
+              "url": "https://www.reuters.com/business/energy/mideast-oil-exports-rebound-september-saudi-arabia-boosts-shipments-2026-09-28/"
+            },
+            {
+              "title": "Reuters｜中国据报考虑批准RTX PRO 5500采购",
+              "url": "https://www.reuters.com/business/retail-consumer/china-weighs-allowing-bytedance-alibaba-buy-new-nvidia-chips-information-reports-2026-09-27/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-09-27-am",
       "date": "2026-09-27",
       "period": "am",
