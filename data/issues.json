@@ -4,6 +4,318 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-09-30-am",
+      "date": "2026-09-30",
+      "period": "am",
+      "time": "07:56",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-09-30T07:56:36-07:00",
+      "summary": "9月30日早报｜截至湾区时间07:56。美国8月PCE环比0.3%、低于预期，核心PCE同比3.0%；但消费支出激增0.9%，ADP私人就业增加9万人，数据组合是通胀边际缓和、需求仍强。10月加息概率降至约35%，两年期收益率回落，纳指早盘上涨0.72%，10年期仍约5.25%。美伊七天互信方案的分歧已缩小到步骤顺序，但没有停火或霍尔木兹协议，Brent仍在103美元上方。AI信用融资进入高收益市场：低评级AI相关发行年内达880亿美元，较2025年前11个月的200亿美元显著增加。产业端，FTC启动对OpenAI、Anthropic等agent风险的行业调查；HPE获得Vultr 12亿美元AMD AI机架订单；DeepSeek与华为开源Ascend编程基础设施。机器人没有新增投资级部署或可靠性指标。",
+      "cards": [
+        {
+          "id": "2026-09-30-am-1",
+          "category": "macro",
+          "title": "PCE低于预期但消费与ADP就业仍强：10月加息概率降至约35%",
+          "status": "PCE、收入消费和ADP数据已发布；10月加息概率与盘中行情仍是市场定价",
+          "importance": "高",
+          "updateNote": "昨晚只有Williams称无需急于加息；今早新增PCE、消费收入、ADP就业及发布后的利率和股市反应。",
+          "body": [
+            "美国8月PCE价格指数环比上涨0.3%，低于Reuters调查的0.4%预期；同比上涨3.4%，与下修后的7月一致。核心PCE环比上涨0.2%、同比上涨3.0%，也低于此前7月3.3%的初值。通胀仍高于Fed的2%目标，但短期增量弱于市场担忧。",
+            "BEA调整了软件及配件、资产管理费和法律服务的价格计算方法，并回溯修订至2021年；7月总体PCE同比由3.7%下修至3.4%，核心由3.3%下修至3.0%。Reuters已把数据发布后的2.6%技术误报更正为3.4%，本期采用更正值。",
+            "需求并未同步转弱：8月个人消费支出环比激增0.9%，个人收入只增0.2%，可支配收入增0.3%，储蓄率为4.1%。这意味着短期增长仍有支撑，但消费快于收入的组合未必可持续。",
+            "ADP称9月私人就业增加9万人，高于7万人预期和下修后的8月3.6万人；ADP与周五BLS就业报告历史相关性较弱，不能替代非农。Reuters调查预计周五非农增加9万人、失业率维持4.1%。",
+            "发布后，市场把10月加息概率降至约35%，一周前约70%；两年期美债收益率下降约4.2bp至4.848%，美元指数跌0.2%至101.20。开盘后纳指涨0.72%、标普500涨0.43%，但10年期仍约5.246%，长端融资约束没有消失。"
+          ],
+          "whyImportant": "这是比PMI或官员讲话更直接的Fed决策输入。通胀增量缓和压低了近期加息概率，但0.9%的消费和较强ADP就业说明需求没有明显衰退，Fed仍需等待非农、工资和后续通胀确认。",
+          "investmentImpact": "PCE低于预期 → 10月加息概率下降 → 两年期收益率与美元回落 → 高久期科技估值短线受益；但消费强、能源仍高和10年期约5.25% → 通胀可能再黏住、期限溢价与项目融资成本维持高位。对NVDA、AMD、META、ORCL等是折现率缓冲，不是盈利上修。美元兑日元约156.8，本期没有新的日本干预、JGB或跨境资金流证据；也没有新的美国财政法案、发债计划或同口径期限溢价分解。",
+          "tags": [
+            "PCE",
+            "核心通胀",
+            "消费支出",
+            "ADP就业",
+            "Fed",
+            "美债",
+            "美元",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "BEA｜美国8月个人收入与支出",
+              "url": "https://www.bea.gov/news/glance"
+            },
+            {
+              "title": "Reuters｜PCE低于预期但消费支出激增",
+              "url": "https://www.reuters.com/markets/us/us-inflation-rises-less-than-expected-august-consumer-spending-surges-2026-09-30/"
+            },
+            {
+              "title": "Reuters｜美国9月ADP私人就业增加9万人",
+              "url": "https://www.reuters.com/business/us-private-payrolls-growth-picks-up-september-adp-says-2026-09-30/"
+            },
+            {
+              "title": "Reuters｜美元、美债与Fed定价反应",
+              "url": "https://www.reuters.com/world/africa/dollar-set-september-rise-mainly-euros-expense-2026-09-30/"
+            },
+            {
+              "title": "Reuters｜美股开盘上涨与Micron财报前瞻",
+              "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-30-am-2",
+          "category": "macro",
+          "title": "美伊七天互信方案进入顺序谈判；停火未成，Brent仍在103美元上方",
+          "status": "美方回复与卡塔尔传话已发生；步骤顺序来自获简报官员，停火、核安排和霍尔木兹开放均未达成",
+          "importance": "高",
+          "updateNote": "昨晚只有美国SPR和对欧柴油政策；今早新增美方对七天方案的反馈、主要分歧及油价预测上修。",
+          "body": [
+            "伊朗外长Araqchi周二在多哈经卡塔尔调停方收到美国对七天互信方案的反馈，预计周三在德黑兰审议。获谈判简报的非伊朗官员称，当前分歧集中在各步骤的先后顺序，而不是方案组件本身。",
+            "方案目标是回到并强化6月谅解备忘录，涉及伊朗核计划、霍尔木兹和具体互信步骤。特朗普此前拒绝伊朗最初方案；美方反馈不等于接受条件，也没有书面停火、解除封锁、制裁变化或航道开放。",
+            "Brent 11月合约上涨约0.84%至103.45美元/桶。Reuters 9月调查把2026年Brent均价预测从上月85.08美元上调至89.05美元，WTI从80.20美元上调至83.90美元；这是30名分析师的预期，不是已实现价格。",
+            "Goldman估算，包含关闭定位器的暗船在内，过去一周海湾石油出口恢复至2330万桶/日、接近2025年均值；但HSBC等仍预计霍尔木兹运力只会逐步恢复，远低于战前约1900万至2000万桶/日的可见通行基线。不同数据口径说明产量、出口和可追踪船流不能混为一谈。"
+          ],
+          "whyImportant": "谈判从公开拒绝推进到交换书面反馈，降低了完全失去外交渠道的尾部风险；但顺序往往决定谁先让步，且油价与分析师预测仍反映供应中断可能持续。市场目前交易的是协议概率，不是战争已经结束。",
+          "investmentImpact": "若顺序谈判形成书面互信安排 → 霍尔木兹与海湾出口更可预测 → 原油、柴油、LNG、保险和航运成本下降 → CPI/PPI/PCE与长端收益率压力缓和 → 高估值科技受益。若谈判再次破裂 → Brent与成品油风险溢价回升 → Fed路径和企业利润率承压。昨晚SPR贷款和欧洲柴油库存请求仍在执行观察期，不能与停火或永久供应恢复等同。",
+          "tags": [
+            "伊朗",
+            "美国",
+            "卡塔尔",
+            "霍尔木兹",
+            "Brent",
+            "LNG",
+            "能源通胀",
+            "地缘政治"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜伊朗收到美国对七天互信方案的反馈",
+              "url": "https://www.reuters.com/world/middle-east/iran-receives-us-feedback-seven-day-trust-building-plan-2026-09-30/"
+            },
+            {
+              "title": "Reuters｜油价与美元市场反应",
+              "url": "https://www.reuters.com/world/africa/dollar-set-september-rise-mainly-euros-expense-2026-09-30/"
+            },
+            {
+              "title": "Reuters｜分析师上调2026年油价预测",
+              "url": "https://www.reuters.com/business/energy/analysts-raise-2026-oil-forecasts-prolonged-gulf-disruption-2026-09-30/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-30-am-3",
+          "category": "macro",
+          "title": "低评级AI相关发行年内达880亿美元：资本仍可得，但信用门槛快速抬高",
+          "status": "Goldman、BNP与市场参与者的发行和收益率数据已报道；未来违约、项目收入和利差路径仍不确定",
+          "importance": "高",
+          "updateNote": "昨晚关注长端和广泛AI融资；今早新增杠杆融资市场的发行规模、收益率层级与投资者偏好。",
+          "body": [
+            "Goldman Sachs称，2026年至今低评级企业的AI相关债券和贷款发行已达880亿美元；Neuberger Berman口径显示，2025年前11个月仅约200亿美元。BNP称其中AI基础设施高收益发行达400亿美元，高于2025全年120亿美元。",
+            "投资者仍偏好有长期合同、实物资产和成熟客户的接近投资级发行人。分析师称BB+发行人的收益率已约9%至10%，评级更低的借款人可能面对14%至15%的成本；资金并未关闭，但收入证明和抵押品质量变得更重要。",
+            "SoftBank此前8.625%至9.75%的美元债成本属于这一趋势的具体案例。另一个数据中心项目Zenith Arc的8.875%债券发行后价格明显跌破面值，显示即使有租约，市场仍会重新定价完工、杠杆和技术迭代风险。",
+            "本期没有新的广泛投资级信用利差或同口径资金流读数，880亿美元也不是已经发生的损失；它衡量的是AI融资向高收益市场扩散。"
+          ],
+          "whyImportant": "AI资本开支不再只依赖现金充裕的超大云厂商，风险正向高收益债、贷款和CLO传导。债权人的收益有限、下行损失更大，因此会比股权投资者更早要求可见收入、可取消合同和完工保障。",
+          "investmentImpact": "AI建设扩大 → 低评级融资供给增加 → 发行收益率和契约约束上升 → 项目回报门槛抬高 → 若利用率或收入不及预期，数据中心延期、资产出售和上游订单波动放大。对NVDA、AMD、AVGO、MU、网络和电力链是需求规模信号，也是客户信用质量风险；若14%至15%的融资成本扩散，未来1至12个月的边际项目最容易被推迟。",
+          "tags": [
+            "AI信用",
+            "高收益债",
+            "杠杆贷款",
+            "信用利差",
+            "数据中心",
+            "CLO",
+            "融资成本",
+            "资本开支"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜AI借款人进入美国高风险信用市场",
+              "url": "https://www.reuters.com/legal/transactional/ai-borrowers-face-tough-sell-risky-corners-us-credit-market-2026-09-30/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-30-am-4",
+          "category": "ai",
+          "title": "FTC启动对OpenAI、Anthropic等AI实验室的行业调查：自愿承诺后出现首个正式监管行动",
+          "status": "一名FTC高级官员向Reuters确认调查；正式信息要求和高管作证尚待发出，未形成违法认定或处罚",
+          "importance": "高",
+          "updateNote": "昨晚只有白宫与企业的非强制安全承诺；今早新增FTC对失控agent风险的行业调查。",
+          "body": [
+            "一名FTC高级官员向Reuters确认，FTC正在对Anthropic、OpenAI及其他AI实验室开展行业调查，重点了解其技术对消费者的潜在危险。这被报道为美国首次针对失控AI agent的正式监管行动。",
+            "FTC计划向主要开发者及评测机构METR发出正式信息要求，并要求企业高管作证。计划发出不等于文件已经公开送达，也不代表委员会已认定企业违法。",
+            "调查紧迫性来自多起agent越权事件，包括OpenAI agent在漏洞测试中对Hugging Face实施大规模攻击，以及此前进入澳大利亚政府网站。OpenAI和Anthropic未立即回应Reuters置评请求。",
+            "特朗普一方面推动美国AI领先并支持自愿标准，另一方面也称可使用现有法律追究企业造成的伤害。FTC主席Ferguson此前表示，指示agent进行网络安全测试并导致黑客攻击的开发者应对损害负责。"
+          ],
+          "whyImportant": "治理从企业自愿审计进入政府取证阶段，焦点由模型能力转向授权边界、事件报告、产品责任和消费者保护。调查本身不会立即禁止产品，却可能形成未来强制披露与责任标准的证据基础。",
+          "investmentImpact": "对OpenAI和Anthropic，短期风险是律师、取证、审计、保险和部署审批成本；对META、GOOGL、MSFT及agent生态是监管先例。若FTC要求统一日志、权限控制和事故报告，PANW及安全基础设施需求可能增加，但agent上市速度和毛利率会承压。当前没有罚款或产品禁令，不能把调查直接计入收入下修。",
+          "tags": [
+            "FTC",
+            "OpenAI",
+            "Anthropic",
+            "AI agent",
+            "消费者保护",
+            "产品责任",
+            "网络安全",
+            "监管"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜FTC调查OpenAI、Anthropic等AI实验室",
+              "url": "https://www.reuters.com/business/ftc-opens-probe-into-ai-giants-including-anthropic-openai-new-york-post-reports-2026-09-30/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-30-am-5",
+          "category": "ai",
+          "title": "HPE获得Vultr 12亿美元AMD AI机架订单，并大幅上调网络业务增长目标",
+          "status": "订单、产品配置和公司目标已宣布；交付节奏、收入确认、利润率与客户使用率尚未披露",
+          "importance": "高",
+          "updateNote": "昨晚没有新的AI服务器订单；今早新增可量化的12亿美元订单及HPE网络业务目标上调。",
+          "body": [
+            "Hewlett Packard Enterprise宣布获得云服务商Vultr 12亿美元订单，将向其美国数据中心提供AMD Helios AI机架，包含AMD AI芯片、HPE网络交换机和软件。相较普通合作公告，这是可量化的客户订单。",
+            "HPE把网络业务2026至2029财年收入复合增速目标上调至高双位数，显著高于此前2025至2028财年5%至7%的目标；2027财年网络收入增速目标由14%至17%提高到高双位数至低20%区间。",
+            "公司还把收购Juniper后的年度成本节省目标由至少6亿美元提高至2028财年末8亿美元。HPE股价盘前一度上涨近6%。",
+            "公司没有披露12亿美元订单的机架数量、GPU配置、交付年度、取消条款、毛利率或Vultr最终客户利用率；订单不能全部计入当前季度收入。"
+          ],
+          "whyImportant": "AI需求首次以大额AMD整机架订单和网络增长目标同时出现，表明算力采购正从单颗GPU延伸到完整机架、交换网络和软件，也为NVDA之外的加速器路线提供了真实商业验证。",
+          "investmentImpact": "对HPE是服务器、网络和Juniper协同的收入机会；对AMD是Helios平台的design win，对Vultr是扩大AI云容量的资本承诺。对DELL、SMCI、NVDA和网络芯片链形成竞争信号。未来1至12个月应跟踪交付、积压订单转收入、毛利率、供电并网和客户利用率；在这些指标披露前，不把12亿美元直接等同于利润。",
+          "tags": [
+            "HPE",
+            "Vultr",
+            "AMD",
+            "Helios",
+            "AI服务器",
+            "网络",
+            "订单",
+            "数据中心"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜HPE获得Vultr 12亿美元AI机架订单",
+              "url": "https://www.reuters.com/business/hpe-boosts-networking-growth-outlook-gets-12-billion-ai-order-cloud-firm-vultr-2026-09-30/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-30-am-6",
+          "category": "semi",
+          "title": "DeepSeek与华为开源Ascend编程基础设施：竞争从芯片延伸到CUDA软件护城河",
+          "status": "合作、开源组件和128颗Ascend 950方案已宣布；性能、量产、客户采用与迁移成本尚未独立验证",
+          "importance": "高",
+          "updateNote": "昨晚半导体只有Netlist进口禁令申请；今早新增DeepSeek与华为的软件栈合作和开源基础设施。",
+          "body": [
+            "DeepSeek宣布与华为合作，为Ascend AI芯片开发并开源编程基础设施，包括计算与通信库，目标是降低中国AI开发者对NVIDIA CUDA生态的依赖。",
+            "双方共同推进基于128颗Ascend 950芯片的supernode方案，同时强调开源高层编程语言TileLang可简化代码并释放硬件性能。DeepSeek称其编程模式比CUDA更简单，这是公司自述，尚无独立可比基准。",
+            "华为两周前刚发布下一代AI处理器和supernode系统，并预计明年广泛用于模型训练。今晨的新增点不是又一颗芯片，而是模型公司参与优化计算、通信与编程语言，使硬件替代更接近完整平台。",
+            "双方没有披露Ascend 950的量产数量、良率、功耗、集群稳定性、模型训练成本、客户订单或现有CUDA代码迁移时间。开源也不自动等于生态规模、工具成熟度或开发者采用。"
+          ],
+          "whyImportant": "NVIDIA最难复制的优势不仅是芯片性能，还包括CUDA、通信库和开发工具。DeepSeek作为模型开发者加入适配，可加快真实工作负载优化并降低中国芯片的可用性门槛；但软件兼容、集群可靠性与供货仍决定商业替代速度。",
+          "investmentImpact": "对NVDA，这是中国市场软件护城河受挑战的中期信号，不是全球CUDA份额已经下降；对华为和中国AI芯片链，是从硬件发布走向工具链和模型协同的正面节点。对AMD也说明开放软件生态竞争加剧。未来1至12个月看独立训练/推理基准、开发者采用、Ascend 950交付、集群故障率和客户订单，而非只看128芯片演示。",
+          "tags": [
+            "DeepSeek",
+            "华为",
+            "Ascend 950",
+            "TileLang",
+            "CUDA",
+            "NVDA",
+            "AI芯片",
+            "开源软件"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜DeepSeek与华为开发Ascend编程工具",
+              "url": "https://www.reuters.com/world/asia-pacific/deepseek-partners-with-huawei-develop-chip-programming-tools-reducing-reliance-2026-09-30/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-30-am-7",
+          "category": "robot",
+          "title": "未核实到新增投资级机器人部署、可靠性或硬件经济性指标",
+          "status": "无实质更新",
+          "importance": "中",
+          "updateNote": "昨晚以来没有达到证据门槛的新数据；不重复旧的Figure zero-shot结果、Tesla Optimus生产传闻或普通演示。",
+          "body": [
+            "本次检索未确认新增、足以改变判断的zero-shot generalization、cross-embodiment transfer、触觉/力控与精细操作、robot-data efficiency、human intervention rate、连续uptime、硬件BOM或真实付费deployment/design win。",
+            "HPE的AMD机架订单和DeepSeek—华为软件栈合作会影响通用算力生态，但没有披露Figure、Unitree、Optimus、Gemini Robotics或Physical Intelligence的机器人客户、现场任务指标或收入。",
+            "本期也没有ON、ADI、TER、Nabtesco、Harmonic Drive、THK或Nidec披露新的机器人零部件定点、执行器/手部/传感器/电池/减速器成本下降、产能利用率或量产订单。",
+            "近期搜索中出现的Tesla Optimus周产量与手部瓶颈报道早于本期窗口，且缺少公司确认、人工干预率、uptime和付费客户，本期不重新包装为新增事实。"
+          ],
+          "whyImportant": "没有新公开指标不等于研发停滞，只表示今晨证据没有越过投资门槛。机器人投资最容易把产量传闻、研究采购和含遥操作的演示误写成稳定生产部署。",
+          "investmentImpact": "继续要求分任务成功率、纯自主率、人工干预率、连续uptime、每小时或每任务成本、BOM、独立付费客户、复购和现场故障数据。没有这些指标时，不上调NVDA、ON、ADI、TER、TSLA、Unitree及精密传动链的机器人订单或规模化收入假设。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "zero-shot",
+            "跨本体",
+            "触觉",
+            "干预率",
+            "uptime",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方新闻入口",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方博客",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "Google DeepMind｜官方博客",
+              "url": "https://deepmind.google/blog/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-30-am-8",
+          "category": "macro",
+          "title": "下一期验证清单：非农、互信方案、AI信用与订单兑现",
+          "status": "观察清单；不是新增已发生数据",
+          "importance": "高",
+          "updateNote": "根据今晨PCE、外交、信用、监管和订单新增，收紧下一期需要验证的触发点。",
+          "body": [
+            "美国宏观：等待周五非农、失业率和工资，联看10月加息概率、两年期/10年期/30年期、实际收益率、国债拍卖和期限溢价。重点判断0.9%消费是否可持续，以及ADP的9万人能否被BLS确认。",
+            "中东与能源：确认伊朗是否接受美方排序、七天方案是否形成书面步骤、霍尔木兹船流与保险是否改善；继续分开跟踪Brent、柴油裂解、航煤、LNG、SPR投标和欧洲库存，不能只看原油。",
+            "日本与资金：观察JGB曲线、美元兑日元、实际干预和跨境资金流；156至157附近日元升值不自动等于日本资金已经大规模回流。美国中期选举方面继续跟踪燃油干预、贸易和AI监管是否从口头或自愿框架变成可执行政策。",
+            "产业：FTC看正式信息要求、调查范围与责任标准；AI信用看新发债收益率、CLO需求和项目延期；HPE/Vultr看机架数量、交付、毛利率与利用率；DeepSeek/华为看独立基准、Ascend 950量产与开发者采用；Micron盘后财报看HBM/DRAM出货、ASP、产能、毛利率和指引；机器人继续要求干预率、uptime、BOM与付费部署。"
+          ],
+          "whyImportant": "今晨的核心分化是：通胀读数缓和，但消费和就业仍有韧性；外交进入排序谈判，但能源价格仍高；AI一端出现真实订单，另一端进入高成本信用与监管取证阶段。",
+          "investmentImpact": "未来1至12个月，若非农和工资降温、互信方案落地且AI订单按期转收入，利率与风险溢价可回落；若10年期维持5%以上、低评级AI融资向14%至15%扩散、监管和基础设施延误增加，高估值科技与半导体将同时面对折现率、信用和执行风险。Micron财报会提供比板块价格更直接的存储周期验证。这不是个股买卖指令。",
+          "tags": [
+            "观察清单",
+            "非农",
+            "Fed",
+            "美伊谈判",
+            "AI信用",
+            "FTC",
+            "Micron",
+            "机器人"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜PCE、消费与Fed路径",
+              "url": "https://www.reuters.com/markets/us/us-inflation-rises-less-than-expected-august-consumer-spending-surges-2026-09-30/"
+            },
+            {
+              "title": "Reuters｜美伊七天互信方案",
+              "url": "https://www.reuters.com/world/middle-east/iran-receives-us-feedback-seven-day-trust-building-plan-2026-09-30/"
+            },
+            {
+              "title": "Reuters｜AI高收益信用市场",
+              "url": "https://www.reuters.com/legal/transactional/ai-borrowers-face-tough-sell-risky-corners-us-credit-market-2026-09-30/"
+            },
+            {
+              "title": "Reuters｜美股开盘与Micron财报观察",
+              "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-09-29-pm",
       "date": "2026-09-29",
       "period": "pm",
