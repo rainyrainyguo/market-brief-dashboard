@@ -4,6 +4,351 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-09-29-pm",
+      "date": "2026-09-29",
+      "period": "pm",
+      "time": "18:56",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-09-29T18:56:08-07:00",
+      "summary": "9月29日晚报｜截至湾区时间18:56。美债长端盘中再创多年高位，但纽约联储Williams称无需急于再加息，10月加息概率从近70%降至约50%，两年期回落；30年期仍约5.59%，期限溢价压力未消失。美国消费者信心跌至2014年以来最低，政府重启最多4000万桶SPR贷款并要求欧洲释放柴油库存，说明中期选举前能源成本已进入政策执行层。中国9月官方制造业PMI回到50.1，日本工业产出却意外下降1.7%。AI侧，白宫与头部企业签署非强制安全承诺；OpenAI推出持续运行的Dots并披露接近700亿美元年化收入；Anthropic进一步暴露云渠道与客户集中度。半导体新增Netlist请求ITC禁止进口部分Micron及下游AI产品，但尚无裁决；机器人没有新增投资级指标。",
+      "cards": [
+        {
+          "id": "2026-09-29-pm-1",
+          "category": "macro",
+          "title": "长债再创多年高位，但Williams压低10月加息概率；消费者信心跌至2014年以来最低",
+          "status": "收益率、消费者信心和美股收盘已发生；10月加息概率仍是市场定价",
+          "importance": "高",
+          "updateNote": "早报只有JOLTS与约70%的10月加息概率；晚间新增Williams讲话、曲线分化、消费者信心和完整收盘。",
+          "body": [
+            "美国30年期国债收益率盘中升至5.6206%，为2002年6月以来最高；10年期盘中触及5.2932%，为2007年6月以来最高。随后30年期约5.592%、10年期约5.255%，而两年期回落约3.5bp至4.889%，显示长端与政策敏感短端分化。",
+            "纽约联储主席Williams称9月加息后“无需急迫”行动，若经济大致符合预测，年内较晚再加息一次可能合适；这是个人、有条件的预测，不是FOMC承诺。市场给10月加息25bp的概率由盘中近70%降至约51.5%。",
+            "Conference Board美国9月消费者信心指数下降6.7点至81.9，远低于89.2预期、为2014年4月以来最低。认为工作充足者降至23.6%，认为工作难找者升至21.9%；劳动市场差值由4.2%缩至1.7%，与早报“职位空缺下降但裁员少”形成一致的降温方向。",
+            "标普500收跌0.17%至7670.84点，纳指跌0.08%至26797.54点，道指跌0.26%至51349.92点。指数跌幅不大，但纳指新低家数244个、远多于34个新高，表明风险偏好并非全面强劲。",
+            "本期没有新的财政法案、赤字或发债计划，也没有可比期限溢价模型、广泛信用利差或日本跨境资金流更新。长端高位同时反映能源通胀、增长、国债供给和期限补偿，不能只归因于Fed。"
+          ],
+          "whyImportant": "消费者预期和职位空缺正在转弱，Williams因此主张等待数据；但长端仍处多年高位，说明即使短端政策概率缓和，财政供给、能源与期限补偿仍持续抬高资本成本。",
+          "investmentImpact": "消费者与劳动力降温 + Williams耐心 → 10月加息概率下降 → 两年期回落；但能源风险/财政供给/期限溢价 → 10年和30年期维持高位 → AI数据中心融资、按揭与高久期科技终值折现仍承压。对NVDA、AMD、META、ORCL等，短端缓和提供估值缓冲，却不足以抵消长端资金成本；周三PCE仍是下一跳。",
+          "tags": [
+            "美债",
+            "期限溢价",
+            "Fed",
+            "Williams",
+            "消费者信心",
+            "就业",
+            "纳指",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Williams压低10月加息定价、美债与美股收盘",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-29/"
+            },
+            {
+              "title": "Reuters｜美国消费者信心跌至2014年以来最低",
+              "url": "https://www.reuters.com/business/us-consumer-confidence-dives-more-than-12-year-low-september-2026-09-29/"
+            },
+            {
+              "title": "Reuters｜Williams称无需急于再加息",
+              "url": "https://www.reuters.com/business/feds-williams-sees-no-urgency-next-fed-rate-hike-2026-09-29/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-29-pm-2",
+          "category": "macro",
+          "title": "美国重启最多4000万桶SPR贷款，并敦促欧洲释放柴油库存",
+          "status": "SPR贷款要约与美方对欧请求已发生；实际借用量、欧盟行动及柴油出口政策尚未确定",
+          "importance": "高",
+          "updateNote": "早报只有延布装船和红色染料柴油监管方案；晚间新增正式SPR要约及美方要求欧洲履约。",
+          "body": [
+            "美国能源部重新向企业提供最多4000万桶战略石油储备（SPR）贷款，完成3月与约30个IEA成员国40000万桶全球释放协议中的美国最后一批。企业须在10月6日前提交方案，并在2028年末前以原油偿还，溢价最高24%。",
+            "这是贷款要约，不是4000万桶已经流入市场。美国6月曾提出同一批额度，但企业只愿借约50万桶，因此实际供给效果取决于投标与交付。SPR已降至不足2.84亿桶、为1982年以来最低；若跌破2.524亿桶，日常小规模释放会受到法律限制，重大紧急释放仍可进行。",
+            "白宫同时敦促欧盟释放柴油等应急库存，称部分欧洲成员国只兑现先前承诺的一小部分；欧盟尚未决定是否进一步动用库存，也未披露已经释放的总量。美国仍在研究自愿减出口、扩大免税红色柴油销售或限制出口，没有最终决定。",
+            "中东出口和延布装船改善推动WTI收跌3.22美元至89.38美元/桶、Brent跌2.69美元至102.59美元；但特朗普称没有向伊朗让步，美伊尚无书面停火、制裁或霍尔木兹安排。"
+          ],
+          "whyImportant": "能源价格已从地缘风险变量转成中期选举政策变量。SPR贷款和对欧施压能缓解短期实物紧张，但过去低借用量、储备下降和欧洲未决定行动限制了政策力度。",
+          "investmentImpact": "储备贷款/延布出口恢复 → 原油风险溢价下降 → 通胀预期和长端收益率边际缓和 → 高估值科技受益；但柴油库存释放不足/战争延续 → 运输、农业与工业成本维持高位 → CPI/PPI/PCE、利润率和Fed路径承压。若美国改为正式限制柴油出口，欧洲成品油、贸易摩擦和美国炼厂开工可能反向恶化。",
+          "tags": [
+            "SPR",
+            "柴油",
+            "欧盟",
+            "伊朗",
+            "延布",
+            "霍尔木兹",
+            "中期选举",
+            "能源通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美国重启最多4000万桶SPR贷款",
+              "url": "https://www.reuters.com/business/energy/us-release-40-million-barrels-crude-strategic-petroleum-reserve-energy-2026-09-29/"
+            },
+            {
+              "title": "Reuters｜白宫敦促欧盟释放柴油库存",
+              "url": "https://www.reuters.com/legal/government/white-house-urges-eu-draw-down-diesel-inventories-sources-say-2026-09-29/"
+            },
+            {
+              "title": "Reuters｜原油结算价与中东出口恢复",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-29/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-29-pm-3",
+          "category": "macro",
+          "title": "中国制造业PMI回到50.1，日本工业产出意外下降1.7%",
+          "status": "中国PMI与日本工业产出已发布；后续产出预测和政策影响尚未兑现",
+          "importance": "中",
+          "updateNote": "早报明确50.1只是调查预期；晚间官方数据已发布，同时日本制造业数据转弱。",
+          "body": [
+            "中国国家统计局9月官方制造业PMI由8月49.8升至50.1，结束连续两个月收缩并与Reuters调查中值一致。天气扰动减轻和全球AI需求提供支持，但50.1仅略高于荣枯线，不能写成全面强劲复苏。",
+            "日本8月工业产出环比下降1.7%，市场原预期上升1.7%，为连续第二个月下降。汽车产出受地震和台风影响下滑6.8%，通用及商业机械下降6%。",
+            "日本制造商预计9月和10月产出分别反弹3.2%和3.1%，属于调查预期、不是已实现数据。弱产出会被BOJ纳入下一次加息判断，但工资、输入性通胀、日元和JGB仍是另一侧变量。",
+            "本期没有新的日本干预、JGB收盘高点或跨境资金流证据；不能由单月产出下滑推断BOJ一定暂停，也不能由中国PMI回到50以上直接上调企业盈利。"
+          ],
+          "whyImportant": "亚洲两大经济体出现方向分化：中国定向宽松后制造业勉强重回扩张，日本却遭遇负面产出意外。对全球科技链而言，这同时影响需求预期、亚洲货币和BOJ正常化节奏。",
+          "investmentImpact": "中国PMI回到扩张 + 定向算力/电网融资 → 中国工业与AI基础设施需求边际改善；日本产出走弱 → BOJ近期加息紧迫性边际下降。但若日本工资与通胀仍高，JGB收益率和对冲成本仍可能推动资金回流或套息收缩。对半导体只能视为宏观需求线索，不是订单上修。",
+          "tags": [
+            "中国PMI",
+            "日本工业产出",
+            "BOJ",
+            "JGB",
+            "日元",
+            "亚洲制造业",
+            "全球流动性"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜中国9月制造业PMI回到50.1",
+              "url": "https://www.reuters.com/world/asia-pacific/chinas-factory-activity-returns-growth-september-amid-ai-boom-2026-09-30/"
+            },
+            {
+              "title": "Reuters｜日本8月工业产出意外下降1.7%",
+              "url": "https://www.reuters.com/world/asia-pacific/japan-august-factory-output-falls-17-month-on-month-2026-09-29/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-29-pm-4",
+          "category": "ai",
+          "title": "白宫与头部AI企业签署自愿安全承诺：外部审计入框架，但没有法律约束",
+          "status": "协议已签署并公开主要条款；10人委员会、负责人和任何强制规则尚未成立",
+          "importance": "高",
+          "updateNote": "早报只有会议安排；晚间新增协议、签署方、审计框架与数据中心社区承诺方向。",
+          "body": [
+            "特朗普与Anthropic、Google、Meta、OpenAI、NVIDIA和xAI等企业负责人签署自愿AI安全承诺。企业同意建立稳健内部控制、与独立外部审计方合作、由各自董事会委员会评估内外部审计报告，并防止AI工具未经意图访问或攻击技术系统。",
+            "协议称未来可能把这些步骤写入法律或监管，但目前只是“道德约束”，没有法定处罚、统一测试门槛、强制公开审计结果或政府审批。已有内部控制的公司是否需要新增支出也未披露。",
+            "特朗普表示考虑成立约10人的AI监督委员会，并将在未来几天指定一名白宫AI政策负责人；成员、权限、预算和任命均未公布，不能写成监管机构已经成立。",
+            "面对数据中心用电与水资源的地方反对，特朗普称企业会对当地社区作出大额贡献、降低能源成本或支持学校；企业没有公布具体金额、合同或电价机制。"
+          ],
+          "whyImportant": "这是近期agent越权事件后，白宫和头部企业首次形成共同公开框架；外部审计与董事会责任提高了治理基线，但非强制性质和缺失统一披露标准意味着执行质量仍由企业决定。",
+          "investmentImpact": "对META、GOOGL、NVDA、OpenAI和Anthropic，近期影响是审计、控制与董事会监督成本，而非收入限制；对PANW等安全和日志基础设施是需求信号。若后续立法把承诺强制化，模型发布和高风险agent部署可能放慢；若维持自愿框架，创新速度较快但事故、责任和估值风险仍由股东承担。数据中心社区贡献可能提高项目成本，却可降低许可阻力。",
+          "tags": [
+            "美国AI政策",
+            "白宫",
+            "外部审计",
+            "AI安全",
+            "数据中心",
+            "META",
+            "GOOGL",
+            "NVDA"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜特朗普与AI企业签署自愿安全承诺",
+              "url": "https://www.reuters.com/legal/government/trump-host-zuckerberg-anthropics-amodei-other-ai-titans-tuesday-2026-09-29/"
+            },
+            {
+              "title": "AP｜协议四层控制与未来监管表述",
+              "url": "https://apnews.com/article/trump-ai-anthropic-musk-595796511f110fc006cca0d01329733e"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-29-pm-5",
+          "category": "ai",
+          "title": "OpenAI推出持续运行的Dots，年化收入接近700亿美元；商业化加速与可靠性缺口并存",
+          "status": "产品、用户与收入运行率已由公司或消息人士披露；真实任务成功率、留存和利润尚未验证",
+          "importance": "高",
+          "updateNote": "早报只有中国agent受控测试；晚间新增OpenAI企业agent产品、现场演示表现和收入运行率。",
+          "body": [
+            "OpenAI在DevDay推出持续运行的Dots agent，可跨Slack和Teams追踪动态目标，调用Codex与ChatGPT Work研究、分析、制作文档和构建软件；Dots运行在独立云电脑中，用户可设置权限，改密码或永久删除数据等敏感操作需明确同意。",
+            "现场演示多次未能按要求给出语音更新，OpenAI称同时发布大量更新导致故障。公司称产品已完成安全测试，但没有披露分任务成功率、人工干预率、连续uptime、每任务成本或外部审计结果。",
+            "公司称Codex与ChatGPT Work每周用户合计超过3500万，ChatGPT消费者周活超过12亿；同时推出ChatGPT Space、成本更低的GPT-6.1 Sol及每月500美元Pro计划。不同产品合并口径不能直接与单一产品历史用户数比较。",
+            "一名知情人士称OpenAI年化经常性收入接近700亿美元，第三季度以来上升逾70%；这是把近期收入年化的运行率，不是审计后的全年收入或利润。Oracle盘中上涨5.3%，因其约一半算力积压与OpenAI相关，但收入加速仍需覆盖巨额算力义务。"
+          ],
+          "whyImportant": "Dots把竞争从问答推进到长期跨应用执行，且OpenAI给出更接近商业兑现的用户和收入信号；与此同时，演示故障和近期越权事件说明可控性与可靠性仍是规模化企业部署的约束。",
+          "investmentImpact": "对OpenAI与ORCL，上行来自企业用量、订阅层级和算力需求；风险来自推理成本、任务失败、权限责任和收入运行率与实际现金流的差距。对META Muse、MSFT及企业软件是直接入口竞争。未来应看纯自动任务成功率、人工介入、留存、ARPU、毛利与客户集中度，而非只看年化口径。",
+          "tags": [
+            "OpenAI",
+            "Dots",
+            "AI agent",
+            "Codex",
+            "ChatGPT Work",
+            "ORCL",
+            "年化收入",
+            "可靠性"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜OpenAI推出持续运行的Dots agent",
+              "url": "https://www.reuters.com/business/openai-takes-meta-with-always-on-dots-agent-enterprise-ai-push-2026-09-29/"
+            },
+            {
+              "title": "Reuters｜OpenAI年化收入接近700亿美元",
+              "url": "https://www.reuters.com/technology/openais-annual-recurring-revenue-nears-70-billion-axios-reports-2026-09-29/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-29-pm-6",
+          "category": "ai",
+          "title": "Anthropic近半收入经Amazon和Google渠道：分发优势伴随客户、算力与现金回收集中",
+          "status": "机密IPO材料数据由Reuters查阅；最终招股书、发行定价和未来兑现尚未确定",
+          "importance": "高",
+          "updateNote": "前一期已披露收入、亏损和总算力义务；本期新增渠道占比、分销费用、应收账款和客户集中度。",
+          "body": [
+            "Anthropic 2025年通过Amazon和Google云市场获得约21.6亿美元销售额，占总收入47%，高于2024年的32%和2023年的11%。两家既是投资者、算力供应商和收款渠道，也是AI竞争对手。",
+            "Reuters估算Anthropic向云平台支付约3.51亿美元分销费用，相当于相关销售约16美分/美元；公司把云市场合约全额计入收入、平台抽成计入销售与营销费用。Anthropic称其是合约主要责任方，做法符合会计准则；OpenAI此前质疑该口径会抬高可比收入。",
+            "两名未披露客户各占2025年收入12%，许多大客户没有长期承诺；Amazon和Google还负责收取年末9.09亿美元应收客户款项中的60%，若渠道争议或延迟会影响现金流。",
+            "截至2025年底不可取消的托管和算力义务为546亿美元；2026年初长期义务超过4170亿美元、覆盖3.5GW专用算力。渠道扩大能加速获客，却形成分发、融资、算力与竞争关系相互交织的循环。"
+          ],
+          "whyImportant": "新增信息把Anthropic的高增长从收入总额拆成渠道质量和议价结构。近半销售、过半应收代收以及巨额算力义务集中在少数合作伙伴，使其2万亿美元估值更依赖云平台持续支持。",
+          "investmentImpact": "对AMZN和GOOGL，Anthropic既贡献云需求与分销费，也带来竞争和资本承诺；对Anthropic，渠道加速规模化但削弱议价和可比毛利透明度。若大客户缩减用量或平台重新分配算力，收入、现金回收和IPO估值会同步受压。对NVDA、AVGO及数据中心链是需求支持，但高集中度会放大单一客户与融资周期波动。",
+          "tags": [
+            "Anthropic",
+            "AMZN",
+            "GOOGL",
+            "云市场",
+            "客户集中",
+            "算力义务",
+            "IPO",
+            "AI估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Anthropic IPO材料披露渠道与客户集中度",
+              "url": "https://www.reuters.com/world/anthropic-ipo-prospectus-lays-bare-deep-dependence-big-tech-partners-2026-09-29/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-29-pm-7",
+          "category": "semi",
+          "title": "Netlist请求ITC禁售部分Micron及下游AI产品：供应链尾部风险上升，但尚无裁决",
+          "status": "投诉已提交并公开；ITC尚未作出侵权或进口禁令裁决",
+          "importance": "中",
+          "updateNote": "早报的半导体新增是Samsung HBM产能预测；晚间新增针对Micron HBM/DRAM及下游AI系统的法律行动。",
+          "body": [
+            "内存技术公司Netlist向美国国际贸易委员会（ITC）提出投诉，称Micron部分DRAM/HBM技术侵犯两项专利，并请求禁止相关Micron内存以及采用这些部件的Google、NVIDIA、Broadcom GPU、服务器和其他产品进口。",
+            "投诉最初于上周五密封提交，Netlist周二公开。Micron拒绝置评，Google、NVIDIA和Broadcom未立即回应；ITC尚未决定是否立案调查，更没有认定侵权或颁布禁令。",
+            "Netlist在2024年曾获得针对Micron的4.45亿美元专利判决，并在8月对采用Micron内存的Super Micro、HPE和Lenovo产品提出另一宗ITC投诉；历史判决提高诉讼严肃性，但不等于本案结果。",
+            "本期没有Micron HBM订单、产量、良率、ASP或客户认证变化，也没有Google、NVIDIA或Broadcom替换供应商的确认。"
+          ],
+          "whyImportant": "请求范围延伸到下游GPU和服务器，使专利争议具备潜在供应链影响；但ITC程序和救济存在高度不确定性，现阶段只是法律尾部风险，不能写成产品即将禁售。",
+          "investmentImpact": "若ITC最终立案并支持禁令 → Micron相关HBM/DRAM及NVDA/GOOGL/AVGO系统采购需调整 → 认证、库存和成本风险上升；若和解或不立案，影响主要是诉讼费用。对MU估值是事件风险，不改变早报HBM供需判断；未来看ITC立案、专利有效性、涉案型号与替代供应。",
+          "tags": [
+            "MU",
+            "Netlist",
+            "ITC",
+            "HBM",
+            "DRAM",
+            "NVDA",
+            "GOOGL",
+            "AVGO",
+            "专利"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Netlist请求ITC禁止进口部分Micron及下游AI产品",
+              "url": "https://www.reuters.com/legal/litigation/netlist-seeks-us-import-ban-micron-chips-used-google-nvidia-ai-computing-2026-09-29/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-29-pm-8",
+          "category": "robot",
+          "title": "未核实到新增投资级机器人部署、可靠性或硬件经济性指标",
+          "status": "无实质更新",
+          "importance": "中",
+          "updateNote": "早报以来没有达到证据门槛的新数据；OpenAI Dots和AI安全协议属于软件agent与治理，不是机器人现场指标。",
+          "body": [
+            "本次检索未确认新增、足以改变判断的zero-shot generalization、cross-embodiment transfer、触觉/力控与精细操作、robot-data efficiency、human intervention rate、连续uptime、硬件BOM或真实付费deployment/design win。",
+            "OpenAI Dots虽有持续运行与权限控制设计，但没有实体执行器、跨本体迁移、真实生产任务或机器人客户数据；不能把软件agent用户数换算为Figure、Unitree、Optimus、Gemini Robotics或Physical Intelligence的成熟度。",
+            "Netlist投诉、Samsung HBM产能预测和中国PMI改善都不是ON、ADI、TER、Nabtesco、Harmonic Drive、THK或Nidec的机器人零部件定点或量产订单。",
+            "前期AMD收购World Labs仍是空间智能路线投资，晚间没有新增独立机器人基准、人工干预率、uptime、客户付费或BOM数据。"
+          ],
+          "whyImportant": "没有公开新指标不等于研发停滞，只表示晚间证据没有跨过投资门槛。软件agent商业化、模型安全承诺和空间智能并购不能替代机器人现场可靠性与硬件经济性。",
+          "investmentImpact": "继续要求分任务成功率、人工干预率、连续uptime、每小时/每任务成本、BOM、独立付费客户、复购和故障数据。没有这些指标时，不上调NVDA、ON、ADI、TER、TSLA、Unitree及精密传动供应链的机器人订单或规模化收入假设。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "zero-shot",
+            "跨本体",
+            "触觉",
+            "干预率",
+            "uptime",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方新闻入口",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方博客",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "Google DeepMind｜官方博客",
+              "url": "https://deepmind.google/blog/"
+            }
+          ]
+        },
+        {
+          "id": "2026-09-29-pm-9",
+          "category": "macro",
+          "title": "下一期验证：PCE、SPR投标、AI安全执行与agent自治率",
+          "status": "观察清单；不是新增已发生数据",
+          "importance": "高",
+          "body": [
+            "美国宏观：周三PCE、周五非农与工资将检验Williams的耐心是否成立；联看10月加息概率、两年/10年/30年曲线、实际收益率、国债拍卖、期限溢价和信用利差。消费者信心不能替代实际消费数据。",
+            "能源与选举：跟踪SPR在10月6日前的实际投标和交付、欧盟是否释放柴油库存、美国是否采用自愿减出口、红色柴油或正式限制；继续验证延布、霍尔木兹、LNG、柴油裂解、保险和美伊书面安排。",
+            "中国与日本：中国PMI看新订单、利润和信贷能否跟进；日本看产出反弹预期、工资、JGB、美元兑日元、实际干预与跨境资金流。单月工业产出不决定BOJ路径。",
+            "AI与半导体：白宫安全承诺看审计标准、委员会和负责人是否落地；OpenAI看Dots纯自动成功率、干预、uptime、付费转化与毛利；Anthropic看渠道净收入、客户留存与正式IPO文件；Netlist看ITC是否立案及涉案型号。",
+            "机器人：继续要求zero-shot、跨本体、触觉/力控、数据效率、人工干预率、连续uptime、BOM、独立付费部署和复购，不用普通演示或软件agent指标替代。"
+          ],
+          "whyImportant": "今晚最重要的分化是短端加息预期缓和而长端资金成本仍高；政府用储备政策对冲能源通胀，AI企业则用自愿承诺换取继续扩张。接下来必须用PCE、投标、审计执行和产品可靠性验证。",
+          "investmentImpact": "若PCE降温、SPR和欧盟柴油释放有效、Williams路径占上风，实际利率与能源风险溢价可回落，高估值科技获得缓冲；若长端维持高位、储备政策缺乏企业参与，同时AI收入集中和agent事故增加，科技与半导体会同时面对折现率、融资、责任和订单兑现压力。这不是个股买卖指令。",
+          "tags": [
+            "观察清单",
+            "PCE",
+            "非农",
+            "SPR",
+            "柴油",
+            "AI审计",
+            "OpenAI",
+            "Anthropic",
+            "机器人"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美债、Fed与PCE前市场定价",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-29/"
+            },
+            {
+              "title": "Reuters｜美国SPR贷款安排",
+              "url": "https://www.reuters.com/business/energy/us-release-40-million-barrels-crude-strategic-petroleum-reserve-energy-2026-09-29/"
+            },
+            {
+              "title": "Reuters｜AI企业自愿安全承诺",
+              "url": "https://www.reuters.com/legal/government/trump-host-zuckerberg-anthropics-amodei-other-ai-titans-tuesday-2026-09-29/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-09-29-am",
       "date": "2026-09-29",
       "period": "am",
