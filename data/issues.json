@@ -4,6 +4,163 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-02-am",
+      "date": "2026-10-02",
+      "period": "am",
+      "time": "08:04",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-02T08:04:32-07:00",
+      "summary": "10月2日早报｜截至湾区时间08:04。美国9月非农仅增加2.9万人、前两月合计下修6万人，失业率升至4.2%，工资环比仅增0.1%；10月加息概率降至约20%，美债收益率回落，纳指盘中创纪录。欧洲柴油政策出现实质推进：特朗普称欧洲已同意释放库存，法方方案涉及欧洲5000万桶柴油和IEA成员5000万桶原油，但最终数量与执行文件仍未完全公开。日本东京核心通胀升至2.7%、剔除生鲜和燃料后升至3.0%，BOJ年内继续加息风险仍在。产业端，Amazon据报拟把约80亿美元已安装的NVIDIA Grace Blackwell芯片装入SPV并回租；Tesla第三季交付48.65万辆超预期，其robotaxi已在得州和佛州取消车内安全员，但远程干预率、里程和事故数据未披露。",
+      "cards": [
+        {
+          "id": "2026-10-02-am-1",
+          "category": "macro",
+          "title": "非农仅增2.9万人、工资环比0.1%：10月加息概率降至约20%",
+          "status": "就业报告与盘中市场反应已发生；10月加息概率仍是市场定价，不是Fed承诺",
+          "importance": "高",
+          "updateNote": "昨晚的核心变化只是Fed官员倾向等待；今晨新增正式非农、工资、前值修订以及美债和科技股的盘中重定价。",
+          "body": [
+            "美国9月非农就业仅增加2.9万人，明显低于Reuters调查的9万人；7月由增加2.1万人下修为减少1万人，8月由增加16.2万人下修为增加13.3万人，前两月合计下修6万人。过去12个月月均新增就业仅4.5万人。",
+            "失业率由4.1%升至4.2%，但劳动力参与率由61.6%升至61.8%，劳动力增加48.5万人、家庭调查就业增加40.6万人，说明失业率上升部分来自更多人进入劳动力市场。初请失业金仍接近57年低位，暂不支持大规模裁员已经开始。",
+            "平均时薪环比只增0.1%、同比增3.0%，平均工时维持34.4小时。医疗增加1.7万人、建筑增加1.1万人、制造业增加9000人；金融活动减少7000人。",
+            "利率期货把10月加息25bp的概率降至约20%，报告前约26%；多数经济学家仍认为12月可能加息。盘中两年期和10年期收益率分别回落至约4.72%和5.18%至5.20%。截至报道快照，道指涨0.60%、标普500涨1.02%、纳指涨1.66%并创纪录，SOX涨3.1%、NVDA涨2.5%。"
+          ],
+          "whyImportant": "这份报告把昨晚的“Fed愿意等待”变成数据支持，但更接近低招聘、低裁员，而非经济突然衰退。工资降温缓解需求型通胀，能源和长期财政供给却仍可能让长端利率维持高位。",
+          "investmentImpact": "就业与工资降温 → 10月加息概率下降 → 两年期和美元回落 → NVDA、AMD、MU、软件及其他高久期资产估值获得短期支持；但非农2.9万人、前值下修 → 若继续恶化会转成盈利和信用风险。高赤字与持续发债、能源通胀和期限溢价 → 10年期仍在5%以上，因此一次就业利好不能等同于长期融资条件恢复宽松。",
+          "tags": ["非农", "失业率", "工资", "Fed", "美债", "纳指", "SOX", "科技估值"],
+          "sources": [
+            {"title": "美国劳工统计局｜2026年9月就业报告", "url": "https://www.bls.gov/news.release/archives/empsit_10022026.htm"},
+            {"title": "Reuters｜美国就业增长骤降、失业率升至4.2%", "url": "https://www.reuters.com/business/us-job-growth-slows-sharply-september-unemployment-rate-rises-42-2026-10-02/"},
+            {"title": "Reuters｜Fed预计跳过10月加息", "url": "https://www.reuters.com/business/fed-seen-skipping-october-rate-hike-job-market-cools-2026-10-02/"},
+            {"title": "Reuters｜纳指创新高、收益率回落", "url": "https://www.reuters.com/business/wall-st-futures-gain-yields-oil-prices-ease-ahead-jobs-report-2026-10-02/"}
+          ]
+        },
+        {
+          "id": "2026-10-02-am-2",
+          "category": "macro",
+          "title": "欧洲柴油储备从讨论推进到“已同意”，但数量和执行条件仍未完全确认",
+          "status": "Trump已公开称欧洲同意释放；5000万桶柴油与5000万桶原油是法方讨论方案，最终共同文件尚未公开",
+          "importance": "高",
+          "updateNote": "昨晚只有美国施压和欧洲讨论；今晨新增Trump的同意声明、法方数量方案、20天释放窗口及市场价格反应。",
+          "body": [
+            "特朗普表示欧洲国家已经同意释放柴油库存，并称流程将立即开始。欧洲政府此前讨论的法国方案是释放5000万桶柴油，并由IEA成员另释放5000万桶原油；部分柴油拟在20天内释放。",
+            "截至截稿，G7是否同意法方提出的具体数量仍不明确，也未见完整国家分配、开始日期和美国不实施出口禁令的书面保证。欧盟国家讨论把释放库存与美国承诺不单方面禁止柴油出口挂钩。",
+            "欧洲5000万桶柴油约相当于欧盟紧急柴油和gasoil库存的17%、年度消费的3%。IEA三月同意释放4亿桶战略原油，目前约三分之二已经投放，意味着进一步动用库存会降低未来冲突升级时的缓冲。",
+            "消息推动美国柴油期货跌逾4%至每加仑4.4491美元，欧洲柴油期货每吨下跌逾100美元。Brent盘中跌约2.5%至99.78美元，WTI跌约3.6%至89.55美元；这些是盘中价格，不是最终结算。"
+          ],
+          "whyImportant": "政策终于从外交施压向实际释放推进，短期可缓解成品油和通胀预期；但声明、讨论方案与正式执行仍需区分。库存释放是跨期调节，不会增加炼化产能，也无法结束伊朗战争、俄罗斯出口禁令或中国暂停出口。",
+          "investmentImpact": "欧洲柴油与IEA原油释放 → 现货紧张和裂解价差下降 → CPI/PPI/PCE压力缓和 → Fed与长端收益率风险下降 → 高估值科技获得折现率支持。反向风险是储备提前消耗、美国仍保留出口禁令、战争再升级 → 后续缓冲变薄 → 油价和通胀尾部风险重新抬升。中期选举已明确把能源外交、贸易政策和科技估值连接起来。",
+          "tags": ["柴油", "战略储备", "欧洲", "IEA", "Trump", "中期选举", "Brent", "能源通胀"],
+          "sources": [
+            {"title": "Reuters｜Trump称欧洲同意释放柴油库存", "url": "https://www.reuters.com/business/energy/europe-discussing-plan-diesel-stock-releases-after-us-pressure-source-says-2026-10-02/"},
+            {"title": "Reuters转载｜油价与欧洲柴油期货盘中下跌", "url": "https://live.euronext.com/en/financial-news/oil-price-drops-more-2-talks-over-diesel-crude-stock-releases"}
+          ]
+        },
+        {
+          "id": "2026-10-02-am-3",
+          "category": "macro",
+          "title": "东京核心通胀跳升至2.7%，日本长债暂时回落但12月加息风险上升",
+          "status": "东京CPI与JGB行情已发生；12月加息是市场和分析师预期，不是BOJ承诺",
+          "importance": "高",
+          "updateNote": "昨晚没有新的日本数据；今晨新增东京9月通胀、服务价格与JGB行情。",
+          "body": [
+            "东京9月核心CPI同比由1.8%升至2.7%，高于2.4%的市场预期，为10个月最快、也是1月以来首次高于BOJ的2%目标。剔除生鲜和燃料后的指标由2.0%升至3.0%，为2025年8月以来最高。",
+            "服务价格通胀由1.4%加速至2.3%，显示工资和成本正被企业传导；补贴退出解释了部分跳升，但食品、日用品、电脑和平板也普遍涨价。日本电脑和平板涨价还反映芯片价格上升。",
+            "日本10年期JGB收益率一度回落4.5bp至3.050%，30年期回落4bp至4.130%，主要跟随全球债券企稳和美国近期加息预期下降。市场已降低10月连续加息押注，但许多参与者预计BOJ可能在12月再加息。"
+          ],
+          "whyImportant": "JGB短线回落不代表日本通胀风险解除。能源、弱日元和工资向服务价格扩散，使BOJ仍可能继续正常化；美国就业降温与日本通胀上行形成方向相反的政策组合。",
+          "investmentImpact": "东京通胀上行 → BOJ年内再加息概率提高 → JGB收益率和日元对冲成本上升 → 日本投资者降低海外债券或套息仓位 → 全球风险资产流动性趋紧。今晨JGB回落说明美国债市可以暂时盖过该链条，但本期没有新的日本资金大规模回流、汇率干预或海外资产抛售证据。对高估值科技而言，需要同时看美国折现率回落和日本流动性收紧两股力量。",
+          "tags": ["日本", "东京CPI", "BOJ", "JGB", "日元", "服务通胀", "芯片价格", "全球流动性"],
+          "sources": [
+            {"title": "Reuters｜东京核心通胀升至2.7%", "url": "https://www.reuters.com/world/asia-pacific/tokyo-core-inflation-jumps-september-bolsters-case-more-boj-hikes-2026-10-01/"},
+            {"title": "Reuters转载｜日本国债收益率回落", "url": "https://economictimes.indiatimes.com/markets/bonds/japan-government-bond-yields-fall-as-global-markets-steady/articleshow/134630413.cms"}
+          ]
+        },
+        {
+          "id": "2026-10-02-am-4",
+          "category": "macro",
+          "title": "全球股票基金连续第二周流入，但科技和高收益债同时遭撤资",
+          "status": "截至9月30日当周LSEG Lipper资金流已发布；不代表周五就业数据后的即时配置",
+          "importance": "中",
+          "updateNote": "昨晚没有同口径资金流数据；今晨新增全球股票、科技、高收益债和货币基金的周度流量。",
+          "body": [
+            "截至9月30日一周，全球股票基金净流入347.6亿美元，为连续第二周流入，但低于前周443.1亿美元；美国股票基金流入206亿美元，欧洲和亚洲分别流入61.9亿和61.6亿美元。",
+            "板块资金并非全面追涨：科技基金在连续三周流入后净流出26.3亿美元；金融和公用事业基金分别流入11.3亿和4.68亿美元。全球债券基金流入47.6亿美元，但高收益债基金流出22.9亿美元，短债和政府债基金分别流入54.3亿和41.3亿美元。",
+            "货币市场基金流出1165.2亿美元，为4月15日以来最大；能源基金流出5.59亿美元，新兴市场股票和债券分别流出13.7亿和17.5亿美元。"
+          ],
+          "whyImportant": "指数和总股票资金仍体现AI乐观，但科技基金和高收益债同步流出说明边际投资者正在控制估值与信用风险。货币基金大额流出可能支持风险资产，却不能确认全部资金已转入科技股。",
+          "investmentImpact": "总股票流入 → 风险偏好仍有支撑；科技基金流出 + 高收益债流出 → 高估值和高杠杆AI项目的资金成本分化 → 指数可以上涨，但边际项目与弱资产负债表公司更脆弱。就业降温若持续压低美债收益率，科技资金可能回流；若信用利差扩大，AI融资和半导体订单兑现仍可能受压。",
+          "tags": ["资金流", "科技基金", "高收益债", "货币基金", "AI估值", "信用利差", "风险偏好"],
+          "sources": [
+            {"title": "Reuters｜全球股票、债券与货币基金周度资金流", "url": "https://www.reuters.com/world/china/global-markets-flows-graphic-2026-10-02/"}
+          ]
+        },
+        {
+          "id": "2026-10-02-am-5",
+          "category": "semi",
+          "title": "Amazon据报拟把80亿美元NVIDIA芯片装入SPV并回租：需求已发生，融资风险外移",
+          "status": "Financial Times援引知情人士报道；交易仍在探询投资者，Amazon与NVIDIA未向Reuters置评",
+          "importance": "高",
+          "updateNote": "昨晚重点是Synopsys商业合作；今晨新增Amazon已安装Grace Blackwell芯片的潜在SPV融资结构。",
+          "body": [
+            "Financial Times报道称，Amazon正在与投资者讨论把约80亿美元NVIDIA Grace Blackwell芯片转入新的特殊目的载体SPV，再由Amazon回租。SPV将通过债务融资，Amazon可能向外部投资者提供最高10%的股权。",
+            "相关芯片已经由Amazon购买或租赁，并安装在美国五个州、十多个数据中心，包括Nevada和Virginia。这不是新的80亿美元芯片订单，而是对既有资产进行再融资。",
+            "Amazon和NVIDIA未立即回应Reuters置评请求，交易是否完成、债务评级、租期、残值保证、芯片折旧、Amazon最低付款义务及投资者名单均未披露。"
+          ],
+          "whyImportant": "与NVIDIA推动GPU抵押融资、Broadcom为Anthropic提供贷款相呼应，AI资本开支正从云厂商自有现金流扩展到SPV、租赁和债务市场。需求是真实的，但资产负债表和芯片残值风险被重新分配，并未消失。",
+          "investmentImpact": "既有Blackwell资产装入SPV → Amazon释放资产负债表容量 → 可能支持后续AI资本开支和NVDA需求；但SPV债务、回租义务与残值假设 → 若芯片迭代、利用率或云收入不及预期，融资成本和再租赁压力上升。对AMZN是资本效率与隐含杠杆的双面信号；对NVDA不是新增订单，不能据80亿美元直接上调出货。就业数据带来的利率回落有利SPV融资，但信用投资者仍会要求可执行现金流和担保。",
+          "tags": ["AMZN", "NVDA", "Grace Blackwell", "SPV", "回租", "AI融资", "芯片残值", "数据中心"],
+          "sources": [
+            {"title": "Reuters｜Amazon据报拟转移80亿美元NVIDIA芯片给投资者", "url": "https://www.reuters.com/business/retail-consumer/amazon-seeks-offload-8-billion-nvidia-chips-investors-ft-reports-2026-10-02/"}
+          ]
+        },
+        {
+          "id": "2026-10-02-am-6",
+          "category": "robot",
+          "title": "Tesla交付超预期；robotaxi取消车内安全员，但远程干预率仍未披露",
+          "status": "第三季交付与robotaxi运行状态已披露；没有车内安全员不等于完全无人干预或已证明规模化可靠性",
+          "importance": "高",
+          "updateNote": "昨晚没有机器人现场指标；今晨新增Tesla交付数据和Texas、Florida robotaxi取消车内安全员的部署状态。",
+          "body": [
+            "Tesla第三季交付48.6532万辆，高于Visible Alpha统计的45.6896万辆预期；产量46.4391万辆，低于48.6761万辆预期。公司第四季至少需交付31.1448万辆，才能避免连续第三年全年销量下降。",
+            "欧洲需求回升：截至8月欧盟注册量同比约增三分之二，上海工厂7月和8月出口接近翻倍。市场目前预计2026年交付约182万辆，高于6月共识165万辆；这些首先是汽车业务和现金流信号，不是Optimus收入。",
+            "Tesla的robotaxi目前在Texas和Florida运行时已没有车内安全员，上月还把专用Cybercab加入Austin现有服务。这是部署成熟度的增量信号，但公司没有披露远程操作员数量、每千英里干预、无干预里程、事故率、地理围栏、uptime、付费乘客量或单位经济性。",
+            "本期仍未发现Optimus、Figure、Unitree、Gemini Robotics或Physical Intelligence在zero-shot、跨本体、触觉/力控、数据效率、连续uptime、BOM或独立付费部署方面的新量化数据；ON、ADI、TER及精密传动链也没有新增机器人定点。"
+          ],
+          "whyImportant": "取消车内安全员比普通演示更接近真实Physical AI部署，但证据等级仍低于披露远程干预率、累计里程、故障和付费利用率。强汽车交付改善Tesla为AI项目融资的基础，却不能单独验证robotaxi或Optimus估值。",
+          "investmentImpact": "对TSLA，交付超预期支持近期收入、现金流和风险偏好；robotaxi无车内安全员可提高自治叙事，但若远程干预高、运行区域受限或事故率不透明，规模化收入仍可能低于估值假设。对机器人行业，本期再次提高披露门槛：必须同时给出纯自主率、human intervention rate、连续uptime、累计任务/里程、每小时成本和真实付费客户。没有这些数据时，不上调NVDA、ON、ADI、TER、Nabtesco、Harmonic Drive、THK或Nidec的机器人订单。",
+          "tags": ["Physical AI", "TSLA", "robotaxi", "Cybercab", "人工干预", "交付", "可靠性", "付费部署"],
+          "sources": [
+            {"title": "Reuters｜Tesla第三季交付与robotaxi运行状态", "url": "https://www.reuters.com/business/autos-transportation/tesla-posts-stronger-than-expected-quarterly-deliveries-2026-10-02/"}
+          ]
+        },
+        {
+          "id": "2026-10-02-am-7",
+          "category": "macro",
+          "title": "下一期验证清单：就业降温能否持续、柴油释放执行与AI资产融资",
+          "status": "观察清单；不是新增已发生数据",
+          "importance": "高",
+          "updateNote": "根据今晨就业、能源、日本通胀、资金流、Amazon融资和Tesla部署进展，更新下一期验证重点。",
+          "body": [
+            "美国宏观：观察两年期、10年期和30年期美债能否把非农后的跌幅保持到收盘，联看美元、实际收益率、10月与12月加息概率、信用利差和股市广度；下一批初请、CPI/PPI和消费数据将区分低招聘与真正衰退。",
+            "能源与选举：等待欧洲、G7和IEA的正式文件、国家分配、释放日期和实际库存流出；核实美国是否承诺不禁止柴油出口。继续跟踪美伊军事部署、霍尔木兹和Yanbu实物流、中国与俄罗斯出口政策、Brent、柴油裂解、LNG和保险。",
+            "日本与流动性：关注东京通胀是否推动BOJ上调预测或明确12月路径，联看JGB曲线、美元兑日元、实际汇率干预及日本投资者海外资产流量。",
+            "AI与半导体：Amazon SPV看投资者、债务评级、租期、残值和担保；NVIDIA、Broadcom与Anthropic继续看供应商融资是否扩散；半导体要求新增订单、出货、ASP、良率和毛利率，不能把利率反弹直接写成基本面上修。",
+            "Physical AI：Tesla需披露robotaxi无车内安全员后的远程干预率、累计里程、事故、uptime、付费乘客和单位经济性；人形机器人继续要求任务成功率、触觉、跨本体、BOM、客户复购和稳定付费部署。"
+          ],
+          "whyImportant": "今晨的核心组合是就业和工资降温压低近期Fed风险、政策性库存释放压低能源价格，但日本通胀和AI资产融资说明长期资金成本并未消失。Tesla提供了真实部署状态，却没有足够的自治可靠性指标。",
+          "investmentImpact": "未来1至12个月，若就业温和降温而不衰退、欧洲柴油实际释放、战争不升级且10年期回落，科技与半导体可同时获得盈利和估值支持。若就业继续恶化，则利率利好会被收入与信用风险抵消；若储备释放只有声明、BOJ继续收紧或AI SPV需要高担保，高估值资产仍可能承压。Tesla和其他Physical AI公司只有在远程干预、uptime和付费利用率公开后，才足以进入规模化盈利模型。这不是个股买卖指令。",
+          "tags": ["观察清单", "非农", "Fed", "柴油", "BOJ", "AMZN", "NVDA", "TSLA"],
+          "sources": [
+            {"title": "美国劳工统计局｜9月就业报告", "url": "https://www.bls.gov/news.release/archives/empsit_10022026.htm"},
+            {"title": "Reuters｜欧洲柴油储备释放进展", "url": "https://www.reuters.com/business/energy/europe-discussing-plan-diesel-stock-releases-after-us-pressure-source-says-2026-10-02/"},
+            {"title": "Reuters｜Amazon芯片SPV报道", "url": "https://www.reuters.com/business/retail-consumer/amazon-seeks-offload-8-billion-nvidia-chips-investors-ft-reports-2026-10-02/"},
+            {"title": "Reuters｜Tesla交付与robotaxi部署", "url": "https://www.reuters.com/business/autos-transportation/tesla-posts-stronger-than-expected-quarterly-deliveries-2026-10-02/"}
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-01-pm",
       "date": "2026-10-01",
       "period": "pm",
