@@ -4,6 +4,413 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-04-am",
+      "date": "2026-10-04",
+      "period": "am",
+      "time": "08:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-04T08:00:00-07:00",
+      "summary": "事后回溯补报｜2026年10月4日整理；原定期次当时未正常产出，非原Chat原文。覆盖10月3日19:00至10月4日08:00 PT。也门军事行动宣布、OPEC+维持目标与伊朗开放条件主导能源风险；Trump公开确认AI工作组负责人，半导体和机器人未核实到新增投资级指标。",
+      "cards": [
+        {
+          "category": "macro",
+          "title": "也门政府宣布对胡塞军事行动，能源风险从计划升级为公开行动",
+          "status": "政府行动宣布已发生；胡塞所称Aramco损伤未经独立确认",
+          "importance": "高",
+          "body": [
+            "10月4日08:30 EDT（05:30 PT）的Reuters原版报道，也门获沙特支持的政府宣布开始军事行动，旨在收复胡塞控制区；较10月2日晚的消息人士计划构成实质升级。",
+            "胡塞随后声称用导弹和无人机袭击利雅得及Khurais的Aramco设施并引发大火。该说法没有沙特即时确认；本期不报告已核实的损伤或减产数量。"
+          ],
+          "whyImportant": "军事行动旨在恢复控制，但短期也可能引发油气设施、红海运输与保险风险；行动开始不等于航道已恢复。",
+          "investmentImpact": "战事扩散→能源设施/航运风险→油气与保险成本→通胀与美债→科技估值。观察Aramco确认、实际停产量、延布和红海船流。没有核实损失前，不量化供应缺口。",
+          "tags": [
+            "也门",
+            "胡塞",
+            "沙特",
+            "Aramco",
+            "能源风险"
+          ],
+          "sources": [
+            {
+              "title": "Reuters / MarketScreener｜也门政府宣布军事行动",
+              "url": "https://www.marketscreener.com/news/yemen-leader-announces-major-military-operations-against-iran-backed-houthis-ce785ddbdc8ff523"
+            },
+            {
+              "title": "Reuters / Devdiscourse｜胡塞声称袭击Aramco设施",
+              "url": "https://www.devdiscourse.com/article/international/3986620-yemens-houthis-say-they-struck-saudi-aramco-sites-in-riyadh-khurais"
+            }
+          ],
+          "id": "2026-10-04-am-1",
+          "verificationNote": "事后回溯补报：2026-10-04重新检索与整理。仅纳入该期截止前可核实的信息；期次时间表示覆盖截止，不表示原文生成或发布时间。"
+        },
+        {
+          "category": "macro",
+          "title": "OPEC+维持11月产量目标：配额不变不等于出口恢复",
+          "status": "10月4日官方决定；产量与出口兑现仍待实物验证",
+          "importance": "高",
+          "body": [
+            "OPEC官方10月4日声明：七国决定11月维持9月2026年的要求产量，下一次会议为11月1日。Reuters在10:25 UTC（03:25 PT）报道决定已达成。",
+            "因此本期是目标维持，没有新增配额增产；也不能把目标量当作战争条件下实际交付量。"
+          ],
+          "whyImportant": "供给约束仍需从船流、设施和出口来判断。维持目标没有提供足以抵消军事升级的新供应承诺。",
+          "investmentImpact": "配额不变且运输受限→供应弹性有限→能源风险溢价可能延续→通胀与长端估值压力。未取得周末新结算价格，避免把周五报价当作本期油价。",
+          "tags": [
+            "OPEC+",
+            "原油",
+            "配额",
+            "实物供应"
+          ],
+          "sources": [
+            {
+              "title": "OPEC官方｜10月4日产量决定",
+              "url": "https://www.opec.org/pr-detail/1891616-4-october-2026.html"
+            },
+            {
+              "title": "Reuters｜OPEC+维持11月目标",
+              "url": "https://www.reuters.com/business/energy/opec-agrees-principle-keep-november-oil-output-targets-steady-sources-say-2026-10-04/"
+            }
+          ],
+          "id": "2026-10-04-am-2",
+          "verificationNote": "事后回溯补报：2026-10-04重新检索与整理。仅纳入该期截止前可核实的信息；期次时间表示覆盖截止，不表示原文生成或发布时间。"
+        },
+        {
+          "category": "macro",
+          "title": "伊朗重申霍尔木兹开放须满足七项条件",
+          "status": "伊朗公开立场；不是已达成停火或开放协议",
+          "importance": "高",
+          "body": [
+            "10月4日07:59 UTC（00:59 PT）的Reuters报道，伊朗谈判负责人Qalibaf重申，霍尔木兹开放须满足6月临时协议中的七项条件；“七天内恢复”是有条件方案，不是已开始的倒计时。"
+          ],
+          "whyImportant": "外交通道与航道实际开放是两件事。单方要求不能证明美方接受，储备释放也不能长期替代运输恢复。",
+          "investmentImpact": "战争/航道限制→原油、柴油与LNG交付成本→通胀和利率→AI项目融资与高估值科技。观察双方书面执行次序、保险和实际过船量，当前不据此判断能源风险已解除。",
+          "tags": [
+            "伊朗",
+            "霍尔木兹",
+            "谈判",
+            "通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜伊朗重申霍尔木兹开放条件",
+              "url": "https://www.reuters.com/world/middle-east/iran-says-strait-hormuz-will-not-reopen-until-conditions-are-met-2026-10-04/"
+            }
+          ],
+          "id": "2026-10-04-am-3",
+          "verificationNote": "事后回溯补报：2026-10-04重新检索与整理。仅纳入该期截止前可核实的信息；期次时间表示覆盖截止，不表示原文生成或发布时间。"
+        },
+        {
+          "category": "ai",
+          "title": "Trump公开确认Clayton领导AI工作组：人事报道变为总统宣布",
+          "status": "10月4日总统公开确认；尚无新增行业强制规则",
+          "importance": "中",
+          "body": [
+            "Reuters于10月4日09:38 EDT（06:38 PT）报道，Trump公开宣布Jay Clayton领导Super Intelligence Force，向总统及幕僚长汇报；与前一期只有WSJ/Reuters媒体报道相比，确认层级提高。",
+            "工作组报告要求为120天。任命本身不等于新的AI责任豁免、训练限制、出口许可或采购合同生效。"
+          ],
+          "whyImportant": "政策联络与职责变得更明确，但投资上最有价值的仍是其后章程、建议和执行文件。",
+          "investmentImpact": "协调机制明确→未来政策路径更可观察→监管预期可能变化；收入影响需正式规则与企业采用验证。关注agent事件报告、审计、政府采购及与中期选举相关的政策转向。",
+          "tags": [
+            "AI政策",
+            "Clayton",
+            "SIF",
+            "监管"
+          ],
+          "sources": [
+            {
+              "title": "Reuters / MarketScreener｜10月4日06:38 PT总统公开确认",
+              "url": "https://www.marketscreener.com/news/latest/Trump-names-intelligence-chief-Clayton-as-AI-czar-to-head-task-force-12373826/"
+            }
+          ],
+          "id": "2026-10-04-am-4",
+          "verificationNote": "事后回溯补报：2026-10-04重新检索与整理。仅纳入该期截止前可核实的信息；期次时间表示覆盖截止，不表示原文生成或发布时间。"
+        },
+        {
+          "category": "semi",
+          "title": "半导体：未核实到新增订单、指引或出口许可",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "截至10月4日08:00 PT，回溯检索未确认新增GPU/HBM等订单或正式盈利指引。OPEC、伊朗与也门消息首先影响折现率和风险溢价，不能据此宣布存储周期反转。"
+          ],
+          "whyImportant": "周末没有正常美股收盘，政策或行业评论不能替代订单与盈利证据。",
+          "investmentImpact": "NVDA、AMD、MU及设备链继续看GPU/HBM出货、ASP、良率、毛利率和客户资本开支；不把新报道当作订单取消，也不重复已报道的美光财报、东芝扩线或APLD交付。",
+          "tags": [
+            "NVDA",
+            "AMD",
+            "MU",
+            "HBM",
+            "订单"
+          ],
+          "sources": [],
+          "id": "2026-10-04-am-5",
+          "verificationNote": "事后回溯补报：2026-10-04重新检索与整理。仅纳入该期截止前可核实的信息；期次时间表示覆盖截止，不表示原文生成或发布时间。"
+        },
+        {
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：未核实到窗口内新增投资级指标",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "10月3日晚至10月4日早，本次回溯检索未核实到新增zero-shot泛化、跨本体迁移、触觉/力控、数据效率、人工干预率、连续uptime、BOM下降或独立付费deployment/design win指标。跟踪入口不构成全行业无研发进展的证明。"
+          ],
+          "whyImportant": "没有可核实指标就保留判断，不用演示或旧研究填充缺失期次。",
+          "investmentImpact": "对NVDA、ON、ADI、TER、TSLA、Unitree、Figure及Nabtesco、Harmonic Drive、THK、Nidec，不据此上调机器人收入。继续观察纯自主成功率、干预率、完整班次uptime、单位任务成本和客户复购。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "可靠性",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方新闻跟踪入口",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方博客跟踪入口",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "Google DeepMind｜官方博客跟踪入口",
+              "url": "https://deepmind.google/blog/"
+            }
+          ],
+          "id": "2026-10-04-am-6",
+          "verificationNote": "事后回溯补报：2026-10-04重新检索与整理。仅纳入该期截止前可核实的信息；期次时间表示覆盖截止，不表示原文生成或发布时间。"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-03-pm",
+      "date": "2026-10-03",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-03T19:00:00-07:00",
+      "summary": "事后回溯补报｜2026年10月4日整理；原定期次当时未正常产出，非原Chat原文。覆盖10月3日08:00至19:00 PT。最主要新增为Clayton据报领导120天AI政策评估；总统次日确认不提前写入。",
+      "cards": [
+        {
+          "category": "macro",
+          "title": "宏观 / 市场环境：暂无新增可比行情，等待能源实物与政策执行",
+          "status": "窗口内无新增确认",
+          "importance": "中",
+          "body": [
+            "回溯窗口为10月3日08:00至19:00 PT。未取得新的可比油气、美债/JGB、美元、信用利差或资金流读数，亦未确认新的财政、关税或停火执行文件。10月4日的OPEC+决定和也门政府行动不提前纳入本期。"
+          ],
+          "whyImportant": "休市期间的新闻会影响下一交易日风险溢价，但没有报价就不能报告市场已作出反应。",
+          "investmentImpact": "观察G7实际投放、霍尔木兹/红海船流与保险，而非重复宣布规模。能源供应恢复若低于预期，可经通胀和长端收益率压制高估值科技；目前是待验证情景。",
+          "tags": [
+            "宏观",
+            "能源实物",
+            "风险偏好"
+          ],
+          "sources": [],
+          "id": "2026-10-03-pm-1",
+          "verificationNote": "事后回溯补报：2026-10-04重新检索与整理。仅纳入该期截止前可核实的信息；期次时间表示覆盖截止，不表示原文生成或发布时间。"
+        },
+        {
+          "category": "ai",
+          "title": "Clayton据报领导AI工作组，120天报告期限进入公开报道",
+          "status": "WSJ采访与Reuters转述；本期尚不引用次日总统公开确认",
+          "importance": "高",
+          "body": [
+            "Reuters原版转载时间为10月3日18:44 EDT，即15:44 PT：WSJ援引工作组负责人Jay Clayton及白宫高级官员称，白宫设立Super Intelligence Force，由Clayton领导，120天内提交AI风险、机会与联邦角色报告。",
+            "这是组织安排的媒体报道，不等于新的模型限制、芯片许可或强制披露规则已经生效。"
+          ],
+          "whyImportant": "AI安全、竞争力与政府协调进入具体工作组与报告日程，比单纯人事猜测更可追踪。",
+          "investmentImpact": "政策协调→未来报告/采购与治理建议→AI部署成本和风险溢价可能调整。对OpenAI、Anthropic、META、GOOGL与NVDA，现阶段不据此调整EPS；看章程、权限、预算和正式规则。",
+          "tags": [
+            "AI政策",
+            "Clayton",
+            "监管",
+            "中期选举"
+          ],
+          "sources": [
+            {
+              "title": "Reuters / MarketScreener｜10月3日15:44 PT工作组报道原版",
+              "url": "https://www.marketscreener.com/news/jay-clayton-to-lead-trump-s-ai-task-force-deliver-report-in-120-days-wsj-reports-ce785ddbdc8af724"
+            }
+          ],
+          "id": "2026-10-03-pm-2",
+          "verificationNote": "事后回溯补报：2026-10-04重新检索与整理。仅纳入该期截止前可核实的信息；期次时间表示覆盖截止，不表示原文生成或发布时间。"
+        },
+        {
+          "category": "semi",
+          "title": "半导体：未核实到新增订单、指引或出口许可",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本窗口没有核实到新的半导体订单、毛利指引或先进芯片出口许可。Clayton工作组报道不是放松或收紧芯片管制的文件。"
+          ],
+          "whyImportant": "周末没有正常美股收盘，政策或行业评论不能替代订单与盈利证据。",
+          "investmentImpact": "NVDA、AMD、MU及设备链继续看GPU/HBM出货、ASP、良率、毛利率和客户资本开支；不把新报道当作订单取消，也不重复已报道的美光财报、东芝扩线或APLD交付。",
+          "tags": [
+            "NVDA",
+            "AMD",
+            "MU",
+            "HBM",
+            "订单"
+          ],
+          "sources": [],
+          "id": "2026-10-03-pm-3",
+          "verificationNote": "事后回溯补报：2026-10-04重新检索与整理。仅纳入该期截止前可核实的信息；期次时间表示覆盖截止，不表示原文生成或发布时间。"
+        },
+        {
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：未核实到窗口内新增投资级指标",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "10月3日日间，本次回溯检索未核实到新增zero-shot泛化、跨本体迁移、触觉/力控、数据效率、人工干预率、连续uptime、BOM下降或独立付费deployment/design win指标。跟踪入口不构成全行业无研发进展的证明。"
+          ],
+          "whyImportant": "没有可核实指标就保留判断，不用演示或旧研究填充缺失期次。",
+          "investmentImpact": "对NVDA、ON、ADI、TER、TSLA、Unitree、Figure及Nabtesco、Harmonic Drive、THK、Nidec，不据此上调机器人收入。继续观察纯自主成功率、干预率、完整班次uptime、单位任务成本和客户复购。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "可靠性",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方新闻跟踪入口",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方博客跟踪入口",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "Google DeepMind｜官方博客跟踪入口",
+              "url": "https://deepmind.google/blog/"
+            }
+          ],
+          "id": "2026-10-03-pm-4",
+          "verificationNote": "事后回溯补报：2026-10-04重新检索与整理。仅纳入该期截止前可核实的信息；期次时间表示覆盖截止，不表示原文生成或发布时间。"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-03-am",
+      "date": "2026-10-03",
+      "period": "am",
+      "time": "08:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-03T08:00:00-07:00",
+      "summary": "事后回溯补报｜2026年10月4日整理；原定期次当时未正常产出，非原Chat原文。覆盖10月2日19:05至10月3日08:00 PT。宏观和产业订单暂无新增确认；新周末分析关注AI收入与融资回报错配。",
+      "cards": [
+        {
+          "category": "macro",
+          "title": "宏观 / 市场环境：周末暂无已核实的新数据或政策落地",
+          "status": "窗口内无新增确认；历史行情不作为周末新报价",
+          "importance": "中",
+          "body": [
+            "回溯窗口为10月2日19:05至10月3日08:00 PT。未核实到新的美国CPI/PPI/PCE、就业工资、财政赤字/发债方案、Fed决定，或日本JGB、汇率干预及跨境流量读数。G7储备释放、柴油禁令表态和阿曼油轮事件已在10月2日晚报报道，本期不重复。"
+          ],
+          "whyImportant": "宏观证据没有新增，不意味着能源与长端利率风险消失；也不能把休市解释为风险已缓解。",
+          "investmentImpact": "观察战争→油价/柴油/LNG→通胀→美债→科技估值；财政供给→期限溢价→长端利率；JGB/对冲成本→资金回流→全球流动性。这些是分析链条，本窗口没有新增数据证明其进一步兑现。",
+          "tags": [
+            "宏观",
+            "能源",
+            "美债",
+            "JGB"
+          ],
+          "sources": [
+            {
+              "title": "美国财政部｜官方收益率曲线（历史基线）",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202610&type=daily_treasury_yield_curve"
+            }
+          ],
+          "id": "2026-10-03-am-1",
+          "verificationNote": "事后回溯补报：2026-10-04重新检索与整理。仅纳入该期截止前可核实的信息；期次时间表示覆盖截止，不表示原文生成或发布时间。"
+        },
+        {
+          "category": "ai",
+          "title": "AI融资：新周末分析强调收入兑现必须赶上债务与折旧",
+          "status": "10月3日新分析报道；长期研究估算，不是新增公司订单",
+          "importance": "高",
+          "body": [
+            "Reuters于10月3日05:06 UTC（10月2日22:06 PT）发表分析，引用Bain估算：未来五年AI建设相关企业需寻找逾4.2万亿美元新增收入以支持建设。该数字是研究情景，不能视作已签合同或收入指引。",
+            "报道认为应用收入兑现速度是核心约束；其引用的部分研究口径与9月研究摘要不同，不把差额解释为真实资本开支削减。"
+          ],
+          "whyImportant": "新的是公开分析，而不是建设承诺突然改变。应用收入与债务偿付时间可能错配，技术长期有效也不保证当前估值成立。",
+          "investmentImpact": "AI支出扩大→外部融资与折旧增加→要求更高收入/利用率→若回报延迟，信用利差和上游订单节奏更敏感。对NVDA、MU、云与数据中心链，优先审查客户现金流和融资条款。",
+          "tags": [
+            "AI资本开支",
+            "现金流",
+            "信用",
+            "估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月3日AI投资与回报分析",
+              "url": "https://www.reuters.com/business/retail-consumer/ais-race-transform-world-before-money-runs-out-2026-10-03/"
+            },
+            {
+              "title": "Brookings｜AI融资研究（9月23日原始背景）",
+              "url": "https://www.brookings.edu/articles/financing-the-ai-buildout/"
+            }
+          ],
+          "id": "2026-10-03-am-2",
+          "verificationNote": "事后回溯补报：2026-10-04重新检索与整理。仅纳入该期截止前可核实的信息；期次时间表示覆盖截止，不表示原文生成或发布时间。"
+        },
+        {
+          "category": "semi",
+          "title": "半导体：未核实到新增订单、指引或出口许可",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本窗口未确认GPU、HBM/DRAM、NAND、代工、先进封装或设备出现足以调整盈利预测的新订单、量产兑现或公司指引。"
+          ],
+          "whyImportant": "周末没有正常美股收盘，政策或行业评论不能替代订单与盈利证据。",
+          "investmentImpact": "NVDA、AMD、MU及设备链继续看GPU/HBM出货、ASP、良率、毛利率和客户资本开支；不把新报道当作订单取消，也不重复已报道的美光财报、东芝扩线或APLD交付。",
+          "tags": [
+            "NVDA",
+            "AMD",
+            "MU",
+            "HBM",
+            "订单"
+          ],
+          "sources": [],
+          "id": "2026-10-03-am-3",
+          "verificationNote": "事后回溯补报：2026-10-04重新检索与整理。仅纳入该期截止前可核实的信息；期次时间表示覆盖截止，不表示原文生成或发布时间。"
+        },
+        {
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：未核实到窗口内新增投资级指标",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "10月2日晚至10月3日早，本次回溯检索未核实到新增zero-shot泛化、跨本体迁移、触觉/力控、数据效率、人工干预率、连续uptime、BOM下降或独立付费deployment/design win指标。跟踪入口不构成全行业无研发进展的证明。"
+          ],
+          "whyImportant": "没有可核实指标就保留判断，不用演示或旧研究填充缺失期次。",
+          "investmentImpact": "对NVDA、ON、ADI、TER、TSLA、Unitree、Figure及Nabtesco、Harmonic Drive、THK、Nidec，不据此上调机器人收入。继续观察纯自主成功率、干预率、完整班次uptime、单位任务成本和客户复购。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "可靠性",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方新闻跟踪入口",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方博客跟踪入口",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "Google DeepMind｜官方博客跟踪入口",
+              "url": "https://deepmind.google/blog/"
+            }
+          ],
+          "id": "2026-10-03-am-4",
+          "verificationNote": "事后回溯补报：2026-10-04重新检索与整理。仅纳入该期截止前可核实的信息；期次时间表示覆盖截止，不表示原文生成或发布时间。"
+        }
+      ]
+    },
+    {
       "id": "2026-10-02-pm",
       "date": "2026-10-02",
       "period": "pm",
