@@ -4,6 +4,226 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-04-pm",
+      "date": "2026-10-04",
+      "period": "pm",
+      "time": "18:55",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-04T18:55:39-07:00",
+      "summary": "中东出口恢复与运输风险并存：Kpler新披露的船流数据在部分日期超过战前，阿美下调亚洲11月报价；早盘Brent约101.90美元。10月Fed加息定价约22%，但10年期美债仍约5.2643%，科技估值的长端约束尚未解除。施耐德据报接近以200亿美元收购PTC，仍在谈判；半导体和机器人没有核实到窗口内新增订单或量化部署指标。",
+      "cards": [
+        {
+          "category": "macro",
+          "title": "中东原油出口部分日期超过战前，船只周边爆炸显示运输风险仍在",
+          "status": "Kpler初步船流数据与UKMTO通报；不是全面复航或停火确认",
+          "importance": "高",
+          "updateNote": "今早只有军事行动与开放条件；18:09 PT前后新披露的船流数据提供实际供给恢复证据。",
+          "body": [
+            "Kpler初步数据：9月24日及27—29日，中东原油出口达到1950万—2250万桶/日，高于2025年3月至2026年2月约1800万桶/日的均值；截至10月1日的七日均值为1850万桶/日。数据是本期新披露，所描述的流量发生在此前日期。",
+            "口径包括霍尔木兹、红海、各终端及阿曼湾船对船转运，并排除可能关闭AIS的船只；它不是霍尔木兹单一航道通行量，也不是OPEC产量。9月穿越海峡的LNG船货数量为2月以来最高，但不能据船货数推算气量或天然气价格。",
+            "10月4日UKMTO另通报：一艘油轮在也门Mocha以南约60海里看到多次附近爆炸，船员安全，没有报告环境损害。通报未确认船体中弹、袭击者或原油损失。"
+          ],
+          "whyImportant": "分析：实物流恢复削弱了“一直没有供应恢复”的判断，但更多货物能运出与航运安全、保险和成本正常化不是同一件事。区域出口与OPEC产量的范围和时间不同，不能直接相减得出供应缺口。",
+          "investmentImpact": "出口恢复→供给焦虑与原油风险溢价可能下降；持续袭击→保险、绕航与运费仍高→交付成本和成品油通胀可能黏着。对科技/半导体的利好取决于能源成本能否真正传到通胀和实际利率，不能把船流恢复当作战争结束。",
+          "tags": [
+            "原油",
+            "Kpler",
+            "霍尔木兹",
+            "红海",
+            "LNG",
+            "航运保险"
+          ],
+          "sources": [
+            {
+              "title": "Reuters / MarketScreener｜新披露的中东出口数据",
+              "url": "https://ca.marketscreener.com/news/middle-east-crude-oil-exports-exceed-pre-war-levels-but-tanker-attacks-increase-ce785ddbdf88f027"
+            },
+            {
+              "title": "Reuters / Devdiscourse｜10月4日油轮附近爆炸通报",
+              "url": "https://www.devdiscourse.com/article/international/3986747-explosions-reported-near-tanker-off-southern-yemen-ukmto-says"
+            }
+          ],
+          "id": "2026-10-04-pm-1"
+        },
+        {
+          "category": "macro",
+          "title": "阿美下调亚洲11月报价，Brent早盘约101.90美元：区域成本仍有分化",
+          "status": "报价文件已报道；期货为18:15 PT快照，非结算价",
+          "importance": "高",
+          "body": [
+            "10月4日阿美报价文件显示，11月亚洲Arab Light售价为Oman/Dubai均价减5美元/桶，较10月下调3美元，折价为2020年6月以来最大；Arab Medium、Arab Heavy对亚洲报价各降5美元/桶。西北欧与地中海各等级报价上调3美元，美国报价不变。",
+            "Reuters在10月5日01:15 UTC（10月4日18:15 PT）的行情快照显示，Brent为101.90美元/桶、跌0.34%，WTI为90.49美元、跌0.68%。这里是新一周开盘后的价格，不是周五结算。",
+            "OSP是相对区域基准的合同价差，亚洲降价不等于Brent下跌3美元，也不代表全球客户成本一起下降。此前已报道的OPEC+维持目标和G7储备释放，本期不重复计为新政策。"
+          ],
+          "whyImportant": "分析：亚洲客户得到价格缓冲，而欧洲报价上调，说明能源冲击仍有地区差异。判断通胀应看送达成本——基准油价、合同价差、运费与保险——以及柴油、LNG等各自市场。",
+          "investmentImpact": "亚洲OSP下降→炼厂采购成本边际减轻；若运费与保险上涨抵消折价，终端能源价格未必同步下降。油价缓和→通胀风险与科技折现率压力可能下降，但目前没有新的天然气/TTF报价、柴油裂解或核实减产量，不能宣布能源冲击消退。",
+          "tags": [
+            "Aramco",
+            "OSP",
+            "Brent",
+            "WTI",
+            "亚洲",
+            "欧洲",
+            "能源通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜阿美意外下调亚洲11月报价",
+              "url": "https://www.reuters.com/business/energy/saudi-arabia-unexpectedly-cuts-oil-prices-asia-2026-10-04/"
+            },
+            {
+              "title": "Reuters｜10月4日18:15 PT油价快照",
+              "url": "https://www.reuters.com/business/energy/oil-climbs-after-yemeni-houthis-attack-saudi-aramco-sites-2026-10-04/"
+            }
+          ],
+          "id": "2026-10-04-pm-2"
+        },
+        {
+          "category": "macro",
+          "title": "新一周开盘风险偏好回暖，Fed加息定价降低仍未解除长债压力",
+          "status": "18:22 PT前后市场快照；加息概率是期货定价，非Fed决定",
+          "importance": "高",
+          "body": [
+            "Reuters于10月5日01:22 UTC（10月4日18:22 PT）报道：10月加息概率约22%，日本股市早盘约涨2%，纳指期货约涨0.3%。这些反映周五数据后的重新定价，不是周末新增就业数据或新的美股现金收盘。",
+            "同期10年期美债约5.2643%、两年期约4.8143%，美元兑日元约157.81。收益率略回落但仍高，短端政策预期与长端融资条件不能混为一谈。",
+            "本期没有核实到新的CPI/PPI/PCE、工资、Fed决定/点阵图、美国赤字或发债计划、JGB同口径读数、日本实际干预、跨境资金流或广泛信用利差。此前AI工作组任命也尚无本期新增强制规则。"
+          ],
+          "whyImportant": "分析：降低一次加息的概率可改善风险偏好，但10年期利率仍处高位，说明股票与AI基建融资不能只看Fed会议概率。长端同时受实际利率、通胀预期、供给与期限溢价影响；本期没有分解证据。",
+          "investmentImpact": "就业预期转弱→短端加息定价下降→科技风险偏好改善；财政供给/期限溢价若维持→长端仍高→NVDA、AMD、MU、META等估值与项目融资门槛承压。日本链条仍需验证：JGB收益率及对冲成本→资金回流/套息收缩→全球流动性，日元157.81本身不证明资金已回流。",
+          "tags": [
+            "Fed",
+            "美债",
+            "期限溢价",
+            "纳指期货",
+            "日元",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜新一周股市、Fed定价、美债与美元快照",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-05/"
+            }
+          ],
+          "id": "2026-10-04-pm-3"
+        },
+        {
+          "category": "ai",
+          "title": "施耐德据报接近200亿美元收购PTC：软件与工业基础设施整合，交易尚未签定",
+          "status": "Reuters援引接近交易人士；谈判进行中、公司未确认",
+          "importance": "高",
+          "body": [
+            "10月4日12:46 PT发布的Reuters报道，Schneider Electric接近以约200亿美元收购PTC，最早可能周一宣布，但谈判仍可能无法达成。FT首先报道；两家公司未即时回应。",
+            "PTC提供产品设计、制造和维护软件，LSEG股权市值约156.3亿美元；施耐德提供数据中心供电、冷却与机架。未披露正式收购价、现金/股票比例、债务处理、融资或审批条款，不能用两项估值直接计算已确定的收购溢价。"
+          ],
+          "whyImportant": "分析：若落地，交易可把工业设计与生命周期软件更紧地连接到工厂、能源与数据中心基础设施。战略方向有意义，但软件协同、交叉销售和AI增量收入仍须验证。",
+          "investmentImpact": "PTC面临并购价格上行与谈判破裂风险；施耐德面临融资成本、整合和资本回报考验。优先看正式条款、年度经常性收入、续约、现金流和债务变化。它是潜在资本配置事件，不是已完成收购，也不是GPU采购或机器人付费部署订单。",
+          "tags": [
+            "Schneider Electric",
+            "PTC",
+            "工业软件",
+            "AI",
+            "并购",
+            "数据中心"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜施耐德接近收购PTC，仍无达成保证",
+              "url": "https://www.reuters.com/business/frances-schneider-electric-nears-20-billion-deal-buy-us-software-group-ptc-ft-2026-10-04/"
+            }
+          ],
+          "id": "2026-10-04-pm-4"
+        },
+        {
+          "category": "semi",
+          "title": "半导体：本期没有核实到新增订单、指引或出口许可",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "今早以来的检索未确认GPU、HBM/DRAM、NAND、代工、先进封装、光互连或模拟/功率芯片新增订单、良率、产能兑现或公司指引。新发布的周报回顾美光财报、旧HBM公告，不构成窗口内新事件。",
+            "本期新增投资变量来自油气实物流、长端利率与潜在工业软件并购；没有证据把它们改写成芯片需求上修或订单取消。"
+          ],
+          "whyImportant": "分析：未来1—12个月盈利判断仍需订单与单位经济性。周末评论的发布日期不能代替其所述事件日期，避免把同一财报重复计入信息增量。",
+          "investmentImpact": "NVDA、AMD、MU、AVGO及设备/光通信链继续看客户资本开支、出货、ASP、良率、毛利率和付款；长债约5.26%的折现率约束仍在。ON、ADI、TER亦没有本期新增机器人定点证据。",
+          "tags": [
+            "NVDA",
+            "AMD",
+            "MU",
+            "HBM",
+            "半导体",
+            "订单"
+          ],
+          "sources": [],
+          "id": "2026-10-04-pm-5"
+        },
+        {
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：未核实到新增量化部署或硬件经济性进展",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本期未核实到zero-shot泛化、跨本体迁移、触觉/力控与精细操作、数据效率、人工干预率、连续uptime、BOM下降或真实付费deployment/design win的新指标。",
+            "已核对的Figure、Physical Intelligence与Google DeepMind公开入口未提供本期窗口内的新量化结果；Unitree公开模型的9月28日发布也不能当作10月4日晚新增。入口与检索范围不构成全行业没有进展的证明。"
+          ],
+          "whyImportant": "分析：模型发布、展示和产业软件并购有不同的证据等级。机器人投资仍需要在真实任务、真实客户中验证自治与经济性。",
+          "investmentImpact": "对NVDA、ON、ADI、TER、TSLA、Unitree、Figure及Nabtesco、Harmonic Drive、THK、Nidec，暂不据本期信息上调机器人收入。继续要求纯自主成功率、每小时干预、完整班次uptime、单位任务成本、硬件寿命、客户复购与付费合同。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "跨本体",
+            "触觉",
+            "干预率",
+            "uptime",
+            "BOM",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方新闻跟踪入口",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方研究跟踪入口",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "Google DeepMind｜官方博客跟踪入口",
+              "url": "https://deepmind.google/blog/"
+            },
+            {
+              "title": "Unitree｜官方开源仓库，核对旧发布日期",
+              "url": "https://github.com/unitreerobotics/unifolm-wla"
+            }
+          ],
+          "id": "2026-10-04-pm-6"
+        },
+        {
+          "category": "macro",
+          "title": "下一期观察：出口能否持续、送达能源成本、长债与PTC正式条款",
+          "status": "观察清单；以下是待验证事项，不是已发生进展",
+          "importance": "高",
+          "body": [
+            "中东/能源：看七日出口均值能否维持、是否存在重复转运计量、霍尔木兹与红海实际船流、设施损害确认、运费和保险；分别跟踪Brent、柴油裂解、LNG/TTF，而非用原油出口替代全部能源判断。",
+            "美国宏观：看两年/10年/30年利率、实际收益率、期限溢价、国债拍卖与信用利差；区分周五就业数据后的定价和新发布数据，观察能源变化能否传导至核心通胀。",
+            "日本/政策：核对JGB、美元兑日元、实际干预与跨境流量；中期选举前的关税、监管、能源补贴或出口措施须有正式文件，不把官员表态计为执行政策。",
+            "产业：PTC/施耐德等待正式公告、融资、审批与协同目标；半导体看新增订单和毛利率；机器人看干预率、uptime、单位成本及独立付费客户。"
+          ],
+          "whyImportant": "分析：今晚核心变化是“出口恢复提供实物证据、风险成本仍在”，同时风险资产欢迎加息预期下降，但长端利率约束继续存在。",
+          "investmentImpact": "未来1—12个月，若交付能源成本与长端利率一同回落，科技估值及AI融资环境可改善；若运输袭击和期限溢价持续，则低加息概率仍不足以支撑全面估值扩张。订单、现金流与付费部署是产业判断的落点。",
+          "tags": [
+            "观察清单",
+            "能源成本",
+            "期限溢价",
+            "资金流",
+            "PTC",
+            "半导体",
+            "机器人"
+          ],
+          "sources": [],
+          "id": "2026-10-04-pm-7"
+        }
+      ]
+    },
+    {
       "id": "2026-10-04-am",
       "date": "2026-10-04",
       "period": "am",
