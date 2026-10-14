@@ -4,6 +4,378 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-13-pm",
+      "date": "2026-10-13",
+      "period": "pm",
+      "time": "19:41",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-13T19:41:11-07:00",
+      "summary": "10月13日全天补报：存储竞争担忧与AI投资回报审查压低半导体风险偏好，美债回落尚未消除高资金成本。Google开放Gemini 4 Argon，Physical Intelligence推出机器人API beta；Microsoft昨日公布的Maia 300则为今天芯片竞争讨论提供重要背景。本期覆盖13项，区分当天事件、此前背景、公司宣称与市场预期；不补造断更期间历史期次。",
+      "cards": [
+        {
+          "id": "2026-10-13-pm-1",
+          "category": "macro",
+          "title": "1. 指数小跌掩盖存储链压力：美债回落没有带来全面科技反弹",
+          "status": "10月13日收盘行情；个股盘中数据另行标注",
+          "importance": "高",
+          "body": [
+            "美股收盘：道指跌0.35%、标普500跌0.02%、纳指跌0.15%；半导体指数跌逾2%。10年期美债收益率回落约2.72bp至5.22%。",
+            "这次不能只用“利率上升压估值”解释：当天收益率下降，芯片仍弱，说明竞争、资本开支回报和拥挤持仓也是市场关注点。"
+          ],
+          "whyImportant": "分析：大盘跌幅小，不代表存储或AI供应链风险小；板块内部的盈利预期与风险溢价可能先于指数调整。",
+          "investmentImpact": "分析：对MU、SNDK、WDC、STX，应分别核查DRAM、NAND、硬盘需求和价格，不能把板块一起下跌等同于同一种产品被替代。对NVDA、AVGO，客户资本开支转为收入和现金流的速度，比单纯投资总额更关键。",
+          "tags": [
+            "美股",
+            "美债",
+            "半导体",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜全球市场收盘",
+              "url": "https://www.reuters.com/world/asia-pacific/global-markets-wrapup-1-2026-10-13/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-13-pm-2",
+          "category": "macro",
+          "title": "2. Fed官员倾向保留年内再加息选项；明早CPI才是下一项硬数据",
+          "status": "官员观点已发表；概率与CPI数值属于预期",
+          "importance": "高",
+          "body": [
+            "Reuters转述Williams的10月13日采访：今年可能仍需要一次加息，目前看不到2027年继续加息的必要，但判断会随数据改变。这不是FOMC决定或新版点阵图。",
+            "截至湾区13日晚、亚洲14日早盘的报道，市场定价10月维持利率约77%；美元指数约102.16，美元兑日元约158.32。不同时间快照不可直接当作整日变化。",
+            "BLS日历确认：9月CPI与实际收入于10月14日05:30湾区时间发布，PPI于10月15日05:30发布。本期没有提前把预期写成通胀实值。"
+          ],
+          "whyImportant": "分析：暂停一次会议与结束紧缩周期不同；官员的2027年判断也不等于市场已经接受同一路径。",
+          "investmentImpact": "分析：核心通胀若超预期→加息定价和实际利率可能上升→高估值科技承压；若温和→短线折现率压力可缓和，但仍须看能源、工资及企业收入兑现。日元报价本身不能证明日本资金回流，仍缺同口径JGB与跨境流量确认。",
+          "tags": [
+            "Fed",
+            "CPI",
+            "PPI",
+            "美元",
+            "日元"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Williams观点",
+              "url": "https://www.reuters.com/world/feds-williams-currently-sees-no-need-rate-hike-2027-bloomberg-news-reports-2026-10-13/"
+            },
+            {
+              "title": "Reuters｜亚洲早盘美元与政策定价",
+              "url": "https://www.reuters.com/world/asia-pacific/dollar-languishes-focus-turns-cpi-fed-speakers-2026-10-14/"
+            },
+            {
+              "title": "BLS｜10月发布日历",
+              "url": "https://www.bls.gov/schedule/2026/10_sched_list.htm"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-13-pm-3",
+          "category": "macro",
+          "title": "3. Brent下跌、WTI上涨：俄罗斯柴油预期与中东供应风险相互抵消",
+          "status": "期货结算已发生；潜在增供不等于货物已交付",
+          "importance": "高",
+          "body": [
+            "10月13日Brent结算105.69美元/桶，跌0.9%；WTI结算94.14美元/桶，涨0.4%。两种基准方向不同，不宜概括为能源全面降温。",
+            "市场同时评估俄罗斯柴油增供前景与沙特、也门袭击风险。OPEC当天报告所示，9月OPEC+产量约3907万桶/日、环比增加约90万桶/日；这是对9月的统计，不是今天新增的实物产量。"
+          ],
+          "whyImportant": "分析：原油产量、可运输供应、炼厂产出和柴油送达成本并不同步。地缘政策或协议标题不能替代装船、保险和交付证据。",
+          "investmentImpact": "分析：战争/航运风险→油品和物流成本→通胀与企业利润→Fed路径、美债收益率→科技估值。中期选举可能影响能源政策激励，但本期没有据此确认新的全面停火、关税调整或芯片许可。未取得可靠同日天然气结算，故不填旧报价。",
+          "tags": [
+            "Brent",
+            "WTI",
+            "柴油",
+            "中东",
+            "能源通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters / MarketScreener｜原油结算与柴油供给",
+              "url": "https://uk.marketscreener.com/news/oil-falls-as-russia-diesel-supply-prospects-counter-gulf-supply-risks-ce785dddda8af023"
+            },
+            {
+              "title": "Reuters｜OPEC月报",
+              "url": "https://www.reuters.com/business/energy/opec-raises-2027-oil-demand-view-citing-need-rebuild-stocks-2026-10-13/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-13-pm-4",
+          "category": "macro",
+          "title": "4. IMF：AI盈利失望、主权债券与网络风险可能相互放大",
+          "status": "10月13日发布会与风险评估；不是危机已经发生",
+          "importance": "高",
+          "body": [
+            "IMF金融稳定报告发布会将AI投资/利润不及预期、通胀和财政供给推动主权收益率上升、网络事件列为重要风险。银行体系总体有韧性，但较弱银行、私募信贷及杠杆拥挤交易可能放大冲击。",
+            "背景补充：CBO在10月8日估算2026财年联邦赤字约2万亿美元，比上年多2180亿美元。这是此前发布的估算，不是10月13日财政部最终实值。"
+          ],
+          "whyImportant": "分析：AI融资需求与政府发债同时争夺资本时，需求旺盛也可能伴随更高融资成本；不能将股市韧性等同于融资风险消失。",
+          "investmentImpact": "分析：财政/发债压力→期限溢价和长端利率；AI项目回报不及预期→信用再定价→建设延期及上游订单波动。期限溢价需要模型分解，不能直接用10年期收益率代替；本期未核实新的广泛信用利差或基金流量读数。",
+          "tags": [
+            "IMF",
+            "财政赤字",
+            "期限溢价",
+            "私募信贷"
+          ],
+          "sources": [
+            {
+              "title": "IMF｜金融稳定报告发布会",
+              "url": "https://mediacenter.imf.org/press-briefings/imf---global-financial-stability-report-annual-meetings--2026/s/f55368c1-983b-45b7-ba7c-1978f67c168c"
+            },
+            {
+              "title": "CBO｜10月8日财政估算（背景）",
+              "url": "https://www.cbo.gov/publication/61985"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-13-pm-5",
+          "category": "semi",
+          "title": "5. 美光与存储链：长鑫竞争担忧已反映在价格，量产冲击仍待验证",
+          "status": "10月13日市场反应；研发消息源于此前周末",
+          "importance": "高",
+          "body": [
+            "Reuters在美东10月13日11:19更新的盘中稿中记录：MU跌4.5%、SNDK跌4.3%、STX跌5.9%、WDC跌5.8%；这些不是收盘涨跌幅。韩国三星跌逾7%、SK海力士跌逾10%。",
+            "报道将压力与长鑫新存储单元架构进展及AI支出忧虑联系起来。此前媒体转述其计划年底推出服务器内存产品；本期未取得可核验的新品量产良率、出货规模和客户认证数据，因此不把报道写成已实现大规模替代。"
+          ],
+          "whyImportant": "分析：对MU，真正需要调整的是未来供给、价格和超额利润持续期，而非看到竞争新闻就认定本季度盈利已经改变。",
+          "investmentImpact": "分析：观察顺序应是客户认证→可销售bit供给→ASP与份额→毛利率。普通服务器DRAM进展不能直接证明HBM封装与客户验证完成，也不能直接外推NAND或硬盘需求消失；但可能先压低整个存储板块愿意支付的估值。",
+          "tags": [
+            "MU",
+            "SNDK",
+            "STX",
+            "WDC",
+            "CXMT",
+            "DRAM",
+            "HBM"
+          ],
+          "sources": [
+            {
+              "title": "Reuters / MarketScreener｜存储股盘中下跌",
+              "url": "https://www.marketscreener.com/news/us-chip-stocks-extend-slide-as-china-memory-report-ai-spending-jitters-hit-sector-ce785dddd18ff02c"
+            },
+            {
+              "title": "SCMP｜10月12日长鑫计划报道（背景）",
+              "url": "https://www.scmp.com/tech/big-tech/article/3370505/chinas-cxmt-unveils-key-progress-chip-structure-pursued-samsung-sk-hynix"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-13-pm-6",
+          "category": "semi",
+          "title": "6. Microsoft Maia 300：自研推理芯片扩大，但HBM需求并未因此消失",
+          "status": "10月12日官方公告，作为今天市场讨论背景；2027年部署是计划",
+          "importance": "高",
+          "body": [
+            "Microsoft称Maia 200已用于生产负载；计划2027年起将Maia扩展到多GW部署，作为微软自身产品和服务的主要推理系统。不能据此断言所有Azure客户将停止购买NVIDIA。",
+            "官方Maia 300架构披露：每颗配八个HBM4堆栈，容量288GB、带宽18TB/s；完整机架96颗加速器。微软预计相较领先GPU系统每MW多产出40% tokens，但这属于公司比较，并非独立、所有工作负载统一测试。"
+          ],
+          "whyImportant": "分析：推理优化正在同时考虑内存容量、带宽、数据搬运和供电，而不是只堆算力。用户最近关注的memory wall，仍是芯片系统设计的重要约束。",
+          "investmentImpact": "分析：对NVDA是自用推理份额和客户议价风险；对HBM链，ASIC替代GPU不等于替代高带宽内存。是否利好MU取决于供应商资格、份额、ASP与利润，官方规格没有给出美光订单。效率提高还可能降低单位任务耗存与耗电，不能只按芯片数量线性外推需求。",
+          "tags": [
+            "MSFT",
+            "Maia",
+            "NVDA",
+            "HBM4",
+            "MU",
+            "推理"
+          ],
+          "sources": [
+            {
+              "title": "Microsoft｜10月12日部署公告",
+              "url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/"
+            },
+            {
+              "title": "Microsoft Azure｜Maia 300架构",
+              "url": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-13-pm-7",
+          "category": "ai",
+          "title": "7. 腾讯发行约57亿美元债券：AI融资出现分化，资金并未普遍关闭",
+          "status": "10月13日债券发行；认购意向不是新增营收",
+          "importance": "高",
+          "body": [
+            "Reuters根据交易条款报道，腾讯通过美元及离岸人民币债券筹集约57亿美元，合计认购订单超过230亿美元。募集用途为一般公司用途，不能全部记作AI资本开支。"
+          ],
+          "whyImportant": "分析：在AI供应链承压时仍能融资，说明债权人会区分现金流、资产负债表和商业化能力，而非一概拒绝科技公司。",
+          "investmentImpact": "分析：融资可得性较强的企业可能比依赖持续外部输血的项目更有投资韧性。但认购倍数不等于低成本，更不证明AI投入回报；仍要看最终利差、期限、现金流与实际支出。",
+          "tags": [
+            "腾讯",
+            "AI融资",
+            "信用",
+            "资本开支"
+          ],
+          "sources": [
+            {
+              "title": "Reuters / MarketScreener｜腾讯债券发行",
+              "url": "https://ca.marketscreener.com/news/tencent-markets-us-dollar-and-dim-sum-bonds-in-four-tranches-ce785dddda89f02c"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-13-pm-8",
+          "category": "ai",
+          "title": "8. Gemini 4 Argon正式扩大开放：从受限测试转向可购买的企业产品",
+          "status": "10月13日Google官方发布；性能与客户效果为公司口径",
+          "importance": "高",
+          "body": [
+            "Google将Gemini 4 Argon开放给开发者和企业，并接入Gemini、搜索AI Mode和Antigravity等产品。此前9月30日已宣布模型，本次新增是更广泛可用性，不是首次披露名称。",
+            "API限时价为每百万输入tokens 2美元、输出10美元；11月30日后标准价分别4美元、20美元；缓存输入折扣95%。"
+          ],
+          "whyImportant": "分析：模型竞争从排行榜进一步进入采购、开发者迁移和企业工作流；促销价与长期运行成本必须分开评估。",
+          "investmentImpact": "分析：对GOOGL，潜在收益来自API、云服务与订阅转化；成本来自推理、缓存和销售投入。对模型行业，降价会影响每token收入，但不能据报价判断实际毛利率；应比较每个成功任务总成本、重试和人工审核。",
+          "tags": [
+            "GOOGL",
+            "Gemini",
+            "企业AI",
+            "API价格"
+          ],
+          "sources": [
+            {
+              "title": "Google Cloud｜Argon正式可用与定价",
+              "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-4-argon-available-on-google-cloud"
+            },
+            {
+              "title": "Google｜9月30日受限发布（背景）",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-13-pm-9",
+          "category": "ai",
+          "title": "9. Gemini连接40多个应用：agent入口开始覆盖购物与交易流程",
+          "status": "10月13日官方功能发布；未披露成交额或成功率",
+          "importance": "高",
+          "body": [
+            "Google称Gemini已连接40多个应用，包括Instacart、OpenTable、Adobe和Shopify，并提供从聊天切换到任务的入口；macOS版也整合Antigravity编码界面。"
+          ],
+          "whyImportant": "分析：对广告和电商，竞争点不只是谁生成回答，还包括谁拥有用户意图、商品比较、任务执行和交易归因。",
+          "investmentImpact": "分析：对GOOGL和Shopify是分发与交易入口机会；对Marketplace Ads，值得跟踪商品数据质量、实时库存/价格、转化回传，以及agent推荐能否被商家衡量。集成功能不等于广告预算已经转移，公司未公布转化率和增量交易额。",
+          "tags": [
+            "Gemini",
+            "Shopify",
+            "agent",
+            "电商",
+            "广告"
+          ],
+          "sources": [
+            {
+              "title": "Google｜Gemini应用更新",
+              "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-13-pm-10",
+          "category": "ai",
+          "title": "10. 约400名科学家呼吁加强先进AI隔离与事件报告",
+          "status": "10月13日公开倡议；不是已生效监管",
+          "importance": "高",
+          "body": [
+            "Reuters报道，来自34国的约400名科学家呼吁建立先进网络能力AI的隔离标准与重大事件登记机制，并提出独立监督。该倡议尚不等于政府已立法。"
+          ],
+          "whyImportant": "分析：agent进入外部系统后，授权边界、日志和事故报告可能影响企业采购及部署节奏。",
+          "investmentImpact": "分析：若转为正式规则，模型和agent企业的测试、合规与责任成本可能上升，也可能增加安全工具需求；不能从倡议直接推算哪家网络安全公司获得订单。",
+          "tags": [
+            "AI监管",
+            "agent安全",
+            "事件报告"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜科学家监管倡议",
+              "url": "https://www.reuters.com/legal/litigation/scientists-call-international-body-oversee-advanced-ai-2026-10-13/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-13-pm-11",
+          "category": "robot",
+          "title": "11. Physical Intelligence推出Pi API beta：机器人模型服务开始对外产品化",
+          "status": "10月13日官方发布；商业案例为公司陈述，未见合同收入披露",
+          "importance": "高",
+          "body": [
+            "Pi API允许客户上传数据、托管微调，再通过云端推理控制自己的机器人。公司展示Actor无人驾驶舱装载机的商业部署，以及Almond用四天迭代得到去毛刺策略的案例。",
+            "Pi明确承认部分应用遇到网络连接问题。发布没有给出统一人工干预率、完整班次uptime、价格或可核验的付费合同金额。"
+          ],
+          "whyImportant": "分析：这是有产品接口和客户迭代流程的商业化信号，超过单纯机器人表演；但四天迭代不是四天即可稳定量产。",
+          "investmentImpact": "分析：价值可能流向机器人模型平台、任务数据和现场集成。跨硬件案例不等于严格零样本跨本体迁移；下一步要求每任务数据量、失败率、断网回退和单位成本。尚不能据此上调ON、ADI、TER或传动零部件公司的订单。",
+          "tags": [
+            "Physical Intelligence",
+            "API",
+            "数据效率",
+            "部署",
+            "uptime"
+          ],
+          "sources": [
+            {
+              "title": "Physical Intelligence｜API beta",
+              "url": "https://www.pi.website/blog/api-beta"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-13-pm-12",
+          "category": "robot",
+          "title": "12. Google机器人推理得分87%：值得跟踪，仍不能替代现场可靠性",
+          "status": "10月13日官方基准与工作流展示；未证明大规模自治部署",
+          "importance": "高",
+          "body": [
+            "Google称Argon在具身推理ERQA基准得分87%，展示机器人控制、Real2Sim、物理理解及迭代改进。零样本机械臂示例依赖校准视觉坐标与动作原语；另有用触觉力记录校准仿真的流程。"
+          ],
+          "whyImportant": "分析：通用模型可能降低任务编程、数据标注和仿真搭建成本，成为机器人开发工具链的一部分；问答式推理基准不是实际操作成功率。",
+          "investmentImpact": "分析：不能把87%读成工厂成功率，也不能将有力数据的仿真校准写成已证明触觉闭环操控领先。跨本体迁移、纯自主成功率、干预率、延迟和长时间运行仍需对照实验；本期没有据此认定Figure、Unitree或Optimus被替代。",
+          "tags": [
+            "GOOGL",
+            "Physical AI",
+            "zero-shot",
+            "触觉",
+            "仿真"
+          ],
+          "sources": [
+            {
+              "title": "Google Developers｜Argon for Robotics",
+              "url": "https://developers.googleblog.com/en/gemini-4-argon-for-robotics/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-13-pm-13",
+          "category": "macro",
+          "title": "13. 下一步观察：优先验证利润、供给与真实部署",
+          "status": "观察清单；不是已发生新闻",
+          "importance": "高",
+          "body": [
+            "宏观：10月14日CPI及实际收入、15日PPI；联看实际收益率、期限溢价、国债需求、信用利差与能源送达成本。日本需JGB、汇率和真实跨境流量共同验证。",
+            "存储：长鑫客户认证/出货，MU的DRAM与HBM分别看ASP、bit增长、良率和毛利率；SNDK看NAND，WDC/STX看近线硬盘订单，不以同日跌幅混淆技术风险。",
+            "AI与机器人：云厂商看资本开支、折旧和现金流；Gemini看付费留存与成功任务成本；Pi看干预率、网络可靠性、付费客户和复购。"
+          ],
+          "whyImportant": "分析：今天的共同问题是技术进步能否转成可持续利润；公开新产品与股价下跌都不能单独回答这个问题。",
+          "investmentImpact": "分析：未来1—12个月，重点防范“收入仍增长，但供给竞争、融资和折旧令利润低于预期”的组合。判断MU及AI链时，同时要求盈利上修证据和可承受的估值；本期不据缺失数据给出目标价或买卖指令。",
+          "tags": [
+            "观察清单",
+            "MU",
+            "现金流",
+            "估值",
+            "机器人"
+          ],
+          "sources": [
+            {
+              "title": "BLS｜数据日历",
+              "url": "https://www.bls.gov/schedule/2026/10_sched_list.htm"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-04-pm",
       "date": "2026-10-04",
       "period": "pm",
