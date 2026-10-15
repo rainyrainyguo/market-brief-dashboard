@@ -4,6 +4,291 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-15-am",
+      "date": "2026-10-15",
+      "period": "am",
+      "time": "08:04",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-15T08:04:36-07:00",
+      "summary": "10月15日早报：PPI环比1.3%、同比6.3%，通胀压力扩大；台积电正式财报收入超原指引，Q4收入指引523—543亿美元。与此同时，AI信用保护成本与融资窗口恶化，亚洲科技股重挫。需求强劲与资金约束并存，是未来1—12个月半导体判断的核心；盘中行情不当作收盘，机器人没有达到门槛的新量化突破。",
+      "cards": [
+        {
+          "id": "2026-10-15-am-1",
+          "category": "macro",
+          "title": "1. PPI环比跳升1.3%，核心口径也升温",
+          "status": "10月15日05:30 PT正式数据；不是预测",
+          "importance": "高",
+          "body": [
+            "9月最终需求PPI环比上涨1.3%、同比6.3%，为2022年以来最强涨幅之一；8月环比上修至0.5%。剔除食品、能源和贸易服务的口径环比0.5%、同比5.0%。",
+            "商品价格环比2.6%、服务0.8%，能源商品10.8%。与昨晚CPI不同，这是本期新发布的生产端数据；PPI各核心口径不可混用。"
+          ],
+          "whyImportant": "分析：压力不只来自汽油，服务和更广泛成本也在上行；但企业能否转嫁到消费者，仍取决于需求和利润率。",
+          "investmentImpact": "分析：能源/供应冲击→生产成本→企业毛利或消费价格→Fed路径和估值。PPI不能直接等同核心PCE；高估值科技面临折现率和客户预算双重约束，不能据一次数据宣布加息已定。",
+          "tags": [
+            "PPI",
+            "通胀",
+            "Fed",
+            "利润率"
+          ],
+          "sources": [
+            {
+              "title": "BLS｜9月PPI正式发布",
+              "url": "https://www.bls.gov/news.release/archives/ppi_10152026.htm"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-15-am-2",
+          "category": "semi",
+          "title": "2. 台积电正式财报：营收超原指引，第四季继续增长",
+          "status": "第三季度实绩已公布；第四季度为公司指引",
+          "importance": "高",
+          "body": [
+            "台积电10月15日正式公布Q3：美元收入467.2亿美元，同比41.2%、环比16.2%，高于原指引446—458亿美元；毛利率66.4%、营业利润率58.7%，EPS为29.43新台币。",
+            "Q4收入指引523—543亿美元，中点较Q3约增14.1%（计算值）；毛利率65%—67%。2nm占Q3晶圆收入8%；全年资本开支预算维持600—640亿美元，管理层把美元收入增长展望提高至44%。",
+            "收入强不等于利润率全面加速：Q3毛利率较Q2下降1.3个百分点，营业利润率下降1.6个百分点。"
+          ],
+          "whyImportant": "分析：这是先进制程需求仍强的直接公司证据，比股价或供应链传闻更能支撑盈利判断；同时，新节点爬坡与成本需要继续观察。",
+          "investmentImpact": "分析：对TSM、NVDA、AMD、设备与先进封装链，需求和扩产预期获得支持；但不能直接换算成MU的HBM订单。未来1—12个月看产能兑现、2nm爬坡、客户组合和利润率，而非仅用收入增速给更高估值。",
+          "tags": [
+            "TSM",
+            "财报",
+            "2nm",
+            "资本开支",
+            "NVDA",
+            "MU"
+          ],
+          "sources": [
+            {
+              "title": "TSMC / SEC｜正式业绩与指引",
+              "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000726/a3q26e_withguidancexfinal.htm"
+            },
+            {
+              "title": "TSMC / SEC｜财报演示材料",
+              "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000726/a3q26presentatione.htm"
+            },
+            {
+              "title": "中央社｜全年展望与资本开支",
+              "url": "https://focustaiwan.tw/business/202610150018"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-15-am-3",
+          "category": "ai",
+          "title": "3. AI信用压力扩大：CoreWeave CDS破1000bp，融资窗口开始收紧",
+          "status": "信用报价与融资受挫报道；不等于已经违约",
+          "importance": "高",
+          "body": [
+            "Reuters报道CoreWeave五年期CDS超过1000bp，Oracle约288bp、SoftBank约424bp；Oracle较前收未变、较一周前260bp上升，不能写成三者都在当日大幅跳升。",
+            "另据今早报道，AirTrunk REIT、Firmus、SB Energy近期上市计划出现撤回或暂停；属于过去一周进展的最新汇总，不是全部发生在今早。"
+          ],
+          "whyImportant": "分析：昨晚只有单只债券收益率，今早新增跨公司信用保护报价和股权融资窗口证据，风险已不局限于股价波动。",
+          "investmentImpact": "分析：信用利差/股权融资成本上升→项目资本不足或回报门槛提高→数据中心交付及芯片采购节奏承压。区分已签约稳定现金流与依赖远期增长的项目；CDS含流动性和风险溢价，不能把隐含概率当作实际破产概率。",
+          "tags": [
+            "CRWV",
+            "ORCL",
+            "SoftBank",
+            "CDS",
+            "融资"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜AI信用保护报价",
+              "url": "https://www.reuters.com/business/media-telecom/global-markets-cds-ai-urgent-2026-10-15/"
+            },
+            {
+              "title": "Reuters｜数据中心融资窗口",
+              "url": "https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-15-am-4",
+          "category": "macro",
+          "title": "4. 初请仍低，但零售增长很大程度反映汽油变贵",
+          "status": "就业与零售已发布；名义销售不等于实际消费量",
+          "importance": "高",
+          "body": [
+            "截至10月10日当周初请失业金19.9万份，较前周增加1000份；低裁员不等于招聘或工资正在加速。",
+            "9月零售销售环比0.8%，8月上修至1.3%；Reuters称汽油涨价贡献主要增量，其他支出温和。零售数据未经通胀调整。"
+          ],
+          "whyImportant": "分析：数据组合更接近就业稳定、名义支出受价格推高；不能把零售超预期全部当作实际需求强劲。",
+          "investmentImpact": "分析：对广告、电商、消费电子和云客户预算，须区分价格与销量。低裁员降低急剧衰退的即时证据，但能源挤压可支配收入；本期没有新增工资实值，不能用初请代替工资通胀。",
+          "tags": [
+            "就业",
+            "零售",
+            "工资",
+            "消费"
+          ],
+          "sources": [
+            {
+              "title": "美国劳工部｜失业保险数据",
+              "url": "https://oui.doleta.gov/unemploy/DataDashboard.asp/docs/pdf/content/futa/docs/chariu.asp"
+            },
+            {
+              "title": "Reuters｜9月零售销售",
+              "url": "https://www.reuters.com/business/us-retail-sales-beat-expectations-september-higher-gasoline-prices-2026-10-15/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-15-am-5",
+          "category": "macro",
+          "title": "5. 亚洲科技股重挫，债券避险买盘与油价分化并存",
+          "status": "亚洲收盘、美国早盘/盘前快照；不是美股收盘",
+          "importance": "高",
+          "body": [
+            "隔夜KOSPI跌近8%、日经跌约5%；美国10月15日06:50 PT的Reuters快讯显示费城半导体指数盘中跌3.3%。",
+            "Reuters欧美时段快照显示10年期美债向5%靠近、美元兑日元约157.725；这不是本期截稿瞬间的全曲线报价。原油06:26 PT快照为Brent105.03美元、WTI96.13美元，分别跌0.97%、涨1.09%。"
+          ],
+          "whyImportant": "分析：强台积电业绩与板块下跌并存，说明市场同时在重估资金成本、信用和拥挤持仓；长债下行可能是避险，不能自动等于科技利好。",
+          "investmentImpact": "分析：战争→油品/保险→通胀→利率→科技估值仍有效，但信用利差能抵消无风险利率下降。日本方面，日元升值不能证明资金已回流；本期无新的同口径JGB曲线、跨境资金流、美国赤字/发债计划或期限溢价分解。船舶制裁放松仍属讨论，不重复写成落地政策。",
+          "tags": [
+            "风险偏好",
+            "半导体",
+            "美债",
+            "日元",
+            "原油"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜亚洲收盘及欧美交易时段快照",
+              "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-10-15/"
+            },
+            {
+              "title": "Reuters｜10月15日半导体盘中",
+              "url": "https://www.reuters.com/business/us-chip-stocks-set-wipe-out-2-trillion-after-latest-selloff-2026-10-15/"
+            },
+            {
+              "title": "Reuters｜原油日内快照",
+              "url": "https://www.reuters.com/business/energy/oil-prices-fall-investors-weigh-supply-outlook-middle-east-tensions-2026-10-15/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-15-am-6",
+          "category": "macro",
+          "title": "6. 欧洲天然气：Troll取消一项改造，避免长时间减产",
+          "status": "Equinor正式宣布；避免减产不是新气田投产",
+          "importance": "高",
+          "body": [
+            "Equinor10月15日宣布不再安装Troll C原计划的第二台电动出口压缩机，避免施工造成最长21个月的产能下降；相关方案同时释放约26MW预留电力。",
+            "本期未取得可统一核对时间的天然气期货报价，不用原油涨跌代替欧洲TTF或亚洲LNG行情。"
+          ],
+          "whyImportant": "分析：中东LNG运输不确定时，欧洲既有气田可用率具有实物价值；这一决定改变未来停产安排，不能计为等量新增供给。",
+          "investmentImpact": "分析：供气可用率提高→欧洲天然气尾部风险边际缓和→工业及电力成本压力下降；对数据中心是间接支持，不代表短期电价必降。继续区分欧洲气、美国Henry Hub和亚洲LNG。",
+          "tags": [
+            "天然气",
+            "EQNR",
+            "欧洲",
+            "供给"
+          ],
+          "sources": [
+            {
+              "title": "Equinor｜Troll正式公告",
+              "url": "https://www.equinor.com/news/20261015-completing-electrification-project-troll"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-15-am-7",
+          "category": "ai",
+          "title": "7. 美国AI工作组拟开会：关注后续章程，尚无新监管条款",
+          "status": "FTC发言人确认会议安排；不是已通过法规",
+          "importance": "高",
+          "body": [
+            "Reuters援引FTC发言人称，政府Super Intelligence Task Force拟于10月15日开会，并在首次全体会议后发布章程；截至本期未核实会议结果或可执行新规则。",
+            "昨晚已收录Anthropic季度业绩披露，本期不把同一收入数字再算一条新财报。"
+          ],
+          "whyImportant": "分析：中期选举前，AI风险议题正进入政策程序；会议安排和具体测试、责任或发布规则之间仍有距离。",
+          "investmentImpact": "分析：若后续形成强制测试、报告或责任要求，会改变agent上线速度、合规成本和风险溢价。当前不据会议安排下调模型训练或芯片订单，也不假定出台了关税/出口许可变化。",
+          "tags": [
+            "AI监管",
+            "中期选举",
+            "FTC",
+            "agent"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜AI工作组会议安排",
+              "url": "https://www.reuters.com/world/us/trumps-ai-task-force-meet-thursday-ftc-spokesperson-says-2026-10-15/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-15-am-8",
+          "category": "robot",
+          "title": "8. Physical AI：未核实到新增部署或数据效率的量化突破",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "今早DexForce的Sim2Real路线获得报道，但“合成数据更便宜”的表述没有提供可比成本降幅、任务成功率或人工干预率，本期不把它写成已验证的数据效率突破；官网路线介绍也不等于今天新发布。",
+            "本次检索未确认NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Gemini Robotics、Physical Intelligence，以及Nabtesco、Harmonic Drive、THK、Nidec有新的付费定点、BOM或现场可靠性量化披露。"
+          ],
+          "whyImportant": "分析：真实数据与仿真数据的价值要在同一任务和测试分布上比较；演示成功不能证明跨本体迁移、触觉精操或稳定运行。",
+          "investmentImpact": "分析：继续要求zero-shot与跨本体独立测试、触觉/力控表现、每个任务所需示范数、干预率、连续uptime、每任务成本及付费客户复购。证据未越过门槛，不上调机器人规模化收入假设。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "Sim2Real",
+            "数据效率",
+            "可靠性"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜DexForce路线报道",
+              "url": "https://www.reuters.com/technology/chinese-startup-dexforce-trains-humanoid-robots-using-virtual-data-slash-costs-2026-10-15/"
+            },
+            {
+              "title": "DexForce｜官方路线介绍（非新公告）",
+              "url": "https://en.dexforce.com/"
+            },
+            {
+              "title": "Figure｜跟踪入口",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜跟踪入口",
+              "url": "https://www.pi.website/blog"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-15-am-9",
+          "category": "macro",
+          "title": "9. 观察清单：业绩强劲能否穿过融资收紧",
+          "status": "观察清单；不是新增已发生数据",
+          "importance": "高",
+          "body": [
+            "美国：跟踪PPI向PCE的映射、后续就业/工资、Fed定价和实际利率；避免用盘前概率代替会议决定。",
+            "信用与产业：看CDS、债券成交及融资是否恢复；台积电看Q4交付、2nm爬坡和利润率，MU看HBM/DRAM价格与正式合同。",
+            "能源与政策：看霍尔木兹实际船流、制裁豁免文件、柴油和LNG；日本看JGB、日元与真实资金流；AI工作组等待章程。",
+            "机器人：只在出现干预率、uptime、数据效率、单位成本或真实付费部署的新证据时上调判断。"
+          ],
+          "whyImportant": "分析：本期关键组合是生产端通胀升温、先进制程实绩强劲、边际AI融资恶化；三者可同时成立。",
+          "investmentImpact": "分析：未来1—12个月，优先看现金流能否覆盖资本开支与利息，以及订单能否按期交付。收益率回落并不足以单独确认风险偏好修复；强财报也不能抵消所有估值与信用约束。",
+          "tags": [
+            "观察清单",
+            "PCE",
+            "现金流",
+            "订单",
+            "机器人"
+          ],
+          "sources": [
+            {
+              "title": "BLS｜9月PPI正式发布",
+              "url": "https://www.bls.gov/news.release/archives/ppi_10152026.htm"
+            },
+            {
+              "title": "TSMC｜季度业绩入口",
+              "url": "https://investor.tsmc.com/english/quarterly-results/2026/q3"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-14-pm",
       "date": "2026-10-14",
       "period": "pm",
