@@ -4,6 +4,244 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-14-pm",
+      "date": "2026-10-14",
+      "period": "pm",
+      "time": "18:56",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-14T18:56:07-07:00",
+      "summary": "10月14日晚报：CPI超预期后科技与AI融资敏感股承压，长债尾盘却回落；Anthropic收入与调整后盈利报道提供需求端积极信号，NVIDIA披露晶圆厂计算性能进展。仓库此前最新为10月13日晚报，未见今天早报；本期明确补充当天早间关键背景，不另造早报或缺失历史。",
+      "cards": [
+        {
+          "id": "2026-10-14-pm-1",
+          "category": "macro",
+          "title": "1. CPI超预期，纳指跌1.88%；长债尾盘反而回落",
+          "status": "数据与收盘已发生；加息概率不是Fed决定",
+          "importance": "高",
+          "body": [
+            "9月CPI环比0.6%、同比3.7%；核心环比0.3%、同比2.6%。汽油环比9.1%，贡献超过一半整体月度涨幅；住房环比0.4%。这是今早发布的关键背景，不伪装成晚间新数据。",
+            "10月14日收盘，纳指跌1.88%、标普500跌1.11%、道指跌0.09%。WSJ记录10年期收益率5.189%、30年期5.524%，均较前日下降；两年期4.800%，小幅上升。Reuters收盘稿所引10月加息概率约37%，前日约22%。"
+          ],
+          "whyImportant": "分析：通胀和风险资产下跌可以同时推动短端上行、长端避险买盘增强，不能写成“美债全曲线一路上升”。",
+          "investmentImpact": "分析：能源与核心价格压力→Fed路径偏紧→融资成本及科技折现率受压；长端尾盘回落尚不足以抵消信用和盈利预期风险。CPI不是PCE，本期不凭此宣布Fed已决定加息。",
+          "tags": [
+            "CPI",
+            "Fed",
+            "美债",
+            "纳指"
+          ],
+          "sources": [
+            {
+              "title": "BLS｜9月CPI，10月14日发布",
+              "url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm"
+            },
+            {
+              "title": "WSJ｜股债收盘",
+              "url": "https://www.wsj.com/finance/stocks/u-s-stocks-fall-on-hot-inflation-report-ai-sell-off-6c98113d"
+            },
+            {
+              "title": "Reuters｜10月14日收盘",
+              "url": "https://www.reuters.com/business/sp-500-dow-futures-rise-ahead-big-bank-results-cpi-data-2026-10-14/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-14-pm-2",
+          "category": "ai",
+          "title": "2. AI融资压力从股价传到信用：CoreWeave债券收益率约15%",
+          "status": "债券市场读数与公司融资统计；不等于已经违约",
+          "importance": "高",
+          "body": [
+            "Reuters报道，CoreWeave一只6月发行、发行收益率9.625%的债券，近期收益率约15%；其统计债券融资220亿美元、贷款260亿美元。收益率不是信用利差，融资规模也不是本期新增负债。",
+            "当日收盘CoreWeave跌约15%、Oracle跌8.8%、Dell跌11.4%；后者同时受到券商下调评级影响。"
+          ],
+          "whyImportant": "分析：即便GPU需求仍强，客户拿到资金的成本和期限也能决定项目是否按期建设。",
+          "investmentImpact": "分析：高融资成本→项目回报门槛提高→扩容或采购节奏承压→NVDA、服务器、网络与存储链订单兑现风险上升。应区分高杠杆算力商与现金流雄厚的云巨头，不能把单一债券推成整个信用市场危机。",
+          "tags": [
+            "CRWV",
+            "ORCL",
+            "DELL",
+            "信用",
+            "AI资本开支"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜AI融资敏感股与债券",
+              "url": "https://www.reuters.com/business/red-hot-cpi-report-fuels-ai-rout-2026-10-14/"
+            },
+            {
+              "title": "Reuters｜10月14日收盘",
+              "url": "https://www.reuters.com/business/sp-500-dow-futures-rise-ahead-big-bank-results-cpi-data-2026-10-14/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-14-pm-3",
+          "category": "macro",
+          "title": "3. 航运风险未解除，美国据报考虑放松部分船舶制裁",
+          "status": "政策讨论尚未落地；晚间期货快照不是结算价",
+          "importance": "高",
+          "body": [
+            "Reuters援引美国官员称，政府考虑让此前受制裁船舶运输合法石油，以降低运输成本；报道同时称两艘商船在海峡附近遭袭后沉没。",
+            "湾区10月14日18:16的快照：Brent104.67美元/桶、WTI94.07美元/桶，较前一结算分别跌1.31%、1.07%。报道网页标注UTC10月15日，不是超出本期的未来消息。"
+          ],
+          "whyImportant": "分析：制裁调整可能改善运输能力，但不等于解除海峡军事风险或原油供应已经恢复。",
+          "investmentImpact": "分析：战争→运费、保险和能源→通胀→利率→科技估值。选举前压低能源成本的政策激励与航运袭击相互对冲；须等正式制裁清单、豁免和实际船流。本期未核实天然气同期结算，不沿用旧价。",
+          "tags": [
+            "中东",
+            "原油",
+            "制裁",
+            "中期选举"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜湾区14日晚原油与航运政策",
+              "url": "https://www.reuters.com/business/energy/oil-prices-fall-investors-weigh-supply-outlook-middle-east-tensions-2026-10-15/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-14-pm-4",
+          "category": "macro",
+          "title": "4. 日本五年期拍卖需求较强，不支持简单推断资金正全面撤离",
+          "status": "日本时段已发生的补充背景；不是晚间新拍卖",
+          "importance": "高",
+          "body": [
+            "10月14日日本五年期国债拍卖投标倍数3.56，高于过去一年平均3.36；报道时10年期JGB约2.995%。",
+            "本期没有核实新的日本跨境资金流、美国财政赤字实值或发债计划，也没有足以分解期限溢价的新估计；不把旧数字包装成新增。"
+          ],
+          "whyImportant": "分析：收益率高并不等于拍卖失败，更不等于日本投资者已经集中抛售美股。",
+          "investmentImpact": "分析：JGB收益率/汇率对冲成本变化→资金回流或套息调整→全球流动性，仍须流量验证；美国财政/发债→期限溢价→长端利率，也不能用单日收益率替代因果识别。",
+          "tags": [
+            "JGB",
+            "日本",
+            "资金流",
+            "期限溢价"
+          ],
+          "sources": [
+            {
+              "title": "Reuters / Fidelity｜日本五年期拍卖",
+              "url": "https://www.fidelity.com/news/article/default/202610140124RTRSNEWSCOMBINED_L4N4600CX_1"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-14-pm-5",
+          "category": "ai",
+          "title": "5. Anthropic据报季度收入168亿美元、调整后盈利",
+          "status": "Reuters援引参会者；不是已核验的审计财报",
+          "importance": "高",
+          "body": [
+            "参会者称，Anthropic第三季度收入168亿美元、环比增长45%，并实现调整后盈利。公司未立即回应Reuters置评请求；调整项目和完整现金流尚待核查。"
+          ],
+          "whyImportant": "分析：这是AI应用收入兑现的重要积极信号，但“调整后盈利”不能直接等同GAAP净利润或自由现金流转正。",
+          "investmentImpact": "分析：对AMZN、GOOGL及算力供应链，客户收入增长可增强长期采购支撑；估值仍取决于毛利、推理成本、现金回款及算力承诺。不能用季度收入年化替代实际全年收入。",
+          "tags": [
+            "Anthropic",
+            "AMZN",
+            "GOOGL",
+            "盈利质量"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Anthropic投资者会议",
+              "url": "https://www.reuters.com/business/finance/anthropics-q3-revenue-surges-45-nearly-17-billion-2026-10-14/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-14-pm-6",
+          "category": "semi",
+          "title": "6. NVIDIA把AI推进晶圆厂工具链：有性能指标，尚非整厂良率兑现",
+          "status": "10月14日官方公告；性能为公司/合作方口径",
+          "importance": "高",
+          "body": [
+            "cuPotential早期测试在已GPU优化工作流上再加速2—3倍；Lam拟集成NanoVDB，部分刻蚀模拟预计最高加速30倍。Teradyne使用加速计算实现约85倍探针维护推理加速。",
+            "这些指标分别衡量计算任务，不能直接转换为晶圆产能、整体良率或设备收入。与此同时，费城半导体指数当日跌4.3%，连续第六天下跌。"
+          ],
+          "whyImportant": "分析：NVDA的机会不仅是训练模型，也包括EDA、工艺模拟与测试计算；但算法加速与客户采购之间仍有工程验证距离。",
+          "investmentImpact": "分析：关注NVDA、LRCX、TER、KLAC及EDA厂商的付费采用、部署规模和节省成本。对MU，本期没有据此确认HBM新合同或存储价格变化；板块下跌也不是订单取消证明。",
+          "tags": [
+            "NVDA",
+            "TER",
+            "LRCX",
+            "半导体",
+            "EDA"
+          ],
+          "sources": [
+            {
+              "title": "NVIDIA｜10月14日晶圆厂计算公告",
+              "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Semiconductor-Leaders-Advance-AI-Across-Chip-Design-and-Manufacturing-for-AI-Defined-Fabs/default.aspx"
+            },
+            {
+              "title": "Reuters｜10月14日收盘",
+              "url": "https://www.reuters.com/business/sp-500-dow-futures-rise-ahead-big-bank-results-cpi-data-2026-10-14/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-14-pm-7",
+          "category": "robot",
+          "title": "7. Physical AI：会议议程不等于新增付费部署",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本次检索未核实过去半天内新增、足以改变投资判断的zero-shot、跨本体迁移、触觉/力控、数据效率、人工干预率、连续uptime、BOM或付费deployment/design win。",
+            "SEMICON West有晶圆厂机器人及Universal Robots相关议程，但议程不是订单。昨天Pi API与Gemini机器人消息没有核实到新的现场指标，不重复计为进展。"
+          ],
+          "whyImportant": "分析：Teradyne测试计算加速也不能冒充其机器人业务增长；机器人证据需要具体任务与现场运行口径。",
+          "investmentImpact": "分析：继续观察NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Gemini Robotics、Physical Intelligence及Nabtesco、Harmonic Drive、THK、Nidec；没有干预率、uptime、单位任务成本、独立付费客户和复购，不上调规模化收入假设。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "可靠性",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "NVIDIA｜SEMICON West议程",
+              "url": "https://www.nvidia.com/en-us/events/semicon-west/"
+            },
+            {
+              "title": "Physical Intelligence｜官方博客（跟踪入口）",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "Figure｜官方新闻（跟踪入口）",
+              "url": "https://www.figure.ai/news"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-14-pm-8",
+          "category": "macro",
+          "title": "8. 下一期观察：PPI、信用和AI现金流",
+          "status": "观察清单，不是新增数据",
+          "importance": "高",
+          "body": [
+            "10月15日05:30湾区时间关注PPI，比较核心价格、就业/工资与后续PCE，而非只看汽油。",
+            "市场：联看两年期、长端实际利率、期限溢价、美元及信用利差；不要把CoreWeave一只债券收益率当作全市场利差。",
+            "政策与能源：看船舶制裁是否正式调整、霍尔木兹船流、油品和LNG；日本看JGB、日元及跨境资金。",
+            "产业：Anthropic看调整后利润与现金流对账；芯片看订单、ASP、良率、客户融资；机器人看干预率、uptime和复购。"
+          ],
+          "whyImportant": "分析：今晚新增的核心矛盾是：AI收入兑现有积极证据，但高资本成本正在压缩边际项目的容错空间。",
+          "investmentImpact": "分析：未来1—12个月优先区分“最终需求增长”与“融资能否支撑建设”，以及“计算性能提高”与“客户利润兑现”。不因一个交易日推断整个AI需求反转，也不因收入高速增长忽略信用风险。",
+          "tags": [
+            "观察清单",
+            "PPI",
+            "信用",
+            "现金流"
+          ],
+          "sources": [
+            {
+              "title": "BLS｜发布日历",
+              "url": "https://www.bls.gov/schedule/2026/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-13-pm",
       "date": "2026-10-13",
       "period": "pm",
