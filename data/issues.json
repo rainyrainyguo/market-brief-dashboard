@@ -4,6 +4,255 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-15-pm",
+      "date": "2026-10-15",
+      "period": "pm",
+      "time": "18:56",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-15T18:56:42-07:00",
+      "summary": "10月15日晚报：美股从早盘跌势恢复，标普涨0.33%、纳指涨0.08%，但半导体仍七连跌；官方10年期美债降至5.10%。IEA明确加快逾2000万桶柴油释放，AI工作组会后采用章程，NVIDIA发布本地agent模型。另补充核验10月14日机器人零样本基准，速度、成本和部署可靠性仍有明显距离。",
+      "cards": [
+        {
+          "id": "2026-10-15-pm-1",
+          "category": "macro",
+          "title": "1. 美股从早盘下跌恢复，长端美债收益率下降9bp",
+          "status": "10月15日完整收盘与官方收益率",
+          "importance": "高",
+          "body": [
+            "收盘标普500涨0.33%至7744.06点，纳指涨0.08%至26713.03点，道指涨1.08%至52177.69点。相较早报，新增的是欧美时段修复和完整收盘。",
+            "财政部官方曲线：两年期4.77%、10年期5.10%、30年期5.43%，较前一日分别下降5、9、9bp。官方曲线与媒体即时成交收益率口径不同。",
+            "今早PPI、初请和零售已在早报报道，本期没有新的PCE、工资、财政赤字/发债计划或期限溢价分解。"
+          ],
+          "whyImportant": "分析：通胀偏热时长债仍上涨，说明避险需求能压过当日通胀压力；指数收涨也不能证明AI信用已经恢复。",
+          "investmentImpact": "分析：无风险利率下降→边际缓和科技折现率，但若信用利差和股权融资成本仍高，数据中心资金成本未必同步下降。财政/发债→期限溢价→长端利率的结构性约束仍在，不能把9bp全部归因于期限溢价。",
+          "tags": [
+            "美债",
+            "纳指",
+            "风险偏好",
+            "期限溢价"
+          ],
+          "sources": [
+            {
+              "title": "AP｜三大指数完整收盘",
+              "url": "https://apnews.com/article/f0a4f8aa60a6a24237c419aba38f31fd"
+            },
+            {
+              "title": "美国财政部｜10月15日官方收益率曲线",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202610&type=daily_treasury_yield_curve"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-15-pm-2",
+          "category": "macro",
+          "title": "2. IEA加快储备释放：逾2000万桶柴油有具体计划",
+          "status": "理事会正式声明；主要推进既有承诺，未全部交付",
+          "importance": "高",
+          "body": [
+            "IEA10月15日表示，约3.3亿桶已释放，将推动剩余约1亿桶及时释放；其中逾2000万桶柴油计划尽快入市。这是3月集体行动的执行加速，不应全部算作一轮全新增供应。",
+            "原油结算：Brent105.92美元/桶，跌0.13%；WTI97.97美元/桶，涨3.03%。EIA显示截至10月9日当周美国商业原油库存减少860万桶至4.156亿桶；供应和炼厂变化均可能驱动去库。"
+          ],
+          "whyImportant": "分析：柴油是运输和工业成本的重要传导点，储备释放比口头压价更具体，但执行时间、品类和交付地点决定实际效果。",
+          "investmentImpact": "分析：战争/航运风险→油品、保险、运费→通胀与利润率→Fed路径和科技估值。储备投放可缓冲短缺，无法替代持续生产与安全航运；美国影子船队制裁放松仍在讨论。中期选举前政策压力大，也不等于正式柴油出口禁令已落地。",
+          "tags": [
+            "IEA",
+            "柴油",
+            "中东",
+            "原油",
+            "中期选举"
+          ],
+          "sources": [
+            {
+              "title": "IEA｜10月15日理事会声明",
+              "url": "https://www.iea.org/news/iea-governing-board-statement-on-energy-markets-and-security"
+            },
+            {
+              "title": "Reuters｜原油结算与库存",
+              "url": "https://www.reuters.com/business/energy/oil-prices-fall-investors-weigh-supply-outlook-middle-east-tensions-2026-10-15/"
+            },
+            {
+              "title": "EIA｜周度石油报告",
+              "url": "https://www.eia.gov/petroleum/supply/weekly/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-15-pm-3",
+          "category": "macro",
+          "title": "3. 美国天然气库存增幅偏小；11月合约结算3.236美元",
+          "status": "周度库存与期货结算已报道",
+          "importance": "高",
+          "body": [
+            "WSJ记录美国天然气当周注库670亿立方英尺，低于五年同期平均900亿；总库存3.567万亿立方英尺，仍较五年均值高450亿。11月合约结算3.236美元/MMBtu。",
+            "本期未核实同一结算时点的欧洲TTF及亚洲JKM，不把Henry Hub直接当作欧洲或亚洲天然气价格。"
+          ],
+          "whyImportant": "分析：库存仍有盈余，但缓冲较前周缩小；天气、产量与LNG出口会共同影响后续注库速度。",
+          "investmentImpact": "分析：美国气价→燃气发电与部分数据中心电力成本；海外LNG还叠加液化、运输、保险和再气化。油价上涨不保证各地气价同步上涨，投资上应分地区和合同口径。",
+          "tags": [
+            "天然气",
+            "Henry Hub",
+            "库存",
+            "电力成本"
+          ],
+          "sources": [
+            {
+              "title": "WSJ｜天然气库存与结算",
+              "url": "https://www.wsj.com/finance/commodities-futures/u-s-natural-gas-futures-gain-ahead-of-storage-report-1e14389f"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-15-pm-4",
+          "category": "ai",
+          "title": "4. AI工作组正式采用章程；FTC调查报道推动责任审查",
+          "status": "会后章程据媒体获悉的公告；传票为消息人士报道",
+          "importance": "高",
+          "body": [
+            "Semafor晚间报道，白宫AI工作组已正式采用章程，启动120天工作窗口，将研究网络/关键基础设施、生物安全和模型控制，并推进实验室网络事件报告协议及执法协调；执行约束仍待明确。",
+            "补充核验：Reuters当日报道，Axios称FTC已向OpenAI、Anthropic发出民事调查要求，索取安全等文件。该行动据报发生在10月14日，不是今晚新发；也不是法院认定违法。"
+          ],
+          "whyImportant": "分析：相较早报“拟开会”，今晚有组织分工和协议制定进展；企业安全事件正从自愿披露转向调查、证据保存和问责。",
+          "investmentImpact": "分析：对模型/agent公司，潜在影响是测试、日志、事件通报、保险及合规成本上升；对MSFT、AMZN、GOOGL合作生态，尚不能据此量化赔偿或收入损失。观察具体强制条款与产品上线节奏，不能把调查当作已禁止模型发布。",
+          "tags": [
+            "AI监管",
+            "OpenAI",
+            "Anthropic",
+            "FTC",
+            "agent"
+          ],
+          "sources": [
+            {
+              "title": "Semafor｜工作组会后进展",
+              "url": "https://www.semafor.com/article/10/15/2026/white-houses-ai-task-force-gets-to-work"
+            },
+            {
+              "title": "Reuters｜FTC调查报道及各方回应",
+              "url": "https://www.reuters.com/business/us-ftc-subpoenas-openai-anthropic-over-consumer-harms-axios-reports-2026-10-15/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-15-pm-5",
+          "category": "ai",
+          "title": "5. NVIDIA发布Nemotron新模型：本地agent的内存经济性值得跟踪",
+          "status": "10月15日公司发布；性能属于厂商测试口径",
+          "importance": "高",
+          "body": [
+            "NVIDIA发布120B参数的Nemotron 3.5 Super VL，以及可在24GB内存运行的Bolt 74B-A9B；前两者已可用，4GB的Bolt E4B计划10月23日推出。",
+            "Bolt研究说明采用结构压缩和2-bit量化，设计目标是在24GB内存内实现至少80 token/s；这不是所有硬件、上下文长度和任务下的实测保证。"
+          ],
+          "whyImportant": "分析：agent成本不仅取决于模型能力，也取决于内存占用、延迟和部署位置；开源权重扩大企业自部署选择。",
+          "investmentImpact": "分析：对NVDA，模型和软件可促进RTX/DGX生态采用；对云和闭源API，部分任务可能转向本地或专用模型。内存压缩降低单任务占用，同时更广泛使用可能扩大总需求，不能直接推导HBM/DRAM需求下降；需看质量保持、采用率及总推理量。",
+          "tags": [
+            "NVDA",
+            "Nemotron",
+            "本地agent",
+            "量化",
+            "内存"
+          ],
+          "sources": [
+            {
+              "title": "NVIDIA｜发布公告",
+              "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/"
+            },
+            {
+              "title": "NVIDIA Research｜Bolt技术说明",
+              "url": "https://research.nvidia.com/labs/nemotron/Nemotron-3.5-Bolt-24GB/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-15-pm-6",
+          "category": "semi",
+          "title": "6. 半导体跌幅收窄但仍七连跌：大盘修复未普遍惠及AI硬件",
+          "status": "完整收盘新增；台积电财报已在早报覆盖",
+          "importance": "高",
+          "body": [
+            "费城半导体指数收跌0.9%，较早报引用的盘中跌3.3%明显收窄，仍为连续第七天下跌；NVDA跌1.8%，Dell跌6.9%、HPE跌7.1%。",
+            "台积电Q3与Q4指引已经收录早报，本期未核实到晚间MU的HBM新合同、存储价格新指引或GPU客户订单取消。"
+          ],
+          "whyImportant": "分析：指数反弹、硬件继续弱，说明风险偏好修复具有选择性；需要同时检查估值、客户信用和真实订单。",
+          "investmentImpact": "分析：对MU、NVDA、AMD、AVGO及服务器链，客户资本开支兑现和现金回款比盘中价格更重要。资金成本上升可影响采购节奏，但股价下跌本身不能证明AI需求反转或存储周期结束。",
+          "tags": [
+            "半导体",
+            "NVDA",
+            "MU",
+            "DELL",
+            "HPE",
+            "订单"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月15日美股收盘",
+              "url": "https://www.reuters.com/business/nasdaq-futures-dive-1-ai-rout-deepens-debt-concerns-2026-10-15/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-15-pm-7",
+          "category": "robot",
+          "title": "7. 补充核验AA-Robotics：零样本有进步，速度与成本仍不支持生产",
+          "status": "原评测10月14日发布；本期补充核验",
+          "importance": "中",
+          "body": [
+            "Artificial Analysis在单一机械臂的8项桌面任务中采用零样本尝试、末状态人工评分。GPT-6 Astra平均69.4分、GPT-6.1 Sol64.6分、Gemini 4 Argon55.3分；这是含部分得分的平均分，不是成功率。",
+            "评测报告大多数模型约30分钟/任务，人类基线约20秒；Astra平均16.36美元/任务、Sol1.93美元。不同模型使用不同coding harness，不能把差异完全归因于基础模型。",
+            "这是对此前机器人栏目的一项补充：早报未核实到当半天新量化突破，但应补上这项原日期为10月14日的有指标研究。它尚未证明跨本体迁移、触觉/力控提升、持续uptime或付费部署。"
+          ],
+          "whyImportant": "分析：通用模型能通过工具控制机械臂，为高层规划和校准提供研究证据；单一场景的任务分数仍不能替代重复运行可靠性。",
+          "investmentImpact": "分析：机器人利润空间仍可能来自任务策略、实时控制、现场集成和可靠性，而非只剩硬件。对NVDA、TER、ON、ADI、TSLA、Figure、Unitree和精密传动链，尚无新增订单证据；继续要求干预率、任务用时、总成本、数据效率和客户复购。",
+          "tags": [
+            "Physical AI",
+            "zero-shot",
+            "机器人",
+            "成本",
+            "可靠性"
+          ],
+          "sources": [
+            {
+              "title": "Artificial Analysis｜AA-Robotics v0.1原始评测，10月14日发布",
+              "url": "https://artificialanalysis.ai/articles/aa-robotics"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-15-pm-8",
+          "category": "macro",
+          "title": "8. 下一步：Warsh讲话、信用修复和政策执行",
+          "status": "观察清单；不是新增宏观数据或政策结果",
+          "importance": "高",
+          "body": [
+            "Warsh在IMF的讲话安排为10月16日03:30 UTC，即湾区10月15日20:30，晚于本期截稿；不提前替他表态。继续看Fed路径、PCE、就业与工资及实际收益率。",
+            "市场：看反弹能否扩散到半导体和AI信用；美元、JGB、日元与真实跨境资金流联看。本期无新的可比日本资金流或确认干预，不凭日元波动断言全球资金回流。",
+            "能源：核实柴油实际释放、库存、装船与制裁文件；AI监管看章程后续协议是否具强制性；产业看模型真实采用、芯片订单和机器人持续运行。"
+          ],
+          "whyImportant": "分析：今晚新增组合是大盘与国债修复、AI硬件仍分化、能源政策推进、监管程序更具体。",
+          "investmentImpact": "分析：收益率回落和产品发布都不能单独证明融资约束解除。未来1—12个月优先看实际现金流、融资续接与交付，再判断估值能否稳定。",
+          "tags": [
+            "观察清单",
+            "Warsh",
+            "信用",
+            "JGB",
+            "能源"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Warsh讲话安排与沟通政策",
+              "url": "https://www.reuters.com/markets/us/warshs-quest-quiet-fed-gets-vocal-pushback-2026-10-15/"
+            },
+            {
+              "title": "美国财政部｜10月15日官方收益率曲线",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202610&type=daily_treasury_yield_curve"
+            },
+            {
+              "title": "IEA｜10月15日理事会声明",
+              "url": "https://www.iea.org/news/iea-governing-board-statement-on-energy-markets-and-security"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-15-am",
       "date": "2026-10-15",
       "period": "am",
