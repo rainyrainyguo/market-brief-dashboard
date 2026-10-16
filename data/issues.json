@@ -4,6 +4,251 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-16-am",
+      "date": "2026-10-16",
+      "period": "am",
+      "time": "07:59",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-16T07:59:48-07:00",
+      "summary": "10月16日早报：Warsh认为AI投资短期先推需求和通胀，未给10月利率承诺；进口价格环比1.1%、非燃料0.7%，工业产出增0.7%。中国AI出口目录仍在征求意见，但临时登记已启动；德国NVIDIA合作尚待正式协议。机器人补充核验Nyobolt获Digit 5电池技术定点，90分钟运行/9分钟充电仍属公司指标，现场可靠性待证。",
+      "cards": [
+        {
+          "id": "2026-10-16-am-1",
+          "category": "macro",
+          "title": "1. Warsh：AI投资先推升需求，未给10月利率承诺",
+          "status": "讲话已发生；暂停或加息仍是市场预期",
+          "importance": "高",
+          "body": [
+            "昨晚截稿后，Warsh在IMF表示AI投资浪潮先作用于需求、再作用于供给，短期推高通胀；他强调经济韧性，同时拒绝预判剩余会议的利率决定。",
+            "他对中期生产率持乐观看法，但表示未来12—18个月就业影响尚不清楚。不能把长期生产率乐观解读成近期降息信号。"
+          ],
+          "whyImportant": "分析：AI建设既可能提高未来供给，也会先消耗电力、设备、土地和劳动力，投资增长未必立即带来通胀下降。",
+          "investmentImpact": "分析：AI资本开支→短期需求和资源约束→通胀与Fed路径→科技融资成本；未来生产率改善需要实际兑现。对NVDA、MU及云厂商，强需求和高折现率可以并存，不能把讲话当作FOMC已承诺暂停。",
+          "tags": [
+            "Warsh",
+            "Fed",
+            "AI资本开支",
+            "通胀",
+            "就业"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Warsh在IMF讲话",
+              "url": "https://www.reuters.com/markets/asia/feds-warsh-gives-no-hint-october-policy-decision-2026-10-16/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-16-am-2",
+          "category": "macro",
+          "title": "2. 进口价格环比1.1%，工业产出增长主要不能只看总量",
+          "status": "10月16日正式数据；与昨日CPI/PPI不同",
+          "importance": "高",
+          "body": [
+            "9月进口价格环比1.1%、同比8.1%；非燃料进口环比0.7%、同比6.0%。进口资本品环比0.9%，BLS列出的推动因素包括电脑、外设和半导体等。",
+            "进口价格指数不含关税，不能用它直接度量关税最终负担。同期工业产出环比0.7%，其中制造业0.3%、公用事业3.5%；总产出增长不能全部解释为制造业需求加速。"
+          ],
+          "whyImportant": "分析：成本压力扩散至非能源进口，而工业增长结构不均；这是价格与实际产出两类不同证据。",
+          "investmentImpact": "分析：进口成本→设备/消费品价格或企业毛利→PCE和盈利预期；关税还可能另增成本。对半导体，类别价格上升不是某家公司ASP上调证明；判断MU、设备链或消费电子仍需产品与订单口径。",
+          "tags": [
+            "进口价格",
+            "工业产出",
+            "关税",
+            "半导体",
+            "利润率"
+          ],
+          "sources": [
+            {
+              "title": "BLS｜9月进出口价格正式发布",
+              "url": "https://www.bls.gov/news.release/archives/ximpim_10162026.htm"
+            },
+            {
+              "title": "Fed｜9月工业产出正式发布",
+              "url": "https://www.federalreserve.gov/releases/g17/current/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-16-am-3",
+          "category": "ai",
+          "title": "3. 中国拟新增23项AI技术出口管理；临时登记已启动",
+          "status": "目录修订征求意见；出口前登记要求从公告日起执行",
+          "importance": "高",
+          "body": [
+            "商务部、科技部10月16日公告拟增列40项技术，其中AI23项，涵盖模型、智能体、算力集群等；意见征集至11月15日。正式目录尚未修订完成，但附件所列技术出口前须登记，已开始未完成的出口也在范围内。",
+            "官方解释：受限技术海外本地部署将受管理；API、APP/网页、SaaS及本地端侧轻量化等列明形式不属于该大模型技术出口管理范围，公共领域开源/论文技术不纳入。具体交易须核对附件技术条件。"
+          ],
+          "whyImportant": "分析：技术转移、海外私有化部署与远程模型服务被区别处理，可能改变企业采购和合作结构；不能概括为所有中国模型禁止出海。",
+          "investmentImpact": "分析：对阿里及中国模型开发商，跨境本地部署的合规和时间成本可能增加，API分发仍有空间；对全球云/模型生态，技术许可与治理更重要。它不改变美国GPU出口许可，也不直接证明NVDA新增订单或对华限制放松。",
+          "tags": [
+            "中国AI",
+            "出口管理",
+            "模型部署",
+            "阿里",
+            "API"
+          ],
+          "sources": [
+            {
+              "title": "商务部、科技部｜2026年第48号公告",
+              "url": "https://www.mofcom.gov.cn/zcfb/dwmygl/art/2026/art_61446ab4beee4f63973d4d0ab3097648.html"
+            },
+            {
+              "title": "商务部｜政策答记者问",
+              "url": "https://www.mofcom.gov.cn/zwgk/zcjd/art/2026/art_b11d5c1e9374421e93e85dc87eba6e38.html"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-16-am-4",
+          "category": "macro",
+          "title": "4. 美元回落、10月暂停定价升高；日本政策口径强调日元调整",
+          "status": "汇率与期货为时点报价；官员表态不是实际干预",
+          "importance": "高",
+          "body": [
+            "Reuters快照：美元指数约101.70，美元兑日元约157.89；市场给10月维持利率约87%概率。该概率针对10月，不能与此前“12月前加息概率”直接比较。",
+            "美国财政部副部长Browne表示，日本已不处于长期通缩环境，汇率水平和货币政策应相应改变，并警告无序汇率波动会引发头寸平仓和全球融资成本变化。"
+          ],
+          "whyImportant": "分析：美元并非所有AI风险事件中的避险赢家；日元、美国利率和跨境对冲可能共同改变资产定价。",
+          "investmentImpact": "分析：若JGB收益率及对冲成本变化促使日本资金回流或套息平仓→全球风险资产流动性收紧，仍需资金流验证。本期无新同口径JGB曲线、实际干预证据、美国赤字/发债计划或期限溢价估计；不沿用昨日美债值冒充今早报价。",
+          "tags": [
+            "美元",
+            "日元",
+            "JGB",
+            "Fed",
+            "全球流动性"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美元、日元与利率预期快照",
+              "url": "https://www.reuters.com/world/asia-pacific/euro-gets-much-needed-reprieve-ai-wobbles-rock-dollar-2026-10-16/"
+            },
+            {
+              "title": "Reuters｜美国财政部对日本政策表态",
+              "url": "https://www.investing.com/news/economy-news/us-treasury-says-japan-no-longer-faces-deflationary-environment-yen-level-must-change-4953054"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-16-am-5",
+          "category": "macro",
+          "title": "5. 柴油利润率对IEA措施反应，原油仍受中东供应风险支撑",
+          "status": "日内行情已报道；储备释放交付尚需跟踪",
+          "importance": "高",
+          "body": [
+            "Reuters10月16日报道欧洲柴油利润率在IEA决定后下跌；04:07 PT原油快照为Brent106.28美元/桶、WTI97.78美元/桶，分别涨0.34%、跌0.19%，不是结算价。",
+            "昨晚已报道IEA加快储备释放，本期新增是市场反应，而非再宣布一次。影子船队制裁调整仍属讨论；本期没有核实新的正式停火或霍尔木兹全面恢复。"
+          ],
+          "whyImportant": "分析：成品油与原油可以不同步，柴油风险缓和不等于整个能源通胀链已消失。",
+          "investmentImpact": "分析：战争/航运→原油、柴油、LNG与保险→通胀和企业成本→美债/Fed→科技估值。中期选举压价激励可能推动政策，但实际装船与交付决定效果；本期未核实新的可比天然气报价，不重复昨日结算充数。",
+          "tags": [
+            "中东",
+            "Brent",
+            "柴油",
+            "能源通胀",
+            "中期选举"
+          ],
+          "sources": [
+            {
+              "title": "Reuters / MarketScreener｜原油和柴油利润率",
+              "url": "https://uk.marketscreener.com/news/oil-edges-down-as-investors-weigh-possible-us-sanctions-on-shadow-fleet-ce785dd3d08ff224"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-16-am-6",
+          "category": "semi",
+          "title": "6. 德国据报将宣布NVIDIA工业AI合作，尚无可计入收入的订单",
+          "status": "政府消息人士报道；协议尚待下周正式公布",
+          "importance": "高",
+          "body": [
+            "Reuters援引政府消息人士称，德国计划下周宣布与NVIDIA等伙伴合作，扩大工业AI应用；训练机器人和自动驾驶的具体方向来自Handelsblatt报道，仍需正式协议核对。",
+            "本期未取得GPU数量、合同金额、交付期、付费客户或量产部署指标。台积电财报、Nemotron发布及昨晚半导体七连跌已报道，不重新算作今早新事件。"
+          ],
+          "whyImportant": "分析：工业AI是算力应用扩散的潜在渠道，但合作框架与持续商业回报之间还有采购、集成和现场验证。",
+          "investmentImpact": "分析：对NVDA及工业软件、设备链是需求线索；未来1—12个月需看合同和付款。不能据此上调MU的HBM收入，也不能把框架合作当作ON、ADI、TER或机器人传动件的定点订单。",
+          "tags": [
+            "NVDA",
+            "德国",
+            "工业AI",
+            "半导体",
+            "订单"
+          ],
+          "sources": [
+            {
+              "title": "Reuters / MarketScreener｜德国合作计划",
+              "url": "https://www.marketscreener.com/news/germany-to-unveil-nvidia-ai-agreement-next-week-government-sources-say-ce785cdadb81ff24"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-16-am-7",
+          "category": "robot",
+          "title": "7. 补充核验：Nyobolt获Digit 5电池技术定点，快充改善可用时间",
+          "status": "10月15日原公告；本期补充，性能为公司口径",
+          "importance": "高",
+          "body": [
+            "Agility与Nyobolt昨日正式宣布电池技术合作：Digit 5称可运行90分钟、充电9分钟，运行/充电比由Digit 4的2:1提升至10:1，并以每天工作超过20小时为目标。",
+            "公司预计配备该电池的Digit 5在2027年上半年开始早期客户使用，随后6—9个月扩大供应；这不是已实现的客户现场uptime。公告未披露电池价格、寿命、循环衰减、维护成本或订单金额。"
+          ],
+          "whyImportant": "分析：这是具名硬件技术定点和有指标的充电约束改善，证据强于普通demo；但电池可用时间并不等于整机生产可靠性。",
+          "investmentImpact": "分析：90/9对应仅考虑充电的理论可用比例约90.9%（计算值）；还需扣除故障、维护、安全停机与人工干预。每小时产出、总拥有成本和付费复购才决定投资价值。对NVDA、ON、ADI、TER、TSLA、Figure、Unitree和精密传动链，本期无据此确认的新订单；零样本、跨本体、触觉和数据效率也未见新增独立验证。",
+          "tags": [
+            "Physical AI",
+            "Agility",
+            "Nyobolt",
+            "电池",
+            "design win",
+            "uptime"
+          ],
+          "sources": [
+            {
+              "title": "Agility｜电池合作正式公告",
+              "url": "https://www.agilityrobotics.com/content/agility-robotics-selects-nyobolt-as-its-ultra-fast-charging-battery-technology-partner-for-digit-5"
+            },
+            {
+              "title": "Nyobolt｜合作方公告",
+              "url": "https://nyobolt.com/resources/news/agility-robotics-selects-nyobolt-as-its-ultra-fast-charging-battery-technology-partner-for-digit-5/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-16-am-8",
+          "category": "macro",
+          "title": "8. 观察清单：AI投资先通胀、后生产率，谁承担过渡成本",
+          "status": "观察清单；不是已发生政策结果",
+          "importance": "高",
+          "body": [
+            "宏观：看进口价格、工资和后续PCE，联看两年期、实际收益率、期限溢价及Fed定价；暂停一次会议不等于紧缩结束。",
+            "融资：看AI信用利差、再融资和客户现金流，区分无风险利率下降与借款成本改善；日本看JGB、日元及真实资金流。",
+            "产业与政策：中国看目录附件、登记要求和正式文本；德国看合作合同；机器人看快充在真实负载下的寿命、干预率、连续uptime和单位任务成本；能源看柴油实际投放与海峡船流。"
+          ],
+          "whyImportant": "分析：今早关键组合是AI投资短期推需求、进口成本继续升温，同时政策开始影响模型跨境部署；产业机会与资本成本需要一起判断。",
+          "investmentImpact": "分析：未来1—12个月，优先验证生产率与现金流能否赶上资本开支、利息及合规成本。需求增长不能自动推成利润增长，研发指标也不能自动推成可持续部署。",
+          "tags": [
+            "观察清单",
+            "PCE",
+            "信用",
+            "政策",
+            "机器人"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Warsh在IMF讲话",
+              "url": "https://www.reuters.com/markets/asia/feds-warsh-gives-no-hint-october-policy-decision-2026-10-16/"
+            },
+            {
+              "title": "BLS｜9月进出口价格正式发布",
+              "url": "https://www.bls.gov/news.release/archives/ximpim_10162026.htm"
+            },
+            {
+              "title": "商务部、科技部｜2026年第48号公告",
+              "url": "https://www.mofcom.gov.cn/zcfb/dwmygl/art/2026/art_61446ab4beee4f63973d4d0ab3097648.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-15-pm",
       "date": "2026-10-15",
       "period": "pm",
