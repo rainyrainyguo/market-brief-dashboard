@@ -4,6 +4,260 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-16-pm",
+      "date": "2026-10-16",
+      "period": "pm",
+      "time": "19:04",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-16T19:04:50-07:00",
+      "summary": "10月16日晚报：纳指跌2.1%、CoreWeave约跌12%，官方10年期美债5.09%，回撤不能只归因于利率；Brent收109.86美元，延布与霍尔木兹风险升温。补充10月15日Anthropic估值预期报道，明确非新财报或最终IPO定价。科技资金流出与全球股票吸金并存；半导体和机器人无新增投资级订单或现场指标。",
+      "cards": [
+        {
+          "id": "2026-10-16-pm-1",
+          "category": "macro",
+          "title": "1. 纳指收跌2.1%，美债未同步大跌：风险开始更多集中于AI信用与盈利兑现",
+          "status": "收盘事实；驱动归因属于分析",
+          "importance": "高",
+          "body": [
+            "10月16日美股收盘，道指跌0.34%、标普500跌1.09%、纳指跌2.1%。与昨晚指数修复相比，科技风险偏好再次转弱。",
+            "财政部官方曲线：两年期4.74%、10年期5.09%、30年期5.43%；较10月15日分别下降3bp、下降1bp和持平。该口径是官方平价收益率，不能与媒体不同时间的现券报价混算。",
+            "早报已解释进口价格与工业产出，晚间不重复。没有核实到新的财政发债安排、期限溢价分解、日本实际汇率干预或可比跨境资金流；也不把单家公司信用压力写成全市场信用危机。"
+          ],
+          "whyImportant": "股票明显下跌而官方长端利率大致稳定，说明今天的回撤不能只归因于无风险折现率上升；AI融资可持续性和盈利兑现风险也在影响估值。",
+          "investmentImpact": "分析：高位无风险利率是背景，信用利差和盈利风险是另一层压力。融资成本＝基准利率＋信用补偿；即使美债略降，AI借款人的融资条件仍可能恶化。NVDA、AMD、MU与云基础设施股需要同时看客户信用和订单兑现。",
+          "tags": [
+            "美债",
+            "纳指",
+            "AI信用",
+            "风险偏好",
+            "期限溢价"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月16日全球市场收盘",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-16/"
+            },
+            {
+              "title": "美国财政部｜10月官方收益率曲线",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202610&type=daily_treasury_yield_curve"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-16-pm-2",
+          "category": "macro",
+          "title": "2. Brent结算109.86美元：延布与霍尔木兹风险重新压过储备释放预期",
+          "status": "油价结算已发生；拦截为联盟声明；军事升级传闻未证实",
+          "importance": "高",
+          "body": [
+            "Brent收109.86美元/桶、涨3.7%；WTI收101.41美元/桶、涨3.5%，周涨幅分别4.9%和10.4%。这是早报价格之后的实质上行。",
+            "沙特主导联盟称拦截一枚射向延布的弹道导弹；初步报告未见设施损坏。有关沙特能源设施遭袭及伊朗可能先发打击的说法仍含未经证实信息，不能当成已发生的设施停产。",
+            "Reuters另报美国能源部提出最多1700万桶SPR原油交换招标；这是招标安排，不能等同于当天实物到港，也不能与此前IEA措施不加区分地累加。"
+          ],
+          "whyImportant": "延布承担绕开霍尔木兹的出口功能，替代路线也承受安全风险。储备投放能缓冲短缺，但不等于航道恢复。",
+          "investmentImpact": "分析：战争风险→原油、成品油与运输成本→通胀及利润率→Fed政策约束→科技估值。能源涨价还可能强化中期选举前的储备、出口与补贴政策压力；本期未核实到新的正式出口禁令。天然气没有取得可比的新结算数据，不沿用旧值充当今晚价格。",
+          "tags": [
+            "中东",
+            "原油",
+            "延布",
+            "霍尔木兹",
+            "SPR",
+            "通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Brent触及110美元，供应风险升温",
+              "url": "https://www.reuters.com/business/autos-transportation/oil-edges-down-investors-weigh-possible-us-sanctions-shadow-fleet-2026-10-16/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-16-pm-3",
+          "category": "macro",
+          "title": "3. 资金流出现分化：全球股票基金吸金，科技基金却净流出",
+          "status": "10月16日发布，统计截至10月14日；并非今日逐笔资金流",
+          "importance": "中",
+          "body": [
+            "LSEG Lipper数据显示，截至10月14日一周，全球股票基金净流入200.1亿美元，科技基金净流出47.5亿美元；全球债券基金净流入77.9亿美元。",
+            "这组数据的统计窗口早于今天收盘，不能用来证明周五资金已经回补科技，也不能把基金净流量直接等同于全市场跨资产资金迁移。"
+          ],
+          "whyImportant": "资金没有一致撤离所有风险资产，科技内部去拥挤与大类资产配置可以同时发生。指数上涨或全球基金吸金，都不自动意味着AI融资链恢复。",
+          "investmentImpact": "分析：若广泛股票流入持续而科技流出，市场可能更重视现金流、资产负债表和行业分散。日本资金回流、美元对冲及套息收缩仍需真实持仓和流量验证，不能凭日元波动推断。",
+          "tags": [
+            "资金流",
+            "科技基金",
+            "债券基金",
+            "流动性",
+            "LSEG"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜截至10月14日全球基金资金流",
+              "url": "https://www.reuters.com/world/china/global-markets-flows-graphic-2026-10-16/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-16-pm-4",
+          "category": "ai",
+          "title": "4. CoreWeave再跌约12%；CEO售股披露须与企业融资分开判断",
+          "status": "股价与历史售股报道已发生；不代表新增违约",
+          "importance": "高",
+          "body": [
+            "CoreWeave周五跌约12%，全周约跌25%。这是前期信用压力之后的新价格反馈，但价格本身不能证明订单取消或债务违约。",
+            "Reuters根据监管文件报道，CEO Michael Intrator及关联实体自2025年3月IPO以来售股接近10亿美元。绝大部分依据预设交易计划；约4000万美元例外主要为归属股票的缴税出售。",
+            "这是上市以来累计交易，不是本周突然减持10亿美元；个人出售股票也不是公司从资产负债表取走同额现金。"
+          ],
+          "whyImportant": "AI基础设施同时承担客户集中、重资本开支和债务期限风险。高管交易值得治理审查，但需避免把预设交易直接解读为管理层预测公司出事。",
+          "investmentImpact": "分析：真正影响未来1—12个月的，是融资可得性、现金利息、客户回款与机房投运能否匹配。对NVDA及服务器、网络、存储供应商，风险传导是客户融资收紧→交付或扩容节奏变化；目前没有据此确认新增订单取消。",
+          "tags": [
+            "CRWV",
+            "NVDA",
+            "AI融资",
+            "售股",
+            "现金流",
+            "客户信用"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月16日全球市场收盘",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-16/"
+            },
+            {
+              "title": "Reuters／MarketScreener｜CoreWeave CEO上市以来售股披露",
+              "url": "https://uk.marketscreener.com/news/coreweave-s-ceo-sold-nearly-1-billion-of-stock-since-ipo-filings-show-ce785cdadc8ef72d"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-16-pm-5",
+          "category": "ai",
+          "title": "5. 补充核验：Anthropic投资者讨论1.5万亿美元估值，尚非IPO定价",
+          "status": "10月15日报道补充；匿名消息人士口径，非今晚新财报",
+          "importance": "高",
+          "body": [
+            "Reuters援引知情人士称，部分现有及潜在投资者在10月14日投资者日后讨论约1.5万亿美元估值，低于此前约2万亿美元预期。它不是已完成融资估值或最终IPO发行价。",
+            "同一报道援引会议口径称，第三季收入168亿美元、环比增45%，并实现调整后盈利。这属于面向潜在投资者的财务披露报道，不等同于公开上市公司完整季度财报；调整后盈利也不等于GAAP净利润或自由现金流转正。",
+            "这条报道早于本期窗口，因前期遗漏而补充。不能把高增长、盈利口径和投资者估值讨论合并成“已经以1.5万亿美元上市”。"
+          ],
+          "whyImportant": "强劲收入增长仍可能伴随估值倍数下降；当资本市场要求更高回报，增长速度、利润质量和算力承诺都必须进入定价。",
+          "investmentImpact": "分析：若IPO融资规模或估值低于原预期，可能影响模型公司的融资能力与算力预算，但传导并非必然。对AMZN、GOOGL等投资与云合作方，需要核对最终发行文件、收入确认、经营现金流和资本承诺。",
+          "tags": [
+            "Anthropic",
+            "IPO",
+            "估值",
+            "调整后盈利",
+            "AMZN",
+            "GOOGL"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Anthropic投资者下调IPO估值预期，10月15日报道",
+              "url": "https://www.reuters.com/business/finance/investors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-2026-10-15/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-16-pm-6",
+          "category": "semi",
+          "title": "6. 半导体重点转向客户融资质量，不能用股价代替订单证据",
+          "status": "风险传导分析；无新增基本面确认",
+          "importance": "中",
+          "body": [
+            "本期没有核实到早报之后足以改变盈利预测的GPU、HBM、NAND、先进封装或设备新增订单、良率、产能兑现或正式指引。",
+            "不重复早报中国AI技术出口目录征求意见与临时登记，也不把德国拟议工业AI合作转成已签订单；二者都需要后续执行文件。",
+            "台积电前期财报和AI客户信用压力可以同时成立：上游已确认收入不自动保证未来所有融资型客户扩张计划兑现。"
+          ],
+          "whyImportant": "当前需区分芯片技术竞争力、客户需求和客户支付能力。需求叙事很强，也可能因项目资金缺口推迟交付。",
+          "investmentImpact": "分析：NVDA、AMD、MU、AVGO及光互连链优先看现金支持的订单、预付款、客户集中和交付延期。若只见融资恶化而无订单变化，先提高风险敏感度；不凭市场回撤直接下调全行业需求。",
+          "tags": [
+            "半导体",
+            "NVDA",
+            "AMD",
+            "MU",
+            "客户融资",
+            "订单兑现"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月16日全球市场收盘",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-16/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-16-pm-7",
+          "category": "robot",
+          "title": "7. Physical AI：本期未核实到新增投资级部署或可靠性指标",
+          "status": "无实质更新；不是认定研发停滞",
+          "importance": "中",
+          "body": [
+            "本期检索没有核实到新增、可改变判断的零样本泛化、跨本体迁移、触觉/力控、数据效率、人工干预率、连续uptime、硬件成本或真实付费部署指标。",
+            "早报Nyobolt／Digit 5快充定点没有新增现场验证，不重复；普通机器人展示不补位。ON、ADI、TER、TSLA、Unitree、Figure及精密传动供应链也没有本期已核实的新定点或量产订单。"
+          ],
+          "whyImportant": "电池快充、实验室成功率和可连续收费的现场作业，是不同层次的证据。",
+          "investmentImpact": "分析：继续要求分任务成功率、每小时人工干预、连续运行时间、每任务成本、BOM、独立付费客户和复购；没有新证据时不提高规模化收入假设。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "干预率",
+            "uptime",
+            "BOM",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方新闻",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜研究博客",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "Google DeepMind｜官方博客",
+              "url": "https://deepmind.google/blog/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-16-pm-8",
+          "category": "macro",
+          "title": "8. 观察清单：能源、信用与盈利能否同时改善",
+          "status": "观察与分析；不是新增事实",
+          "importance": "中",
+          "body": [
+            "宏观：跟踪中东设施实际受损、霍尔木兹与延布装船、SPR成交和交付；联看原油、柴油、LNG、通胀预期与Fed定价。进口/PPI涨价是否传到消费端，需结合需求、库存及利润率。",
+            "利率与政策：跟踪实际收益率、期限溢价、后续美债拍卖与财政供给；日本看JGB、日元及跨境流量；中期选举前区分提案、竞选承诺与已生效关税、监管和能源政策。",
+            "产业：CoreWeave看债务条件、现金流与投运；Anthropic看最终发行文件和盈利口径；芯片看有资金支持的订单与毛利率；机器人看现场干预率、uptime及独立付费部署。"
+          ],
+          "whyImportant": "本期核心组合是能源再涨、科技再跌，而官方美债曲线大体稳定。风险来源已不能只用一个“利率上行”解释。",
+          "investmentImpact": "分析：未来1—12个月，若能源成本上升、客户信用收紧且收入兑现滞后，高估值科技会同时面对利润和估值压力；若融资修复、供应恢复且订单转成现金流，风险溢价才有更扎实的下降基础。",
+          "tags": [
+            "观察清单",
+            "能源",
+            "信用",
+            "盈利",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Brent触及110美元，供应风险升温",
+              "url": "https://www.reuters.com/business/autos-transportation/oil-edges-down-investors-weigh-possible-us-sanctions-shadow-fleet-2026-10-16/"
+            },
+            {
+              "title": "美国财政部｜10月官方收益率曲线",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202610&type=daily_treasury_yield_curve"
+            },
+            {
+              "title": "Reuters｜Anthropic投资者下调IPO估值预期，10月15日报道",
+              "url": "https://www.reuters.com/business/finance/investors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-2026-10-15/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-16-am",
       "date": "2026-10-16",
       "period": "am",
