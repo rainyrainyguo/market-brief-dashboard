@@ -4,6 +4,244 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-17-am",
+      "date": "2026-10-17",
+      "period": "am",
+      "time": "08:04",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-17T08:04:48-07:00",
+      "summary": "10月17日早报：海湾油轮遇袭报告增加，伊朗所称霍尔木兹触雷起火仍缺独立确认；不把周末风险写成已发生的价格上涨。补充核验Anthropic两位数收益率芯片融资、Reflection开放Beam权重与Claude密码学研究，均明确原始日期和证据限制。半导体无新增正式订单或指引，机器人无新增投资级现场指标。",
+      "cards": [
+        {
+          "id": "2026-10-17-am-1",
+          "category": "macro",
+          "title": "1. 油轮遇袭报告增加；伊朗所称“触雷起火”仍未独立确认",
+          "status": "UKMTO报告与伊方声明须分开；不是已确认的全面封航",
+          "importance": "高",
+          "body": [
+            "今晨新增的是航运安全报告，而非新的原油结算价。UKMTO通报：一艘油轮在沙特朱拜勒东北约68海里遭不明弹体击中，船员安全撤离，报告时未见环境影响；另一艘在东北约78海里遭小艇发射RPG攻击，左舷后部受损，船员安全，完整损害及环境影响待评估。事件发生于10月16日，相关报道于17日发布。",
+            "另据Reuters转述伊朗媒体，革命卫队17日称一艘载逾200万桶原油的油轮在霍尔木兹所谓“未经授权路线”触雷爆炸起火。船名、损失量与起因尚缺独立确认；伊方的“非法通行”属于其立场，不是本简报的法律判断。",
+            "不能把这些报告直接相加成三艘不同油轮、确认200万桶供应全部损失，或据此宣布海峡全面关闭。"
+          ],
+          "whyImportant": "航运风险不仅取决于港口产量，也取决于船东是否愿意派船、保险能否承保，以及遇袭后航道是否可持续通行。",
+          "investmentImpact": "分析：袭击与不确定性→保险、运费及航运等待成本→油气交付风险→通胀和企业利润压力→Fed政策约束及科技估值。周末尚无新的可比原油、LNG结算价，不把新闻风险直接写成已发生的价格跳涨。",
+          "tags": [
+            "中东",
+            "油轮",
+            "UKMTO",
+            "霍尔木兹",
+            "保险",
+            "能源通胀"
+          ],
+          "sources": [
+            {
+              "title": "UKMTO｜近期事件通报174、175",
+              "url": "https://www.ukmto.org/recent-incidents"
+            },
+            {
+              "title": "Reuters／Kayhan Life｜伊朗称油轮在霍尔木兹触雷，10月17日",
+              "url": "https://kayhanlife.com/news/iran/irans-guards-say-tanker-exploded-after-hitting-mine-in-strait-of-hormuz/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-17-am-2",
+          "category": "ai",
+          "title": "2. 补充核验：Anthropic据报以超过10%的收益率吸引Blackstone芯片融资",
+          "status": "FT消息人士报道；Reuters未独立核实；早于上期截稿的遗漏补充",
+          "importance": "高",
+          "body": [
+            "FT于10月16日报道，Anthropic拟向Blackstone提供超过10%的收益率，相关基金拟投入90亿美元债务，以Anthropic五年芯片租赁付款支持；Reuters随后转述并表示无法立即独立核实。",
+            "FT称该融资属于约600亿美元的Project North Star，支持约1.5GW Google TPU采购。上述是拟议融资与容量口径，不等于债务全部交割、芯片全部出货或算力已上线。",
+            "这条消息发布于昨晚截稿前，本期作为遗漏补充，不冒充过去半天的新事件；也与昨晚的IPO估值讨论不同。"
+          ],
+          "whyImportant": "它把“AI资金成本上升”落实到具体融资条款：模型公司即使收入快速增长，仍可能需要以较高成本获取算力。收益率包含信用与结构风险，不能与国债利率直接等同。",
+          "investmentImpact": "分析：长期租赁承诺→融资和固定付款压力→更高利用率、收入和回款要求。对BX看最终收益、抵押与下行保护；对GOOGL及相关芯片链看融资能否转成实际交付。它体现TPU路线扩张，但不能直接推断NVDA订单减少；也不能把90亿美元乘收益率当作Anthropic全公司的年度利息。",
+          "tags": [
+            "Anthropic",
+            "BX",
+            "GOOGL",
+            "TPU",
+            "AI融资",
+            "租赁",
+            "信用风险"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Anthropic向Blackstone提供两位数融资收益率，转引FT",
+              "url": "https://www.reuters.com/business/anthropic-offers-blackstone-double-digit-yield-chip-financing-deal-ft-reports-2026-10-17/"
+            },
+            {
+              "title": "FT｜Anthropic芯片融资Project North Star",
+              "url": "https://www.ft.com/content/cb4034e1-475f-40b9-a5f9-256e91aacb89"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-17-am-3",
+          "category": "ai",
+          "title": "3. Reflection开放Beam权重：竞争从模型分数扩展到可自托管的agent系统",
+          "status": "10月16日官方发布；具体时刻未披露，列作补充核验",
+          "importance": "高",
+          "body": [
+            "Reflection宣布按Apache 2.0许可发布Beam权重，并提供BF16、FP8、NVFP4版本、推理与agent工具集成。模型此前已介绍，本次新增是权重实际开放，不是首次宣布模型存在。",
+            "官方模型卡列出约5010亿总参数、约230亿激活参数、100万token上下文；SWE-bench Verified为81.6%，属于发布方评测，不是本简报独立复现。",
+            "低激活参数不等于只需存放230亿参数：推理时仍需安排大规模权重存储、显存/内存调度与通信。支持100万上下文也不代表在该长度下成本、准确率和延迟均已达生产要求。"
+          ],
+          "whyImportant": "可下载权重、商业许可、部署工具与定制能力，会影响企业在闭源API和自托管之间的选择；“能部署”比只有模型排名更接近采购判断。",
+          "investmentImpact": "分析：开放权重可能增加闭源API定价压力，同时把部分价值转移到推理托管、数据治理和系统集成。对NVDA、云与服务器链，效率提升可能降低单任务成本，也可能扩大使用量，净算力需求不能仅凭参数或分数判断。仍需同任务总成本、故障率与付费采用数据。",
+          "tags": [
+            "Reflection",
+            "Beam",
+            "开放权重",
+            "agent",
+            "推理成本",
+            "显存",
+            "NVDA"
+          ],
+          "sources": [
+            {
+              "title": "Reflection｜10月16日开放Beam权重",
+              "url": "https://reflection.ai/blog/beam-is-available"
+            },
+            {
+              "title": "Reflection｜Beam官方模型卡",
+              "url": "https://huggingface.co/reflection/Beam-1.0-501B-A23B"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-17-am-4",
+          "category": "ai",
+          "title": "4. Claude解释NIST曲线种子来源：是研究能力证据，不是破解加密",
+          "status": "10月16日官方研究补充；内部模型，非新产品收入",
+          "importance": "中",
+          "body": [
+            "Anthropic披露，内部研究模型在不足半小时内追溯出NIST P-192、P-224、P-256、P-384、P-521曲线种子的生成来源，指向以Unix时间戳初始化的C语言库伪随机数生成器，并公布复现代码。",
+            "公司明确说明：这不是破解ECDSA、发现新的攻击或要求用户更换密钥。部分基点来源和筛选标准仍未解释，不能说全部历史疑问都已解决。文章仅标注10月16日，无精确发布时刻，故列作补充而非确认发生在本期窗口。"
+          ],
+          "whyImportant": "价值在于模型提出可检验假设、编写工具并完成追溯，而非单纯给出文字答案。一个成功案例仍不能量化所有研究任务的成功率。",
+          "investmentImpact": "分析：为安全研究和科研agent提供能力信号，但缺少独立重复、失败样本与单位任务成本；不据此上调Anthropic收入或判断网络安全公司被替代。更值得观察的是这类能力能否在受控权限下形成可审计、可收费的工作流。",
+          "tags": [
+            "Anthropic",
+            "Claude",
+            "科研agent",
+            "密码学",
+            "可复现",
+            "网络安全"
+          ],
+          "sources": [
+            {
+              "title": "Anthropic｜Claude解释ECDSA曲线种子来源，10月16日",
+              "url": "https://www.anthropic.com/research/ecdsa-curve-origins"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-17-am-5",
+          "category": "semi",
+          "title": "5. 半导体：新增看点是TPU融资，而非已确认订单上修",
+          "status": "无新增正式指引或量产订单确认",
+          "importance": "中",
+          "body": [
+            "本期未核实到新的GPU、HBM/DRAM、NAND、晶圆代工、先进封装或设备公司正式盈利指引、量产订单与良率改善。",
+            "Anthropic拟议融资可扩大TPU部署选择，但融资总额不能直接等同于芯片销售额；项目还包含期限、租赁与结构安排，且尚需交割和交付验证。不重复昨日市场收盘与已报道财报。"
+          ],
+          "whyImportant": "资金落实、设备交付、机房通电和客户付费是不同里程碑。只有融资标题，还不足以形成半导体盈利预测。",
+          "investmentImpact": "分析：对NVDA、AMD、AVGO、MU及设备链，继续区分客户购买意向、融资落实、不可撤销订单和收入确认。关注TPU与GPU份额变化，但不把单个项目简单视为全行业需求增加或NVDA等额损失。",
+          "tags": [
+            "半导体",
+            "TPU",
+            "NVDA",
+            "AMD",
+            "AVGO",
+            "MU",
+            "订单兑现"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Anthropic向Blackstone提供两位数融资收益率，转引FT",
+              "url": "https://www.reuters.com/business/anthropic-offers-blackstone-double-digit-yield-chip-financing-deal-ft-reports-2026-10-17/"
+            },
+            {
+              "title": "FT｜Anthropic芯片融资Project North Star",
+              "url": "https://www.ft.com/content/cb4034e1-475f-40b9-a5f9-256e91aacb89"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-17-am-6",
+          "category": "robot",
+          "title": "6. Physical AI：未核实到新增达到投资门槛的机器人指标",
+          "status": "无实质更新；跟踪入口不是新闻证据",
+          "importance": "中",
+          "body": [
+            "本期核对Figure、Physical Intelligence与Google DeepMind公开入口及相关报道，未核实到昨晚后新增、可改变投资判断的零样本泛化、跨本体迁移、触觉/力控、数据效率、干预率、uptime、BOM下降或真实付费部署指标。",
+            "普通模型的代码、推理或密码学研究进展，不直接证明机器人现场泛化与可靠性。昨日Digit 5电池定点也没有新的独立现场数据，不再重复。"
+          ],
+          "whyImportant": "研究能力、机器人控制策略、硬件可用时间与付费部署，需要分别验收；不能用其中一项代替其他项。",
+          "investmentImpact": "分析：本期不上调NVDA、ON、ADI、TER、TSLA、Unitree、Figure及Nabtesco、Harmonic Drive、THK、Nidec的机器人规模化收入假设。下一步仍要求人工干预频次、连续运行、任务成本、付费客户与复购。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "跨本体",
+            "干预率",
+            "uptime",
+            "BOM",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方新闻",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方博客",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "Google DeepMind｜官方博客",
+              "url": "https://deepmind.google/blog/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-17-am-7",
+          "category": "macro",
+          "title": "7. 观察清单：周末先验证航运与融资，开市再看价格传导",
+          "status": "观察与分析；不是新增宏观数据",
+          "importance": "中",
+          "body": [
+            "能源：先确认油轮身份、事件是否重复、损害和船员状态，追踪实际装船与通航，而非只看交战方表态；复市后再看原油、柴油、LNG和保险价格如何反应。",
+            "美国：本期未核实到新的CPI/PPI/PCE、就业工资、Fed决议、点阵图或正式发债计划。后续联看核心通胀、实际收益率、国债拍卖、期限溢价和广泛信用利差，不用单家公司融资收益率代表整个信用市场。",
+            "日本与政策：本期无新的可比JGB收盘、实际汇率干预或跨境资金回流证据。JGB上行→资金回流/套息收缩→全球流动性收紧仍是条件链条；财政发债→期限溢价→长端利率也需供给与需求数据验证。中期选举前区分政策建议、竞选语言与已生效措施。",
+            "产业：跟踪Anthropic融资交割、抵押和偿付结构；Beam看真实部署总成本与采用；半导体看交付与利润；机器人看独立现场数据。"
+          ],
+          "whyImportant": "本期真正新增的是航运安全报告；几项重要AI信息属于已标明日期的补充核验。没有新的交易价格，不等于风险没有变化。",
+          "investmentImpact": "分析：未来1—12个月需要同时验证“算力需求强”与“客户付得起”。能源、融资和收入若同向恶化，高估值科技更脆弱；若实物供应、资本可得性与现金回收改善，增长才更容易转成股东回报。",
+          "tags": [
+            "观察清单",
+            "宏观",
+            "中期选举",
+            "JGB",
+            "信用",
+            "能源",
+            "AI资本开支"
+          ],
+          "sources": [
+            {
+              "title": "UKMTO｜近期事件通报174、175",
+              "url": "https://www.ukmto.org/recent-incidents"
+            },
+            {
+              "title": "Reuters｜Anthropic向Blackstone提供两位数融资收益率，转引FT",
+              "url": "https://www.reuters.com/business/anthropic-offers-blackstone-double-digit-yield-chip-financing-deal-ft-reports-2026-10-17/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-16-pm",
       "date": "2026-10-16",
       "period": "pm",
