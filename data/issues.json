@@ -4,6 +4,204 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-17-pm",
+      "date": "2026-10-17",
+      "period": "pm",
+      "time": "18:55",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-17T18:55:15-07:00",
+      "summary": "10月17日晚报：伊朗将油轮触雷说法扩大为两艘，仍未独立确认；埃及提出附条件协防沙特。补充当天ECB关于长端利率、需求和私募信贷的判断，以及Jack Clark的条件GDP情景。机器人补齐Google 10月13日原文中56%→75%的实验指标，明确非今日突破。半导体无新增订单或指引，不重播周五行情。",
+      "cards": [
+        {
+          "id": "2026-10-17-pm-1",
+          "category": "macro",
+          "title": "1. 伊朗称“两艘”油轮触雷；埃及提出有条件协防沙特",
+          "status": "伊方声明未独立确认；埃及尚非已出兵",
+          "importance": "高",
+          "body": [
+            "较早报新增：伊朗革命卫队把霍尔木兹触雷起火的说法从一艘扩大为两艘，并称第二艘失去行动能力。Reuters明确注明尚无独立确认；不能据此认定两船原油已全部损失，也不能与UKMTO早间事件简单累加。",
+            "另据Reuters，埃及总统Sisi表示，如沙特提出请求，埃及准备采取必要防卫措施，并寻求议会支持，紧急会议拟于周日举行。这是附条件的政治与授权安排，不是已确认参战或新增油气设施停产。",
+            "周末没有取得新的可比原油、天然气结算价，不重复周五收盘充当今晚行情。"
+          ],
+          "whyImportant": "新增船舶失能说法提高航运风险的不确定性；潜在更多国家介入则使冲突既可能获得威慑，也可能扩大。两种方向都需后续行动验证。",
+          "investmentImpact": "分析：航运与地区升级风险→保险、运费和交付延迟→油气及成品油成本→通胀和企业利润→Fed约束与科技估值。复市反应取决于船舶身份、损害、航道和实际供应，不能把声明直接换算成确定油价目标。",
+          "tags": [
+            "中东",
+            "霍尔木兹",
+            "油轮",
+            "埃及",
+            "沙特",
+            "能源通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters／Jerusalem Post｜伊朗称两艘油轮触雷，10月17日更新",
+              "url": "https://www.jpost.com/middle-east/article-911972"
+            },
+            {
+              "title": "Reuters｜埃及拟寻求议会支持，有条件协防沙特",
+              "url": "https://www.reuters.com/world/middle-east/egypts-sisi-seeks-parliaments-backing-help-defend-saudi-arabia-if-asked-2026-10-17/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-17-pm-2",
+          "category": "macro",
+          "title": "2. ECB：长端利率上升已在抑制需求；私募信贷风险有边界",
+          "status": "10月17日官方讲话补充核验；非今晚加息决定",
+          "importance": "高",
+          "body": [
+            "Lagarde在当天IMFC官方讲话中表示，自上次会议以来长端利率明显上升、融资条件收紧，将比9月预测更明显地压低增长与能源涨价传导。她同时表示，尚未看到超出原预测的显著价格和工资传导。",
+            "讲话称私募信贷压力持续，部分基金出现流出并重新启用赎回限制；但欧元区金融机构直接敞口有限，因此私募信贷单独而言目前不太可能成为当地金融不稳定来源。",
+            "该讲话早于本期窗口，作为当天遗漏补充，不当作晚间新政策。它是ECB对欧洲的判断，不能直接当作Fed结论、美国基金状态或新一轮全球信用危机证据。"
+          ],
+          "whyImportant": "高利率一方面压估值和融资，另一方面削弱需求、限制企业转嫁成本；因此“能源涨价”不必然演变成等比例、永久性的核心通胀。",
+          "investmentImpact": "分析：长端利率↑→借贷与消费投资↓→利润和增长承压，同时通胀传导减弱。对高估值科技，不能只看到未来降息可能而忽略盈利压力。基金赎回限制提示流动性错配，但应逐基金核对，不把它等同于全部AI项目融资关闭。",
+          "tags": [
+            "ECB",
+            "长端利率",
+            "能源传导",
+            "工资",
+            "私募信贷",
+            "流动性"
+          ],
+          "sources": [
+            {
+              "title": "ECB｜Lagarde在IMFC的10月17日官方讲话",
+              "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-17-pm-3",
+          "category": "ai",
+          "title": "3. Jack Clark提出美国GDP达44万亿美元情景：不是已实现生产率",
+          "status": "当日较早讲话补充；公司内部条件情景，非IMF预测",
+          "importance": "中",
+          "body": [
+            "Anthropic联合创始人Jack Clark在17日IMF/世界银行年会期间表示，公司内部模型在特定条件下推演美国2030年GDP可能达44万亿美元，前提包括AI能力继续改善及新产业形成；他也主张更严格的国际安全规则。",
+            "这是公司人士的前景判断，不是IMF采纳的基准预测、官方GDP数据或Anthropic收入指引；报道没有提供足以独立重建该情景的完整假设。",
+            "该讲话发生于当天较早时段，本期补充核验，不算过去半天的新经济数据。早报已讲的芯片融资、Beam权重与密码学研究不重复。"
+          ],
+          "whyImportant": "产业对长期生产率的乐观，与现实中高成本融资可以同时存在。愿景可解释资本开支意愿，却不能证明投资回报率或收入回收期。",
+          "investmentImpact": "分析：未来1—12个月更应检验付费采用、客户节省、单位推理成本及现金回收。不能以全社会GDP增量直接推算模型公司收入，也不能据宏观乐观情景上调NVDA、云或存储订单。",
+          "tags": [
+            "Anthropic",
+            "Jack Clark",
+            "生产率",
+            "GDP情景",
+            "AI投资回报",
+            "监管"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Jack Clark的AI增长情景与监管主张",
+              "url": "https://www.reuters.com/world/china/anthropics-clark-says-ais-impact-accelerating-quickly-could-vastly-boost-us-gdp-2026-10-17/"
+            },
+            {
+              "title": "IMF｜Jack Clark讲座官方议程与时间",
+              "url": "https://www.imf.org/en/meetings/2026/annual/schedule/2026/10/17/per-jacobsson-foundation-lecture-212473"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-17-pm-4",
+          "category": "semi",
+          "title": "4. 半导体没有新增投资级订单或指引，周末不重播股价",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本期未核实到早报后GPU、HBM/DRAM、NAND、晶圆代工、先进封装、光互连或设备链有足以改变盈利预测的新订单、良率、产能兑现及正式公司指引。",
+            "不把央行对AI的宏观评论、模型公司的GDP情景或既有拟议融资计作芯片销售；也不将周五股价走势写成周六新行情。"
+          ],
+          "whyImportant": "需求意向、客户融资、设备交付和收入确认是不同阶段。缺少新证据时，保持原假设比用标题填补财务模型更可靠。",
+          "investmentImpact": "分析：对NVDA、AMD、AVGO、MU及光互连链，继续看有资金支持的订单、客户集中、预付款、交付与毛利率。本期没有证据确认需求突然反转，也没有证据支持订单上修。",
+          "tags": [
+            "半导体",
+            "NVDA",
+            "AMD",
+            "AVGO",
+            "MU",
+            "订单",
+            "客户信用"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Jack Clark的AI增长情景与监管主张",
+              "url": "https://www.reuters.com/world/china/anthropics-clark-says-ais-impact-accelerating-quickly-could-vastly-boost-us-gdp-2026-10-17/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-17-pm-5",
+          "category": "robot",
+          "title": "5. 补充核验Google仿真数据指标：真实任务成功率56%→75%",
+          "status": "原文10月13日；补充此前遗漏数字，非今日技术突破",
+          "importance": "中",
+          "body": [
+            "重新核对Google官方原文：Argon从真实桌面照片构建MuJoCo仿真、生成4500余条随机化轨迹用于VLA微调；公司报告其真实机器人评测成功率从56%升至75%，完成时间由35秒降至24秒。",
+            "此前简报报道过该文的ERQA与演示，却遗漏这组更贴近数据效率的数字，本期补充：成功率提升19个百分点，完成时间下降约31%。两者都是公司特定实验，不是工厂现场总体可靠性。",
+            "这不是无需训练的零样本成功率，也未证明跨本体迁移、连续uptime、人工干预率、总采集/训练成本或付费部署。评测样本量、置信区间与独立复现仍需核对。"
+          ],
+          "whyImportant": "它提供了“通用模型生成仿真训练数据→专用VLA真实任务改善”的量化线索，证据强于单段演示，但仍不能替代长期部署验收。",
+          "investmentImpact": "分析：若可复现，可能降低特定任务的数据采集和适配成本，利好机器人模型、仿真与算力生态；但不能据此确认NVDA、ON、ADI、TER、TSLA或精密传动链新增订单。过去半天本身仍未核实到新的投资级机器人部署指标。",
+          "tags": [
+            "Physical AI",
+            "GOOGL",
+            "仿真",
+            "数据效率",
+            "VLA",
+            "成功率",
+            "可靠性"
+          ],
+          "sources": [
+            {
+              "title": "Google｜Gemini 4 Argon for Robotics，原文10月13日",
+              "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-17-pm-6",
+          "category": "macro",
+          "title": "6. 观察清单：先核实事件与实验，再看复市价格和现金流",
+          "status": "观察与分析；不是新增数据",
+          "importance": "中",
+          "body": [
+            "中东：核对两艘油轮身份、袭击性质及是否与既有报告重叠；观察埃及议会结果、是否收到沙特正式请求、实际航道和装船，不将授权讨论当作战争已扩大。",
+            "美国：本期未核实到新的CPI/PPI/PCE、就业工资、Fed决议或点阵图、赤字与发债安排、同口径广泛信用利差和资金流。复市后联看油气、实际收益率、期限溢价及客户融资；中期选举前区分政治承诺与已生效能源、贸易和监管措施。",
+            "日本与财政：暂无新的可比JGB收盘、实际日元干预或跨境资金回流证据。JGB收益率↑→资金回流/套息收缩→全球流动性趋紧，以及财政发债↑→期限溢价↑→长端利率↑，都需要实际数据验证。",
+            "产业：用客户节省、付费收入与现金流验证AI生产率；机器人用独立复现、干预率、uptime和任务成本验证实验结果，不以宏观愿景代替公司EPS。"
+          ],
+          "whyImportant": "今晚新增集中于地缘风险声明；政策讲话和机器人数字属于明确标注原日期的补充。风险可能变化，但缺乏新交易数据时，不制造已被市场定价的结论。",
+          "investmentImpact": "分析：未来1—12个月，科技与半导体需要同时跨过能源成本、融资可得性和收入兑现三道检验。更低的通胀传导未必是单纯利好，也可能来自需求变弱；真正改善要看成本下降能否伴随订单和现金流保持韧性。",
+          "tags": [
+            "观察清单",
+            "能源",
+            "Fed",
+            "JGB",
+            "财政",
+            "AI回报",
+            "机器人"
+          ],
+          "sources": [
+            {
+              "title": "Reuters／Jerusalem Post｜伊朗称两艘油轮触雷，10月17日更新",
+              "url": "https://www.jpost.com/middle-east/article-911972"
+            },
+            {
+              "title": "ECB｜Lagarde在IMFC的10月17日官方讲话",
+              "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html"
+            },
+            {
+              "title": "Google｜Gemini 4 Argon for Robotics，原文10月13日",
+              "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-17-am",
       "date": "2026-10-17",
       "period": "am",
