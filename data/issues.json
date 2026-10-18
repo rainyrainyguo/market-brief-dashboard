@@ -4,6 +4,232 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-18-am",
+      "date": "2026-10-18",
+      "period": "am",
+      "time": "08:03",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-18T08:03:22-07:00",
+      "summary": "10月18日早报：对俄制裁豁免进入最多60天影响评估，但原文没有60天自动到期；伊朗重申附条件开放海峡，埃及仍待授权。三星据报用TSMC 3nm制造NVIDIA定制HBM底层芯片；微软据报退出Nscale英国Loughton项目，供电延误凸显合同兑现风险。机器人无新增投资级现场指标。",
+      "cards": [
+        {
+          "id": "2026-10-18-am-1",
+          "category": "macro",
+          "title": "1. 对俄制裁与关税豁免进入“最多60天评估”；并非60天后自动恢复",
+          "status": "豁免行政令已签；评估期为官员表述；不等于取消所有对俄制裁",
+          "importance": "高",
+          "body": [
+            "本期新增：Rubio表示，特朗普将用最多60天评估此前豁免的对俄制裁和关税对美国及全球经济的影响；这是在中期选举前能源价格压力下，对10月16日行政令的进一步解释。",
+            "核对原文：行政令第4节豁免Graham法相关关税和多项制裁，但明确不影响该法生效前若干既有行政令下的俄罗斯制裁。豁免持续至总统或获授权官员判断应进一步行动，并未写明60天自动失效。",
+            "因此，不能将“评估60天”写成全面解除俄罗斯制裁、永久取消二级关税，或确定两个月后加征。"
+          ],
+          "whyImportant": "它暂时降低新增能源贸易惩罚的尾部风险，却保留再调整空间。市场既要看可供柴油和原油，也要看进口商、银行及航运是否仍受其他限制。",
+          "investmentImpact": "分析：新增制裁/关税缓和→能源贸易摩擦与潜在供应压力下降→通胀压力有望缓和→利率与科技估值获得边际支持；但若俄乌冲突延长、政策反复或中东供应恶化，效果可能被抵消。法律豁免不是当天燃料已经到港。",
+          "tags": [
+            "俄罗斯",
+            "制裁",
+            "关税",
+            "Rubio",
+            "能源",
+            "中期选举",
+            "政策风险"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Rubio称评估俄罗斯制裁影响最多60天",
+              "url": "https://www.reuters.com/world/us/rubio-says-trump-take-up-60-days-weigh-russia-sanctions-2026-10-18/"
+            },
+            {
+              "title": "白宫｜10月16日Graham法实施及豁免行政令",
+              "url": "https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-18-am-2",
+          "category": "macro",
+          "title": "2. 伊朗重申开放海峡条件；埃及支持声明升级，尚非停火或出兵",
+          "status": "外交表态与区域股市已发生；执行结果仍待确认",
+          "importance": "高",
+          "body": [
+            "伊朗外长18日重申此前的开放霍尔木兹方案仍有效：要求解除港口封锁、石油出口制裁及结束地区敌对行动等；称若美方接受，可在六天内开放、随后恢复谈判。不是美国已接受，也不是海峡已恢复正常。",
+            "埃及在国家国防委员会会议后重申可向沙特提供必要支持；Reuters最新报道指议会讨论将延续至周一。本期未核实到最终授权或实际部署，不将昨晚“拟表决”写成已获批准。",
+            "周日实际交易的区域股市分化：沙特指数涨0.8%、Aramco涨2.1%；卡塔尔跌2%，埃及蓝筹指数跌2.6%。这些是当地市场表现，不是美国股市或本周油价开盘。"
+          ],
+          "whyImportant": "缓和方案仍有明确前提，安全风险并未因外交措辞消失。能源出口商可能受高油价支撑，邻国金融、交通和进口部门却可能承受更高风险溢价。",
+          "investmentImpact": "分析：战争/航道风险→油气、运输与保险成本→通胀和企业利润→Fed政策约束及科技估值。外交方案若转成可核实通航可降低风险溢价；仅重申旧条件不足以改变供应假设。暂无新的可比原油、LNG结算价，不重播周五价格。",
+          "tags": [
+            "伊朗",
+            "霍尔木兹",
+            "埃及",
+            "沙特",
+            "海湾股市",
+            "能源通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜伊朗重申附条件开放霍尔木兹方案",
+              "url": "https://www.reuters.com/world/middle-east/iran-urges-us-accept-proposal-reopen-strait-hormuz-2026-10-18/"
+            },
+            {
+              "title": "Reuters｜埃及国防委员会表态与议会讨论进展",
+              "url": "https://www.reuters.com/world/middle-east/egypt-says-ready-give-saudi-arabia-necessary-support-amid-houthi-conflict-2026-10-18/"
+            },
+            {
+              "title": "Reuters｜10月18日海湾股市分化",
+              "url": "https://www.reuters.com/world/middle-east/oil-lifts-saudi-bourse-egypt-tumbles-regional-tensions-2026-10-18/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-18-am-3",
+          "category": "semi",
+          "title": "3. 三星据报将用TSMC 3nm制造NVIDIA定制HBM底层芯片",
+          "status": "首尔经济日报行业消息人士报道；Reuters转述；尚非三方完整正式指引",
+          "importance": "高",
+          "body": [
+            "18日原始报道及Reuters称，三星将为NVIDIA下一代定制HBM采用TSMC 3nm制造base die。这意味着部分定制HBM的逻辑底层可能由三星自有代工转向外部制造。",
+            "原报道指向基于HBM4E的NVHBM，并称NVIDIA要求三星、SK hynix、Micron统一采用TSMC 3nm底层芯片方案；它不等于三星把所有标准HBM制造交给台积电，也没有披露各家订单量、价格及量产收入。",
+            "简单理解：HBM上层DRAM主要负责存数据，底层base die承担逻辑与接口功能。底层工艺变化不自动意味着上层DRAM供应商被替换。"
+          ],
+          "whyImportant": "若落实，NVIDIA对HBM接口和逻辑设计的主导权会增强，TSMC可参与更多存储产品中的逻辑制造；三星的存储业务机会与代工业务得失需要分开看。",
+          "investmentImpact": "分析：对TSM是潜在先进逻辑需求；对三星是满足大客户规格与减少内部代工份额之间的取舍；对MU、SK hynix看认证、良率、成本和交付，不凭工艺统一直接判断份额赢家。对NVDA可能降低多供应商验证复杂度，但尚不能计入已实现毛利改善。",
+          "tags": [
+            "HBM",
+            "HBM4E",
+            "NVHBM",
+            "Samsung",
+            "TSM",
+            "NVDA",
+            "MU",
+            "SK hynix"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜三星据报采用TSMC 3nm制造定制HBM底层芯片",
+              "url": "https://www.reuters.com/world/asia-pacific/samsung-use-tsmc-technology-nvidias-next-generation-memory-chips-seoul-newspaper-2026-10-18/"
+            },
+            {
+              "title": "首尔经济日报｜NVHBM底层芯片原始报道，行业消息人士",
+              "url": "https://en.sedaily.com/finance/2026/10/18/samsung-to-use-tsmc-for-base-die-in-nvidias-custom-hbm"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-18-am-4",
+          "category": "ai",
+          "title": "4. 微软据报退出Nscale英国项目：电力时间表开始影响合同兑现",
+          "status": "Telegraph报道，Reuters转述；Nscale确认关系延续；退出原因未由微软确认",
+          "importance": "高",
+          "body": [
+            "Reuters转述Telegraph：微软终止Nscale在英国Essex的Loughton数据中心协议；报道未明确微软退出原因，微软未立即回应。",
+            "同篇报道指项目多次延误，电网官员称预计2030年代才可供电。Nscale向Reuters表示与微软关系仍长期稳固，其他合同不受影响，并称正为该站点探索替代电源。",
+            "该项目合作曾在Nscale 2025年9月官方公告中出现。旧公告只能证明当时承诺，不能证明今日已通电、合同仍有效，或未来GPU收入必然兑现。"
+          ],
+          "whyImportant": "这是客户合同、并网和项目收益之间出现脱节的具体案例。即使算力需求存在，电力不可及时取得也会使收入延期或客户另选站点。",
+          "investmentImpact": "分析：并网延误→可收费算力上线推迟→租金、利息与交付安排承压→客户改址或终止项目。对MSFT看算力能否迁移；对Nscale看替代电源、资金与新租户；对NVDA、服务器和网络链看订单改址或延后。不能外推微软削减全部AI资本开支，或Nscale所有合同取消。",
+          "tags": [
+            "MSFT",
+            "Nscale",
+            "NVDA",
+            "数据中心",
+            "并网",
+            "电力",
+            "合同兑现"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜微软据报退出Nscale英国Loughton项目",
+              "url": "https://www.reuters.com/business/media-telecom/microsoft-pulls-out-uk-data-center-deal-with-nscale-telegraph-reports-2026-10-18/"
+            },
+            {
+              "title": "Nscale｜2025年9月16日Loughton合作原公告，仅作背景",
+              "url": "https://www.nscale.com/press-releases/nscale-uk-ai-infrastructure-announcement"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-18-am-5",
+          "category": "robot",
+          "title": "5. Physical AI：本期未核实到新增投资级现场指标",
+          "status": "无实质更新；不以普通演示补位",
+          "importance": "中",
+          "body": [
+            "本期核对Figure、Physical Intelligence、Google DeepMind官方入口及相关报道，未核实到昨晚后新增的零样本泛化、跨本体迁移、触觉/力控、数据效率、人工干预率、连续uptime、BOM改善或真实付费部署指标。",
+            "昨晚补齐的Google仿真实验数字没有新的独立验证，不重复。Nscale单一英国项目进展也不能直接外推Figure的算力合作受到影响。",
+            "本期未核实到ON、ADI、TER、TSLA、Unitree或Nabtesco、Harmonic Drive、THK、Nidec新增机器人零部件定点或量产订单。"
+          ],
+          "whyImportant": "数据中心电力风险、模型能力与机器人现场可用性是不同证据链，不能用其中一条替代另一条。",
+          "investmentImpact": "分析：继续要求分任务成功率、人工干预频次、连续运行、每任务成本、硬件寿命、付费客户和复购；缺少新证据时，不上调机器人规模化收入假设。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "zero-shot",
+            "跨本体",
+            "干预率",
+            "uptime",
+            "BOM",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方新闻",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方博客",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "Google DeepMind｜官方博客",
+              "url": "https://deepmind.google/blog/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-18-am-6",
+          "category": "macro",
+          "title": "6. 观察清单：豁免执行、通航实物、HBM认证与数据中心供电",
+          "status": "观察与分析；不是新增经济数据",
+          "importance": "中",
+          "body": [
+            "政策与能源：跟踪Graham法豁免后具体交易合规、柴油实际交付及俄乌关系；美伊看双方是否接受共同文本与实际船流，埃及看最终议会决定。不把60天评估、六天开放条件或支持声明当成已兑现结果。",
+            "美国与日本：本期没有核实到新的CPI/PPI/PCE、就业工资、Fed决议/点阵图、财政赤字/发债安排、JGB收盘、实际日元干预或同口径广泛信用利差与资金流。复市联看实际收益率和期限溢价；日本收益率↑→资金回流/套息收缩→全球流动性变化仍需真实流量验证。",
+            "产业：三星/TSMC/NVIDIA看正式确认、工艺分工、认证、产能、价格和出货；Nscale看电网约束、替代电源成本、合同与融资；机器人只接受可复现指标和真实收费部署。"
+          ],
+          "whyImportant": "本期实质信息不是模型分数，而是谁控制关键制造环节，以及谁能把已签需求转成可通电、可收费的算力。",
+          "investmentImpact": "分析：未来1—12个月，半导体不能只看需求总量，也要看瓶颈位置与利润归属；数据中心不能只看合同总额，也要看并网和现金回收。财政供给→期限溢价→长端利率、战争→能源→通胀→估值两条链，应与订单和盈利一起验证。",
+          "tags": [
+            "观察清单",
+            "宏观",
+            "HBM",
+            "并网",
+            "信用",
+            "财政",
+            "JGB"
+          ],
+          "sources": [
+            {
+              "title": "白宫｜10月16日Graham法实施及豁免行政令",
+              "url": "https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/"
+            },
+            {
+              "title": "Reuters｜伊朗重申附条件开放霍尔木兹方案",
+              "url": "https://www.reuters.com/world/middle-east/iran-urges-us-accept-proposal-reopen-strait-hormuz-2026-10-18/"
+            },
+            {
+              "title": "首尔经济日报｜NVHBM底层芯片原始报道，行业消息人士",
+              "url": "https://en.sedaily.com/finance/2026/10/18/samsung-to-use-tsmc-for-base-die-in-nvidias-custom-hbm"
+            },
+            {
+              "title": "Reuters｜微软据报退出Nscale英国Loughton项目",
+              "url": "https://www.reuters.com/business/media-telecom/microsoft-pulls-out-uk-data-center-deal-with-nscale-telegraph-reports-2026-10-18/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-17-pm",
       "date": "2026-10-17",
       "period": "pm",
