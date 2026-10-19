@@ -4,6 +4,217 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-19-am",
+      "date": "2026-10-19",
+      "period": "am",
+      "time": "08:06",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-19T08:06:06-07:00",
+      "summary": "10月19日早报：美股现货开盘反弹，但法国主权融资压力升温，全球风险并未同步消退。产业新增重点是Amazon公布TorchNeuron原生PyTorch后端、计划明日公测，以及Modal计划采用NVIDIA Vera CPU承载agent。前者降低替代加速器的迁移门槛，后者拓展AI服务器CPU竞争；两项均不能直接等同于大规模收入兑现。机器人暂无新增投资级现场指标。",
+      "cards": [
+        {
+          "id": "2026-10-19-am-1",
+          "category": "macro",
+          "title": "1. 美股从期货反弹走到现货高开，仍不是AI盈利风险解除",
+          "status": "10月19日美股开盘数据；不是收盘价",
+          "importance": "高",
+          "body": [
+            "上期只有周日晚间期货，本期新增美国现货开盘：标普500高开0.57%至7702.77，纳斯达克综合指数高开0.98%至26395.29，道指低开0.05%。Reuters将反弹与AI股止跌、油价回落联系起来。",
+            "全球市场报道的另一盘中快照中，10年期美债收益率为5.075%、较其比较基准下降2.3bp；这是市场报价，不是财政部当日官方曲线，也不能与昨晚不同时间的5.0645%直接拼成连续涨跌。",
+            "本期不重复对俄制裁豁免和日本央行表态。未取得一致的新天然气/LNG结算、广泛信用利差或实际资金流，不能把股票反弹认定为融资压力全面消退。"
+          ],
+          "whyImportant": "反弹已进入现货市场，但股价修复与企业订单、现金流修复是两件事。下跌后的仓位回补也可能推升指数，不能单凭高开判定AI投资回报已改善。",
+          "investmentImpact": "分析：能源压力缓和及美债利率回落→折现率压力减轻→高估值科技获得喘息；若客户信用、并网和收入兑现未改善，NVDA、AMD、MU及AI云仍可能面对估值反弹而盈利预期不变的落差。",
+          "tags": [
+            "美股开盘",
+            "纳指",
+            "美债",
+            "风险偏好",
+            "AI回报"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜标普与纳指现货高开，10月19日",
+              "url": "https://www.reuters.com/business/wall-st-futures-climb-ai-stocks-rebound-oil-yields-fall-2026-10-19/"
+            },
+            {
+              "title": "Reuters｜全球市场盘中报价",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-19/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-19-am-2",
+          "category": "macro",
+          "title": "2. 法德长债利差扩大至约145bp：财政与政治风险没有随美债缓解",
+          "status": "10月19日欧洲盘中；主权利差，不是美国期限溢价",
+          "importance": "高",
+          "body": [
+            "上期提到法国抗议与欧元走弱，本期新增可量化的融资压力。Reuters全球市场更新显示：法国10年债收益率升9bp至4.875%，德国同期升1.8bp至3.428%；两者相减约144.7bp，较各自比较基准的利差扩大约7.2bp。",
+            "WSJ同日亦报道法德10年利差约1.45个百分点，接近本月早些时候1.58个百分点的高位。背景是生活成本抗议与财政整顿困难；这不是新的法国违约事件，也不是已经实施的新财政支出法案。",
+            "同一Reuters快照中，法国CAC40跌1.5%、欧洲银行板块跌2.1%。这些是盘中价格，不能当作美国科技股随后表现的预测。"
+          ],
+          "whyImportant": "法国相对德国融资成本抬升，比单看绝对收益率更能显示法国特有风险的重新定价。主权风险还可能经银行持债、抵押品和融资成本向信用市场传递。",
+          "investmentImpact": "分析：财政整顿受阻/政治不确定→投资者要求更高主权风险补偿→银行与企业融资承压→全球风险偏好可能受拖累。该利差包含信用、流动性等因素，不能等同于美国期限溢价；美国仍须独立观察赤字、发债、拍卖与实际利率。",
+          "tags": [
+            "法国",
+            "财政风险",
+            "法德利差",
+            "银行",
+            "信用",
+            "全球流动性"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜法国债券与银行股压力",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-19/"
+            },
+            {
+              "title": "WSJ｜法国抗议后国债再次遭抛售",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-19-2026/card/french-bonds-sell-off-again-after-violent-protests-GE3OWIqjtPB74Mjb1J7B"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-19-am-3",
+          "category": "ai",
+          "title": "3. Amazon公布TorchNeuron：降低Trainium迁移门槛，明日才进入公开Beta",
+          "status": "10月19日官方公告；10月20日开源/公测为计划",
+          "importance": "高",
+          "body": [
+            "Amazon及PyTorch官方10月19日公布TorchNeuron原生后端，支持Trainium2和Trainium3，计划10月20日以Apache 2.0许可证开放公开Beta。PyTorch是开发框架，不是新的编程语言。",
+            "其通过PyTorch标准硬件扩展接口接入，支持eager调试、torch.compile、分布式接口及NKI自定义内核。官方示例把设备改为neuron；这证明标准框架路径更简便，不代表任意CUDA扩展或所有生产系统零改动。",
+            "官方技术文档明确：FP8与TorchAO当前仍为private Beta，预期下一版本普遍提供。Amazon所称低迁移摩擦和性能能力仍需客户在真实模型、规模和成本下验证。"
+          ],
+          "whyImportant": "自研加速器的竞争瓶颈不只是芯片性能，也是代码迁移、调试与运维成本。原生PyTorch接入降低试用门槛，比单独发布硬件峰值算力更接近开发者采用环节。",
+          "investmentImpact": "分析：迁移成本下降→AWS Trainium更易进入客户评估→AMZN自研芯片利用率与云成本结构有改善机会，同时增加NVDA面对的价格与生态竞争。但框架兼容不等于CUDA二进制兼容；算子覆盖、定制内核、数值正确性、集群性能和总拥有成本仍决定实际替代率。不能据公告下调GPU需求或认定CUDA壁垒消失。",
+          "tags": [
+            "AMZN",
+            "Trainium",
+            "PyTorch",
+            "TorchNeuron",
+            "NVDA",
+            "软件生态",
+            "自研芯片"
+          ],
+          "sources": [
+            {
+              "title": "PyTorch｜TorchNeuron技术公告，10月19日",
+              "url": "https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium/"
+            },
+            {
+              "title": "Amazon｜TorchNeuron与10月20日开源安排",
+              "url": "https://www.aboutamazon.com/news/innovation-at-amazon/torchneuron-pytorch-aws-trainium-chips-ai"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-19-am-4",
+          "category": "semi",
+          "title": "4. Modal计划采用NVIDIA Vera CPU：agent算力竞争延伸到CPU与沙箱",
+          "status": "公司向Reuters确认采用计划；早期测试非独立标准基准",
+          "importance": "高",
+          "body": [
+            "Reuters于10月19日美东10:11报道，Modal计划首次采用NVIDIA Vera CPU托管长时间执行任务的AI agents；此前该类工作使用Intel和AMD处理器。",
+            "Modal称早期测试中agent可完成的工作量翻倍，并表示接入需要较深的软件调整。该结果是客户自己的测试，比较对象为当时已上市的Intel/AMD产品；未披露足以外推全部任务的统一测试方法、采购数量或合同金额。",
+            "CEO明确不会放弃Intel和AMD，而是采用混合机群、按任务表现选择硬件。上周融资不是本期新事件，不再次作为新增资金信号。"
+          ],
+          "whyImportant": "AI agent除了模型推理，还需要运行代码、测试与隔离环境。此次客户采用计划表明NVIDIA的竞争范围正从GPU扩展到这些CPU工作负载，而不只是向GPU服务器搭售组件。",
+          "investmentImpact": "分析：agent任务增长→CPU与沙箱资源需求增加→NVDA获得新客户入口，INTC/AMD面对新增竞争。但单一客户测试不是全行业性能排名，混合部署也不等于替换全部存量。未来1—12个月优先验证实际付费容量、利用率、功耗与每任务成本，而非把测试倍数直接换成收入倍数。",
+          "tags": [
+            "NVDA",
+            "Vera",
+            "Modal",
+            "CPU",
+            "Agent",
+            "INTC",
+            "AMD",
+            "设计采用"
+          ],
+          "sources": [
+            {
+              "title": "Reuters / MarketScreener｜Modal采用Vera计划，10月19日",
+              "url": "https://www.marketscreener.com/news/nvidia-wins-fast-growing-ai-startup-modal-for-new-central-processors-ce785cdbda8cf523"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-19-am-5",
+          "category": "robot",
+          "title": "5. Physical AI：暂无新增现场可靠性或付费部署指标",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本期检索Figure、Physical Intelligence等官方公开信息及相关报道，未核实到上期之后新增的zero-shot泛化、跨本体迁移、触觉/力控、数据效率、人工干预率、连续uptime、硬件单位成本或真实付费deployment/design win。",
+            "TorchNeuron降低模型迁移门槛，不等于机器人任务成功率提高；Modal的agent CPU采用也不是实体机器人部署。旧融资、旧算力合作和普通演示不补作今晨机器人新闻。"
+          ],
+          "whyImportant": "开发工具与算力供给改善属于基础条件，只有现场自主运行、失败恢复和单位经济性改善，才能支持机器人收入与量产假设上修。",
+          "investmentImpact": "分析：本期不据此上调TSLA、Unitree、Figure、NVDA、ON、ADI、TER、Nabtesco、Harmonic Drive、THK、Nidec的机器人订单。继续要求分任务成功率、干预频次、连续运行、BOM、寿命成本、独立付费客户和复购。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "泛化",
+            "干预率",
+            "uptime",
+            "硬件经济性",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方新闻跟踪",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方博客跟踪",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "Google DeepMind｜官方博客跟踪",
+              "url": "https://deepmind.google/blog/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-19-am-6",
+          "category": "macro",
+          "title": "6. 观察清单：兼容性、客户采用与融资风险能否转成现金流变化",
+          "status": "观察与分析；不代表新增政策或数据已经落地",
+          "importance": "中",
+          "body": [
+            "能源与地缘：继续核对中东通航、船损、保险、柴油与LNG实物供应及埃及授权结果。本期未核实到新的最终停火、全面开放航道或可量化新增供气；战争→能源成本→通胀→美债利率→科技估值，仍须逐环验证。",
+            "美国：本期未核实到新的CPI/PPI/PCE、就业工资、Fed决议/点阵图或财政发债政策变化。跟踪拍卖、实际收益率与信用利差，区分政策利率预期和财政供给带来的长端风险。中期选举前的关税、财政、监管表态须以执行文本为准。",
+            "日本与全球：跟踪JGB、日元、对冲成本及实际跨境资金流；日本收益率上升→资金回流/套息收缩→全球风险资产流动性，是待验证链条，不是已发生的流量结论。法国压力是否扩散至银行融资也值得观察。",
+            "产业：明日核对TorchNeuron公开Beta、功能范围和客户基准；Vera看Modal真实上线与单位成本；财报看AI收入、折旧、自由现金流与资本开支回报。HBM和存储仍须订单、ASP、良率与毛利率，不能用软件新闻替代。"
+          ],
+          "whyImportant": "今晨有真实的软件入口和客户采用新增，但宏观风险呈地区分化；开盘上涨与长期资本回报改善不能混为一谈。",
+          "investmentImpact": "分析：未来1—12个月重点是成本下降能否形成更高使用量与现金回收，以及融资条件是否允许项目按期交付。只有兼容性公告、测试倍数或股价反弹，而没有订单和现金流兑现时，不宜机械上调盈利。这不是个股买卖指令。",
+          "tags": [
+            "观察清单",
+            "中东",
+            "财政",
+            "Fed",
+            "JGB",
+            "信用",
+            "AI现金流"
+          ],
+          "sources": [
+            {
+              "title": "PyTorch｜TorchNeuron技术与公开Beta安排",
+              "url": "https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium/"
+            },
+            {
+              "title": "Reuters｜全球市场与法国融资压力",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-19/"
+            },
+            {
+              "title": "Reuters / MarketScreener｜Modal与Vera",
+              "url": "https://www.marketscreener.com/news/nvidia-wins-fast-growing-ai-startup-modal-for-new-central-processors-ce785cdbda8cf523"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-18-pm",
       "date": "2026-10-18",
       "period": "pm",
