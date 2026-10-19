@@ -4,6 +4,190 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-18-pm",
+      "date": "2026-10-18",
+      "period": "pm",
+      "time": "18:56",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-18T18:56:30-07:00",
+      "summary": "10月18日晚报：原油复市回落、美债收益率下降、美股期货反弹，但亚洲科技股仍承压；植田称日本基础通胀相当接近2%，AI需求进入央行通胀判断。Fed暂停概率约84%且变化不大。早报HBM与Nscale消息无实质产业后续，机器人无新增投资级指标。",
+      "cards": [
+        {
+          "id": "2026-10-18-pm-1",
+          "category": "macro",
+          "title": "1. 油价与美债收益率回落，美股期货反弹：不是全面风险修复",
+          "status": "复市盘中快照；非周一收盘或Fed政策变化",
+          "importance": "高",
+          "body": [
+            "与早报尚无新油价不同，周日晚间已出现复市报价。Reuters在10月18日23:40 UTC、即湾区16:40的快照：Brent为108.43美元/桶、跌1.30%；WTI为100.88美元/桶、跌0.52%。报道将其与对俄制裁豁免可能增加燃料供应的预期联系起来；不等于新增出口已交付。",
+            "另一亚洲早盘报道显示，10年期美债现券收益率约5.0645%、降约3bp，标普500期货涨0.5%、纳指期货涨0.8%；日股与韩股仍承压。这些是不同时间的盘中快照，不是财政部官方平价曲线，也不是周一美国现货收盘。",
+            "没有取得可比的新天然气/LNG结算价，不拿原油走势替代气价。对俄豁免的条款早报已核实，本期不重述为新政策。"
+          ],
+          "whyImportant": "油价和折现率回落可支持高久期资产，但AI融资担忧没有因此消失。债券上涨还可能包含避险需求，不能全部解释为增长前景改善。",
+          "investmentImpact": "分析：能源供应预期改善→油价及通胀压力缓和→长端利率回落→科技估值获支撑；另一面，股市避险买债也会压低收益率。需看科技盈利、客户信用和订单，才能区分健康修复与短暂反弹。",
+          "tags": [
+            "原油",
+            "美债",
+            "纳指期货",
+            "复市",
+            "风险偏好",
+            "AI融资"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜原油复市回落，23:40 UTC快照",
+              "url": "https://www.reuters.com/business/energy/oil-slips-trumps-sanction-waiver-may-lead-more-russian-fuel-supplies-2026-10-18/"
+            },
+            {
+              "title": "Reuters｜亚洲早盘、美债与美股期货",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-19/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-18-pm-2",
+          "category": "macro",
+          "title": "2. 植田强调AI需求推高物价；美元、日元与Fed预期仍须分开看",
+          "status": "BOJ行长新表态；下一次加息仍是预期",
+          "importance": "高",
+          "body": [
+            "亚洲周一、湾区周日晚间，植田和男在国会称日本基础通胀已相当接近2%，强劲全球AI需求通过资本开支和出口推高多类商品价格；他认为适当调整政策利率有助于避免通胀超调担忧引发长债收益率急升。",
+            "他没有宣布本期加息。Reuters称市场多预期10月30日维持1.25%，并关注是否为12月升至1.5%保留空间；这是市场判断，不是BOJ承诺。",
+            "另一个亚洲汇市快照：美元指数101.83、美元兑日元约158.00、欧元兑美元1.1225；法国生活成本抗议相关动荡压低欧元。Fed期货给10月28日维持利率约84%概率，报道指较周五变化不大，并非晚间突然转鸽。"
+          ],
+          "whyImportant": "日本的AI投资热潮不仅影响企业利润，也进入央行通胀判断。美元指数受欧元权重影响，不能把其稳定全部归因于美国利率；BOJ鹰派表态也不等于日元已持续升值或资金已回流。",
+          "investmentImpact": "分析：JGB收益率和汇率对冲成本变化→日本投资者配置/套息选择→全球流动性，仍需实际资金流验证。法国风险也可能经主权信用与财政风险溢价影响汇率；本期没有法国新增发债、JGB收盘或日本实际汇率干预的同口径确认。",
+          "tags": [
+            "BOJ",
+            "植田和男",
+            "AI需求",
+            "日元",
+            "Fed",
+            "美元",
+            "欧洲风险"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜植田和男称基础通胀相当接近2%",
+              "url": "https://www.reuters.com/world/asia-pacific/boj-governor-ueda-says-underlying-inflation-quite-close-2-target-2026-10-19/"
+            },
+            {
+              "title": "Reuters｜亚洲汇市与Fed定价，10月19日UTC",
+              "url": "https://www.reuters.com/world/asia-pacific/dollar-firmer-euro-weakens-french-protests-turn-violent-2026-10-19/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-18-pm-3",
+          "category": "semi",
+          "title": "3. AI / 半导体：HBM与Nscale两项早报消息暂无实质后续",
+          "status": "未核实到新增订单、正式指引或公司确认",
+          "importance": "中",
+          "body": [
+            "截至本期，未核实到三星、TSMC、NVIDIA对早报定制HBM工艺报道进一步披露订单量、价格、良率、量产收入或完整正式指引；不重复报道本身。",
+            "微软英国Loughton项目报道更新为微软拒绝评论，但没有新增退出原因、替代站点、替代电源成本或其他合同取消的确认。这种回应变化不构成需求判断的新证据。",
+            "本期也未核实到GPU、HBM/DRAM、NAND、先进封装、光互连或设备链足以改变盈利预测的新订单与产能兑现。"
+          ],
+          "whyImportant": "宏观报价已经变化，产业现金流证据却没有同步更新。美股期货反弹不能替代公司订单与利润率。",
+          "investmentImpact": "分析：对MSFT、NVDA、AMD、AVGO、MU及服务器、网络链，仍看可供电算力、客户融资、预付款和交付。三星的底层逻辑工艺选择不是存储份额重排的充分证据，单一英国项目也不是微软全线缩减AI资本开支的证据。",
+          "tags": [
+            "AI基建",
+            "半导体",
+            "HBM",
+            "Nscale",
+            "NVDA",
+            "MSFT",
+            "MU",
+            "订单兑现"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Loughton项目报道更新",
+              "url": "https://www.reuters.com/business/media-telecom/microsoft-pulls-out-uk-data-center-deal-with-nscale-telegraph-reports-2026-10-18/"
+            },
+            {
+              "title": "Reuters｜三星与TSMC定制HBM报道",
+              "url": "https://www.reuters.com/world/asia-pacific/samsung-use-tsmc-technology-nvidias-next-generation-memory-chips-seoul-newspaper-2026-10-18/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-18-pm-4",
+          "category": "robot",
+          "title": "4. Physical AI：未核实到新增投资级指标，不用招聘或演示补位",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本期核对Figure、Physical Intelligence、Google DeepMind公开入口及相关报道，未核实到早报后新增的零样本泛化、跨本体迁移、触觉/力控、robot-data efficiency、人工干预率、连续uptime、BOM改善或真实付费deployment/design win。",
+            "不重复此前Google仿真数据、Digit电池定点或旧融资报道；招聘部署工程师、活动预告和普通展示不视为新增付费客户或可靠性证据。"
+          ],
+          "whyImportant": "机器人商业化应由可复现的现场性能和单位经济性证明，而不是由周末新闻数量证明。",
+          "investmentImpact": "分析：本期不据此上调NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Nabtesco、Harmonic Drive、THK、Nidec的机器人收入假设。继续要求分任务成功率、干预频次、故障类型、连续运行、寿命成本、付费客户及复购。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "泛化",
+            "干预率",
+            "uptime",
+            "BOM",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方新闻",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方博客",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "Google DeepMind｜官方博客",
+              "url": "https://deepmind.google/blog/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-18-pm-5",
+          "category": "macro",
+          "title": "5. 观察清单：价格缓和能否转成融资、订单与盈利改善",
+          "status": "观察与分析；不是新增宏观数据",
+          "importance": "中",
+          "body": [
+            "中东与能源：继续核对船舶身份、实际损害与通航；埃及授权讨论尚无本期已核实的最终结果。看柴油实物交付、船流、保险和LNG，而非仅看外交措辞或原油单个报价。",
+            "美国：本期未核实到新的CPI/PPI/PCE、就业工资、Fed决议/点阵图、赤字与发债安排，或同口径广泛信用利差与资金流。观察油价回落能否持续、实际收益率及后续国债拍卖；财政供给→期限溢价→长端利率不能仅凭一天债券走势确认。",
+            "日本与政策：跟踪BOJ会议前的工资、基础通胀、JGB曲线和真实跨境流量。美国中期选举前继续区分已生效豁免、后续评估与竞选承诺，不把评估期当成自动政策到期日。",
+            "产业：下一轮财报优先看AI资本开支回报、客户现金流和交付节奏；HBM看正式认证与价格；数据中心看并网、备电和可收费容量；机器人看现场数据。"
+          ],
+          "whyImportant": "今晚新增主要是复市价格与BOJ表态，尚不是企业盈利上修。油价跌、美债涨和AI信用担忧可以同时存在。",
+          "investmentImpact": "分析：未来1—12个月，若融资条件与能源成本改善、订单仍能转成现金，科技修复更有基础；若只有估值反弹而信用、并网和收入兑现不改善，回撤敏感度仍高。",
+          "tags": [
+            "观察清单",
+            "能源",
+            "财政",
+            "JGB",
+            "AI回报",
+            "信用",
+            "财报"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜原油复市回落，23:40 UTC快照",
+              "url": "https://www.reuters.com/business/energy/oil-slips-trumps-sanction-waiver-may-lead-more-russian-fuel-supplies-2026-10-18/"
+            },
+            {
+              "title": "Reuters｜亚洲早盘、美债与美股期货",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-19/"
+            },
+            {
+              "title": "Reuters｜植田和男称基础通胀相当接近2%",
+              "url": "https://www.reuters.com/world/asia-pacific/boj-governor-ueda-says-underlying-inflation-quite-close-2-target-2026-10-19/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-18-am",
       "date": "2026-10-18",
       "period": "am",
