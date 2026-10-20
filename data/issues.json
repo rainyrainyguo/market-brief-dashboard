@@ -4,6 +4,269 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-19-pm",
+      "date": "2026-10-19",
+      "period": "pm",
+      "time": "19:04",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-19T19:04:49-07:00",
+      "summary": "10月19日晚报：纳指收涨1.11%、半导体结束八连跌，但官方10年期美债收益率回升至5.15%，CoreWeave未守住早盘涨幅。S&P Global警告AI关联融资存在披露盲区，尚未因此调整评级。中东袭击声明仍待独立确认，埃及表决延至10月26日；微软新增Guardian Agents，将企业AI竞争推进到权限与安全控制层。机器人暂无新增投资级现场指标。",
+      "cards": [
+        {
+          "id": "2026-10-19-pm-1",
+          "category": "macro",
+          "title": "1. 纳指与芯片反弹收盘，但美债转升：不是折现率压力解除",
+          "status": "10月19日收盘及官方曲线；不是Fed政策变化",
+          "importance": "高",
+          "body": [
+            "早报的现货高开延续至收盘：纳指涨1.11%、标普500涨0.41%，道指跌0.07%；费城半导体指数涨1.6%，结束八连跌。Reuters同时指出两大交易所下跌家数多于上涨家数，反弹并非全面普涨。",
+            "与早报盘中收益率下降不同，财政部10月19日官方平价曲线显示：2年期4.77%、10年期5.15%、30年期5.48%；相较10月16日分别升3、6、5bp。官方曲线与盘中现券报价不同，不能混成同一时间序列。"
+          ],
+          "whyImportant": "科技股上涨与长端收益率上行同时出现，说明今天的修复不能只用利率下降解释。指数止跌是价格事实，盈利上修与融资条件恢复仍需独立证据。",
+          "investmentImpact": "分析：较高长端利率→终值折现率与项目融资成本维持压力→高估值科技更依赖盈利兑现。对NVDA、AMD、MU及AI云，反弹不等于订单或客户信用改善；单日曲线变化也不足以识别期限溢价究竟贡献多少。",
+          "tags": [
+            "纳指",
+            "半导体",
+            "美债",
+            "折现率",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月19日美股收盘",
+              "url": "https://www.reuters.com/business/wall-st-futures-climb-ai-stocks-rebound-oil-yields-fall-2026-10-19/"
+            },
+            {
+              "title": "美国财政部｜10月19日官方收益率曲线",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202610&type=daily_treasury_yield_curve"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-19-pm-2",
+          "category": "macro",
+          "title": "2. 油价须分合约，天然气分地区；埃及授权表决延至10月26日",
+          "status": "结算与库存已公布；胡塞袭击声明未获独立确认",
+          "importance": "高",
+          "body": [
+            "10月19日结算：12月Brent跌0.3%至109.55美元/桶，12月WTI跌0.5%至98.54美元；临近到期的11月WTI却涨2.2%至103.66美元。不能把换月与近月交易差异写成同一合约暴涨后暴跌。",
+            "胡塞称袭击沙特能源、机场与军事设施；沙特未立即确认，Reuters无法独立核实。Reuters更新指埃及授权军队按沙特请求提供支持的表决延至10月26日；此前的周一讨论安排不是授权已通过。",
+            "Reuters于10月19日20:46 UTC援引能源部数据称，上周美国SPR库存降至2.827亿桶，为1982年10月以来最低；这是库存变化，不是今天新宣布释放同等规模原油。",
+            "天然气并不同步：WSJ报道美国期货结算跌1.9%至3.058美元/MMBtu，荷兰TTF涨1.2%。美国近端天气与欧洲冬储压力不同，不能用美国气价下跌推断欧洲或亚洲LNG成本已经缓解。"
+          ],
+          "whyImportant": "制裁豁免预期、地区安全风险、库存缓冲和合约结构同时影响能源价格。原油小跌并不证明航道恢复，储备下降则使后续应急调节更值得关注。",
+          "investmentImpact": "分析：战争/航运与保险风险→油气及运输成本→通胀和企业利润→Fed路径、美债利率与科技估值。只有实际安全通航和交付改善，才足以持续降低风险溢价；袭击声明未核实，不能直接换算为停产损失。",
+          "tags": [
+            "中东",
+            "胡塞",
+            "埃及",
+            "原油换月",
+            "天然气",
+            "SPR",
+            "能源通胀"
+          ],
+          "sources": [
+            {
+              "title": "WSJ｜原油结算与WTI合约月份",
+              "url": "https://www.wsj.com/finance/commodities-futures/oil-futures-fall-on-possible-correction-but-drop-may-be-limited-by-geopolitical-tensions-21ff1c15"
+            },
+            {
+              "title": "Reuters｜胡塞袭击声明、原油与埃及表决延后",
+              "url": "https://www.reuters.com/business/energy/oil-slips-trumps-sanction-waiver-may-lead-more-russian-fuel-supplies-2026-10-18/"
+            },
+            {
+              "title": "Reuters｜SPR库存降至2.827亿桶",
+              "url": "https://www.reuters.com/business/energy/oil-stocks-us-strategic-petroleum-reserve-fall-lowest-level-since-1982-2026-10-19/"
+            },
+            {
+              "title": "WSJ｜美国天然气结算与欧洲冬储",
+              "url": "https://www.wsj.com/articles/european-gas-prices-high-on-storage-concerns-a0e18745"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-19-pm-3",
+          "category": "ai",
+          "title": "3. S&P警告AI融资披露盲区；CoreWeave债券缓和但股票收跌",
+          "status": "评级机构风险判断与市场报价；不是新增降级或审计结论",
+          "importance": "高",
+          "body": [
+            "Reuters于10月19日16:17 UTC报道，S&P Global数字基础设施负责人认为，大型科技企业可能存在尚未被充分看见的AI关联负债，尤其涉及数据中心支持承诺与相互关联融资；他没有估算额外负债金额，也表示当前无需因此改变评级。",
+            "这不是确认企业违法隐瞒债务。S&P强调盈利能否兑现、投资规模是否可持续及竞争强度，才是后续评级风险的重要触发条件。",
+            "CoreWeave获高盛从中性上调至买入；Reuters援引Tradeweb的盘中报价，其2031年债券收益率降19.5bp至15.13%，较上周逾16%有所缓和。但股票最终收跌约0.4%，不能把早盘上涨当作收盘。债券15.13%是二级市场收益率，不是全部债务平均利息或一笔新贷款条款。"
+          ],
+          "whyImportant": "AI融资风险不仅在小型云公司的显性债务，也可能在大型客户的租赁、担保与长期承诺。债券缓和和股价反复并存，说明投资者仍在评估需求能否及时转成偿债现金。",
+          "investmentImpact": "分析：隐含承诺与融资相互依赖→真实杠杆和完工风险更难比较→融资风险溢价提高→算力交付、GPU订单与股权估值更敏感。对CRWV、ORCL及上下游，重点看债务到期、现金利息、租赁/担保、客户集中与回款；不能把评级警告写成已发生违约，也不能把券商上调视为公司盈利指引。",
+          "tags": [
+            "S&P Global",
+            "AI融资",
+            "CRWV",
+            "ORCL",
+            "信用",
+            "或有负债",
+            "现金流"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜S&P Global警告AI关联融资披露盲区",
+              "url": "https://www.reuters.com/business/top-hyperscalers-likely-have-more-ai-linked-debt-than-now-known-sp-global-warns-2026-10-19/"
+            },
+            {
+              "title": "Reuters｜CoreWeave评级与2031年债券报价",
+              "url": "https://www.reuters.com/world/asia-pacific/us-chip-stocks-rise-after-steepest-weekly-selloff-months-2026-10-19/"
+            },
+            {
+              "title": "Reuters｜10月19日美股收盘",
+              "url": "https://www.reuters.com/business/wall-st-futures-climb-ai-stocks-rebound-oil-yields-fall-2026-10-19/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-19-pm-4",
+          "category": "ai",
+          "title": "4. 微软推出Guardian Agents：企业AI利润争夺延伸至身份与权限控制",
+          "status": "10月19日官方产品公告；未披露新增收入或独立防护效果",
+          "importance": "高",
+          "body": [
+            "微软宣布为Project Perception新增Guardian Agents与Playbooks，帮助调查agent风险、协调限制措施，并与Agent 365共享信号和统一登记信息。",
+            "本地agent发现能力新增35类、总计支持60类，包含Claude Code、Codex与GitHub Copilot；Entra Agent ID亦扩展至更多agent类型。微软描述的动态控制包括缩减权限、保留读取但阻止写入、要求人工批准，以及高风险时隔离或停止运行。",
+            "这些是微软公布的能力与架构方向，不是已经证明可阻止全部提示注入或越权；本期没有独立误报率、拦截率、付费客户或新合同金额。"
+          ],
+          "whyImportant": "企业部署agent的难点正从能否完成任务，延伸到谁拥有授权、谁能审计和撤销行动。模型供应商提供智能，企业仍可能把控制权交给独立身份与安全系统。",
+          "investmentImpact": "分析：agent数量和权限扩大→治理与安全预算增加→MSFT可把Entra、终端、数据和安全控制整合成分发优势。对OKTA、PANW、CRWD等既有新增需求，也有平台捆绑竞争；需看跨云兼容、独立执行能力和付费转化，不能据公告认定独立安全厂商失去市场。",
+          "tags": [
+            "MSFT",
+            "Guardian Agents",
+            "Entra",
+            "Agent 365",
+            "企业AI",
+            "权限",
+            "网络安全"
+          ],
+          "sources": [
+            {
+              "title": "Microsoft｜Guardian Agents与agent权限控制，10月19日",
+              "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-19-pm-5",
+          "category": "semi",
+          "title": "5. 半导体：价格止跌是新增，TorchNeuron与Vera暂无新的量产订单证据",
+          "status": "指数收盘已更新；产业指引无新增确认",
+          "importance": "中",
+          "body": [
+            "费城半导体指数结束八连跌已列于宏观栏目，不再重复逐家公司盘中涨幅。本期未核实到早报后新增、足以改变盈利预测的GPU/HBM订单量、存储价格指引、代工良率、先进封装产能或设备正式订单。",
+            "TorchNeuron公开Beta仍按官方计划指向10月20日，不能提前写成已经全面上线；Modal采用Vera的计划与测试限制早报已说明，本期没有新采购规模、上线利用率或单位成本，不重复作新增design win。"
+          ],
+          "whyImportant": "板块反弹、开发工具改善与客户量产采购属于不同证据层级。软件生态变化可能影响未来份额，但尚不能直接换算本季出货和毛利率。",
+          "investmentImpact": "分析：对NVDA、AMD、MU、TSM、AVGO和设备链，继续以客户资本开支、订单、ASP、良率与现金回收验证盈利。对MU尤其要把HBM结构性增长与普通DRAM/NAND价格周期分开，不凭指数反弹判断存储拐点。",
+          "tags": [
+            "半导体",
+            "NVDA",
+            "MU",
+            "HBM",
+            "Trainium",
+            "Vera",
+            "订单"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月19日美股收盘",
+              "url": "https://www.reuters.com/business/wall-st-futures-climb-ai-stocks-rebound-oil-yields-fall-2026-10-19/"
+            },
+            {
+              "title": "PyTorch｜TorchNeuron技术与公开Beta计划",
+              "url": "https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-19-pm-6",
+          "category": "robot",
+          "title": "6. Physical AI：暂无新增投资级部署、可靠性或硬件经济性指标",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本期核对Figure、Physical Intelligence官方入口及相关报道，未核实到早报之后新增的zero-shot generalization、cross-embodiment transfer、触觉/力控、数据效率、人工干预率、连续uptime、BOM改善或真实付费部署。",
+            "黄仁勋关于德国制造业采用AI的公开倡议，不是新的工厂合同或机器人运行指标；微软的Guardian Agents属于软件agent治理，也不是实体机器人控制可靠性的验证。不以演示、倡议或旧融资补位。"
+          ],
+          "whyImportant": "产业倡议能扩大关注，但机器人估值最终要由真实环境的自主性、可靠性和单位经济性支撑。",
+          "investmentImpact": "分析：本期不据此上调NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Nabtesco、Harmonic Drive、THK或Nidec的机器人收入。继续要求分任务成功率、干预频次、故障恢复、连续运行、硬件寿命、付费客户与复购。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "泛化",
+            "干预率",
+            "uptime",
+            "硬件经济性",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方新闻",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方博客",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "AP｜黄仁勋呼吁德国制造业采用AI",
+              "url": "https://apnews.com/article/f024c1e0d181677a19468657907a9025"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-19-pm-7",
+          "category": "macro",
+          "title": "7. 观察清单：官方利率、真实融资成本与可交付算力",
+          "status": "观察与分析；不是新的宏观数据或政策决定",
+          "importance": "中",
+          "body": [
+            "美国：本期未核实到新的CPI/PPI/PCE、就业工资、Fed决议或点阵图。市场对10月暂停、后续加息的定价仍是预期；未确认新的长债拍卖规模调整，不能把缩减20/30年发债的讨论当作财政部已决定。财政供给→期限溢价→长端利率需结合拍卖与模型估算，不能仅看收益率涨跌。",
+            "日本、美元与资金流：本期未取得同口径的新JGB曲线、日元干预、广泛信用利差和实际跨境资金流。日本收益率/对冲成本上升→资金回流或套息收缩→全球流动性，是观察链而非已确认流出。法国风险早报已讲，晚报不重放旧盘中数字。",
+            "中东与中期选举：核对沙特损害报告、埃及10月26日表决、霍尔木兹真实船流与能源交付；对俄豁免、后续评估和新关税/监管竞选承诺须分开。袭击声明不能当作损害事实，外交条件不能当作停火。",
+            "产业：明日核验TorchNeuron实际公测；AI云看融资落地、承诺与担保、现金利息和可收费算力；微软安全看可用范围、效果和付费采用；半导体看订单与毛利率，机器人看现场数据。"
+          ],
+          "whyImportant": "今晚组合是股市修复、无风险长债利率回升、AI信用风险仍受审视。不能用其中一个市场的单日表现替代整个投资逻辑。",
+          "investmentImpact": "分析：未来1—12个月，若AI收入和现金回收兑现、融资结构透明且能源风险缓和，估值修复更扎实；若借款成本、隐含承诺与交付延误同时上升，即使需求强，股东回报也可能被资本成本侵蚀。这不是个股买卖指令。",
+          "tags": [
+            "观察清单",
+            "财政",
+            "Fed",
+            "JGB",
+            "中期选举",
+            "信用",
+            "AI回报"
+          ],
+          "sources": [
+            {
+              "title": "美国财政部｜10月19日官方收益率曲线",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202610&type=daily_treasury_yield_curve"
+            },
+            {
+              "title": "Reuters｜S&P Global警告AI关联融资披露盲区",
+              "url": "https://www.reuters.com/business/top-hyperscalers-likely-have-more-ai-linked-debt-than-now-known-sp-global-warns-2026-10-19/"
+            },
+            {
+              "title": "Reuters｜胡塞袭击声明、原油与埃及表决延后",
+              "url": "https://www.reuters.com/business/energy/oil-slips-trumps-sanction-waiver-may-lead-more-russian-fuel-supplies-2026-10-18/"
+            },
+            {
+              "title": "PyTorch｜TorchNeuron技术与公开Beta计划",
+              "url": "https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium/"
+            },
+            {
+              "title": "Microsoft｜Guardian Agents与agent权限控制，10月19日",
+              "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-19-am",
       "date": "2026-10-19",
       "period": "am",
