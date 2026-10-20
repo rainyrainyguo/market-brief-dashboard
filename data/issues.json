@@ -4,6 +4,225 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-20-am",
+      "date": "2026-10-20",
+      "period": "am",
+      "time": "08:04",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-20T08:04:55-07:00",
+      "summary": "10月20日早报：Brent盘中再上111美元，美股低开；日本20年债拍卖需求强劲，但不能据此认定资金已从海外大规模回流。Reuters报道中国三家大厂下单逾350亿美元NVIDIA工作站卡，供货却可能远少于请求；AWS文档已标记TorchNeuron公开Beta。机器人出现生产侧新增：舍弗勒太仓工厂启用，六台人形机器人参与关节模块装配，但可靠性和单位经济性仍待披露。",
+      "cards": [
+        {
+          "id": "2026-10-20-am-1",
+          "category": "macro",
+          "title": "1. Brent再上111美元、美股低开：昨日反弹未消除能源风险",
+          "status": "10月20日盘中与开盘快照；不是收盘或已核实停产规模",
+          "importance": "高",
+          "body": [
+            "与昨晚Brent结算小跌不同，Reuters今晨报道盘中触及111.75美元/桶、五个月高位，市场重新计入中东航运及设施风险。该报价是日内高点，不是结算价；不把临近到期的11月WTI与12月合约混作同一序列。",
+            "美国现货开盘：标普500跌0.15%、纳指跌0.37%、道指跌0.01%。这是开盘而非截稿时实时回报，也不是昨日科技反弹已经完全逆转。",
+            "本期没有取得新的同口径天然气/LNG结算、沙特设施损失或全面通航确认。油价上升可以包含风险溢价，不能自动换算成已发生的减产。"
+          ],
+          "whyImportant": "能源压力重新上升，会同时影响通胀预期与非能源企业利润；市场对AI投资回报的担忧没有因一天股价反弹消失。",
+          "investmentImpact": "分析：战争/航运风险→油气、运费和保险成本→通胀与利润率→Fed路径和美债利率→高估值科技。油价上涨不保证美债当天上涨或下跌，避险需求可能反向作用；NVDA、MU及AI云仍须结合融资和订单判断。",
+          "tags": [
+            "中东",
+            "Brent",
+            "能源通胀",
+            "美股开盘",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月20日油价盘中与供应风险",
+              "url": "https://www.reuters.com/business/energy/oil-eases-markets-assess-potential-waiver-russian-energy-middle-east-supply-2026-10-20/"
+            },
+            {
+              "title": "Reuters｜10月20日美股开盘",
+              "url": "https://www.reuters.com/world/asia-pacific/nasdaq-futures-dip-oil-prices-climb-earnings-loom-2026-10-20/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-20-am-2",
+          "category": "macro",
+          "title": "2. 日本20年债拍卖认购5.84倍；BOJ通胀预测上调仍是消息人士判断",
+          "status": "拍卖结果已发生；10月政策与预测尚未公布",
+          "importance": "高",
+          "body": [
+            "日本10月20日20年期国债拍卖投标倍数5.84，高于上次4.01。Reuters报道拍卖后20年收益率一度降6bp至3.71%；同篇另一快照中30年降1.5bp至3.970%，10年反升1.5bp至2.920%。期限不同、报价时间不同，不宜概括为整条曲线同幅下降。",
+            "另据Reuters四名消息人士，BOJ可能小幅上调2027财年通胀预测，10月30日仍可能维持1.25%，并为最早12月再加息保留空间；这不是央行已决议，也不是保证12月加息。",
+            "消息人士称目前尚无危险的工资—价格二轮效应明显固化。较高能源价格推高总体通胀，与基础通胀突然失控不是同一判断。"
+          ],
+          "whyImportant": "高收益率开始吸引久期需求，有助于吸收日本政府供给；但强拍卖可能同时反映避险与配置需求，不能证明日本财政问题消失或海外资金已撤回。",
+          "investmentImpact": "分析：JGB收益率与汇率对冲成本→日本投资者国内外配置→全球流动性。拍卖倍数不是跨境资金流；若资金真的回流才可能影响美债和风险资产。BOJ若上调通胀预测但暂缓加息，则要观察日元、工资和后续拍卖，不机械推断日元单边升值。",
+          "tags": [
+            "JGB",
+            "20年债拍卖",
+            "BOJ",
+            "日元",
+            "资金流",
+            "通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters / Business Recorder｜日本20年债拍卖与曲线",
+              "url": "https://www.brecorder.com/news/40445099/japans-20-year-bond-yield-falls-sharply-after-strong-auction"
+            },
+            {
+              "title": "Reuters｜BOJ可能上调通胀预测，消息人士报道",
+              "url": "https://www.reuters.com/world/asia-pacific/bank-japan-may-raise-inflation-forecast-stand-pat-rates-sources-say-2026-10-20/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-20-am-3",
+          "category": "semi",
+          "title": "3. 中国三家大厂据报下单逾350亿美元NVIDIA卡：需求强，交付不能按标题计入",
+          "status": "Reuters匿名消息人士报道；不是公司正式收入指引",
+          "importance": "高",
+          "body": [
+            "Reuters于10月20日09:04 UTC报道，字节跳动、阿里巴巴、腾讯合计下单逾300万张RTX PRO 5500，按标价总额超过350亿美元。报道将其描述为出口合规的工作站卡，不是B300数据中心芯片。",
+            "消息人士称NVIDIA不能保证满足订单，一名人士称合作伙伴可能仅获请求量的5%—10%。这些是采购与配货报道，不是已经出货、收款或确认的350亿美元收入，也不能将该比例直接视为三家每家最终获配比例。"
+          ],
+          "whyImportant": "它显示限制下的中国算力需求仍强，也显示需求可以转向较低规格产品；真正的约束不只是买方预算，还有产能分配、交付和政策。",
+          "investmentImpact": "分析：需求强→潜在订单与议价支持；供货有限/政策变化→收入兑现折扣。对NVDA不能把350亿美元全额加到未来收入；对TSM、存储和板卡链不能按订单请求量推导采购；对中国云厂商则需看实际算力成本和服务扩张速度。工作站卡订单也不是先进数据中心出口限制已解除的证据。",
+          "tags": [
+            "NVDA",
+            "RTX PRO 5500",
+            "BABA",
+            "Tencent",
+            "ByteDance",
+            "中国",
+            "出口管制",
+            "交付"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜中国三家大厂RTX PRO 5500订单报道",
+              "url": "https://www.reuters.com/business/retail-consumer/bytedance-alibaba-tencent-place-over-35-billion-worth-nvidia-chip-orders-2026-10-20/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-20-am-4",
+          "category": "ai",
+          "title": "4. TorchNeuron从发布计划推进到官方文档标记公开Beta",
+          "status": "AWS官方文档已确认Beta；本期未实机验证安装或性能",
+          "importance": "高",
+          "body": [
+            "昨晚仍按10月20日计划跟踪，今晨AWS Neuron官方文档已明确写明：TorchNeuron属于Neuron 2.33的public beta，支持Trainium2与Trainium3。官方概览也列出Apache 2.0开源与pip安装路径。",
+            "本期新增是官方可用状态，而不是再次介绍昨天的技术架构。没有运行安装、数值一致性或集群性能测试，也未取得新客户付费规模、订单和独立总成本基准。"
+          ],
+          "whyImportant": "从预告到公开Beta，开发者才更容易开展可复现评估；但Beta不等于成熟生产替代，开放代码也不等于全部CUDA定制代码自动兼容。",
+          "investmentImpact": "分析：可测试工具开放→客户更容易比较Trainium与GPU的迁移成本、性能和总拥有成本→AMZN获得试用入口，NVDA面对软件生态竞争。未来1—12个月重点是评估能否转成稳定付费负载、利用率和毛利改善，不是仅看下载或演示。",
+          "tags": [
+            "AMZN",
+            "AWS",
+            "Trainium",
+            "TorchNeuron",
+            "公开Beta",
+            "NVDA",
+            "软件生态"
+          ],
+          "sources": [
+            {
+              "title": "AWS Neuron｜TorchNeuron公开Beta官方文档",
+              "url": "https://awsdocs-neuron.readthedocs-hosted.com/en/latest/torch/index.html"
+            },
+            {
+              "title": "AWS Neuron｜原生PyTorch、开源与安装概览",
+              "url": "https://awsdocs-neuron.readthedocs-hosted.com/en/latest/frameworks/torch/pytorch-native-overview.html"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-20-am-5",
+          "category": "robot",
+          "title": "5. Physical AI：舍弗勒太仓工厂启用，六台人形机器人参与关节模块装配",
+          "status": "10月20日公司正式公告；内部生产部署，不是新增外部付费机器人合同",
+          "importance": "高",
+          "body": [
+            "舍弗勒10月20日宣布太仓人形机器人灯塔工厂启用，约7500平方米，整合零部件装配、训练与数据采集、数字孪生及数据中心。六台人形机器人在五个工位协作，处理线性/旋转执行器等关节模块的备料、分拣、装配、检查、贴标和包装。",
+            "公司称这是相关零部件量产启动，并可在真实工业条件下训练和测试。公告还援引此前已宣布的第三季度大中华区两名新客户，使全球人形机器人订单约4亿欧元；该数字不是今天新增订单，也不是已确认营收。",
+            "传感器会记录装配精度、工步时间、能耗与设备状态，但公告未给出成功率、人工干预率、连续uptime、单件成本或量化良率改善，不能据六台机器人认定无人工稳定量产。"
+          ],
+          "whyImportant": "这是从普通演示迈向实际生产与数据闭环的硬件信号，尤其涉及机器人制造自身的关键关节；同时，缺失的可靠性和成本指标决定它能否经济地扩展。",
+          "investmentImpact": "分析：执行器/关节量产与真实工艺数据→潜在良率、成本和客户认证积累→舍弗勒有机会争取系统供应份额。对Nabtesco、Harmonic Drive、THK、Nidec及ON、ADI、TER应看竞争、定点和BOM，而非按人形机器人数量外推收入。内部工厂部署与独立客户付费采购必须分开。",
+          "tags": [
+            "Physical AI",
+            "Schaeffler",
+            "太仓",
+            "执行器",
+            "关节模块",
+            "真实部署",
+            "BOM",
+            "可靠性"
+          ],
+          "sources": [
+            {
+              "title": "Schaeffler｜10月20日太仓工厂官方公告",
+              "url": "https://www.schaeffler.com/en/media/press-releases/press-releases-detail.jsp?id=88222851"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-20-am-6",
+          "category": "macro",
+          "title": "6. 观察清单：交付兑现、能源传导与真实资金流",
+          "status": "观察与分析；没有确认的栏目不以旧闻补位",
+          "importance": "中",
+          "body": [
+            "美国宏观与政策：本期未核实到新的CPI/PPI/PCE、就业工资、Fed决议/点阵图或已决定的国债发行调整。财政赤字/发债→期限溢价→长端利率，要用拍卖和实际收益率验证；中期选举前的关税、财政与监管口号不作已生效政策。",
+            "中东与市场：看实际通航、设施损害、柴油/LNG交付及保险。埃及10月26日表决安排昨晚已报，没有新增结果不重复；本期也没有新的同口径广泛信用利差或真实跨境流量，不把强JGB拍卖等同于全球资金大撤退。",
+            "产业：NVIDIA中国订单看正式确认、配货、交付与政策；TorchNeuron看功能、稳定性和客户成本基准；存储看HBM认证、DRAM/NAND的ASP与毛利率，不能拿工作站卡采购请求直接替代MU盈利证据。",
+            "机器人：舍弗勒下一步要求人工干预、uptime、节拍、报废/返工率与单件成本。Figure和Physical Intelligence官方入口本期未见更新到今晨的新模型现场指标；不重复旧数据，也未核实到TSLA、Unitree及重点日系传动公司的新增定点。"
+          ],
+          "whyImportant": "今晨共同主题是潜在需求与兑现约束：油价上升但实物损失尚须核实，订单很大但供货有限，工厂启动但单位经济性未披露。",
+          "investmentImpact": "分析：未来1—12个月，重点看订单转交付、产能转现金、部署转可靠性。需求强并不保证股东回报高；若能源与融资成本抬升、交付继续受限，估值仍可能承压。这不是个股买卖指令。",
+          "tags": [
+            "观察清单",
+            "财政",
+            "中期选举",
+            "信用",
+            "订单兑现",
+            "MU",
+            "机器人"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月20日油价盘中与供应风险",
+              "url": "https://www.reuters.com/business/energy/oil-eases-markets-assess-potential-waiver-russian-energy-middle-east-supply-2026-10-20/"
+            },
+            {
+              "title": "Reuters / Business Recorder｜日本20年债拍卖与曲线",
+              "url": "https://www.brecorder.com/news/40445099/japans-20-year-bond-yield-falls-sharply-after-strong-auction"
+            },
+            {
+              "title": "Reuters｜中国三家大厂RTX PRO 5500订单报道",
+              "url": "https://www.reuters.com/business/retail-consumer/bytedance-alibaba-tencent-place-over-35-billion-worth-nvidia-chip-orders-2026-10-20/"
+            },
+            {
+              "title": "AWS Neuron｜TorchNeuron公开Beta官方文档",
+              "url": "https://awsdocs-neuron.readthedocs-hosted.com/en/latest/torch/index.html"
+            },
+            {
+              "title": "Schaeffler｜10月20日太仓工厂官方公告",
+              "url": "https://www.schaeffler.com/en/media/press-releases/press-releases-detail.jsp?id=88222851"
+            },
+            {
+              "title": "Figure｜官方新闻跟踪",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方博客跟踪",
+              "url": "https://www.pi.website/blog"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-19-pm",
       "date": "2026-10-19",
       "period": "pm",
