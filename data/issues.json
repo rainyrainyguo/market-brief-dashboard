@@ -4,6 +4,288 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-21-am",
+      "date": "2026-10-21",
+      "period": "am",
+      "time": "08:03",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-21T08:03:10-07:00",
+      "summary": "10月21日早报：原油重新上涨，美国取暖油储备招标与EIA库存带来政策和实物增量；日本出口增长、日银继续释放加息信号。产业重点是NVIDIA供应链扩产、韩厂在华NAND升级、Supermicro收入与毛利预估上调，以及Google/Nebius推理平台。机器人出现具体参考硬件与工具链发布，但尚无新增可靠性或付费部署指标。",
+      "cards": [
+        {
+          "id": "2026-10-21-am-1",
+          "category": "macro",
+          "title": "1. 原油重新上涨；官方库存与取暖油政策出现新进展",
+          "status": "盘中报价、官方周报及招标已发布；不是停火或完成交付",
+          "importance": "高",
+          "body": [
+            "昨晚原油回落后，Reuters今日10:48 GMT（03:48 PT）快照：Brent 110.85美元/桶、涨1.9%；WTI 99.95美元、涨2.2%。伊朗总统称在封锁与威胁下不能期待对话；这是公开立场，不是新增停火协议。",
+            "EIA截至10月16日一周官方数据：商业原油库存减少310万桶，汽油减少300万桶，馏分油反增170万桶、但仍低于五年均值9%。因此不能沿用早先API消息把馏分油也写成下降；炼厂利用率93.4%。",
+            "美国能源部10月21日启动最多31.5万桶东北取暖油储备交换招标。政策已公布，但中标、实际交付与价格效果尚待落实；它针对区域馏分油紧张，并非新的大规模原油释放。"
+          ],
+          "whyImportant": "分析：原油供应风险与成品油库存结构要分开看。馏分油单周增加不代表冬季供应充足，有限储备交换也不能代替持续炼油和运输能力。",
+          "investmentImpact": "分析：战争/航运→油价与柴油、保险成本→通胀和企业利润→Fed预期、长端利率→科技估值。选举前能源干预已从口头压力推进到具体招标，但不能据此断言通胀将回落或Fed会降息。",
+          "tags": [
+            "中东",
+            "伊朗",
+            "EIA",
+            "柴油",
+            "取暖油",
+            "中期选举"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月21日油价与美伊外交表态",
+              "url": "https://www.reuters.com/business/energy/oil-rises-middle-east-supply-worries-2026-10-21/"
+            },
+            {
+              "title": "EIA｜截至10月16日一周石油库存摘要",
+              "url": "https://ir.eia.gov/wpsr/summary.txt"
+            },
+            {
+              "title": "美国能源部｜东北取暖油储备交换招标",
+              "url": "https://www.energy.gov/articles/energy-department-authorizes-exchange-northeast-home-heating-oil-reserve"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-21-am-2",
+          "category": "macro",
+          "title": "2. 日本出口增长与日银鹰派表态并存，不能只看贸易逆差缩小",
+          "status": "9月贸易数据与10月21日讲话已发生；下一次加息仍未决定",
+          "importance": "高",
+          "body": [
+            "日本9月出口额同比增长16.7%，低于20.1%的市场预期；进口增长18.9%，贸易逆差5366亿日元。Reuters指出芯片及相关设备需求支撑出口，原油到货延迟也影响进口。",
+            "日银副行长冰见野良三今日表示，基础通胀接近2%，金融条件仍宽松，需要继续调整货币支持。12月加息属于市场预期，并非已决议。",
+            "日本银行官方外汇表：10月21日17:00 JST美元兑日元158.12—158.14；这是东京时点快照，不是当前美盘报价。"
+          ],
+          "whyImportant": "分析：出口额含数量、价格和汇率效应，增长16.7%不能直接当作实际出口量或GDP增长。进口受到货时点影响，逆差收窄也不能单独证明内需改善。",
+          "investmentImpact": "分析：AI设备需求支持出口商；更鹰派的日银则可能抬高日元融资与JGB回报。JGB/对冲后回报变化→国内外资产再配置→全球风险资产流动性，仍需实际资金流验证，不能把一句加息讲话当作资金已经大规模回流。",
+          "tags": [
+            "日本",
+            "出口",
+            "BOJ",
+            "日元",
+            "JGB",
+            "全球流动性"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月21日日本9月贸易",
+              "url": "https://www.reuters.com/world/asia-pacific/japans-september-exports-rise-167-helped-by-chip-demand-2026-10-21/"
+            },
+            {
+              "title": "Reuters｜日银副行长冰见野的加息表态",
+              "url": "https://www.reuters.com/world/asia-pacific/bojs-himino-signals-readiness-raise-borrowing-costs-2026-10-21/"
+            },
+            {
+              "title": "日本银行｜10月21日东京外汇官方快照",
+              "url": "https://www.boj.or.jp/en/statistics/market/forex/fxdaily/fxlist/fx261021.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-21-am-3",
+          "category": "semi",
+          "title": "3. NVIDIA把扩产推进到载板、封装、测试和光引擎",
+          "status": "10月21日官方协议与扩产目标；不是全部产能已经上线",
+          "importance": "高",
+          "body": [
+            "NVIDIA宣布供应链扩产：载板产能计划三年内增至2.5倍；测试总产能目标2027年较2026年翻倍；向KYEC提供11亿美元产能预付款，支持美国测试设施、目标2027年4月量产。",
+            "Amkor计划到2028年底将相关先进封装中介层晶圆产能增加超过300%；SPIL光引擎产能目标2027年中达到15倍。不同工序、不同基数，倍数不能相加成GPU出货增幅。",
+            "IBIDEN此前已宣布的协议不算今日新增订单；本期增量是整套供应链扩张安排。长期产能预留、预付款与已确认营业收入也不是同一指标。"
+          ],
+          "whyImportant": "分析：AI芯片供应限制覆盖制造之后的多个环节，资金开始具体支持测试和互连能力。部分节点落在未来一年，其他落在2028年以后，兑现节奏不同。",
+          "investmentImpact": "分析：对NVDA是供应保障与资金承诺同时增加；对Amkor、KYEC、SPIL及载板链是潜在产能和订单支持，仍看设备进场、认证、利用率及现金回报。对TER，测试需求增长只是行业信号，本公告不是TER新增订单。",
+          "tags": [
+            "NVDA",
+            "Amkor",
+            "KYEC",
+            "SPIL",
+            "载板",
+            "封装",
+            "测试",
+            "TER"
+          ],
+          "sources": [
+            {
+              "title": "NVIDIA｜10月21日供应链扩产协议",
+              "url": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-21-am-4",
+          "category": "semi",
+          "title": "4. 三星、SK海力士升级中国NAND工厂；许可边界仍不清楚",
+          "status": "公司确认升级/装机；具体层数为消息人士报道",
+          "importance": "高",
+          "body": [
+            "Reuters今日报道三星西安拟转向286层NAND，SK海力士大连拟生产240层或以上产品。两家公司确认与美国政府沟通下推进升级或装机，但Reuters未能核实所需许可证获批的完整范围。",
+            "三星表示没有扩建晶圆产能或新建厂。本期不能据此宣称美国全面放松先进设备管制，也不能把匿名计划当作已经量产的产出。"
+          ],
+          "whyImportant": "分析：即使晶圆投入不变，更高密度和工艺迭代仍可能增加可售bit、改善成本；实际效果取决于良率、工艺周期和产品结构。",
+          "investmentImpact": "分析：对MU及NAND/SSD行业，一边是AI存储需求，一边是竞争对手成本和有效供给可能改善；中期应盯bit供给与ASP，而非只数新厂。该消息不是HBM新增产能证据，也不能直接推导MU下季毛利率。",
+          "tags": [
+            "Samsung",
+            "SK Hynix",
+            "MU",
+            "NAND",
+            "Solidigm",
+            "出口许可",
+            "ASP"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜三星、SK海力士在华NAND工厂升级",
+              "url": "https://www.reuters.com/world/china/samsung-sk-hynix-upgrading-china-plants-make-more-advanced-chips-people-say-2026-10-21/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-21-am-5",
+          "category": "ai",
+          "title": "5. Supermicro收入与毛利预估上调；CRWV却未延续盘后上涨",
+          "status": "公司初步未审计估算；股价为10月21日早盘快照",
+          "importance": "高",
+          "body": [
+            "Supermicro于10月20日发布FY2027第一季度初步更新，本期补充核实：收入预计185亿—195亿美元，原指引145亿—155亿美元；毛利率预计12.0%—12.5%，原指引10.4%—10.8%，公司归因于AI需求及客户/产品组合。",
+            "以上不是最终财报，正式业绩电话会安排11月3日。中点计算，收入较原指引高约26.7%，毛利率高约1.65个百分点，不能写成毛利率增长1.65%。",
+            "Reuters美东09:54（06:54 PT）附近早盘报道：SMCI约涨12%，CRWV约跌2.4%；纳指涨0.56%、标普涨0.23%。这是相对昨晚的重要新变化：服务器业绩改善没有让所有AI云同步上涨。"
+          ],
+          "whyImportant": "分析：收入和毛利同时改善，比只有销售额增加更能支持服务器盈利判断；但尚缺最终费用、营运资金和现金流数据。",
+          "investmentImpact": "分析：对SMCI与服务器链，组合改善支持盈利预期；对NBIS、CRWV，硬件订单强不等于云租赁利润和融资风险同步改善。应将服务器利润率、云客户信用及项目交付分开估值。",
+          "tags": [
+            "SMCI",
+            "CRWV",
+            "NBIS",
+            "AI服务器",
+            "毛利率",
+            "现金流"
+          ],
+          "sources": [
+            {
+              "title": "Supermicro｜FY2027第一季度初步业绩更新",
+              "url": "https://ir.supermicro.com/news/news-details/2026/Supermicro-Provides-First-Quarter-of-Fiscal-Year-2027-Preliminary-Business-Update/default.aspx"
+            },
+            {
+              "title": "Reuters｜10月21日美股早盘与AI股分化",
+              "url": "https://www.reuters.com/legal/transactional/nasdaq-futures-lead-gains-spacex-super-micro-results-lift-ai-trade-2026-10-21/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-21-am-6",
+          "category": "ai",
+          "title": "6. Google Rubin服务明确下月GA；Nebius推理路线出现正式增量",
+          "status": "10月21日官方产品与部署公告；规划容量不等于已装机或新增收入",
+          "importance": "高",
+          "body": [
+            "Google Cloud明确A5X/Vera Rubin实例的普遍可用（GA）在下个月，而非今天已经全面开放。其网络架构支持单站点最高8万、跨站点最高96万Rubin GPU规模，这是扩展能力，不能直接当作96万张已采购、已交付。",
+            "NVIDIA另披露Nebius已采用Groq 3 LPX并结合Vera Rubin NVL72与Spectrum-X，用于Token Factory推理；还列出其Physical AI Workbench及机器人客户。公告未披露本次新增合同金额、收入或独立性能基准。",
+            "本期新增是服务时间表和具体技术采用；不重复昨晚SpaceX财务数字，也不把NBIS盘后上涨全部归因于今晨才公开的公告。"
+          ],
+          "whyImportant": "分析：产业竞争从GPU采购进一步走向网络、调度、推理服务和客户接入；技术采用能改善产品定位，但商业规模仍需验证。",
+          "investmentImpact": "分析：GOOGL、NVDA获得下一代平台商业化线索；NBIS有推理差异化机会，同时也要面对大型云扩容竞争。后续看付费利用率、每百万token成本、延迟与现金回收，不能按架构上限外推收入。",
+          "tags": [
+            "GOOGL",
+            "NVDA",
+            "NBIS",
+            "Vera Rubin",
+            "A5X",
+            "推理",
+            "GA"
+          ],
+          "sources": [
+            {
+              "title": "Google Cloud｜10月21日A5X与Vera Rubin官方公告",
+              "url": "https://cloud.google.com/blog/topics/ai-infrastructure/google-cloud-infrastructure-at-nvidia-gtc-berlin-2026"
+            },
+            {
+              "title": "NVIDIA｜欧洲AI云与Nebius部署路线",
+              "url": "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-21-am-7",
+          "category": "robot",
+          "title": "7. Physical AI：研究平台定型、触觉/力控整合；仍缺现场经济性",
+          "status": "10月21日官方发布与生产计划；不是已完成2000台付费部署",
+          "importance": "高",
+          "body": [
+            "NVIDIA公布Agile ONE SN参考人形机器人：集成Jetson Thor与Isaac GR00T，双手具触觉和1kHz力控；计划2027年初可用。Isaac Lab 3.0已普遍可用，新增Isaac OS与数据/仿真工作流。",
+            "Reuters报道Agile计划明年生产1000—2000台S/SN研究机器人，目标为高校与企业实验室；这是生产计划，潜在高校客户不是已经签订的付费订单。",
+            "投资信号在于计算、模型、手和控制栈有了具体整合路径；但未披露可比较的zero-shot、cross-embodiment、数据效率提升、人工干预率、连续uptime或BOM。本期不把有触觉传感器等同于已证明精细操作可靠性提升。"
+          ],
+          "whyImportant": "分析：可用学习框架和标准硬件可能缩短集成与数据采集过程，有助于研究扩散；研究采购、试点和稳定工厂生产收入仍须分开。",
+          "investmentImpact": "分析：NVDA有明确平台集成与潜在设备计算需求；但不能据计划产量估算成熟机器人市场规模。对ON、ADI、TER及日系传动链，本期未取得新增可量化零部件定点，不上调收入假设；优先等独立成功率、干预率和每任务成本。",
+          "tags": [
+            "Physical AI",
+            "NVDA",
+            "Agile",
+            "Jetson Thor",
+            "触觉",
+            "力控",
+            "Isaac",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "NVIDIA｜Isaac、Agile ONE SN与机器人平台官方公告",
+              "url": "https://nvidianews.nvidia.com/news/nvidia-advances-isaac-platform-for-general-purpose-robotics-with-new-reference-humanoid-frameworks-simulation-pipelines-and-data/"
+            },
+            {
+              "title": "Reuters｜Agile研究机器人生产计划",
+              "url": "https://www.reuters.com/business/germanys-agile-make-up-2000-humanoid-robots-with-nvidia-ceo-says-2026-10-21/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-21-am-8",
+          "category": "macro",
+          "title": "8. 下一期观察：技术、产能与订单能否变成现金",
+          "status": "观察与分析；没有核实的新数据不以旧值冒充",
+          "importance": "中",
+          "body": [
+            "美国宏观：本期没有核实到新的CPI/PPI/PCE、就业工资、Fed决议或点阵图；也未取得10月21日完整官方美债日终曲线、期限溢价、广泛信用利差和资金流。昨日收益率已报，本期不冒充今日数据。财政/发债→期限溢价→长端利率，继续看拍卖与实际收益率。",
+            "能源与政策：核对取暖油招标、中标、实际交付及EIA后续库存；本期无新增同口径天然气/LNG报价。中期选举前能源、关税、财政和监管动作，以正式文件及执行范围为准，不把政治表态当作已生效政策。",
+            "产业：载板/封装/测试看扩产和认证；NAND看许可证、良率与bit产出；SMCI等正式费用与现金流；Google看下月GA兑现；Nebius看付费推理利用率；机器人看现场可靠性与成本。",
+            "昨晚已报的Anthropic草案、NextDC指引和Terafab目标，本期没有核实到足以单列的新执行进展，不重复铺陈。"
+          ],
+          "whyImportant": "分析：今晨数据支持AI需求与供应链投入仍强，但宏观能源压力和公司间表现分化同样明显。",
+          "investmentImpact": "分析：未来1—12个月，优先看可交付产能、利润和现金。扩产目标、研究平台和架构容量有价值，但不能直接等同于收入、稳定部署或投资回报。",
+          "tags": [
+            "观察清单",
+            "Fed",
+            "财政",
+            "期限溢价",
+            "信用",
+            "订单兑现",
+            "中期选举"
+          ],
+          "sources": [
+            {
+              "title": "美国财政部｜官方收益率曲线跟踪",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202610&type=daily_treasury_yield_curve"
+            },
+            {
+              "title": "EIA｜截至10月16日一周石油库存摘要",
+              "url": "https://ir.eia.gov/wpsr/summary.txt"
+            },
+            {
+              "title": "美国能源部｜东北取暖油储备交换招标",
+              "url": "https://www.energy.gov/articles/energy-department-authorizes-exchange-northeast-home-heating-oil-reserve"
+            },
+            {
+              "title": "NVIDIA｜10月21日供应链扩产协议",
+              "url": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-20-pm",
       "date": "2026-10-20",
       "period": "pm",
