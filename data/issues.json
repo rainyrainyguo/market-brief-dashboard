@@ -4,6 +4,274 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-20-pm",
+      "date": "2026-10-20",
+      "period": "pm",
+      "time": "19:03",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-20T19:03:20-07:00",
+      "summary": "10月20日晚报：住房签约走弱、长端美债回落，油价从盘中高位下跌；SpaceX的AI业绩带动NBIS、CRWV盘后上涨，Anthropic新版招股书草案同时暴露融资会计与算力风险。截稿前NextDC因供电延误大幅下调指引，提醒市场订单并不等于按期现金回收。Terafab量产仍属远期高不确定性目标；机器人晚间无新增投资级指标。",
+      "cards": [
+        {
+          "id": "2026-10-20-pm-1",
+          "category": "macro",
+          "title": "1. 住房签约明显降温，长债回落；科技股没有全面跟涨",
+          "status": "10月20日数据与收盘已发生；利率归因属于分析",
+          "importance": "高",
+          "body": [
+            "NAR今日公布：9月待完成房屋销售环比下降7.3%、同比下降11.3%，四大地区均下降。这衡量已签约、尚未交割的住房交易，不能读成房价跌7.3%；通常领先成交一至两个月。",
+            "美国财政部同口径曲线：2年期4.79%，较10月19日升2bp；10年期5.12%，降3bp；30年期5.42%，降6bp。长端回落、短端略升，并非整条曲线一致下行，也不能只凭名义收益率断言期限溢价下降。",
+            "美股收盘：标普500涨0.3%，道指涨约1%，纳指微跌、幅度不足0.1%。这是正式收盘，替代早报的低开快照；盘后AI云上涨另列。"
+          ],
+          "whyImportant": "分析：高融资成本正压制利率敏感需求，但单月住房签约不能证明整体经济已衰退。长债回落缓解折现率压力，却未自动带来大型科技普涨。",
+          "investmentImpact": "分析：住房需求走弱→增长预期降温→长债获得支撑→科技估值压力略减；若同时出现盈利下修，利率利好可能被抵消。2年期仍升，不能把当天交易解释成Fed即将转向降息。",
+          "tags": [
+            "住房",
+            "环比",
+            "同比",
+            "美债",
+            "收益率曲线",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "NAR｜10月20日发布9月待完成房屋销售",
+              "url": "https://www.nar.realtor/newsroom/pending-home-sales-decreased-7-3-percent-in-september"
+            },
+            {
+              "title": "美国财政部｜10月20日官方收益率曲线",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202610&type=daily_treasury_yield_curve"
+            },
+            {
+              "title": "AP｜10月20日美股收盘",
+              "url": "https://apnews.com/article/stock-markets-oil-ai-rates-inflation-b972b64127db5412a2b02c35ecf95c88"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-20-pm-2",
+          "category": "macro",
+          "title": "2. 油价从日内高位回落，能源风险仍未解除",
+          "status": "10月20日结算已确认；不等于战争降级或运输恢复",
+          "importance": "高",
+          "body": [
+            "与早报的盘中高点不同，12月Brent结算108.79美元/桶，跌0.7%；12月WTI为97.82美元，跌0.7%。当天到期的11月WTI为101.79美元、跌1.8%，合约月份不同，不能拼接成同一价格序列。",
+            "本期没有核实到足以确认全面停火或霍尔木兹恢复正常的执行结果，也没有取得新的同口径天然气/LNG结算与实物流量。单日原油回撤不代表供应风险溢价已经消失。"
+          ],
+          "whyImportant": "分析：较早盘缓和的油价有助于降低短期通胀担忧，但能源价格仍会同时影响居民购买力、企业成本和央行决策。",
+          "investmentImpact": "分析：战争/航运风险→油气与运输保险→通胀、利润率→Fed预期和美债→高估值科技。若油价再升而住房继续走弱，市场面对的将是增长放缓与成本压力并存，降息空间也未必随之扩大。",
+          "tags": [
+            "中东",
+            "伊朗",
+            "Brent",
+            "WTI",
+            "通胀",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "WSJ｜10月20日原油结算",
+              "url": "https://www.wsj.com/finance/commodities-futures/oil-edges-lower-but-supply-risks-linger-913dc341"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-20-pm-3",
+          "category": "ai",
+          "title": "3. SpaceX的AI业绩带动NBIS、CRWV盘后上涨",
+          "status": "公司正式业绩；盘后涨幅为特定时点快照",
+          "importance": "高",
+          "body": [
+            "SpaceX第三季度总营收145.75亿美元；Super Intelligence（SI）营收75.60亿美元，较上季25.61亿美元明显增加。SI营业利润4.31亿美元，上季为亏损12.57亿美元；按披露数字计算，本季营业利润率约5.7%。",
+            "SI收入包括云服务、Cursor、Grok等，并非全部GPU出租收入；并购也影响可比口径。SI本季资本开支164.44亿美元，说明收入和营业利润改善仍伴随巨额投入，不能把调整后EBITDA当作自由现金流。",
+            "MarketWatch于10月20日16:10 PT报道，CRWV盘后约涨5%、NBIS约涨6%，与SpaceX财报带动同类AI基础设施股的时间相符。这不是两家公司新增订单公告，也不是整个交易日涨幅。"
+          ],
+          "whyImportant": "分析：市场获得了大型AI基础设施业务收入增长与营业盈利改善的证据，因此重新评估同业需求和估值；但竞争者扩张也会增加供给。",
+          "investmentImpact": "分析：对NBIS、CRWV，短线是同业业绩带来的预期修复，不足以直接上调自身订单或现金流预测；中期仍看上电、利用率、合同定价和融资。对NVDA及存储链，算力投入支持需求，但客户投资回报和信用质量仍重要。",
+          "tags": [
+            "SpaceX",
+            "NBIS",
+            "CRWV",
+            "NVDA",
+            "AI云",
+            "资本开支",
+            "盘后"
+          ],
+          "sources": [
+            {
+              "title": "SEC｜SpaceX第三季度官方业绩",
+              "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm"
+            },
+            {
+              "title": "MarketWatch｜SpaceX业绩带动AI云盘后上涨",
+              "url": "https://www.marketwatch.com/story/why-spacexs-stock-is-surging-and-lifting-the-broader-ai-universe-along-with-it-0cd62f39"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-20-pm-4",
+          "category": "ai",
+          "title": "4. Anthropic新版招股书草案：增长与算力风险同时显现",
+          "status": "10月20日媒体审阅草案；不是正式发布第三季度财报",
+          "importance": "高",
+          "body": [
+            "WSJ今日披露新版IPO草案，Reuters转述：Anthropic截至6月30日的半年收入163亿美元，上年同期11亿美元；净亏损约807亿美元，其中约720亿美元来自融资工具价值变化相关会计费用。Reuters表示未能立即独立核实报道。",
+            "WSJ还披露客户集中与算力获取风险，以及包含仍在洽谈交易的潜在多年算力支出。它们不能全部视为已签、不可撤销、当期应付款。",
+            "这批上半年财务和风险披露，与10月14日媒体报道的第三季度投资者沟通不同；本期不把旧季度收入重复当成今日新财报。807亿美元会计净亏损也不等于半年现金烧掉807亿美元，扣掉会计费用后的差额仍不能直接当作现金消耗。"
+          ],
+          "whyImportant": "分析：需求增长强并不自动解决计算成本、客户集中和供给依赖。融资估值上升也可能伴随会计重估损失，必须拆开营业表现、融资会计与现金流。",
+          "investmentImpact": "分析：对AMZN、GOOGL、MSFT及AI云，这是潜在需求与客户履约风险的共同信号；对芯片链不能将多年潜在支出直接换成当年订单。正式文件应重点核对经营现金流、预付款、最低采购义务、客户留存和收入确认。",
+          "tags": [
+            "Anthropic",
+            "Claude",
+            "IPO草案",
+            "会计亏损",
+            "算力成本",
+            "云厂商"
+          ],
+          "sources": [
+            {
+              "title": "WSJ｜Anthropic新版招股书草案",
+              "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1"
+            },
+            {
+              "title": "Reuters｜Anthropic上半年亏损及会计费用",
+              "url": "https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-20-pm-5",
+          "category": "ai",
+          "title": "5. 截稿前：NextDC因供电延误大幅下调指引",
+          "status": "澳洲10月21日早盘，折合10月20日18:25 PT报道；不是收盘",
+          "importance": "高",
+          "body": [
+            "Reuters报道NextDC盘中跌约44%。墨尔本M3电网升级延误，使本财年约1.4亿澳元合同收入递延；FY2027净收入指引由6.15亿—6.40亿澳元降至4.75亿—5.00亿澳元，并暂停新开发与购地。",
+            "这是澳大利亚当地次日的消息，但发布时间早于本期截稿，属于今晚新增。收入递延与客户取消合同不同；同时，指引下修和项目暂停是实质经营变化，不只是估值波动。"
+          ],
+          "whyImportant": "分析：AI需求即便已签约，供电、许可和工程仍能阻断兑现。这为今晚AI云上涨提供必要的反向检验。",
+          "investmentImpact": "分析：电网延迟→可交付容量不足→收入与现金回收延后→利息及融资压力上升→削减开发和估值重估。对NBIS、CRWV及数据中心供应链，应逐项目核对电力交付条件；不能因SpaceX业绩好就假设所有项目同步受益。",
+          "tags": [
+            "NextDC",
+            "数据中心",
+            "电网",
+            "交付",
+            "收入递延",
+            "融资风险"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜NextDC供电延误、指引下调与股价反应",
+              "url": "https://www.reuters.com/world/asia-pacific/australian-ai-data-centre-operator-nextdc-shares-shed-44-revenue-delay-2026-10-21/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-20-pm-6",
+          "category": "semi",
+          "title": "6. Terafab提出2028年量产目标，尚不能计入供给",
+          "status": "10月20日电话会目标；非已投产、已验证良率或设备订单",
+          "importance": "中",
+          "body": [
+            "Musk在SpaceX电话会提出Terafab争取2027年5—6月做出可工作的SRAM测试芯片、2028年第三季度实现量产，并明确时间极激进、能否做到有很大不确定性。",
+            "对EUV设备是否已下单的问题，他没有直接回答。测试SRAM与规模生产先进逻辑、存储不是同一里程碑；本期没有新增可核实的量产良率、客户认证或设备采购金额。"
+          ],
+          "whyImportant": "分析：这是自建制造路线的时间表增量，尚不足以改变未来一年先进制程供应格局。",
+          "investmentImpact": "分析：对ASML、AMAT、KLAC，订单需以可确认采购和交付为依据；对TSM、MU、NVDA，不能将远期愿景视为未来1—12个月已有替代产能。关注资金、厂务、电力、设备与工艺人才是否同步落实。",
+          "tags": [
+            "Terafab",
+            "TSLA",
+            "SpaceX",
+            "ASML",
+            "TSM",
+            "MU",
+            "量产"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Terafab量产目标与不确定性",
+              "url": "https://www.reuters.com/business/media-telecom/spacex-teslas-terafab-targets-2028-volume-chip-production-musk-says-2026-10-20/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-20-pm-7",
+          "category": "robot",
+          "title": "7. Physical AI / 机器人投资信号：晚间未核实到新增投资级指标",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "早报舍弗勒太仓工厂消息之后，本期未核实到足以改变投资判断的新付费部署、零部件定点或量化可靠性改善，晚报不重复该工厂启动，也不以普通演示补位。",
+            "对zero-shot generalization、cross-embodiment transfer、触觉/力控与精细操作、robot-data efficiency，仍要求可比较基准；对部署要求人工干预率、连续uptime、故障及每任务成本；对硬件要求执行器、手、传感器、电池、减速器BOM与量产良率。",
+            "本期没有核实到NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Gemini Robotics、Physical Intelligence或Nabtesco、Harmonic Drive、THK、Nidec披露上述方面的新投资级数据。未找到公开证据不等于产业没有进展。"
+          ],
+          "whyImportant": "分析：真实生产成功与经过筛选的演示成功存在差距，缺少干预率与成本数据就无法判断可复制部署的经济性。",
+          "investmentImpact": "分析：暂不因远期芯片工厂规划或AI云股上涨上调机器人收入假设；后续以独立付费客户、复购、现场可靠性和硬件毛利验证。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "干预率",
+            "uptime",
+            "BOM",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方新闻跟踪",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方博客跟踪",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "Google DeepMind｜官方博客跟踪",
+              "url": "https://deepmind.google/blog/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-20-pm-8",
+          "category": "macro",
+          "title": "8. 下一期观察：收入兑现、信用与宏观约束",
+          "status": "观察与分析；未确认事项保持未确认",
+          "importance": "中",
+          "body": [
+            "AI：NBIS、CRWV看新增自身订单、上电、利用率、融资成本和自由现金流；SpaceX看同口径增长与资本回报；Anthropic等待正式可读文件，拆分会计费用、经营亏损和现金流。NextDC跟踪电网计划和资金安排。",
+            "美国宏观：本期未核实到新的CPI/PPI/PCE、就业工资、Fed决议或点阵图。继续看实际收益率、期限溢价与国债拍卖；财政赤字/发债→期限溢价→长端利率，不能用当天长债上涨证明财政压力已解决。",
+            "日本与资金流：早报JGB拍卖之后，本期未核实到足以证明日本资金大规模回流的跨境数据。JGB收益率→对冲后国内外回报→资产再配置→全球流动性，需用实际流量验证；美元、日元及广泛信用利差本期无新增同口径读数，不补造。",
+            "中东与中期选举：跟踪实际通航、设施、油气交付和保险，以及正式生效的财政、关税、贸易和监管文件。政治表态、谈判期待与生效政策分开；不把油价单日下跌当作停火。"
+          ],
+          "whyImportant": "分析：今晚最重要的分化是AI业务增长得到验证，但电网交付风险也出现真实损失；宏观折现率稍缓，信用和项目风险没有同步消失。",
+          "investmentImpact": "分析：未来1—12个月，优先检查订单能否转成按期交付和现金，再判断估值是否合理。行业需求增长可以与个别项目回报恶化同时发生。",
+          "tags": [
+            "观察清单",
+            "财政",
+            "期限溢价",
+            "JGB",
+            "资金流",
+            "中期选举",
+            "信用"
+          ],
+          "sources": [
+            {
+              "title": "美国财政部｜10月20日官方收益率曲线",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202610&type=daily_treasury_yield_curve"
+            },
+            {
+              "title": "Reuters｜NextDC供电延误、指引下调与股价反应",
+              "url": "https://www.reuters.com/world/asia-pacific/australian-ai-data-centre-operator-nextdc-shares-shed-44-revenue-delay-2026-10-21/"
+            },
+            {
+              "title": "SEC｜SpaceX第三季度官方业绩",
+              "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-20-am",
       "date": "2026-10-20",
       "period": "am",
