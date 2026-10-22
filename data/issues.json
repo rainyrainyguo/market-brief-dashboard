@@ -4,6 +4,274 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-22-am",
+      "date": "2026-10-22",
+      "period": "am",
+      "time": "08:03",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-22T08:03:59-07:00",
+      "summary": "10月22日早报：油价继续冲高、科技早盘转跌，长债避险上涨未能托住AI估值；初请失业金降至19.4万，续请却上升。Nebius获得35亿美元Citi额度，但364天期限仍要求长期融资衔接；补充核实Lam设备业绩，并区分三星电机载板资金报道与正式确认。中期选举增加地方许可风险，机器人无新增投资级指标。",
+      "cards": [
+        {
+          "id": "2026-10-22-am-1",
+          "category": "macro",
+          "title": "1. 油价冲高、科技转跌：长债避险上涨也未能托住估值",
+          "status": "10月22日盘中快照；不是收盘、停产确认或新军事行动决定",
+          "importance": "高",
+          "body": [
+            "Reuters美东09:41（06:41 PT）快照：纳指跌1.46%、标普跌0.81%；Meta跌约6.7%。10年美债收益率在相关早盘交易中降至约5.04%。昨晚已报的财报被市场重新定价，本期新增是股价与债市反应，不重复收入数字。",
+            "Reuters 13:11 GMT（06:11 PT）报价：Brent 112.01美元/桶、涨2.9%，此前日内高点112.68；WTI 99.56美元、涨2.5%。均非结算价。",
+            "新增安全消息是Saudi Aramco据消息人士称要求达兰总部员工撤离、远程办公；这不是已量化的油田停产。昨晚已报美国驻沙特离境令，本期不当作首次发生。"
+          ],
+          "whyImportant": "分析：能源供应风险与AI现金回报担忧同时压低风险偏好，避险买债可以使收益率下行。因此油价上涨并不保证美债收益率当天也上涨。",
+          "investmentImpact": "分析：战争/航运→油气和保险→通胀与利润压力；风险厌恶→买入美债→收益率下降，但股票要求的风险补偿上升。高估值AI股可能仍下跌，不能只看折现率就判断利好。",
+          "tags": [
+            "中东",
+            "Brent",
+            "美债",
+            "META",
+            "科技估值",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月22日美股早盘、科技与避险交易",
+              "url": "https://www.reuters.com/business/nasdaq-futures-drop-over-1-ai-worries-resurface-oil-climbs-2026-10-22/"
+            },
+            {
+              "title": "Reuters｜10月22日油价与沙特安全风险",
+              "url": "https://www.reuters.com/business/energy/oil-rises-us-orders-diplomats-leave-saudi-arabia-amid-escalating-tensions-2026-10-22/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-22-am-2",
+          "category": "macro",
+          "title": "2. 初请降至19.4万，续请却上升：低裁员不等于招聘旺盛",
+          "status": "10月22日官方数据已发布；未来Fed路径仍属预期",
+          "importance": "高",
+          "body": [
+            "劳工部公布，截至10月17日一周季调初请失业金19.4万人，较修正后的20万人减少6000人；四周均值19.775万人。",
+            "截至10月10日一周续请172.8万人，较前周增加2.5万人。两项指标统计周不同，不宜把差额直接相减或解释为本周新增失业人数。",
+            "Reuters调查的初请预期为20万人；经济学家仍将市场描述为低招聘、低裁员。下周Fed按兵不动、12月可能再加息是预期，不是本次数据已经触发政策决定。"
+          ],
+          "whyImportant": "分析：初请较低说明尚未出现广泛裁员冲击；续请上升提示找到新工作仍可能困难。申领数据也不覆盖所有无业者，不能代替非农、工资和劳动参与率。",
+          "investmentImpact": "分析：就业未迅速恶化→Fed无需因衰退恐慌急转降息；若油价持续推高通胀，政策仍受约束。对科技股，增长韧性支持收入，但也可能使融资成本保持高位，不能机械解读为全面利好或利空。",
+          "tags": [
+            "初请",
+            "续请",
+            "就业",
+            "Fed",
+            "利率",
+            "工资"
+          ],
+          "sources": [
+            {
+              "title": "美国劳工部｜10月22日初请失业金官方周报",
+              "url": "https://www.dol.gov/sites/dolgov/files/OPA/newsreleases/ui-claims/20261613.pdf"
+            },
+            {
+              "title": "Reuters｜低裁员、低招聘与Fed预期",
+              "url": "https://www.reuters.com/business/us-weekly-jobless-claims-near-57-year-lows-2026-10-22/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-22-am-3",
+          "category": "ai",
+          "title": "3. Nebius获得35亿美元Citi额度，关键在364天到期",
+          "status": "10月22日公司正式公告；额度不是全部已提款、也不是营业收入",
+          "importance": "高",
+          "body": [
+            "Nebius宣布与Citi达成35亿美元优先担保融资额度，用于数据中心、GPU采购及一般企业用途。到期364天，初始利率为Term SOFR加2.75个百分点，利差最高升至3.50个百分点，并有其他调整。",
+            "公司称这用于近期扩容、为后续长期融资争取灵活性；未来仍可依据投资级客户长期合同安排资产支持融资。已存在的超过400亿美元合同承诺是融资背景，不是今天新增400亿美元订单。",
+            "公告没有证明全部额度已提款，也未证明长期融资已经全部锁定。SOFR是浮动基准，2.75%只是初始加点，不是总借款利率。"
+          ],
+          "whyImportant": "分析：这是实质融资渠道增量，有助于近期工程与设备采购；但短期限与长期基础设施回收之间仍有再融资衔接问题。",
+          "investmentImpact": "分析：对NBIS，短期流动性改善；未来一年看提款条件、担保资产、期限匹配和更长期融资成本。若上电或收入延误，仍可能需要再融资或股权资金；对NVDA及供应链，这是采购资金支持线索，不等于新增GPU收入已确认。",
+          "tags": [
+            "NBIS",
+            "Citi",
+            "35亿美元",
+            "SOFR",
+            "再融资",
+            "数据中心",
+            "NVDA"
+          ],
+          "sources": [
+            {
+              "title": "Nebius｜Citi融资额度官方条款",
+              "url": "https://nebius.com/newsroom/nebius-secures-3-5-billion-financing-facility-with-citi"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-22-am-4",
+          "category": "semi",
+          "title": "4. 补充核实Lam财报：设备需求强，增量主要来自系统销售",
+          "status": "10月21日下午已公布、今晨补充；实绩与下一季指引分列",
+          "importance": "高",
+          "body": [
+            "Lam Research截至9月27日季度收入82.19亿美元，环比增长22%；non-GAAP毛利率52.4%、营业利润率40.2%、EPS 2.20美元。系统收入57.33亿美元，上季42.50亿美元；客户支持及其他收入24.87亿美元，上季24.72亿美元。",
+            "12月季度收入指引86亿美元±4亿美元，non-GAAP EPS 2.33美元±0.15美元；中国收入占本季35%。这些是公司披露，不能把指引直接视为已完成收入，也不能把地区占比当作新增许可。",
+            "该财报昨晚简报未列，本期明确补充核实；它并非今天刚发布的财报。"
+          ],
+          "whyImportant": "分析：环比增长主要来自系统销售，说明客户设备投入仍强；服务增长较小，不能将整份财报解释为所有业务同幅加速。",
+          "investmentImpact": "分析：对LRCX及设备链，支持先进工艺复杂度与资本开支需求判断；中国敞口同时要求跟踪许可和客户预算。对MU及存储链，这是上游投入信号，不能直接推导存储ASP或毛利，也不能证明设备需求已摆脱周期。",
+          "tags": [
+            "LRCX",
+            "设备",
+            "系统销售",
+            "中国",
+            "MU",
+            "毛利率",
+            "业绩指引"
+          ],
+          "sources": [
+            {
+              "title": "Lam Research｜9月季度官方业绩及12月季度指引",
+              "url": "https://newsroom.lamresearch.com/2026-10-21-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-September-27,-2026"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-22-am-5",
+          "category": "semi",
+          "title": "5. 三星电机据报获Tesla、NVIDIA载板资金：金额尚待正式确认",
+          "status": "10月22日Reuters转引韩国媒体与业内人士；不是公司正式金额指引",
+          "importance": "中",
+          "body": [
+            "Reuters转引韩国《每日经济新闻》称，三星电机将获Tesla与NVIDIA合计3.7万亿韩元、约28亿美元资金，用于世宗FC-BGA先进载板生产线；报道分别列Tesla 1.1万亿韩元、NVIDIA 2.6万亿韩元。",
+            "本期未取得两家出资方或三星电机对金额、付款性质与时点的正式确认，不能认定是已完成股权投资或全部已经到账。昨天NVIDIA官方载板合作已报，本期新增的是媒体披露金额。",
+            "三星电机是载板/电子元件公司，与昨天报道在华NAND升级的三星电子不是同一业务主体。"
+          ],
+          "whyImportant": "分析：客户以长期合作支持关键材料和封装配套，可能缓解供应瓶颈；但交易结构决定实际资本回报和风险承担。",
+          "investmentImpact": "分析：对NVDA、TSLA及载板链，关注正式协议、产线认证、产能爬坡与利用率；不将28亿美元同时计入客户资本开支、供应商营收和股权融资，避免重复计算。",
+          "tags": [
+            "Samsung Electro-Mechanics",
+            "NVDA",
+            "TSLA",
+            "FC-BGA",
+            "载板",
+            "待确认"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜三星电机载板融资报道，转引韩国媒体",
+              "url": "https://www.reuters.com/business/autos-transportation/samsung-electro-mechanics-gets-28-billion-chip-investment-tesla-nvidia-report-2026-10-22/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-22-am-6",
+          "category": "macro",
+          "title": "6. 中期选举风险扩展至地方许可与数据中心成本",
+          "status": "10月22日投资者情景分析；不是已通过全国限建法案",
+          "importance": "中",
+          "body": [
+            "Reuters今日采访投资者指出，数据中心的电价、环境和社区阻力正成为选举议题；国会改组可能增加听证与调查，州长、地方及公用事业监管选举也会影响项目节奏。",
+            "这是风险情景，不能据此宣称民主党已赢得选举、全国已禁止新数据中心，或所有AI资本开支将被叫停。对具体项目，应核对所在州、土地、电网与许可权限。"
+          ],
+          "whyImportant": "分析：即便总需求不变，审批延迟和社区成本也能改变项目现金流时间；地方决策可能比全国立法更快影响建设。",
+          "investmentImpact": "分析：许可/电网延后→设备或土地资金占用→收入递延与利息累积→融资需求及项目净现值承压。对NBIS、CRWV及云厂商，看项目所在地与可交付电力，不只看合同总额；本期情景不等于实际新增关税或财政政策。",
+          "tags": [
+            "中期选举",
+            "数据中心",
+            "地方许可",
+            "电网",
+            "NBIS",
+            "CRWV",
+            "政策风险"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜中期选举与数据中心地方阻力",
+              "url": "https://www.reuters.com/legal/transactional/investors-see-risk-us-midterms-ai-trade-data-center-backlash-builds-2026-10-22/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-22-am-7",
+          "category": "robot",
+          "title": "7. Physical AI / 机器人投资信号：未核实到隔夜新增投资级指标",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "Optimus初始爬坡、Cybercab目标及Agile/Isaac发布均已报；本期未核实到新的独立付费部署、零部件design win或可靠性/单位成本改善，不重复普通演示与远期产量。",
+            "zero-shot generalization、cross-embodiment transfer、触觉/力控精细操作和robot-data efficiency，仍需可比较的任务与数据基准；部署仍需人工干预率、连续uptime、现场故障与每任务成本。",
+            "本期没有核实到NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Gemini Robotics、Physical Intelligence及Nabtesco、Harmonic Drive、THK、Nidec披露足以改变投资判断的新硬件BOM、量产良率或付费客户数据。"
+          ],
+          "whyImportant": "分析：没有找到达到门槛的新增公开指标，不等于产业停滞；融资与产线规划也不能替代机器人在客户现场稳定工作的证据。",
+          "investmentImpact": "分析：暂不因AI融资额度或载板合作上调机器人收入。下一步要求真实使用强度、干预率、uptime、单位成本、复购及执行器/手/传感器/电池/减速器毛利。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "干预率",
+            "uptime",
+            "BOM",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方新闻跟踪",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方博客跟踪",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "Google DeepMind｜官方博客跟踪",
+              "url": "https://deepmind.google/blog/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-22-am-8",
+          "category": "macro",
+          "title": "8. 观察清单：融资期限、能源压力与政策兑现",
+          "status": "观察与分析；缺失读数不以旧值冒充",
+          "importance": "中",
+          "body": [
+            "宏观：初请之外，本期未核实到新的CPI/PPI/PCE、工资或Fed决议/点阵图。10月22日尚无日终官方美债曲线；盘中避险买债不证明期限溢价或财政发债压力已消失。",
+            "日本、美元与信用：本期未取得新的可比JGB、日元、美元指数、广泛信用利差或真实跨境资金流。JGB/对冲后回报→资金再配置→全球流动性，须用实际流量验证；不因美债收益率下跌就推断日本资金回流。",
+            "能源与选举：看设施实际产出、装船、运费保险及取暖油交付；本期无新增可比天然气/LNG读数。选举言论、项目审批措施、正式关税和财政法案分别跟踪。",
+            "产业：NBIS看364天额度的长期置换；Lam看系统订单持续性、客户支出与中国许可；三星电机金额等正式文件。META/TSLA本期重点是市场反应，不再次复制昨晚财务数字。"
+          ],
+          "whyImportant": "分析：今天的共同约束是现金兑现时间：能源和许可增加成本，短期融资需要与长期项目回收衔接，强设备业绩也未必消除高估值风险。",
+          "investmentImpact": "分析：未来1—12个月，订单、可交付电力、融资期限和现金流应同时改善，才能提高行业判断的把握。单看低初请、融资总额或单季收入，均不足以确认风险已经解除。",
+          "tags": [
+            "观察清单",
+            "期限溢价",
+            "财政",
+            "JGB",
+            "美元",
+            "信用",
+            "能源",
+            "现金流"
+          ],
+          "sources": [
+            {
+              "title": "美国劳工部｜10月22日初请失业金官方周报",
+              "url": "https://www.dol.gov/sites/dolgov/files/OPA/newsreleases/ui-claims/20261613.pdf"
+            },
+            {
+              "title": "Nebius｜Citi融资额度官方条款",
+              "url": "https://nebius.com/newsroom/nebius-secures-3-5-billion-financing-facility-with-citi"
+            },
+            {
+              "title": "美国财政部｜收益率曲线跟踪",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202610&type=daily_treasury_yield_curve"
+            },
+            {
+              "title": "Reuters｜中期选举与数据中心地方阻力",
+              "url": "https://www.reuters.com/legal/transactional/investors-see-risk-us-midterms-ai-trade-data-center-backlash-builds-2026-10-22/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-21-pm",
       "date": "2026-10-21",
       "period": "pm",
