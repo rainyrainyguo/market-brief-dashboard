@@ -4,6 +4,305 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-21-pm",
+      "date": "2026-10-21",
+      "period": "pm",
+      "time": "18:56",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-21T18:56:22-07:00",
+      "summary": "10月21日晚报：AI业绩推动纳指与芯片反弹，Meta收入强但自由现金流转负，Tesla以较低支出带来现金流惊喜，IBM软件交易恢复。美债拍卖需让价而长端总体平稳；晚间驻沙特离境令又推升油价。Optimus进入初始爬坡、Cybercab提出销售目标，但可靠性、付费规模和监管仍待验证。",
+      "cards": [
+        {
+          "id": "2026-10-21-pm-1",
+          "category": "ai",
+          "title": "1. Meta增长强，但AI投入已超过当季经营现金流",
+          "status": "10月21日正式财报；资本开支与营收指引属于预期",
+          "importance": "高",
+          "body": [
+            "Meta第三季度收入646.01亿美元，同比增长26%；经营现金流327.86亿美元，资本开支及融资租赁本金349.06亿美元，自由现金流为负21.20亿美元。全年资本开支指引由1300亿—1450亿美元收窄至1350亿—1450亿美元；第四季度收入指引730亿—760亿美元。",
+            "本季计入98.9亿美元诉讼费用，公司称剔除后EPS为7.40美元，报告EPS为3.83美元。另有今日新墨西哥州250亿美元隐私案判罚，Meta计划上诉；不能把两案混为一笔，也不能认定250亿美元已全部计入本季或现金支付。",
+            "公司批准2027年1月生效的无投票权C类股安排，拟向每股A/B股派一股C股，形成类似一拆二效果。派股本身不产生融资现金；后续用于融资、薪酬或收购才涉及具体资金及稀释判断。"
+          ],
+          "whyImportant": "分析：广告与AI产品机会支持增长，但资本投入已消耗全部当季经营现金流。诉讼影响、业务盈利和资本开支必须分别评估。",
+          "investmentImpact": "分析：对META，重点由收入增速进一步转向2027年AI变现、现金回报和治理；对NVDA、存储、电力链，资本开支下限提高支持需求预期，但不能直接换算订单。法律判罚仍可能影响现金与风险溢价，上诉结果未定。",
+          "tags": [
+            "META",
+            "AI资本开支",
+            "自由现金流",
+            "C类股",
+            "法律风险",
+            "NVDA"
+          ],
+          "sources": [
+            {
+              "title": "Meta｜10月21日第三季度官方业绩",
+              "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+            },
+            {
+              "title": "Reuters｜Muse、资本开支与新股类别",
+              "url": "https://www.reuters.com/business/meta-issue-new-class-shares-it-tightens-ai-spending-forecast-2026-10-21/"
+            },
+            {
+              "title": "Reuters｜新墨西哥州250亿美元判罚与上诉计划",
+              "url": "https://www.reuters.com/business/meta-ordered-pay-25-billion-new-mexico-after-jury-finds-company-misled-consumers-2026-10-21/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-21-pm-2",
+          "category": "ai",
+          "title": "2. Tesla现金流转正，同时下调全年资本开支",
+          "status": "10月21日正式财报；合并仍是讨论阶段",
+          "importance": "高",
+          "body": [
+            "Tesla第三季度收入280.46亿美元，较去年基本持平；GAAP净利润7.87亿美元、同比下降43%。经营现金流62.63亿美元，资本开支47.32亿美元，自由现金流15.31亿美元；上季自由现金流为负10.92亿美元。",
+            "Reuters报道全年资本开支预期从超过250亿美元降至约200亿美元，公司没有说明具体哪些项目减少。支出虽低于市场预期，但当季资本开支仍同比增长110%，不能写成同比砍半或停止AI投资。",
+            "Tesla与SpaceX设特别委员会讨论交易，不等于已经达成合并协议；估值、交换比例、利益冲突处理和批准程序仍待确定。"
+          ],
+          "whyImportant": "分析：现金回收改善是真实的，但经营现金流同比大致持平，而自由现金流同比下降62%。相对预期的现金惊喜，不能直接解读为主营盈利全面复苏。",
+          "investmentImpact": "分析：短期减少资金缺口，有利于融资韧性；中期则须看较低支出是否影响算力、Robotaxi及Optimus兑现。对TSLA估值，应将汽车利润、现金、机器人选择权及合并条款分别判断，不因交易讨论直接叠加SpaceX资产价值。",
+          "tags": [
+            "TSLA",
+            "资本开支",
+            "现金流",
+            "SpaceX",
+            "合并讨论",
+            "机器人"
+          ],
+          "sources": [
+            {
+              "title": "Tesla｜第三季度官方股东更新",
+              "url": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf"
+            },
+            {
+              "title": "Reuters｜Tesla资本开支、现金流及合并讨论",
+              "url": "https://www.reuters.com/business/media-telecom/tesla-revenue-beats-estimates-deliveries-rebound-energy-storage-grows-2026-10-21/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-21-pm-3",
+          "category": "ai",
+          "title": "3. IBM软件交易开始落地，现金流指引提高",
+          "status": "公司正式财报与CFO采访；不是所有企业软件需求已恢复",
+          "importance": "中",
+          "body": [
+            "IBM第三季度收入171亿美元，同比增长约5%；软件增长约8%，咨询业务收入大致持平。公司维持全年固定汇率收入增长4%—5%，将自由现金流增长预期提高至同比超过10亿美元。",
+            "CFO向Reuters表示，部分上季延迟的软件交易开始签下，全年软件收入增长预期由6%—8%提高至约7%—8%。交易恢复与新增需求需要分开，不能把所有增量都当作新AI收入。"
+          ],
+          "whyImportant": "分析：这是企业软件支出与销售执行改善的实绩信号，比单纯发布模型或宣布伙伴关系更接近现金兑现；咨询持平又说明复苏并不均匀。",
+          "investmentImpact": "分析：对IBM及企业软件行业，利好收入可见度，但后续要检验递延订单补回后的增长。AI基础设施增长与传统软件预算恢复可以并存，不能仅凭本季恢复就解除预算挤压风险。",
+          "tags": [
+            "IBM",
+            "企业软件",
+            "递延订单",
+            "现金流",
+            "AI应用"
+          ],
+          "sources": [
+            {
+              "title": "IBM｜公司第三季度业绩公告",
+              "url": "https://www.prnewswire.com/news-releases/ibm-releases-third-quarter-results-302915985.html"
+            },
+            {
+              "title": "Reuters｜IBM递延交易恢复与软件指引",
+              "url": "https://www.reuters.com/business/ibm-raises-annual-software-revenue-outlook-deal-delays-ease-2026-10-21/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-21-pm-4",
+          "category": "macro",
+          "title": "4. 日间原油收平，晚间撤离沙特消息再推升风险溢价",
+          "status": "已发生结算与离境令；晚间报价为新时点，不是结算价",
+          "importance": "高",
+          "body": [
+            "10月21日12月Brent结算108.82美元/桶，基本持平；12月WTI结算97.15美元，跌0.7%。这是对早报上涨快照的日终更新。",
+            "随后美国国务院宣布驻沙特非紧急政府人员及家属离境；其他海湾使团家属撤离仍是官员披露的计划，不能概括为美国已撤离全部中东使馆。沙特机场与油田相关袭击出现伤亡，但本期没有核实到可量化的新停产规模。",
+            "Reuters于00:46 UTC发布、折合10月21日17:46 PT的报道给出00:34 UTC报价：Brent 110.11美元、涨1.2%；WTI 98.12美元、涨1%。虽网页日期为10月22日，事件与报价均在本期截稿前。"
+          ],
+          "whyImportant": "分析：白天供给改善预期压住价格，晚间人员安全措施又强化升级风险。结算平静不能代表地缘风险已经下降。",
+          "investmentImpact": "分析：袭击/外交人员撤离→航运、保险与能源风险溢价→通胀和企业成本→Fed预期与美债→高估值科技。离境令本身不能证明即将发动军事行动；市场风险要看后续设施、船流与可持续供给。",
+          "tags": [
+            "中东",
+            "沙特",
+            "伊朗",
+            "Brent",
+            "WTI",
+            "地缘风险",
+            "通胀"
+          ],
+          "sources": [
+            {
+              "title": "WSJ｜10月21日原油结算",
+              "url": "https://www.wsj.com/finance/commodities-futures/oil-rises-amid-attacks-on-vessels-in-strait-of-hormuz-5456bfd8"
+            },
+            {
+              "title": "Reuters｜美国下令驻沙特非紧急人员及家属离境",
+              "url": "https://www.reuters.com/world/middle-east/us-preparing-issue-ordered-departure-some-personnel-gulf-embassies-us-officials-2026-10-21/"
+            },
+            {
+              "title": "Reuters｜撤离消息后原油重新上涨",
+              "url": "https://www.reuters.com/business/energy/oil-rises-us-orders-diplomats-leave-saudi-arabia-amid-escalating-tensions-2026-10-22/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-21-pm-5",
+          "category": "macro",
+          "title": "5. 20年美债拍卖需小幅让价，科技股仍以业绩为主线",
+          "status": "10月21日官方日终曲线与拍卖已发生；期限溢价归因未确认",
+          "importance": "高",
+          "body": [
+            "美国财政部曲线：2年期4.81%，较昨日升2bp；10年期5.13%，升1bp；30年期5.42%，持平。与昨晚相比，长端没有继续明显下行。",
+            "130亿美元20年美债拍卖最高中标收益率5.469%，较当时市场5.459%高约1bp；投标倍数2.73，高于上次2.57。认购倍数改善与价格需让步可以同时发生，不能只用其中一个指标宣布拍卖强劲或失控。",
+            "美股正式收盘：纳指涨1.05%、标普涨0.58%、道指涨0.69%。收益率略升而科技走强，说明当天盈利预期与风险偏好提供了支撑，不能把所有上涨归于利率下降。"
+          ],
+          "whyImportant": "分析：美国发债仍能被市场吸收，但需提供足够回报。单次拍卖不能证明财政赤字、久期供给或期限溢价问题已经解决。",
+          "investmentImpact": "分析：财政/发债→投资者要求回报与期限溢价→长端利率→科技折现率；另一边是财报→盈利预期→股价。两条力量并行，若后续AI现金回报未兑现，高利率仍会放大估值风险。",
+          "tags": [
+            "美债",
+            "20年拍卖",
+            "财政",
+            "期限溢价",
+            "科技估值",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "美国财政部｜10月21日官方收益率曲线",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202610&type=daily_treasury_yield_curve"
+            },
+            {
+              "title": "WSJ｜20年美债拍卖结果",
+              "url": "https://www.wsj.com/finance/twenty-year-jgbs-edge-higher-after-20-year-auction-saw-record-demand-fae7121b"
+            },
+            {
+              "title": "Reuters｜10月21日美股收盘",
+              "url": "https://www.reuters.com/legal/transactional/nasdaq-futures-lead-gains-spacex-super-micro-results-lift-ai-trade-2026-10-21/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-21-pm-6",
+          "category": "robot",
+          "title": "6. Physical AI：Optimus进入初始爬坡，Cybercab销售目标仍有监管约束",
+          "status": "公司生产状态与商业目标；非已证明规模付费部署",
+          "importance": "高",
+          "body": [
+            "Tesla官方季度更新将加州Optimus列为Early Ramp、得州列为Construction，并称Fremont生产线上已产出首批生产质量机器人。这是制造状态增量，未披露出货量、独立付费客户或现场经济性。",
+            "截至18:36 PT发布的Reuters报道，Tesla目标年内向客户交付少量Cybercab、下月扩展达拉斯服务；NHTSA仍在调查无传统手动控制车辆的合规依据，Tesla回复期限为10月30日。销售目标不是监管调查结束或已获全面部署许可。",
+            "本期仍缺可比较的zero-shot、cross-embodiment、触觉精细操作、数据效率、人工干预率、连续uptime与BOM改善指标。早报Agile/Isaac发布无新增实测，本期不重复。"
+          ],
+          "whyImportant": "分析：产线开始爬坡比演示更接近商业化，但机器人能制造出来、能安全稳定工作、有人持续付费，是三个不同门槛。",
+          "investmentImpact": "分析：对TSLA，重点看Optimus良率、节拍、成本及外部复购；Cybercab看监管答复、干预率、安全记录和每英里成本。对ON、ADI、TER及精密传动链，本期没有新增可量化定点，不按远期产线状态上调订单。",
+          "tags": [
+            "Physical AI",
+            "TSLA",
+            "Optimus",
+            "Cybercab",
+            "Early Ramp",
+            "监管",
+            "干预率",
+            "BOM"
+          ],
+          "sources": [
+            {
+              "title": "Tesla｜第三季度官方股东更新",
+              "url": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf"
+            },
+            {
+              "title": "Reuters｜Cybercab销售目标与监管调查",
+              "url": "https://www.reuters.com/business/autos-transportation/tesla-aims-sell-cybercab-robotaxis-by-end-year-despite-federal-probe-2026-10-22/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-21-pm-7",
+          "category": "semi",
+          "title": "7. 芯片收盘涨约2%，晚间没有新的可核实订单数字",
+          "status": "市场表现已发生；无新的公司订单/良率/许可执行增量",
+          "importance": "中",
+          "body": [
+            "费城半导体指数10月21日收盘涨约2%；SMCI涨9.6%，HPE涨3.7%，Dell涨5.3%。服务器链反弹延续至收盘，但股价涨幅不等于同幅盈利上修。",
+            "早报NVIDIA载板/封装/测试扩产、三星与SK海力士在华NAND升级已报，本期未核实到新的采购金额、许可证完整范围、良率或产能上线结果，不重复旧数字。",
+            "Meta资本开支下限提高、Tesla支出预期下降，反映客户之间存在分化；两家业务与采购结构不同，不能简单相减得到GPU需求净变化。"
+          ],
+          "whyImportant": "分析：半导体估值修复得到服务器与云资本开支信息支撑，但仍须逐客户确认订单和交付。",
+          "investmentImpact": "分析：NVDA、MU、设备和封测链重点看真实订单、ASP、良率与现金；不要把股价反弹当作融资风险消失，也不要把多年扩产协议直接计入当季收入。",
+          "tags": [
+            "半导体",
+            "SOX",
+            "SMCI",
+            "NVDA",
+            "MU",
+            "封测",
+            "订单兑现"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月21日美股收盘",
+              "url": "https://www.reuters.com/legal/transactional/nasdaq-futures-lead-gains-spacex-super-micro-results-lift-ai-trade-2026-10-21/"
+            },
+            {
+              "title": "Meta｜10月21日第三季度官方业绩",
+              "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+            },
+            {
+              "title": "Reuters｜Tesla资本开支、现金流及合并讨论",
+              "url": "https://www.reuters.com/business/media-telecom/tesla-revenue-beats-estimates-deliveries-rebound-energy-storage-grows-2026-10-21/"
+            },
+            {
+              "title": "NVIDIA｜供应链扩产跟踪",
+              "url": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-21-pm-8",
+          "category": "macro",
+          "title": "8. 下一期观察：现金回报、晚间升级与政策执行",
+          "status": "观察与分析；未核实栏目明确留空",
+          "importance": "中",
+          "body": [
+            "财报：Meta核对法律费用、资本开支、Muse变现和C类股后续文件；Tesla核对支出减少对应项目、经营现金来源与交易条款；IBM看递延交易补回后的持续增长。",
+            "宏观：本期未核实到新的CPI/PPI/PCE、就业工资、Fed决议或点阵图，不用市场加息概率替代政策。继续追踪实际收益率、期限溢价、信用利差与国债发行安排。",
+            "地缘与选举：关注沙特离境令后续、实际产量/航运/保险及柴油与LNG交付。早报取暖油招标之后，本期无新增已完成交付；中期选举前财政、关税和监管以生效文件为准。",
+            "日本与资金流：早报贸易与日银讲话之后，本期无新增可核实JGB/日元同口径收盘或日本资金回流证据；也未取得新的可比天然气/LNG结算、广泛信用利差与资金流，不用旧值补位。"
+          ],
+          "whyImportant": "分析：日间AI业绩支撑风险偏好，盘后现金回报和地缘升级又增加了新的分化，不能把一天上涨外推为统一复苏。",
+          "investmentImpact": "分析：未来1—12个月优先看利润能否转成现金、产能能否按期交付、机器人能否稳定收费。增长预期与融资/能源成本必须放在同一框架下评估。",
+          "tags": [
+            "观察清单",
+            "现金流",
+            "Fed",
+            "财政",
+            "日本",
+            "中期选举",
+            "能源"
+          ],
+          "sources": [
+            {
+              "title": "Meta｜10月21日第三季度官方业绩",
+              "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+            },
+            {
+              "title": "Tesla｜第三季度官方股东更新",
+              "url": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf"
+            },
+            {
+              "title": "美国财政部｜10月21日官方收益率曲线",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202610&type=daily_treasury_yield_curve"
+            },
+            {
+              "title": "Reuters｜美国下令驻沙特非紧急人员及家属离境",
+              "url": "https://www.reuters.com/world/middle-east/us-preparing-issue-ordered-departure-some-personnel-gulf-embassies-us-officials-2026-10-21/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-21-am",
       "date": "2026-10-21",
       "period": "am",
