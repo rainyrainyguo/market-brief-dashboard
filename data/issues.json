@@ -4,6 +4,298 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-23-am",
+      "date": "2026-10-23",
+      "period": "am",
+      "time": "07:55",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-23T07:55:42-07:00",
+      "summary": "10月23日早报：美国PMI仍强、消费者通胀预期上升，油气压力未退；日本核心CPI重返2%以上。Solidigm暂停美国IPO，SpaceX基站谈判凸显新增资本需求；Uber企业Agent扩围尚待ROI，Meta推迟商业条款。机器人无新增达标指标，继续区分需求、融资和现金兑现。",
+      "cards": [
+        {
+          "id": "2026-10-23-am-1",
+          "category": "macro",
+          "title": "1. 美国增长仍强、涨价压力上升，消费者信心却低迷",
+          "status": "10月23日PMI初值与消费者调查终值已发布；不是新CPI或Fed决定",
+          "importance": "高",
+          "body": [
+            "美国10月S&P Global综合PMI初值57.6，低于9月58.4但仍高于50；产出价格指数升至59.8，为2022年8月以来最高。PMI是扩散指数，不表示物价上涨59.8%，也不等同于GDP增速。",
+            "密歇根大学10月消费者信心终值48.0，较9月48.1略低、较10月初值46.3上修；一年通胀预期从4.6%升至4.7%，长期从3.4%升至3.5%。当期状况指数降至46.7，预期指数却升至48.8。"
+          ],
+          "whyImportant": "分析：企业活动仍在扩张，家庭却承受价格与耐用品购买压力，两者可以同时成立。初值上修不等于信心已恢复；增长略慢也不自动带来通胀降温。",
+          "investmentImpact": "分析：需求韧性/供给瓶颈→企业提价→通胀黏性→Fed降息空间受限；家庭购买力受压又可能削弱后续消费。对高估值科技，收入支撑与折现率压力并存；一年通胀预期是受访者判断，不是未来CPI实绩。",
+          "tags": [
+            "美国PMI",
+            "消费者信心",
+            "通胀预期",
+            "Fed",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月23日美国PMI初值",
+              "url": "https://www.reuters.com/business/us-business-activity-cools-october-strong-demand-fueling-price-pressures-2026-10-23/"
+            },
+            {
+              "title": "密歇根大学｜10月消费者调查终值",
+              "url": "https://www.sca.isr.umich.edu/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-23-am-2",
+          "category": "macro",
+          "title": "2. 原油再涨、欧洲天然气走高，俄罗斯柴油仍在途中",
+          "status": "10月23日盘中报价与船舶数据；不是结算或到港完成",
+          "importance": "高",
+          "body": [
+            "Reuters 13:00 GMT（06:00 PT）报价：Brent 114.99美元/桶、涨1.5%；WTI 101.27美元、涨1.8%。阿联酋报告沿岸油轮漏油，但未确认原因或船名，不能直接认定为新的导弹袭击。",
+            "Reuters欧洲早盘报道天然气价格再涨约4%、本月累计接近30%；这与昨晚美国天然气库存不是同一地区或指标，不能混作同一种价格。",
+            "据LSEG船舶数据，载4万吨俄罗斯柴油的船只驶向纽约，预计11月7日抵达；买卖方未明。这是此前协议的运输进展，不是货物已经交付，也不是中期选举前已到港。"
+          ],
+          "whyImportant": "分析：供应缓解措施已有可见船货，但运输时滞仍在；欧洲气价、原油与美国库存之间不能简单互相替代。能源风险溢价尚未因一船柴油就解除。",
+          "investmentImpact": "分析：战争/航运→油气与保险→企业成本及通胀→利率和利润压力；柴油进口可缓解边际紧张，但未证明整体供需缺口消失。对数据中心，继续核对当地电力、燃气合同及备用发电成本；有关选举后军事行动的报道仍非正式行动决定。",
+          "tags": [
+            "原油",
+            "欧洲天然气",
+            "柴油",
+            "中东",
+            "中期选举",
+            "数据中心电力"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月23日13:00 GMT原油报价",
+              "url": "https://www.reuters.com/business/energy/oil-little-changed-supply-concern-lingers-amid-houthi-attacks-saudi-arabia-2026-10-23/"
+            },
+            {
+              "title": "Reuters｜欧洲早盘能源与市场环境",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-23/"
+            },
+            {
+              "title": "Reuters｜俄罗斯柴油船货驶向纽约",
+              "url": "https://www.reuters.com/business/energy/tanker-carrying-40000-t-russian-diesel-heads-new-york-after-putin-trump-deal-2026-10-23/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-23-am-3",
+          "category": "macro",
+          "title": "3. 日本核心CPI重回2%以上，全球资金配置约束仍在",
+          "status": "日本10月23日发布9月数据；昨晚未列的补充，下一次加息仍属预期",
+          "importance": "高",
+          "body": [
+            "日本9月全国核心CPI同比2.1%，高于8月1.7%；剔除生鲜食品及能源的指标同比2.4%，上月1.9%。日本通常所称核心CPI仍包含能源，口径与美国核心CPI不同。",
+            "Reuters报道日银下周可能维持利率、上调通胀预测，并继续释放加息信号；这是消息人士与经济学家的预期，不是已作出的政策决定。"
+          ],
+          "whyImportant": "分析：不仅能源，剔除能源后的价格涨幅也在回升。判断日本政策要看通胀持续性、工资与实际需求，不能因油价上涨就断言下一次会议必加息。",
+          "investmentImpact": "分析：日本利率预期/对冲后收益→JGB相对吸引力→跨境资产再配置→全球流动性。昨晚已报海外债券净卖出，本期不重复；新CPI仍不能证明资金今天已全数回流JGB，也不能直接推导日元必涨或科技股必跌。",
+          "tags": [
+            "日本CPI",
+            "BOJ",
+            "JGB",
+            "日元",
+            "资金流",
+            "全球流动性"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜日本9月全国核心CPI",
+              "url": "https://www.reuters.com/world/asia-pacific/japan-core-inflation-exceeds-boj-target-cements-near-term-rate-hike-chance-2026-10-22/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-23-am-4",
+          "category": "semi",
+          "title": "4. Solidigm暂停美国IPO：扩产资金需求仍需另找路径",
+          "status": "10月23日韩国公司确认；暂停上市不等于取消投资或永久放弃IPO",
+          "importance": "高",
+          "body": [
+            "SK海力士称因市场波动及股价趋势，暂停Solidigm美国上市审议，并继续评估投资时间、规模与融资方式。公司表示这不改变Solidigm增长前景或投资需求。",
+            "Solidigm以NAND和SSD为主，不能把其IPO暂停直接解释为HBM需求下滑；此前讨论的估值或募资额也不是已到账资金。韩国监管对股东权益的担忧与市场波动需分别看待。"
+          ],
+          "whyImportant": "分析：资本市场融资窗口收窄，与终端需求是否强劲是不同问题。扩产若仍推进，资金可能需要由母公司、债务或其他方式提供。",
+          "investmentImpact": "分析：对SK海力士、MU及NAND设备链，跟踪替代融资、美国厂时间表和可交付bit产出；既不把暂停IPO当成新增产能已经取消，也不把公司需求表态当成现金已经解决。本期是资本配置变化，不是新的在华设备出口许可。",
+          "tags": [
+            "SK海力士",
+            "Solidigm",
+            "NAND",
+            "SSD",
+            "MU",
+            "IPO",
+            "融资"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜SK海力士暂停Solidigm美国IPO",
+              "url": "https://www.reuters.com/world/asia-pacific/sk-hynix-drops-us-ipo-plan-solidigm-newspaper-reports-2026-10-22/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-23-am-5",
+          "category": "ai",
+          "title": "5. SpaceX据报谈判接入8万个基站，运营商与铁塔商利益分化",
+          "status": "10月22日晚报道、本期补充；Bloomberg消息人士说法，尚非签约或建成网络",
+          "importance": "中",
+          "body": [
+            "Reuters转引Bloomberg称，SpaceX正与基础设施公司谈判，寻求使用至少8万个美国站点，其中包括与Crown Castle的讨论。相关公司未向Reuters确认具体交易。",
+            "TD Cowen估计全国地面网络成本可能超过800亿美元；这是分析师测算，不是SpaceX正式预算，也不是已确认采购。站点接入谈判不等于已获得完整网络、客户或运营规模。"
+          ],
+          "whyImportant": "分析：新增潜在运营商可能压低传统电信服务的稀缺性，同时增加基础设施租赁需求，价值分配并不一致。",
+          "investmentImpact": "分析：对T、VZ、TMUS，关注价格竞争与新增资本开支；对CCI、AMT等铁塔商，关注真实租约、租金和付款保障。全国网络还需多年建设、频谱与资金衔接，不应提前把全部站点当成已签收入。",
+          "tags": [
+            "SpaceX",
+            "电信",
+            "CCI",
+            "AMT",
+            "T",
+            "VZ",
+            "TMUS",
+            "资本开支"
+          ],
+          "sources": [
+            {
+              "title": "Reuters转引Bloomberg｜SpaceX基站谈判",
+              "url": "https://www.reuters.com/business/media-telecom/spacex-seeks-access-80000-us-cell-sites-wireless-network-bloomberg-news-reports-2026-10-22/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-23-am-6",
+          "category": "ai",
+          "title": "6. Uber将企业Agent由1000人试点扩至逾3万人",
+          "status": "10月22日官方公告，本期补充；部署范围不等于活跃使用或财务回报",
+          "importance": "中",
+          "body": [
+            "OpenAI公告，Uber把ChatGPT Work从约1000名员工试点扩展至全公司超过3万名员工，支持跨应用研究、会议准备、文稿和数据分析等工作。",
+            "公告同时提到内部技能库、批准的集成与员工培训；尚未披露合同金额、每人使用率、节省工时或单位推理成本，双方称会在推进中分享可衡量结果。"
+          ],
+          "whyImportant": "分析：这是明确的大企业部署扩围，说明Agent落地包含权限、工具连接、流程与培训；但可用席位与持续付费使用、生产率改善仍有距离。",
+          "investmentImpact": "分析：对企业AI与身份/数据/集成层，关注激活率、任务完成率、复购和净成本，而不只看席位数量。对UBER，不能据此直接上调利润率；对模型和算力链，也不能把3万席位线性换算成GPU订单。",
+          "tags": [
+            "UBER",
+            "企业Agent",
+            "OpenAI",
+            "部署",
+            "ROI",
+            "身份与数据"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI｜Uber全公司部署公告，10月22日",
+              "url": "https://openai.com/index/uber-chatgpt-work-rollout/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-23-am-7",
+          "category": "ai",
+          "title": "7. Meta将商业与自助广告新条款推迟至11月20日",
+          "status": "10月23日公司发言人确认延期；争议指控尚非监管定论",
+          "importance": "中",
+          "body": [
+            "Meta把更新后的Commercial Terms和Self-Serve Ad Terms生效日从10月30日延至11月20日，以便向合作伙伴解释变化。",
+            "出版商与数字广告商向欧盟和英国反垄断机构投诉，称新条款给Meta无限使用其内容用于AI的权利；Meta否认这一说法。不能把投诉内容写成条款已被法院认定违法，也不能认定延期就是彻底撤回。"
+          ],
+          "whyImportant": "分析：AI数据使用权与商业合作关系发生摩擦，会影响产品、广告生态和内容供给的实施节奏。实际权利边界仍需看最终文本与监管处理。",
+          "investmentImpact": "分析：对META，跟踪条款修改、广告主接受度和监管程序；潜在影响是部署或合作成本变化，本期没有量化收入损失。它与此前财报、CDS及法律案件是不同事件，不能把金额或影响相加。",
+          "tags": [
+            "META",
+            "广告",
+            "内容授权",
+            "AI数据",
+            "监管",
+            "商业条款"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Meta推迟商业与自助广告条款",
+              "url": "https://www.reuters.com/business/media-telecom/meta-delay-new-commercial-terms-criticised-by-publishers-advertisers-2026-10-23/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-23-am-8",
+          "category": "robot",
+          "title": "8. Physical AI / 机器人投资信号：无新增达标部署指标",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本时段未核实到足以改变投资判断的zero-shot、跨本体迁移、触觉/力控、机器人数据效率、人工干预率、连续uptime或硬件单位成本的新可比指标，也未取得新的真实付费deployment或design win。",
+            "企业办公Agent扩围与通信网络谈判不等于机器人的现场商业化。未把旧模型发布、普通演示或融资规模当成机器人收入证据。"
+          ],
+          "whyImportant": "分析：机器人投资需要同时验证能力、可靠性与硬件经济性；找不到新增合格公开数据，不等于产业没有进展。",
+          "investmentImpact": "分析：NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Gemini Robotics、Physical Intelligence及Nabtesco、Harmonic Drive、THK、Nidec，继续看执行器/手/传感器/电池/减速器成本、现场干预、利用率和客户复购，本期不据演示上调订单。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "uptime",
+            "干预率",
+            "BOM",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Google DeepMind｜Gemini Robotics官方跟踪",
+              "url": "https://deepmind.google/models/gemini-robotics/"
+            },
+            {
+              "title": "Figure｜官方新闻跟踪",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方博客跟踪",
+              "url": "https://www.pi.website/blog"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-23-am-9",
+          "category": "macro",
+          "title": "9. 观察清单：通胀兑现、融资窗口与AI监管执行",
+          "status": "观察与分析；正式检查重点已发布，其他缺失读数明确留空",
+          "importance": "中",
+          "body": [
+            "美国政策：SEC今日发布2027财年检查重点，覆盖新技术、私人信贷、复杂及低流动性产品、网络安全与市场基础设施。这是检查优先级，不是宣布禁止AI或所有私人资产。",
+            "宏观：PMI与消费者调查不是新CPI/PPI/PCE；本期未核实到新的美国工资、就业报告、Fed决议或点阵图。今日日终美债曲线尚未形成，不把昨晚收益率当成今天收盘。",
+            "财政/资金：赤字与久期供给→期限溢价→长端利率仍需观察；本期未取得新的可比广泛信用利差、完整资金流或JGB日终读数。单家公司融资或日本CPI不能替代这些数据。",
+            "产业与地缘：Solidigm看替代融资与厂房里程碑；Uber看活跃使用与成本；SpaceX看正式租约；Meta看最终条款。俄罗斯柴油看11月预计到港能否兑现，中期选举相关财政、贸易、关税及军事言论以生效文件和已发生行动区分。"
+          ],
+          "whyImportant": "分析：需求、通胀与资金约束仍交织在一起。既不能因消费信心低就断言衰退，也不能因企业部署扩大就忽略资本开支与数据权利成本。",
+          "investmentImpact": "分析：未来1—12个月，优先看收入能否转成现金、融资能否覆盖交付前支出、通胀能否在需求仍强时回落。对高估值科技与半导体，业务增长与估值倍数可能继续分化。",
+          "tags": [
+            "观察清单",
+            "SEC",
+            "Fed",
+            "财政",
+            "期限溢价",
+            "信用",
+            "中期选举"
+          ],
+          "sources": [
+            {
+              "title": "SEC｜2027财年检查重点官方公告",
+              "url": "https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities"
+            },
+            {
+              "title": "美国财政部｜收益率曲线跟踪",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202610&type=daily_treasury_yield_curve"
+            },
+            {
+              "title": "密歇根大学｜10月消费者调查终值",
+              "url": "https://www.sca.isr.umich.edu/"
+            },
+            {
+              "title": "Reuters｜SK海力士暂停Solidigm美国IPO",
+              "url": "https://www.reuters.com/world/asia-pacific/sk-hynix-drops-us-ipo-plan-solidigm-newspaper-reports-2026-10-22/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-22-pm",
       "date": "2026-10-22",
       "period": "pm",
