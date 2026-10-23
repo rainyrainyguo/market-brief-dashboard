@@ -4,6 +4,286 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-22-pm",
+      "date": "2026-10-22",
+      "period": "pm",
+      "time": "18:55",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-22T18:55:59-07:00",
+      "summary": "10月22日晚报：AI与芯片领跌，国债避险大涨；Brent收113.17美元，天然气库存则略高于常年。Meta信用保险成本创新高，Besi强订单仍须等待收入兑现。补充日本海外债券流量与能源半导体研发政策；METR公开历史Agent监控评估，机器人无本时段新增合格指标。",
+      "cards": [
+        {
+          "id": "2026-10-22-pm-1",
+          "category": "macro",
+          "title": "1. 纳指跌2.60%、芯片跌6.7%，美债大涨仍未托住科技股",
+          "status": "10月22日收盘与官方日终曲线；替换早报盘中快照",
+          "importance": "高",
+          "body": [
+            "纳指收跌2.60%，标普跌1.21%，道指微涨0.02%；费城半导体指数跌6.7%。这是对早报跌幅的日终更新，不是再次发布同一盘中数字。",
+            "美国财政部10月22日曲线：2年期4.65%、10年期4.96%、30年期5.29%，较21日分别下降16、17、13个基点。官方曲线与实时成交收益率口径不同，不混作同一报价。"
+          ],
+          "whyImportant": "分析：当日股票与债券分化表明，市场既担忧AI投资回报，也在寻找避险资产。无风险利率下降，不能抵消盈利预期和股票风险补偿的恶化。",
+          "investmentImpact": "分析：AI现金兑现担忧/地缘风险→卖出高估值科技、买入美债→国债收益率下降，但科技股仍跌。对NVDA、MU及设备链，重点检验盈利和融资压力，而不是把降息式估值扩张套在每次收益率下降上。",
+          "tags": [
+            "纳指",
+            "SOX",
+            "美债",
+            "风险偏好",
+            "NVDA",
+            "MU"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月22日美股收盘",
+              "url": "https://www.reuters.com/business/nasdaq-futures-drop-over-1-ai-worries-resurface-oil-climbs-2026-10-22/"
+            },
+            {
+              "title": "美国财政部｜10月22日官方收益率曲线",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202610&type=daily_treasury_yield_curve"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-22-pm-2",
+          "category": "macro",
+          "title": "2. Brent结算113.17美元；美国天然气库存并非全面短缺",
+          "status": "10月22日原油结算；天然气库存统计截至10月16日",
+          "importance": "高",
+          "body": [
+            "Brent结算113.17美元/桶、涨4.0%；WTI结算99.47美元、涨2.4%。胡塞袭击沙特增加供应风险；利比亚国家石油公司负责人称，管道阀门关闭导致Hamada和Tahara油田减产，但本期未取得减产规模。",
+            "EIA今日公布美国本土48州天然气库存3644 Bcf，一周增加77 Bcf；较去年低152 Bcf，但高于五年均值35 Bcf、约1%。这是库存，不是天然气或LNG成交价。"
+          ],
+          "whyImportant": "分析：原油风险溢价上升与美国天然气库存略高于常年均值可以同时发生。不同能源、地区与运输条件不同，不能把中东原油紧张直接外推为美国气荒。",
+          "investmentImpact": "分析：能源/保险成本→通胀和企业利润→Fed政策约束；同时避险买债可压低收益率。对数据中心，仍需核对当地燃气、电价和交付合同。早报总部撤离消息不再算新增；有关未来对伊军事行动的讨论不等于正式行动决定。",
+          "tags": [
+            "Brent",
+            "WTI",
+            "中东",
+            "利比亚",
+            "天然气",
+            "EIA",
+            "通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月22日原油结算与供应风险",
+              "url": "https://www.reuters.com/business/energy/oil-rises-us-orders-diplomats-leave-saudi-arabia-amid-escalating-tensions-2026-10-22/"
+            },
+            {
+              "title": "EIA｜10月22日发布的天然气库存周报",
+              "url": "https://ir.eia.gov/ngs/ngs.html"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-22-pm-3",
+          "category": "ai",
+          "title": "3. Meta风险传到信用市场：CDS升至114.79bp",
+          "status": "10月22日市场报价；信用保护价格不是违约概率",
+          "importance": "高",
+          "body": [
+            "Reuters报道，Meta五年期信用违约互换（CDS）升至114.79个基点，为纪录高位。早报已讲股价下跌，本期新增是债务保险成本反应，不重抄昨晚财报。",
+            "CDS上升可能同时反映信用担忧、融资敞口对冲和交易供需；报道中的策略师亦指出银行对冲可能是原因，不能把114.79bp直接解释为1.1479%的违约概率。"
+          ],
+          "whyImportant": "分析：AI融资压力已不只是股票估值议题。即使公司收入增长强，持续建设仍需要经营现金、债务或股权资金接续。",
+          "investmentImpact": "分析：信用保护/融资成本上升→新项目资金门槛提高；后续股权融资则可能稀释每股收益。派发C类股本身不创造现金，具体融资仍看实际发行文件。对NBIS、CRWV，也应同时看合同、上电、融资期限和资金成本，不把单家公司CDS当成全市场信用利差。",
+          "tags": [
+            "META",
+            "CDS",
+            "信用",
+            "AI融资",
+            "NBIS",
+            "CRWV",
+            "稀释"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Meta信用违约互换与融资担忧",
+              "url": "https://www.reuters.com/business/meta-falls-investors-balance-muse-growth-with-rising-ai-costs-2026-10-22/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-22-pm-4",
+          "category": "semi",
+          "title": "4. 补充Besi财报：订单强，收入兑现时间仍有约束",
+          "status": "10月22日财报及电话会，本日未报项目补充；ASML竞争回应属管理层判断",
+          "importance": "高",
+          "body": [
+            "Reuters报道Besi第三季度订单3.426亿欧元，环比增17%、同比增96%；第四季度收入指引为第三季度2.834亿欧元上下5%。订单与确认收入需分开看。",
+            "CEO称不把ASML视为混合键合竞争对手，ASML尚未确认此前竞争传闻；对于第四季度收入持平，他强调客户产线何时就绪，并否认这是客户推迟订单。不能把管理层回应升级为长期竞争已被排除。"
+          ],
+          "whyImportant": "分析：设备订单增长与短期收入持平可以并存，客户产线、验收和量产准备决定确认时间。本期用明确的公司解释限定“延迟”，不将需求、交付节奏与取消订单混为一谈。",
+          "investmentImpact": "分析：对Besi及先进封装链，跟踪订单转收入、客户就绪和后续回款；对MU、SK海力士及HBM，不能据此认定已规模采用某条技术路线。强订单支持需求，但不足以单独消除估值和竞争风险。",
+          "tags": [
+            "Besi",
+            "先进封装",
+            "混合键合",
+            "ASML",
+            "HBM",
+            "订单兑现"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Besi订单、指引与竞争回应",
+              "url": "https://www.reuters.com/business/besis-quarterly-orders-beat-expectations-ai-data-centre-demand-stays-strong-2026-10-22/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-22-pm-5",
+          "category": "macro",
+          "title": "5. 日本连续五周卖出海外债券，但同时买入海外股票",
+          "status": "10月22日发布、截至10月17日周度数据；早报未列的资金流补充",
+          "importance": "中",
+          "body": [
+            "据Reuters转引日本财务省数据，日本投资者一周净卖出1616亿日元海外长期债券，连续第五周净卖出；五周累计约3.43万亿日元。同期却净买入1283亿日元海外股票。",
+            "这提供了海外债券配置收缩的实际流量证据，但没有逐笔证明资金全数换回日元、买入JGB，或全部来自出售美国国债。"
+          ],
+          "whyImportant": "分析：日本本土收益吸引力提高可促使机构重新配置；股票与债券流向不同，又说明资金并非整齐划一地撤离所有海外风险资产。",
+          "investmentImpact": "分析：JGB相对回报/汇率对冲成本→跨境债券配置→全球债券需求与流动性。不能从单周海外债券净卖出，直接推导美股流动性崩塌；本期不将周度流量当作今日JGB或日元收盘价。",
+          "tags": [
+            "日本",
+            "资金流",
+            "JGB",
+            "海外债券",
+            "日元",
+            "流动性"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜日本投资者海外证券周度资金流",
+              "url": "https://www.reuters.com/world/asia-pacific/japanese-investors-sell-foreign-bonds-fifth-straight-week-eye-home-market-2026-10-22/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-22-pm-6",
+          "category": "semi",
+          "title": "6. 美国拟投3.89亿美元能源半导体研发，并取得少数股权",
+          "status": "10月22日官方意向书；资助上限不是已全部拨款",
+          "importance": "中",
+          "body": [
+            "NIST公告四份CHIPS研发资助意向书，总额最高3.89亿美元：Helion 1.75亿、Commonwealth Fusion Systems 8500万、Vertical Semiconductor 7300万、Sibelco 5600万美元。政府取得少数、非控股、无投票权股权作为条件。",
+            "项目覆盖聚变电源半导体、垂直GaN供电及高纯石英；Vertical项目包含2.5MW数据中心机架技术示范。示范目标不是已商用机架，也不是聚变已向数据中心稳定售电。"
+          ],
+          "whyImportant": "分析：政策支持从算力芯片延伸到电力转换和关键材料，同时以股权分享潜在回报。研发意向、最终协议、拨款与商业收入仍是不同阶段。",
+          "investmentImpact": "分析：对ON、ADI及功率/材料链，这是技术与政策方向信号，不是这些上市公司获得上述资金或订单的证据。未来一年看协议、研发里程碑和客户认证；本项不等于新增全国关税、税率或中期选举后政策已经确定。",
+          "tags": [
+            "CHIPS",
+            "功率半导体",
+            "GaN",
+            "材料",
+            "ON",
+            "ADI",
+            "政策"
+          ],
+          "sources": [
+            {
+              "title": "NIST｜四份能源半导体研发资助意向书",
+              "url": "https://www.nist.gov/news-events/news/2026/10/department-commerce-announces-letters-intent-4-companies-389-million-rd"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-22-pm-7",
+          "category": "ai",
+          "title": "7. METR公开Agent监控评估：能力之外还要验证控制系统",
+          "status": "10月22日公开；评估发生于7月21日至8月11日，不代表当前系统已被完整复测",
+          "importance": "中",
+          "body": [
+            "METR与Redwood研究人员对OpenAI内部监控系统进行三周高访问权限测试，发现多项监控与控制漏洞。研究针对当时历史系统，不是今日发生的新入侵或客户数据泄漏公告。",
+            "OpenAI表示影响生产防护栈的已发现漏洞已修复；评估方明确没有验证这些修复与后续覆盖变化。本期不把厂商修复声明写成独立复测通过。"
+          ],
+          "whyImportant": "分析：Agent可执行任务越来越多时，权限、监控覆盖和外部验证可能成为企业部署门槛。模型能力排行榜不能直接证明整套部署可靠。",
+          "investmentImpact": "分析：对模型、企业Agent、身份与安全厂商，需求机会在于可审计的权限管理与控制，但本报告本身没有量化采购金额或上市公司收入。部署限制可能影响落地节奏，具体商业影响仍待合同与使用数据。",
+          "tags": [
+            "Agent",
+            "METR",
+            "OpenAI",
+            "Redwood",
+            "安全",
+            "企业部署"
+          ],
+          "sources": [
+            {
+              "title": "METR｜内部Agent监控系统红队评估原文",
+              "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-22-pm-8",
+          "category": "robot",
+          "title": "8. Physical AI / 机器人投资信号：无本时段新增合格指标",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "检索到的Agility/Nyobolt电池合作，官方正文日期为10月15日；虽然有页面今日再次分发，仍不作为今天的新design win。20小时工作目标属于厂商陈述，不能替代独立现场uptime验证。",
+            "本时段未核实到zero-shot、跨本体迁移、触觉/力控、数据效率、人工干预率、可靠性或单位BOM成本的新可比改善，也未取得新的真实付费部署数据。"
+          ],
+          "whyImportant": "分析：电池续航/充电可影响机器人经济性，但发布日期、测试条件、停机维护和人工介入必须同时核对。旧稿重新分发不构成产业加速证据。",
+          "investmentImpact": "分析：暂不据此上调NVDA、ON、ADI、TER、TSLA、Unitree、Figure及精密传动链订单。继续看执行器、手、传感器、电池、减速器的成本与良率，以及付费客户利用率和复购；Google/Gemini Robotics、Physical Intelligence亦以可比较的新指标为准。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "电池",
+            "uptime",
+            "BOM",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Agility｜10月15日Nyobolt电池公告，旧闻日期核查",
+              "url": "https://www.agilityrobotics.com/content/agility-robotics-selects-nyobolt-as-its-ultra-fast-charging-battery-technology-partner-for-digit-5"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-22-pm-9",
+          "category": "macro",
+          "title": "9. 观察清单：低利率能否传到融资，订单能否转成现金",
+          "status": "观察与分析；没有新数据的栏目不以旧值补位",
+          "importance": "中",
+          "body": [
+            "宏观：早报初请数据不重复。本时段未核实到新的CPI/PPI/PCE、工资、Fed决议或点阵图；收益率下降不等于Fed已经降息，也不能单凭曲线分解期限溢价。财政赤字、发债结构与后续拍卖仍需跟踪。",
+            "融资与产业：看Meta实际发行与信用成本、NBIS短期额度长期置换、CRWV资金成本、Besi订单验收和回款。Intel官方财报时间是10月29日盘后，不能把今天股价下跌写成今天财报不及预期。",
+            "能源与政策：看实际产量、航运、保险、当地电价和天然气交付；本期取得的是美国气库存，未取得新的可比天然气/LNG结算价。选举言论、正式许可、财政法案和生效关税分开处理。",
+            "日本与信用：海外证券流量只说明已观测资产配置，未证明全部回流JGB；Meta CDS不是广泛信用指数。本期未取得新的可比美元指数或全市场信用利差读数。"
+          ],
+          "whyImportant": "分析：需求强与股价下跌可以同时发生，因为市场在重新评估资金来源、资本回收时间和每股回报。国债避险上涨也未必降低高风险项目的实际融资成本。",
+          "investmentImpact": "分析：未来1—12个月，优先核验订单、供电、交付、资金期限与现金流能否同时改善；避免用一次融资额度、强订单或国债收益率下跌替代完整投资判断。",
+          "tags": [
+            "观察清单",
+            "Fed",
+            "财政",
+            "期限溢价",
+            "融资",
+            "INTC",
+            "现金流"
+          ],
+          "sources": [
+            {
+              "title": "美国财政部｜10月22日官方收益率曲线",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202610&type=daily_treasury_yield_curve"
+            },
+            {
+              "title": "Intel｜财报计划为10月29日盘后",
+              "url": "https://www.intc.com/news-events/press-releases/detail/1782/intel-to-report-third-quarter-2026-financial-results"
+            },
+            {
+              "title": "Reuters｜Meta信用违约互换与融资担忧",
+              "url": "https://www.reuters.com/business/meta-falls-investors-balance-muse-growth-with-rising-ai-costs-2026-10-22/"
+            },
+            {
+              "title": "Reuters｜Besi订单、指引与竞争回应",
+              "url": "https://www.reuters.com/business/besis-quarterly-orders-beat-expectations-ai-data-centre-demand-stays-strong-2026-10-22/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-22-am",
       "date": "2026-10-22",
       "period": "am",
