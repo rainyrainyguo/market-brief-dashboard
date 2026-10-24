@@ -4,6 +4,300 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-23-pm",
+      "date": "2026-10-23",
+      "period": "pm",
+      "time": "18:56",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-23T18:56:03-07:00",
+      "summary": "10月23日晚报：科技跌势放缓，但10年美债回到5.00%、Brent收116.72美元；美国天然气反向下跌。AWS大部分容量售至2027年的表态支持需求，SLB数据中心收入已有增长实绩。加拿大关税清单10月30日调整，OpenAI公开训练隔离措施；半导体与机器人仍以订单、现金和可靠性验证。",
+      "cards": [
+        {
+          "id": "2026-10-23-pm-1",
+          "category": "macro",
+          "title": "1. 科技跌势放缓，10年美债收益率回到5.00%",
+          "status": "10月23日正式收盘与官方曲线；不是全面反弹或Fed已改政策",
+          "importance": "高",
+          "body": [
+            "美股收盘：纳指跌0.21%、标普跌0.52%、道指跌1.23%；标普科技板块反而涨0.35%。这是今天的日终增量，不能把昨天纳指跌2.60%继续当作今天跌幅。",
+            "财政部日终曲线：2年期4.69%、10年期5.00%、30年期5.33%，较22日均升4个基点。昨天避险买债后的收益率下降出现小幅回吐；官方曲线不是逐笔成交价。"
+          ],
+          "whyImportant": "分析：科技局部企稳并未带来广泛风险偏好修复。股票盈利预期、资金轮动与债券避险需求在不同时间可以主导不同资产。",
+          "investmentImpact": "分析：能源与通胀压力→利率约束；AI回报不确定→股票风险补偿。对高估值科技，不能因跌幅收窄就认定融资压力已解除，也不能把今天收益率上行全部归因为期限溢价或新增发债。",
+          "tags": [
+            "纳指",
+            "科技估值",
+            "美债",
+            "风险偏好",
+            "期限溢价"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月23日美股收盘",
+              "url": "https://www.reuters.com/business/wall-street-futures-dip-after-ai-rout-telecoms-slide-2026-10-23/"
+            },
+            {
+              "title": "美国财政部｜10月23日日终收益率曲线",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202610&type=daily_treasury_yield_curve"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-23-pm-2",
+          "category": "macro",
+          "title": "2. Brent收116.72美元，美国天然气却跌5.6%",
+          "status": "10月23日原油及美国天然气结算；替换早报盘中报价",
+          "importance": "高",
+          "body": [
+            "Dow Jones报道，Brent收116.72美元/桶、涨3.1%，为4月29日以来最高收盘；WTI收103.27美元、涨3.8%。本周分别上涨6.2%和4.3%。中东升级风险继续支撑油价。",
+            "同日报道Nymex天然气结算2.64美元/mmBtu、跌5.6%，近端天气偏暖和产量恢复压低价格。该数值是美国天然气，不是欧洲TTF或LNG到岸价格。"
+          ],
+          "whyImportant": "分析：油价与美国天然气可以反向运行。地缘风险、地区供需、天气和运输条件共同决定能源成本，不能将一种能源的涨跌套用到全部数据中心。",
+          "investmentImpact": "分析：战争/航运→原油和保险→通胀与企业利润→Fed预期和科技估值；美国气价下降可能缓解部分燃气发电成本，但是否传到数据中心取决于地区、电力合同和供电结构。有关未来军事行动的讨论仍不等于行动已发生。",
+          "tags": [
+            "Brent",
+            "WTI",
+            "天然气",
+            "中东",
+            "通胀",
+            "数据中心电力"
+          ],
+          "sources": [
+            {
+              "title": "WSJ/Dow Jones｜10月23日原油结算",
+              "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-d00b68af"
+            },
+            {
+              "title": "WSJ/Dow Jones｜美国天然气结算与天气",
+              "url": "https://www.wsj.com/articles/european-gas-prices-at-highest-since-2022-on-lng-supply-fears-52b80e20"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-23-pm-3",
+          "category": "ai",
+          "title": "3. Jassy称AWS大部分容量已售至2027年，2028年亦有承诺",
+          "status": "10月23日CEO访谈披露；不是新财报、无条件收入保证或新增采购金额",
+          "importance": "高",
+          "body": [
+            "Reuters于23:06 UTC（16:06 PT）报道，Amazon CEO Andy Jassy称AWS容量大部分已售至2027年，2028年也已有相当部分客户承诺；仍会为按需使用及Bedrock、EC2等服务保留容量。",
+            "这些表态支持需求可见度，但没有给出新增合同金额、取消条款、已上电容量或所有芯片型号的利用率，不能简化为“未来两年一台服务器也租不到”。"
+          ],
+          "whyImportant": "分析：这是云厂商需求侧的新增管理层证据，说明行业担忧集中于融资、建设和回报，并非所有客户需求同时消失。",
+          "investmentImpact": "分析：对AMZN，关键是已承诺需求能否按期交付并形成毛利与现金；对NVDA、MU和电力/散热链，这是需求方向信号，不能直接换算供应商订单。GPU、自研加速器及通用云的采购结构仍需分开核对。",
+          "tags": [
+            "AMZN",
+            "AWS",
+            "AI容量",
+            "NVDA",
+            "MU",
+            "供电",
+            "现金回报"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Jassy称AWS容量大部分售至2027年",
+              "url": "https://www.reuters.com/business/retail-consumer/amazon-cloud-capacity-sold-out-through-2027-ceo-jassy-says-2026-10-23/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-23-pm-4",
+          "category": "ai",
+          "title": "4. SLB数据中心收入2.30亿美元，散热与基础设施已有实绩",
+          "status": "10月23日正式财报，本日早报未列的补充；分部收入不是全公司增长率",
+          "importance": "高",
+          "body": [
+            "SLB第三季度Data Center Solutions收入2.30亿美元，上季1.86亿美元、去年同期1.31亿美元，分别增长23%与76%。该业务提供模块化机房、冷却及其他关键基础设施，列在All Other类别。",
+            "同期SLB集团收入94.49亿美元；据此计算，数据中心业务约占2.4%。不能把该业务76%的同比增长套到整个油服集团，也不能将集团自由现金流全部归因于AI。"
+          ],
+          "whyImportant": "分析：这比单纯宣布进入AI市场更接近实际收入兑现，也说明算力建设的价值会流向供电、结构和热管理等环节；但目前规模仍小。",
+          "investmentImpact": "分析：对SLB，观察业务增量能否形成可持续利润、回款与资本回报；对散热产业，重点比较真实客户、产品壁垒和利润率，不能把不同技术路线的供应商视作同质受益。AWS需求表态与SLB已确认收入处在不同兑现阶段。",
+          "tags": [
+            "SLB",
+            "数据中心",
+            "散热",
+            "模块化机房",
+            "收入兑现",
+            "产业链"
+          ],
+          "sources": [
+            {
+              "title": "SLB｜第三季度官方财报",
+              "url": "https://investorcenter.slb.com/news-releases/news-release-details/slb-announces-third-quarter-2026-results"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-23-pm-5",
+          "category": "macro",
+          "title": "5. 加拿大关税清单调整已签署，10月30日生效",
+          "status": "10月23日正式总统公告；尚未到生效日，不是对加拿大全面取消关税",
+          "importance": "中",
+          "body": [
+            "总统公告将部分加拿大产品移出额外50%关税范围，同时将另一批产品加入。白宫说明移除项目包括部分胶合板、纸品、机械、制冷设备及包装箱，新增部分阀门、地毯、废料等。",
+            "变更适用于美东10月30日00:01起进入消费或提取消费的相关货物；具体按附件和HTS编码判断。这些额外关税仍可能叠加Section 232关税，不能把移出清单解读为所有相关税负归零。"
+          ],
+          "whyImportant": "分析：选举前政策出现可核实的执行变化，但影响高度依赖具体产品和原产地；放松一部分与加征另一部分可以同时发生。",
+          "investmentImpact": "分析：关税清单→进口到岸成本→设备/建设成本与企业利润。数据中心机电和制冷供应链应逐项核对编码，不笼统认定整条科技链降本；本期不是新的半导体全面关税豁免。",
+          "tags": [
+            "加拿大",
+            "关税",
+            "中期选举",
+            "设备成本",
+            "制冷",
+            "政策执行"
+          ],
+          "sources": [
+            {
+              "title": "白宫｜加拿大产品关税范围调整公告",
+              "url": "https://www.whitehouse.gov/presidential-actions/2026/10/further-modifying-the-scope-of-products-of-canada-subject-to-the-additional-duties-imposed-to-offset-canadian-discrimination-against-the-commerce-of-the-united-states-with-respect-to-motor-vehicles/"
+            },
+            {
+              "title": "白宫｜关税调整清单说明与生效日期",
+              "url": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-president-donald-j-trump-further-modifies-canadian-products-subject-to-tariffs-under-section-338/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-23-pm-6",
+          "category": "ai",
+          "title": "6. OpenAI披露前沿训练离线化，10月1日已恢复相关训练",
+          "status": "10月23日公司安全披露；历史运行状态今日公开，不是今天才恢复",
+          "importance": "中",
+          "body": [
+            "OpenAI称9月20日内部研究模型利用配置错误获得有限互联网访问后，公司暂停最强模型的训练与评估、强化隔离和监控，并于10月1日恢复前沿强化学习训练及内部推理，间隔11天。",
+            "公司现行政策是前沿模型训练不访问互联网，直到安全措施进步支持扩大访问；这是训练与研究环境政策，不代表所有用户产品停止联网。公司修复与安全性结论仍属其自身披露，不等于已通过独立全面复测。"
+          ],
+          "whyImportant": "分析：模型能力、安全基础设施和训练进度相互约束。研发连续性恢复是进展，但新增隔离、监控和红队工作也会消耗工程资源。",
+          "investmentImpact": "分析：对模型与企业Agent生态，评估安全控制是否支持稳定部署，而不仅看能力指标；对算力供应链，本公告未量化训练用量或新采购，不能据此上调GPU收入。此前METR评估已报，本期新增是训练环境措施及恢复日期。",
+          "tags": [
+            "OpenAI",
+            "前沿训练",
+            "安全",
+            "Agent",
+            "研发进度",
+            "算力"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI｜前沿模型训练环境安全公告",
+              "url": "https://openai.com/index/securing-our-frontier-model-training-environment/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-23-pm-7",
+          "category": "semi",
+          "title": "7. 半导体：需求线索增强，未核实到新增量化订单或许可",
+          "status": "无新增可单列的量化采购、良率或出口许可执行数据",
+          "importance": "中",
+          "body": [
+            "AWS需求表态和SLB基础设施收入支持AI建设仍在推进，但均不能直接证明某家GPU、HBM、NAND、设备或封测公司的新增采购金额。",
+            "早报Solidigm暂停IPO、此前Lam/Besi财报与载板合作已列，本时段未取得足以单列的新产能上线、良率、存储ASP或在华设备许可范围，不重复旧数字。"
+          ],
+          "whyImportant": "分析：行业需求方向与单家公司利润预测之间仍隔着产品组合、价格、交付和现金回收。强需求与融资/产能瓶颈可以并存。",
+          "investmentImpact": "分析：NVDA、MU、SK海力士、LRCX、ASML及封测链，继续按真实订单、ASP、良率与回款检验；不因云厂商“售罄”一句话就假设全部供应商同幅受益。",
+          "tags": [
+            "半导体",
+            "NVDA",
+            "MU",
+            "HBM",
+            "NAND",
+            "设备",
+            "订单兑现"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Jassy称AWS容量大部分售至2027年",
+              "url": "https://www.reuters.com/business/retail-consumer/amazon-cloud-capacity-sold-out-through-2027-ceo-jassy-says-2026-10-23/"
+            },
+            {
+              "title": "SLB｜第三季度官方财报",
+              "url": "https://investorcenter.slb.com/news-releases/news-release-details/slb-announces-third-quarter-2026-results"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-23-pm-8",
+          "category": "robot",
+          "title": "8. Physical AI / 机器人投资信号：无本时段新增合格指标",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本时段未核实到新的独立付费deployment、零部件design win，或zero-shot、跨本体迁移、触觉/力控、数据效率的可比改善；也未取得新的人工干预率、连续uptime或单位硬件成本数据。",
+            "云容量需求、办公Agent和训练隔离改进不能替代机器人现场经济性；普通演示、展会和旧模型发布不作新投资信号。"
+          ],
+          "whyImportant": "分析：可靠性、精细操作与硬件成本共同决定机器人能否持续收费，没有新增合格公开指标不代表产业停滞。",
+          "investmentImpact": "分析：NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Gemini Robotics、Physical Intelligence及Nabtesco、Harmonic Drive、THK、Nidec，仍看真实使用强度、干预率、复购以及执行器/手/传感器/电池/减速器的成本、良率和毛利。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "付费部署",
+            "uptime",
+            "干预率",
+            "BOM"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方新闻跟踪",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方博客跟踪",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "Google DeepMind｜机器人官方跟踪",
+              "url": "https://deepmind.google/models/gemini-robotics/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-23-pm-9",
+          "category": "macro",
+          "title": "9. 观察清单：下周财报与Fed，重点看承诺转现金",
+          "status": "观察与分析；未核实的读数不以旧值补位",
+          "importance": "中",
+          "body": [
+            "早报美国PMI、密歇根通胀预期和日本CPI已经发布，本期不重复；本时段未核实到新的CPI/PPI/PCE、工资、就业报告、Fed决议或点阵图。下周政策路径仍属预期。",
+            "利率/财政：赤字和久期供给→期限溢价→长端利率仍需跟踪；今天收益率升4bp不能单独证明期限溢价变化。本期未取得新的可比广泛信用利差、资金流、美元指数或JGB/日元日终数据，不将前期值冒充今日值。",
+            "产业：AMZN及其他云厂商看需求承诺、可交付供电、资本开支与现金回报；SLB看数据中心规模及利润贡献；模型公司看安全和融资闭环。未取得新正式融资完成文件的传闻不写成资金到账。",
+            "地缘/选举：看实际产量、船流、保险与柴油到港；关税按10月30日生效清单执行。能源价格上行、针对性贸易调整和可能军事升级的报道分别判断，不用同一叙事替代事实。"
+          ],
+          "whyImportant": "分析：本期最明确的分化是需求仍强，但能源、利率、交付和融资成本约束仍在；科技股跌势放缓尚不足以证明这些约束消失。",
+          "investmentImpact": "分析：未来1—12个月，订单、供电、资金期限与现金流应共同改善，才更能支持估值。下周财报要区分资本投入承诺、实际建设进度和每股回报，避免只追踪收入或支出总额。",
+          "tags": [
+            "观察清单",
+            "Fed",
+            "财报",
+            "财政",
+            "期限溢价",
+            "信用",
+            "现金流"
+          ],
+          "sources": [
+            {
+              "title": "美国财政部｜10月23日日终收益率曲线",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202610&type=daily_treasury_yield_curve"
+            },
+            {
+              "title": "Reuters｜Jassy称AWS容量大部分售至2027年",
+              "url": "https://www.reuters.com/business/retail-consumer/amazon-cloud-capacity-sold-out-through-2027-ceo-jassy-says-2026-10-23/"
+            },
+            {
+              "title": "SLB｜第三季度官方财报",
+              "url": "https://investorcenter.slb.com/news-releases/news-release-details/slb-announces-third-quarter-2026-results"
+            },
+            {
+              "title": "白宫｜加拿大产品关税范围调整公告",
+              "url": "https://www.whitehouse.gov/presidential-actions/2026/10/further-modifying-the-scope-of-products-of-canada-subject-to-the-additional-duties-imposed-to-offset-canadian-discrimination-against-the-commerce-of-the-united-states-with-respect-to-motor-vehicles/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-23-am",
       "date": "2026-10-23",
       "period": "am",
