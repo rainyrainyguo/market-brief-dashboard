@@ -4,6 +4,191 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-24-am",
+      "date": "2026-10-24",
+      "period": "am",
+      "time": "07:56",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-24T07:56:33-07:00",
+      "summary": "隔夜重点是风险与政策：沙特通报新一轮导弹拦截；中方回应美国拟扩大对外投资限制，HBM等技术的资本合作风险值得关注。Kimi K3.1 Pro上线，但完整权重仍待发布；英国AI投入增加，须区分公共资金、模型额度和未来订单。周末不重复上期收盘行情。",
+      "cards": [
+        {
+          "category": "macro",
+          "title": "1. 宏观 / 市场环境：沙特再报导弹拦截，供应风险延续",
+          "status": "新增通报｜损失未确认",
+          "importance": "高",
+          "body": [
+            "发生了什么：Reuters于10月24日08:34 UTC（洛杉矶01:34）报道，沙特领导的联军称拦截并摧毁两枚胡塞武装射向塔伊夫和延布的弹道导弹。这是上一期之后的新通报；本条不将其写成已证实的炼厂受损或原油减产。"
+          ],
+          "whyImportant": "分析：战事继续触及沙特城市，能源、航运和保险风险难以消退。传导链为袭击风险→潜在供应中断与风险溢价→油价及通胀预期→利率预期和科技股折现率；若实际供应无损，风险溢价也可能回吐，不能把链条每一步都当成已发生。",
+          "investmentImpact": "分析：NVDA、MU等半导体和NBIS、CRWV等资本密集型算力公司的需求逻辑，仍可能被融资成本与风险偏好抵消。周末没有新的标准交易日原油结算价，本期不推定周一跳空或股价涨跌。",
+          "tags": [
+            "中东",
+            "胡塞武装",
+            "原油",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月24日沙特联军导弹拦截通报",
+              "url": "https://www.reuters.com/world/middle-east/saudi-civil-defense-says-danger-passed-after-brief-alerts-mecca-jeddah-taif-2026-10-24/"
+            }
+          ],
+          "id": "2026-10-24-am-1"
+        },
+        {
+          "category": "semi",
+          "title": "2. 中方回应美对外投资新提案；HBM纳入拟扩大范围",
+          "status": "新增回应｜规则尚在提案阶段",
+          "importance": "高",
+          "body": [
+            "发生了什么：中国商务部10月24日发布回应，要求美方停止扩大对华投资限制。背景补充：美国财政部10月22日提出更新对外投资安全规则，公开征求意见截至12月7日，最终规则及生效日期尚待后续确定。",
+            "提案具体涉及什么：财政部事实清单列明，拟将半导体投资禁限范围扩至HBM、光子集成电路等，并增加生物技术领域。覆盖交易包括特定股权、合资与新建投资；公开交易证券等设有例外，不能概括为美国投资者已被全面禁止购买中国科技股。"
+          ],
+          "whyImportant": "分析：限制可能从设备、芯片贸易进一步影响资金、治理参与和技术合作。中方回应增加政策摩擦的不确定性，但截至本条核验，没有据此确认新的具体反制措施已经实施。",
+          "investmentImpact": "分析：MU、SK海力士及相关先进封装链需区分中国竞争者融资约束、跨境合作限制和现有产品订单。这是资本交易政策提案，不是新的HBM出口禁令，也不足以直接上调美光收入或毛利预测。",
+          "tags": [
+            "中美政策",
+            "HBM",
+            "MU",
+            "资本流动",
+            "提案"
+          ],
+          "sources": [
+            {
+              "title": "商务部｜10月24日回应美新版对外投资限制拟议规则",
+              "url": "https://www.mofcom.gov.cn/xwfb/xwfyrth/art/2026/art_d56e28ed788c4c8a887875dbfc287fe3.html"
+            },
+            {
+              "title": "美国财政部｜10月22日拟议规则公告",
+              "url": "https://home.treasury.gov/news/press-releases/sb0667"
+            },
+            {
+              "title": "美国财政部｜COINS提案事实清单与例外",
+              "url": "https://home.treasury.gov/system/files/206/Fact-Sheet-FAQs-COINS-Act-NPRM.pdf"
+            }
+          ],
+          "id": "2026-10-24-am-2"
+        },
+        {
+          "category": "ai",
+          "title": "3. Kimi K3.1 Pro上线；权重待11月4日，安全测试属公司自报",
+          "status": "产品已上线｜权重计划未兑现",
+          "importance": "中",
+          "body": [
+            "发生了什么：Moonshot官方研究页标注10月24日，宣布Kimi K3.1 Pro及Highspeed版本在产品和API提供服务，完整权重计划于11月4日前发布。官方称上下文为100万token，K3.1 Pro来自K3的进一步后训练；服务上线与权重可下载是两件事。",
+            "公司自报：内部漏洞发现与利用测试xdev-bench-hard中，过滤网络安全相关训练数据后的模型pass@3为81.0%，未实施相同风险降低措施的检查点为90.5%。这是内部测试，不能当作独立验证的真实攻击成功率。"
+          ],
+          "whyImportant": "分析：开放模型竞争继续向复杂软件工作流推进，企业采用时同时面对性能、成本和可治理性问题。主动降低特定能力，并不意味着一般编码能力或所有网络风险同步下降。",
+          "investmentImpact": "分析：对闭源模型和编程工具形成竞争压力，也可能推动私有部署需求；尚无新增收入、付费客户或GPU采购额，不能据此认定NVDA、NBIS或CRWV获得订单。观察11月4日前权重是否按期发布，以及独立评测、真实任务成本与企业转化。",
+          "tags": [
+            "Moonshot",
+            "Kimi",
+            "开放权重",
+            "网络安全",
+            "公司自报"
+          ],
+          "sources": [
+            {
+              "title": "Moonshot｜Kimi K3.1 Pro官方技术博客",
+              "url": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+            },
+            {
+              "title": "Moonshot｜研究目录与发布日期",
+              "url": "https://www.kimi.com/en/blog/"
+            }
+          ],
+          "id": "2026-10-24-am-3"
+        },
+        {
+          "category": "ai",
+          "title": "4. 英国AI安全投入：公共预算与模型额度要分开看",
+          "status": "官方资金承诺｜非供应商收入",
+          "importance": "中",
+          "body": [
+            "发生了什么：英国10月24日官方公布AI投入计划。其中生物安全倡议为1.65亿英镑，含1亿英镑AI Biosecurity Lab及6500万英镑监测和医疗对策资金。OpenAI与Anthropic另提供最高合计2亿英镑模型额度；额度不是等额现金，也不是已确认的模型销售收入。",
+            "同一计划还列明：AI Security Institute追加1.2亿英镑，National Cyber Shield投入6000万英镑；后者包含2500万英镑挑战基金，不应重复加总。"
+          ],
+          "whyImportant": "分析：政府开始为AI风险评测、主动防御和生物安全建立更具体的预算渠道，可能扩大安全研究与应用采购市场；预算宣布、招标、合同和验收之间仍有距离。",
+          "investmentImpact": "分析：模型公司与安全工具供应商存在未来服务机会，但本次额度承诺不足以证明商业收入增长或盈利改善。观察后续采购公告、供应商名单、履约期限及模型额度实际使用。",
+          "tags": [
+            "英国",
+            "AI安全",
+            "OpenAI",
+            "Anthropic",
+            "公共采购"
+          ],
+          "sources": [
+            {
+              "title": "英国财政部｜10月24日AI计划",
+              "url": "https://www.gov.uk/government/news/chancellor-unveils-britains-ambitious-plan-for-ai"
+            },
+            {
+              "title": "英国政府｜AI Biosecurity Lab资金及公司承诺",
+              "url": "https://www.gov.uk/government/news/introducing-the-ai-biosecurity-lab"
+            }
+          ],
+          "id": "2026-10-24-am-4"
+        },
+        {
+          "category": "robot",
+          "title": "5. Physical AI / 机器人投资信号：英国新增产业资金，暂无部署指标",
+          "status": "政策资金信号｜非付费部署",
+          "importance": "中",
+          "body": [
+            "发生了什么：上述英国计划为Sovereign AI Fund追加6000万英镑，新增Physical and Industrial AI重点，涵盖机器人、自主系统与先进制造；另有6000万英镑用于研发采购。这两笔用途不同，不能全算作机器人项目订单。",
+            "本时段未核实到所跟踪公司新增、可比较的零样本泛化、跨本体迁移、触觉/力控精细操作、数据效率、人工干预率、uptime或硬件单位经济性改善，也未确认由此产生的付费deployment或design win。"
+          ],
+          "whyImportant": "分析：这是可跟踪的资本与采购渠道，实质性强于普通演示，但仍处于资金分配入口，不能证明机器人技术可靠性和客户回报已改善。",
+          "investmentImpact": "分析：对NVDA、ON、ADI、TER及减速器、执行器供应链暂不作订单归因。下一步看获投或中标企业、采购数量、单机毛利、持续运行时长和人工接管频率；未披露前不提高收入预测。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "英国",
+            "产业资金",
+            "部署待验证"
+          ],
+          "sources": [
+            {
+              "title": "英国财政部｜Sovereign AI资金与Physical/Industrial AI方向",
+              "url": "https://www.gov.uk/government/news/chancellor-unveils-britains-ambitious-plan-for-ai"
+            }
+          ],
+          "id": "2026-10-24-am-5"
+        },
+        {
+          "category": "macro",
+          "title": "6. 宏观观察清单：等待新数据，分清利率、流动性与订单",
+          "status": "观察清单｜非新增数据",
+          "importance": "中",
+          "body": [
+            "本期未核实到上一期之后新增的美国CPI/PPI/PCE、就业工资、Fed决定或点阵图，也未核实到足以更新判断的美国财政发债、期限溢价、日本JGB/日元、美元、信用利差或资金流数据。不用周五数据重新包装为周末变化。",
+            "接下来重点观察：①中东事件是否带来实际产能、港口或航线损失；②美国投资提案是否进入最终规则，以及中方是否采取具体措施；③下次交易时段长端利率与信用利差是否同步上升；④英国资金是否进入招标和合同；⑤Kimi权重发布与企业实际采用。"
+          ],
+          "whyImportant": "分析：财政赤字和发债压力可能推高期限溢价及长端利率；日本收益率提高可能促使资金回流、影响海外风险资产。两条链都需持仓、流量和价格证据，不能仅凭收益率变化推定已发生大规模撤资。",
+          "investmentImpact": "分析：未来1—12个月科技与半导体判断，应同时检验盈利兑现和融资条件。中期选举前后的关税、监管与财政表态先列为政策风险；只有签署文本、生效日期和具体范围清楚后，才计入公司盈利假设。",
+          "tags": [
+            "观察清单",
+            "Fed",
+            "期限溢价",
+            "JGB",
+            "中期选举"
+          ],
+          "sources": [
+            {
+              "title": "美国财政部｜对外投资提案与征求意见进度",
+              "url": "https://home.treasury.gov/policy-issues/international/outbound-investment-program"
+            },
+            {
+              "title": "英国财政部｜AI计划与后续落实",
+              "url": "https://www.gov.uk/government/news/chancellor-unveils-britains-ambitious-plan-for-ai"
+            }
+          ],
+          "id": "2026-10-24-am-6"
+        }
+      ]
+    },
+    {
       "id": "2026-10-23-pm",
       "date": "2026-10-23",
       "period": "pm",
