@@ -4,6 +4,193 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-24-pm",
+      "date": "2026-10-24",
+      "period": "pm",
+      "time": "19:04",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-24T19:04:42-07:00",
+      "summary": "本期新增集中在地缘与通信：胡塞武装声称袭击沙特能源设施，命中与供应损失尚未确认；美国情报警告及地区旅行提示增加升级风险。乌方称Starlink/Starshield恢复，随后Musk提出使用条款指控。AI、半导体和机器人暂无本时段新增的合格量化订单或部署指标，不重复早报。",
+      "cards": [
+        {
+          "category": "macro",
+          "title": "1. 宏观 / 市场环境：胡塞声称袭击沙特能源设施，供应损失未获确认",
+          "status": "早报后新增声明｜命中与损失待核实",
+          "importance": "高",
+          "body": [
+            "发生了什么：Reuters于10月24日更新报道，胡塞武装声称袭击延布Aramco设施、Rabigh炼厂、原油泵站及东西向输油管道。沙特方面报告拦截碎片落地，但未直接确认上述目标被击中；目前不能写成炼厂停产或管道中断。",
+            "相对早报的新增是具体能源目标声明及也门政府报告亚丁海岸警卫队设施遭导弹袭击；早报已列的两枚导弹拦截不作为又一次新事件计数。"
+          ],
+          "whyImportant": "分析：威胁范围涉及能源生产、加工与运输，市场需要区分袭击意图、实际命中和持续供应损失。战争→供应及运输风险→油价与通胀预期→Fed路径和美债收益率→科技估值，仍是关键传导链；每一步都需后续数据验证。",
+          "investmentImpact": "分析：对NVDA、MU和NBIS、CRWV等算力链，能源与融资风险可能压低估值承受力，但本期没有新的原油标准交易日结算价，也没有可据此量化的利润损失。优先观察产量、装船、管道运行和保险费率，不预测周一必然跳空。",
+          "tags": [
+            "中东",
+            "能源设施",
+            "原油",
+            "供应风险",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月24日更新：能源目标声明及亚丁袭击",
+              "url": "https://www.reuters.com/world/middle-east/saudi-civil-defense-says-danger-passed-after-brief-alerts-mecca-jeddah-taif-2026-10-24/"
+            }
+          ],
+          "id": "2026-10-24-pm-1"
+        },
+        {
+          "category": "macro",
+          "title": "2. 美国情报警告及旅行提示更新；不等于军事行动已决定",
+          "status": "新增报道｜情报判断非已发生袭击",
+          "importance": "高",
+          "body": [
+            "发生了什么：Reuters于10月24日16:03 UTC（09:03 PT）报道，其看到的10月23日美国情报备忘录警告伊朗加大针对美国人员的行动准备。24日美国亦更新多个海湾及中东国家的旅行提示。",
+            "情报备忘录是美方风险判断；本条没有独立验证其中行动准备的具体细节，也不将旅行提示更新概括为所有国家警戒等级一律上调。"
+          ],
+          "whyImportant": "分析：人员安全警告可能增加企业安保、出差和项目交付成本，并抬高市场对报复与再升级的担忧；它不等于美方已公布新一轮攻击时间表，也不证明外交渠道完全关闭。",
+          "investmentImpact": "分析：对海湾数据中心、工程与航空项目，关注实际撤离、工期调整和履约条款。中期选举临近，军事与政策表态可能增加波动；不能把选举前后行动传闻当作确定交易时点。",
+          "tags": [
+            "美国",
+            "伊朗",
+            "情报警告",
+            "交付风险",
+            "中期选举"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月24日情报备忘录与旅行提示报道",
+              "url": "https://www.reuters.com/world/middle-east/iran-has-ramped-up-efforts-target-us-personnel-intelligence-memo-warns-2026-10-24/"
+            },
+            {
+              "title": "美国国务院｜沙特旅行提示跟踪",
+              "url": "https://travel.state.gov/en/international-travel/travel-advisories/saudi-arabia.html"
+            }
+          ],
+          "id": "2026-10-24-pm-2"
+        },
+        {
+          "category": "ai",
+          "title": "3. 乌方称Starlink/Starshield恢复；Musk随后提出条款指控",
+          "status": "当日恢复声明与后续争议｜非新合同",
+          "importance": "中",
+          "body": [
+            "发生了什么：乌克兰10月24日称Starlink及军用Starshield恢复此前运行状态；随后Musk指控乌军违反Starlink使用条款，乌方顾问反驳相关攻击用途说法。恢复是乌方报告，责任与用途争议尚未由本期独立裁定。",
+            "当天恢复进展及后续争议是本条重点。报道中的km/h表示终端所在载体移动速度，不是网络下载速率，不能当成带宽提升。"
+          ],
+          "whyImportant": "分析：关键通信服务的可用性取决于技术能力，也取决于合同权限、用途限制和政府决策。恢复服务缓解眼前约束，但不能自动消除单一供应商依赖。",
+          "investmentImpact": "分析：对卫星通信与主权基础设施，长期可能增加冗余和替代采购诉求，但本期没有新合同额、收入或可归因订单。也不能把军用通信事件外推成商业云、NBIS或CRWV的新增收入。",
+          "tags": [
+            "SpaceX",
+            "Starlink",
+            "Starshield",
+            "通信可靠性",
+            "主权基础设施"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月24日恢复及Musk后续表态",
+              "url": "https://www.reuters.com/world/europe/ukraine-says-starlink-starshield-operating-400-kph-after-week-throttling-2026-10-24/"
+            },
+            {
+              "title": "Reuters转载全文｜恢复与使用条款争议",
+              "url": "https://www.investing.com/news/world-news/ukraine-says-starlink-and-starshield-operating-at-400-kph-after-week-of-throttling-4970757"
+            }
+          ],
+          "id": "2026-10-24-pm-3"
+        },
+        {
+          "category": "semi",
+          "title": "4. AI / 半导体：暂无新增合格量化进展",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本时段未核实到足以单列的GPU/HBM/NAND新增采购金额、存储ASP、量产良率、出口许可执行范围或模型公司正式融资完成文件。早报Kimi发布、英国AI预算及美国对外投资提案已列，本期不重复。",
+            "周末新刊出的转载、周报和评论，不因文章日期更新就视为公司刚发生的新事件；融资意向、政策资金与客户已付款订单继续分别判断。"
+          ],
+          "whyImportant": "分析：模型进步、资本供给和芯片利润之间还有需求转化、产品组合、交付及现金回收环节。暂无核实到新增公开证据，不代表行业没有活动。",
+          "investmentImpact": "分析：NVDA、MU及相关供应链继续观察订单、ASP、良率、资本开支和回款；对NBIS、CRWV重点看供电交付、合同约束与资金期限。本期不因地缘新闻或旧需求表态调整盈利预测。",
+          "tags": [
+            "AI",
+            "半导体",
+            "NVDA",
+            "MU",
+            "NBIS",
+            "CRWV",
+            "订单验证"
+          ],
+          "sources": [
+            {
+              "title": "NVIDIA｜官方新闻归档（跟踪入口）",
+              "url": "https://nvidianews.nvidia.com/news"
+            }
+          ],
+          "id": "2026-10-24-pm-4"
+        },
+        {
+          "category": "robot",
+          "title": "5. Physical AI / 机器人投资信号：无新增达标部署或可靠性指标",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本时段未核实到新增真实付费deployment或零部件design win，也未取得可比较的zero-shot泛化、跨本体迁移、触觉/力控、数据效率、人工干预率、连续uptime或硬件单位成本改善。",
+            "早报英国Physical/Industrial AI资金已列；展会演示、旧论文与日期更新的产业周报不替代新增现场数据。"
+          ],
+          "whyImportant": "分析：机器人投资判断需要能力、可靠性和硬件经济性共同支持；通信恢复、一般模型发布或政府资金承诺不能替代机器人客户现场验证。",
+          "investmentImpact": "分析：NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Gemini Robotics、Physical Intelligence及Nabtesco、Harmonic Drive、THK、Nidec，继续跟踪执行器、手、传感器、电池、减速器成本，以及干预率、利用率、复购和服务毛利。本期不据普通演示上调订单。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "付费部署",
+            "uptime",
+            "干预率",
+            "硬件成本"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方新闻（跟踪入口）",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方博客（跟踪入口）",
+              "url": "https://www.pi.website/blog"
+            }
+          ],
+          "id": "2026-10-24-pm-5"
+        },
+        {
+          "category": "macro",
+          "title": "6. 观察清单：实际供应损失、融资条件与政策执行",
+          "status": "观察与分析｜无新增宏观读数",
+          "importance": "中",
+          "body": [
+            "宏观数据：本时段未核实到新的CPI/PPI/PCE、就业工资、Fed决议或点阵图，也未取得新的可比美债期限溢价、美国发债与赤字、JGB/日元、美元、广泛信用利差或资金流读数。周末网页行情组件不作为新的正式收盘。",
+            "后续观察：①沙特能源目标是否出现可验证停产、维修或装船变化；②美国警告是否演变成具体行动或企业交付变化；③下次开市时油价、长端利率、信用利差是否共同走强；④关税、监管和财政表态是否进入正式文件；⑤AI资本投入是否按期转成收入、回款及股东回报。"
+          ],
+          "whyImportant": "分析：财政发债增加可能通过期限溢价推高长端利率；日本收益率上行可能促使资金回流、影响全球流动性。但不能仅凭单个收益率变化就断定大规模撤资，也不能将避险导致的美债收益率下降误读为通胀压力消失。",
+          "investmentImpact": "分析：未来1—12个月，高估值科技与半导体需要同时接受盈利和折现率检验。业务增长与估值下调可以并存；用正式政策、实际供给与现金流证据修正判断，避免把战争声明、选举传闻或融资计划当作兑现。",
+          "tags": [
+            "观察清单",
+            "财政",
+            "期限溢价",
+            "JGB",
+            "流动性",
+            "现金流"
+          ],
+          "sources": [
+            {
+              "title": "美国财政部｜官方利率数据（后续跟踪）",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202610&type=daily_treasury_yield_curve"
+            },
+            {
+              "title": "Reuters｜沙特能源目标后续核验",
+              "url": "https://www.reuters.com/world/middle-east/saudi-civil-defense-says-danger-passed-after-brief-alerts-mecca-jeddah-taif-2026-10-24/"
+            }
+          ],
+          "id": "2026-10-24-pm-6"
+        }
+      ]
+    },
+    {
       "id": "2026-10-24-am",
       "date": "2026-10-24",
       "period": "am",
