@@ -4,6 +4,160 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-25-am",
+      "date": "2026-10-25",
+      "period": "am",
+      "time": "08:04",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-25T08:04:39-07:00",
+      "summary": "周日新增重点是中东风险的实际市场反应：沙特股市收跌2.7%，机场部分恢复与新一轮拦截同时发生。补充此前遗漏的标普成长／价值分类新规：12月生效，影响风格指数，而非标普500整体入选规则。AI、半导体及机器人暂无本时段新增可核实的量化订单或部署指标。",
+      "cards": [
+        {
+          "category": "macro",
+          "title": "1. 宏观 / 市场环境：沙特股市跌2.7%，区域风险出现实际定价",
+          "status": "10月25日区域收盘｜不是美股预演",
+          "importance": "高",
+          "body": [
+            "发生了什么：Reuters报道，沙特主要股指周日收跌2.7%，为18个月来最差单日表现；Aramco跌0.9%，埃及蓝筹指数跌3.6%。这是昨晚之后的新区域交易数据，不是沿用周五美股行情。",
+            "新增战事进展：沙特称周日在利雅得及南部拦截导弹和无人机；利雅得机场宣布两个航站楼恢复运行，但报道所引航班追踪数据显示流量仍少。部分恢复运营不代表风险解除，也不证明能源设施已出现量化供应损失。"
+          ],
+          "whyImportant": "分析：同一风险下，能源公司与本地股市也可能下跌，说明风险补偿、经营中断和资本信心可能压过油价受益。战事→供应与运输风险→油价及通胀预期→利率和科技估值仍需跟踪，但本期不能确认每一环已兑现。",
+          "investmentImpact": "分析：对海湾数据中心及工程项目，重点看人员、物流、保险和交付；对NVDA、MU、NBIS、CRWV，区域股市下跌只能提示风险，不能按比例外推周一美股跌幅。本期无新的原油或天然气标准交易日结算价。",
+          "tags": [
+            "中东",
+            "沙特",
+            "区域股市",
+            "原油",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月25日海湾市场收盘",
+              "url": "https://www.reuters.com/world/middle-east/gulf-bourses-slip-houthi-saudi-clashes-rattle-investors-2026-10-25/"
+            },
+            {
+              "title": "Reuters｜10月25日机场与导弹拦截进展",
+              "url": "https://www.reuters.com/world/middle-east/yemens-houthis-renew-warning-against-using-riyadh-airport-2026-10-24/"
+            }
+          ],
+          "id": "2026-10-25-am-1"
+        },
+        {
+          "category": "macro",
+          "title": "2. 标普成长／价值新规12月实施：分类改变，不是标普500整体换规则",
+          "status": "10月23日官方公告｜本期补充此前遗漏",
+          "importance": "高",
+          "body": [
+            "发生了什么：S&P DJI已公布美国风格指数规则调整，适用于S&P 500 Growth/Value、Pure Style等系列；12月4日起客户可见模拟组合，12月21日开盘前生效。这是10月23日公告的补充，不是隔夜刚发布。",
+            "成长评分删除12个月股价动量，保留EPS变化及每股销售增长；价值评分改用经无形资产调整的账面价值／价格，结合过去与未来一年盈利／价格，并增加自由现金流／价格。指定金融及房地产分类不使用自由现金流因子。"
+          ],
+          "whyImportant": "分析：上涨本身对成长标签的直接作用减弱，价值分类也不再只依赖传统账面资产和历史利润。风格归属可能改变，但不能据此断言某只科技股已确定迁入或迁出，也不能解读为标普500整体入选资格或IPO等待期已改变。",
+          "investmentImpact": "分析：跟踪相关成长／价值指数的基金可能在重构时调仓，影响局部资金需求。高资本开支公司要看自由现金流，软件公司要看无形资产调整及盈利预期；现金流因子与其他因子共同作用，不代表所有半导体被剔除。关注12月4日模拟文件及基金实际跟踪指数，暂不预测个股权重。",
+          "tags": [
+            "S&P DJI",
+            "成长价值",
+            "指数调仓",
+            "自由现金流",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "S&P DJI｜成长与价值因子框架咨询结果（10月23日）",
+              "url": "https://www.spglobal.com/spdji/en/documents/indexnews/announcements/20261023-1485643/1485643_sp-us-style-results-20261023.pdf"
+            }
+          ],
+          "id": "2026-10-25-am-2"
+        },
+        {
+          "category": "semi",
+          "title": "3. AI / 半导体：无新增合格订单、量产或融资完成数据",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本时段未核实到足以单列的GPU/HBM/NAND新增采购、存储ASP、良率、出口许可执行变化或模型公司正式融资完成文件。Kimi、英国AI资金、AWS容量表态及对外投资提案此前已报，不重复。"
+          ],
+          "whyImportant": "分析：新发表的周报或行业观点不等于新订单。AI需求方向仍需通过交付、价格和现金回收落实到公司利润。",
+          "investmentImpact": "分析：NVDA、MU及设备链看订单与供给；NBIS、CRWV看供电进度、融资期限和合同回款。本期不以周末转载或模型估值传闻上调盈利预测。",
+          "tags": [
+            "AI",
+            "半导体",
+            "NVDA",
+            "MU",
+            "NBIS",
+            "CRWV"
+          ],
+          "sources": [
+            {
+              "title": "NVIDIA｜新闻归档（跟踪入口）",
+              "url": "https://nvidianews.nvidia.com/news"
+            }
+          ],
+          "id": "2026-10-25-am-3"
+        },
+        {
+          "category": "robot",
+          "title": "4. Physical AI / 机器人投资信号：无新增合格指标",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本时段未核实到新的真实付费deployment、零部件design win，或zero-shot泛化、跨本体迁移、触觉／力控、数据效率、人工干预率、uptime、硬件单位成本的可比改善。旧合作、旧论文和本周演示不作隔夜新信号。"
+          ],
+          "whyImportant": "分析：机器人能力需要现场可靠性及单位经济性支撑；缺少新的公开指标，不等于产业停止进展。",
+          "investmentImpact": "分析：NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Gemini Robotics、Physical Intelligence及减速器／执行器供应链，继续看真实付款、接管频率、利用率和零部件成本，本期不据普通演示调整订单假设。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "付费部署",
+            "干预率",
+            "uptime",
+            "硬件经济性"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方新闻（跟踪入口）",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方博客（跟踪入口）",
+              "url": "https://www.pi.website/blog"
+            }
+          ],
+          "id": "2026-10-25-am-4"
+        },
+        {
+          "category": "macro",
+          "title": "5. 观察清单：下次开市先看能源、利率和信用能否相互印证",
+          "status": "观察与分析｜缺失读数不补旧值",
+          "importance": "中",
+          "body": [
+            "本时段未核实到新的美国CPI/PPI/PCE、就业工资、Fed决定或点阵图，以及新的可比美国财政赤字／发债、期限溢价、JGB／日元、美元、广泛信用利差或资金流读数。不把周五值当成周日新行情。",
+            "观察顺序：①中东产量、船流与实际航班恢复；②下次开市原油、天然气、长端美债及信用利差的变化；③日本收益率和实际跨境流量；④中期选举前后财政、贸易、关税和监管正式文件；⑤AI交付、现金回款与12月风格指数模拟组合。"
+          ],
+          "whyImportant": "分析：财政发债→期限溢价→长端利率，以及日本收益率→资金回流→全球流动性，都是需数据验证的路径。避险买债可能压低美债收益率，能源通胀又可能推高收益率，不能预设单一方向。",
+          "investmentImpact": "分析：未来1—12个月，高估值科技和半导体的盈利增长与估值倍数可能分化。若油价、长端利率、信用利差同时走高，融资和折现压力更值得警惕；若出现外交表态，也需实际供应和资金条件改善来确认。",
+          "tags": [
+            "观察清单",
+            "Fed",
+            "财政",
+            "期限溢价",
+            "JGB",
+            "中期选举"
+          ],
+          "sources": [
+            {
+              "title": "美国财政部｜官方利率（跟踪入口）",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202610&type=daily_treasury_yield_curve"
+            },
+            {
+              "title": "S&P DJI｜风格指数实施时间",
+              "url": "https://www.spglobal.com/spdji/en/documents/indexnews/announcements/20261023-1485643/1485643_sp-us-style-results-20261023.pdf"
+            }
+          ],
+          "id": "2026-10-25-am-5"
+        }
+      ]
+    },
+    {
       "id": "2026-10-24-pm",
       "date": "2026-10-24",
       "period": "pm",
