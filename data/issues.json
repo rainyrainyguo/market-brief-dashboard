@@ -4,6 +4,173 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-25-pm",
+      "date": "2026-10-25",
+      "period": "pm",
+      "time": "18:56",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-25T18:56:02-07:00",
+      "summary": "新增主线是AI融资分化：Musk称SpaceX完成400亿美元GPU债务融资，但具体定价与交割含义尚未厘清；其对Neocloud整合的预言仍是个人判断。亚洲早盘Brent、WTI回落，美股期指小幅上涨，均非正式收盘。本周Fed、PCE/GDP与云厂商财报将检验增长和融资条件。",
+      "cards": [
+        {
+          "category": "ai",
+          "title": "1. Musk称SpaceX完成400亿美元GPU融资，Neocloud警告须单独判断",
+          "status": "10月25日新增管理层表态｜交易细节未完整核实",
+          "importance": "高",
+          "body": [
+            "发生了什么：Reuters于10月25日20:05 UTC（13:05 PT）报道，Musk称SpaceX已完成400亿美元GPU债务融资，主要对应2027年第一、二季度到货的GPU。此前已报道筹资谈判，本期新增是其本人所称的完成进展。",
+            "关键限定：Reuters明确指出，尚不清楚他所说的“完成”具体指什么，或投资者是否已经同意债务定价。Musk把融资能力归因于投资级信用及Starlink、发射业务收入，并预测Neocloud将出现整合和失败；后者是其判断，不是NBIS、CRWV已违约或已失去融资渠道的事实。"
+          ],
+          "whyImportant": "分析：独立于AI算力的现金来源可能支持更强的融资能力，行业竞争因此不仅是GPU供给，也包括信用、资本成本与交付前现金支出。单笔融资表态不能证明整个AI信用市场重新开放。",
+          "investmentImpact": "分析：对NVDA，这是采购资金可见度的积极线索，但400亿美元融资不等于当期新增销售额；对NBIS、CRWV，重点核对各自流动性、债务期限、担保、客户预付款及利用率。不要把竞争对手预言直接当成公司破产结论，也不要仅凭融资规模推定股价方向。",
+          "tags": [
+            "SpaceX",
+            "GPU融资",
+            "NVDA",
+            "NBIS",
+            "CRWV",
+            "信用分化"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月25日融资与Neocloud表态",
+              "url": "https://www.reuters.com/business/media-telecom/musk-says-spacex-raised-40-billion-debt-gpus-2026-10-25/"
+            },
+            {
+              "title": "Reuters/CNA｜全文及交易限定",
+              "url": "https://www.channelnewsasia.com/business/musk-says-spacex-raised-40-billion-in-debt-deal-predicts-neocloud-shakeout-6491471"
+            }
+          ],
+          "id": "2026-10-25-pm-1"
+        },
+        {
+          "category": "macro",
+          "title": "2. 宏观 / 市场环境：亚洲早盘油价回落，期指小涨",
+          "status": "10月26日亚洲早盘＝10月25日美西晚间｜盘中非结算",
+          "importance": "高",
+          "body": [
+            "发生了什么：Reuters于10月26日00:46 UTC（美西25日17:46）报道，Brent跌约1.0%至115.48美元／桶，WTI跌约1.1%至102.08美元；标普500及纳指期货均小涨约0.2%。这些是报道时点的盘中快照，不是周一收盘或原油结算。",
+            "报道提及卡塔尔调停努力。外交活动不等于达成协议、停火或供应恢复；早报沙特股市下跌及机场部分恢复已列，本期不重复为新事件。"
+          ],
+          "whyImportant": "分析：市场可以在战事风险仍高时交易边际缓和。油价下降若持续，可能缓解通胀与利率压力；若只是风险溢价短暂回吐，其对科技估值的支持也可能有限。",
+          "investmentImpact": "分析：对高估值科技、半导体及算力基建，继续观察油价、长端收益率和信用利差是否同步改善。不能因期指涨0.2%就判断风险偏好全面修复，也不能把这一幅度当作NBIS、CRWV或MU的预期涨幅。",
+          "tags": [
+            "宏观",
+            "Brent",
+            "WTI",
+            "期指",
+            "中东",
+            "盘中报价"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜亚洲开盘市场报道",
+              "url": "https://www.reuters.com/world/asia-pacific/global-markets-pix-2026-10-26/"
+            }
+          ],
+          "id": "2026-10-25-pm-2"
+        },
+        {
+          "category": "semi",
+          "title": "3. 半导体：融资是需求兑现条件，仍需区分资金、交货和收入",
+          "status": "投资分析｜无独立新增量产或价格数据",
+          "importance": "中",
+          "body": [
+            "本时段新增的SpaceX融资表态见第1条；未另核实到新的HBM/NAND价格、量产良率、出口许可执行范围或供应商确认的量化订单。不把同一融资事件重复计为另一笔GPU采购。"
+          ],
+          "whyImportant": "分析：资金到位→设备采购与供电建设→验收交付→收入及现金回收，是不同环节。融资进展能降低部分执行风险，但仍无法单独消除电力、存储、封装和建设瓶颈。",
+          "investmentImpact": "分析：NVDA、MU及设备链要看交货时点、产品组合与回款；融资金额不可直接分摊给GPU、HBM和设备供应商。尚未有新增可比数据的环节，不据此上调ASP、毛利或当期盈利。",
+          "tags": [
+            "半导体",
+            "NVDA",
+            "MU",
+            "HBM",
+            "交付",
+            "收入确认"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜SpaceX融资及GPU到货时间",
+              "url": "https://www.reuters.com/business/media-telecom/musk-says-spacex-raised-40-billion-debt-gpus-2026-10-25/"
+            }
+          ],
+          "id": "2026-10-25-pm-3"
+        },
+        {
+          "category": "robot",
+          "title": "4. Physical AI / 机器人投资信号：无新增合格指标",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本时段未核实到新的付费deployment、零部件design win，或zero-shot泛化、跨本体迁移、触觉／力控、数据效率、人工干预率、连续uptime及硬件单位经济性的可比改善。普通演示与旧合作不作新信号。"
+          ],
+          "whyImportant": "分析：大额AI算力融资不能替代机器人的现场可靠性、任务完成率及客户回报验证。缺少新公开数据不等于产业没有进展。",
+          "investmentImpact": "分析：NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Gemini Robotics、Physical Intelligence及减速器／执行器链，继续看真实付款、复购、接管频率、利用率和零部件成本，本期不据融资或演示调整订单假设。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "付费部署",
+            "uptime",
+            "人工干预",
+            "硬件经济性"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方新闻（跟踪入口）",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方博客（跟踪入口）",
+              "url": "https://www.pi.website/blog"
+            }
+          ],
+          "id": "2026-10-25-pm-4"
+        },
+        {
+          "category": "macro",
+          "title": "5. 本周观察清单：Fed无例行点阵图，PCE/GDP与云财报接力",
+          "status": "官方日程核验｜数据与财报尚未发布",
+          "importance": "高",
+          "body": [
+            "已确认日程：FOMC于10月27—28日开会；官方日历未将此次会议列为经济预测摘要会议，因此不能期待例行发布新点阵图。BEA计划10月29日美东08:30（美西05:30）发布三季度GDP初值及9月个人收入与支出报告（含PCE物价指标）。",
+            "公司日程：Microsoft下一次财报为10月28日，Amazon第三季度财报电话会为10月29日14:00 PT。以上是已公告的日程，不是今天发布的新业绩。市场对按兵不动、后续加息或通胀读数的判断仍属预期，本期不将预测值写成实际值。",
+            "缺失读数：本时段未核实到新的正式CPI/PPI、就业工资、美国财政赤字／发债与期限溢价、JGB／日元、广泛信用利差或完整资金流读数。观察清单包括：①能源回落能否持续；②Fed措辞和PCE是否支持预期；③云收入、资本开支与自由现金流；④AI融资的最终文件与成本；⑤中期选举前后财政、关税和监管正式变化。"
+          ],
+          "whyImportant": "分析：能源→通胀→政策路径→折现率，与财政发债→期限溢价→长端利率会共同影响科技估值；日本收益率→资金回流→全球流动性仍需实际流量支持，不能凭单个收益率变化推断撤资。",
+          "investmentImpact": "分析：未来1—12个月，云需求、芯片交付与现金回报需要和资本成本一起评估。财报重点看增长能否覆盖折旧、利息和后续投资，而不只看资本开支是否继续扩大。",
+          "tags": [
+            "观察清单",
+            "Fed",
+            "PCE",
+            "GDP",
+            "MSFT",
+            "AMZN",
+            "财政",
+            "流动性"
+          ],
+          "sources": [
+            {
+              "title": "美联储｜2026年FOMC日历",
+              "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+            },
+            {
+              "title": "BEA｜官方发布日程",
+              "url": "https://www.bea.gov/news/schedule"
+            },
+            {
+              "title": "Microsoft｜投资者关系财报日程",
+              "url": "https://www.microsoft.com/en-us/investor/default"
+            },
+            {
+              "title": "Amazon｜第三季度财报电话会公告",
+              "url": "https://press.aboutamazon.com/2026/10/amazon-com-to-webcast-third-quarter-2026-financial-results-conference-call"
+            }
+          ],
+          "id": "2026-10-25-pm-5"
+        }
+      ]
+    },
+    {
       "id": "2026-10-25-am",
       "date": "2026-10-25",
       "period": "am",
