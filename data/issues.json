@@ -4,6 +4,263 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-26-am",
+      "date": "2026-10-26",
+      "period": "am",
+      "time": "08:07",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-26T08:07:12-07:00",
+      "summary": "今早主线是AI收入增长与资本约束同时显现：Anthropic公开IPO申请，Meta提出最高约950亿美元融资计划；SpaceX／Apollo明确400亿美元GPU融资仍有交割条件。NBIS、CRWV盘前承压，油价延续回落，但美债长端仍接近5%。融资计划、资金到账、交付与盈利必须分开判断。",
+      "cards": [
+        {
+          "category": "ai",
+          "title": "1. Anthropic公开IPO申请：高增长与高资本需求首次进入公开市场定价",
+          "status": "10月26日已公开S-1｜发行价格与规模未定",
+          "importance": "高",
+          "body": [
+            "发生了什么：Anthropic于10月26日宣布公开提交S-1，拟在纳斯达克以ANT交易；发行股数与价格区间尚未确定，注册尚未生效。今天是IPO申请公开，并非发布第三季度财报。",
+            "Reuters据申请文件报道，截至6月30日的上半年收入163亿美元，上年同期约12亿美元；净亏损807亿美元，其中大部分来自可转换融资工具等公允价值变动。净亏损不能直接等同于现金消耗；扣除非现金项目也不能据此认定经营已经盈利。"
+          ],
+          "whyImportant": "分析：公开文件让投资者开始直接比较模型公司的收入增长、融资条款与成本，而不只依赖私募估值。上半年收入不能当成第三季度收入，也不能直接按两倍推算全年业绩。",
+          "investmentImpact": "分析：对AMZN、GOOGL及算力供应链，需求增长提供支持，但需核对云采购承诺、现金支付、客户集中度与毛利。IPO能否完成、融资规模和估值仍待后续文件；不能将拟上市视为资金已到账。",
+          "tags": [
+            "Anthropic",
+            "ANT",
+            "IPO",
+            "AI收入",
+            "现金流",
+            "AMZN",
+            "GOOGL"
+          ],
+          "sources": [
+            {
+              "title": "Anthropic｜10月26日S-1公告",
+              "url": "https://www.anthropic.com/news/s1-sec"
+            },
+            {
+              "title": "SEC｜Anthropic S-1原始文件",
+              "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+            },
+            {
+              "title": "Reuters｜收入、亏损与融资成本",
+              "url": "https://www.reuters.com/legal/transactional/anthropic-opens-books-ais-explosive-growth-staggering-costs-2026-10-26/"
+            }
+          ],
+          "id": "2026-10-26-am-1"
+        },
+        {
+          "category": "ai",
+          "title": "2. Meta提出最高约950亿美元股权融资计划：关注稀释、时点及供应商参与",
+          "status": "10月26日融资启动公告｜部分为未来计划",
+          "importance": "高",
+          "body": [
+            "发生了什么：Meta宣布启动约350亿美元融资，包括225亿美元Class A普通股远期发行及125亿美元强制可转换优先股相关存托股份；另计划约600亿美元Class C股票ATM发行，预计相关交易安排于2027年第一季度展开，最终条款仍待确定。合计约950亿美元是计划规模，并非今天已收到的现金。",
+            "Reuters报道，NVDA、AMD、AVGO表示有兴趣合计购买最多50亿美元Class A股份。这是意向，不能当成完成投资；也不能在950亿美元之外再加计50亿美元。"
+          ],
+          "whyImportant": "分析：AI扩张正在同时调用经营现金、股权及可转换工具。普通股、强制转股与远期结算的稀释节奏不同，评估每股收益与自由现金流时必须考虑融资到账和新增股数的时间。",
+          "investmentImpact": "分析：对META，融资可增强投资能力，但资本开支增长需要广告、AI产品收入及现金回报支撑。对NVDA、AMD、AVGO，潜在投资关系不能替代独立终端需求验证；应追踪最终认购、采购条款及回款，避免把供应商投资与订单重复计为两份需求。",
+          "tags": [
+            "META",
+            "股权融资",
+            "稀释",
+            "NVDA",
+            "AMD",
+            "AVGO",
+            "AI资本开支"
+          ],
+          "sources": [
+            {
+              "title": "Meta｜融资启动公告",
+              "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Announces-Launch-of-Offering-of-Depositary-Shares-Representing-Series-A-Mandatory-Convertible-Preferred-Stock-and-Offering-of-Class-A-Common-Stock-in-Connection-with-Forward-Sale-Agreements/default.aspx"
+            },
+            {
+              "title": "Meta公告全文｜Yahoo转载",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/meta-announces-launch-offering-depositary-105800284.html"
+            },
+            {
+              "title": "Reuters｜融资计划及供应商意向",
+              "url": "https://www.reuters.com/legal/transactional/meta-launches-35-billion-stock-offering-fund-ai-expansion-2026-10-26/"
+            }
+          ],
+          "id": "2026-10-26-am-2"
+        },
+        {
+          "category": "semi",
+          "title": "3. SpaceX／Apollo澄清400亿美元GPU融资结构：有约束力承诺，最终租赁尚待完成",
+          "status": "10月26日公告与文件新增｜更新昨晚表态",
+          "importance": "高",
+          "body": [
+            "发生了什么：Apollo公告确认，SpaceX取得约400亿美元GPU及相关设备主融资租赁的有约束力承诺，由Apollo管理的实体购买设备并出租给SpaceX。相关文件称，最终主租赁预计在2026年底前完成，仍有交割条件。",
+            "相较昨晚Musk所称“完成融资”，今天新增的是交易结构及条件说明。约400亿美元为本金规模，不包含利息等成本；这不是另一笔新增400亿美元融资，也不代表全部设备已经交货。"
+          ],
+          "whyImportant": "分析：设备融资租赁有助于把采购现金支出转化为未来支付义务，但不会消除融资成本、设备折旧与利用率风险。有承诺比谈判更进一步，仍应与最终交割区分。",
+          "investmentImpact": "分析：对NVDA及HBM供应链，这是采购资金可见度的进展；供应商收入仍取决于实际交付、验收和合同。不能把融资本金全部计为NVDA销售，也不能直接据此上调MU的HBM价格或毛利率。",
+          "tags": [
+            "SpaceX",
+            "Apollo",
+            "NVDA",
+            "MU",
+            "GPU",
+            "融资租赁",
+            "交割条件"
+          ],
+          "sources": [
+            {
+              "title": "Apollo｜400亿美元GPU融资承诺",
+              "url": "https://www.apollo.com/insights-news/pressreleases/2026/10/spacex-secures--40-billion-in-the-largest-gpu-financing-ever"
+            },
+            {
+              "title": "SpaceX 8-K｜文件转载",
+              "url": "https://www.stocktitan.net/sec-filings/SPCX/8-k-space-exploration-technologies-corp-reports-material-event-535a6020be0a.html"
+            },
+            {
+              "title": "Reuters｜交易结构与条件",
+              "url": "https://www.reuters.com/business/media-telecom/spacex-enters-40-billion-deal-with-apollo-ai-chip-financing-2026-10-26/"
+            }
+          ],
+          "id": "2026-10-26-am-3"
+        },
+        {
+          "category": "ai",
+          "title": "4. NBIS、CRWV盘前承压：新增的是市场反应，尚无新违约事实",
+          "status": "10月26日盘前快照｜非当前报价或收盘",
+          "importance": "高",
+          "body": [
+            "发生了什么：Reuters于10月26日12:03 UTC（05:03 PT）报道，Musk对Neocloud融资及行业整合的警告引发市场担忧；报道时CRWV盘前跌约4.5%、NBIS跌约3.4%、IREN跌约3.3%。上述为该报道时点的盘前变动，不能当作08:07的即时涨跌或收盘表现。",
+            "昨晚已报告Musk的个人判断，今天新增是可观察的股价反应。本期没有核实到三家公司因该表态而发生新的违约、融资被撤回或客户取消合同。"
+          ],
+          "whyImportant": "分析：算力需求增长与股东回报可以背离；若债务及股权融资成本上升，新增GPU和数据中心即使有收入，也可能无法提供足够的资本回报。竞争对手言论会影响情绪，但不是财务证据。",
+          "investmentImpact": "分析：NBIS、CRWV应分别核对现金与授信、客户预付款、利息、建设义务、合同利润率和利用率。只有同期限信用利差、融资条款或公司现金流出现变化，才更能证明风险已从情绪传到基本面。",
+          "tags": [
+            "NBIS",
+            "CRWV",
+            "IREN",
+            "Neocloud",
+            "融资成本",
+            "盘前"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Neocloud盘前反应",
+              "url": "https://www.reuters.com/business/musks-warning-hits-neocloud-stocks-debt-concerns-mount-2026-10-26/"
+            },
+            {
+              "title": "Reuters/AOL｜报道时点与跌幅",
+              "url": "https://www.aol.com/articles/musks-warning-hits-neocloud-stocks-120227000.html"
+            }
+          ],
+          "id": "2026-10-26-am-4"
+        },
+        {
+          "category": "macro",
+          "title": "5. 宏观 / 市场环境：油价继续回落，美债长端仍接近5%",
+          "status": "10月26日盘中报价｜外交进程不等于停火",
+          "importance": "高",
+          "body": [
+            "发生了什么：Reuters于10月26日12:39 UTC（05:39 PT）报道，Brent约115.15美元／桶、跌1.35%，WTI约101.16美元、跌2.04%。相较昨晚亚洲开盘，新增的是周一交易时段回落延续；这仍不是最终结算价。",
+            "MarketWatch周一早盘报道10年期美债收益率约4.992%，接近5%。外交接触带来边际缓和预期，但本期未核实到足以确认停火、全面恢复能源供应的正式协议。",
+            "数据边界：本期未取得新的、可比的天然气结算、期限溢价、美国赤字／发债、JGB／日元、信用利差及完整资金流读数，也未核实到新的CPI/PPI/PCE、就业工资或改变既有路径的财政、关税、监管正式政策。不用旧数据冒充今早变化。"
+          ],
+          "whyImportant": "分析：油价回落有助于缓解通胀担忧，但长端利率仍高，科技股折现率未必同步改善。国债收益率包含政策利率预期与期限溢价，不能把接近5%全部归因为Fed或财政发债。",
+          "investmentImpact": "分析：战争→能源价格→通胀→利率→科技估值仍是风险链；财政／发债→期限溢价→长端利率，以及日本收益率→资金回流→全球流动性需分别验证。本期不能据油价下跌就确认全面risk-on，也不能把尚未取得的资金流写成撤资事实。",
+          "tags": [
+            "宏观",
+            "Brent",
+            "WTI",
+            "美债",
+            "中东",
+            "通胀",
+            "期限溢价"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月26日油价盘中更新",
+              "url": "https://www.reuters.com/business/energy/oil-prices-down-almost-1-early-trading-2026-10-25/"
+            },
+            {
+              "title": "MarketWatch｜10年期美债接近5%",
+              "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-federal-reserve-interest-rate-decision-october-meeting/card/benchmark-treasury-yield-hovers-just-below-5--2J205KcuwcRGWNLwpOnR"
+            },
+            {
+              "title": "Reuters｜外交缓和预期与中东市场",
+              "url": "https://www.reuters.com/world/middle-east/middle-east-markets-rebound-diplomacy-fuels-hopes-easing-iran-hostilities-2026-10-26/"
+            }
+          ],
+          "id": "2026-10-26-am-5"
+        },
+        {
+          "category": "robot",
+          "title": "6. Physical AI / 机器人投资信号：未核实到隔夜新增的合格量化进展",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "在本期过去约半天的检索范围内，未核实到新的付费deployment／design win，或zero-shot泛化、跨本体迁移、触觉／力控、数据效率、人工干预率、uptime及硬件单位经济性的可比改善。近期机器人报道中较早发布的演示、产能目标及管理层预测，不作为今天新增。"
+          ],
+          "whyImportant": "分析：融资和生产目标不能单独证明部署可靠性或客户回报；没有新合格公开数据，也不表示产业停滞。",
+          "investmentImpact": "分析：NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Gemini Robotics、Physical Intelligence，以及Nabtesco、Harmonic Drive、THK、Nidec继续看真实付款、复购、接管频率、有效工时、单机成本和部件订单。本期不因普通演示调整盈利假设。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "付费部署",
+            "人工干预率",
+            "uptime",
+            "硬件经济性"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方新闻（跟踪入口，非本期新增证据）",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方博客（跟踪入口，非本期新增证据）",
+              "url": "https://www.pi.website/blog"
+            }
+          ],
+          "id": "2026-10-26-am-6"
+        },
+        {
+          "category": "macro",
+          "title": "7. 观察清单：先看融资条款，再看Fed、PCE和云厂商现金回报",
+          "status": "后续验证清单｜尚未发生的结果不作事实",
+          "importance": "高",
+          "body": [
+            "① Anthropic：定价区间、发行规模、融资工具转换、经营现金消耗与云采购义务；② Meta：实际发行与到账、稀释、供应商最终认购；③ SpaceX／Apollo：最终租赁交割、利率、担保与设备交付；④ NBIS／CRWV：独立公司披露及融资条款，而非竞争者评价。",
+            "宏观日程沿用已核验的官方安排：10月27—28日FOMC会议，本次无例行经济预测摘要／点阵图；10月29日05:30 PT计划发布三季度GDP初值及9月个人收入与支出（含PCE）。Microsoft 10月28日、Amazon 10月29日财报重点观察云增长、资本开支、折旧及自由现金流。这些是观察日程，不是本期新增已发布结果。"
+          ],
+          "whyImportant": "分析：未来1—12个月的核心检验是收入增长能否覆盖算力、折旧、融资和后续资本支出；仅以融资额度或资本开支规模判断AI景气，会遗漏每股回报与偿债能力。",
+          "investmentImpact": "分析：若需求和现金回报改善、融资成本稳定，供应链订单更有支撑；若增长依赖更贵的资本且现金回收滞后，高估值科技和高杠杆算力公司将更敏感。上述为条件分析，不是股价预测。",
+          "tags": [
+            "观察清单",
+            "Fed",
+            "PCE",
+            "GDP",
+            "MSFT",
+            "AMZN",
+            "现金回报"
+          ],
+          "sources": [
+            {
+              "title": "美联储｜FOMC官方日历",
+              "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+            },
+            {
+              "title": "BEA｜官方发布日程",
+              "url": "https://www.bea.gov/news/schedule"
+            },
+            {
+              "title": "Microsoft｜投资者关系",
+              "url": "https://www.microsoft.com/en-us/investor/default"
+            },
+            {
+              "title": "Amazon｜第三季度财报电话会公告",
+              "url": "https://press.aboutamazon.com/2026/10/amazon-com-to-webcast-third-quarter-2026-financial-results-conference-call"
+            }
+          ],
+          "id": "2026-10-26-am-7"
+        }
+      ]
+    },
+    {
       "id": "2026-10-25-pm",
       "date": "2026-10-25",
       "period": "pm",
