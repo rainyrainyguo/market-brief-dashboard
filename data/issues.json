@@ -4,6 +4,203 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-27-am",
+      "date": "2026-10-27",
+      "period": "am",
+      "time": "07:57",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-27T07:57:07-07:00",
+      "summary": "今早新增是AI融资从意向进入定价、光通信业绩兑现，以及设备投资与消费者信心改善：Meta普通股发行扩至250亿美元，NVIDIA明确拟投30亿美元；Corning光通信收入增长44%。补充昨晚遗漏的Celestica财报：2027年高增长指引伴随2026年自由现金流下调。中东谈判继续、油价盘中回落，尚无停火确认。",
+      "cards": [
+        {
+          "category": "ai",
+          "title": "1. Meta融资已定价并扩大，NVIDIA明确拟投30亿美元",
+          "status": "隔夜定价／10月27日合作公告｜不等于资金全到账",
+          "importance": "高",
+          "body": [
+            "Meta普通股远期发行由225亿美元扩大至250亿美元，发行价625美元／股；另有125亿美元存托股份，对应年股息率6.50%的强制可转换优先股，基础发行合计375亿美元。预计10月29日交割，仍有条件。",
+            "普通股远期部分初始出售时Meta预计不收款，拟在2027年11月19日或之前结算。官网将公告列为10月27日，正文日期为26日；本期按隔夜定价进展列示，不把375亿美元写成即刻现金余额增加。",
+            "NVIDIA于27日01:52 ET宣布拟向Meta本次股权发行投资30亿美元，并扩大Muse模型／agent合作；Meta计划扩大Vera Rubin、Vera CPU、Spectrum-X及BlueField-4部署。这比昨日三家芯片公司合计最多50亿美元的意向更具体，但未确认全部投资完成，也不是在本次发行外再加一笔融资。"
+          ],
+          "whyImportant": "分析：融资价格、股息和结算时间使资本成本及稀释路径更可评估。供应商投资客户可以支持扩张，也增加资本关系与采购需求相互依赖，不能只看名义融资额。",
+          "investmentImpact": "分析：对META看到账节奏、转股与AI现金回报；对NVDA看实际部署和订单转化，公告未给出可直接计入收入的采购额。Muse合作指向推理效率，但本次没有可比吞吐、成本或利润率改善数据。",
+          "tags": [
+            "META",
+            "NVDA",
+            "融资定价",
+            "稀释",
+            "Muse",
+            "推理"
+          ],
+          "sources": [
+            {
+              "title": "Meta｜正式定价公告",
+              "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Announces-Pricing-of-Offering-of-Depositary-Shares-Representing-Series-A-Mandatory-Convertible-Preferred-Stock-and-Offering-of-Class-A-Common-Stock-in-Connection-with-Forward-Sale-Agreements/default.aspx"
+            },
+            {
+              "title": "NVIDIA｜Muse合作与30亿美元拟投资公告",
+              "url": "https://www.globenewswire.com/news-release/2026/10/27/3388683/0/en/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth.html"
+            }
+          ],
+          "id": "2026-10-27-am-1"
+        },
+        {
+          "category": "semi",
+          "title": "2. Corning：光通信收入增长44%，AI连接需求已有业绩兑现",
+          "status": "10月27日正式Q3财报｜core与GAAP分列",
+          "importance": "高",
+          "body": [
+            "Corning Q3 core销售额50.8亿美元、同比增长19%，core EPS为0.91美元；GAAP销售额48.6亿美元、EPS为0.78美元。光通信销售额23.8亿美元、增长44%，其中企业网络增长84%，Gen AI产品销售额增长超过100%。",
+            "Q4公司预计core销售额52亿—53亿美元、core EPS为0.96—1.00美元，属于指引而非已实现。昨晚Verizon／AWS协议是客户层面进展，今天新增的是Corning自身实际收入，不能把两者当作可简单相加的独立需求。"
+          ],
+          "whyImportant": "分析：这比单纯AI资本开支承诺更接近供应链收入验证，显示连接和布线内容量也在增长。core与GAAP口径不同，不能混用计算盈利增幅。",
+          "investmentImpact": "分析：对GLW是直接业绩证据；对LITE、COHR和其他光通信公司仅是行业参考，产品、客户与利润结构不同。对MU也不能据光通信增速直接上调HBM价格，仍需其自身订单和供给证据。",
+          "tags": [
+            "GLW",
+            "光通信",
+            "AI网络",
+            "财报",
+            "LITE",
+            "COHR"
+          ],
+          "sources": [
+            {
+              "title": "Corning｜Q3正式业绩及Q4指引",
+              "url": "https://investor.corning.com/news-and-events/news/news-details/2026/Corning-Delivers-Outstanding-Third-Quarter-Results1/default.aspx"
+            }
+          ],
+          "id": "2026-10-27-am-2"
+        },
+        {
+          "category": "semi",
+          "title": "3. Celestica：2027年收入指引400亿美元，但今年自由现金流下调",
+          "status": "10月26日16:17 ET财报｜本期补充昨晚遗漏",
+          "importance": "高",
+          "body": [
+            "Celestica Q3收入58.3亿美元、增长83%；GAAP EPS为3.26美元，调整后EPS为3.30美元。GAAP营业利润率7.9%（上年10.2%），调整后8.5%（上年7.6%）。",
+            "2026年收入展望上调至210亿美元，但自由现金流展望由6亿美元下调至4.6亿美元，公司归因为支持2027年增长的营运资金投入。2027年初始指引为收入400亿美元、调整后EPS 21.50美元、调整后营业利润率9.0%，资本开支15亿—20亿美元；均尚待实现。",
+            "财报在昨晚截止前已发布，本期明确补充遗漏，不伪称隔夜刚发布，也不以股价上涨替代财报核验。"
+          ],
+          "whyImportant": "分析：AI硬件需求增长与现金占用同时扩大，利润增长可以伴随自由现金流下降。2027年收入目标很高，须检验客户部署、供应链和产能爬坡，而非把指引当作无条件订单。",
+          "investmentImpact": "分析：CLS及网络／服务器链重点看营运资金、资本投入和客户集中度；对AVGO、NVDA是系统需求参考，不能按400亿美元拆分供应商收入。估值应同时考察增长兑现与现金回报。",
+          "tags": [
+            "CLS",
+            "AI硬件",
+            "网络",
+            "2027指引",
+            "营运资金",
+            "自由现金流"
+          ],
+          "sources": [
+            {
+              "title": "Celestica｜正式财报、现金流与2027展望",
+              "url": "https://celestica.gcs-web.com/news-releases/news-release-details/celestica-announces-third-quarter-2026-financial-results-and"
+            }
+          ],
+          "id": "2026-10-27-am-3"
+        },
+        {
+          "category": "macro",
+          "title": "4. 宏观 / 市场环境：设备投资仍强，消费者信心回升，但不是全面降通胀",
+          "status": "10月27日已发布数据｜调查与硬数据区分",
+          "importance": "高",
+          "body": [
+            "Reuters引述Census数据：9月非国防、剔除飞机的核心资本品订单环比增长0.5%，低于调查预期0.7%，8月为增长1.6%；核心资本品出货环比增长1.2%。这是订单／出货金额，不是工业生产价格指数，也不是单独的AI订单统计。",
+            "Conference Board消费者信心10月升至91.7，9月修订为84.2（原报81.9），Reuters调查预期81。该机构表示汽油价格缓和有助恢复信心，但受访者对生活成本仍有不满；信心指数不是消费支出或CPI。"
+          ],
+          "whyImportant": "分析：设备投资支持增长，订单增速放缓且低于预期，又提示不能只用“增长”判断超预期。信心修复与高物价不满可以同时存在，单月调查不足以证明实际购买力全面恢复。",
+          "investmentImpact": "分析：对科技与半导体，投资需求改善有利收入，但经济韧性也可能降低迅速降息的必要性。最终估值取决于盈利与利率共同变化；不能从本次数据直接推出Fed加息或降息决定。",
+          "tags": [
+            "宏观",
+            "资本品",
+            "环比",
+            "消费者信心",
+            "Census",
+            "Fed"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜核心资本品订单与出货",
+              "url": "https://www.reuters.com/business/us-core-capital-goods-rise-september-shipments-accelerate-2026-10-27/"
+            },
+            {
+              "title": "Reuters｜消费者信心及前值修订",
+              "url": "https://www.reuters.com/markets/us/us-consumer-confidence-improves-october-2026-10-27/"
+            }
+          ],
+          "id": "2026-10-27-am-4"
+        },
+        {
+          "category": "macro",
+          "title": "5. 宏观 / 市场环境：中东继续谈判，油价回落；报价不能混合合约月份",
+          "status": "10月27日盘中快照｜停火与政策结果未确认",
+          "importance": "高",
+          "body": [
+            "Reuters于13:11 UTC（06:11 PT）报道，Brent为114.81美元／桶、跌0.86%，WTI为100.98美元、跌0.77%；是报道时点快照，非今早截止即时价或最终结算。昨晚所列12月Brent与部分网页较低的1月合约报价存在月份差异，不能跨合约直接计算跌幅。",
+            "伊朗国家媒体称伊朗与沙特、土耳其、巴基斯坦同意继续安全与和平相关谈判；胡塞又声称袭击Ras Tanura炼厂。本期没有独立确认由此造成的量化停产，不把袭击声称或继续谈判写成供应中断、停火已经落实。",
+            "利率观察：MarketWatch早盘、耐用品数据发布前记录10年期收益率约4.991%，不能当成数据发布后的最终反应。未取得新的统一天然气结算、期限溢价、财政赤字、JGB／日元、美元、广泛信用利差或完整资金流读数；也未核实新的CPI/PPI/PCE、就业工资、Fed决议或点阵图。"
+          ],
+          "whyImportant": "分析：战争→油价→通胀→收益率→科技估值是一条需逐环验证的链。财政／发债→期限溢价→长端利率，以及日本收益率→资金回流→全球流动性，不能由一个报价或一次拍卖替代。",
+          "investmentImpact": "分析：观察清单是实际油轮运输和产量、同合约能源价格、数据后的美债与信用、Fed措辞，以及中期选举前贸易／财政正式文件。外交希望可改善风险偏好，但未生效的政策和未确认资金流不计入盈利判断。",
+          "tags": [
+            "宏观",
+            "中东",
+            "Brent",
+            "WTI",
+            "美债",
+            "期限溢价",
+            "观察清单"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月27日油价与中东进展",
+              "url": "https://www.reuters.com/business/energy/oil-eases-middle-east-diplomacy-hopes-saudi-attacks-keep-supply-worries-alive-2026-10-27/"
+            },
+            {
+              "title": "MarketWatch｜数据前美债收益率快照",
+              "url": "https://www.marketwatch.com/livecoverage/stock-market-today-s-p-500-nasdaq-dow-mixed-tech-stocks-fall-after-rebound/card/benchmark-treasury-yields-hold-just-shy-of-5-ahead-of-5-year-auction-and-data-sXMVadTzfP99GEqB68wn"
+            },
+            {
+              "title": "WSJ｜12月与1月Brent合约口径",
+              "url": "https://www.wsj.com/articles/energy-utilities-roundup-market-talk-8c5eb035"
+            }
+          ],
+          "id": "2026-10-27-am-5"
+        },
+        {
+          "category": "robot",
+          "title": "6. Physical AI / 机器人投资信号：无新增合格指标，等待部署与可靠性数据",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本时段未核实到新的真实付费deployment／design win，或zero-shot泛化、跨本体迁移、触觉／力控、数据效率、人工干预率、连续uptime和硬件单位经济性的可比改善。昨晚GXO／Agility扩点及三家付费项目已报，不重复计为新订单。",
+            "普通武术、舞蹈演示及分析师目标价不替代商业验证。缺少本时段公开数据不等于产业没有进展。"
+          ],
+          "whyImportant": "分析：机器人投入最终需要转为客户有效工时、少接管的连续运行及可接受回本期，不能仅以算力投入和展示复杂度衡量。",
+          "investmentImpact": "分析：NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Gemini Robotics、Physical Intelligence以及Nabtesco、Harmonic Drive、THK、Nidec，继续核对付费复购、单机成本、服务费用和部件订单。本期不据普通演示调整盈利假设。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "部署",
+            "uptime",
+            "人工干预",
+            "硬件经济性"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方新闻，跟踪入口",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方，跟踪入口",
+              "url": "https://www.pi.website/"
+            }
+          ],
+          "id": "2026-10-27-am-6"
+        }
+      ]
+    },
+    {
       "id": "2026-10-26-pm",
       "date": "2026-10-26",
       "period": "pm",
