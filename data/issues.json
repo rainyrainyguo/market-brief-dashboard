@@ -4,6 +4,249 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-26-pm",
+      "date": "2026-10-26",
+      "period": "pm",
+      "time": "18:58",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-26T18:58:42-07:00",
+      "summary": "晚间新增重点：630亿美元融资推动Anthropic／Broadcom算力交付，Cadence上调指引但利润率下降，AMAT拟增持Besi至约20%。半导体收盘反弹、Meta下跌，原油正式结算回落而2年期美债拍卖偏弱。补充早报遗漏的GXO机器人扩点与Verizon／AWS协议，均明确原始发布时间。",
+      "cards": [
+        {
+          "category": "semi",
+          "title": "1. 630亿美元融资支持Anthropic采购Broadcom算力，供应商承担残值支持",
+          "status": "10月26日盘后联合公告｜交付预计2027年开始",
+          "importance": "高",
+          "body": [
+            "BAC、Blackstone、Citi、Morgan Stanley宣布630亿美元融资交易，通过新设SPV采购Broadcom XPU及网络设备并租给Anthropic，属于此前已宣布算力协议的融资落实，预计2027年开始交付。",
+            "Broadcom向SPV提供相当于第一顺位融资部分金额的残值支持；Reuters援引消息人士称第一顺位约435亿美元。不能将630亿美元全部认作今天新增收入，也不能与既有采购协议重复加总。"
+          ],
+          "whyImportant": "分析：采购资金可见度提高，但部分设备残值风险由供应商支持，融资风险没有凭空消失。应区分融资承诺、提款、交付及收入确认。",
+          "investmentImpact": "分析：对AVGO，交付路径更清晰，同时要跟踪残值支持的合同触发条件、最大敞口与现金流影响；对NVDA，定制XPU路线得到资金支持，但不能仅凭这一交易推断GPU需求下降。",
+          "tags": [
+            "AVGO",
+            "Anthropic",
+            "AI融资",
+            "残值支持",
+            "XPU"
+          ],
+          "sources": [
+            {
+              "title": "Blackstone｜联合融资公告",
+              "url": "https://www.blackstone.com/news/press/bank-of-america-blackstone-citi-and-morgan-stanley-announce-landmark-63-billion-financing-structure-to-enable-ai-compute/"
+            },
+            {
+              "title": "Reuters｜融资层级与435亿美元口径",
+              "url": "https://www.reuters.com/legal/transactional/wall-street-banks-blackstone-line-up-63-billion-finance-broadcom-chips-anthropic-2026-10-26/"
+            }
+          ],
+          "id": "2026-10-26-pm-1"
+        },
+        {
+          "category": "semi",
+          "title": "2. Cadence财报：收入增长22%、上调全年指引，利润率却同比下降",
+          "status": "10月26日盘后正式财报｜实际值与指引分列",
+          "importance": "高",
+          "body": [
+            "Q3收入16.33亿美元，同比增长约22%；经常性收入增长18%。GAAP EPS为1.05美元、同比持平，Non-GAAP EPS为2.11美元、上年1.93美元；GAAP营业利润率26.2%（上年31.8%），Non-GAAP为44.1%（上年47.6%）。",
+            "全年收入指引上调至63.87亿—64.17亿美元，Non-GAAP EPS为8.37—8.43美元；期末backlog为82亿美元。全年指引属于预期，backlog也不是当期收入。"
+          ],
+          "whyImportant": "分析：芯片与系统设计需求仍在增长，但营收增长未等比例转为利润率改善。Non-GAAP和GAAP差异不能省略，订单兑现时点也要单独判断。",
+          "investmentImpact": "分析：CDNS提供AI设计投入的实际业绩证据，对EDA行业有参考价值，但不能直接外推MU存储价格或所有芯片厂盈利。重点追踪续约、订单转换与利润率，避免只因全年指引上调就忽略成本。",
+          "tags": [
+            "CDNS",
+            "EDA",
+            "财报",
+            "backlog",
+            "利润率"
+          ],
+          "sources": [
+            {
+              "title": "Cadence｜Q3正式财报及指引",
+              "url": "https://investor.cadence.com/news/news-details/2026/Cadence-Reports-Third-Quarter-2026-Financial-Results/default.aspx"
+            }
+          ],
+          "id": "2026-10-26-pm-2"
+        },
+        {
+          "category": "semi",
+          "title": "3. AMAT拟把Besi持股从9%提高至约20%，加码先进封装合作",
+          "status": "10月26日16:30 ET公告｜仍待反垄断等待期",
+          "importance": "高",
+          "body": [
+            "Applied Materials签署加速购股协议，拟把Besi持股增至约20%；股份交付仍须满足HSR反垄断等待期要求。公司表示目前无意超过约20%，也不寻求董事会席位。",
+            "合作覆盖混合键合、新互连架构、3D IC及逻辑／存储集成等。新增是股权投资安排，不是宣布全面收购，也不是新的客户量化订单。"
+          ],
+          "whyImportant": "分析：封装与互连越来越影响AI系统能效，设备厂通过长期合作打通工艺与装配环节；投资行为支持技术路线，但不能证明客户已按某一节奏量产。",
+          "investmentImpact": "分析：对AMAT、BESI，是先进封装长期投入信号。对MU与HBM链，还需核对具体代际、工艺采用、良率和交付；不能把持股比例直接转换为设备收入增幅。",
+          "tags": [
+            "AMAT",
+            "BESI",
+            "先进封装",
+            "混合键合",
+            "HBM"
+          ],
+          "sources": [
+            {
+              "title": "Applied Materials｜增持官方公告",
+              "url": "https://investor.appliedmaterials.com/news-releases/news-release-details/applied-materials-increase-its-strategic-investment-be"
+            }
+          ],
+          "id": "2026-10-26-pm-3"
+        },
+        {
+          "category": "ai",
+          "title": "4. 收盘更新：半导体反弹，Meta下跌；Neocloud早盘跌势出现反转",
+          "status": "10月26日正式美股收盘｜更新早报盘前快照",
+          "importance": "高",
+          "body": [
+            "标普500收涨0.70%，纳指涨0.83%，费城半导体指数涨2.8%；Meta收跌1.9%。Reuters收盘报道指出，CoreWeave等Neocloud收复早先跌幅。本期不使用盘前跌幅代替收盘，也不提供尚未独立核实的NBIS、CRWV精确收盘涨幅。",
+            "Anthropic IPO申请与Meta融资计划本身早报已报，今晚新增的是市场最终反应。上涨不是IPO已完成，也不代表融资压力已解除。"
+          ],
+          "whyImportant": "分析：市场可以同时奖励AI增长、惩罚融资稀释，同一行业并非只有一个定价方向。盘前到收盘的反转也说明单一管理层言论不足以解释全天走势。",
+          "investmentImpact": "分析：对NVDA、MU、NBIS、CRWV，短线风险偏好修复与长期融资、回款风险需要分开。一天反弹不能确认趋势反转，更不能替代订单和现金流验证。",
+          "tags": [
+            "收盘",
+            "半导体",
+            "META",
+            "NBIS",
+            "CRWV",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美股收盘与板块反应",
+              "url": "https://www.reuters.com/business/us-stock-futures-edge-up-oil-falls-heading-into-earnings-barrage-2026-10-26/"
+            }
+          ],
+          "id": "2026-10-26-pm-4"
+        },
+        {
+          "category": "macro",
+          "title": "5. 宏观 / 市场环境：油价结算下跌，短端国债拍卖偏弱；关税缓和仍属谈判",
+          "status": "10月26日结算／拍卖报道｜政策传闻另列",
+          "importance": "高",
+          "body": [
+            "正式结算：12月Brent为115.81美元／桶、跌0.78%；12月WTI为101.76美元、跌1.46%。外交缓和希望压低风险溢价，但沙特与航运安全担忧仍在；没有据此确认全面停火或能源供应恢复。",
+            "利率与发债：WSJ于15:46 ET报道，10年期收益率4.987%、2年期4.712%、30年期5.300%，是该时点快照。当天690亿美元2年期拍卖最高中标收益率4.708%，较投标截止前市场高约0.3基点，投标倍数2.59、低于其所引平均2.64；属偏弱结果，不能单次外推为财政融资危机。",
+            "政策预期／消息人士报道：Reuters称美加就钢铁、汽车关税减免谈判，部分加拿大消息人士认为可能在11月3日中期选举前达成；尚非已签署协议或已生效降税。",
+            "缺失与观察：天然气报价因合约／时点口径未充分统一，本期不报单一结算值；也未取得新的可比期限溢价、财政赤字、JGB／日元、广泛信用利差与完整资金流数据。未核实到新的CPI/PPI/PCE、就业工资、Fed决定或点阵图。继续看能源供应、后续发债需求、Fed措辞与正式贸易文件。"
+          ],
+          "whyImportant": "分析：油价下降→通胀压力可能减轻，但国债供给与政策路径仍会影响利率。财政／发债→期限溢价→长端利率，以及日本收益率→资金回流→全球流动性，需要各自数据验证；2年期拍卖不能直接度量长端期限溢价。",
+          "investmentImpact": "分析：高估值科技与半导体同时受盈利和折现率约束。若关税正式减免，可能降低部分成本和政策不确定性；谈判消息不能先计为利润。油价下跌也不等于信用和全球流动性已全面改善。",
+          "tags": [
+            "宏观",
+            "原油",
+            "美债拍卖",
+            "期限溢价",
+            "关税",
+            "中期选举"
+          ],
+          "sources": [
+            {
+              "title": "Reuters/Euronext｜原油正式结算",
+              "url": "https://live.euronext.com/en/financial-news/oil-settles-lower-peace-hopes-saudi-attacks-limit-losses"
+            },
+            {
+              "title": "WSJ｜收益率与2年期拍卖",
+              "url": "https://www.wsj.com/finance/jgb-yields-higher-amid-concerns-about-higher-energy-prices-897f5458"
+            },
+            {
+              "title": "Reuters｜美加关税谈判，消息人士报道",
+              "url": "https://www.reuters.com/world/us-canada-working-deal-ease-steel-auto-tariffs-sources-say-2026-10-26/"
+            }
+          ],
+          "id": "2026-10-26-pm-5"
+        },
+        {
+          "category": "ai",
+          "title": "6. Microsoft向约6万名员工提供自愿离职方案，不等于裁掉6万人",
+          "status": "10月26日公司确认方案｜参与人数未知",
+          "importance": "高",
+          "body": [
+            "Reuters报道，Microsoft向约6万名符合条件员工提供自愿离职方案，覆盖部分国家与团队；这是可申请人群，并非已接受人数或确定裁员数量。公司称该方案有时间限制、自愿参与。",
+            "报道将其置于成本控制及AI投资背景下；不能仅凭方案认定6万个岗位已被AI替代，也不能在正式财报前确定节省金额。"
+          ],
+          "whyImportant": "分析：资本开支扩张与人力成本约束可以同时发生，AI受益并不意味着所有部门同步扩招。一次性离职费用与后续成本节约还需财务披露。",
+          "investmentImpact": "分析：MSFT财报需结合Azure／Copilot收入、折旧、人员费用和资本开支评估利润率；不能把参与资格人数直接乘以平均薪资当作年度净利润增量。",
+          "tags": [
+            "MSFT",
+            "自愿离职",
+            "AI资本开支",
+            "成本",
+            "就业"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Microsoft自愿离职方案及公司回应",
+              "url": "https://www.reuters.com/technology/microsoft-is-offering-buyouts-around-60000-employees-business-insider-reports-2026-10-26/"
+            }
+          ],
+          "id": "2026-10-26-pm-6"
+        },
+        {
+          "category": "robot",
+          "title": "7. Physical AI / 机器人投资信号：GXO复购扩点，另有三家制造客户付费项目",
+          "status": "10月26日官方公告｜补充早报遗漏；新增部署预计2027年",
+          "importance": "高",
+          "body": [
+            "GXO与Agility扩大商业协议，将Digit部署至北卡Statesville及田纳西Lebanon两处设施，预计2027年初先用Digit 4，后续在Digit 5商业化时迁移。既有佐治亚现场已累计搬运超过10万只周转箱；该数是累计量，不是单日吞吐。",
+            "Agility另称三家未具名制造企业参与付费项目；30多家潜在客户仍属管线，不能计为已签订单。此公告早于今天早报截止，本期明确补充遗漏，不伪称盘后新发布。",
+            "未公布可比人工干预率、连续uptime、单机毛利或客户回本期；累计运行小时也不能直接等于单台连续无故障时间。没有据此确认zero-shot、跨本体或触觉精细操作取得新突破。"
+          ],
+          "whyImportant": "分析：现有客户扩点与付费项目比普通演示更接近商业验证；但付费试点、复购和大规模盈利部署仍是不同阶段。",
+          "investmentImpact": "分析：对机器人产业，重点转向部署兑现、有效工时和服务成本。对NVDA、ON、ADI、TER及执行器／减速器链，这不是其直接design win；对TSLA、Figure、Unitree等比较时，应使用同口径任务与经济性指标。",
+          "tags": [
+            "Physical AI",
+            "GXO",
+            "Agility",
+            "Digit",
+            "付费部署",
+            "复购",
+            "可靠性"
+          ],
+          "sources": [
+            {
+              "title": "GXO／Agility｜扩点商业协议",
+              "url": "https://www.agilityrobotics.com/content/gxo-and-agility-robotics-expand-partnership-to-accelerate-deployment-of-humanoids-in-u-s-operations"
+            },
+            {
+              "title": "Agility｜三家付费项目及潜在客户限定",
+              "url": "https://www.agilityrobotics.com/content/agility-robotics-highlights-commercial-momentum-and-growing-enterprise-demand-for-digit-humanoid-robot"
+            }
+          ],
+          "id": "2026-10-26-pm-7"
+        },
+        {
+          "category": "ai",
+          "title": "8. Verizon／AWS超过20亿美元AI基础设施协议：需求延伸至网络连接",
+          "status": "10月26日正式业绩公告｜补充早报遗漏",
+          "importance": "中",
+          "body": [
+            "Verizon在Q3公告中确认，与AWS签署价值超过20亿美元协议，为分布式计算及agentic／生成式AI工作负载建立商业框架。这是今天早些时候已发布、早报遗漏的进展，不是今晚新签署。",
+            "协议总额不等于当季收入，公告不足以把全部金额分配给光纤、光模块或特定供应商，也未据此确认LITE、COHR或GLW获得相应订单。"
+          ],
+          "whyImportant": "分析：AI基础设施需求不仅包括GPU，也涉及数据中心之间及分布式计算的网络连接。合同如何变为收入和现金流，仍取决于建设、交付及服务安排。",
+          "investmentImpact": "分析：对VZ、AMZN，是网络基础设施商业需求的证据；对光通信链要等待具体供应商、产品和交付确认，避免用整体协议金额推算单家公司盈利。",
+          "tags": [
+            "VZ",
+            "AWS",
+            "AMZN",
+            "AI网络",
+            "光通信",
+            "基础设施"
+          ],
+          "sources": [
+            {
+              "title": "Verizon｜Q3正式公告及AWS协议",
+              "url": "https://www.verizon.com/about/news/verizon-delivers-another-record-breaking-quarter"
+            }
+          ],
+          "id": "2026-10-26-pm-8"
+        }
+      ]
+    },
+    {
       "id": "2026-10-26-am",
       "date": "2026-10-26",
       "period": "am",
