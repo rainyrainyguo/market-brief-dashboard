@@ -4,6 +4,232 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-27-pm",
+      "date": "2026-10-27",
+      "period": "pm",
+      "time": "19:03",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-27T19:03:04-07:00",
+      "summary": "晚间核心是存储与测试业绩兑现：SK hynix收入、营业利润环比增长并披露长协覆盖，Seagate现金流与下一季指引强，Teradyne机器人业务盈利。另有OpenAI拟买Google芯片的未确认报道。纳指收涨1.18%，但原油美国结算下跌后在亚洲早盘反弹，5年期美债拍卖需求接近近期均值。",
+      "cards": [
+        {
+          "category": "semi",
+          "title": "1. SK hynix新财报：营业利润继续环比增长，长协覆盖超过一半2027—28年产能",
+          "status": "韩国10月28日＝美西10月27日晚｜公司初步财报",
+          "importance": "高",
+          "body": [
+            "SK hynix Q3收入104.6155万亿韩元、营业利润83.3338万亿韩元，分别环比增长32%、38%；营业利润率约80%。净利润39.7756万亿韩元，环比下降58%，不能把营业利润和净利润走势混为一谈。公司说明结果仍待最终审阅。",
+            "公司称已与14家主要客户签订长协，数量覆盖2027、2028年总产能超过50%，价格在约定区间内反映市场变化；预期Q4 HBM4出货量及收入超过HBM3E。“短缺持续至2030”是管理层预测，长协覆盖也不等于全部产能固定价格售罄。",
+            "另计划2026财年合计约100万亿韩元股东回报，其中包含8月已宣布的40万亿韩元回购；不是全部今晚新增。公司表示大部分Kioxia投资收益将通过特别分红返还股东。"
+          ],
+          "whyImportant": "分析：利润增长和长协提供存储需求可见度，但价格调整机制、资本开支及非经营投资收益会影响现金与利润质量，不能把一次超高利润率当作永久水平。",
+          "investmentImpact": "分析：对MU、HBM与NAND链，是强需求和合同期限的参考；SK hynix的产品组合、成本及产能不等于MU。后续看HBM4爬坡、长协执行和扩产，既看稀缺利润，也看新增供给的周期风险。",
+          "tags": [
+            "SK hynix",
+            "MU",
+            "HBM4",
+            "DRAM",
+            "NAND",
+            "长协",
+            "资本回报"
+          ],
+          "sources": [
+            {
+              "title": "SK hynix｜Q3正式初步财报",
+              "url": "https://news.skhynix.com/en/q3-2026-business-results/"
+            }
+          ],
+          "id": "2026-10-27-pm-1"
+        },
+        {
+          "category": "semi",
+          "title": "2. Seagate：自由现金流15亿美元，下一季收入指引继续增长",
+          "status": "10月27日盘后FY2027 Q1财报｜非自然年Q1",
+          "importance": "高",
+          "body": [
+            "截至10月2日财季，STX收入42.33亿美元、上年26.29亿美元；GAAP毛利率57.3%、Non-GAAP为57.8%，EPS分别7.59及7.68美元。经营现金流17亿美元，自由现金流15亿美元；季内偿还本金约12亿美元，季后再偿还7.5亿美元。",
+            "下一财季指引：收入48亿±1亿美元、Non-GAAP EPS 9.20±0.20美元，尚未实现。公司强调HAMR密度提升、供给纪律和定价策略；不能把财报表现直接解释为所有存储产品同步涨价。"
+          ],
+          "whyImportant": "分析：这期不仅是利润增长，也有现金回收与降债支撑。对投资判断，现金质量比单看EPS更完整；下一季高指引仍需实际交付兑现。",
+          "investmentImpact": "分析：对STX看HAMR放量、单位容量成本和客户采购；对WDC可作HDD行业参考，对MU／SNDK则不能直接套用HDD毛利率。股价还受预期与估值影响，业绩增长不保证财报后上涨。",
+          "tags": [
+            "STX",
+            "HDD",
+            "HAMR",
+            "自由现金流",
+            "WDC",
+            "存储"
+          ],
+          "sources": [
+            {
+              "title": "Seagate｜正式业绩与下一季指引",
+              "url": "https://investors.seagate.com/news/news-details/2026/Seagate-Technology-Reports-Fiscal-First-Quarter-2027-Financial-Results/default.aspx"
+            }
+          ],
+          "id": "2026-10-27-pm-2"
+        },
+        {
+          "category": "ai",
+          "title": "3. OpenAI拟买Google AI芯片：新增采购模式报道，尚无双方确认",
+          "status": "10月27日18:23 PT报道｜消息人士，非正式订单",
+          "importance": "高",
+          "body": [
+            "Reuters于10月28日01:23 UTC（美西27日18:23）转述The Information：OpenAI计划购买Google AI芯片，消息来自知情人士，未披露金额及具体条款。Google未立即回应，OpenAI拒绝评论。",
+            "此前已存在租用Google芯片的报道，本期新增是拟购买的安排，不是首次采用替代GPU路线；也不是已完成采购或已经大规模替代NVIDIA。"
+          ],
+          "whyImportant": "分析：若落实，TPU可能从云租用进一步进入客户直接采购，模型公司选择算力的方式和议价能力可能变化；技术适配、供给和总拥有成本仍是关键。",
+          "investmentImpact": "分析：对GOOGL是潜在新商业化路径，对NVDA是竞争和客户多芯片策略观察点。但没有采购量、价格和工作负载分配，不能量化NVDA收入损失，也不能假定TPU优势已在所有训练／推理场景成立。",
+          "tags": [
+            "OpenAI",
+            "GOOGL",
+            "NVDA",
+            "TPU",
+            "算力多元化",
+            "待确认"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜拟采购Google芯片报道及回应",
+              "url": "https://www.reuters.com/business/openai-plans-buy-googles-ai-chips-information-reports-2026-10-28/"
+            }
+          ],
+          "id": "2026-10-27-pm-3"
+        },
+        {
+          "category": "robot",
+          "title": "4. Physical AI / 机器人投资信号：Teradyne机器人业务盈利，但收入较上季略降",
+          "status": "10月27日盘后正式财报｜测试与机器人分开判断",
+          "importance": "高",
+          "body": [
+            "TER Q3收入13.06亿美元（上年7.69亿、上季13.29亿），GAAP EPS为2.17美元、Non-GAAP为2.29美元，均高于去年但低于上季。半导体测试收入10.72亿美元，机器人收入9600万美元；公司称机器人业务实现盈利、创历年第三季度收入纪录。",
+            "上季机器人收入为1亿美元，因此不能把“第三季度纪录”写成连续环比增长。Q4总收入指引12.5亿—13.5亿美元、Non-GAAP EPS 1.95—2.25美元，属于预期。公司未据此披露可比干预率、uptime或zero-shot／跨本体迁移改善。"
+          ],
+          "whyImportant": "分析：机器人盈利是单位经济性相关的实质信号，但分部收入、利润与现场可靠性是不同证据。测试业务受AI带动，也不能当成全部来自机器人。",
+          "investmentImpact": "分析：对TER，继续看机器人盈利的持续性、服务成本和半导体测试需求；对ON、ADI及执行器／减速器链，这不是直接design win。与TSLA、Figure、Unitree比较时，应要求同口径收入、有效工时和客户回本数据。",
+          "tags": [
+            "Physical AI",
+            "TER",
+            "机器人盈利",
+            "测试设备",
+            "单位经济性",
+            "环比"
+          ],
+          "sources": [
+            {
+              "title": "Teradyne｜Q3正式业绩",
+              "url": "https://investors.teradyne.com/news-events/press-releases/detail/455/teradyne-reports-third-quarter-2026-results"
+            },
+            {
+              "title": "Teradyne｜Q2原始10-Q，机器人收入对照",
+              "url": "https://investors.teradyne.com/sec-filings/all-sec-filings/content/0001193125-26-327715/ter-20260628.htm"
+            }
+          ],
+          "id": "2026-10-27-pm-4"
+        },
+        {
+          "category": "macro",
+          "title": "5. 宏观 / 市场环境：原油结算下跌后又反弹；天然气近月上涨须考虑到期",
+          "status": "10月27日正式结算＋18:40 PT亚洲早盘快照",
+          "importance": "高",
+          "body": [
+            "12月Brent正式结算113.88美元／桶、跌1.67%；12月WTI为99.90美元、跌1.83%。但Reuters在次日01:40 UTC（美西27日18:40）记录Brent回到115.36美元、涨1.3%，WTI回到101.12美元、涨1.22%。不能只用美国结算下跌描述截稿前走势。",
+            "反弹伴随沙特炼厂遭袭的供应担忧；胡塞声称击中Ras Tanura，沙特当局未立即确认。本期没有量化停产确认，也没有已达成结束战争协议的确认。",
+            "WSJ报道美国11月天然气合约结算2.697美元／MMBtu、涨3.7%；该合约临近周三到期，天气、LNG流量及到期交易均可能影响行情，不能直接代表12月合约或欧洲TTF同步上涨。"
+          ],
+          "whyImportant": "分析：战争→能源→通胀→收益率→科技估值的传导可以随新闻反转。炼厂名义产能不能直接当作已损失产量，近月天然气波动也不能简单外推长期电力成本。",
+          "investmentImpact": "分析：科技、半导体和数据中心需看能源价格持续性、运输与供电成本。外交希望有助情绪，但实际安全和供应改善才支持更持久的通胀缓解；本期不能确认地缘风险已解除。",
+          "tags": [
+            "宏观",
+            "中东",
+            "原油",
+            "天然气",
+            "结算",
+            "盘中反转"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月27日原油结算",
+              "url": "https://www.reuters.com/business/energy/oil-eases-middle-east-diplomacy-hopes-saudi-attacks-keep-supply-worries-alive-2026-10-27/"
+            },
+            {
+              "title": "Reuters｜美西18:40能源反弹快照",
+              "url": "https://www.reuters.com/world/asia-pacific/oil-prices-rise-after-attack-saudi-arabian-refinery-reignites-supply-concerns-2026-10-28/"
+            },
+            {
+              "title": "WSJ｜天然气11月合约结算与到期",
+              "url": "https://www.wsj.com/finance/commodities-futures/u-s-natural-gas-futures-mixed-ahead-of-november-expiry-d72f4d97"
+            }
+          ],
+          "id": "2026-10-27-pm-5"
+        },
+        {
+          "category": "macro",
+          "title": "6. 宏观 / 市场环境：5年期国债拍卖需求接近近期均值，长端仍约5%",
+          "status": "10月27日拍卖结果｜利率／汇率为报道快照",
+          "importance": "高",
+          "body": [
+            "财政部售出700亿美元5年期票据，最高中标收益率4.845%、投标倍数2.33。Dow Jones所引近六次均值2.31，拍卖前市场收益率4.842%，即约0.3基点小幅尾差；不能笼统称需求崩溃，也不能说完全没有融资压力。",
+            "Reuters美国交易时段报道10年期收益率约4.999%、2年期4.739%；美元指数102.38、涨0.35%，美元兑日元157.94。均为报道快照，不是下一交易日或全球统一收盘值。",
+            "早报已列资本品和消费者信心，不重复为晚间新数据。本时段未核实新的CPI/PPI/PCE、就业工资、Fed决定或点阵图；亦未取得新的完整期限溢价、财政赤字、JGB与跨境流量、广泛信用利差读数。"
+          ],
+          "whyImportant": "分析：发债需求影响融资成本，但单次5年期拍卖不等于长端期限溢价测量。美元／日元变动也不能单独证明日本资金大规模回流。",
+          "investmentImpact": "分析：财政／发债→期限溢价→长端利率，以及日本利率→资金回流→全球流动性，仍须分别验证。对高估值科技和高杠杆Neocloud，收入增长之外应继续跟踪利息、债务期限与再融资条件。",
+          "tags": [
+            "宏观",
+            "美债拍卖",
+            "美元",
+            "日元",
+            "期限溢价",
+            "财政"
+          ],
+          "sources": [
+            {
+              "title": "美国财政部｜5年期拍卖正式结果",
+              "url": "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/R_20261027_3.pdf"
+            },
+            {
+              "title": "Dow Jones｜拍卖与近期均值对照",
+              "url": "https://www.marketscreener.com/news/u-s-five-year-yield-declines-from-previous-month-in-auction-ce785cddde89f626"
+            },
+            {
+              "title": "Reuters｜美国市场利率及汇率快照",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-27/"
+            }
+          ],
+          "id": "2026-10-27-pm-6"
+        },
+        {
+          "category": "ai",
+          "title": "7. 收盘与观察清单：纳指再涨，Meta仍跌，等待政策与现金回报检验",
+          "status": "10月27日正式美股收盘｜后续事项非已发布结果",
+          "importance": "高",
+          "body": [
+            "标普500收涨0.60%至7722.60，纳指涨1.18%至26477.81，道指涨0.03%；Meta跌约1.6%。早报已报其融资定价，本期新增的是全天市场反应；不能把AI整体上涨理解为所有融资公司同步受益。",
+            "后续观察：①SK hynix长协价格与扩产如何兑现；②STX指引与现金回收；③TER机器人盈利和订单；④OpenAI／Google是否正式确认芯片采购；⑤Fed决定、云厂商财报与能源运输；⑥中期选举前财政、贸易、关税及监管是否进入正式文件。"
+          ],
+          "whyImportant": "分析：风险偏好修复与融资稀释担忧可以并存。今天上涨无法单独证明AI项目资本回报已足够，也不能把未发布政策和财报结果提前兑现。",
+          "investmentImpact": "分析：未来1—12个月同时核对交付、利润、现金流和折现率。NVDA、MU、NBIS、CRWV与光通信链的驱动不同，不按指数涨幅外推个股收益。",
+          "tags": [
+            "收盘",
+            "风险偏好",
+            "META",
+            "NVDA",
+            "MU",
+            "NBIS",
+            "CRWV",
+            "观察清单"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月27日美股收盘",
+              "url": "https://www.reuters.com/business/us-stock-futures-muted-oil-holds-near-april-highs-ahead-fed-decision-2026-10-27/"
+            }
+          ],
+          "id": "2026-10-27-pm-7"
+        }
+      ]
+    },
+    {
       "id": "2026-10-27-am",
       "date": "2026-10-27",
       "period": "am",
