@@ -4,6 +4,259 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-28-am",
+      "date": "2026-10-28",
+      "period": "am",
+      "time": "07:59",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-28T07:59:44-07:00",
+      "summary": "今早先看能源与利率：加拿大央行已加息25基点，欧洲TTF天然气盘中触及100欧元；Fed决定仍未公布。产业端，GE Vernova和Vertiv财报显示电力、供电与散热需求兑现；美国商品逆差扩大也包含AI设备进口需求。补充昨日遗漏的Oracle／Google TPU正式合作，不重复昨晚的OpenAI采购传闻和存储财报。",
+      "cards": [
+        {
+          "category": "macro",
+          "title": "1. 宏观 / 市场环境：加拿大已经加息，Fed暂停仍只是会前预期",
+          "status": "10月28日加拿大正式决议；美国Fed决定待发布",
+          "importance": "高",
+          "body": [
+            "加拿大央行将政策利率上调25基点至2.50%。央行称能源价格持续偏高、成本传导可能扩大；预计2027年CPI平均约3%，比7月预测高1个百分点，这是预测而非已发生通胀。",
+            "Fed决定预定今日11:00 PT公布。截至本期，Reuters报道市场给维持3.75%—4.00%区间约90%的概率；不能写成已暂停、已降息或已发布新点阵图。WSJ在08:48 ET记录10年期美债4.997%、2年期4.747%，为会前快照。",
+            "本时段未核实新的美国CPI/PPI/PCE、就业工资、完整期限溢价、财政赤字、JGB／跨境资金流或广泛信用利差数据；不把美元／日元单次波动当作日本资金回流证据。"
+          ],
+          "whyImportant": "分析：能源冲击若由燃料扩散至运输、商品和服务，央行可能在增长仍有韧性时收紧。加拿大的实际行动说明这种风险，但不能据此推定Fed必然跟随。",
+          "investmentImpact": "分析：战争→能源→成本传导→政策利率／美债收益率→科技估值。另须分别验证财政／发债→期限溢价→长端利率，以及日本收益率→资金回流→全球流动性。今日重点看Fed措辞与会后曲线；中期选举临近不等于宽松政策已经生效。",
+          "tags": [
+            "宏观",
+            "加拿大央行",
+            "Fed",
+            "加息",
+            "美债",
+            "通胀传导"
+          ],
+          "sources": [
+            {
+              "title": "加拿大央行｜正式利率决议",
+              "url": "https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+            },
+            {
+              "title": "Reuters｜Fed会前预期",
+              "url": "https://www.reuters.com/business/fed-likely-go-into-wait-and-see-mode-rates-2026-10-28/"
+            },
+            {
+              "title": "WSJ｜08:48 ET美债快照",
+              "url": "https://www.wsj.com/finance/jgb-yields-rise-as-ai-trade-regains-momentum-1a6b70cd"
+            }
+          ],
+          "id": "2026-10-28-am-1"
+        },
+        {
+          "category": "macro",
+          "title": "2. 宏观 / 市场环境：欧洲TTF天然气触及100欧元，能源风险扩展至电力成本",
+          "status": "10月28日06:35 PT盘中成交；非结算价",
+          "importance": "高",
+          "body": [
+            "Reuters引述ICE数据：荷兰TTF近月天然气合约于13:35 GMT（06:35 PT）短暂触及100欧元／MWh，较前一交易时段约涨4%，为2022年12月以来首次。背景是中东LNG运输受阻及冬季前供应紧张。",
+            "这是欧洲天然气的新进展，不是美国Henry Hub报价；昨晚已经报道原油反弹，本期不将同一炼厂袭击声称重复计为新事件。本次未核实新的量化停产或全面停火，也不把TTF盘中高点写成正式结算。"
+          ],
+          "whyImportant": "分析：天然气不仅影响取暖，也会通过燃气发电边际成本影响电价；欧洲工业与数据中心可能同时面对电力成本压力。",
+          "investmentImpact": "分析：对欧洲化工、工业及当地数据中心看成本转嫁与购电合同；美国LNG供应商可能受跨地区价差影响，但需看合同、运力和出口能力。TTF上涨不能直接推算美国电价或所有AI公司的利润损失。",
+          "tags": [
+            "宏观",
+            "TTF",
+            "天然气",
+            "欧洲",
+            "电力成本",
+            "中东"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜TTF近月盘中触及100欧元",
+              "url": "https://www.reuters.com/business/energy/european-benchmark-gas-price-touches-100-first-time-since-december-2022-2026-10-28/"
+            }
+          ],
+          "id": "2026-10-28-am-2"
+        },
+        {
+          "category": "ai",
+          "title": "3. GE Vernova：订单与现金流增长，拟以90亿美元收购Trench",
+          "status": "10月28日盘前正式财报及收购协议；交易未交割",
+          "importance": "高",
+          "body": [
+            "GEV Q3收入约126亿美元、同比增长27%（有机增长18%）；订单290亿美元、有机增长96%，期末积压订单1970亿美元。经营现金流61亿美元、自由现金流54亿美元，后者为公司非GAAP口径。公司上调全年收入、调整后EBITDA利润率及自由现金流展望。",
+            "燃气发电设备积压订单及产能档期预订协议合计由116增至122 GW，包含预订协议，不能全部当作已交付装机。公司预计年底至少130 GW，属于目标；回购授权由100亿增至200亿美元，也不是已花完。",
+            "另签约以等值90亿美元收购高压电网部件商Trench，预计现金和债务各承担一半，预计2027年末完成，仍需审批等条件。Trench约50亿美元的积压订单与框架协议不能全部算作立即新增收入。"
+          ],
+          "whyImportant": "分析：AI扩张所需的不只是芯片，也包括发电、输电与电网部件。财报提供需求和现金回收证据；收购则体现公司愿意为关键供应能力投入资本。",
+          "investmentImpact": "分析：对GEV看订单利润率、交付与预收款后续转化；对ETN、PWR等仅作行业参考，不能按GEV订单推算其收入。收购协同尚未实现，需跟踪负债、监管和整合成本。",
+          "tags": [
+            "GEV",
+            "电网",
+            "燃气轮机",
+            "AI电力",
+            "自由现金流",
+            "Trench"
+          ],
+          "sources": [
+            {
+              "title": "GE Vernova｜Q3正式财报",
+              "url": "https://www.gevernova.com/news/ge-vernova-reports-strong-third-quarter-2026-financial-performance"
+            },
+            {
+              "title": "GE Vernova｜Trench收购协议",
+              "url": "https://www.gevernova.com/news/press-releases/ge-vernova-acquire-trench-group"
+            }
+          ],
+          "id": "2026-10-28-am-3"
+        },
+        {
+          "category": "ai",
+          "title": "4. Vertiv：收入增长61%，有机订单增长超过100%，上调全年指引",
+          "status": "10月28日盘前正式Q3业绩；GAAP与调整后口径分列",
+          "importance": "高",
+          "body": [
+            "VRT Q3收入43.13亿美元、同比增长61%，其中有机增长55%、收购贡献约6%；公司公告称有机订单增长超过100%。GAAP摊薄EPS为1.95美元，调整后2.21美元；调整后营业利润率25.2%，同比提高2.9个百分点。",
+            "经营现金流7.94亿美元、调整后自由现金流6.52亿美元。全年销售额指引中点提高6.5亿美元至146.5亿美元，调整后EPS中点7.15美元；均为指引，不是全年已实现结果。"
+          ],
+          "whyImportant": "分析：供电与散热需求已转为收入、利润和现金流，比单纯资本开支承诺更接近商业兑现。有机增速与含收购增速需区分。",
+          "investmentImpact": "分析：对VRT看订单交付、产能扩张和利润率持续性；不能将超过100%的订单增速直接当作下一季收入增速。对NVDA、NBIS、CRWV，这是基础设施建设参考，不是其利用率、融资回报或利润率已被验证。",
+          "tags": [
+            "VRT",
+            "数据中心",
+            "供电",
+            "散热",
+            "订单",
+            "财报"
+          ],
+          "sources": [
+            {
+              "title": "Vertiv｜Q3业绩及全年指引",
+              "url": "https://investors.vertiv.com/news/news-details/2026/Vertiv-Reports-Strong-Third-Quarter-2026-with-Net-Sales-Growth-of-61-Organic-Orders-Growth-over-100-and-Diluted-EPS-Growth-of-91-Adjusted-Diluted-EPS-Growth-of-78-Raises-Full-Year-2026-Guidance-Across-All-Key-Metrics/default.aspx"
+            }
+          ],
+          "id": "2026-10-28-am-4"
+        },
+        {
+          "category": "macro",
+          "title": "5. 美国商品逆差扩大：AI硬件进口旺盛，不宜直接等同经济转弱",
+          "status": "10月28日已公布9月预估数据；不是进出口价格指数",
+          "importance": "高",
+          "body": [
+            "Census公布9月商品贸易逆差1349亿美元，8月为1321亿美元；商品进口3441亿美元、环比增加81亿美元，出口2092亿美元、增加53亿美元。批发与零售库存金额分别环比增长0.6%、0.3%，未剔除价格变动。",
+            "Reuters称资本品进口环比增长7.5%，AI基础设施需求是推动因素之一。商品逆差不同于包含服务的整体贸易差额，也不同于财政赤字；本期不把进口金额增加解读为进口价格同比上涨。"
+          ],
+          "whyImportant": "分析：进口增加可能反映投资和内需较强，同时净出口会拖累GDP核算。进口设备对应的投资、库存也会进入其他分项，不能只凭逆差扩大断言衰退或独立计算最终GDP。",
+          "investmentImpact": "分析：对半导体、服务器与网络链是设备需求旁证，但非某家公司的订单。明日GDP须结合国内最终需求、库存和净出口；中期选举前若出现贸易措施，需核对正式文件，不能从逆差自动推定新增关税。",
+          "tags": [
+            "宏观",
+            "贸易逆差",
+            "AI设备",
+            "进口",
+            "GDP",
+            "库存"
+          ],
+          "sources": [
+            {
+              "title": "Census｜9月Advance Economic Indicators",
+              "url": "https://www.census.gov/econ/indicators/current/index.html"
+            },
+            {
+              "title": "Reuters｜进口结构与AI需求",
+              "url": "https://www.reuters.com/business/us-goods-trade-deficit-unexpectedly-widens-september-2026-10-28/"
+            }
+          ],
+          "id": "2026-10-28-am-5"
+        },
+        {
+          "category": "semi",
+          "title": "6. 补充遗漏：Oracle正式引入Google TPU，计划2027年起提供",
+          "status": "10月27日官方公告；本期补充，非今早新签",
+          "importance": "高",
+          "body": [
+            "Oracle与Google于27日正式宣布，Google TPU将通过OCI提供；计划2027年可用、随后多年爬坡。OCI将提供电力、散热和数据中心网络。这是Google以外首个宣布提供TPU的超大规模云平台安排。",
+            "这与昨晚OpenAI拟购买TPU的未确认报道是两件事：前者有官方公告，后者仍需双方确认。本期明确补充遗漏，不伪称隔夜刚发布；公告未披露可直接计入本季收入的采购金额。"
+          ],
+          "whyImportant": "分析：TPU的分销渠道从Google自身云服务向其他大型云平台延伸，客户可在更多平台选择算力架构。",
+          "investmentImpact": "分析：对GOOGL、ORCL是潜在商业化扩展，对NVDA看具体工作负载与客户采购分配。2027年上线计划不等于今日收入，营销性能描述也不等于跨芯片、同任务的独立成本测试。",
+          "tags": [
+            "ORCL",
+            "GOOGL",
+            "TPU",
+            "NVDA",
+            "多云",
+            "补充遗漏"
+          ],
+          "sources": [
+            {
+              "title": "Oracle｜Google TPU进入OCI正式公告",
+              "url": "https://www.oracle.com/news/announcement/ai-world-oracle-brings-google-tpus-to-oracle-cloud-infrastructure-2026-10-27/"
+            }
+          ],
+          "id": "2026-10-28-am-6"
+        },
+        {
+          "category": "macro",
+          "title": "7. 美国拟更新LNG安全规则：是提案，供应改善仍需建设与审批",
+          "status": "10月28日Reuters报道PHMSA提案；未生效",
+          "importance": "中",
+          "body": [
+            "Reuters报道，美国PHMSA拟更新LNG设施安全框架，纳入NFPA相关标准，允许使用更新技术。项目仍需FERC许可、环境审批并可能面临诉讼；不能把提案写成出口产能已增加。",
+            "此事与FERC在10月15日提出的LNG简化授权方案不同，不能混作今天同一新规；本期不将政府预估节省金额当作企业已实现收益。"
+          ],
+          "whyImportant": "分析：规则可能影响项目成本和交付周期，但法规提案、最终规则、投资决定、建设及投产之间仍有多个步骤。",
+          "investmentImpact": "分析：对LNG、VG及燃气基础设施链关注落地与融资。未来出口增加可改善海外供给，也可能增加美国气源需求；不能单向断言美国天然气和AI数据中心电力成本必然下降。",
+          "tags": [
+            "宏观",
+            "LNG",
+            "PHMSA",
+            "能源政策",
+            "监管提案",
+            "成本"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜PHMSA拟更新LNG规则",
+              "url": "https://www.reuters.com/legal/litigation/us-regulator-proposes-new-rules-speed-up-lng-projects-2026-10-28/"
+            },
+            {
+              "title": "FERC｜10月15日另一个授权提案",
+              "url": "https://ferc.gov/news-events/news/presentation-authorizations-certain-activities-liquefied-natural-gas-plants"
+            }
+          ],
+          "id": "2026-10-28-am-7"
+        },
+        {
+          "category": "robot",
+          "title": "8. Physical AI / 机器人投资信号：无新增合格证据，等待可靠性与回本数据",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本时段未核实到可比的zero-shot泛化、跨本体迁移、触觉／力控精细操作、数据效率、人工干预率、连续uptime或部件单位经济性改善，亦未核实新的重点公司付费deployment／design win。",
+            "昨晚TER机器人盈利和此前GXO／Agility扩点已报，不重复计为新进展。技术框架或仿真演示若缺少真实任务指标与付费客户，不据此上调盈利假设；缺少本时段公开证据不等于产业没有进展。"
+          ],
+          "whyImportant": "分析：机器人投资判断需从展示能力推进到有效工时、接管次数、维护成本及客户回本，不能把仿真一致性当作现场可靠性。",
+          "investmentImpact": "分析：继续跟踪NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Gemini Robotics、Physical Intelligence及Nabtesco、Harmonic Drive、THK、Nidec。观察清单：付费复购、每有效工时成本、人工干预、维修电池成本，以及执行器／手／传感器的真实供应订单。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "付费部署",
+            "可靠性",
+            "人工干预",
+            "硬件经济性"
+          ],
+          "sources": [
+            {
+              "title": "跟踪入口｜Physical Intelligence博客，非新增新闻证据",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "跟踪入口｜Figure新闻，非新增新闻证据",
+              "url": "https://www.figure.ai/news"
+            }
+          ],
+          "id": "2026-10-28-am-8"
+        }
+      ]
+    },
+    {
       "id": "2026-10-27-pm",
       "date": "2026-10-27",
       "period": "pm",
