@@ -4,6 +4,295 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-28-pm",
+      "date": "2026-10-28",
+      "period": "pm",
+      "time": "19:07",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-28T19:07:07-07:00",
+      "summary": "今晚重点是Fed暂停但未转向宽松，以及AI客户现金回报分化：微软Azure增长48%、自由现金流为正；Alphabet云收入增长103%，但资本开支、TPU备货与罚款压低现金流。Samsung正式财报与KLA指引继续支持存储和设备需求；Oracle给出融资上限目标，NVIDIA另遇Hugging Face交易反垄断问询报道。原油结算反弹，仍须防范能源与利率挤压科技估值。",
+      "cards": [
+        {
+          "category": "macro",
+          "title": "1. 宏观 / 市场环境：Fed维持利率，收益率曲线反应不等于全面宽松",
+          "status": "10月28日正式决议；市场报价与预期另列",
+          "importance": "高",
+          "body": [
+            "Fed以10比2维持政策利率3.75%—4.00%；Cook与Hammack希望加息25基点。声明称经济活动强劲、通胀仍高。本期没有新点阵图，暂停不等于降息承诺。",
+            "Reuters在记者会期间记录2年期约4.700%、10年期5.042%、30年期5.367%，为特定时点快照；与声明刚发布后的报价不同。另篇当日报道引述12月加息25基点概率约85%，属于市场定价，非Fed决定。",
+            "美股正式收盘标普500约涨0.28%、纳指涨0.27%，发生在云厂商盘后财报之前。明日05:30 PT的GDP与PCE尚未公布；本时段未核实新的就业工资、完整期限溢价、财政赤字、JGB／日元资金回流及广泛信用利差读数。"
+          ],
+          "whyImportant": "分析：短端回落与长端上行可以并存。长端同时包含增长、通胀、供给和期限补偿，不能仅凭曲线变陡认定市场流动性全面改善。",
+          "investmentImpact": "分析：高估值科技与高杠杆Neocloud仍受折现率、信用及再融资成本约束。继续分开验证战争→能源→通胀→收益率，财政／发债→期限溢价，以及日本收益率→资金回流。下周11月3日选举前的政策说法须与正式生效文件区分。",
+          "tags": [
+            "宏观",
+            "Fed",
+            "暂停加息",
+            "美债曲线",
+            "风险偏好",
+            "中期选举"
+          ],
+          "sources": [
+            {
+              "title": "Fed｜正式FOMC声明",
+              "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+            },
+            {
+              "title": "Reuters｜记者会期间曲线快照",
+              "url": "https://ca.marketscreener.com/news/fomc-holds-rates-steady-markets-mostly-follow-suit-ce785cd2d080f521"
+            },
+            {
+              "title": "Reuters｜收盘与12月市场定价",
+              "url": "https://au.investing.com/news/economy-news/stocks-get-ai-lift-dollar-holds-steady-ahead-of-fed-decision-4719603"
+            }
+          ],
+          "id": "2026-10-28-pm-1"
+        },
+        {
+          "category": "ai",
+          "title": "2. Microsoft：Azure增长48%，现金流强，但容量延迟不能解释为投资削减",
+          "status": "10月28日盘后FY2027 Q1财报及电话会",
+          "importance": "高",
+          "body": [
+            "截至9月财季收入922.79亿美元、同比增长19%；GAAP EPS 4.92美元，剔除OpenAI投资影响后4.89美元。Azure收入增长48%，Microsoft Cloud收入639亿美元；不能把Azure与整个Microsoft Cloud口径混用。",
+            "电话会披露经营现金流580亿美元、现金购建固定资产394亿美元，自由现金流186亿美元。含融资租赁的资本开支为452亿美元，低于此前预期，原因包括第三方容量交付延迟；不能用580减452计算公司自由现金流。",
+            "公司预计下一季Azure按固定汇率增长49%—50%，部分第三方GPU服务合同延迟至财年下半年。管理层仍称需求高于供给；增长指引与延迟项目都不是已实现收入。"
+          ],
+          "whyImportant": "分析：实际云收入和现金回收增强需求可信度，但资本开支延后也会抬高当季现金流，不能将全部现金改善视为永久效率提升。",
+          "investmentImpact": "分析：对NVDA、CPU、存储和网络链，需求与交付节奏要分别看。对NBIS、CRWV，未点名的第三方延迟不能直接归因某一家；需核对其客户验收、上电、租赁起算及收入确认。",
+          "tags": [
+            "MSFT",
+            "Azure",
+            "现金流",
+            "资本开支",
+            "NVDA",
+            "NBIS",
+            "CRWV"
+          ],
+          "sources": [
+            {
+              "title": "Microsoft｜正式财报",
+              "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/press-release-webcast"
+            },
+            {
+              "title": "Microsoft电话会原文转录｜现金流、租赁与延迟",
+              "url": "https://stockanalysis.com/stocks/msft/transcripts/718712-q1-2027/"
+            }
+          ],
+          "id": "2026-10-28-pm-2"
+        },
+        {
+          "category": "ai",
+          "title": "3. Alphabet：云增长103%，但现金回报压力和TPU销售模式需要一起看",
+          "status": "10月28日盘后Q3正式财报及电话会",
+          "importance": "高",
+          "body": [
+            "Alphabet收入1275.77亿美元、同比增长25%，营业利润405.76亿美元、增长30%；GAAP EPS为2.12美元。Google Cloud收入307.09亿美元、增长103%，其中TPU系统销售有实质贡献，不能全部当作可持续云租用收入。",
+            "经营现金流422.90亿美元、现金资本开支513.55亿美元，自由现金流为负90.65亿美元；Q2已经为负58.55亿美元，因此不是首次转负。电话会称TPU备货和52亿美元欧盟罚款付款也压低现金流，不能全归因当季GPU采购。",
+            "公司维持2026年资本开支1950亿—2050亿美元指引，并预计2027年显著增加。电话会称TPU库存对应已签合同；第三方算力使用将在Q4扩大并带来短期利润率压力。均不等于合同无风险或已全部回款。"
+          ],
+          "whyImportant": "分析：需求强与现金消耗大可以同时成立；TPU系统需先备货、后交付收款，硬件销售与云服务的收入、毛利和资本占用结构不同。",
+          "investmentImpact": "分析：对AVGO、HBM／DRAM、SSD和光通信链，系统扩张提供需求参考；不能按资本开支总额分配个股订单。对NVDA需区分市场整体扩张和TPU份额变化；对GOOGL则看广告、折旧、第三方租赁成本及现金转化，不能只用103%增速估值。",
+          "tags": [
+            "GOOGL",
+            "TPU",
+            "AVGO",
+            "MU",
+            "NVDA",
+            "自由现金流",
+            "电话会"
+          ],
+          "sources": [
+            {
+              "title": "Alphabet｜正式财报PDF与现金流表",
+              "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf"
+            },
+            {
+              "title": "Alphabet电话会原文转录｜库存、罚款与资本开支",
+              "url": "https://stockanalysis.com/stocks/googl/transcripts/712854-q3-2026/"
+            }
+          ],
+          "id": "2026-10-28-pm-3"
+        },
+        {
+          "category": "semi",
+          "title": "4. Samsung正式业绩：新增分部、HBM4与扩产信息，利润标题早已有预告",
+          "status": "韩国10月29日＝美西10月28日晚；正式Q3公告",
+          "importance": "高",
+          "body": [
+            "Samsung正式公布收入195.3万亿韩元、环比增长14%，营业利润107.4万亿韩元；后一个数字10月8日预告已给出，不能全部当作今晚新增惊喜。新增细节是DS分部收入147.1万亿、营业利润106.5万亿韩元，以及HBM4和服务器SSD销售扩张。",
+            "Q3资本开支29万亿韩元，全年预计84.4万亿，其中DS预计76.8万亿；公司预计2027年AI存储需求更加超过供给，这是管理层预测。与上游强盈利并存，DX业务录得0.8万亿韩元营业亏损。"
+          ],
+          "whyImportant": "分析：存储价格和产品组合带来上游利润，也可能压缩终端设备盈利；扩产既支持设备订单，也影响未来供给周期。",
+          "investmentImpact": "分析：对MU、SNDK是需求与供给参考，对设备链看投资交付；不能把Samsung DS利润率当作MU利润率，或把全年投资全部当作新增DRAM晶圆。继续看HBM4良率、客户认证和2027实际供给。",
+          "tags": [
+            "Samsung",
+            "MU",
+            "SNDK",
+            "HBM4",
+            "服务器SSD",
+            "扩产"
+          ],
+          "sources": [
+            {
+              "title": "Samsung｜正式Q3结果",
+              "url": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results"
+            },
+            {
+              "title": "Samsung｜10月8日预告，用于去重",
+              "url": "https://www.samsung.com/global/ir/reports-disclosures/public-disclosure-view.84775/"
+            }
+          ],
+          "id": "2026-10-28-pm-4"
+        },
+        {
+          "category": "ai",
+          "title": "5. Oracle：新增融资上限200亿美元，现金流转正仍是未来目标",
+          "status": "10月28日投资者日官方指引；非已实现结果",
+          "importance": "高",
+          "body": [
+            "Oracle预计FY2028下半年自由现金流转正、FY2029至少300亿美元；预计资本开支在FY2027—28见顶，FY2029下降。均为公司目标，不是今天已停止烧钱。",
+            "公司承诺FY2030前额外资本市场融资不超过200亿美元，预计股权和债务各100亿美元；不含现有债务再融资，并且是在FY2027 Q1已完成200亿美元ATM股权融资之外。供应商融资、客户自备硬件和预付款将帮助降低前期现金需求，属于规划。"
+          ],
+          "whyImportant": "分析：融资边界和现金流时间表让AI扩张更可评估，但降低自付资本开支可能只是付款与资产承担方变化，并不自动代表芯片需求减少。",
+          "investmentImpact": "分析：对ORCL看承诺兑现、预付款和债务；对NVDA与Neocloud看采购主体和风险承担如何迁移。200亿美元上限不能当作未来所有融资、租赁和供应商债务的总额。",
+          "tags": [
+            "ORCL",
+            "AI融资",
+            "现金流",
+            "资本开支",
+            "供应商融资"
+          ],
+          "sources": [
+            {
+              "title": "Oracle｜投资者日正式公告",
+              "url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Investor-Day-2026-Accelerating-Value-Creation/default.aspx"
+            }
+          ],
+          "id": "2026-10-28-pm-5"
+        },
+        {
+          "category": "semi",
+          "title": "6. KLA：收入环比增长，下一季指引继续提高",
+          "status": "10月28日盘后FY2027 Q1业绩；EPS已按拆股调整",
+          "importance": "高",
+          "body": [
+            "KLAC收入41.36亿美元，上季36.58亿、上年32.10亿；GAAP净利润15.49亿美元、EPS 1.18美元，Non-GAAP EPS 1.22美元。每股数字已追溯反映6月的1拆10，不能与未调整旧数据直接比较。",
+            "下一季收入指引47亿±2亿美元，Non-GAAP毛利率62.5%±1个百分点、EPS 1.44±0.11美元，属于预测。公司将需求与先进逻辑、存储复杂度及先进封装联系起来。"
+          ],
+          "whyImportant": "分析：检测与量测在器件复杂度、良率要求提高时可能增加价值量；但单家公司指引不代表所有设备类别同步增长。",
+          "investmentImpact": "分析：对KLAC看指引兑现和服务收入，对AMAT、LRCX、ASML仅作需求参考；持续跟踪出口限制与客户投资节奏，不能用AI需求抵消所有政策风险。",
+          "tags": [
+            "KLAC",
+            "过程控制",
+            "先进封装",
+            "存储设备",
+            "拆股",
+            "指引"
+          ],
+          "sources": [
+            {
+              "title": "KLA｜正式财报及指引",
+              "url": "https://ir.kla.com/sec-filings/all-sec-filings/content/0000319201-26-000032/exhibit991earningsrelease0.htm"
+            }
+          ],
+          "id": "2026-10-28-pm-6"
+        },
+        {
+          "category": "semi",
+          "title": "7. NVIDIA／Hugging Face：司法部问询报道，尚非违法认定或阻止交易",
+          "status": "10月28日Reuters独家；两名知情人士，未获公司确认",
+          "importance": "高",
+          "body": [
+            "Reuters称美国司法部询问NVIDIA约129.3亿美元收购Hugging Face交易对AI竞争的影响；NVIDIA拒绝评论，Hugging Face未回应。问询报道是新增，收购金额不是今天新宣布的订单。",
+            "政府调查不证明违法，也不必然形成诉讼或阻止交易；本期未取得公开的起诉或禁令文件。"
+          ],
+          "whyImportant": "分析：监管关注可能从芯片销售延伸至模型分发、软件生态与投资关系，影响平台扩张的方式和时间。",
+          "investmentImpact": "分析：对NVDA是交易进度与生态估值风险，不能据问询直接下调本季芯片收入；观察正式监管文件、补救条件及开放生态安排。",
+          "tags": [
+            "NVDA",
+            "Hugging Face",
+            "反垄断",
+            "监管",
+            "消息人士"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜司法部问询及公司回应",
+              "url": "https://www.reuters.com/world/us-doj-is-inquiring-about-nvidias-purchase-hugging-face-sources-say-2026-10-28/"
+            }
+          ],
+          "id": "2026-10-28-pm-7"
+        },
+        {
+          "category": "macro",
+          "title": "8. 宏观 / 市场环境：原油正式结算反弹，天然气到期交易不能外推",
+          "status": "10月28日结算／到期报价；军事风险与事实分列",
+          "importance": "高",
+          "body": [
+            "Brent结算115.32美元／桶，较前日上涨1.44美元；WTI结算102.78美元，上涨2.88美元。EIA公布截至10月23日当周原油库存减少190万桶，是正式数据，不能与昨晚API消息人士数字混用。",
+            "继续作战及美国可能在选举后打击伊朗的担忧支撑风险溢价，但本期没有据此确认未来军事行动已执行或全面停火。WSJ在16:13 ET报道11月美国天然气合约以2.817美元／MMBtu到期、当日涨4.4%；这不是12月合约，也不代表欧洲TTF。"
+          ],
+          "whyImportant": "分析：战争→油气→运输与电力成本→通胀→利率的压力仍在；到期合约还包含技术交易因素，不能把一天涨幅视为整个能源曲线同幅上行。",
+          "investmentImpact": "分析：能源高位可能同时压缩实际购买力、数据中心回报并限制宽松空间。明日PCE、GDP之后，再核对收益率和风险资产反应；早报已报TTF触及100欧元，不重复作新消息。",
+          "tags": [
+            "宏观",
+            "原油",
+            "EIA",
+            "天然气到期",
+            "中东",
+            "通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜原油结算与EIA库存",
+              "url": "https://www.reuters.com/world/asia-pacific/oil-prices-rise-after-attack-saudi-arabian-refinery-reignites-supply-concerns-2026-10-28/"
+            },
+            {
+              "title": "WSJ｜11月天然气到期报价",
+              "url": "https://www.wsj.com/finance/commodities-futures/u-s-natural-gas-futures-rise-in-early-trading-68f5df91"
+            }
+          ],
+          "id": "2026-10-28-pm-8"
+        },
+        {
+          "category": "robot",
+          "title": "9. Physical AI / 机器人投资信号：算力客户信息新增，部署与可靠性仍无合格新指标",
+          "status": "电话会有新增客户提及；无机器人现场指标更新",
+          "importance": "中",
+          "body": [
+            "Google Cloud在电话会中提及与Physical Intelligence合作使用TPU；这是算力客户信息，不是机器人付费部署、零样本泛化或跨本体能力突破的证明。",
+            "本时段未核实新的可比人工干预率、连续uptime、触觉／力控、数据效率及硬件单位经济性改善，亦未核实重点公司的新增真实部署／部件design win。TER盈利和GXO／Agility扩点已报，不重复计数。"
+          ],
+          "whyImportant": "分析：机器人研发购买算力与机器人在客户现场创造可收费工时，是投资链条的两个不同阶段。",
+          "investmentImpact": "分析：继续跟踪NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Gemini Robotics、Physical Intelligence及日本部件链。观察清单：付费复购、每有效工时成本、接管频率、维护与电池成本、执行器／手／传感器订单；本期不据算力合作上调机器人盈利。",
+          "tags": [
+            "Physical AI",
+            "Physical Intelligence",
+            "TPU",
+            "部署",
+            "可靠性",
+            "观察清单"
+          ],
+          "sources": [
+            {
+              "title": "Google Cloud电话会原文转录｜Physical Intelligence客户信息",
+              "url": "https://stockanalysis.com/stocks/googl/transcripts/712854-q3-2026/"
+            },
+            {
+              "title": "跟踪入口｜Figure新闻，非新增部署证据",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "跟踪入口｜Physical Intelligence，非新增部署证据",
+              "url": "https://www.pi.website/blog"
+            }
+          ],
+          "id": "2026-10-28-pm-9"
+        }
+      ]
+    },
+    {
       "id": "2026-10-28-am",
       "date": "2026-10-28",
       "period": "am",
