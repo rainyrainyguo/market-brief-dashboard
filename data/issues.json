@@ -4,6 +4,280 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-29-am",
+      "date": "2026-10-29",
+      "period": "am",
+      "time": "08:07",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-29T08:07:00-07:00",
+      "summary": "增长韧性与购买力压力并存：Q3实际GDP折年增长3.4%，9月PCE同比3.6%，实际月度消费近乎停滞。Alphabet财报后重挫，微软拟发至少250亿美元债；ECB维持利率并确认拉加德离任。另补充MRVL/LITE并购谈判，追踪STM复苏与BOJ风险；机器人没有合格新增。报价均注明时点，未取得的新行情不补造。",
+      "cards": [
+        {
+          "id": "2026-10-29-am-1",
+          "category": "macro",
+          "title": "美国增长加快、通胀升温：强GDP与弱实际月度消费并存",
+          "status": "10月29日05:30 PDT正式数据；季度年化与月度指标分列",
+          "importance": "高",
+          "body": [
+            "BEA公布三季度实际GDP环比折年率3.4%，高于二季度2.2%；并非同比增长3.4%。私人国内最终销售折年增长4.9%，说明需求韧性不只来自政府支出。",
+            "9月PCE物价环比上涨0.5%、同比3.6%；核心PCE环比0.3%、同比3.1%。名义消费环比增加0.5%，但扣除涨价后实际消费四舍五入为0.0%，实际可支配收入下降0.3%，储蓄率3.8%。",
+            "初请失业金截至10月24日一周为19.4万人，上周修正为19.5万人；低裁员不等于招聘强劲。"
+          ],
+          "whyImportant": "季度经济仍在扩张，但9月家庭新增支出基本被涨价抵消；不能把强GDP解释成消费者购买力全面改善，也不能凭一个月实际消费停滞认定衰退。",
+          "investmentImpact": "分析：需求韧性＋通胀黏性→Fed放松空间受限→高估值科技的折现率压力延续；若实际收入持续下降，消费科技和广告收入也会受影响。加息属于未来决策，今天的数据不是加息公告。",
+          "tags": [
+            "GDP",
+            "PCE",
+            "实际购买力",
+            "Fed",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "BEA｜三季度GDP初值",
+              "url": "https://www.bea.gov/index.php/news/2026/gdp-advance-estimate-3rd-quarter-2026"
+            },
+            {
+              "title": "BEA｜9月个人收入与支出",
+              "url": "https://bea.gov/news/2026/personal-income-and-outlays-september-2026"
+            },
+            {
+              "title": "Reuters｜10月29日初请失业金",
+              "url": "https://www.aol.com/articles/us-weekly-jobless-claims-hover-125628000.html"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-29-am-2",
+          "category": "ai",
+          "title": "财报后的新信号：Alphabet大跌，AI交易进入现金回报检验",
+          "status": "10月29日06:56 PDT盘中快照；不是收盘价",
+          "importance": "高",
+          "body": [
+            "Reuters记录美东09:56时，纳指下跌1.64%，Alphabet下跌约13%；半导体和软件亦承压。新增内容是市场对昨晚财报的定价反应，微软、谷歌的完整财报数据已见上一期。",
+            "股价下跌是已发生事实；将每一笔跌幅归因于某个单一财报指标，证据不足。"
+          ],
+          "whyImportant": "市场正在同时检验AI支出的增长与盈利兑现，强云收入不自动保证股价上行。",
+          "investmentImpact": "分析：若投入增长持续快于可分配现金增长，投资者可能降低估值倍数。NVDA、MU、NBIS、CRWV仍需分别看订单兑现、客户付款能力与融资成本，不能由GOOG一天跌幅直接推断行业需求坍塌。",
+          "tags": [
+            "GOOG",
+            "MSFT",
+            "NVDA",
+            "NBIS",
+            "CRWV",
+            "现金回报"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月29日美股盘中",
+              "url": "https://www.reuters.com/business/nasdaq-futures-slide-mixed-big-tech-results-test-ai-trade-2026-10-29/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-29-am-3",
+          "category": "ai",
+          "title": "微软拟发至少250亿美元债：AI资金供给成为独立观察项",
+          "status": "10月29日媒体报道融资计划；尚非最终定价或完成发行",
+          "importance": "高",
+          "body": [
+            "Reuters援引Bloomberg报道，微软计划通过美国投资级债券筹集至少250亿美元，为九年多来首次重返该市场。报道所述用途包含一般公司用途；不应把全部金额直接当作新增GPU采购。",
+            "本期新增是融资计划，上一期已经报道其云增长、资本开支及自由现金流。"
+          ],
+          "whyImportant": "连高信用等级巨头也增加外部融资渠道，AI资本开支的融资结构值得与订单同等关注；发债本身并不证明现金枯竭。",
+          "investmentImpact": "分析：观察发行规模、期限、最终信用利差和资金用途。大型科技债券供给可能竞争债券资金，但不能据此断言美债期限溢价已上涨；NBIS、CRWV等融资更敏感公司的成本也不能直接套用微软条件。",
+          "tags": [
+            "MSFT",
+            "AI资本开支",
+            "公司债",
+            "信用利差"
+          ],
+          "sources": [
+            {
+              "title": "Reuters／Schwab｜微软发债计划",
+              "url": "https://www.schwab.wallst.com/schwab/Prospect/research/stocks/news.asp?YYY101_z5K6INmijHk7aTSca21P6ksBDA9Bpmg%2FbLmCskC+qr7FQEnyJIeKk4tFDYe4GFuJywq2tjkCd0OAyBawmo0vQbPujDUPlhNaF0J6zh1FQgs=&symbol=MSFT&type=companyHeadlines"
+            },
+            {
+              "title": "WSJ｜微软准备重返债市",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-29-2026/card/microsoft-preps-first-bond-sale-since-2017-TPDyJojfR9kjGxwE35EK"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-29-am-4",
+          "category": "macro",
+          "title": "ECB维持利率，拉加德确认2027年2月7日离任",
+          "status": "10月29日ECB两项正式公告",
+          "importance": "高",
+          "body": [
+            "ECB维持存款利率2.50%、主要再融资利率2.65%、边际贷款利率2.90%。声明指出能源冲击增加通胀上行和增长下行风险，但目前工资尚未出现实质响应；不预先承诺利率路径。",
+            "拉加德正式宣布将于2027年2月7日卸任；继任者由欧洲理事会按程序任命。离任已确认，具体继任者及其政策立场尚未确定。"
+          ],
+          "whyImportant": "能源通胀与融资条件收紧同时存在，欧洲央行面对的政策取舍可能影响全球债券和汇率。",
+          "investmentImpact": "分析：能源→通胀→欧洲利率预期→全球折现率；欧洲增长转弱又可能反向压制收益率。不能把今天暂停加息解释为加息周期结束，也不能将人事变动直接等同于宽松。",
+          "tags": [
+            "ECB",
+            "欧元",
+            "能源通胀",
+            "全球利率"
+          ],
+          "sources": [
+            {
+              "title": "ECB｜10月29日货币政策决定",
+              "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp261029~9a493adf17.mt.html"
+            },
+            {
+              "title": "ECB｜拉加德离任日期",
+              "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-29-am-5",
+          "category": "macro",
+          "title": "油价回落交易外交希望，尚无已确认停战协议",
+          "status": "10月29日02:22 PDT油价快照；谈判内容为媒体及匿名消息",
+          "importance": "高",
+          "body": [
+            "Reuters在09:22 GMT记录Brent为114.05美元/桶、跌1.1%，WTI为101.27美元/桶、跌1.5%；这是美国宏观数据公布前的报价，不是最新结算价。",
+            "报道援引WSJ称万斯致信伊朗方面推动谈判；卡塔尔提出草案的说法来自知情官员，伊朗高级官员则认为有关想法不可接受。不能将谈判希望写成停火落地。"
+          ],
+          "whyImportant": "油价仍处高位，单日下跌并未消除能源对通胀、运输和企业利润的冲击。",
+          "investmentImpact": "分析：若可靠停火落地→供应风险溢价下降→通胀和利率压力可能缓和→科技估值受益；若冲突升级则反向传导。今日油价变化也不能直接外推为天然气同幅变化。",
+          "tags": [
+            "中东",
+            "伊朗",
+            "Brent",
+            "WTI",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters／Euronext｜10月29日油价与外交消息",
+              "url": "https://live.euronext.com/en/financial-news/oil-falls-diplomacy-hopes-outweigh-middle-east-escalation-fears"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-29-am-6",
+          "category": "semi",
+          "title": "Marvell洽购Lumentum：补充遗漏的光互连整合线索",
+          "status": "补充10月28日16:10 PDT报道；谈判传闻，未有正式协议",
+          "importance": "高",
+          "body": [
+            "Reuters援引一名知情人士称Marvell正深入洽谈收购Lumentum，可能最快下周宣布；双方未立即回应。这条报道早于上一期截稿，本期明确补充遗漏，不冒充今早新公告。",
+            "尚无确认的成交价格、支付方式、最终协议或监管批准；Lumentum市值不能当作收购报价。"
+          ],
+          "whyImportant": "潜在整合将把定制计算芯片与光互连能力放到同一战略框架，但交易是否发生仍有不确定性。",
+          "investmentImpact": "分析：MRVL重点看现金／股票融资、稀释与整合回报；LITE重点看报价和成交概率。对COHR等竞争者的影响取决于客户中立性与供货安排，不能直接判定新增订单。",
+          "tags": [
+            "MRVL",
+            "LITE",
+            "光互连",
+            "并购传闻"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Marvell与Lumentum收购谈判",
+              "url": "https://www.reuters.com/business/marvell-advanced-talks-buy-lumentum-bloomberg-news-reports-2026-10-28/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-29-am-7",
+          "category": "semi",
+          "title": "意法半导体Q3及Q4指引改善：复苏能否扩散到工业链",
+          "status": "10月29日正式Q3财报；Q4为公司指引",
+          "importance": "中",
+          "body": [
+            "STM三季度收入37.6亿美元，同比增长17.9%，毛利率37.3%，GAAP营业利润3.67亿美元、净利润2.91亿美元，每股收益0.31美元。",
+            "公司给出的四季度中点指引为收入41.5亿美元、毛利率39.0%。按中点计算，收入较Q3约增长10.4%，毛利率提高1.7个百分点；这两项改善尚未实现。"
+          ],
+          "whyImportant": "除AI加速器外，工业、汽车和功率半导体是否改善，将决定半导体复苏的广度。",
+          "investmentImpact": "分析：STM指引为观察ON、ADI等传统周期链提供线索，但客户结构不同，不能直接外推同样增速。后续看订单、库存、利用率与毛利率能否共同改善，而非只看营收同比。",
+          "tags": [
+            "STM",
+            "ON",
+            "ADI",
+            "工业半导体",
+            "公司指引"
+          ],
+          "sources": [
+            {
+              "title": "STM｜Q3正式财报",
+              "url": "https://newsroom.st.com/media-center/press-item.html/stmicroelectronics-reports-q3-2026-financial-results.html"
+            },
+            {
+              "title": "STM｜投资者关系季度指标",
+              "url": "https://investors.st.com/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-29-am-8",
+          "category": "macro",
+          "title": "JGB拍卖需求改善；接下来关注BOJ与融资压力",
+          "status": "10月29日亚洲时段事实；BOJ未来决定与加息预期分列",
+          "importance": "中",
+          "body": [
+            "Reuters报道日本两年期国债拍卖投标倍数4.03，高于上月3.89；两年收益率1.895%，十年2.83%，三十年3.88%，均为亚洲时段快照。不能仅凭日本债务规模推断今天已出现债券抛售。",
+            "BOJ决定在10月30日，调查中的维持利率、12月再加息属于预期。本期未取得同一时点的美元、美国完整收益率曲线、期限溢价、信用利差、资金流及天然气新报价，因此不报告其最新方向。",
+            "观察清单：BOJ声明与日元反应；美国后续财政融资公告及长债拍卖需求；11月3日中期选举前后的关税、财政和监管正式文件。未核实到的新增措施不写成已出台政策。"
+          ],
+          "whyImportant": "日本国内债券回报提高可能改变跨境配置，但资金是否回流取决于汇率对冲成本、政策预期和实际持仓变化。",
+          "investmentImpact": "分析：日本收益率上升→可能促进资金回流→全球风险资产流动性承压；美国财政／发债增加→若需求不足则期限溢价可能上升→高估值科技承压。这是条件链条，本期没有证据确认净回流或期限溢价已上升。",
+          "tags": [
+            "JGB",
+            "BOJ",
+            "日元",
+            "期限溢价",
+            "财政融资",
+            "观察清单"
+          ],
+          "sources": [
+            {
+              "title": "Reuters／WSAU｜JGB拍卖与BOJ前瞻",
+              "url": "https://wsau.com/2026/10/29/japan-bonds-steady-ahead-of-boj-decision-strong-auction-lends-support/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-29-am-9",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：本期未核实到合格新增",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本次核查未取得过去半天内足以改变投资判断的新增证据：未见可核实的zero-shot泛化、跨本体迁移、触觉／力控、数据效率量化改善，或人工接管率、uptime、付费部署和硬件单位成本的新数据。",
+            "Figure新闻页和Physical Intelligence研究页的可读取更新早于本窗口；NVIDIA近期机器人平台发布也属于旧闻，本期不重复普通演示或把API开放等同于现场商业部署。"
+          ],
+          "whyImportant": "计算平台采用与机器人经济性兑现之间，还需要现场可靠性、客户付款和成本数据验证。",
+          "investmentImpact": "分析／观察清单：继续看NVDA、TSLA、TER、ON、ADI及减速器、执行器供应链的已签付费订单、每机器人年收入、接管次数／小时、有效工时、维护费与回本周期；没有这些数据，本期不提高机器人盈利假设。",
+          "tags": [
+            "Physical AI",
+            "可靠性",
+            "付费部署",
+            "硬件经济性",
+            "观察清单"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜新闻跟踪入口，非本期新闻",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜研究跟踪入口，非本期新闻",
+              "url": "https://www.pi.website/"
+            },
+            {
+              "title": "NVIDIA｜10月21日平台发布，旧闻仅作核对",
+              "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Advances-Isaac-Platform-for-General-Purpose-Robotics-With-New-Reference-Humanoid-Frameworks-Simulation-Pipelines-and-Data/default.aspx"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-28-pm",
       "date": "2026-10-28",
       "period": "pm",
