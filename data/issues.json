@@ -4,6 +4,211 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-30-am",
+      "date": "2026-10-30",
+      "period": "am",
+      "time": "08:07",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-30T08:07:00-07:00",
+      "summary": "今早半导体继续下挫，新增焦点是常规交易对财报风险的重估。BOJ维持1.25%但加快ETF退出；美国ECI增速温和，实际工资购买力仍下降。霍尔木兹油轮遇袭报道推动原油反弹；Reddit揭示AI搜索导流风险。补充此前遗漏的机器人进口谈判政策，尚非统一新关税，也无合格新增部署指标。",
+      "cards": [
+        {
+          "id": "2026-10-30-am-1",
+          "category": "semi",
+          "title": "半导体开盘继续下挫：Intel的供给与现金流问题传染到板块估值",
+          "status": "10月30日06:53 PDT盘中快照；不是收盘价",
+          "importance": "高",
+          "body": [
+            "Reuters美东09:53记录：纳指跌2.21%，标普500跌1.22%；Intel跌逾30%，AMD跌9.3%，NVDA跌约3%，费城半导体指数跌5.7%。这是昨晚盘后之后的新一轮常规交易反应。",
+            "Intel、Amazon、Sandisk的财报数字已在上一期报道，本期不重复当作新公告。今天的板块跌幅也不能全部解释为所有公司的订单同时下降。"
+          ],
+          "whyImportant": "市场正在把制造瓶颈、PC疲弱和AI资金回报的不确定性，转化为更低的估值与更高的风险补偿要求。",
+          "investmentImpact": "分析：对INTC区分公司执行与行业需求；对AMD看能否承接缺口，对NVDA、MU看具体订单和客户资本开支回报。NBIS、CRWV还需独立核对融资、上电及验收，不能仅凭板块下跌推断客户取消合同。",
+          "tags": [
+            "INTC",
+            "AMD",
+            "NVDA",
+            "MU",
+            "NBIS",
+            "CRWV",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月30日美股盘中",
+              "url": "https://www.reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-30-am-2",
+          "category": "macro",
+          "title": "宏观 / 市场环境：BOJ维持1.25%，加快ETF出售是新增收紧信号",
+          "status": "10月30日日本央行正式决议；出售加速自2027年1月实施",
+          "importance": "高",
+          "body": [
+            "BOJ以8比1维持隔夜政策利率约1.25%；高田创主张升至1.5%，提案未获通过。官方展望认为基础通胀已大致符合2%目标，价格风险偏向上行；这不是宣布12月一定加息。",
+            "央行一致同意，将ETF年度出售速度从账面价值3300亿日元提高至8600亿日元，2027年1月开始；按其估算，相当于市值约2.46万亿日元／年。不是今天一次性抛售8600亿日元，也不是JGB出售计划。",
+            "Reuters当日晨间报道10年JGB收益率曾下跌5.5基点至2.780%；汇市报道日元曾升至约157兑1美元。均为各自时点，不代表已核实日本资金净回流。"
+          ],
+          "whyImportant": "政策利率暂停与资产退出加快可以并存。全球流动性判断不能只看有没有加息，也要看日本投资者的汇率对冲后收益和资产配置。",
+          "investmentImpact": "分析：若后续日本利率提高且日元走强→本土资产吸引力可能提高、套息交易承压→高估值科技与半导体承受流动性压力。但今天JGB收益率回落，不能把该链条写成已发生事实；ETF出售规模与全球资金回流也不是同一概念。",
+          "tags": [
+            "BOJ",
+            "JGB",
+            "日元",
+            "ETF出售",
+            "全球流动性"
+          ],
+          "sources": [
+            {
+              "title": "BOJ｜正式货币政策声明",
+              "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k261030a.pdf"
+            },
+            {
+              "title": "BOJ｜ETF出售账面与市值口径",
+              "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k261030c.pdf"
+            },
+            {
+              "title": "BOJ｜10月经济与物价展望",
+              "url": "https://www.boj.or.jp/en/mopo/outlook/gor2610a.pdf"
+            },
+            {
+              "title": "Reuters｜JGB晨间反应",
+              "url": "https://www.reuters.com/markets/europe/global-markets-view-europe-2026-10-30/"
+            },
+            {
+              "title": "Reuters／MarketScreener｜日元反应",
+              "url": "https://au.marketscreener.com/news/yen-gains-after-boj-ai-jitters-drive-treasury-rally-weigh-on-dollar-ce785fdad08ff725"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-30-am-3",
+          "category": "macro",
+          "title": "宏观 / 市场环境：美国工资成本温和，实际工资购买力仍下降",
+          "status": "10月30日05:30 PDT公布的BLS正式ECI数据",
+          "importance": "高",
+          "body": [
+            "美国Q3雇佣成本指数ECI季调环比上涨0.8%，低于上季0.9%；其中工资薪金涨0.7%、福利成本涨0.9%。这是三个月累计变化，不是月环比，也不是折年率。",
+            "总雇佣成本同比增长3.4%，工资薪金同比增长3.1%，福利增长3.9%；私人部门实际工资薪金同比下降0.6%。ECI包含工资与福利，不能直接替代非农就业报告的时薪数据。",
+            "本期没有新Fed决议或点阵图；未取得同一时点的最新美国完整收益率曲线、期限溢价、广泛信用利差、净资金流与财政赤字读数，不把昨日行情冒充今天。"
+          ],
+          "whyImportant": "工资成本没有显示明显加速，有助于减轻工资—价格螺旋担忧；但实际工资下降说明名义收入增长未必改善购买力，与昨日实际月度消费停滞的信号相互呼应。",
+          "investmentImpact": "分析：较温和的工资压力有利于服务业成本和通胀预期，但能源涨价仍可能限制Fed宽松，不能凭ECI直接认定降息。观察财政发债与拍卖需求→期限溢价→长端利率，以及信用利差是否抵消无风险利率下降，尤其影响高杠杆Neocloud。",
+          "tags": [
+            "ECI",
+            "工资",
+            "实际购买力",
+            "Fed",
+            "期限溢价",
+            "信用利差"
+          ],
+          "sources": [
+            {
+              "title": "BLS｜2026年9月ECI正式结果",
+              "url": "https://www.bls.gov/news.release/eci.nr0.htm"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-30-am-4",
+          "category": "macro",
+          "title": "宏观 / 市场环境：霍尔木兹油轮遇袭报道，原油风险溢价反弹",
+          "status": "10月30日05:36 PDT期货快照；袭击责任未明",
+          "importance": "高",
+          "body": [
+            "Reuters援引UKMTO称，霍尔木兹海峡一艘油轮被小艇附着的爆炸装置击中，责任方尚不清楚。不能据此确认全面封锁或新的美国军事行动。",
+            "12:36 GMT时，即将当日到期的12月Brent为117.14美元／桶，较前结算涨2.26美元；更活跃的1月合约为113.10美元、涨2.30美元，WTI为103.94美元、涨1.94美元。报价不是最终结算，也不能把12月与1月价差当成盘中暴跌。",
+            "本期未核实新的停战协议或天然气结算价；选举后战争可能升级仍是风险预期，不是已执行政策。"
+          ],
+          "whyImportant": "昨日外交希望压低油价后，航运安全事件又抬高供应风险；换月同时容易制造价格图表的误读。",
+          "investmentImpact": "分析：战争／运输受阻→能源与运费→通胀及企业成本→利率和科技估值承压；高油价也可能削弱实际消费。天然气、电价和长期购电合同须单独验证，不能由Brent涨幅直接推导数据中心电费同幅上涨。",
+          "tags": [
+            "霍尔木兹",
+            "伊朗",
+            "Brent",
+            "WTI",
+            "合约换月",
+            "通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜油轮事件与10月30日油价",
+              "url": "https://www.reuters.com/business/energy/oil-rises-supply-concerns-houthis-attack-saudi-arabia-2026-10-30/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-30-am-5",
+          "category": "ai",
+          "title": "Reddit警告AI搜索导流减少：广告增长与用户入口风险并存",
+          "status": "补充10月29日财报与电话会；10月30日新增股价反应",
+          "importance": "高",
+          "body": [
+            "补充上一期遗漏：Reddit Q3收入8.95亿美元、同比增53%，广告收入8.47亿美元、增长54%，净利润2.83亿美元；公司预计Q4收入10.0亿—10.3亿美元。财报日期是10月29日，不冒充今早新发布。",
+            "CEO在电话会警告，若搜索导流继续下降，Q4总日活独立访客可能下降低双位数百分比，并计划在部分国际市场测试更多内容要求登录。把导流下降归因Google AI是管理层判断；10月30日美股晨间报道RDDT跌约26%，并非收盘价。"
+          ],
+          "whyImportant": "AI抓取内容、直接回答与给原站导流不是同一件事；当期广告收入增长也不能排除下一季度用户增长风险。",
+          "investmentImpact": "分析：对RDDT看登录用户留存、广告变现与数据许可收入能否弥补外部流量损失。对GOOG、META看搜索分发与封闭社区入口价值如何变化，但不能凭Reddit一家表现断言整个广告市场衰退或Meta必然受益。",
+          "tags": [
+            "RDDT",
+            "GOOG",
+            "META",
+            "AI搜索",
+            "广告",
+            "数据许可"
+          ],
+          "sources": [
+            {
+              "title": "Reddit｜Q3正式业绩及Q4指引",
+              "url": "https://investor.redditinc.com/news-events/news-releases/news-details/2026/Reddit-Reports-Third-Quarter-2026-Results/default.aspx"
+            },
+            {
+              "title": "Reuters｜搜索导流与登录策略",
+              "url": "https://www.reuters.com/technology/reddit-posts-search-traffic-declines-will-push-visitor-sign-ins-curb-data-2026-10-29/"
+            },
+            {
+              "title": "Reuters｜10月30日晨间股价反应",
+              "url": "https://www.reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-30-am-6",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：补充机器人进口政策，尚非新关税落地",
+          "status": "补充遗漏的10月28日正式公告；本窗口无合格新增技术／部署指标",
+          "importance": "高",
+          "body": [
+            "白宫10月28日依据Section 232调查结果，指示商务部长与贸易代表就机器人、工业机械及其零部件进口展开或继续谈判，并在180天内报告进展。这是此前遗漏的正式政策，本期补充，不是今天新签署。",
+            "公告称未来可能考虑关税、配额、费用及美国本土生产激励；该公告本身没有列出立即生效的新统一税率，不能写成所有进口机器人已经被加征关税。",
+            "过去半天未核实重点公司新增可比的zero-shot泛化、跨本体迁移、触觉／力控、数据效率、接管率、uptime、付费部署或部件design win数据；不以普通演示填补。"
+          ],
+          "whyImportant": "政策可能改变机器人和部件的到岸成本、采购地点及投资回收期，影响硬件经济性；但谈判启动与最终限制之间仍有不确定性。",
+          "investmentImpact": "分析／观察清单：Unitree及日本Nabtesco、Harmonic Drive、THK、Nidec需看原产地、最终产品范围与豁免；TSLA、Figure、TER也可能同时面临本土生产机会和进口部件成本。ON、ADI、NVDA不能据公告直接确认订单，继续核对付费复购、每有效工时成本、维护与电池费用。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "Section 232",
+            "贸易政策",
+            "硬件经济性",
+            "观察清单"
+          ],
+          "sources": [
+            {
+              "title": "白宫｜10月28日正式机器人与工业机械进口公告",
+              "url": "https://www.whitehouse.gov/presidential-actions/2026/10/adjusting-imports-of-robotics-industrial-machinery-and-their-parts-and-components-into-the-united-states/"
+            },
+            {
+              "title": "白宫｜配套政策事实说明",
+              "url": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-president-donald-j-trump-adjusts-imports-of-robotics-industrial-machinery-and-their-parts-and-components-into-the-united-states/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-29-pm",
       "date": "2026-10-29",
       "period": "pm",
