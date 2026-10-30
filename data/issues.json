@@ -4,6 +4,309 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-29-pm",
+      "date": "2026-10-29",
+      "period": "pm",
+      "time": "19:09",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-29T19:09:00-07:00",
+      "summary": "股跌债涨反映AI现金回报担忧，而非全面宽松。Intel服务器强但PC、制造瓶颈及Q4指引承压；Amazon AWS增长39.3%仍伴随TTM现金流出；Sandisk数据中心收入环比增长61%并宣布1拆8。微软250亿美元债正式定价，Trainium外供计划扩大ASIC竞争边界。原油结算小跌，今晚待BOJ；机器人无合格新增。",
+      "cards": [
+        {
+          "id": "2026-10-29-pm-1",
+          "category": "macro",
+          "title": "宏观 / 市场环境：股跌债涨，利率回落仍未救起AI风险偏好",
+          "status": "10月29日正式收盘；美债和外汇为报道时点快照",
+          "importance": "高",
+          "body": [
+            "美股收盘：标普500跌0.30%至7720.39，纳指跌1.37%至26184.72，道指跌0.25%至52342.56。新增是完整交易日结果，替代早报盘中报价；Intel、Amazon随后公布的财报不属于常规时段收盘跌幅的原因。",
+            "Reuters纽约时段更新记录2年、10年、30年美债收益率分别约4.602%、4.939%、5.3007%，美元指数101.88。美西18:48发布的亚洲早盘报道又记录10年4.8958%、30年5.2623%、美元指数101.77；不同时间不能拼成同一条曲线。",
+            "GDP、PCE及ECB决定已在早报详报，不重复作新政策。本期没有新的Fed决定或点阵图，也未取得可比的最新期限溢价、广泛信用利差与净资金流数据。"
+          ],
+          "whyImportant": "今天较低的国债收益率与科技股下跌并存，说明盈利、资本开支回报和避险需求可以压过折现率改善；不能把债券上涨直接当作全面宽松。",
+          "investmentImpact": "分析：AI盈利担忧→股票风险溢价上升、资金寻求避险→美债收益率下降。对NVDA、MU及NBIS、CRWV，仍要分别核对订单、现金回报和信用成本；无风险利率下降不保证企业融资利差同步收窄。",
+          "tags": [
+            "宏观",
+            "美股收盘",
+            "美债",
+            "美元",
+            "AI风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters／Moneycontrol｜纽约时段收盘与债汇",
+              "url": "https://www.moneycontrol.com/news/business/markets/equities-and-bond-yields-dip-with-ai-jitters-and-economic-data-in-focus-14063881.html"
+            },
+            {
+              "title": "Reuters｜美西10月29日18:48亚洲早盘",
+              "url": "https://www.reuters.com/world/asia-pacific/yen-steady-before-boj-ai-jitters-drive-treasury-rally-weigh-dollar-2026-10-30/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-29-pm-2",
+          "category": "semi",
+          "title": "Intel：服务器强、PC弱，Q4指引与供给事故压过Q3盈利改善",
+          "status": "10月29日盘后正式财报及电话会；事故影响为公司估计",
+          "importance": "高",
+          "body": [
+            "Intel Q3收入约165亿美元，同比增长21%；GAAP EPS 0.60美元、Non-GAAP EPS 0.52美元。DCAI收入73亿美元、增长78%；客户端及Physical AI分部81亿美元、下降5%，业务并非全面同步复苏。",
+            "Q4收入指引150亿—160亿美元、Non-GAAP EPS 0.25美元、毛利率38.0%，低于Q3的44.1% Non-GAAP毛利率；公司预计PC疲弱至少延续至2027上半年。Foundry分部收入含内部交易，不能将其67亿美元全当外部代工订单。",
+            "公司向Reuters估计，以色列工厂爆炸使Q4收入预期减少约3亿美元、毛利率减少约2个百分点，Q1可能有类似影响，最终损失仍不确定。Reuters美东20:07更新记录盘后跌约23%，不是明天常规时段的已实现跌幅。"
+          ],
+          "whyImportant": "服务器需求强不等于可以按期出货；内存涨价、PC需求与制造瓶颈同时压制短期盈利。事故也不能解释全部指引差额。",
+          "investmentImpact": "分析：对INTC看产能恢复、基板和晶圆供应、现金流与2027资本开支；对AMD是潜在份额机会，但需证明有可替代供给。对MU、SNDK，涨价利好上游利润，却可能挤压PC终端数量，不能只看单价上涨。",
+          "tags": [
+            "INTC",
+            "AMD",
+            "MU",
+            "PC",
+            "服务器CPU",
+            "供给风险"
+          ],
+          "sources": [
+            {
+              "title": "Intel｜Q3正式财报与Q4指引",
+              "url": "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results"
+            },
+            {
+              "title": "Reuters／MarketScreener｜电话会、事故与盘后反应",
+              "url": "https://ca.marketscreener.com/news/intel-signals-slower-growth-as-pc-market-remains-under-pressure-ce785fdadd80f325"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-29-pm-3",
+          "category": "ai",
+          "title": "Amazon：AWS增长39%，但自由现金流流出与2027投资扩张并存",
+          "status": "10月29日Q3正式财报及电话会；指引不是已实现收入",
+          "importance": "高",
+          "body": [
+            "Amazon Q3收入2019亿美元、增长12%，营业利润281亿美元；AWS收入460亿美元、增长39.3%，营业利润178亿美元。净利润207亿美元、EPS 1.89美元，同比下降受到上年Anthropic投资收益高基数影响，不能等同于营业业务全面恶化。",
+            "过去12个月经营现金流1683亿美元，自由现金流为负424亿美元；这是TTM口径，不是单季烧掉424亿美元。公司维持2026现金资本开支约2200亿美元预期，电话会预计2027显著增加。",
+            "Q4收入指引2400亿—2470亿美元、营业利润285亿—335亿美元。管理层预计AWS在2027和2028每年增长超过40%，属于公司预测，并非已经实现或保证兑现的订单。"
+          ],
+          "whyImportant": "云需求与营业盈利强，仍可能伴随更大的现金投入；利润、经营现金流和自由现金流需要分别判断。",
+          "investmentImpact": "分析：对NVDA、AVGO、存储和光通信链提供需求支持，但总资本开支不能直接分配为个股订单。对AMZN看新增容量利用率、折旧和现金转化；对NBIS、CRWV，不能仅凭AWS增长就上调各自合同回款或估值。",
+          "tags": [
+            "AMZN",
+            "AWS",
+            "AI资本开支",
+            "自由现金流",
+            "NVDA",
+            "NBIS",
+            "CRWV"
+          ],
+          "sources": [
+            {
+              "title": "Amazon｜Q3正式财报及指引",
+              "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx"
+            },
+            {
+              "title": "Amazon｜Q3电话会转录",
+              "url": "https://stockanalysis.com/stocks/amzn/transcripts/720308-q3-2026/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-29-pm-4",
+          "category": "semi",
+          "title": "Sandisk：数据中心收入环比增61%，并宣布1拆8",
+          "status": "10月29日FY2027 Q1正式业绩；EPS均为拆股前口径",
+          "importance": "高",
+          "body": [
+            "SNDK季度收入110.31亿美元、环比增长23%；数据中心收入48.02亿美元、环比增长61%，消费业务3.97亿美元、环比下降29%。GAAP毛利率85.0%，Non-GAAP EPS 49.51美元。",
+            "公司披露自由现金流63.09亿美元，扣除Flash Ventures活动及NBM预付款／押金影响后的调整自由现金流56.96亿美元；两种现金流口径不可混用。Q2指引收入122亿—126亿美元、Non-GAAP EPS 55—57美元，属于预测。",
+            "宣布1拆8：11月9日登记，11月19日收盘后发放新增股份，预计11月20日起按拆股后价格交易。公告中的每股数据尚未调整；拆股不改变总市值和股东持股比例。"
+          ],
+          "whyImportant": "数据中心强劲与消费端下滑并存；高利润和现金流支持当前景气，但不能把极高毛利率永久化。",
+          "investmentImpact": "分析：对SNDK看企业SSD需求、价格与供给纪律，估值须使用一致的拆股前后股数及EPS。对MU是存储需求参考，NAND不能直接替代DRAM／HBM判断；NBM预收款也不应全部视为可重复的当期经营利润。",
+          "tags": [
+            "SNDK",
+            "NAND",
+            "企业SSD",
+            "现金流",
+            "1拆8",
+            "MU"
+          ],
+          "sources": [
+            {
+              "title": "Sandisk｜FY2027 Q1业绩、现金流调节及拆股",
+              "url": "https://www.sandisk.com/company/newsroom/press-releases/2026/2026-10-29-sandisk-reports-fiscal-first-quarter-2027-financial-results"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-29-pm-5",
+          "category": "ai",
+          "title": "Trainium计划2027年底走出AWS：定制芯片竞争边界扩大",
+          "status": "10月29日Amazon电话会计划；尚未对外完成交付",
+          "importance": "高",
+          "body": [
+            "Jassy在电话会称，计划于2027年底让Trainium在AWS之外使用；同时称推理已占AWS AI收入一半以上。前者是未来商业计划，后者是管理层披露的当前业务结构。",
+            "公司称自研芯片客户在Q3节省逾20亿美元，并强调TorchNeuron软件兼容。节省金额属于公司口径，不能当作经独立验证的所有工作负载性能优势。"
+          ],
+          "whyImportant": "若专用AI芯片从云内资源扩展为外部系统选择，竞争可能从云租赁延伸到硬件与软件生态。",
+          "investmentImpact": "分析：对NVDA看开发者迁移成本、互连与系统可用性；对AVGO、HBM、封装和网络链看具体采购及设计份额，不自动假设某家拿单。2027年底超出当前多数季度的收入窗口，近期影响主要体现于预期，不能计入2026已实现销售。",
+          "tags": [
+            "AMZN",
+            "Trainium",
+            "ASIC",
+            "NVDA",
+            "AVGO",
+            "推理"
+          ],
+          "sources": [
+            {
+              "title": "Amazon｜电话会Trainium、推理与资本开支原文",
+              "url": "https://stockanalysis.com/stocks/amzn/transcripts/720308-q3-2026/"
+            },
+            {
+              "title": "MarketWatch｜Trainium外部供应计划",
+              "url": "https://www.marketwatch.com/livecoverage/amazon-earnings-stock-results-amzn-q3/card/amazon-plans-to-broaden-access-to-its-popular-ai-chips-pP3XAtlWJelCVuSjitz2"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-29-pm-6",
+          "category": "ai",
+          "title": "微软250亿美元债已正式定价：从早报传闻推进到公司公告",
+          "status": "10月29日正式定价；预计11月4日交割",
+          "importance": "高",
+          "body": [
+            "微软公告定价250亿美元优先无担保债券，含浮息及固定息多个期限。固定息2028年到期票息4.85%，2036年5.55%，2066年6.35%；这是票息，不是相对美债的信用利差。",
+            "预计11月4日完成发行；净款可用于营运资金、资本开支、回购、收购和还债等一般公司用途。早报的融资计划现在有正式条款，仍不能把全额当作新增AI芯片采购。"
+          ],
+          "whyImportant": "资金可得性已更具体，但融资成本与用途仍决定项目回报；定价也不等于款项已到账。",
+          "investmentImpact": "分析：高信用等级科技公司的资金渠道仍可使用，不代表Neocloud同等条件。评估NBIS、CRWV须再看抵押、期限、租赁负担和信用利差；不能拿微软票息直接套用。",
+          "tags": [
+            "MSFT",
+            "250亿美元",
+            "公司债",
+            "融资成本",
+            "AI投资"
+          ],
+          "sources": [
+            {
+              "title": "Microsoft｜正式债券定价公告",
+              "url": "https://news.microsoft.com/source/2026/10/29/microsoft-announces-debt-offerings-7/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-29-pm-7",
+          "category": "macro",
+          "title": "宏观 / 市场环境：油价结算小跌，天然气库存增加",
+          "status": "10月29日原油结算及EIA正式库存；谈判未等同停战",
+          "importance": "高",
+          "body": [
+            "Brent结算114.88美元／桶，下跌0.44美元；WTI结算102.00美元，下跌0.78美元。与早报美西02:22盘中报价区分：最终跌幅较小，能源仍处高位；尚无本期核实的停战协议。",
+            "EIA公布截至10月23日美国天然气库存3724 Bcf，较前周增加80 Bcf；CME当日解读指12月天然气合约下跌、温和天气限制需求。未取得可靠的最终结算价，不用昨日11月到期价替代12月报价。"
+          ],
+          "whyImportant": "中东外交希望可能压低油价风险溢价，美国天然气则另受库存、天气和LNG需求影响，两者不能机械同向外推。",
+          "investmentImpact": "分析：战争升级→油价→通胀→利率→科技估值的风险链仍在；美国天然气库存增加可能缓解局部燃料成本，但不直接等于欧洲TTF或数据中心长期购电合同降价。",
+          "tags": [
+            "Brent",
+            "WTI",
+            "天然气",
+            "EIA",
+            "中东",
+            "通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters／Moneycontrol｜10月29日原油结算",
+              "url": "https://www.moneycontrol.com/news/business/markets/equities-and-bond-yields-dip-with-ai-jitters-and-economic-data-in-focus-14063881.html"
+            },
+            {
+              "title": "EIA｜周度天然气库存",
+              "url": "https://www.eia.gov/naturalgas/storage/"
+            },
+            {
+              "title": "CME／MarketScreener｜库存及12月合约解读",
+              "url": "https://www.marketscreener.com/news/cme-natural-gas-futures-drop-as-larger-storage-build-meets-mild-weather-ce785fdadf8bf225"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-29-pm-8",
+          "category": "macro",
+          "title": "宏观 / 市场环境：今晚BOJ、下周财政融资与就业是下一组检验",
+          "status": "已公布日程；BOJ政策结果及加息概率仍属预期",
+          "importance": "高",
+          "body": [
+            "截至本期，BOJ的10月29—30日会议尚未核实正式结果。亚洲早盘报道日元约157.815兑1美元、市场计入约80%的12月加息概率；这是汇率快照和市场预期，不是今天已经加息。",
+            "官方日程显示：财政部11月2日发布下一批融资资料，11月4日季度再融资公告；11月6日05:30 PT公布10月就业报告。11月3日中期选举前后的财政、贸易和监管说法，须以最终正式文件区分。",
+            "本期未核实新增财政赤字总额、JGB收益率或日本跨境净流量，也未取得新的工资／CPI／PPI数据；早报PCE数据不重复计数。"
+          ],
+          "whyImportant": "融资规模和期限结构决定债券供给压力，就业与工资则检验通胀持续性；BOJ措辞影响日元和全球资金配置。",
+          "investmentImpact": "分析／观察清单：日本收益率上行→可能促资金回流→风险资产流动性承压；美国长债供给增加且需求不足→期限溢价可能上升→科技估值受压。关注拍卖需求、对冲后回报及信用利差，不能仅凭日程推断这些结果已发生。",
+          "tags": [
+            "BOJ",
+            "日元",
+            "财政融资",
+            "期限溢价",
+            "非农",
+            "中期选举",
+            "观察清单"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜BOJ前夕市场预期",
+              "url": "https://www.reuters.com/world/asia-pacific/yen-steady-before-boj-ai-jitters-drive-treasury-rally-weigh-dollar-2026-10-30/"
+            },
+            {
+              "title": "美国财政部｜后续融资资料日期",
+              "url": "https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding/most-recent-quarterly-refunding-documents/"
+            },
+            {
+              "title": "美国财政部｜11月4日再融资公告日程",
+              "url": "https://home.treasury.gov/news/press-releases/sb0590?trk=public_post_comment-text"
+            },
+            {
+              "title": "BLS｜11月发布日历",
+              "url": "https://www.bls.gov/schedule/2026/11_sched.htm"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-29-pm-9",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：没有合格的新增部署或可靠性指标",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本时段未核实重点公司新增可比的zero-shot、cross-embodiment、触觉／力控或数据效率改善，亦未取得人工接管率、uptime、付费部署、部件design win与单位成本的新证据。",
+            "Intel分部名称包含Physical AI，不代表该分部收入就是机器人收入；Amazon关于AI芯片的电话会指标也不是机器人现场经济性。Figure与Physical Intelligence可读取新闻页未提供本窗口内合格新增，不以旧演示填补。"
+          ],
+          "whyImportant": "机器人研发、云算力采购和客户现场可收费工时是不同阶段，投资判断需要现场数据支持。",
+          "investmentImpact": "分析／观察清单：继续看NVDA、TSLA、TER、ON、ADI、Unitree、Figure、Gemini Robotics、Physical Intelligence，以及Nabtesco、Harmonic Drive、THK、Nidec的真实付费订单、复购、接管次数／小时、有效工时、维护和电池成本；本期不据泛AI财报上调机器人盈利。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "可靠性",
+            "付费部署",
+            "硬件经济性",
+            "观察清单"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜跟踪入口，非本期新增证据",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜研究入口，非本期新增证据",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "Intel｜分部名称与收入范围核对",
+              "url": "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-29-am",
       "date": "2026-10-29",
       "period": "am",
