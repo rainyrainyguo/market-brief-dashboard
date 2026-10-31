@@ -4,6 +4,209 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-30-pm",
+      "date": "2026-10-30",
+      "period": "pm",
+      "time": "19:07",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-30T19:07:00-07:00",
+      "summary": "收盘半导体跌7.2%，Intel跌28.6%；风险从股价扩展至信用与募资条件。Fed官员主张继续加息，但避险买盘仍推低美债收益率。原油结算升至六个月高位，Brent换月需分合约。Cohere更新多年加拿大投资承诺；机器人本时段无合格新增，不将旧融资谈判当作新部署。",
+      "cards": [
+        {
+          "id": "2026-10-30-pm-1",
+          "category": "semi",
+          "title": "收盘确认AI板块去风险：半导体跌7.2%，Intel跌28.6%",
+          "status": "10月30日正式收盘；替代早报盘中快照",
+          "importance": "高",
+          "body": [
+            "标普500收于7580.07、跌1.82%，纳指25437.00、跌2.86%，道指51770.31、跌1.09%。Intel跌28.6%，NVDA跌4.2%，AMD跌10.9%，费城半导体指数跌7.2%；Amazon收窄至跌约1.4%。",
+            "半导体指数10月累计跌逾15%。财报原始数字已在前两期报道，今晚新增是全天定价结果与板块扩散，不重复当作新业绩。"
+          ],
+          "whyImportant": "市场正在同时降低对AI投资回报的乐观程度，并提高对制造执行、现金消耗和融资风险的要求；单日板块下跌并不证明所有公司的订单同步恶化。",
+          "investmentImpact": "分析：INTC须看供给恢复与现金流；AMD看替代产能，NVDA、MU看客户回报及采购兑现。对NBIS、CRWV仍需核对各自合同、上电、验收和融资，不据指数跌幅认定客户取消订单。",
+          "tags": [
+            "INTC",
+            "NVDA",
+            "AMD",
+            "MU",
+            "NBIS",
+            "CRWV",
+            "收盘"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月30日正式收盘",
+              "url": "https://www.aol.co.uk/articles/nasdaq-futures-tumble-amazon-intel-084615000.html"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-30-pm-2",
+          "category": "macro",
+          "title": "宏观 / 市场环境：Fed官员主张再加息，美债却继续获得避险买盘",
+          "status": "10月30日官员正式讲话；债汇为纽约时段报价，非新FOMC决定",
+          "importance": "高",
+          "body": [
+            "Logan在正式讲话中认为，按当前前景至少还需两次25基点加息；Musalem认为应尽快进一步收紧。这些是个人政策主张，不是全体FOMC承诺，也没有新点阵图。",
+            "Reuters纽约时段更新记录2年、10年、30年美债收益率约4.590%、4.931%、5.3093%；美元指数101.92，美元兑日元157.54。与早报日本时段报价区分，不能拼接成同一时点。",
+            "ECI、BOJ利率及ETF决定已在早报详报。今晚未核实新的CPI／PPI／PCE、就业工资、财政赤字总额、期限溢价或日本净跨境流量。选举前的财政与贸易主张仍须等待正式生效文件。"
+          ],
+          "whyImportant": "加息倾向、避险债券买盘与科技股下跌可以并存；长端收益率下降不能自动解释成Fed转鸽或企业信用环境改善。",
+          "investmentImpact": "分析／观察清单：能源通胀→政策利率预期→融资成本，AI回报担忧→风险溢价上升，两条链可同时作用。继续看财政／发债→期限溢价，以及日本收益率与对冲成本→资金回流；关注下周融资公告、选举及就业报告，不提前假定结果。",
+          "tags": [
+            "Fed",
+            "Logan",
+            "Musalem",
+            "美债",
+            "美元",
+            "财政融资",
+            "观察清单"
+          ],
+          "sources": [
+            {
+              "title": "Dallas Fed｜Logan正式讲话",
+              "url": "https://www.dallasfed.org/news/speeches/logan/2026/lkl261030"
+            },
+            {
+              "title": "St. Louis Fed｜Musalem正式讲话",
+              "url": "https://www.stlouisfed.org/from-the-president/remarks/2026/remarks-on-us-economy-and-monetary-policy-somc"
+            },
+            {
+              "title": "Reuters｜纽约时段债汇更新",
+              "url": "https://www.reuters.com/legal/transactional/global-markets-global-markets-2026-10-30/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-30-pm-3",
+          "category": "ai",
+          "title": "AI融资从估值问题走向信用问题：Intel CDS走阔，Neocloud募资更挑剔",
+          "status": "10月30日盘中信用报价及18:00 PT媒体报道；匿名融资消息未获确认",
+          "importance": "高",
+          "body": [
+            "Reuters引述Markit盘中数据，Intel五年CDS走阔17.5基点至124.75基点。这是特定时点的信用保护报价，不是违约概率，也不是公司所有债券的收益率。",
+            "WSJ于美西18:00报道，Lambda将拟议融资估值目标从145亿美元下调至130亿美元，并称Nscale的IPO估值及项目融资面临压力；均涉及匿名消息，融资尚非已完成交易。",
+            "同篇报道仍提到Nscale为Anthropic项目寻求NVIDIA等资金支持。补充时间说明：NVIDIA拟提供数十亿美元信用担保的原始报道在10月29日已出现，协议未签，不冒充今晚新签合同。"
+          ],
+          "whyImportant": "更高的信用保护成本、较低的募资估值和供应商担保诉求，都在提醒投资者区分最终客户需求、融资可得性与风险由谁承担。",
+          "investmentImpact": "分析：对NVDA，若担保最终落实，可能帮助客户融资，也增加或有信用敞口；不等于立即确认收入。对NBIS、CRWV不能套用Lambda或Nscale条件，需看杠杆、租赁、客户集中度、抵押与现金回收；无风险利率下降也可能被信用利差上升抵消。",
+          "tags": [
+            "AI融资",
+            "INTC",
+            "CDS",
+            "NVDA",
+            "Nscale",
+            "Lambda",
+            "NBIS",
+            "CRWV"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Intel盘中CDS报价",
+              "url": "https://ca.marketscreener.com/news/intel-warning-sparks-chip-rout-as-pc-weakness-clouds-turnaround-ce785fdbdd8df723"
+            },
+            {
+              "title": "WSJ｜10月30日AI融资瓶颈报道",
+              "url": "https://www.wsj.com/finance/the-new-bottleneck-in-americas-ai-build-out-a-shortage-of-cheap-money-0c14c84d"
+            },
+            {
+              "title": "Reuters／CNA｜10月29日NVIDIA担保谈判，未签约",
+              "url": "https://www.channelnewsasia.com/business/nvidia-in-talks-give-credit-support-nscales-deal-anthropic-information-reports-6505526"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-30-pm-4",
+          "category": "macro",
+          "title": "宏观 / 市场环境：原油正式结算升至六个月高位，Brent换月须分合约",
+          "status": "10月30日结算；12月Brent当日到期",
+          "importance": "高",
+          "body": [
+            "原油专项Reuters报道：12月Brent到期结算117.64美元／桶，涨2.76美元；更活跃的1月合约涨2.63美元至113.43美元。WTI结算104.12美元，涨2.12美元。采用能源专项报道口径，替代早报盘中快照。",
+            "Brent与WTI在10月分别累计上涨13.6%和15.2%。油轮遇袭事件早报已报，今晚不重复作新袭击；尚未核实停战或选举后新的军事行动已执行。",
+            "12月到1月换月时，连续价格可能下跳，这不等于市场突然解除战争风险。未取得可靠的新天然气结算价，昨日库存也不重复作今日新增。"
+          ],
+          "whyImportant": "月度能源涨幅会累积影响运输、电力和家庭购买力；合约期限差异可能掩盖真实涨跌。",
+          "investmentImpact": "分析：战争→油价／运费→通胀→利率与实际消费→科技估值及终端需求。即便当日美债收益率因避险下降，持续高能源成本仍会限制数据中心与消费科技回报；天然气和长期购电价格需独立核查。",
+          "tags": [
+            "Brent",
+            "WTI",
+            "合约换月",
+            "中东",
+            "通胀",
+            "能源成本"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜10月30日原油正式结算",
+              "url": "https://www.reuters.com/business/energy/oil-rises-supply-concerns-houthis-attack-saudi-arabia-2026-10-30/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-30-pm-5",
+          "category": "ai",
+          "title": "Cohere更新加拿大投资承诺：主权AI需求继续推动区域算力布局",
+          "status": "10月30日公司公告，仅标日期；多年度计划，非全额新增当日支出",
+          "importance": "中",
+          "body": [
+            "Cohere公布加拿大布局更新，预计2024—2031年研发与AI基础设施累计投资超过40亿加元，至2031年增加超过1500个岗位，其中约1000个为技术职位。",
+            "这是2024年已开始的多年计划及新增承诺组合，不能把40亿加元全部计为2026新增资本开支、已融资金额或已确认芯片订单；公开页面未标具体发布时间。"
+          ],
+          "whyImportant": "主权AI不仅涉及模型能力，也涉及本地基础设施、数据控制、研发人才和采购政策，可能改变算力部署的地域分布。",
+          "investmentImpact": "分析：对加拿大本地云、网络与电力设施是潜在需求线索，但须等待具体建设和采购。对NVDA及其他芯片供应商，不按总投资额直接估算收入；区域性公共与企业需求也不保证模型公司的盈利率。",
+          "tags": [
+            "Cohere",
+            "主权AI",
+            "加拿大",
+            "算力基础设施",
+            "投资计划"
+          ],
+          "sources": [
+            {
+              "title": "Cohere｜10月30日加拿大承诺更新",
+              "url": "https://cohere.com/blog/cohere-canada-commitment"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-30-pm-6",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：本时段没有合格新增，不重复融资旧闻",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本次核查未取得过去半天内足以改变投资判断的新增zero-shot、跨本体迁移、触觉／力控、数据效率、人工接管率、uptime、硬件单位成本或真实付费部署证据。",
+            "Physical Intelligence约200亿美元估值融资谈判的原报道日期为10月27日，不是今天新完成融资；Figure及PI可读取新闻／研究页亦未给出本窗口内合格新增。早报机器人进口谈判政策不重复计数。"
+          ],
+          "whyImportant": "融资估值、算力采购与客户现场可收费工时是不同指标，旧报道在今天转载不构成新的商业验证。",
+          "investmentImpact": "分析／观察清单：NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Gemini Robotics、PI及Nabtesco、Harmonic Drive、THK、Nidec继续看付费复购、每有效工时成本、接管次数、维护／电池费和已确认部件订单；本期不因融资传闻上调机器人盈利。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "可靠性",
+            "付费部署",
+            "硬件经济性",
+            "观察清单"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜跟踪入口，非本期新闻证据",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜研究入口，非本期新闻证据",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "Investing.com／Bloomberg｜10月27日旧融资谈判，用于日期核对",
+              "url": "https://www.investing.com/news/stock-market-news/physical-intelligence-in-talks-to-raise-1b-at-20b-valuation--bloomberg-4976690"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-30-am",
       "date": "2026-10-30",
       "period": "am",
