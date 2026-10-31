@@ -4,6 +4,148 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-31-am",
+      "date": "2026-10-31",
+      "period": "am",
+      "time": "08:02",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-31T08:02:00-07:00",
+      "summary": "本期新增聚焦中东单方袭击指称与台海巡航；另明确补充上一期遗漏的中国PMI及OpenAI融资目标报道。周六不重报周五行情；机器人未核实到合格新增。投资影响均为分析，融资计划及冲突指称不作已完成事实。",
+      "cards": [
+        {
+          "id": "2026-10-31-am-1",
+          "category": "macro",
+          "title": "宏观 / 市场环境：伊朗指称美军袭击渔船，尚无美方确认",
+          "status": "10月31日新增；单方指称与外交警告，非双方确认的升级",
+          "importance": "高",
+          "body": [
+            "Reuters于10月31日02:55 PT报道，伊朗国家媒体援引地方官员称，美军袭击格什姆岛附近两艘渔船；美方当时未确认。01:20 PT的另一报道中，埃及外长警告，美伊冲突若再升级将更具破坏性。这是风险信息，不等于新一轮全面战争已获确认。",
+            "周六没有新的美国股票、美债常规交易日收盘；本期不重复周五油价结算与债汇报价，也不把它们称作隔夜变化。未核实到本窗口新增的美国通胀、就业、Fed决议、财政发债政策或日本JGB政策变化。"
+          ],
+          "whyImportant": "霍尔木兹周边事件仍可能改变能源供给与风险溢价，但必须区分单方指称、确认的设施损害及实际运输中断。",
+          "investmentImpact": "分析：若供给受损得到确认，油价→通胀预期→利率与科技股折现率的压力可能增强；避险买债又可能压低美债收益率，两股力量不能简单等同。观察实际航运、能源设施、天然气报价，以及开市后的长端利率、美元和信用利差；财政发债→期限溢价、日本收益率→资金回流，均需新增证据才更新判断。",
+          "tags": [
+            "中东",
+            "原油",
+            "估值风险"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜伊朗渔船事件，10月31日",
+              "url": "https://www.reuters.com/world/middle-east/iran-provincial-official-says-us-attacked-fishing-boats-off-qeshm-island-state-2026-10-31/"
+            },
+            {
+              "title": "Reuters｜埃及外长警告，10月31日",
+              "url": "https://www.reuters.com/world/middle-east/egypt-fears-escalation-iran-war-would-be-more-destructive-foreign-minister-says-2026-10-31/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-31-am-2",
+          "category": "ai",
+          "title": "补充遗漏：OpenAI据报削减100亿美元融资目标",
+          "status": "媒体援引匿名知情人士；10月30日17:17 PT已发布，早于上一期截稿",
+          "importance": "高",
+          "body": [
+            "Reuters转述FT：OpenAI本轮融资目标下调100亿美元，目前寻求约200亿美元；首轮交割预计低于该金额。报道发布于10月31日00:17 UTC，即10月30日17:17 PT，属于补充昨晚遗漏，不是过去半天新发生的交易。",
+            "这些是媒体报道的融资计划与预期；截至报道时公司未回应Reuters置评请求。不能据此认定融资已完成，也不能认定GPU订单已经取消。"
+          ],
+          "whyImportant": "相较模型演示，资金能否以可接受成本到位，更直接约束AI基础设施扩张。融资目标下调值得跟踪，但尚不能证明终端AI需求转弱。",
+          "investmentImpact": "分析：融资可得性下降→算力采购与租赁节奏可能推迟→NVDA及NBIS、CRWV等供应链现金流预期面临重估；实际影响取决于交割金额、客户预付款、融资条件和合同履行。观察正式交割及资本开支指引，不把融资传闻直接折算成收入下修。",
+          "tags": [
+            "OpenAI",
+            "NVDA",
+            "NBIS",
+            "CRWV",
+            "融资"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜OpenAI融资目标报道，10月31日UTC",
+              "url": "https://www.reuters.com/business/openai-cuts-funding-target-by-10-billion-ft-reports-2026-10-31/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-31-am-3",
+          "category": "macro",
+          "title": "补充遗漏：中国10月PMI重回收缩区间，订单与生产同步放缓",
+          "status": "已公布官方数据；北京时间10月31日09:30，即10月30日18:30 PT",
+          "importance": "高",
+          "body": [
+            "国家统计局：制造业PMI由9月50.1降至10月49.3；生产49.8、新订单49.4、新出口订单48.7。非制造业49.7，综合产出49.7。数据早于上一期截稿，本期明确补充。",
+            "原材料购进价格指数由60.8降至56.8，出厂价格由54.0降至51.7，均仍高于50。它们是企业涨跌回答构成的扩散指数，不是价格上涨百分比；PMI49.3也不是GDP下降0.7%。"
+          ],
+          "whyImportant": "分析：订单、生产转弱，价格上涨的企业分布仍较广，更接近需求放缓与成本压力并存的信号；不能仅凭价格指数下降，就判断经济全面通缩或企业利润改善。",
+          "investmentImpact": "分析：对工业、消费电子与汽车芯片的需求预期偏谨慎，可关注ON、ADI的中国订单与库存；不能从总量PMI推断AI服务器同幅放缓。采购与出厂价格指数之差不能计算毛利率，需结合实际成本、售价和销售量验证。",
+          "tags": [
+            "中国PMI",
+            "需求",
+            "成本",
+            "ON",
+            "ADI"
+          ],
+          "sources": [
+            {
+              "title": "国家统计局｜2026年10月采购经理指数，10月31日",
+              "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261031_1965718.html"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-31-am-4",
+          "category": "semi",
+          "title": "台海风险跟踪：台湾以东海警巡航，不等于封锁或芯片断供",
+          "status": "10月31日07:16 PT报道；巡航消息，未证实供应链中断",
+          "importance": "中",
+          "body": [
+            "Reuters援引央视报道，中国海警10月31日在台湾以东海域巡航；中方称为例行执法。该报道没有确认商业航运中断、晶圆厂停产或出口受阻。"
+          ],
+          "whyImportant": "台湾先进制造的集中度，使航运与地缘风险具有投资意义；但巡航本身不足以支持断供判断。",
+          "investmentImpact": "分析：TSM、NVDA、AMD等相关资产可能承受地缘风险溢价。只有出现禁航范围、保险费率、港口吞吐或工厂交付的实质变化，才有理由进一步调整供应与盈利假设；本期不将例行巡航升级为封锁预警。",
+          "tags": [
+            "TSM",
+            "NVDA",
+            "AMD",
+            "台海"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜台湾以东海警巡航，10月31日",
+              "url": "https://www.reuters.com/world/china/chinas-coast-guard-conducts-patrols-east-taiwan-cctv-reports-2026-10-31/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-31-am-5",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：未核实到合格新增",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本窗口未核实到足以改变投资判断的零样本泛化、跨本体迁移、触觉/力控、数据效率、干预率、uptime、硬件成本或真实付费部署新指标。Figure新闻页与Physical Intelligence研究页仅作跟踪入口，不作为本日新进展证据；不重复旧融资与普通演示。"
+          ],
+          "whyImportant": "融资估值与展示视频不能替代持续作业能力、单位任务成本及客户付费的验证。",
+          "investmentImpact": "观察清单：任务成功率与测试分布、每小时人工干预次数、连续运行时长、单次任务成本、付费部署规模与复购。NVDA、ON、ADI、TER、TSLA及机器人零部件公司的判断，仍需这些经营和技术指标支持。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "部署可靠性"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜新闻跟踪入口",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜研究跟踪入口",
+              "url": "https://www.pi.website/blog"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-30-pm",
       "date": "2026-10-30",
       "period": "pm",
