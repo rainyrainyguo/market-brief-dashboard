@@ -4,6 +4,151 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-01-am",
+      "date": "2026-11-01",
+      "period": "am",
+      "time": "08:07",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-01T08:07:00-08:00",
+      "summary": "本期新增由能源与地缘主导：OPEC+维持12月目标，美伊第三天调停仍无最终协议；Aramco完成HUMAIN股权交易，Plaquemines一期转入LNG长约供货。周日没有新常规收盘，不重报韩国出口、旧融资或机器人原型；机器人无合格新增。",
+      "cards": [
+        {
+          "id": "2026-11-01-am-1",
+          "category": "macro",
+          "title": "宏观 / 市场环境：OPEC+七国维持12月产量目标，配额不等于可出口供应",
+          "status": "11月1日OPEC正式决定；Reuters于01:41 PST报道",
+          "importance": "高",
+          "body": [
+            "OPEC公告：沙特、俄罗斯、伊拉克、科威特、哈萨克斯坦、阿尔及利亚和阿曼维持12月所需产量，沿用9月水平；下一次会议定于11月29日。维持目标是已决定事项，2027年如何调整仍待后续。",
+            "Reuters称，战争与出口受阻使多数相关海湾产油国实际产量仍低于目标。今天没有新增常规交易日油价结算，不把周五Brent价格重报为今日反应。"
+          ],
+          "whyImportant": "政策配额、实际生产和可装船出口是三个不同变量。即使目标不变，海峡通行恢复仍可能增加市场可获得供应。",
+          "investmentImpact": "分析：运输恢复→能源风险溢价可能下降→通胀与科技折现率压力可能缓和；若冲突升级则反向。不能仅凭OPEC维持目标判断油价一定上涨或下跌。观察实际装船、航运保险及11月29日会议；本窗口未核实新增美国通胀/就业/Fed决定、财政融资安排、期限溢价或日本JGB政策变化，债汇、信用利差与资金流等待开市验证。",
+          "tags": [
+            "OPEC+",
+            "原油",
+            "通胀",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "OPEC｜11月1日正式公告",
+              "url": "https://www.opec.org/pr-detail/620-1-november-2026.html"
+            },
+            {
+              "title": "Reuters｜OPEC+产量与出口约束，11月1日",
+              "url": "https://www.reuters.com/business/energy/opec-set-keep-oil-output-targets-steady-sources-say-2026-11-01/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-01-am-2",
+          "category": "macro",
+          "title": "宏观 / 市场环境：美伊调停进入第三天，“两天重开海峡”仍有前提",
+          "status": "11月1日04:24 PST新报道；方案讨论中，未达最终协议",
+          "importance": "高",
+          "body": [
+            "Reuters报道，多哈调停继续第三天。伊朗外长称“两天方案”尚无最终结论；Al Jazeera所述是在与美国达成潜在协议后两天内重开霍尔木兹海峡，不是从今天起倒计时两天。会谈安排部分来自匿名知情人士。",
+            "相较昨晚，新增是第三天会谈及上述有条件方案。美国中期选举为11月3日；选后军事升级仍是风险预期，不能写成已确定行动或已解除战争风险。"
+          ],
+          "whyImportant": "市场需要的是可执行协议、通行与安全安排，而非只看谈判天数或乐观措辞。",
+          "investmentImpact": "分析：战争→油气/运费→通胀→政策利率预期与科技估值，同时可能通过实际购买力影响终端需求。若避险买债压低长端收益率，也不代表信用融资一定改善。继续分别核对财政/发债→期限溢价、日本收益率/对冲成本→资金回流，不将这些链条预先当成已发生事实。",
+          "tags": [
+            "伊朗",
+            "霍尔木兹",
+            "美国选举",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美伊调停第三天，11月1日",
+              "url": "https://www.reuters.com/world/middle-east/iranian-negotiators-doha-continue-talks-end-us-iran-war-official-says-2026-11-01/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-01-am-3",
+          "category": "ai",
+          "title": "Aramco完成HUMAIN 49%股权交易：主权AI获得具体资产与资金支持",
+          "status": "11月1日公司正式公告，仅标日期；交易已完成，扩建仍为计划",
+          "importance": "高",
+          "body": [
+            "Aramco与PIF公告交易完成：Aramco经全资子公司取得HUMAIN 49%，PIF保留51%。安排包括转入AI资产，并在2026年贡献约99亿沙特里亚尔、约26亿美元现金；不能把年度现金贡献全部视为今天新增到账。",
+            "HUMAIN规划2030年前部署3GW AI数据中心容量，这是未来目标，不是已经上电。公告没有据此确认等额新增GPU采购，不能按全部交易金额推算NVDA收入。"
+          ],
+          "whyImportant": "这是可核实的股权及资源整合，较泛泛投资意向更具体；但资金支持、建设、上电、设备验收和客户付费仍是不同阶段。",
+          "investmentImpact": "分析：对区域AI算力链形成潜在需求支撑，需跟踪电力、出口许可、设备合同及交付；不代表NBIS、CRWV自动受益或受损。对未来1–12个月判断，更应看可融资订单和现金回收，而非2030容量目标。半导体本窗口未核实其他足以改变判断的新增公司公告，昨晚韩国出口数据不重复计数。",
+          "tags": [
+            "Aramco",
+            "HUMAIN",
+            "主权AI",
+            "NVDA",
+            "算力融资"
+          ],
+          "sources": [
+            {
+              "title": "Aramco｜PIF与Aramco完成HUMAIN交易，11月1日",
+              "url": "https://www.aramco.com/en/news-media/news/2026/pif-and-aramco-close-humain-transaction-to-accelerate-humains-global-growth"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-01-am-4",
+          "category": "macro",
+          "title": "天然气链：Plaquemines一期转入长约供货，不等于今日突然新增全部产能",
+          "status": "11月1日06:24 PST报道；公司称10月31日完成一期调试",
+          "importance": "中",
+          "body": [
+            "Reuters援引Venture Global声明：Plaquemines一期结束约22个月调试、进入商业运营，Shell提取首批长约货物。此前调试期货物已进入现货市场，因此这是供货与合同阶段变化，不能把整个一期容量当成今日净新增供应。",
+            "本期不将报道中的欧洲与亚洲天然气参考价格当成今日正式结算，也不以原油价格直接推算天然气或数据中心电价。"
+          ],
+          "whyImportant": "从现货销售转为长约交付，会改变货物归属、定价和现金流分配；商业运营日期本身不等于液化产量跃升。",
+          "investmentImpact": "分析：VG需看长约兑现、利润率和现金流变化；Shell等买方获得合同供应。对科技及数据中心，国际LNG、美国本土气价、电网约束和购电合同分别决定成本，不能据单船装载认定电费立刻下降。",
+          "tags": [
+            "天然气",
+            "LNG",
+            "VG",
+            "Shell",
+            "能源成本"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Plaquemines一期商业供货，11月1日",
+              "url": "https://www.reuters.com/business/energy/venture-global-begins-supplying-plaquemines-phase-1-customers-under-long-term-2026-11-01/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-01-am-5",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：本窗口无合格新增",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本次未核实到新增可比的zero-shot泛化、跨本体迁移、触觉/力控、数据效率、人工接管率、uptime、硬件单位成本或付费deployment/design win。Figure与Physical Intelligence可读取页面未提供本窗口合格新增，不重复昨天Meta原型合作或旧融资传闻。"
+          ],
+          "whyImportant": "研究参与、融资估值与客户现场可收费工时不同，缺少实质指标时不应推高盈利判断。",
+          "investmentImpact": "观察清单：NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Gemini Robotics、PI及Nabtesco、Harmonic Drive、THK、Nidec继续看付费复购、任务成功率分布、接管次数/小时、有效工时及执行器、手、传感器、电池、减速器成本与寿命。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "可靠性",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜新闻跟踪入口",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜研究跟踪入口",
+              "url": "https://www.pi.website/blog"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-31-pm",
       "date": "2026-10-31",
       "period": "pm",
