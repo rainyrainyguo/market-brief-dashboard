@@ -4,6 +4,159 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-10-31-pm",
+      "date": "2026-10-31",
+      "period": "pm",
+      "time": "19:08",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-10-31T19:08:00-07:00",
+      "summary": "韩国正式出口数据支持AI与存储链当期需求仍强；台海新增台方航运回应。补充早报未收录的美伊调停综合报道，以及10月30日Amazon设备融资披露。周末不冒充新行情；Meta机器人原型报道缺少可投资验证指标。",
+      "cards": [
+        {
+          "id": "2026-10-31-pm-1",
+          "category": "macro",
+          "title": "宏观 / 市场环境：美方称尚未决定再打击伊朗，外交与备战并行",
+          "status": "10月31日综合报道；首次发布07:57 PT，补充早报未收录内容",
+          "importance": "高",
+          "body": [
+            "Reuters报道，Rubio称Trump尚未决定是否再次打击伊朗，倾向外交解决；伊朗方面要求军队准备应对。多哈调停会谈的细节来自匿名知情人士。选后升级仍是风险情景，不能写成已获批准的军事行动或已达成停战。",
+            "周六未核实新的原油、天然气正式结算或美国完整债汇收盘；本窗口也未取得新增CPI/PPI/PCE、就业工资、Fed决议/点阵图、财政发债安排或BOJ政策变化，不重报周五行情。"
+          ],
+          "whyImportant": "谈判渠道仍在运转，但军事准备并未解除；中期选举前后政策表态可能改变风险溢价，不能用外交意愿替代执行结果。",
+          "investmentImpact": "分析：实际升级→油气与运费→通胀及企业成本→利率预期与科技估值；避险买债又可能压低收益率。观察正式停战条款、航运恢复及设施损害，再结合美元、信用利差和资金流判断；财政/发债→期限溢价、日本收益率→资金回流两条链，本期无新增证据。",
+          "tags": [
+            "中东",
+            "美国选举",
+            "能源",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美伊调停与Rubio表态，10月31日",
+              "url": "https://www.reuters.com/world/middle-east/iranian-envoys-meet-qatari-mediators-threat-looms-us-strikes-after-midterms-2026-10-31/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-31-pm-2",
+          "category": "semi",
+          "title": "韩国10月芯片出口同比增259.4%：实物链仍强，不能等同股票估值安全",
+          "status": "韩国11月1日正式月度数据；Reuters于10月31日17:39 PT报道",
+          "importance": "高",
+          "body": [
+            "韩国官方：10月出口1152.8亿美元、同比增93.7%；日均出口增76%。半导体出口564.4亿美元、增259.4%，计算机出口58.5亿美元、增496.6%，后者受服务器及SSD需求支持。同比受工作日与基数影响，不能当作季调环比。",
+            "官方列示DDR5 16Gb固定价格9月至10月由48升至50美元，NAND 128Gb由30.6至30.6美元。代表品种的固定价格不是所有HBM、DRAM、NAND产品的平均售价，也不是现货报价。"
+          ],
+          "whyImportant": "分析：这给AI服务器与存储链需求提供了新的月度证据；也说明股价去风险可以与当期出货金额强劲并存。出口金额包含价格、数量与产品结构，不能把增幅全归于销量。",
+          "investmentImpact": "分析：对SK Hynix、Samsung及MU是需求与价格的参考，不能据韩国总额直接推算MU收入；NAND代表价格持平，也不支持将DRAM涨价机械套用给SNDK。观察HBM交付、各产品合约价、库存与客户现金回报；中国PMI偏弱与韩国AI出口强劲，可以反映行业分化。",
+          "tags": [
+            "存储",
+            "MU",
+            "SK Hynix",
+            "Samsung",
+            "SNDK",
+            "出口"
+          ],
+          "sources": [
+            {
+              "title": "韩国工业部门｜2026年10月进出口正式资料，11月1日",
+              "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172360/view?mno=&pageIndex=1"
+            },
+            {
+              "title": "Reuters｜韩国出口，11月1日UTC",
+              "url": "https://www.reuters.com/world/asia-pacific/south-korea-exports-nearly-double-october-strongest-growth-since-1974-2026-11-01/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-31-pm-3",
+          "category": "ai",
+          "title": "补充10-Q遗漏：Amazon披露最高约800亿美元设备担保融资额度",
+          "status": "10月30日已提交的官方披露；不是今晚新签，也不是已借满",
+          "importance": "高",
+          "body": [
+            "Amazon Q3 10-Q披露，供应商融资安排包括最高约800亿美元的担保贷款额度，可由公司选择于2027年Q1至2028年Q3借用，金额受采购订单、时点及价格条件影响；采用浮息，每笔借款五年到期。",
+            "部分购入设备将设担保权益；借款计入长期债务，本金偿还计入融资现金流。额度上限不等于已提款、已交付设备或额外新增800亿美元资本开支。该项此前未收录，本期补充，不重复既有财报数字。"
+          ],
+          "whyImportant": "AI扩张的资金来源不仅是经营现金流和普通债券；设备融资可以推迟现金支付，却不能消除利息、偿债和设备折旧风险。",
+          "investmentImpact": "分析：对AMZN看借款成本、设备寿命和云业务回报能否覆盖融资；对NVDA、存储供应商，融资可用性可能支持采购，但额度不能直接确认订单。比较NBIS、CRWV与大型云厂商时，应统一审视债务、租赁及供应商融资，不能只比较表面资本开支或单项自由现金流。",
+          "tags": [
+            "AMZN",
+            "AWS",
+            "AI融资",
+            "现金流",
+            "NBIS",
+            "CRWV"
+          ],
+          "sources": [
+            {
+              "title": "SEC｜Amazon Q3 2026 Form 10-Q，Note 5",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-31-pm-4",
+          "category": "semi",
+          "title": "台海巡航后续：台方称无线电干扰航运，已派船监控",
+          "status": "10月31日18:20 PT新增报道；台方说法，未证实芯片断供",
+          "importance": "中",
+          "body": [
+            "Reuters报道，台方海巡称，两艘中国海警船参与台湾东部海域巡航，并以无线电干扰海上船舶；台方已派船监控。这是相较早报新增的台方回应，不能据此认定港口关闭或全面封锁。"
+          ],
+          "whyImportant": "风险跟踪从巡航公告推进到具体航运交互，但仍须用实际通行与交货数据判断经济影响。",
+          "investmentImpact": "分析：TSM及依赖台湾制造的NVDA、AMD可能面对地缘风险溢价。继续核对商业船期、保险费率、港口与晶圆厂运行；本期未确认生产或交付中断，不据单方指称调整芯片出货预测。",
+          "tags": [
+            "TSM",
+            "NVDA",
+            "AMD",
+            "台海",
+            "航运"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜台方回应东部海域巡航，11月1日UTC",
+              "url": "https://www.reuters.com/world/china/taiwan-says-china-harassing-shipping-with-east-coast-patrol-2026-11-01/"
+            }
+          ]
+        },
+        {
+          "id": "2026-10-31-pm-5",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：Meta原型报道未提供合格经营或技术指标",
+          "status": "未核实到合格新增；原型合作为未经独立确认的媒体报道",
+          "importance": "中",
+          "body": [
+            "Reuters于10月31日09:13 PT转述The Information称，Meta与Fourier已制作人形原型并推进第二版，Reuters表示无法立即独立核实。报道没有提供可比泛化、跨本体迁移、触觉/力控、数据效率、接管率、uptime、单位成本或付费部署指标，因此不作为商业落地验证。",
+            "Figure与Physical Intelligence可读取新闻/研究页未给出本窗口合格新增。融资传闻、合作原型与真实付费design win分别看待，不用演示填数。"
+          ],
+          "whyImportant": "大型科技公司参与值得跟踪，但参与研发不能证明机器人已经可持续创造客户收益。",
+          "investmentImpact": "观察清单：重点公司继续看付费订单与复购、每小时接管次数、有效作业时长、任务成功率分布，以及执行器、手、传感器、电池和减速器的成本与寿命。META、NVDA、ON、ADI、TER、TSLA及日本零部件厂商，本期均不据原型报道上调机器人盈利。",
+          "tags": [
+            "Physical AI",
+            "META",
+            "Fourier",
+            "可靠性",
+            "硬件经济性"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Meta与Fourier原型报道，10月31日",
+              "url": "https://www.reuters.com/world/china/meta-builds-humanoid-robot-with-chinese-startup-fourier-information-says-2026-10-31/"
+            },
+            {
+              "title": "Figure｜新闻跟踪入口",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜研究跟踪入口",
+              "url": "https://www.pi.website/blog"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-31-am",
       "date": "2026-10-31",
       "period": "am",
