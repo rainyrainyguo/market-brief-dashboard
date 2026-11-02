@@ -4,6 +4,160 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-01-pm",
+      "date": "2026-11-01",
+      "period": "pm",
+      "time": "19:09",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-01T19:09:00-08:00",
+      "summary": "亚洲开市油价下跌、美股期货反弹，但加息预期仍在。韩国总统推动既有2027年AI预算；俄气恢复输欧仍属未独立核实的谈判报道，越南关税仍待政策结论。机器人新增是拟议现场实证预算，尚无可比可靠性或付费部署新指标。",
+      "cards": [
+        {
+          "id": "2026-11-01-pm-1",
+          "category": "macro",
+          "title": "宏观 / 市场环境：油价回落、股指期货反弹，加息风险仍在",
+          "status": "11月2日亚洲早盘报价；报道初刊11月1日16:41 PST，非收盘或同秒快照",
+          "importance": "高",
+          "body": [
+            "Reuters文中报价：标普500期货涨0.4%、纳指期货涨0.8%；Brent为111.15美元/桶、跌2.0%，WTI为101.73美元、跌2.3%。10年和2年美债收益率约4.941%、4.612%；期货隐含12月加息25基点概率72%，是市场定价，不是Fed承诺。",
+            "相较早报，新增是开市后的价格反应；没有核实到最终停战协议。未取得可靠的新天然气结算、完整期限溢价、广泛信用利差与净资金流数据，不补造读数。"
+          ],
+          "whyImportant": "油价下降与科技期货反弹提供了短期风险缓和信号，但债券收益率并未同步大幅下降，不能将其解释成全面宽松或AI融资问题已消失。",
+          "investmentImpact": "分析：能源风险溢价回落→通胀与企业成本压力可能减轻；利率仍高→高估值科技、NBIS/CRWV等融资敏感公司仍受约束。Brent须与同期限合约比较，不能把此前12月到期价与当前合约价差都算成单日跌幅。观察本周财政融资、11月3日选举与就业数据；日本收益率→资金回流、财政发债→期限溢价均需新数据验证。",
+          "tags": [
+            "原油",
+            "美债",
+            "Fed预期",
+            "科技估值",
+            "NBIS",
+            "CRWV"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜亚洲开市跨资产报价，11月2日UTC",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-02/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-01-pm-2",
+          "category": "ai",
+          "title": "韩国总统推动2027年AI预算：21.3万亿韩元安排仍待议会批准",
+          "status": "韩国11月2日预算演说；Reuters于11月1日18:37 PST报道",
+          "importance": "高",
+          "body": [
+            "李在明在国会演说中推动2027年预算，拟向AI及半导体、Physical AI、AI数据中心三大项目投入21.3万亿韩元。整体820.9万亿韩元预算提案已于9月提出，不能把今天演说写成全额新增、已经批准或到账。",
+            "演说提出半导体生产基础投入2万亿韩元，以及电力、用水、产业园基础设施2.1万亿韩元。相关资金口径不可随意相加，政府支持也不等于供应商已确认订单。"
+          ],
+          "whyImportant": "政策正同时覆盖算力和电力、用水等建设约束；若执行，会影响项目落地节奏，但议会审批、拨款与招标仍是关键节点。",
+          "investmentImpact": "分析：Samsung、SK Hynix及相关设备和基础设施链获得潜在政策支持，不能按预算额直接推算收入或利润。对MU、NVDA及其他供应商，继续核对实际采购、竞争格局和资本回报；公共支持也可能扩大供给，不能只视为价格利好。",
+          "tags": [
+            "韩国",
+            "AI预算",
+            "Samsung",
+            "SK Hynix",
+            "NVDA",
+            "MU"
+          ],
+          "sources": [
+            {
+              "title": "YTN｜总统预算演说视频及全文，11月2日",
+              "url": "https://www.ytn.co.kr/_ln/0101_202611021025546288"
+            },
+            {
+              "title": "Reuters｜韩国预算演说，11月2日UTC",
+              "url": "https://www.reuters.com/world/asia-pacific/south-koreas-lee-vows-make-bold-ai-investment-record-budget-push-2026-11-02/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-01-pm-3",
+          "category": "macro",
+          "title": "天然气风险：美国据报推动恢复俄气经乌输欧，尚非供气恢复",
+          "status": "11月1日18:19 PST新报道；WSJ援引官员，Reuters未独立核实",
+          "importance": "中",
+          "body": [
+            "Reuters转述WSJ：美国支持在冬季前能源停火谈判中，推动俄罗斯天然气经乌克兰管道快速恢复输欧；消息来自美国、欧洲和乌克兰官员，Reuters称无法立即独立核实。没有据此确认协议签署、管道重启或恢复流量。"
+          ],
+          "whyImportant": "若最终执行，欧洲边际供气来源与LNG采购竞争可能变化；但谈判意向距离物理供气仍有多道条件。",
+          "investmentImpact": "分析：若新增管道气替代部分LNG，欧洲气价及工业成本可能缓和，部分LNG现货利润承压；实际效果取决于规模、合同、制裁与运输条件。不能据此断言美国Henry Hub或科技公司的长期购电价格同步下降。",
+          "tags": [
+            "天然气",
+            "欧洲",
+            "俄罗斯",
+            "LNG",
+            "能源成本"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜俄气输欧谈判报道，11月2日UTC",
+              "url": "https://www.reuters.com/business/energy/us-pushes-restore-russian-gas-sales-europe-via-ukraine-wsj-reports-2026-11-02/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-01-pm-4",
+          "category": "macro",
+          "title": "贸易风险：Tesla与Samsung反对越南新增关税，意见书不是新税率",
+          "status": "11月1日17:02 PST报道；部分意见书早在7月提交，非当日新政策",
+          "importance": "中",
+          "body": [
+            "Reuters检视提交材料称，Tesla、Samsung等反对美国因越南知识产权问题追加关税；报道指调查结束期限为11月29日。Tesla相关意见提交于7月2日，本期新增是报道与临近期限，不是公司今天才首次表态。",
+            "是否加税、适用哪些行业与税率均未由这篇报道确定。企业意见也不保证政府采纳，本期不提供尚未生效的新税率。"
+          ],
+          "whyImportant": "越南是电子、网络设备及零部件供应链的重要节点，政策不确定性可先影响采购与库存，再影响实际成本。",
+          "investmentImpact": "分析：新增关税若落地→到岸成本/供应链调整→终端售价、利润率与需求；受影响程度取决于原产地、产品范围及豁免。TSLA、Samsung及电子链须按具体产品核对，不把调查截止日当成统一加税生效日。",
+          "tags": [
+            "关税",
+            "越南",
+            "TSLA",
+            "Samsung",
+            "供应链"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜越南关税调查与企业意见，11月2日UTC",
+              "url": "https://www.reuters.com/legal/litigation/tesla-samsung-oppose-new-us-tariffs-vietnam-probe-deadline-nears-2026-11-02/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-01-pm-5",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：韩国拟投入5000亿韩元现场实证，商业验证仍待",
+          "status": "预算演说中的拟议政策；尚非已拨款、付费部署或design win",
+          "importance": "中",
+          "body": [
+            "韩国总统演说提出，向制造、智能工厂、国防等八类民间与公共重点领域的Physical AI现场实证投入5000亿韩元。这是拟议预算用途，不能视为机器人公司已经获得收入，也不能擅自当成21.3万亿韩元以外额外追加。",
+            "本窗口未核实重点公司新增可比zero-shot泛化、跨本体迁移、触觉/力控、数据效率、接管率、uptime或部件单位成本改善。Figure与PI页面仅作跟踪入口，不以融资或普通演示替代实证。"
+          ],
+          "whyImportant": "现场实证预算可能创造验证机会，价值取决于测试是否能转化为可靠性、成本和客户复购的可量化改善。",
+          "investmentImpact": "观察清单：招标与中标、付费客户、任务成功率分布、接管次数/小时、有效工时、执行器/手/传感器/电池/减速器成本与寿命。NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Gemini Robotics、PI及日本零部件公司，均不能据预算提案直接上调盈利。",
+          "tags": [
+            "Physical AI",
+            "韩国",
+            "现场实证",
+            "硬件经济性",
+            "可靠性"
+          ],
+          "sources": [
+            {
+              "title": "YTN｜总统预算演说原文，11月2日",
+              "url": "https://www.ytn.co.kr/_ln/0101_202611021025546288"
+            },
+            {
+              "title": "Figure｜新闻跟踪入口",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜研究跟踪入口",
+              "url": "https://www.pi.website/blog"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-01-am",
       "date": "2026-11-01",
       "period": "am",
