@@ -4,6 +4,162 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-02-am",
+      "date": "2026-11-02",
+      "period": "am",
+      "time": "08:12",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-02T08:12:00-08:00",
+      "summary": "今早新增重点：油价跌幅扩大、美股开盘反弹；ISM制造业扩张加快但成本仍普遍上涨；Marvell宣布以全股票交易收购Lumentum，后者同时公布强劲季度收入及光互连采购承诺。交易预计2028年才完成，不能把协同收益提前计入未来一年利润。机器人未核实到本窗口实质新指标。",
+      "cards": [
+        {
+          "id": "2026-11-02-am-1",
+          "category": "macro",
+          "title": "宏观 / 市场环境：油价跌幅扩大，美股开盘反弹；停战仍是预期",
+          "status": "11月2日纽约早盘报道快照，非收盘；谈判草案不等于协议生效",
+          "importance": "高",
+          "body": [
+            "Reuters今早更新：Brent期货跌约6.5%至106美元附近；纳指开盘涨约1.2%、标普500涨约1%。这是相对昨晚亚洲开市后的新增价格反应，报价并非同一时刻，不把两期涨跌幅相减当作期间收益。",
+            "报道提到伊朗谈判代表与卡塔尔斡旋方会谈后离开，草案流转、可能再开会。尚不能据此确认战争结束或能源运输恢复。"
+          ],
+          "whyImportant": "新增的是市场对能源风险缓和的重新定价。油价回落能减轻成本和通胀担忧，但谈判预期一旦落空，风险溢价可能迅速回升。",
+          "investmentImpact": "分析：战争风险缓和预期→油价下降→通胀压力可能减轻→利率压力或缓和→高估值科技获得喘息；链条后两步仍待数据验证。未取得本窗口可靠的新美债曲线、期限溢价、天然气、JGB、信用利差及净资金流读数，不沿用昨晚读数冒充今早更新。观察财政赤字/发债→期限溢价→长端利率，以及日本收益率→资金回流→全球流动性，不能由股市反弹推断这些风险消失。",
+          "tags": [
+            "原油",
+            "中东",
+            "风险偏好",
+            "科技估值",
+            "美债"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜11月2日全球市场更新：纽约开盘与油价",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-02/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-02-am-2",
+          "category": "macro",
+          "title": "ISM：制造业扩张加快，价格指数下降仍不代表价格下跌",
+          "status": "11月2日07:00 PST公布的10月调查；已发生数据，非CPI/PPI或Fed决议",
+          "importance": "高",
+          "body": [
+            "美国10月ISM制造业PMI为55.5，9月54.5；生产指数59.0、前值56.7，新订单55.5、前值55.3，就业52.4、前值52.7。PMI上升1点，不是工业产出增长1%。",
+            "投入价格指数从77.9降至75.2，仍明显高于50：涨价覆盖面收窄，不能解释成价格下降2.7%。供应商交付指数59.1表示交货变慢。库存由48.6升至51.4，配合生产快于订单的变化，提示需区分终端需求与补库存贡献。"
+          ],
+          "whyImportant": "这组数据更接近“制造业仍扩张、生产加速，但成本与交付约束未解除”，并非经济衰退或通胀问题已解决。就业扩张速度略慢，也不能单独推导非农结果。",
+          "investmentImpact": "分析：需求韧性有利工业和部分半导体订单；成本压力持续→利润率承压/售价传导→Fed宽松空间受限→长久期科技估值受约束。11月3日中期选举重点看财政、贸易、关税与监管政策的可执行变化；本周就业/工资和后续CPI、PPI、PCE用于验证，不把调查指数直接等同于通胀率或加息概率。",
+          "tags": [
+            "ISM",
+            "制造业",
+            "通胀",
+            "Fed",
+            "中期选举",
+            "半导体"
+          ],
+          "sources": [
+            {
+              "title": "ISM｜2026年10月制造业报告原文",
+              "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/october/"
+            },
+            {
+              "title": "ISM｜11月2日10:00 ET定时发布稿",
+              "url": "https://www.prnewswire.com/news-releases/manufacturing-pmi-at-55-5-october-2026-ism-manufacturing-pmi-report-302925617.html"
+            },
+            {
+              "title": "Reuters｜本周选举与就业事件背景",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-02/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-02-am-3",
+          "category": "semi",
+          "title": "Marvell拟收购Lumentum：AI连接芯片与光器件整合，预计2028年完成",
+          "status": "11月2日正式签署交易协议；尚未完成，须获股东及监管批准",
+          "importance": "高",
+          "body": [
+            "Marvell宣布全股票收购Lumentum，每股LITE固定兑换4.500股MRVL。公告所述企业价值约1150亿美元、隐含每股1132美元，较10月28日未受影响收盘价溢价23.9%；这不是固定现金收购价，实际价值随MRVL股价变化。",
+            "预计2028年上半年完成；完成后Lumentum原股东约持合并公司33%。管理层预计年化成本协同超过10亿美元、完成后首年增厚非GAAP每股收益，均为预测。Marvell另披露2027财年第三季初步收入维持原指引中点，区间从±5%收窄至±2%，不是完整季度财报。"
+          ],
+          "whyImportant": "交易拟把定制计算/数字互连能力与激光器、光模块和光交换整合，可能改变AI数据中心光互连供应商的竞争及客户采购关系。",
+          "investmentImpact": "分析：未来1–12个月重点是独立经营、客户订单、审批和整合预期，不能提前计入2028年后的协同利润。MRVL承担股权摊薄及执行风险；LITE对价与MRVL挂钩，存在交易失败和价差波动风险。对NVDA及其他光互连链公司，观察客户是否接受更整合的方案，不把整合自动等同于竞争对手订单流失。",
+          "tags": [
+            "MRVL",
+            "LITE",
+            "NVDA",
+            "光互连",
+            "CPO",
+            "并购"
+          ],
+          "sources": [
+            {
+              "title": "Marvell｜11月2日合并协议、交换比例及初步收入公告",
+              "url": "https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-02-am-4",
+          "category": "semi",
+          "title": "Lumentum正式财报：收入环比增25.5%，新增逾50亿美元NPO/CPO采购承诺",
+          "status": "11月2日公布2027财年第一季业绩；下一季指引及长期机会属于预测",
+          "importance": "高",
+          "body": [
+            "截至9月26日季度，Lumentum收入12.626亿美元，环比增长25.5%、同比增长136.5%；GAAP稀释EPS为3.54美元，非GAAP为4.57美元；非GAAP经营利润率42.3%。环比比较上一季度，同比比较去年同一季度。",
+            "公司称获得第二个重大NPO/CPO项目，背后采购承诺超过50亿美元，不能当作本季已确认收入。第二季收入指引15.75亿—16.25亿美元，非GAAP经营利润率45%—46%、EPS 5.90—6.20美元；仍需实际交付验证。"
+          ],
+          "whyImportant": "这提供了AI光互连需求转化为收入和经营杠杆的公司级证据，信息强度高于单纯市场规模预测；但一家公司的增长不足以证明所有光器件厂都同等受益。",
+          "investmentImpact": "分析：订单/采购承诺→产能与交付→收入确认→利润和现金流。观察承诺的期限与约束、客户集中度、产能爬坡及资本开支；NPO/CPO是近封装/共封装光学路线，OCS是光路交换，不能将不同产品机会重复相加。估值还需检验增长是否已被股价计入，并同时考虑并购换股条款。",
+          "tags": [
+            "LITE",
+            "AI基础设施",
+            "NPO",
+            "CPO",
+            "OCS",
+            "财报"
+          ],
+          "sources": [
+            {
+              "title": "Lumentum / SEC｜11月2日8-K附件99.1：Q1 FY2027业绩及指引",
+              "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026068655/lite_ex991xq1fy27.htm"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-02-am-5",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：本窗口暂无合格实质新进展",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "未核实重点公司在本窗口新增可比的zero-shot泛化、跨本体迁移、触觉/力控精细操作、数据效率、接管率/uptime、硬件单位经济性或真实付费部署指标。不以普通演示或旧融资填充。",
+            "11月2日出现的Eka融资报道，经公司原文核对是10月20日已公布的1.5亿美元A轮，不计作本期新融资。ON官方安排是11月2日收盘后发布第三季业绩、14:00 PST电话会；截至本期截点属于待公布事件，不能提前写成已发布财报或机器人订单。"
+          ],
+          "whyImportant": "机器人投资判断需要持续可靠运行、付费和成本证据。视觉与力反馈路线值得跟踪，但融资额或重新刊登日期不能证明部署效率改善。",
+          "investmentImpact": "观察清单：每小时人工接管次数、跨任务/跨本体成功率、有效工作时长、客户复购；执行器、手、传感器、电池、减速器成本和寿命。对NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Gemini Robotics、PI，以及Nabtesco、Harmonic Drive、THK、Nidec，不据演示或融资直接上调盈利；ON重点看真实业务指引和设计导入，不能把工业业务整体收入算作机器人收入。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "ON",
+            "可靠性",
+            "硬件经济性"
+          ],
+          "sources": [
+            {
+              "title": "Eka｜10月20日原始融资公告，供去重核验",
+              "url": "https://ekarobotics.com/blog/eka-robotics-raises-150m-to-build-superhuman-intelligence-for-the-physical-world"
+            },
+            {
+              "title": "onsemi｜第三季度业绩发布时间安排",
+              "url": "https://investor.onsemi.com/news-releases/news-release-details/onsemi-announce-third-quarter-financial-results-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-01-pm",
       "date": "2026-11-01",
       "period": "pm",
