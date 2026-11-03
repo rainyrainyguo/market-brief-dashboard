@@ -4,6 +4,201 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-03-am",
+      "date": "2026-11-03",
+      "period": "am",
+      "time": "08:12",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-03T08:12:00-08:00",
+      "summary": "今早新增：JOLTS职位空缺回升，美债收益率上行与芯片股反弹并存；美伊仍有明显分歧，能源价格继续波动。Nvidia据报限制云客户对中国业务依赖，影响算力租赁需求结构；AMD财报仍待盘后。本期补充昨晚遗漏的Palantir业绩，机器人未核实合格新指标。",
+      "cards": [
+        {
+          "id": "2026-11-03-am-1",
+          "category": "macro",
+          "title": "宏观 / 市场环境：职位空缺回升，芯片反弹未消除利率约束",
+          "status": "11月3日07:00 PST公布9月JOLTS；市场为07:15 PST盘中快照，非收盘",
+          "importance": "高",
+          "body": [
+            "BLS公布9月职位空缺752.3万，8月修订为719.0万；官方将月度变化表述为基本未变，不能因增加33.3万就断言统计上显著加速。招聘约540万、离职总数约530万；主动辞职约340万增加，裁员/解雇约160万基本未变。职位空缺是月末存量，不是当月新增就业。",
+            "AP纽约10:15 ET快照：标普500涨0.3%、纳指涨0.7%、道指跌0.6%；10年美债收益率约4.96%，前一交易日晚约4.91%。上涨股票少于下跌股票，指数反弹不等于全面风险偏好恢复。"
+          ],
+          "whyImportant": "劳动力需求没有明显失速，但招聘与裁员也没有给出全面过热信号。科技股可在收益率上升时反弹，说明盈利预期和仓位变化也重要，不能把单日价格直接当作经济结论。",
+          "investmentImpact": "分析：劳动需求韧性→工资/服务通胀可能更黏→宽松预期受约束→科技折现率压力；JOLTS本身不提供工资或CPI/PCE增速，也不是Fed新决定。今天选举结果尚未确定，关注财政、贸易、AI监管的可执行变化。未取得本窗口可靠的完整期限溢价、JGB、天然气、信用利差及净资金流新读数；财政发债→期限溢价、日本收益率→资金回流，仍待验证，不沿用旧数冒充今早变化。",
+          "tags": [
+            "JOLTS",
+            "就业",
+            "美债",
+            "科技估值",
+            "中期选举",
+            "半导体"
+          ],
+          "sources": [
+            {
+              "title": "BLS｜11月3日9月JOLTS原始数据及修订",
+              "url": "https://www.bls.gov/news.release/archives/jolts_11032026.htm"
+            },
+            {
+              "title": "AP｜11月3日10:15 ET美股及债市快照",
+              "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-0d235af127a92c68da0cc2c45c028cef"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-03-am-2",
+          "category": "macro",
+          "title": "美伊：双方仍研究方案，重开霍尔木兹并未确定",
+          "status": "11月3日调停新进展；匿名官员表态与公开发言不等于已签协议",
+          "importance": "高",
+          "body": [
+            "Reuters今日报道，伊朗高级官员称双方距离结束战争的协议仍远；卡塔尔称双方正在研究调停方案，磋商继续。伊朗方面仍为重开霍尔木兹海峡提出条件，美国总统则再次保留军事行动可能性，不能把昨天油价大跌解释成战争已结束。",
+            "AP今早盘中记录Brent曾高于107美元、短暂低于101美元，后报103.37美元、跌约1.3%。这是同日不同时间价格，不是新的结算价，也不能用其中任一点认定谈判成功或失败。"
+          ],
+          "whyImportant": "新增是调停继续但分歧仍在，能源风险溢价可双向快速变化。政治措辞、正式协议、通航安全与实际装船恢复需要分别验证。",
+          "investmentImpact": "分析：冲突/通航风险→油气及运费→企业成本与通胀→利率预期→科技估值；若能源回落来自衰退担忧，科技股也未必受益。观察可执行协议、保险和装船数据，以及选举后实际政策，不把匿名谈判预期或油价瞬时波动作为确定性盈利依据。",
+          "tags": [
+            "伊朗",
+            "霍尔木兹",
+            "原油",
+            "通胀",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜11月3日美伊分歧与卡塔尔调停",
+              "url": "https://www.reuters.com/world/middle-east/irans-foreign-minister-says-talks-with-saudi-arabia-are-ongoing-yemen-fighting-2026-11-03/"
+            },
+            {
+              "title": "AP｜11月3日早盘油价波动",
+              "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-0d235af127a92c68da0cc2c45c028cef"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-03-am-3",
+          "category": "semi",
+          "title": "Nvidia据报要求云客户降低中国业务依赖：算力租赁面临客户结构约束",
+          "status": "FT于11月2日21:00 PST刊出；匿名信源报道，Reuters称未立即独立核实",
+          "importance": "高",
+          "body": [
+            "FT援引知情人士称，Nvidia要求全球云/数据中心合作方至少51%的服务销往非中国企业，主要针对未来合同，不影响已有租赁；据报由销售团队口头传达，夏季起实施。今天新增是公开披露，不能写成今早刚生效的美国新法规。"
+          ],
+          "whyImportant": "若执行，限制会从芯片实物出口延伸到海外租算力的需求结构，部分数据中心可能需要更换客户，影响利用率与扩建节奏。",
+          "investmentImpact": "分析：潜在客户限制→客户重配/获客成本→利用率和回款→算力租赁利润与融资能力。NVDA、NBIS、CRWV及亚洲云厂须逐家公司核对客户与合同；本报道未证明它们具体违约、订单取消或收入损失，也不能据全球总需求推断被限制需求必然被等量替代。",
+          "tags": [
+            "NVDA",
+            "出口管制",
+            "算力租赁",
+            "NBIS",
+            "CRWV",
+            "中国"
+          ],
+          "sources": [
+            {
+              "title": "FT｜Nvidia云客户中国业务敞口报道，11月3日UTC",
+              "url": "https://www.ft.com/content/1902df70-1380-4588-bad5-171352b575f2"
+            },
+            {
+              "title": "Reuters / MarketScreener｜转述FT并注明无法立即独立核实",
+              "url": "https://www.marketscreener.com/news/nvidia-orders-data-centre-clients-to-reduce-china-exposure-ft-reports-ce785fd9dc8fff20"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-03-am-4",
+          "category": "ai",
+          "title": "Palantir：今早股价承压；补充昨晚未收录的收入与合同数据",
+          "status": "财报11月2日盘后已发布，本期补充；11月3日盘中价格反应为新增",
+          "importance": "高",
+          "body": [
+            "Palantir第三季收入23.13亿美元，同比增96%、环比增20%；美国商业收入9.84亿美元，同比增148%，首次超过美国政府收入9.53亿美元。GAAP经营利润10.85亿美元、经营利润率47%。",
+            "同期签约总合同价值TCV为29.18亿美元、同比增6%；美国商业剩余交易价值RDV为65.17亿美元、同比增79%、环比增4%。TCV、RDV与已确认收入不同，也不能简单相加。AP今早快照PLTR跌约4.6%，不是收盘跌幅。"
+          ],
+          "whyImportant": "企业AI变现继续增长，但收入高增与新签合同增速分化值得进一步核对；合同签订批次和期限会影响TCV，单季差异不足以证明需求崩塌。",
+          "investmentImpact": "分析：订单→履约→收入→现金流，每一步都要匹配。高增长和高经营利润率也不保证股价上涨；估值、市场原有预期、合同持续性与股权稀释共同决定回报。不要把一家软件公司的收入增速直接映射为GPU或存储需求增速。",
+          "tags": [
+            "PLTR",
+            "企业AI",
+            "合同价值",
+            "估值",
+            "财报"
+          ],
+          "sources": [
+            {
+              "title": "SEC｜Palantir 11月2日第三季正式业绩附件",
+              "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm"
+            },
+            {
+              "title": "AP｜11月3日Palantir盘中反应",
+              "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-0d235af127a92c68da0cc2c45c028cef"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-03-am-5",
+          "category": "semi",
+          "title": "AMD今晚财报：反弹是价格变化，业绩和新指引仍待公布",
+          "status": "11月3日盘后待公布；14:00 PST电话会，非已经发布的业绩",
+          "importance": "高",
+          "body": [
+            "AMD官方安排于今天收盘后发布2026财年第三季度业绩，14:00 PST召开电话会。公司8月给出的第三季旧指引为收入130亿美元±3亿美元、非GAAP毛利率约56%，本期仅作为待验证基准，不能冒充实际结果。"
+          ],
+          "whyImportant": "在芯片股大幅波动后，实际收入、毛利率和后续交付指引比单日反弹更能改变未来1–12个月判断。合作意向、产能预留和可确认收入必须区分。",
+          "investmentImpact": "观察清单：数据中心GPU/CPU收入、交付时间、机架系统验收、客户集中度、毛利率与现金回收；检验订单是否有融资和电力支持。对AMD、NVDA及存储链，不预先判断一定超预期或不及预期，也不把盘中反弹视为财报结果已被证实。",
+          "tags": [
+            "AMD",
+            "NVDA",
+            "AI芯片",
+            "财报观察",
+            "毛利率"
+          ],
+          "sources": [
+            {
+              "title": "AMD｜第三季业绩发布时间官方公告",
+              "url": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results"
+            },
+            {
+              "title": "AMD｜8月4日财报中的第三季旧指引",
+              "url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000121/q22026991.htm"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-03-am-6",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：本窗口无合格新增，不以新转载日期充当进展",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本窗口未核实重点公司新增可比zero-shot泛化、跨本体迁移、触觉/力控、数据效率、接管率/uptime、部件单位经济性或真实付费deployment/design win。Figure与PI可读取页面未提供合格新指标。",
+            "检索出现的AGIBOT Worken框架及产品报道，原文活动日期为10月29日；不是今天新发布的部署结果。本期不将旧活动、融资估值或普通演示算作新增投资证据。"
+          ],
+          "whyImportant": "衡量有用作业量的框架有参考价值，但框架本身不能替代客户现场持续运行、人工介入与付费回报数据。",
+          "investmentImpact": "观察清单：付费复购、任务与跨本体成功率分布、每小时接管次数、有效工时，以及执行器、手、传感器、电池、减速器成本和寿命。NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Gemini Robotics、PI及Nabtesco、Harmonic Drive、THK、Nidec不据本窗口演示或转载上调机器人盈利。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "可靠性",
+            "硬件经济性",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜新闻跟踪入口",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜研究跟踪入口",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "AGIBOT｜原文标明10月29日活动，供去重核验",
+              "url": "https://www.agibot.com/article/231/detail/131.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-02-pm",
       "date": "2026-11-02",
       "period": "pm",
