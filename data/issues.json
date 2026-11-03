@@ -4,6 +4,222 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-02-pm",
+      "date": "2026-11-02",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-02T19:00:00-08:00",
+      "summary": "晚报新增：油价大跌而纳指收低，能源缓和未消除AI资本回报担忧；财政部下调本季借款估算，但现金因素掩盖基础融资需求上升。Apple假日季毛利率指引承压，ON公布业绩并收购Ferric。本期另补充早报遗漏的Anthropic今日S-1/A季度披露，明确不是今晚才发布；机器人无合格新增。",
+      "cards": [
+        {
+          "id": "2026-11-02-pm-1",
+          "category": "macro",
+          "title": "宏观 / 市场环境：油价跌逾7%，科技股却由早盘上涨转为收低",
+          "status": "11月2日收盘/结算更新；美伊谈判预期尚非最终协议",
+          "importance": "高",
+          "body": [
+            "标普500收跌0.51%至7541.40，纳指跌1.07%至25164.32，道指涨0.41%至51983.98。相较早报，新增是早盘反弹未能维持，而非再次报道开盘上涨。",
+            "Brent结算104.77美元/桶、跌7.63%；WTI为96.46美元、跌7.36%。Reuters称伊朗释放谈判意愿，卡塔尔斡旋继续；未确认最终停战或供应恢复。Reuters收盘综述称美债长端收益率下降约4基点，美元走弱；这些不是完整曲线或期限溢价读数。"
+          ],
+          "whyImportant": "能源风险缓和与科技股估值压力可以同时存在。油价下跌并未消除市场对AI支出、融资和近端现金回报的担忧；不能把股价反应归因于单一宏观变量。",
+          "investmentImpact": "分析：战争缓和预期→油价/通胀压力下降→债券收益率或回落，但AI回报预期下修仍可能压低科技股。11月3日中期选举尚未出结果，关注可执行的财政、关税、监管变化。未核实本窗口新增CPI/PPI/PCE、就业工资或Fed决议；也未取得可靠的新天然气、JGB、期限溢价、信用利差与净资金流读数，不补造。日本收益率→资金回流→全球流动性仍是待验证链条。",
+          "tags": [
+            "原油",
+            "美债",
+            "中期选举",
+            "AI资本开支",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜11月2日美股收盘",
+              "url": "https://www.reuters.com/business/media-telecom/wall-street-futures-rise-ai-stocks-catch-their-breath-midterms-focus-2026-11-02/"
+            },
+            {
+              "title": "Reuters｜11月2日原油结算与调停进展",
+              "url": "https://www.reuters.com/business/energy/oil-slips-more-than-1-talks-continue-ending-iran-war-2026-11-01/"
+            },
+            {
+              "title": "Reuters｜11月2日收盘跨资产综述",
+              "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-11-02/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-02-pm-2",
+          "category": "macro",
+          "title": "财政部：本季净借款估算6180亿美元，小幅下调不代表赤字改善",
+          "status": "11月2日官方融资估算；未来季度借款及现金余额是预测",
+          "importance": "高",
+          "body": [
+            "财政部预计2026年第四季度私人持有净可交易债务融资6180亿美元，比8月估算少100亿美元，假设年末现金余额8500亿美元。主要原因是期初现金高于预期；剔除该现金因素，本季借款估算反而比8月高240亿美元。",
+            "2027年第一季度预计借款8000亿美元，假设3月底现金余额1万亿美元。11月4日08:30 ET（05:30 PST）将公布季度再融资细节。以上是净融资口径，不是总拍卖额，也不等于同季度财政赤字。"
+          ],
+          "whyImportant": "表面借款额下降来自现金缓冲，并不证明收入、支出或长期债务轨迹改善。对市场更关键的还包括期限结构和私人部门需要吸收多少久期。",
+          "investmentImpact": "分析：财政/发债压力→投资者吸收久期→期限溢价→长端利率→科技估值与融资成本；并非借款越大收益率必然同比例上升。观察11月4日长短债发行安排、回购、拍卖承接及TGA变化；TGA下降可能释放现金，但实际流动性效果还取决于买方资金来源与Fed操作，不能直接等同于股票净流入。",
+          "tags": [
+            "美国财政",
+            "国债发行",
+            "TGA",
+            "期限溢价",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "美国财政部｜11月2日市场化借款估算",
+              "url": "https://home.treasury.gov/news/press-releases/sb0675"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-02-pm-3",
+          "category": "ai",
+          "title": "补充早报遗漏：Anthropic今日S-1/A披露第三季收入169.56亿美元",
+          "status": "11月2日招股书修订披露；早报前已提交，本期补充，非今晚新发布",
+          "importance": "高",
+          "body": [
+            "Anthropic修订招股书披露第三季度收入169.56亿美元，第二季115.55亿美元；第三季经营亏损5.67亿美元，第二季经营利润9.74亿美元。第三季调整后经营利润24.63亿美元、调整后经营利润率15%，与GAAP经营利润口径不同。",
+            "文件将经营转亏主要归因于50亿美元短期算力费用及约20亿美元非现金捐赠配比费用，不能将全部经营亏损当作现金流出。封面发行价区间仍空白、拟用代码ANT；该文件没有据此确定正式上市日或发行估值。"
+          ],
+          "whyImportant": "收入持续扩张与算力成本压力同时得到正式文件验证。它补足了早报遗漏的重要AI财务信息，但不是上市公司例行财报，也不能把调整后盈利当成GAAP净盈利。",
+          "investmentImpact": "分析：模型使用增长→算力需求→云与芯片采购，但昂贵短期算力可能挤压模型商回报。对NVDA、云厂商及NBIS/CRWV，核对实际合同、回款和融资承受力，不能将Anthropic收入直接换算为各供应商订单。IPO观察注册生效、定价和首日交易公告，不使用传闻日期给股票估值。",
+          "tags": [
+            "Anthropic",
+            "IPO",
+            "AI算力",
+            "NVDA",
+            "NBIS",
+            "CRWV"
+          ],
+          "sources": [
+            {
+              "title": "SEC｜Anthropic 11月2日S-1/A：季度业绩、调整项及发行封面",
+              "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-02-pm-4",
+          "category": "ai",
+          "title": "Apple：本季收入增长，假日季毛利率指引受存储成本挤压",
+          "status": "11月2日盘后正式财报；下一季毛利率与服务增速为管理层预测",
+          "importance": "高",
+          "body": [
+            "Apple公布2026财年第四季度收入约1145亿美元、同比增12%，稀释EPS 2.10美元、同比增14%。毛利率47.9%包含关税退款约1个百分点的有利影响，EPS包含退款贡献0.05美元；不可将这部分视为稳定经营改善。",
+            "Reuters转述电话会：12月季度毛利率预计45%—46%，服务收入增速预计8%—9%；管理层预计存储成本延续上升至明年。指引尚未实现，前后季比较也应考虑退款因素。"
+          ],
+          "whyImportant": "存储涨价对上游供应商可能有利，对终端厂商却形成成本压力。收入强劲并不保证利润率同步上升，AI云端服务还需要经济可持续的变现。",
+          "investmentImpact": "分析：AI/服务器竞争存储供给→终端BOM成本上升→提价、产品组合或毛利率调整。MU、SK Hynix、Samsung及SNDK须按具体DRAM/NAND产品验证，不能把Apple成本压力全算成某一家收入；AAPL看提价后需求、服务变现和供应保障，而非只看收入超过预期。",
+          "tags": [
+            "AAPL",
+            "存储价格",
+            "MU",
+            "SNDK",
+            "AI变现",
+            "利润率"
+          ],
+          "sources": [
+            {
+              "title": "Apple｜11月2日第四季度正式业绩",
+              "url": "https://images.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/"
+            },
+            {
+              "title": "Reuters｜Apple电话会毛利率与存储成本展望",
+              "url": "https://www.reuters.com/business/retail-consumer/apple-results-beat-wall-street-expectations-on-strong-iphone-sales-2026-11-02/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-02-pm-5",
+          "category": "semi",
+          "title": "ON财报已公布：AI数据中心收入环比增39%，下一季仍须看整体兑现",
+          "status": "11月2日13:10 PST正式发布；从早报待公布推进为已披露",
+          "importance": "高",
+          "body": [
+            "onsemi第三季度收入约17.22亿美元、同比增11%；GAAP EPS 0.79美元、非GAAP EPS 0.90美元；非GAAP毛利率41.2%。公司称AI数据中心收入环比增39%、同比增175%；公告未在该表述中给出该业务绝对收入，不能用增速推算集团占比。",
+            "第四季度收入指引17.15亿—18.15亿美元，非GAAP毛利率41.5%—43.5%、EPS 0.95—1.07美元。季度自由现金流4.89亿美元是本期公司披露指标，未来利润率改善仍需实际结果验证。"
+          ],
+          "whyImportant": "提供了AI供电需求向模拟/功率半导体收入传导的公司级证据；集团表现仍取决于其他终端市场，不能只用AI高增速代表全部业务。",
+          "investmentImpact": "分析：AI功耗上升→供电器件需求/单机价值增加→收入与产能利用率→利润；观察AI业务绝对规模、产品结构、汽车与工业订单、毛利率和现金回收。与ADI及其他模拟厂比较时统一产品与会计口径，不能把ON的工业收入整体当成机器人收入。",
+          "tags": [
+            "ON",
+            "AI数据中心",
+            "功率半导体",
+            "财报",
+            "现金流"
+          ],
+          "sources": [
+            {
+              "title": "onsemi｜11月2日16:10 EST第三季业绩公告",
+              "url": "https://onsemi.gcs-web.com/news-releases/news-release-details/onsemi-reports-third-quarter-2026-results"
+            },
+            {
+              "title": "SEC｜onsemi第三季财报附件及第四季指引",
+              "url": "https://www.sec.gov/Archives/edgar/data/1097864/000114036126041580/ef20084671_ex99-1.htm"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-02-pm-6",
+          "category": "semi",
+          "title": "ON拟以6亿美元收购Ferric，将AI供电延伸到处理器附近",
+          "status": "11月2日签署协议；预计2026年底完成，尚有交割条件",
+          "importance": "高",
+          "body": [
+            "onsemi拟支付6亿美元现金收购Ferric，另有最高1.75亿美元现金与收入里程碑挂钩；拟以现有现金支付。Ferric的集成稳压器IVR将控制器、FET、电感、电容集成，面向更靠近处理器的供电。",
+            "公司将2030年AI数据中心收入目标上调5亿美元至超过30亿美元，同时明确预计该交易近期没有重大财务影响。2030目标是远期预测，不是新增当期订单；新闻稿所称板面积减少50%—70%也不是整机能耗同幅下降。"
+          ],
+          "whyImportant": "AI供电瓶颈不仅在电网和机架，也在处理器附近的电源转换、功率密度和瞬态响应；交易体现供电价值链向更紧密集成演进。",
+          "investmentImpact": "分析：未来1–12个月重点看交割、设计导入、制造良率和可量化客户收益。不能把板面积缩减直接当作tokens/watt或毛利率提升，也不能将远期收入目标提前计入盈利；观察相对离散供电方案的总成本与可靠性。",
+          "tags": [
+            "ON",
+            "Ferric",
+            "IVR",
+            "AI供电",
+            "并购",
+            "硬件经济性"
+          ],
+          "sources": [
+            {
+              "title": "onsemi｜11月2日Ferric交易条款及IVR技术公告",
+              "url": "https://www.onsemi.com/company/newsroom/news-and-insights/onsemi-to-acquire-ferric-establishing-leadership-in-power-delivery-for-next-generation-ai-processors"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-02-pm-7",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：本窗口无合格实质新增",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "Figure与Physical Intelligence可读取新闻/研究页未给出本窗口新增可比的zero-shot泛化、跨本体迁移、触觉/力控精细操作、数据效率、接管率、uptime、硬件单位经济性或真实付费deployment/design win。",
+            "ON新增AI供电并购属于数据中心链，不能改写为机器人设计导入；普通现场展示也不等于付费部署或持续可靠运行。"
+          ],
+          "whyImportant": "机器人投资判断需要任务、工况与人工介入条件可比的证据，不能由AI芯片需求或演示曝光度替代商业验证。",
+          "investmentImpact": "观察清单：付费订单与复购、跨任务/跨本体成功率分布、接管次数/小时、有效作业时长；执行器、手、传感器、电池和减速器的成本及寿命。NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Gemini Robotics、PI、Nabtesco、Harmonic Drive、THK、Nidec均不据本窗口信息上调机器人盈利。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "可靠性",
+            "硬件经济性",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜新闻跟踪入口，非新增部署证据",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜研究跟踪入口，非新增指标证据",
+              "url": "https://www.pi.website/blog"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-02-am",
       "date": "2026-11-02",
       "period": "am",
