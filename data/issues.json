@@ -4,6 +4,170 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-03-pm",
+      "date": "2026-11-03",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-03T19:00:00-08:00",
+      "summary": "AMD第四季收入指引高于预期，盘后上涨，但毛利率指引和客户认股权证值得跟踪。美股收盘上涨后，选举夜科技期货走弱；Meta债券发行提供了AI扩张如何融资的新证据。机器人补充Agility合并获股东批准，暂无合格运营新指标。",
+      "cards": [
+        {
+          "id": "2026-11-03-pm-1",
+          "category": "macro",
+          "title": "宏观 / 市场环境：纳指收高，选举夜期货转弱",
+          "status": "11月3日美股收盘及选举夜快照；部分席位已获媒体判定，国会控制权仍待确认",
+          "importance": "高",
+          "body": [
+            "标普500收涨0.36%，纳指涨0.83%，道指跌0.38%；Reuters收盘综述报10年期美债收益率4.948%、美元兑日元158.70。选举夜，AP判定民主党Roy Cooper翻转北卡参议院席位、Jon Ossoff在佐治亚连任。",
+            "Reuters随后报道标普500期货跌0.8%、纳指期货跌1.8%，10年期美债收益率报4.906%，美元指数跌0.32%至101.39。期货、债汇为报道快照，不是下一交易日收盘，也不能证明选举是唯一驱动。"
+          ],
+          "whyImportant": "收益率下行与科技期货走弱并存，说明折现率之外，财政支持、AI监管和风险偏好的变化也会影响估值。",
+          "investmentImpact": "观察国会控制权及实际法案、预算和贸易措施；席位变化不直接改变关税或出口限制。11月4日重点看财政部再融资的期限结构：长债供给增加可能抬高期限溢价。日元报价不能证明日本资金回流；仍需JGB、对冲成本和资金流佐证。本窗口未核实新的美国CPI/PPI/PCE、工资、Fed决定或点阵图，也不以国债报价推算信用利差。",
+          "tags": [
+            "中期选举",
+            "美债",
+            "美元",
+            "JGB",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜11月3日收盘",
+              "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-03/"
+            },
+            {
+              "title": "AP｜参议院席位判定",
+              "url": "https://apnews.com/article/midterm-election-house-senate-democrats-republicans-trump-f126e12e05b579a327b98481c0ae2226"
+            },
+            {
+              "title": "Reuters｜选举夜跨资产快照",
+              "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-04/"
+            },
+            {
+              "title": "美国财政部｜再融资公告日程",
+              "url": "https://home.treasury.gov/news/press-releases/sb0675"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-03-pm-2",
+          "category": "semi",
+          "title": "AMD：收入越过旧指引上限，第四季指引推动盘后上涨",
+          "status": "11月3日正式财报；下一季为管理层指引，盘后涨幅为Reuters快照",
+          "importance": "高",
+          "body": [
+            "第三季收入133.77亿美元，同比增45%，高于早报所列旧指引上限133亿美元；数据中心收入约85.5亿美元、同比增97%，由Instinct GPU和EPYC CPU共同推动。非GAAP EPS为2.09美元，毛利率56%。",
+            "第四季收入指引170亿美元±3%，中值高于Reuters引述的LSEG共识162.3亿美元；非GAAP毛利率指引约55%，低于第三季。Reuters报道AMD盘后一度涨约8%。",
+            "Reuters据公司披露报道，OpenAI和Meta客户认股权证在第三季带来10.7亿美元非现金会计费用。潜在股份稀释取决于归属与行权条件；费用不等于当季现金流出。"
+          ],
+          "whyImportant": "这次更强的信号是下一季收入，而非仅仅超过旧指引。数据中心高增长验证AMD交付能力改善，但该分部也包含CPU，不能把增量全算给GPU。",
+          "investmentImpact": "未来1–12个月看Helios和Venice爬坡、客户验收、实际回款及毛利率。对NVDA，这是替代供应商扩张的证据，尚不足以推定份额流失；对存储和互连链，订单受益取决于真实机架交付。估值要同时计入客户激励、可能稀释与现金回报。",
+          "tags": [
+            "AMD",
+            "NVDA",
+            "Instinct",
+            "EPYC",
+            "Helios",
+            "毛利率"
+          ],
+          "sources": [
+            {
+              "title": "AMD｜第三季业绩和第四季指引",
+              "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results"
+            },
+            {
+              "title": "Reuters｜市场预期与盘后反应",
+              "url": "https://www.reuters.com/business/amd-forecasts-quarterly-revenue-above-estimates-data-center-growth-accelerates-2026-11-03/"
+            },
+            {
+              "title": "Reuters｜客户认股权证费用",
+              "url": "https://www.reuters.com/legal/transactional/amds-openai-meta-chip-deals-trigger-1-billion-quarterly-charge-2026-11-04/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-03-pm-3",
+          "category": "ai",
+          "title": "Meta筹集150亿美元债券资金，AI扩张继续使用外部融资",
+          "status": "11月3日债券发行披露；募集资金规模不等于新增资本开支",
+          "importance": "高",
+          "body": [
+            "Reuters援引监管文件：Meta通过五档美元债融资150亿美元。其中2031年到期档为32.5亿美元、票息5.85%，2033年到期档同为32.5亿美元、票息6.25%。"
+          ],
+          "whyImportant": "即使短期自由现金流承压，发债仍能支持长期项目；代价是更高的固定利息负担。票息也不是相对同期限美债的信用利差。",
+          "investmentImpact": "观察债券发行收益率、利息覆盖、AI项目利用率与经营现金流。融资能力支持采购，但不能把募集额直接换算成AMD或NVDA订单。与NBIS、CRWV比较时，还要看客户集中度、债务到期分布和可持续回款。",
+          "tags": [
+            "META",
+            "AI资本开支",
+            "公司债",
+            "融资成本",
+            "现金流"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Meta五档美元债发行",
+              "url": "https://www.reuters.com/technology/meta-raises-15-billion-in-five-part-us-bond-sale-2026-11-03/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-03-pm-4",
+          "category": "macro",
+          "title": "Brent结算103.60美元，供应恢复仍待验证",
+          "status": "11月3日结算更新；停战和海峡恢复通航尚未确认",
+          "importance": "中",
+          "body": [
+            "Brent收于103.60美元/桶，较上日跌1.12%；相较早报，新增是结算价。Reuters报道市场同时权衡和平谈判前景与近期袭击可能带来的供应中断。"
+          ],
+          "whyImportant": "油价续跌只能说明市场重新定价，不能当作霍尔木兹通航恢复的证据。",
+          "investmentImpact": "冲突或运输中断→油气和运费→通胀→利率与科技估值。跟踪实际装船、航运保险和天然气独立报价；原油跌幅不能直接套到天然气或数据中心购电成本。",
+          "tags": [
+            "Brent",
+            "伊朗",
+            "霍尔木兹",
+            "通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜11月3日原油结算",
+              "url": "https://www.reuters.com/markets/commodities/oil-rises-after-report-us-strike-irans-qeshm-island-2026-11-03/"
+            },
+            {
+              "title": "Reuters｜收盘报价与涨跌幅",
+              "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-03/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-03-pm-5",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：补充Agility上市进展，尚无合格运营新指标",
+          "status": "补充11月2日未收录的股东表决；交割和挂牌仍是预期",
+          "importance": "中",
+          "body": [
+            "SEC公告附件显示，Churchill XI股东已批准与Agility Robotics合并。公司预计11月4日交割、11月5日以AGLT挂牌，仍须满足交割条件。预计总融资约4.65亿美元，为费用前口径，包含此前已收到的1亿美元。",
+            "本窗口未核实到可比的零样本泛化、跨本体迁移、触觉/力控、训练数据效率、接管率、有效运行时间、硬件单位成本或付费部署新指标。"
+          ],
+          "whyImportant": "投票通过降低一项交易执行风险，未来若挂牌可提供公开估值参照；资金来源和实际可收费作业量是两回事。",
+          "investmentImpact": "观察交割及净到手资金、付费客户复购、接管次数/小时、有效工时和每有效工时成本；再核对执行器、灵巧手、传感器、电池及减速器成本与寿命。不据融资或挂牌预期上调零部件供应商盈利。",
+          "tags": [
+            "Agility Robotics",
+            "AGLT",
+            "Physical AI",
+            "融资",
+            "部署可靠性"
+          ],
+          "sources": [
+            {
+              "title": "SEC｜11月2日合并获股东批准及融资口径",
+              "url": "https://www.sec.gov/Archives/edgar/data/2074973/000121390026115034/ea031051701ex99-1.htm"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-03-am",
       "date": "2026-11-03",
       "period": "am",
