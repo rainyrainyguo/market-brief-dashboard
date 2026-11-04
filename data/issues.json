@@ -4,6 +4,170 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-04-am",
+      "date": "2026-11-04",
+      "period": "am",
+      "time": "08:05",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-04T08:05:00-08:00",
+      "summary": "民主党赢得国会两院，美股早盘反弹，部分数据中心股逆势走弱。财政部公布再融资期限结构；ADP就业仍增，但ISM服务业新订单扩张放缓。日本光刻材料出现潜在并购报道，机器人暂无可验证的新运营指标。",
+      "cards": [
+        {
+          "id": "2026-11-04-am-1",
+          "category": "macro",
+          "title": "宏观 / 市场环境：民主党赢得两院，大盘反弹但数据中心股分化",
+          "status": "11月4日早盘；AP已判定两院控制权，行情非收盘",
+          "importance": "高",
+          "body": [
+            "AP判定民主党赢得众议院和参议院。Reuters在09:46 ET记录道指涨2.30%、标普500涨1.72%、纳指涨2.13%，与昨晚期货走弱不同。该报道同时指出，IREN、HUT、APLD和CORZ承压，长端美债收益率走低、美元对多数货币走弱。"
+          ],
+          "whyImportant": "选举结果减少了席位归属的不确定性，但市场对科技平台和数据中心项目的政策风险定价不同。",
+          "investmentImpact": "观察预算、税收、关税与AI监管的实际文本，以及地方电力和用地审批。更严格的审查若延迟上电，会推迟设备验收与收入确认；目前没有证据可把股价波动直接换算成订单取消。日元或美债走势也不足以确认日本资金回流，仍需JGB、对冲成本和资金流佐证。",
+          "tags": [
+            "中期选举",
+            "AI监管",
+            "数据中心",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "AP｜两院控制权判定",
+              "url": "https://apnews.com/article/midterm-election-house-senate-democrats-republicans-trump-f126e12e05b579a327b98481c0ae2226"
+            },
+            {
+              "title": "Reuters｜美股早盘与数据中心股表现",
+              "url": "https://www.reuters.com/business/us-stock-index-futures-steady-democrats-seize-congress-2026-11-04/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-04-am-2",
+          "category": "macro",
+          "title": "美国财政部公布1250亿美元再融资，基准票息债拍卖规模暂不扩张",
+          "status": "11月4日财政部公告；拍卖尚未进行",
+          "importance": "高",
+          "body": [
+            "计划发行3年期580亿美元、10年期420亿美元、30年期250亿美元，覆盖约970亿美元到期债，净筹约280亿美元。拍卖分别在11月9日、10日、12日进行。财政部预计未来数季维持名义票息债和浮息债拍卖规模，季节性融资变化主要通过短票和现金管理票据处理。"
+          ],
+          "whyImportant": "新增是期限结构和拍卖安排；1250亿美元为发行总额，与季度净借款和财政赤字口径不同。",
+          "investmentImpact": "长债供给与承接能力会影响期限溢价、长端利率及科技估值。拍卖规模暂稳减轻立即扩量的风险，但不代表赤字改善。观察10年及30年拍卖需求、信用利差和实际资金流，不从早盘收益率倒推期限溢价。",
+          "tags": [
+            "美国财政",
+            "美债",
+            "期限溢价",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "美国财政部｜季度再融资声明",
+              "url": "https://home.treasury.gov/news/press-releases/sb0678/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-04-am-3",
+          "category": "macro",
+          "title": "美国私人就业增加8.6万，服务业扩张但价格压力仍广",
+          "status": "11月4日ADP与ISM正式发布；分别为私人就业估计及调查指数",
+          "importance": "高",
+          "body": [
+            "ADP报10月私人就业增加8.6万，基本工资同比涨3.2%，总薪酬涨4.7%。ISM服务业PMI由54.9降至54.5，新订单由59.8降至55.9，价格指数由74降至73。"
+          ],
+          "whyImportant": "就业仍有韧性，服务业新订单扩张放缓，价格上涨仍普遍。价格指数73不表示价格涨73%；ADP也不是官方非农。",
+          "investmentImpact": "若工资与投入成本持续偏强，Fed宽松空间可能受限，高估值科技仍要靠盈利兑现。本期没有新的CPI、PPI、PCE、Fed决定或点阵图；用官方就业和通胀数据验证，不把两份报告直接换算为加息概率。",
+          "tags": [
+            "ADP",
+            "ISM",
+            "工资",
+            "服务业",
+            "Fed"
+          ],
+          "sources": [
+            {
+              "title": "ADP｜10月就业报告",
+              "url": "https://www.prnewswire.com/news-releases/adp-national-employment-report-private-sector-employment-increased-by-86-000-jobs-in-october-302929216.html"
+            },
+            {
+              "title": "ISM｜10月服务业报告",
+              "url": "https://www.prnewswire.com/news-releases/services-pmi-at-54-5-october-2026-ism-services-pmi-report-302928112.html"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-04-am-4",
+          "category": "semi",
+          "title": "日本光刻材料：JIC据报拟向三井化学出售JSR",
+          "status": "隔夜Reuters报道，援引知情人士；尚未确认签约或交割",
+          "importance": "中",
+          "body": [
+            "Reuters称交易估值可能超过1.3万亿日元，三井化学股价在报道后下跌约13%。潜在买方与估值是新增报道，不能视为双方已签协议。"
+          ],
+          "whyImportant": "如果交易落地，可能改变日本光刻胶供应链的资本配置和三井化学的融资负担。",
+          "investmentImpact": "看正式条款、融资结构、监管审批与客户认证；仅凭拟议交易不调整晶圆厂出货或材料供给预测。",
+          "tags": [
+            "JSR",
+            "三井化学",
+            "光刻胶",
+            "日本"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜JSR潜在交易",
+              "url": "https://www.reuters.com/world/asia-pacific/japan-fund-jic-plans-sell-jsr-mitsui-chemicals-sources-say-2026-11-04/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-04-am-5",
+          "category": "macro",
+          "title": "Brent盘中跌至100.40美元；通航恢复仍未确认",
+          "status": "11月4日06:17 PST报价；非结算价",
+          "importance": "中",
+          "body": [
+            "Reuters报Brent期货100.40美元/桶、跌3.09%，WTI报93.08美元、跌3.13%。相较昨晚，新增是油价进一步回落；卡塔尔仍在斡旋，尚未确认停战或霍尔木兹恢复正常通航。"
+          ],
+          "whyImportant": "能源风险溢价回落可缓解通胀担忧，但盘中价格不能证明供给已经恢复。",
+          "investmentImpact": "冲突或通航中断→油气与运费→通胀→美债利率和科技估值。继续观察装船和保险费；本期未核实可比天然气新报价，不用油价推算天然气或数据中心购电成本。",
+          "tags": [
+            "伊朗",
+            "霍尔木兹",
+            "Brent",
+            "WTI"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜原油盘中报价与谈判",
+              "url": "https://www.reuters.com/business/energy/oil-edges-down-investors-await-us-midterm-election-results-2026-11-04/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-04-am-6",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：暂无可验证的新运营指标",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "未核实新增零样本泛化、跨本体迁移、触觉/力控、数据效率、接管率、有效运行时间、部件单位成本或付费部署指标。Agility仍以已公告的拟交割安排为准，本期未核实交割完成。"
+          ],
+          "whyImportant": "挂牌或融资不说明机器人已能在客户现场稳定、低成本地完成任务。",
+          "investmentImpact": "观察真实付费订单和复购、跨任务成功率、每小时接管次数、有效工时，以及执行器、灵巧手、传感器、电池和减速器的成本及寿命。",
+          "tags": [
+            "Physical AI",
+            "付费部署",
+            "可靠性",
+            "硬件经济性"
+          ],
+          "sources": [
+            {
+              "title": "SEC｜Agility先前交割安排，仅作跟踪",
+              "url": "https://www.sec.gov/Archives/edgar/data/2074973/000121390026115034/ea031051701ex99-1.htm"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-03-pm",
       "date": "2026-11-03",
       "period": "pm",
