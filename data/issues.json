@@ -4,6 +4,162 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-05-am",
+      "date": "2026-11-05",
+      "period": "am",
+      "time": "08:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-05T08:00:00-08:00",
+      "summary": "芯片与算力租赁股早盘续跌，NBIS、CRWV承压；美国生产率改善，但Fed官员仍倾向加息。新增风险来自H200进口审批、霍尔木兹袭击报道与ABB机器人交易受阻。昨晚财报及Agility交割不重复列为新增。",
+      "cards": [
+        {
+          "category": "macro",
+          "title": "宏观 / 市场环境：芯片跌势扩大，NBIS与CRWV同步承压",
+          "status": "11月5日06:57 PST早盘快照；非收盘；政策影响为分析",
+          "importance": "高",
+          "body": [
+            "Reuters在09:57 ET记录纳指跌3.09%、标普500跌1.66%，费城半导体指数跌7.1%。NBIS跌13.4%、CRWV跌9.3%，高通跌约9%。新增是今早价格反应，不是重复昨晚财报。",
+            "报道将部分抛售与市场担忧选举后AI建设受到更多审查联系起来；这属于风险预期，尚不能证明已有新监管生效或具体订单取消。"
+          ],
+          "whyImportant": "昨晚大科技上涨未能稳定今早芯片与算力租赁股。对依赖融资、持续建设和大客户采购的企业，项目兑现风险可能压过利率下降带来的估值支持。",
+          "investmentImpact": "分析：审批或上电延迟→交付、租金与回款推迟→融资需求和股权稀释风险。NBIS、CRWV重点看已签合同的供电、验收、融资条件与现金回收，不把股价跌幅当成收入降幅。本窗口未核实可比的JGB、日元对冲后资金回流、信用利差或资金流新数据，不能据单一股债价格判断全球流动性。",
+          "tags": [
+            "NBIS",
+            "CRWV",
+            "SOX",
+            "AI基础设施",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜11月5日美股早盘",
+              "url": "https://www.reuters.com/business/sp-500-futures-steady-after-midterm-rally-nasdaq-lags-chip-weakness-2026-11-05/"
+            }
+          ],
+          "id": "2026-11-05-am-1"
+        },
+        {
+          "category": "macro",
+          "title": "生产率改善、初请下降；通胀缓和信号与加息倾向并存",
+          "status": "11月5日官方数据；Hammack为个人政策观点，非Fed新决定",
+          "importance": "高",
+          "body": [
+            "BLS公布第三季非农商业劳动生产率环比折年增3.6%，产出增3.7%、工时增0.1%；单位劳动成本环比折年降0.7%，但同比仍涨2.4%。折年增速不是三个月实际增长3.6%，成本下降也不代表员工工资下降。",
+            "劳工部报截至10月31日当周初请18.9万人，比修订后的前周减少6000；截至10月24日当周续请171.8万人，增加2.3万人。两项统计对应不同周。Reuters报道Hammack今早仍主张通过较小、较频繁的加息达到限制性立场。"
+          ],
+          "whyImportant": "产出增长快于工时，意味着每小时产出提高，可缓和每单位产品的工资成本；初请低显示裁员压力有限，续请上升则值得跟踪再就业难度。组合更接近供给效率改善、就业仍有韧性，不能单凭此认定衰退或通胀已经解决。",
+          "investmentImpact": "分析：生产率提升→单位成本压力减轻→有助利润率和通胀；但能源、需求及通胀预期仍可能使利率保持较高。宏观生产率不能证明增量全部来自AI。观察11月6日05:30 PST官方非农、工资和失业率；11月10日CPI及11月13日PPI均05:30 PST公布，数据尚未发生。高估值科技须同时验证盈利与折现率。",
+          "tags": [
+            "生产率",
+            "单位劳动成本",
+            "初请失业金",
+            "Fed",
+            "非农观察"
+          ],
+          "sources": [
+            {
+              "title": "BLS｜第三季生产率初值",
+              "url": "https://www.bls.gov/news.release/prod2.nr0.htm"
+            },
+            {
+              "title": "美国劳工部｜11月5日失业救济周报",
+              "url": "https://www.dol.gov/ui/data.pdf"
+            },
+            {
+              "title": "Reuters｜Hammack加息观点",
+              "url": "https://www.reuters.com/business/feds-hammack-favors-gradual-rate-hike-path-lower-inflation-2026-11-05/"
+            },
+            {
+              "title": "BLS｜11月官方日程",
+              "url": "https://www.bls.gov/schedule/2026/11_sched_list.htm"
+            }
+          ],
+          "id": "2026-11-05-am-2"
+        },
+        {
+          "category": "semi",
+          "title": "Nvidia据报约60万颗H200积存在香港，进口审批限制变现",
+          "status": "11月5日Reuters独家；匿名信源，相关公司及部门未回应",
+          "importance": "高",
+          "body": [
+            "Reuters援引两名知情人士称，约60万颗H200存放香港等待进入中国内地，大规模进口尚未获批；此前仅有部分小批量进入。报道时Nvidia及相关中国主管部门未回应。新增是库存规模披露，不是今天刚宣布的一项禁令。"
+          ],
+          "whyImportant": "芯片可供货、客户有需求与能够获得进口批准是三件事。硬件需求强不保证按期转化为可确认收入和现金回款。",
+          "investmentImpact": "分析：审批延迟→交付及客户部署受阻→收入时点和资本周转不确定。对NVDA中国业务应分情景处理；不能用60万颗乘零售价直接计算收入损失，也不能确认库存所有权、减值或订单取消。国产替代的机会仍需性能、软件迁移、交付与付费验证。",
+          "tags": [
+            "NVDA",
+            "H200",
+            "中国",
+            "进口审批",
+            "收入兑现"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜H200香港库存与审批",
+              "url": "https://www.reuters.com/world/china/nvidia-chips-pile-up-hong-kong-china-withholds-import-approval-2026-11-05/"
+            }
+          ],
+          "id": "2026-11-05-am-3"
+        },
+        {
+          "category": "macro",
+          "title": "原油转涨，霍尔木兹新增袭击报道削弱和平交易的确定性",
+          "status": "11月5日06:17 PST油价；袭击细节为伊朗方面说法，非独立确认",
+          "importance": "高",
+          "body": [
+            "Reuters报14:17 GMT，Brent期货97.56美元/桶、涨3.11%，WTI89.85美元、涨1.96%，为盘中报价。相较昨晚大跌，今早转为反弹。",
+            "Reuters另报伊朗方面称霍尔木兹又有三艘油轮受损；个别触雷及起火细节来自伊朗革命卫队说法。本期未核实停战协议或海峡恢复正常通航。"
+          ],
+          "whyImportant": "能源风险仍随外交与航运消息快速重定价。选举后的缓和预期不能替代实际装船、保险和通航证据。",
+          "investmentImpact": "分析：航运遇袭/供应受阻→油气与运费→通胀预期→美债利率→科技估值。若油价持续反弹，昨晚能源下跌的估值支持可能减弱；但收益率也受增长和避险需求影响。本期未核实可比天然气新报价，不把油价涨幅套用于气价或数据中心购电成本。财政发债与期限溢价仍需结合拍卖需求观察，不能把全部利率变化归因于战争。",
+          "tags": [
+            "原油",
+            "伊朗",
+            "霍尔木兹",
+            "通胀",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜11月5日油价盘中",
+              "url": "https://www.reuters.com/business/energy/oil-falls-fourth-day-expectations-lower-risk-iran-war-escalation-2026-11-05/"
+            },
+            {
+              "title": "Reuters｜油轮袭击报道与信源限定",
+              "url": "https://www.reuters.com/world/middle-east/tankers-hit-hormuz-iran-keeps-up-pressure-after-us-vote-2026-11-05/"
+            }
+          ],
+          "id": "2026-11-05-am-4"
+        },
+        {
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：ABB确认中国业务收购被禁止，软银交易受阻",
+          "status": "11月5日ABB正式公告；双方仍在沟通，未宣布整个交易终止",
+          "importance": "高",
+          "body": [
+            "ABB公告称，软银告知其：中国外商投资安全审查工作机制办公室已禁止收购ABB机器人在中国的业务。原协议企业价值53.75亿美元，双方仍就交易保持沟通、寻求推进。不能将中国业务的禁止决定写成双方已宣布整个交易解除。",
+            "本窗口未核实重点公司新增可比的零样本泛化、跨本体迁移、触觉/力控、数据效率、人工接管率、uptime或部件成本改善；昨晚Agility交割及累计工时不重复作为新增运营证据。"
+          ],
+          "whyImportant": "机器人投资风险已包含跨境资产、技术与监管执行风险；收购工业机器人平台与AI能力结合的资本路径可能延后。交易受阻本身不说明终端机器人需求下降。",
+          "investmentImpact": "分析／观察清单：核对替代交易结构、审批、交割时点与实际净资金；对软银、ABB及Nabtesco、Harmonic Drive、THK、Nidec供应链，不据并购标题直接调整销量。技术与商业判断仍看真实付费复购、按任务统计成功率、每小时接管次数、有效工时和执行器、手、传感器、电池、减速器的成本及寿命。",
+          "tags": [
+            "Physical AI",
+            "ABB",
+            "软银",
+            "监管审批",
+            "机器人经济性"
+          ],
+          "sources": [
+            {
+              "title": "ABB｜机器人业务出售进展",
+              "url": "https://www.abb.com/global/en/news/140154/update-on-divestment-of-abb-robotics"
+            }
+          ],
+          "id": "2026-11-05-am-5"
+        }
+      ]
+    },
+    {
       "id": "2026-11-04-pm",
       "date": "2026-11-04",
       "period": "pm",
