@@ -4,6 +4,148 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-04-pm",
+      "date": "2026-11-04",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-04T19:00:00-08:00",
+      "summary": "大科技与半导体收盘分化：纳指涨约1.4%，费城半导体指数跌3.1%。Arm数据中心版税翻倍，高通手机芯片承压；原油跌幅扩大，Agility确认完成交割。",
+      "cards": [
+        {
+          "id": "2026-11-04-pm-1",
+          "category": "macro",
+          "title": "宏观 / 市场环境：大科技上涨、芯片下跌，利率回落未带动全产业链",
+          "status": "11月4日收盘及跨资产报价；政策传导为分析",
+          "importance": "高",
+          "body": [
+            "标普500涨约1.6%、纳指涨约1.4%、道指涨约3.0%，费城半导体指数跌3.1%。微软涨6.7%、亚马逊涨6.1%；HUT跌23%、IREN跌11%。AMD收涨约1%，明显低于昨晚报道的盘后涨幅。",
+            "Reuters跨资产综述报10年期美债收益率约4.88%，下跌约6.6个基点，美元走弱。相较早报，新增是收盘分化和利率报价；没有据此核实新的关税、AI监管或数据中心审批规则。"
+          ],
+          "whyImportant": "折现率下降可以支持大盘估值，但芯片和数据中心项目还取决于实际建设节奏、融资和客户回款。一日分化不足以判定半导体周期结束。",
+          "investmentImpact": "观察上电和交付是否推迟、信用利差是否扩大、盈利预测是否下修。财政发债要通过久期供给与需求影响期限溢价；日本收益率要结合汇率对冲成本和实际资金流，才能判断是否出现回流。本窗口未核实新增CPI/PPI/PCE、官方就业工资、Fed决定或点阵图，也不从债汇价格推算资金流。",
+          "tags": [
+            "SOX",
+            "大科技",
+            "数据中心",
+            "美债",
+            "政策风险"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美股及半导体收盘",
+              "url": "https://www.reuters.com/business/us-stock-index-futures-steady-democrats-seize-congress-2026-11-04/"
+            },
+            {
+              "title": "Reuters｜债汇与全球市场",
+              "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-04/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-04-pm-2",
+          "category": "semi",
+          "title": "Arm授权收入增50%，数据中心版税同比翻倍",
+          "status": "11月4日正式财报；未来市场份额和产品收入属公司预期",
+          "importance": "高",
+          "body": [
+            "Arm第二财季收入14.4亿美元，同比增27%；授权及其他收入7.73亿美元，同比增50%；版税收入6.70亿美元，其中数据中心版税同比翻倍。公司对2027及2028财年合计最多20亿美元Arm AGI CPU收入的信心提高。"
+          ],
+          "whyImportant": "授权收入可以先于量产入账；数据中心版税翻倍则是已经发生的收入变化，两者对应不同的兑现阶段。",
+          "investmentImpact": "看设计导入、实际出货和每颗芯片版税；Arm数据中心增长不能直接推导AMD或Intel的份额损失。自研CPU收入目标仍需供货和客户验收，不能直接并入当前收入。",
+          "tags": [
+            "ARM",
+            "服务器CPU",
+            "授权",
+            "版税"
+          ],
+          "sources": [
+            {
+              "title": "Arm｜第二财季正式披露",
+              "url": "https://newsroom.arm.com/news/arm-q2-fye27-results"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-04-pm-3",
+          "category": "semi",
+          "title": "高通手机芯片收入降26%，数据中心增长仍在爬坡",
+          "status": "11月4日正式财报；下季指引与数据中心目标尚未兑现",
+          "importance": "高",
+          "body": [
+            "第四财季手机芯片收入51.4亿美元，同比降26%。高通预计下一季总收入104亿至112亿美元，并维持2027财年数据中心收入50亿美元目标。Reuters报道股价盘后一度跌逾6%。"
+          ],
+          "whyImportant": "新业务的成长预期尚不足以抵消市场对手机收入和利润率的担忧；看总收入指引也要看业务构成。",
+          "investmentImpact": "跟踪手机客户与产品组合、汽车和物联网增长，以及数据中心客户交付和毛利率。50亿美元目标不是当期收入或无条件订单。",
+          "tags": [
+            "QCOM",
+            "手机芯片",
+            "数据中心",
+            "指引"
+          ],
+          "sources": [
+            {
+              "title": "高通｜第四财季财报",
+              "url": "https://investor.qualcomm.com/files/content_files/FY2026-4th-Quarter-Earnings-Release.pdf"
+            },
+            {
+              "title": "Reuters｜分部收入与盘后反应",
+              "url": "https://www.reuters.com/business/media-telecom/qualcomm-forecasts-upbeat-sales-strength-non-smartphone-segments-2026-11-04/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-04-pm-4",
+          "category": "macro",
+          "title": "Brent结算跌破95美元，市场押注战争缓和",
+          "status": "11月4日结算；政策预期并非停战协议",
+          "importance": "中",
+          "body": [
+            "Brent结算94.62美元/桶，跌8.7%；WTI结算88.12美元/桶，跌8.3%。相较早报，跌幅扩大。Reuters报道市场押注美国可能调整对伊朗战争的立场；本期未核实停战或霍尔木兹正常通航。"
+          ],
+          "whyImportant": "油价下跌有助缓和短期通胀压力，但实际供给和政治预期仍可能背离。",
+          "investmentImpact": "若能源价格持续下行，可能经通胀预期压低名义利率，缓解科技估值压力；战争升级则可能逆转。观察装船、运费和天然气独立报价，本期未核实可比气价变动。",
+          "tags": [
+            "原油",
+            "伊朗",
+            "霍尔木兹",
+            "通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜油价结算和地缘背景",
+              "url": "https://www.reuters.com/business/energy/oil-edges-down-investors-await-us-midterm-election-results-2026-11-04/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-04-pm-5",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：Agility完成交割，现场作业累计逾6.5万小时",
+          "status": "11月4日公司确认交割；11月5日挂牌和2027年部署仍是预期",
+          "importance": "中",
+          "body": [
+            "Agility确认与Churchill XI完成合并，普通股预计11月5日以AGLT交易。公司在交割公告披露，Digit真实环境累计运行逾6.5万小时；GXO已扩展协议，拟于2027年初在另外两处美国设施部署，另有AGCO商业试点拟于2027年启动。公告未说明所有运行小时均收费，也未披露扩展合同金额。"
+          ],
+          "whyImportant": "交割完成是相较早报的新增。客户扩展协议和累计工时比演示更有参考价值，但累计工时不是单机可用率，也不说明任务全程无人接管。",
+          "investmentImpact": "观察新增站点验收、付费和复购，要求披露按任务与单机计算的有效工时、接管率及每有效工时成本。本窗口未核实可比的零样本泛化、跨本体迁移、触觉/力控、数据效率或零部件成本改善。",
+          "tags": [
+            "Agility",
+            "AGLT",
+            "Digit",
+            "GXO",
+            "真实部署"
+          ],
+          "sources": [
+            {
+              "title": "Agility｜交割公告与运营披露",
+              "url": "https://www.agilityrobotics.com/content/agility-robotics-and-churchill-capital-corp-xi-complete-business-combination"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-04-am",
       "date": "2026-11-04",
       "period": "am",
