@@ -4,6 +4,206 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-06-am",
+      "date": "2026-11-06",
+      "period": "am",
+      "time": "08:10",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-06T08:10:00-08:00",
+      "summary": "非农新增16.5万人、前两月上修8.4万人，支持经济韧性，也推高市场加息预期。芯片早盘反弹尚不足以确认触底；补充Lam回购、德州数据中心表态及Anthropic IPO估值分歧。油价仍震荡，机器人无合格运营新增。",
+      "cards": [
+        {
+          "category": "macro",
+          "title": "宏观 / 市场环境：非农显著高于预期，韧性与加息压力并存",
+          "status": "11月6日05:30 PST官方数据；加息概率为市场定价，非Fed决定",
+          "importance": "高",
+          "body": [
+            "BLS公布10月非农新增16.5万人；Reuters调查预期6.5万人。失业率4.1%，劳动参与率61.9%；平均时薪环比涨0.4%、同比涨3.1%。8月、9月合计上修8.4万人，其中9月从2.9万修至6万。",
+            "就业并非全面强劲：因经济原因只能兼职的人数增加33.9万至480万。Reuters在数据后报道，市场所计12月加息概率约78%，此前约70%；这是可变的交易预期，不是官方预测或已经加息。"
+          ],
+          "whyImportant": "新增岗位和历史上修削弱近期就业骤冷的判断，但兼职增加提示内部仍有压力。经济能承受较高利率与科技股估值能承受较高利率是不同问题；强就业不必然利好所有股票。",
+          "investmentImpact": "分析：就业/工资偏强→需求与通胀黏性风险→Fed维持或提高利率的空间→高估值科技折现率压力。同比工资不能与环比数据混比，也不能在10月CPI发布前精确推算当月实际工资。观察11月10日CPI、11月13日PPI，均05:30 PST；本期没有新的PCE、Fed利率决定或点阵图。",
+          "tags": [
+            "非农",
+            "工资",
+            "Fed",
+            "加息预期",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "BLS｜10月就业正式报告",
+              "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm"
+            },
+            {
+              "title": "Reuters｜非农与市场预期",
+              "url": "https://www.investing.com/news/economic-indicators/us-job-growth-beats-expectations-in-october-unemployment-rate-falls-to-41-5008194"
+            },
+            {
+              "title": "Reuters｜数据后利率定价及盘前行情",
+              "url": "https://ca.marketscreener.com/news/nasdaq-eyes-higher-open-as-chips-pare-losses-rate-hike-fears-linger-ce785fd2db88f62d"
+            },
+            {
+              "title": "BLS｜后续发布日期",
+              "url": "https://www.bls.gov/schedule/2026/11_sched_list.htm"
+            }
+          ],
+          "id": "2026-11-06-am-1"
+        },
+        {
+          "category": "semi",
+          "title": "芯片早盘反弹；补充Lam新增250亿美元回购授权",
+          "status": "11月6日07:21 PST市场快照，非收盘；回购公告为11月5日补充",
+          "importance": "高",
+          "body": [
+            "Reuters在10:21 ET记录纳指涨1.73%、标普500涨约1%，费城半导体指数涨4.6%、NVDA涨5.6%。相较昨晚，新增是价格反弹，不是订单和融资风险已解除。",
+            "补充昨晚未收录的Lam正式公告：董事会新增最高250亿美元回购授权，补充此前剩余额度；没有截止日期，可暂停或取消，不要求实际买入任何金额。同时宣布每股0.33美元季度股息，2026年12月2日登记、2027年1月6日支付。"
+          ],
+          "whyImportant": "反弹与公司资本回报可支持风险偏好，但回购授权不等于已经投入250亿美元，也不证明晶圆设备需求突然上修。",
+          "investmentImpact": "分析：看回购实际执行、自由现金流、客户资本开支及存储/先进封装设备订单。LRCX与NVDA反弹不能单独确认SOXX已经触底；观察上涨广度、成交、后续低点和信用利差是否同步改善。即使价格跌后反弹，原来的融资和项目交付问题仍需逐项核实。",
+          "tags": [
+            "LRCX",
+            "NVDA",
+            "SOXX",
+            "半导体设备",
+            "回购",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜11月6日早盘反弹",
+              "url": "https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/"
+            },
+            {
+              "title": "Lam｜回购授权与股息正式公告",
+              "url": "https://investor.lamresearch.com/2026-11-05-Lam-Research-Corporation-Announces-25-Billion-Share-Repurchase-Authorization-and-Declares-Quarterly-Dividend"
+            }
+          ],
+          "id": "2026-11-06-am-2"
+        },
+        {
+          "category": "macro",
+          "title": "德州候任州长强调先保护居民，再推进数据中心",
+          "status": "补充11月5日CNN采访；政治表态，非新增已生效禁令",
+          "importance": "高",
+          "body": [
+            "Reuters报道，候任州长Gina Hinojosa称，在保护德州居民的规则到位前，应停止目前的数据中心推进方式，并让社区参与决定。她同时表示并非反对数据中心本身。新增是采访中的表态，不是11月6日签署新法。",
+            "报道也指出，现任共和党州长Abbott此前已暂停部分新数据中心并网并要求审计。不能把既有审计、候任者政策承诺和将来立法合并成“今天全国禁止数据中心”。"
+          ],
+          "whyImportant": "政策风险更具体地指向电力、水、社区保护与审批条件。存量运行容量、已获许可项目和新增扩建受到的影响可能不同。",
+          "investmentImpact": "分析：审批/并网要求变化→建设与验收时点→租赁收入和设备订单兑现→融资成本。对IREN、CRWV、NBIS和德州设备、电力供应链逐个核对项目地点、许可与合同条件；也要观察保护条款能否提高合规项目长期可持续性。本窗口未核实新的联邦关税、财政法案或机器人监管生效文本。",
+          "tags": [
+            "德州",
+            "数据中心",
+            "并网",
+            "IREN",
+            "CRWV",
+            "NBIS",
+            "政策风险"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜候任州长采访与既有审计背景",
+              "url": "https://www.reuters.com/world/us/texas-governor-elect-says-state-will-have-laws-shield-citizens-data-centers-2026-11-06/"
+            }
+          ],
+          "id": "2026-11-06-am-3"
+        },
+        {
+          "category": "ai",
+          "title": "Anthropic IPO估值与时间出现分歧，尚非已宣布延期",
+          "status": "补充11月5日晚Reuters及WSJ报道；匿名投资者意见，非公司定价公告",
+          "importance": "高",
+          "body": [
+            "Reuters引述四名知情人士称，潜在投资者质疑Anthropic能否按原先预期于11月9日当周路演、随后定价，并要求更有吸引力的估值；Anthropic拒绝评论这些疑虑。讨论中的1.5万亿美元估值不是最终发行估值。",
+            "WSJ另报10月底年化收入运行率超过800亿美元。这是媒体报道的run-rate，既非2026全年已实现收入，也不能与累计亏损直接相抵。本期没有据此确认上市日、发行价或公司正式宣布延期。"
+          ],
+          "whyImportant": "模型公司收入增长与投资者压低估值要求可以同时发生。公开市场要求的资本回报、融资规模和现金消耗，会影响整个AI资本开支链的风险偏好。",
+          "investmentImpact": "分析：发行估值/募集额下降或时间后移→可用资本与扩张缓冲改变→潜在算力采购节奏。但尚不能据投资者意见认定现有云合同取消；对AMZN、GOOGL、NVDA、CRWV、NBIS应核对承诺、预付款和实际履约。观察正式修订招股书与公司公告，避免用传闻日期交易。",
+          "tags": [
+            "Anthropic",
+            "IPO",
+            "AI收入",
+            "估值",
+            "融资",
+            "算力采购"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜IPO时点与投资者分歧",
+              "url": "https://www.reuters.com/world/ai-backlash-could-threaten-anthropic-ipo-timing-potential-investors-say-2026-11-05/"
+            },
+            {
+              "title": "WSJ｜估值分歧及收入运行率报道",
+              "url": "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b"
+            }
+          ],
+          "id": "2026-11-06-am-4"
+        },
+        {
+          "category": "macro",
+          "title": "原油震荡，价格缓和与航运安全仍是两条线",
+          "status": "11月6日05:46 PST盘中报价；非周收盘，停战尚未核实",
+          "importance": "中",
+          "body": [
+            "Reuters报13:46 GMT，Brent次年1月合约98.55美元/桶、涨约0.3%，WTI91.09美元、涨约0.6%。报道显示当日先涨后跌再回升，不能把隔夜某个报价当作整日方向。",
+            "本窗口未核实可执行停战或霍尔木兹恢复正常通航；昨日已报道袭击不重复算新事件。本期不以连续合约的周跌幅直接推算实际供给恢复程度。"
+          ],
+          "whyImportant": "能源风险溢价可以下降，同时运输风险继续存在。对科技估值有帮助的是持续通胀缓和，不能只看一时油价。",
+          "investmentImpact": "分析：战争→油气/运费→通胀→美债收益率→科技估值，仍受增长和避险因素共同影响。财政/发债→期限溢价需看拍卖承接；日本JGB/日元→回流需看对冲与资金流。本窗口未核实可比天然气、期限溢价、JGB及信用利差新数值，不用昨日数据冒充今早变化。",
+          "tags": [
+            "原油",
+            "伊朗",
+            "霍尔木兹",
+            "通胀",
+            "期限溢价",
+            "全球流动性"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜11月6日油价盘中",
+              "url": "https://www.marketscreener.com/news/oil-set-for-sharp-weekly-drop-but-middle-east-supply-concerns-provide-floor-ce785fdddf88f722"
+            }
+          ],
+          "id": "2026-11-06-am-5"
+        },
+        {
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：无合格运营新增，不以转载充当突破",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本窗口未核实重点公司新增可比的零样本泛化、跨本体迁移、触觉/力控、数据效率、接管率、uptime、部件单位经济性或真实付费部署指标。Agility挂牌和ABB审批事件没有新增运营结论。",
+            "Figure与PI官方可读页面未提供本窗口合格新指标；检索出现Liber-0相关转载，但可读公司新闻稿事件日期为11月3日，不将其当作11月6日新突破，也不将“未用目标任务示范”解释为完全未用机器人训练数据。"
+          ],
+          "whyImportant": "新转载日期、融资或上市都不能替代客户现场可复现的成功率、人工介入与成本数据。没有新证据时维持判断比填充演示更有用。",
+          "investmentImpact": "分析／观察清单：继续看付费复购、跨任务和跨本体成功率、每小时接管次数、有效工时，以及执行器、手、传感器、电池和减速器成本与寿命。不据本窗口转载上调NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Gemini Robotics、PI或日本零部件厂盈利。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "数据效率",
+            "部署可靠性",
+            "硬件经济性"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方进展入口",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方研究入口",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "LiberAI｜原公司稿日期及定义（去重）",
+              "url": "https://www.financialcontent.com/article/accwirecq-2026-11-4-liberai-introduces-liber-0-for-zero-shot-robot-manipulation"
+            }
+          ],
+          "id": "2026-11-06-am-6"
+        }
+      ]
+    },
+    {
       "id": "2026-11-05-pm",
       "date": "2026-11-05",
       "period": "pm",
