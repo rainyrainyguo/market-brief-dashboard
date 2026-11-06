@@ -4,6 +4,184 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-05-pm",
+      "date": "2026-11-05",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-05T19:00:00-08:00",
+      "summary": "半导体收跌12.2%，纳指跌5.5%，CRWV信用风险定价同步恶化。IREN盘后披露收入增长、交付目标延后及后续融资需求；Cloudflare和Airbnb显示应用层仍有增长与降本证据。油价反弹至结算，机器人补充Agility挂牌确认。",
+      "cards": [
+        {
+          "category": "macro",
+          "title": "宏观 / 市场环境：半导体收跌12.2%，股价与信用风险同步承压",
+          "status": "11月5日收盘与债汇快照；选举后的监管变化仍以实际文件为准",
+          "importance": "高",
+          "body": [
+            "纳指收跌5.5%、标普500跌4.4%、道指跌3.4%；费城半导体指数跌12.2%，NVDA跌约9.3%。相较早报，新增是收盘跌幅扩大。Reuters另一篇收盘报道列AMD跌约17%、NBIS约15%、CRWV约10%。",
+            "Reuters引述S&P Global Market Intelligence数据，CRWV五年期CDS利差达纪录1267.9个基点，Intel为149.7个基点。跨资产综述报10年期美债收益率约4.835%、下行5.73个基点，美元对欧元略强。CDS是违约保护的市场价格，不是已发生违约，也不能直接当贷款利率。"
+          ],
+          "whyImportant": "美债收益率下降未挡住科技股下跌，且部分企业信用保护成本上升。压力不只来自折现率，还涉及建设节奏、融资和盈利兑现；这不等于已经证实整个半导体行业订单坍塌。",
+          "investmentImpact": "分析：地方审批或上电延迟→验收/收入推迟→利息与再融资压力→估值折价。选举结果本身不等于全国数据中心禁建令，需逐州逐项目查实际规则。财政赤字/发债→久期供给→期限溢价仍须结合拍卖需求；日元/JGB→资金回流须结合对冲成本和实际流量，本窗口未核实这些指标的合格新增。明早11月6日05:30 PST非农、工资和失业率尚待公布，不能预先当作加息或衰退定论。",
+          "tags": [
+            "SOX",
+            "NVDA",
+            "AMD",
+            "NBIS",
+            "CRWV",
+            "信用利差",
+            "美债"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜全球收盘与债汇（CNA转载）",
+              "url": "https://www.channelnewsasia.com/business/deep-chip-selloff-drags-global-stocks-lower-ai-spending-concerns-6526136"
+            },
+            {
+              "title": "Reuters｜科技股收盘与CDS数据",
+              "url": "https://www.marketscreener.com/news/ai-data-center-stocks-slip-as-democratic-sweep-clouds-expansion-plans-ce785fdcd08af52c"
+            },
+            {
+              "title": "BLS｜非农发布日程",
+              "url": "https://www.bls.gov/schedule/2026/11_sched_list.htm"
+            }
+          ],
+          "id": "2026-11-05-pm-1"
+        },
+        {
+          "category": "ai",
+          "title": "IREN：AI云收入增至2亿美元，但40亿美元ARR目标延后",
+          "status": "11月5日盘后正式财报；未来ARR、交付和资金安排含条件",
+          "importance": "高",
+          "body": [
+            "第一财季总收入2.28亿美元，AI云收入2亿美元、环比增182%；净亏损2.63亿美元。公司称超过40亿美元ARR目标已签约且获资金支持，但因客户设计变更及供应商时点，从年末推至2027年1月，可能延至2月底。ARR是年化收入运行率目标，不是本季收入。",
+            "公司预计本财年剩余资本开支150亿美元，其中90亿美元来自现金、已承诺GPU融资及预付款；另60亿美元仍是融资/预付款等目标，受市场条件影响。“已获资金支持”只覆盖支撑40亿美元ARR的项目，且有提款等条件，不能扩大为全部扩建已融资。披露的86% AI云分部毛利率排除折旧摊销及场地层面成本，不能视作GAAP净利率。"
+          ],
+          "whyImportant": "需求和收入增长与交付延后可以同时发生。该财报给出具体项目时点与资金缺口，较笼统的AI需求判断更能影响未来1–12个月估值。",
+          "investmentImpact": "分析：交付延后→收入/回款后移→固定成本及融资压力。重点看2027年1—2月实际验收、提款条件和60亿美元后续资金来源；对NVDA及其他设备供应商，要区分已签约、已融资、已交付。盘后披露不能倒过来解释当天收盘前全部跌幅，也不能直接外推为NBIS、CRWV同样延迟。",
+          "tags": [
+            "IREN",
+            "AI云",
+            "ARR",
+            "资本开支",
+            "融资条件",
+            "交付"
+          ],
+          "sources": [
+            {
+              "title": "IREN｜Q1 FY27财报及口径附注",
+              "url": "https://iren.gcs-web.com/news-releases/news-release-details/iren-reports-q1-fy27-results"
+            }
+          ],
+          "id": "2026-11-05-pm-2"
+        },
+        {
+          "category": "ai",
+          "title": "Cloudflare收入增39%，增长加速仍需观察毛利与现金转换",
+          "status": "11月5日盘后正式财报；第四季为公司指引",
+          "importance": "高",
+          "body": [
+            "第三季收入7.825亿美元、同比增39%，未来12个月内预计确认的剩余履约义务（Current RPO）同比增37%。GAAP毛利率71.2%，低于上年74.0%；GAAP经营亏损6790万美元，非GAAP经营利润1.371亿美元。",
+            "自由现金流8210万美元、收入占比约10%，上年为13%。第四季收入指引8.45亿—8.46亿美元，属于预期，不是已实现销售。"
+          ],
+          "whyImportant": "收入与近端合同指标仍增长，但收入加速没有同步变成更高的GAAP毛利率或自由现金流率。AI和网络安全产品的商业价值要由利润及现金流共同验证。",
+          "investmentImpact": "分析：观察RPO转收入、推理/网络资源成本、毛利率与股权薪酬调整。非GAAP利润改善不能替代GAAP和自由现金流；也不能把Cloudflare总增长全部归为AI收入，或直接换算为GPU采购增速。",
+          "tags": [
+            "NET",
+            "Cloudflare",
+            "企业AI",
+            "网络安全",
+            "毛利率",
+            "现金流"
+          ],
+          "sources": [
+            {
+              "title": "Cloudflare｜第三季正式财报",
+              "url": "https://www.cloudflare.com/press/press-releases/2026/cloudflare-announces-third-quarter-2026-financial-results/"
+            }
+          ],
+          "id": "2026-11-05-pm-3"
+        },
+        {
+          "category": "ai",
+          "title": "Airbnb披露AI客服降本：约40%问题无需人工，单笔预订支持成本降逾17%",
+          "status": "11月5日正式业绩披露；指标来自公司，因果归因为管理层判断",
+          "importance": "中",
+          "body": [
+            "第三季收入49亿美元、同比增19%，预订晚数及座位数增长16%。公司披露，约40%的全部客服问题无需人工解决，第二季约三分之一；每笔预订客服成本同比下降超过17%，公司认为主要得益于AI助手。",
+            "第四季收入指引32.2亿—32.8亿美元，并新增最高120亿美元回购授权。授权不是已完成回购；客服降本也不证明所有使用场景均有同等效果。"
+          ],
+          "whyImportant": "这是AI应用经济性较具体的证据：不仅有产品推出，还有处理占比和单位业务成本变化。它与基础设施融资压力可以并存，不能互相替代。",
+          "investmentImpact": "分析：AI解决更多问题→单位客服成本下降→潜在利润改善；还需看重开工单、满意度、退款/投诉及模型成本。对ABNB观察增长与成本改善能否持续；对其他平台只能作为验证路径，不能照搬降本幅度。",
+          "tags": [
+            "ABNB",
+            "AI客服",
+            "应用变现",
+            "单位成本",
+            "回购"
+          ],
+          "sources": [
+            {
+              "title": "Airbnb｜第三季业绩与AI客服指标",
+              "url": "https://news.airbnb.com/airbnb-q3-2026-financial-results"
+            }
+          ],
+          "id": "2026-11-05-pm-4"
+        },
+        {
+          "category": "macro",
+          "title": "Brent结算98.29美元，航运风险继续支撑反弹",
+          "status": "11月5日结算更新；通航与停战尚未核实",
+          "importance": "中",
+          "body": [
+            "Brent结算98.29美元/桶、涨3.88%；WTI结算90.52美元、涨2.72%。相较早报，新增是最终结算。Reuters引述UKMTO称，自周日以来至少五艘船报告事件；不能把伊朗方面对个别袭击的叙述全部当独立核实。"
+          ],
+          "whyImportant": "今早反弹延续到结算，市场仍要求能源供应风险溢价；外交预期尚未转化为可靠交付。",
+          "investmentImpact": "分析：战争/运输中断→油气与运费→通胀→利率及科技估值。但今日美债收益率仍下降，说明避险、增长等因素共同作用，不能机械推定油涨必然债息涨。本窗口未核实可比天然气新报价，也未出现新的CPI/PPI/PCE或Fed决定，不以油价代替这些数据。",
+          "tags": [
+            "Brent",
+            "WTI",
+            "霍尔木兹",
+            "地缘政治",
+            "通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜原油结算与航运风险",
+              "url": "https://www.reuters.com/business/energy/oil-falls-fourth-day-expectations-lower-risk-iran-war-escalation-2026-11-05/"
+            }
+          ],
+          "id": "2026-11-05-pm-5"
+        },
+        {
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：补充Agility挂牌确认，未核实新运营突破",
+          "status": "补充11月5日公司公告；挂牌为融资进展，技术和运营无实质新增",
+          "importance": "中",
+          "body": [
+            "Agility当日公告确认以AGLT进入公开市场，并将合并及相关融资总额表述为约4.65亿美元费用前资金，包含交割前已收到的1亿美元。相较先前的预计融资，这是公司确认口径；不能把全部4.65亿美元当今天新增可用净现金。",
+            "公告所列累计工时、客户扩展及Digit 5技术目标不重新算作本窗口突破。本窗口未核实新的可比零样本泛化、跨本体迁移、触觉/力控、数据效率、接管率、uptime或部件单位经济性改善；今早ABB审批事件无新增结论。"
+          ],
+          "whyImportant": "公开融资增加可追踪性，但挂牌、设计产能与产品目标均不能证明已经实现可靠、低成本的客户现场作业。",
+          "investmentImpact": "分析／观察清单：后续看净到手资金、消耗速度、真实付费复购、任务成功率分布、接管次数/小时和有效工时成本，再看执行器、手、传感器、电池、减速器的成本与寿命。NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Gemini Robotics、PI及日本零部件公司不据普通演示或挂牌上调盈利。",
+          "tags": [
+            "Physical AI",
+            "Agility",
+            "AGLT",
+            "融资",
+            "部署可靠性"
+          ],
+          "sources": [
+            {
+              "title": "Agility｜11月5日挂牌及融资公告",
+              "url": "https://www.agilityrobotics.com/content/agility-becomes-first-u-s-publicly-listed-pure-play-humanoid-robotics-company-begins-trading-today-on-nasdaq-as-aglt"
+            }
+          ],
+          "id": "2026-11-05-pm-6"
+        }
+      ]
+    },
+    {
       "id": "2026-11-05-am",
       "date": "2026-11-05",
       "period": "am",
