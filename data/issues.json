@@ -4,6 +4,184 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-07-am",
+      "date": "2026-11-07",
+      "period": "am",
+      "time": "08:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-07T08:00:00-08:00",
+      "summary": "隔夜最重要的新增是美方设立伊朗运输工作组，同时卡塔尔称调停仍在继续。补录 OpenAI 首批融资报道，并跟进台积电对 3D DRAM 报道的回应。下周二关注 CPI、10 年期美债拍卖和 CoreWeave 财报；机器人暂无可改变投资判断的新增。",
+      "cards": [
+        {
+          "category": "macro",
+          "title": "宏观 / 市场环境：美国设伊朗运输工作组，卡塔尔称调停继续",
+          "status": "11月7日美方宣布设组；卡塔尔总理表态于美西11月6日晚见报",
+          "importance": "高",
+          "body": [
+            "美国中央司令部宣布成立 Iron Gate 工作组，拟协调美国多个机构，阻止先进武器、军民两用技术及受制裁物资经伊朗陆地边境和里海流转。公告未说明具体执法手段，也未宣布全面封锁陆路贸易。",
+            "卡塔尔总理称，美伊调停仍在继续；他认为美国在中期选举后仍愿寻求解决方案。这是调停方的判断，本期未核实双方达成停火或恢复正常通航。"
+          ],
+          "whyImportant": "执行范围和通航是否变化，比宣布成立工作组更能影响实际能源供应。观察霍尔木兹通行量、装船与保险报价，再判断风险是否已从新闻传到成本。",
+          "investmentImpact": "若航运进一步受阻，原油和区域 LNG 供应风险上升，可能抬升通胀预期和美债收益率，压缩高估值科技的估值；若通航恢复，可能反向传导。本期未核实新的可比油气结算、美债期限溢价、JGB/日元、美元、信用利差或资金流数据，也未核实新的美国关税或财政政策生效。",
+          "tags": [
+            "伊朗",
+            "霍尔木兹",
+            "原油",
+            "LNG",
+            "美债",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "美国中央司令部｜工作组声明",
+              "url": "https://x.com/CENTCOM/status/2119059918120526182"
+            },
+            {
+              "title": "CBS News｜工作组范围与执行限制",
+              "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/#post-update-1b9366ff"
+            },
+            {
+              "title": "Reuters｜卡塔尔调停表态",
+              "url": "https://www.reuters.com/world/middle-east/qatar-says-its-mediation-efforts-between-us-iran-continue-prevent-escalation-2026-11-07/"
+            }
+          ],
+          "id": "2026-11-07-am-1"
+        },
+        {
+          "category": "ai",
+          "title": "AI / 科技：OpenAI 据报完成首批 110 亿美元融资",
+          "status": "补充上期未收录的11月6日报道；消息人士说法，未取得公司确认",
+          "importance": "高",
+          "body": [
+            "Reuters 援引知情人士称，OpenAI 以 1.25 万亿美元估值完成本轮首批 110 亿美元融资。投资人称，公司先前寻求的估值为 1.5 万亿美元、募资目标最高 300 亿美元；首批规模不能视为整轮最终规模。",
+            "Anthropic 方面，本窗口未核实最终发行价或挂牌日；上期路演报道没有足以改写判断的新进展。"
+          ],
+          "whyImportant": "若报道属实，OpenAI 已取得一部分资金，但较低的估值和分批融资提示：市场对 AI 扩张的承销能力，仍要看后续资金是否兑现。",
+          "investmentImpact": "观察后续交割与新增算力合同的付款条款、机房验收和回款。对 NVDA、CRWV、NBIS，私人融资估值不能直接换算成新增订单、收入或上市公司估值。",
+          "tags": [
+            "OpenAI",
+            "Anthropic",
+            "AI融资",
+            "NVDA",
+            "CRWV",
+            "NBIS"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜OpenAI 首批融资与估值",
+              "url": "https://www.reuters.com/business/openai-secures-11-billion-funding-125-trillion-valuation-bloomberg-news-reports-2026-11-06/"
+            }
+          ],
+          "id": "2026-11-07-am-2"
+        },
+        {
+          "category": "semi",
+          "title": "半导体：台积电回应 3D DRAM 报道，未确认量产项目",
+          "status": "11月6日媒体报道，11月7日见报的公司回应；无量产承诺",
+          "importance": "中",
+          "body": [
+            "The Information 11月6日报道称，台积电正应英伟达要求评估 3D DRAM。Tom’s Hardware 11月7日刊出的台积电发言人回应强调逻辑晶圆代工本业，未确认项目、产线或量产时间。"
+          ],
+          "whyImportant": "报道所指 3D DRAM 是垂直堆叠存储单元，与现有 HBM 堆叠多片 DRAM 裸片是不同层次的技术。若能商业化，英伟达可能多一种内存供给选项。",
+          "investmentImpact": "未来 1–12 个月重点看样品、客户验证、良率和资本开支。现有证据不足以推断 HBM 供应即将增加，也不足以调低美光、SK 海力士或三星的近期出货预期。",
+          "tags": [
+            "TSM",
+            "NVDA",
+            "MU",
+            "SK海力士",
+            "三星",
+            "3D DRAM",
+            "HBM"
+          ],
+          "sources": [
+            {
+              "title": "The Information｜原始报道",
+              "url": "https://www.theinformation.com/articles/tsmc-weighs-making-advanced-memory-chips-capture-ai-spending"
+            },
+            {
+              "title": "Reuters｜报道转述与技术背景",
+              "url": "https://www.reuters.com/world/asia-pacific/tsmc-considers-making-advanced-memory-chips-information-reports-2026-11-06/"
+            },
+            {
+              "title": "Tom’s Hardware｜台积电发言人回应",
+              "url": "https://www.tomshardware.com/pc-components/dram/tsmc-denies-exploring-3d-dram-at-nvidias-request-advanced-memory-tech-is-still-years-from-market-viability"
+            }
+          ],
+          "id": "2026-11-07-am-3"
+        },
+        {
+          "category": "macro",
+          "title": "下周观察清单：11月10日集中检验利率与AI融资",
+          "status": "官方日程，事件尚未发生；以下为美西时间",
+          "importance": "高",
+          "body": [
+            "11月9日 10:00 拍卖 580 亿美元 3 年期美债；11月10日 05:30 公布 10 月 CPI，10:00 拍卖 420 亿美元 10 年期美债，14:00 CoreWeave 举行三季度财报电话会。",
+            "11月12日 10:00 拍卖 250 亿美元 30 年期美债；11月13日 05:30 公布 10 月 PPI。"
+          ],
+          "whyImportant": "CPI 意外主要影响 Fed 利率预期；长债拍卖若明显弱于拍卖前交易水平，可能反映供给消化压力，推高期限溢价。单次拍卖不能独立证明期限溢价变化。",
+          "investmentImpact": "看 2 年期与 10/30 年期收益率如何分化，并用信用利差验证风险偏好。日本方面，若 JGB 收益率上升，还需日元、汇率对冲成本与跨境资金流共同验证是否有资金回流。CRWV 重点看资本开支、融资成本、交付和回款；这些比合同总额更能判断增长能否转成现金。",
+          "tags": [
+            "CPI",
+            "PPI",
+            "Fed",
+            "美债拍卖",
+            "期限溢价",
+            "JGB",
+            "CRWV"
+          ],
+          "sources": [
+            {
+              "title": "美国劳工统计局｜11月数据日历",
+              "url": "https://www.bls.gov/schedule/2026/11_sched_list.htm"
+            },
+            {
+              "title": "美国财政部｜季度再融资与拍卖安排",
+              "url": "https://home.treasury.gov/news/press-releases/sb0678/"
+            },
+            {
+              "title": "CoreWeave｜三季度财报电话会",
+              "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-Date-of-Third-Quarter-2026-Financial-Results-and-Conference-Call/default.aspx"
+            }
+          ],
+          "id": "2026-11-07-am-4"
+        },
+        {
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：未核实可改变投资判断的新增",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本窗口未核实零样本泛化、跨本体迁移、触觉与力控精细操作、训练数据效率、接管率与实际可用率、硬件成本，或付费部署和设计定点方面有可比的新增证据。"
+          ],
+          "whyImportant": "单次演示无法回答客户能否持续使用，也无法判断客户的单位作业成本是否下降。",
+          "investmentImpact": "继续观察同口径任务成功率、达到同等成功率所需数据量、每小时人工接管次数、有效工时成本、执行器和灵巧手等部件的成本与寿命，以及客户确认的付费扩单。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "跨本体",
+            "接管率",
+            "硬件成本",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方进展",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方研究",
+              "url": "https://www.pi.website/"
+            },
+            {
+              "title": "Google DeepMind｜官方进展",
+              "url": "https://deepmind.google/blog/"
+            }
+          ],
+          "id": "2026-11-07-am-5"
+        }
+      ]
+    },
+    {
       "id": "2026-11-06-pm",
       "date": "2026-11-06",
       "period": "pm",
