@@ -4,6 +4,165 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-06-pm",
+      "date": "2026-11-06",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-06T19:00:00-08:00",
+      "summary": "芯片收涨约4.2%，但按两日涨跌估算仍较周三低约8.5%，反弹未修复昨日损失。美元与美债收益率上行，消费者通胀预期回落；Anthropic新增报道指仍计划下周路演。原油接近平收，机器人无合格运营新增。",
+      "cards": [
+        {
+          "category": "macro",
+          "title": "宏观 / 市场环境：芯片反弹收盘确认，美元与债息同步走高",
+          "status": "11月6日美股收盘及债汇报价；两日损失为按四舍五入涨跌幅估算",
+          "importance": "高",
+          "body": [
+            "纳指收涨约1.1%、标普500涨0.32%、道指跌0.46%，费城半导体指数涨约4.2%、AMD涨约11%。相较早报，新增是收盘确认；纳指和标普涨幅低于早盘快照。纳指全周仍跌约3.4%，连续第四周下跌。",
+            "按昨日半导体指数跌12.2%、今日涨4.2%复合计算，两日仍约跌8.5%，只收复昨日约30%的点数损失；这不是把两个百分数直接相减。Reuters债汇快照报美元指数涨0.77%至102.26，10年期美债收益率约4.85%、2年期约4.52%，均高于前日。"
+          ],
+          "whyImportant": "股价反弹与融资成本压力可以并存。反弹幅度不足以确认产业订单、项目交付或信用风险已经反转；连续下跌后的单日上涨也不能独立证明触底。",
+          "investmentImpact": "分析：更高短端利率/美元→融资与海外收入折算压力；建设验收延迟→回款后移→高杠杆算力租赁估值承压。观察SOXX/芯片上涨能否伴随信用利差、成交承接和盈利预期改善，不把股价反弹当资金净流入证据。本窗口未核实新的可比CDS、JGB或期限溢价数值；财政发债与日本资金回流仍需拍卖、对冲成本及流量佐证。下周CPI、PPI是下一轮利率验证，今早非农数据不重复展开。",
+          "tags": [
+            "SOX",
+            "SOXX",
+            "AMD",
+            "美元",
+            "美债",
+            "信用风险",
+            "触底观察"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美股与芯片收盘",
+              "url": "https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/"
+            },
+            {
+              "title": "Reuters｜美元与美债报价",
+              "url": "https://www.reuters.com/world/asia-pacific/dollar-holds-yen-gains-equity-rout-saps-risk-appetite-ahead-payrolls-2026-11-06/"
+            },
+            {
+              "title": "Reuters｜前日半导体收盘基准（CNA转载）",
+              "url": "https://www.channelnewsasia.com/business/deep-chip-selloff-drags-global-stocks-lower-ai-spending-concerns-6526136"
+            }
+          ],
+          "id": "2026-11-06-pm-1"
+        },
+        {
+          "category": "macro",
+          "title": "消费者信心略回升、通胀预期下降；调查并未覆盖选举后行情",
+          "status": "11月6日密歇根11月初值；访谈为10月20日至11月2日",
+          "importance": "高",
+          "body": [
+            "密歇根大学消费者信心指数由48.0升至51.0；未来一年通胀预期从4.7%降至4.3%，长期预期从3.5%降至3.4%。这些是受访者预期，不是实际CPI。",
+            "调查访谈在11月2日结束，因此不能归因于11月3日选举结果或本周四暴跌。官方称，持股组合最大的群体信心下降5%，生活成本仍是更普遍的担忧；一年预期仍高于战争前2月的3.4%。"
+          ],
+          "whyImportant": "通胀预期缓和可减轻持续涨价的担忧，但绝对水平仍偏高，且家庭感受与今早较强的就业数据不是同一个统计对象。两者并存不矛盾。",
+          "investmentImpact": "分析：若通胀预期持续下降并被实际价格数据验证，可缓解Fed进一步紧缩压力；单次调查不足以抵消强就业或能源冲击。关注11月10日CPI、11月13日PPI及后续工资、消费数据，高估值科技仍需同时兑现盈利和现金流。",
+          "tags": [
+            "消费者信心",
+            "通胀预期",
+            "密歇根调查",
+            "Fed",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "密歇根大学｜11月初值与访谈日期",
+              "url": "https://www.sca.isr.umich.edu/"
+            }
+          ],
+          "id": "2026-11-06-pm-2"
+        },
+        {
+          "category": "ai",
+          "title": "Anthropic新增报道称仍计划下周路演，尚非最终发行确认",
+          "status": "11月6日媒体援引知情人士；非公司最终定价公告",
+          "importance": "高",
+          "body": [
+            "The Information于11月6日援引知情人士称，Anthropic仍计划下周进行IPO路演。Reuters亦转述该报道。相较早报的投资者疑虑，新增是继续推进路演的报道，不代表所有估值分歧已解决。",
+            "本期未取得公司最终发行价、正式挂牌日或已完成募资的确认；不把不同媒体估值区间当作已确定定价。"
+          ],
+          "whyImportant": "推进营销与最终成交是不同阶段。投资者是否愿意出资、以什么估值出资，才决定新资本能否支持后续算力支出。",
+          "investmentImpact": "分析：若完成融资，可增加扩张缓冲；若估值或融资规模变化，AI产业链风险偏好和增量采购预期可能调整。对AMZN、GOOGL、NVDA、CRWV、NBIS继续核对实际合同、预付款和履约，不据路演报道推定订单新增或取消。观察正式招股文件与公司公告。",
+          "tags": [
+            "Anthropic",
+            "IPO",
+            "AI融资",
+            "估值",
+            "算力采购"
+          ],
+          "sources": [
+            {
+              "title": "The Information｜路演推进报道",
+              "url": "https://www.theinformation.com/briefings/anthropic-proceed-ipo-roadshow-next-week"
+            },
+            {
+              "title": "Reuters｜转述The Information（TradingView）",
+              "url": "https://www.tradingview.com/news/reuters.com%2C2026%3Anewsml_FWN46N49G%3A0-anthropic-to-proceed-with-ipo-roadshow-next-week-the-information/"
+            }
+          ],
+          "id": "2026-11-06-pm-3"
+        },
+        {
+          "category": "macro",
+          "title": "原油接近平收，新增政治表态尚未变成停战安排",
+          "status": "11月6日结算；战争政策选择为政治表态，非已执行协议",
+          "importance": "中",
+          "body": [
+            "Brent结算98.32美元/桶、涨0.03%；WTI90.83美元、涨0.34%。相较早报，新增是最终结算，日内上涨未明显延续。",
+            "Reuters报道特朗普称将很快在推进和平协议与进一步打击伊朗之间作选择。本期未据此核实新的实际军事行动、停战或正常通航；昨日已报道的油轮事件不重复算新增。"
+          ],
+          "whyImportant": "油价收平不表示供应风险消失。实际装船、航运保险和外交执行，比政策表态更能改变能源成本和通胀路径。",
+          "investmentImpact": "分析：战争升级→油气/运费→通胀→利率→科技估值；缓和则可能反向传导。本期不使用受换月影响的连续合约周跌幅推断供给恢复，也未核实可比天然气新报价，不把原油走势直接套用于数据中心电价。",
+          "tags": [
+            "Brent",
+            "WTI",
+            "伊朗",
+            "霍尔木兹",
+            "通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜11月6日结算与地缘表态",
+              "url": "https://www.reuters.com/business/energy/oil-set-sharp-weekly-drop-middle-east-supply-concerns-provide-floor-2026-11-06/"
+            }
+          ],
+          "id": "2026-11-06-pm-4"
+        },
+        {
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：本窗口无合格实质新增",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本窗口未核实重点公司新增可比的零样本泛化、跨本体迁移、触觉/力控、robot-data efficiency、人工接管率、uptime、部件单位经济性或真实付费部署/design win指标。",
+            "Figure与Physical Intelligence可读取的官方页面未提供本窗口合格新指标；Agility挂牌、既有部署及融资报道不再重复列为突破。"
+          ],
+          "whyImportant": "模型或硬件投资判断需要可重复的作业结果和成本数据，不能由融资热度、上市或普通演示替代。",
+          "investmentImpact": "分析／观察清单：付费复购、跨任务/跨本体成功率、每小时接管次数、有效工时和每有效工时成本，以及执行器、灵巧手、传感器、电池、减速器的成本与寿命。没有新证据，不据本窗口转载上调NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Gemini Robotics、PI、Nabtesco、Harmonic Drive、THK或Nidec的机器人盈利预期。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "真实部署",
+            "可靠性",
+            "硬件经济性"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方进展入口",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方研究入口",
+              "url": "https://www.pi.website/blog"
+            }
+          ],
+          "id": "2026-11-06-pm-5"
+        }
+      ]
+    },
+    {
       "id": "2026-11-06-am",
       "date": "2026-11-06",
       "period": "am",
