@@ -4,6 +4,157 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-08-am",
+      "date": "2026-11-08",
+      "period": "am",
+      "time": "08:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-08T08:00:00-08:00",
+      "summary": "霍尔木兹新增第三艘油轮起火说法，尚未独立核实。Anthropic 据报锁定 34 亿美元燃气发电设备，电力仍是算力交付的关键变量。补充 800 V 直流试点和 Nebius 财报日程；机器人暂无合格新增。",
+      "cards": [
+        {
+          "category": "macro",
+          "title": "宏观 / 市场环境：霍尔木兹新增第三艘油轮起火说法",
+          "status": "11月8日报道；船只身份、受损程度及爆炸原因未独立核实",
+          "importance": "高",
+          "body": [
+            "Reuters 报道，伊朗半官方法尔斯通讯社称，霍尔木兹海峡第三艘油轮发生爆炸并起火。相较昨晚，两艘触雷的说法已经报道；新增是第三艘起火说法，不能写成第三艘也已确认触雷。",
+            "伊朗国家电视台称，伊南爆炸声可能与当地军事活动有关，未确认境内遭导弹袭击。本期未核实美方恢复大规模军事行动，也未核实停火或正常通航。"
+          ],
+          "whyImportant": "若船东缩减航次、保费上升或装船推迟，航运风险才会更直接地传到油气供给和成本。仅凭通报不能量化供应损失。",
+          "investmentImpact": "关注下一交易时段油气和运费。若供给受阻并推高能源价格，通胀预期和利率可能上行，给高估值科技施压；避险买债则可能压低长端收益率。本窗口未核实新的可比油气结算、美债收益率与期限溢价、JGB/日元、美元、信用利差或资金流，也未核实新公布的 CPI/PPI/PCE、就业、工资、Fed 决议或点阵图，以及选举后新生效的财政、关税或监管措施。发债压力看拍卖承接；日本资金是否回流看对冲成本和实际跨境流量。",
+          "tags": [
+            "霍尔木兹",
+            "伊朗",
+            "原油",
+            "LNG",
+            "美债",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜第三艘油轮起火说法与爆炸原因",
+              "url": "https://www.reuters.com/world/middle-east/iran-suggests-blasts-are-not-us-attacks-both-sides-report-ships-hit-2026-11-08/"
+            },
+            {
+              "title": "AFP｜伊方声明",
+              "url": "https://www.timesofisrael.com/liveblog_entry/iran-says-3-tankers-caught-fire-in-hormuz/"
+            }
+          ],
+          "id": "2026-11-08-am-1"
+        },
+        {
+          "category": "ai",
+          "title": "AI / 科技：Anthropic 据报以 34 亿美元锁定 1.7 GW 燃气发电设备",
+          "status": "11月8日首次见报；据报9月底达成，未取得双方确认",
+          "importance": "高",
+          "body": [
+            "《金融时报》报道，Anthropic 据报于 9 月底向 OnePWR Solutions 锁定约 1.7 GW 燃气发电设备，金额约 34 亿美元，安排涉及安装所需的工程和建设能力。Reuters 转述并称未能立即独立核实，双方未回复置评请求。",
+            "新增是采购安排公开见报。1.7 GW 是据报锁定的设备容量，不能视为已投运电力、已上线算力或已支付全部款项。"
+          ],
+          "whyImportant": "电力交付可能决定 GPU 何时能投产。若报道属实，模型公司正直接锁定供电设备，可能减轻部分并网等待，但也承担更多前期资本和执行风险。",
+          "investmentImpact": "观察发电机交货、燃气供应、许可和机房验收；对 NVDA、AVGO、云厂及算力出租商，按项目核对上电是否转化为芯片出货或租金回款，不能把设备容量直接换算为订单。",
+          "tags": [
+            "Anthropic",
+            "OnePWR",
+            "AI电力",
+            "数据中心",
+            "NVDA",
+            "AVGO"
+          ],
+          "sources": [
+            {
+              "title": "Financial Times｜原始报道",
+              "url": "https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0"
+            },
+            {
+              "title": "Reuters｜转述及核实限定",
+              "url": "https://www.reuters.com/business/energy/anthropic-secures-34-billion-generator-deal-ai-data-centers-ft-reports-2026-11-08/"
+            }
+          ],
+          "id": "2026-11-08-am-2"
+        },
+        {
+          "category": "semi",
+          "title": "半导体：内蒙古机房实地报道披露 5 MW 高压直流试点",
+          "status": "11月7日行业实地报告；既有试点，不是今日新增投产",
+          "importance": "中",
+          "body": [
+            "SemiAnalysis 报道在内蒙古一处数据中心观察到一个 5 MW 机房采用固态变压器，把 10 kV 交流转换为机架使用的 800 V 直流。该园区首期约 120 MW 据报已交付，但 5 MW 是观察到的试点范围，不能套用到整个园区。"
+          ],
+          "whyImportant": "它提供了高压直流供电在现场运行的案例，可帮助判断部分变压、整流和配电环节是否会重组；单一现场不能证明成本或可靠性已优于传统方案。",
+          "investmentImpact": "关注 ON、ADI 等供电器件厂商能否取得量产设计定点，以及整链转换效率、故障隔离和维护成本；本期未核实供应商名单或新增订单。",
+          "tags": [
+            "800V直流",
+            "固态变压器",
+            "数据中心供电",
+            "ON",
+            "ADI"
+          ],
+          "sources": [
+            {
+              "title": "SemiAnalysis｜实地报告",
+              "url": "https://newsletter.semianalysis.com/p/we-visited-chinas-stargate-in-inner"
+            }
+          ],
+          "id": "2026-11-08-am-3"
+        },
+        {
+          "category": "ai",
+          "title": "财报观察：Nebius 11月12日盘前公布业绩",
+          "status": "补充官方日程；10月30日已公告，财报尚未公布",
+          "importance": "中",
+          "body": [
+            "Nebius 将于 11 月 12 日美股盘前发布三季度业绩，电话会为美西 05:00。这里补充上期观察清单未列的 NBIS 时间，不是新财报。"
+          ],
+          "whyImportant": "算力出租商的合同金额、交付进度和自由现金流可能不同步。",
+          "investmentImpact": "重点看实际已上电和已验收的容量、近端收入指引、资本开支及融资缺口。若合同增加但上电或回款延后，不能仅凭订单上修现金流预期。",
+          "tags": [
+            "NBIS",
+            "财报日历",
+            "算力租赁",
+            "资本开支",
+            "现金流"
+          ],
+          "sources": [
+            {
+              "title": "Nebius｜官方财报日程",
+              "url": "https://nebius.com/newsroom/nebius-group-announces-date-of-third-quarter-2026-results-and-conference-call"
+            }
+          ],
+          "id": "2026-11-08-am-4"
+        },
+        {
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：暂无合格新增",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本窗口未核实零样本泛化、跨本体迁移、触觉/力控精细操作、数据效率、人工接管率、有效运行时间、硬件单位成本或付费部署和设计定点方面有可比的新证据。"
+          ],
+          "whyImportant": "演示成功不能证明客户现场能稳定运行，也不能说明单位作业成本下降。",
+          "investmentImpact": "跟踪同任务成功率、每小时接管次数、有效工时及每有效工时成本，核对执行器、手、传感器、电池与减速器的成本和寿命，并以客户确认的付费扩单验证需求。",
+          "tags": [
+            "Physical AI",
+            "接管率",
+            "部署可靠性",
+            "硬件经济性"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方进展",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方研究",
+              "url": "https://www.pi.website/"
+            }
+          ],
+          "id": "2026-11-08-am-5"
+        }
+      ]
+    },
+    {
       "id": "2026-11-07-pm",
       "date": "2026-11-07",
       "period": "pm",
