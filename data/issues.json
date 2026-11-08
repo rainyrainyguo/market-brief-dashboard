@@ -4,6 +4,140 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-07-pm",
+      "date": "2026-11-07",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-07T19:00:00-08:00",
+      "summary": "周末最重要的变化是美方通报在阿曼湾击瘫一艘商船；伊方另称两艘油轮触雷，尚未独立核实。H200 对华出口出现新的资质审查疑点；补充微软据报未续租一项甲骨文算力安排。机器人暂无合格新指标。",
+      "cards": [
+        {
+          "category": "macro",
+          "title": "宏观 / 市场环境：美方通报在阿曼湾击瘫商船，伊方称两艘油轮触雷",
+          "status": "11月7日美方公布海上行动；油轮触雷为伊方说法，未独立核实",
+          "importance": "高",
+          "body": [
+            "美国中央司令部称，11月7日美军飞机在阿曼湾向散货船 M/V Huda 船尾开火，使其失去航行能力。美方称该船曾停靠伊朗港口，并试图突破封锁。这是早报之后披露的海上执法行动，与早报的陆路工作组是两件事。",
+            "Reuters 报道，伊朗革命卫队海军另称两艘油轮在霍尔木兹海峡触雷起火。本期未独立核实船只身份、损失或与伊朗南部爆炸声的关系，也未核实停火或恢复正常通航。"
+          ],
+          "whyImportant": "实际海上行动使周末航运风险更值得关注；市场影响取决于船只是否减航、装船是否延误，以及保险费是否上升。Huda 是散货船，不能把它计作已损失的油轮运力。",
+          "investmentImpact": "若通航进一步受阻，油价及区域 LNG 成本可能上升，推高通胀预期和债券收益率，对高估值科技形成压力；避险买债也可能短期压低长端收益率。周末未核实新的可比油气结算、美债期限溢价、JGB、日元、美元、信用利差或资金流，也未核实新的通胀、就业、工资数据、Fed 决议或选举后财政及关税政策生效。下一交易时段先看油气与运费，再看短端利率和信用利差；长债发债压力看拍卖承接，日本资金回流看对冲成本和实际跨境流量。",
+          "tags": [
+            "伊朗",
+            "霍尔木兹",
+            "原油",
+            "LNG",
+            "美债",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "美国中央司令部｜行动通报",
+              "url": "https://x.com/CENTCOM/status/2119167271989870888"
+            },
+            {
+              "title": "Reuters｜美伊双方通报与核实限定",
+              "url": "https://www.reuters.com/world/middle-east/explosions-heard-irans-qeshm-island-iranian-media-reports-2026-11-07/"
+            },
+            {
+              "title": "The Maritime Executive｜船型与行动细节",
+              "url": "https://maritime-executive.com/article/us-forces-disable-first-cargo-ship-in-a-month-sailing-from-iranian-port"
+            }
+          ],
+          "id": "2026-11-07-pm-1"
+        },
+        {
+          "category": "semi",
+          "title": "半导体：H200 对华获准企业的资质受到媒体调查",
+          "status": "11月7日媒体调查；未核实新禁令、许可撤销或实际转运",
+          "importance": "高",
+          "body": [
+            "《纽约时报》调查经 The Verge 转述称，美国获准处理英伟达 H200 的部分中国企业存在资质核查疑点，其中 New Matrix 的登记办公地址空置，其所有者与一家被美国列入限制名单的机构有关联。办公地址空置或有关联，不能单独证明违法或芯片已转运。"
+          ],
+          "whyImportant": "相较前期香港库存与中国进口审批报道，新增的是美国端对获准企业和最终用途的审查风险。美方出口许可、中方进口批准和实际交付是三个不同环节。",
+          "investmentImpact": "若最终用户审查收紧，部分渠道的交付和回款可能延后。对 NVDA 重点看商务部是否发出正式文件、哪些许可受影响及实际交付量；本报道不足以确认销售中止，也不足以量化收入损失。",
+          "tags": [
+            "NVDA",
+            "H200",
+            "出口管制",
+            "最终用户",
+            "中国"
+          ],
+          "sources": [
+            {
+              "title": "The Verge｜调查转述与现场核查细节",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government"
+            },
+            {
+              "title": "《纽约时报》｜原始调查",
+              "url": "https://www.nytimes.com/2026/11/07/business/economy/nvidia-chips-chinese-firms.html"
+            }
+          ],
+          "id": "2026-11-07-pm-2"
+        },
+        {
+          "category": "ai",
+          "title": "AI / 科技：微软据报未续租一项甲骨文 AI 算力安排",
+          "status": "补充上一期未收录的11月6日报道；知情人士说法",
+          "importance": "高",
+          "body": [
+            "Bloomberg 报道，微软未续约一项甲骨文 AI 算力租赁，近几个月逐步停用相应容量。知情人士称，该批设备使用较早一代的英伟达芯片，已不符合微软的规格。Reuters 转述了报道；未核实合同金额、释放容量或微软整体算力预算变化。"
+          ],
+          "whyImportant": "客户继续增加新一代算力采购时，也可能停止续租旧设备。对算力出租商，GPU 更新速度、剩余可租年限和再出租价格会影响项目回报。",
+          "investmentImpact": "ORCL 观察腾出的容量能否以相近价格重新出租；CRWV、NBIS 观察续约条款、GPU 代际结构和折旧后现金回报。这项租约不足以推断微软削减整体 AI 开支，也不能外推为所有云租赁订单转弱。",
+          "tags": [
+            "MSFT",
+            "ORCL",
+            "NVDA",
+            "CRWV",
+            "NBIS",
+            "GPU租赁"
+          ],
+          "sources": [
+            {
+              "title": "Bloomberg｜原始报道",
+              "url": "https://bloomberg.com/news/articles/2026-11-06/microsoft-is-winding-down-oracle-deal-to-rent-ai-cloud-capacity"
+            },
+            {
+              "title": "Reuters｜报道转述",
+              "url": "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/"
+            }
+          ],
+          "id": "2026-11-07-pm-3"
+        },
+        {
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：暂无可验证的新增运营指标",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本窗口未核实零样本泛化、跨本体迁移、触觉与力控精细操作、训练数据效率、人工接管率、实际可用率、硬件单位成本或付费部署与设计定点方面有可比的新证据。"
+          ],
+          "whyImportant": "真正影响投资判断的是客户能否在可比工况下持续完成任务、降低单位成本并扩大付费部署。",
+          "investmentImpact": "继续跟踪每小时接管次数、有效工时、每有效工时成本、跨设备迁移所需数据量，以及执行器、灵巧手、传感器、电池和减速器的成本与寿命；优先看客户确认的付费扩单。",
+          "tags": [
+            "Physical AI",
+            "机器人",
+            "接管率",
+            "硬件成本",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方进展",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方研究",
+              "url": "https://www.pi.website/"
+            }
+          ],
+          "id": "2026-11-07-pm-4"
+        }
+      ]
+    },
+    {
       "id": "2026-11-07-am",
       "date": "2026-11-07",
       "period": "am",
