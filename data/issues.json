@@ -4,6 +4,142 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-09-am",
+      "date": "2026-11-09",
+      "period": "am",
+      "time": "08:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-09T08:00:00-08:00",
+      "summary": "美股早盘反弹，博通和 Marvell 上涨，英伟达逆势下跌；美国 CPI 明早才公布。油价进一步回落，日本 10 年期国债收益率反弹。Google 发布两款 TPU，仓储机器人有可量化的现场部署案例。",
+      "cards": [
+        {
+          "category": "macro",
+          "title": "宏观 / 市场环境：美股反弹、芯片分化；美国 CPI 明早才公布",
+          "status": "11月9日美西06:46大盘快照；个股为同期早盘报价，非收盘",
+          "importance": "高",
+          "body": [
+            "Reuters 报道，标普 500 涨 1.48%，纳指涨 1.87%。同期早盘，博通约涨 6.5%，Marvell 约涨 5%，英特尔和高通各涨近 2%；英伟达约跌 5.6%。英伟达董事会调查昨晚已报道，今天新增的是股价反应。",
+            "美国 10 月 CPI 及实际工资定于 11 月 10 日美西 05:30 公布。Reuters 调查预计 CPI 同比涨 2.7%，不是实值。今天美西 10:00 的 580 亿美元 3 年期美债拍卖尚无结果。"
+          ],
+          "whyImportant": "这轮上涨并非芯片股普涨。盘面与上周抛售后的反弹相符，也显示个股治理风险和行业需求可以被分别定价；没有足够证据把早盘涨幅归因于单一催化。",
+          "investmentImpact": "若 CPI 高于预期，短端利率和紧缩预期可能上行，压缩高估值科技估值；若长债拍卖承接偏弱，供给压力还可能通过期限溢价抬高长端利率。本期未核实新的美国 PCE、就业数据、Fed 决议或点阵图，也未核实新的财政、关税或监管措施生效。关注上涨广度、信用利差和拍卖需求，不把股价上涨直接当成净资金流。",
+          "tags": [
+            "纳指",
+            "NVDA",
+            "AVGO",
+            "MRVL",
+            "CPI",
+            "美债拍卖"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美股早盘及 CPI 调查",
+              "url": "https://www.reuters.com/business/wall-st-futures-rise-after-rough-week-nvidia-unsettles-investors-2026-11-09/"
+            },
+            {
+              "title": "美国劳工统计局｜11月发布日程",
+              "url": "https://www.bls.gov/schedule/2026/11_sched_list.htm"
+            },
+            {
+              "title": "美国财政部｜拍卖安排",
+              "url": "https://home.treasury.gov/news/press-releases/sb0678/"
+            }
+          ],
+          "id": "2026-11-09-am-1"
+        },
+        {
+          "category": "macro",
+          "title": "原油较昨晚继续下探，日本 10 年期国债收益率反弹",
+          "status": "11月9日盘中报价；未核实停火或恢复正常通航",
+          "importance": "高",
+          "body": [
+            "Reuters 报道，美西 04:19 Brent 报 94.83 美元/桶、跌约 3.6%，WTI 报 88.17 美元/桶、跌约 2.9%。较昨晚报价进一步下探。美方缓和措辞已在昨晚报道，油价下跌不能证明霍尔木兹恢复通航。",
+            "Reuters 亚洲时段报道，日本 10 年期国债收益率升 6.5 个基点至 2.70%，是前期下跌后的反弹。"
+          ],
+          "whyImportant": "油价走低可缓和近期通胀预期，但实际装船和保险费更能检验供应风险；日本长端利率反弹也可能提高本国债券对日资的吸引力。",
+          "investmentImpact": "若航运再受阻，油气和运费上升仍可能通过通胀和利率压制科技估值。日本收益率上升是否触发资金回流，要同时看日元对冲成本和实际跨境流量。本窗口未核实可比天然气、美债期限溢价、美元或信用利差的新读数。",
+          "tags": [
+            "Brent",
+            "WTI",
+            "伊朗",
+            "霍尔木兹",
+            "JGB",
+            "全球流动性"
+          ],
+          "sources": [
+            {
+              "title": "Reuters（Euronext 转载）｜油价快照",
+              "url": "https://live.euronext.com/en/financial-news/oil-slides-trump-signals-restraint-iran-despite-fresh-shipping-attacks"
+            },
+            {
+              "title": "Reuters（Zawya 转载）｜日本国债收益率",
+              "url": "https://www.zawya.com/en/capital-markets/japan-bond-yields-rise-after-plunge-on-ai-uncertainty-2126756"
+            }
+          ],
+          "id": "2026-11-09-am-2"
+        },
+        {
+          "category": "semi",
+          "title": "半导体 / AI：Google 发布两款面向不同推理负载的 TPU",
+          "status": "11月9日 Google Cloud 官方发布；规格为公司披露",
+          "importance": "高",
+          "body": [
+            "Google 发布 TPU 8tx 和 TPU 8i Max。8tx 沿用 8t 芯片，搭配定制 AMD 主机 CPU，面向机密推理，也可做小规模训练。8i Max 把两颗 8i 芯片放在同一封装；Google 称，相较 8i，算力、SRAM 与 HBM 带宽各为两倍。"
+          ],
+          "whyImportant": "云厂把机密推理和长上下文推理做成不同系统，竞争焦点延伸到内存带宽、软件迁移和机架密度。两倍 HBM 带宽不是两倍实际任务吞吐，也不等于 HBM 容量翻倍。",
+          "investmentImpact": "对 GOOGL、AMD、NVDA 及 HBM 供应链，观察客户能否迁移生产负载、实际部署量和同等服务质量下的每任务成本。AMD 的主机 CPU 设计明确，但本期未核实订单规模或 HBM 供应商份额。",
+          "tags": [
+            "GOOGL",
+            "AMD",
+            "NVDA",
+            "TPU",
+            "HBM",
+            "推理"
+          ],
+          "sources": [
+            {
+              "title": "Google Cloud｜两款 TPU 官方公告",
+              "url": "https://cloud.google.com/blog/topics/ai-infrastructure/tpu-8tx-and-tpu-8i-max"
+            },
+            {
+              "title": "Reuters｜发布与产业背景",
+              "url": "https://www.reuters.com/business/google-to-introduce-two-variants-its-in-house-chips-bloomberg-news-reports-2026-11-09/"
+            }
+          ],
+          "id": "2026-11-09-am-3"
+        },
+        {
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：Ambi 仓储分拣更新覆盖约 30% 美国车队",
+          "status": "11月9日 UC Berkeley 报道，补充此前公司披露；非当天新部署",
+          "importance": "中",
+          "body": [
+            "UC Berkeley 报道，Ambi Robotics 使用生产数据分析包裹分拣，测试推算每台机器人年分拣能力可增加逾 1.5 万件。Ambi 称该更新已覆盖约 30% 的美国车队，包括为一家大型包裹运输企业运行的系统。"
+          ],
+          "whyImportant": "这是用真实作业数据改进既有设备的案例。新增分拣能力是测试推算，30% 是更新覆盖比例，不是吞吐增长率；也未披露新增付费合同、接管率或可用率。",
+          "investmentImpact": "观察多站点实际吞吐、误分拣率、每小时人工介入和每件成本是否同步改善。本期未核实新的跨本体迁移、零样本泛化、触觉或力控、训练数据效率、部件成本或付费设计定点数据，不把该案例外推至人形机器人。",
+          "tags": [
+            "Physical AI",
+            "Ambi Robotics",
+            "仓储分拣",
+            "现场部署",
+            "吞吐"
+          ],
+          "sources": [
+            {
+              "title": "UC Berkeley｜吞吐测试及部署报道",
+              "url": "https://news.berkeley.edu/2026/11/09/recent-advances-in-ai-are-creating-a-paradigm-shift-for-robotics/"
+            },
+            {
+              "title": "Ambi Robotics｜公司生产部署说明",
+              "url": "https://www.ambirobotics.com/blog/agentic-robotics/"
+            }
+          ],
+          "id": "2026-11-09-am-4"
+        }
+      ]
+    },
+    {
       "id": "2026-11-08-pm",
       "date": "2026-11-08",
       "period": "pm",
