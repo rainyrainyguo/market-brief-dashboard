@@ -4,6 +4,161 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-08-pm",
+      "date": "2026-11-08",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-08T19:00:00-08:00",
+      "summary": "特朗普有条件淡化对伊新打击，周日晚油价回落；英伟达董事会启动独立调查。中国 10 月 PPI 加速而 CPI 放缓；补充 DeepSeek 推理使用量，机器人暂无合格新增。",
+      "cards": [
+        {
+          "category": "macro",
+          "title": "宏观 / 市场环境：特朗普有条件淡化对伊新打击，周日晚油价回落",
+          "status": "11月8日政治表态与美西17:38期货快照；非停火协议或结算价",
+          "importance": "高",
+          "body": [
+            "特朗普在 CNN 采访中说，若谈判继续取得进展，美方极不可能再次打击伊朗。表态有条件，本期未核实停火、正常通航或早报所述船损有独立确认。",
+            "Reuters 报道，美西 17:38 Brent 报 97.48 美元/桶、跌 0.85%，WTI 报 90.51 美元/桶、跌 0.35%。同期亚洲早盘报道显示标普 500 期货小涨，美元指数报 102.2，美元兑日元约 158.22。"
+          ],
+          "whyImportant": "新增是谈判表态及开盘定价。油价回落显示市场暂时下调进一步打击的风险，但还不能证明装船、运费或供应已恢复。",
+          "investmentImpact": "若缓和落实到通航和装船，油气成本及通胀压力可能下降，缓解高估值科技的折现率压力。美国 CPI、PPI 尚未公布，Reuters 转述的 12 月加息概率接近 80% 是非农后的市场定价，非 Fed 决议或点阵图。本期未核实可比天然气、美债收益率与期限溢价、JGB、信用利差或资金流新读数，也未核实新的美国财政、关税或监管措施生效。发债压力看拍卖承接；日本资金回流需对冲成本与跨境流量验证。",
+          "tags": [
+            "伊朗",
+            "Brent",
+            "WTI",
+            "日元",
+            "Fed",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜油价与特朗普表态",
+              "url": "https://www.reuters.com/business/energy/oil-falls-open-trump-says-fresh-iran-attacks-unlikely-2026-11-08/"
+            },
+            {
+              "title": "Reuters｜亚洲早盘、美元与 Fed 定价",
+              "url": "https://www.reuters.com/world/asia-pacific/global-markets-global-markets-2026-11-09/"
+            }
+          ],
+          "id": "2026-11-08-pm-1"
+        },
+        {
+          "category": "semi",
+          "title": "半导体：英伟达董事会启动独立调查",
+          "status": "11月8日董事会正式声明；调查尚未得出结论",
+          "importance": "高",
+          "body": [
+            "英伟达董事会称，将就 CEO 黄仁勋可能成为外国情报活动目标的媒体报道启动独立调查，由独立董事委员会监督、外部独立律师协助。董事会表示，目前没有理由认为美国国家安全或英伟达机密受到损害，并表达对现任领导团队的信任。"
+          ],
+          "whyImportant": "独立调查已启动，媒体指控与调查结论仍须区分。新增风险在公司治理和合规层面，与上期 H200 获准企业资质报道不是同一件事。",
+          "investmentImpact": "对 NVDA 关注调查结果、董事会后续行动及商务部是否发布正式许可变化。现阶段不能据此认定信息泄露、管理层变动、出口限制改变或订单受损。",
+          "tags": [
+            "NVDA",
+            "公司治理",
+            "独立调查",
+            "出口合规"
+          ],
+          "sources": [
+            {
+              "title": "NVIDIA｜董事会原始声明",
+              "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
+            },
+            {
+              "title": "Reuters｜调查及监管背景",
+              "url": "https://www.reuters.com/world/china/nvidia-launches-probe-after-report-ceo-huang-was-target-foreign-intelligence-2026-11-08/"
+            }
+          ],
+          "id": "2026-11-08-pm-2"
+        },
+        {
+          "category": "macro",
+          "title": "中国 10 月 PPI 加速，CPI 放缓",
+          "status": "北京时间11月9日官方发布，美西11月8日晚；预期为 Reuters 调查",
+          "importance": "中",
+          "body": [
+            "中国国家统计局公布，10 月 PPI 同比涨 5.7%，高于 9 月的 5.0% 和 Reuters 调查预期的 5.3%；环比涨 0.7%。CPI 同比涨 0.7%，低于 9 月的 0.9% 和调查预期的 0.8%；环比持平。"
+          ],
+          "whyImportant": "上游成本压力与消费端价格走弱并存。Reuters 将能源成本列为 PPI 加速因素之一；数据未显示上游涨价已普遍转嫁给消费者。",
+          "investmentImpact": "对中国消费电子和制造链，观察材料、能源成本能否转嫁以及终端出货是否跟上。不能用中国 PPI 推断美国 CPI 或 Fed 决策，也不能用单月分化推定新的刺激措施。",
+          "tags": [
+            "中国",
+            "CPI",
+            "PPI",
+            "能源成本",
+            "消费电子"
+          ],
+          "sources": [
+            {
+              "title": "国家统计局｜CPI",
+              "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261109_1965795.html"
+            },
+            {
+              "title": "国家统计局｜PPI",
+              "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965794.html"
+            },
+            {
+              "title": "Reuters｜前值和市场预期",
+              "url": "https://www.reuters.com/world/asia-pacific/chinas-october-producer-inflation-quickens-further-consumer-prices-edge-down-2026-11-09/"
+            }
+          ],
+          "id": "2026-11-08-pm-3"
+        },
+        {
+          "category": "ai",
+          "title": "AI / 科技：补充 DeepSeek Harness 官方 API 使用量",
+          "status": "补充11月5日团队披露的11月4日统计；据 IT 之家转述",
+          "importance": "中",
+          "body": [
+            "据 IT 之家转述团队更新，DeepSeek Harness 11 月 4 日日活约 154 万，日消耗约 92 万亿 token。统计范围仅含使用官方 API 的用户；这组数字为此前未收录的披露。"
+          ],
+          "whyImportant": "代理可在一次任务中多次调用模型，token 量有助理解推理负载，但不能直接衡量收入、毛利或单个任务的价值。",
+          "investmentImpact": "观察付费转化、缓存命中率和每个完成任务的推理成本。缺少计费结构和硬件利用率，不能把 token 数直接换算成 GPU 订单或收入。",
+          "tags": [
+            "DeepSeek",
+            "AI代理",
+            "推理需求",
+            "单位成本"
+          ],
+          "sources": [
+            {
+              "title": "IT之家｜团队披露及统计口径",
+              "url": "https://www.ithome.com/0/102/3011.htm"
+            }
+          ],
+          "id": "2026-11-08-pm-4"
+        },
+        {
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：暂无合格新增",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本窗口未核实零样本泛化、跨本体迁移、触觉与力控、训练数据效率、接管率、有效运行时间、硬件单位成本或付费部署和设计定点方面有可比的新证据。"
+          ],
+          "whyImportant": "客户现场可靠性、单位作业成本和可持续付费，仍是判断能否扩大部署的关键。",
+          "investmentImpact": "观察可复现的任务成功率、每小时接管次数、有效工时成本，及执行器、手、传感器、电池和减速器的成本和寿命；优先看客户确认的付费扩单。",
+          "tags": [
+            "Physical AI",
+            "接管率",
+            "硬件成本",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方进展",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方研究",
+              "url": "https://www.pi.website/"
+            }
+          ],
+          "id": "2026-11-08-pm-5"
+        }
+      ]
+    },
+    {
       "id": "2026-11-08-am",
       "date": "2026-11-08",
       "period": "am",
