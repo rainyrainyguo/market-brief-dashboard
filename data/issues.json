@@ -4,6 +4,175 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-10-am",
+      "date": "2026-11-10",
+      "period": "am",
+      "time": "08:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-10T08:00:00-08:00",
+      "summary": "美国 10 月 CPI 环比超预期，官方未公布同比，短端美债收益率上行。台积电月营收同比增 59.7%，Anthropic 正式启动 IPO 路演。Brent 跌破 90 美元；机器人新增工业焊接预订单信号，尚待付费部署验证。",
+      "cards": [
+        {
+          "category": "macro",
+          "title": "宏观 / 市场环境：美国 CPI 环比 0.4%，超预期；官方同比缺失",
+          "status": "11月10日美西05:30官方发布；美债与美元为数据后市场报价",
+          "importance": "高",
+          "body": [
+            "美国劳工统计局公布，10 月 CPI 季调环比涨 0.4%，高于 Reuters 调查的 0.3%，低于 9 月的 0.6%。核心 CPI 环比涨 0.3%，连续第三个月同幅上涨；食品涨 0.5%，能源涨 0.7%，住房涨 0.3%。因 2025 年政府停摆导致去年 10 月指数缺失，BLS 未公布本月同比；此前调查中的同比预期不能当实际值。",
+            "Reuters 数据后快照显示，2 年期美债收益率升约 14 个基点至 4.69%，美元对日元和欧元走强。"
+          ],
+          "whyImportant": "整体通胀较上月放缓，却仍高于市场预期，核心通胀也未进一步降温。短端上行反映加息预期重新定价，非 Fed 已作决定。",
+          "investmentImpact": "关注美西 10:00 的 420 亿美元 10 年期美债拍卖：若承接偏弱，长端供给压力可能进一步压缩高估值科技估值；单次拍卖不能直接测算期限溢价。CoreWeave 美西 14:00 举行财报电话会，观察融资条件、资本开支与现金回收。本期未核实新的实际工资读数、PCE、就业、Fed 决议或点阵图，也未核实新的美国财政、关税或监管措施生效。",
+          "tags": [
+            "CPI",
+            "Fed",
+            "美债",
+            "美元",
+            "CRWV",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "BLS｜CPI 原始数据",
+              "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm"
+            },
+            {
+              "title": "Reuters｜通胀预期与债汇反应",
+              "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-10/"
+            },
+            {
+              "title": "美国财政部｜拍卖安排",
+              "url": "https://home.treasury.gov/news/press-releases/sb0678"
+            },
+            {
+              "title": "CoreWeave｜财报电话会",
+              "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-Date-of-Third-Quarter-2026-Financial-Results-and-Conference-Call/default.aspx"
+            }
+          ],
+          "id": "2026-11-10-am-1"
+        },
+        {
+          "category": "semi",
+          "title": "半导体：台积电 10 月营收同比增 59.7%，另拟投资两家 AI 公司",
+          "status": "11月10日公司营收公告；投资额度据 Reuters，非已交割",
+          "importance": "高",
+          "body": [
+            "台积电公布 10 月合并营收约新台币 5,868.9 亿元，环比增 14.7%、同比增 59.7%。Reuters 报道，台积电董事会另批准按 IPO 价格认购最多 5 亿美元 Anthropic 股票，并拟以最多 5 亿美元认购 OpenAI 优先股。"
+          ],
+          "whyImportant": "月度营收是已经实现的收入，但未拆出 AI 芯片贡献；股权投资授权是另一个资本配置决定，不能与晶圆订单相加。",
+          "investmentImpact": "对 TSM 和设备、先进封装链，继续核对产能利用率、资本开支和毛利率。投资上限不能视为已支付现金、锁定代工订单或未来收入。",
+          "tags": [
+            "TSM",
+            "晶圆代工",
+            "先进封装",
+            "Anthropic",
+            "OpenAI"
+          ],
+          "sources": [
+            {
+              "title": "台积电｜10 月营收",
+              "url": "https://pr.tsmc.com/english/news/3349"
+            },
+            {
+              "title": "Reuters｜拟投资两家 AI 公司",
+              "url": "https://www.reuters.com/world/china/tsmc-invest-up-1-billion-anthropic-openai-2026-11-10/"
+            }
+          ],
+          "id": "2026-11-10-am-2"
+        },
+        {
+          "category": "ai",
+          "title": "AI / 科技：Anthropic 启动 IPO 路演，拟发行价 70–78 美元",
+          "status": "11月10日公司正式公告；拟议区间，尚未定价或交割",
+          "importance": "高",
+          "body": [
+            "Anthropic 拟在纳斯达克以 ANT 上市，拟售 8.25 亿股，其中公司约售 8.0135 亿股，其余为老股东出售。按每股 70–78 美元估算，发行总额约 577.5 亿–643.5 亿美元，公司新股对应约 561 亿–625 亿美元，均为未扣费用、未计超额配售的估算。"
+          ],
+          "whyImportant": "从此前拟路演报道推进到公司公布发行结构和区间，融资规模更可评估；老股出售不为公司带来资金。",
+          "investmentImpact": "关注最终定价、净募资和招股文件列出的用途；对 NVDA、AVGO、CRWV 和 NBIS，不能将拟募资直接换算为某家供应商的订单或现金回款。",
+          "tags": [
+            "Anthropic",
+            "ANT",
+            "IPO",
+            "AI融资",
+            "算力"
+          ],
+          "sources": [
+            {
+              "title": "Anthropic｜路演及发行结构公告",
+              "url": "https://www.anthropic.com/news/roadshow-launch"
+            }
+          ],
+          "id": "2026-11-10-am-3"
+        },
+        {
+          "category": "macro",
+          "title": "Brent 跌破 90 美元；日本央行意见摘要显露加息分歧",
+          "status": "11月10日盘中油价；日本央行公布上次会议意见，非今日新利率决定",
+          "importance": "高",
+          "body": [
+            "Reuters 报美西 05:34，Brent 跌 3.15% 至 89.65 美元/桶，WTI 跌 2.68% 至 84.52 美元/桶。较昨晚结算继续下探；未核实停火或霍尔木兹恢复正常通航。",
+            "日本央行公布 10 月 29–30 日会议意见摘要。Reuters 指部分委员主张加快加息，当时政策利率维持 1.25%。"
+          ],
+          "whyImportant": "油价下跌可能缓和后续能源通胀，却不会改写已发布的 10 月 CPI。日本加息讨论可能提高日债相对吸引力，但单凭意见摘要无法判断资金流向。",
+          "investmentImpact": "观察装船、保险和天然气报价；若航运再受阻，油气和运费可经通胀预期抬高美债收益率。日本资金回流需以 JGB、汇率对冲成本和跨境流量验证。本期未核实可比天然气、JGB、期限溢价、信用利差或跨境净流量新读数。",
+          "tags": [
+            "Brent",
+            "WTI",
+            "霍尔木兹",
+            "BOJ",
+            "JGB",
+            "全球流动性"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜原油盘中",
+              "url": "https://www.reuters.com/business/energy/oil-falls-trump-downplays-prospect-escalation-with-iran-2026-11-10/"
+            },
+            {
+              "title": "日本央行｜会议意见摘要",
+              "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/opinion_2026/index.htm"
+            },
+            {
+              "title": "Reuters｜日本政策背景",
+              "url": "https://www.reuters.com/world/asia-pacific/some-boj-called-faster-rate-hikes-october-summary-shows-2026-11-10/"
+            }
+          ],
+          "id": "2026-11-10-am-4"
+        },
+        {
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：工业焊接预订单待验证",
+          "status": "11月10日媒体报道；预订单不等于已付费部署",
+          "importance": "中",
+          "body": [
+            "据 Investing.com 转述 Bloomberg，Path Robotics 获 3 亿美元 E 轮融资，估值 24.5 亿美元，正准备履行 50 台 Rove 焊接四足机器人预订单，拟明年开始部署。报道未确认预付款、正式验收或持续作业数据。Intel 与 Altera 同日公布传感桥参考方案合作，未披露实测成本改善或量产定点。"
+          ],
+          "whyImportant": "预订单比普通演示更接近需求验证；融资规模和参考设计仍不足以证明部署质量或硬件单位经济性。",
+          "investmentImpact": "重点看预订单转付费、现场焊接合格率、每小时接管次数和有效工时成本。本期未核实零样本泛化、跨本体迁移、触觉与力控、训练数据效率或部件成本的可比新增指标。",
+          "tags": [
+            "Physical AI",
+            "Path Robotics",
+            "工业焊接",
+            "INTC",
+            "Altera",
+            "部署"
+          ],
+          "sources": [
+            {
+              "title": "Investing.com｜Bloomberg 报道转述",
+              "url": "https://www.investing.com/news/stock-market-news/path-robotics-valuation-jumps-to-25b-on-ai-manufacturing-push--bloomberg-93CH-5015937"
+            },
+            {
+              "title": "Intel｜传感桥合作公告",
+              "url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/altera-sensor-integration-edge-physical-ai.html"
+            }
+          ],
+          "id": "2026-11-10-am-5"
+        }
+      ]
+    },
+    {
       "id": "2026-11-09-pm",
       "date": "2026-11-09",
       "period": "pm",
