@@ -4,6 +4,172 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-09-pm",
+      "date": "2026-11-09",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-09T19:00:00-08:00",
+      "summary": "费城半导体指数收涨 6.9%，英伟达逆势收跌。Brent 结算跌 5.85%，但 10 年期美债收益率小升。Anthropic 与 Meta 更新推理模型和价格，SpaceX 德州自建电力项目仍待审议；机器人暂无合格新增。",
+      "cards": [
+        {
+          "category": "macro",
+          "title": "宏观 / 市场环境：半导体收涨 6.9%，英伟达是指数唯一收跌成分",
+          "status": "11月9日美股收盘；美债、美元为 Reuters 报价，CPI 尚未公布",
+          "importance": "高",
+          "body": [
+            "标普 500 收涨 2.35%，纳指涨 2.74%，道指涨 2.15%。费城半导体指数涨 6.9%，AMD 涨 13.3%，博通涨 8.8%，英伟达跌 4.2%，为指数唯一收跌成分。相较早报，新增是收盘确认与涨幅扩大；董事会调查没有新的结论。",
+            "Reuters 报 10 年期美债收益率约 4.87%、上升约 1 个基点，美元指数跌 0.47% 至 101.75。TFTC 汇总的 580 亿美元 3 年期美债拍卖结果为最高中标收益率 4.627%、投标倍数 2.53。"
+          ],
+          "whyImportant": "股市反弹与长端收益率小幅上升并存，不能把上涨解释为折现率下降。单次 3 年期拍卖也不足以判断长债期限溢价。",
+          "investmentImpact": "11 月 10 日美西 05:30 公布美国 CPI 和实际工资，10:00 拍卖 420 亿美元 10 年期美债。先看通胀对 Fed 路径预期的影响，再看长债承接是否推高期限溢价。本期未核实新的 PCE、就业、Fed 决议或点阵图，也未核实新的财政或关税政策生效；股价上涨不证明净资金流入。",
+          "tags": [
+            "SOX",
+            "AMD",
+            "AVGO",
+            "NVDA",
+            "美债拍卖",
+            "CPI"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美股与半导体收盘",
+              "url": "https://www.reuters.com/business/wall-st-futures-rise-after-rough-week-nvidia-unsettles-investors-2026-11-09/"
+            },
+            {
+              "title": "Reuters｜美债及美元报价",
+              "url": "https://www.reuters.com/world/asia-pacific/us-dollar-holds-onto-payrolls-gains-nz-dollar-rises-after-election-2026-11-09/"
+            },
+            {
+              "title": "TFTC｜3 年期拍卖结果汇总",
+              "url": "https://www.tftc.io/treasury-auctions/3-year-note"
+            },
+            {
+              "title": "美国财政部｜再融资日程",
+              "url": "https://home.treasury.gov/news/press-releases/sb0678"
+            },
+            {
+              "title": "美国劳工统计局｜数据日程",
+              "url": "https://www.bls.gov/schedule/2026/11_sched_list.htm"
+            }
+          ],
+          "id": "2026-11-09-pm-1"
+        },
+        {
+          "category": "macro",
+          "title": "Brent 结算跌 5.85%，通航恢复仍未核实",
+          "status": "11月9日结算；外交预期不等于已执行的停火",
+          "importance": "高",
+          "body": [
+            "Brent 结算 92.57 美元/桶、跌 5.85%，WTI 结算 86.85 美元/桶、跌 4.38%。较早报盘中报价继续走低，Brent 结算后再跌。早报的美方缓和措辞不重复当作新增，本期未核实停火或霍尔木兹恢复正常通航。"
+          ],
+          "whyImportant": "若油价下跌持续，可能缓解能源通胀；今天 10 年期美债收益率仍小幅上升，显示能源与利率并非机械同步。",
+          "investmentImpact": "若航运再受阻，油气和运费可通过通胀预期推高折现率。观察装船、保费和可比气价；本窗口未核实新的天然气结算、JGB、期限溢价、信用利差或跨境资金流，不据汇率或早报 JGB 报价认定日本资金回流。",
+          "tags": [
+            "Brent",
+            "WTI",
+            "霍尔木兹",
+            "伊朗",
+            "通胀",
+            "全球流动性"
+          ],
+          "sources": [
+            {
+              "title": "Reuters 经 Euronext 转载｜原油结算及结算后走势",
+              "url": "https://live.euronext.com/en/financial-news/oil-down-more-7-barrel-post-settlement-trade-trump-signals-restraint-iran"
+            }
+          ],
+          "id": "2026-11-09-pm-2"
+        },
+        {
+          "category": "ai",
+          "title": "AI / 科技：Anthropic 下调旗舰模型标价，Meta 推出低价 Muse Ember",
+          "status": "11月9日公司公告；速度和评测结果有适用条件",
+          "importance": "高",
+          "body": [
+            "Anthropic 发布 Claude Fable 5.2 和 Mythos 5.2，标准价每百万输入、输出 token 分别为 8 美元和 40 美元；公司称输出速度较 5.1 最多快 30%。Meta 同日推出 Muse Ember，API 每百万输入、输出 token 分别为 0.10 美元和 0.50 美元，主要面向工具调用、任务路由和文档解析等重复工作。"
+          ],
+          "whyImportant": "旗舰模型降价与小模型分流同时发生。模型定位不同，不能仅凭 token 标价比较同一任务的质量、成本或利润。",
+          "investmentImpact": "观察每个成功任务的总 token、重试率、延迟和毛利。推理变便宜可能扩大用量，也可能让部分负载转向更便宜的模型；对云厂、NVDA 和定制芯片供应链，不将标价变化直接换算成订单或 GPU 需求。",
+          "tags": [
+            "Anthropic",
+            "META",
+            "Muse Ember",
+            "推理价格",
+            "单位成本"
+          ],
+          "sources": [
+            {
+              "title": "Anthropic｜发布与标准价格",
+              "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+            },
+            {
+              "title": "Meta｜Muse Ember 官方公告",
+              "url": "https://research.meta.ai/blog/muse-ember"
+            }
+          ],
+          "id": "2026-11-09-pm-3"
+        },
+        {
+          "category": "ai",
+          "title": "SpaceX 拟在德州自建燃气电站和超算设施，初期估算 240 亿美元",
+          "status": "11月9日媒体据听证公告报道；仍是拟议项目",
+          "importance": "中",
+          "body": [
+            "Reuters 据公开听证公告报道，SpaceX 拟在 Starbase 分期建设燃气电站和超算设施，初期投资估算约 240 亿美元。市委员会拟于 12 月 9 日审议税收减免及相关经济发展协议。公告未列发电容量或算力规模。"
+          ],
+          "whyImportant": "自建电力可能减少对公用电网并网排期的依赖，但项目仍受审批、燃气供应、设备交期及融资约束。",
+          "investmentImpact": "看听证结果、许可、分期拨款和实际设备采购。240 亿美元为项目估算，不能当已投入资本、已锁定 GPU 订单或已获批减税。",
+          "tags": [
+            "SpaceX",
+            "AI电力",
+            "数据中心",
+            "德州",
+            "资本开支"
+          ],
+          "sources": [
+            {
+              "title": "Starbase 市政府｜12 月 9 日听证公告入口",
+              "url": "https://www.starbase.texas.gov/ordinances"
+            },
+            {
+              "title": "Reuters｜项目规模与审批状态",
+              "url": "https://www.reuters.com/legal/transactional/spacex-plans-24-billion-gas-power-plant-data-center-project-texas-2026-11-09/"
+            }
+          ],
+          "id": "2026-11-09-pm-4"
+        },
+        {
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：早报分拣案例未见新增运营披露",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本窗口未核实可比的零样本泛化、跨本体迁移、触觉与力控、训练数据效率、接管率、实际可用率、部件单位成本或付费部署和设计定点的新数据。"
+          ],
+          "whyImportant": "新演示不足以验证连续作业和客户回报。",
+          "investmentImpact": "优先看客户确认的付费扩单、每小时人工介入次数、有效工时成本，以及执行器、灵巧手、传感器、电池和减速器的成本与寿命。",
+          "tags": [
+            "Physical AI",
+            "部署可靠性",
+            "硬件经济性",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方进展",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方研究",
+              "url": "https://www.pi.website/"
+            }
+          ],
+          "id": "2026-11-09-pm-5"
+        }
+      ]
+    },
+    {
       "id": "2026-11-09-am",
       "date": "2026-11-09",
       "period": "am",
