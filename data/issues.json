@@ -4,6 +4,196 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-11-am",
+      "date": "2026-11-11",
+      "period": "am",
+      "time": "08:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-11T08:00:00-08:00",
+      "summary": "AI 与芯片股带动美股高开，但现券休市，利率压力尚未经新交易验证。霍尔木兹通航风险推升油价；CoreWeave 的融资目标和 OpenAI 据报仍扩大的亏损，提示算力需求与资本回报要分开看。机器人暂无足以调整投资判断的新增证据。",
+      "cards": [
+        {
+          "id": "2026-11-11-am-rates",
+          "category": "macro",
+          "title": "宏观 / 市场环境：纳指高开 1.54%，长端利率还没接受复市检验",
+          "status": "11 月 11 日开盘与东京外汇报价；12 月加息是市场预期",
+          "importance": "高",
+          "body": [
+            "美东 09:30，纳指综合、标普 500、道指分别涨 1.54%、0.97%、0.05%。美股照常交易；SIFMA 建议美元固定收益市场全天休市，昨日约 5.00% 的 10 年期美债收益率不能当作今天的现券报价。",
+            "日本央行记录美元兑日元从东京 09:00 的 158.71–158.73 升至 17:00 的 158.87–158.89；《华尔街日报》报道，美债前一日的抛压传到日债。窗口内未核实新的美联储决定或点阵图、就业或工资数据、信用利差与净资金流变化，也未核实中期选举后有新生效的关税或科技监管措施。"
+          ],
+          "whyImportant": "芯片带动的开盘反弹可以和偏紧的利率预期并存。若财政融资需要推升长债供给、拍卖需求又偏弱，期限溢价和长端利率可能抬升，压缩高估值科技股倍数；日债收益率若持续上升并吸引资金回流，也可能收紧全球流动性。日元走弱本身不能证明资金回流。",
+          "investmentImpact": "观察清单：11 月 12 日美东 13:00 的 250 亿美元 30 年期美债拍卖，先看中标收益率与拍卖前报价的差，再看长端和信用利差；11 月 13 日 08:30 看 10 月 PPI，11 月 25 日 08:30 看 10 月 PCE，12 月 8–9 日看 Fed 决议和新点阵图。选后政策以法案、规则文本和生效日为准。",
+          "tags": [
+            "美债",
+            "Fed",
+            "JGB",
+            "日元",
+            "PPI",
+            "PCE"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美股开盘",
+              "url": "https://www.investing.com/news/stock-market-news/wall-st-opens-higher-as-coreweave-lifts-ai-trade-5019274"
+            },
+            {
+              "title": "SIFMA｜休市建议",
+              "url": "https://www.sifma.org/news/press-releases/sifma-fixed-income-market-close-recommendation-in-the-u-s-the-u-k-and-japan-for-the-u-s-veterans-day-holiday-2026"
+            },
+            {
+              "title": "Schwab｜早盘市场",
+              "url": "https://www.schwab.com/learn/story/stock-market-update-open?msockid=1721a26b9b2c6bfa23d2b5919abb6ab8"
+            },
+            {
+              "title": "日本央行｜11 月 11 日外汇",
+              "url": "https://www.boj.or.jp/statistics/market/forex/fxdaily/fxlist/fx261111.pdf"
+            },
+            {
+              "title": "WSJ｜日元和日债",
+              "url": "https://www.wsj.com/economy/central-banking/yen-slumps-to-over-one-month-low-on-fed-hike-bets-fc05bf61"
+            },
+            {
+              "title": "美国财政部｜再融资公告",
+              "url": "https://home.treasury.gov/news/press-releases/sb0678"
+            },
+            {
+              "title": "BLS｜11 月发布日历",
+              "url": "https://www.bls.gov/schedule/2026/11_sched.htm"
+            },
+            {
+              "title": "BEA｜发布日历",
+              "url": "https://www.bea.gov/news/schedule/"
+            },
+            {
+              "title": "Fed｜FOMC 日历",
+              "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-11-am-oil",
+          "category": "macro",
+          "title": "伊朗拒绝将浓缩核材料运出境，原油反弹",
+          "status": "公开表态与早盘行情；停火及通航恢复未获确认",
+          "importance": "高",
+          "body": [
+            "Reuters 11 月 11 日报道，伊朗安全事务负责人表示不会允许浓缩核材料运出国境；美方此前称初始谈判必须涉及核问题。美东约 05:07，MarketWatch 报 Brent 期货 92.80 美元/桶（+1.4%）、WTI 86.70 美元/桶（+0.8%）。",
+            "《华尔街日报》美东 09:06 报道，美国天然气期货连续第四个交易日上涨，近期偏冷预报、液化天然气出口设施进气量高及产量偏低提供支撑。这和中东原油的驱动因素不同。"
+          ],
+          "whyImportant": "若霍尔木兹运输持续受阻，原油和运费可能推升整体通胀、延长利率高位，进而压低高估值科技股倍数。单次油价反弹不能证明这条传导链已发生。",
+          "investmentImpact": "关注实际油轮通行量与保险成本；即使外交口径转软，也要等实物流量改善，才能下调油价风险溢价。",
+          "tags": [
+            "伊朗",
+            "霍尔木兹",
+            "Brent",
+            "WTI",
+            "天然气"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜伊朗表态及油轮风险",
+              "url": "https://www.reuters.com/business/energy/oil-rises-two-month-low-hormuz-shipping-attacks-offset-iran-truce-hopes-2026-11-11/"
+            },
+            {
+              "title": "MarketWatch｜原油期货早盘",
+              "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-nvidia-scandal-hotter-than-expected-cpi-coreweave/card/oil-prices-rise-as-attacks-on-shipping-fester-and-iran-gives-nuclear-warning-mehQksDygJZvm0agNCGA"
+            },
+            {
+              "title": "WSJ｜天然气期货早盘",
+              "url": "https://www.wsj.com/finance/commodities-futures/european-ttf-gas-rises-as-storage-withdrawals-accelerate-569c8aab"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-11-am-chips",
+          "category": "semi",
+          "title": "CoreWeave 带动芯片反弹，融资约束仍在",
+          "status": "11 月 11 日早盘行情；电话会数字为管理层预测",
+          "importance": "高",
+          "body": [
+            "上一期已报财报和客户预付款；本期新增的是交易反应及融资细节。今晨盘前，CoreWeave 约涨 14%，英伟达近 4%，AMD、英特尔和美光均超过 5%；这些是盘前报价。公司电话会称，预计到 2027 年底需新增不到 50 亿美元母公司层面资本，目标是 2028 年上半年实现调整后净利润转正。"
+          ],
+          "whyImportant": "市场先交易了算力需求和融资可得性的改善。母公司层面的资本目标并不涵盖所有项目融资，也不代表自由现金流已经转正。",
+          "investmentImpact": "未来 1–12 个月，先看预付款到账、GPU 交付及融资成本，再判断反弹能否转化为 NVDA、AMD、MU 等公司的订单或盈利上修。",
+          "tags": [
+            "CRWV",
+            "NVDA",
+            "AMD",
+            "MU",
+            "算力融资"
+          ],
+          "sources": [
+            {
+              "title": "CoreWeave｜官方电话会记录",
+              "url": "https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-3Q26-Transcript-_1_.pdf"
+            },
+            {
+              "title": "Investopedia / Yahoo Finance｜盘前报价",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nasdaq-futures-131247889.html"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-11-am-openai",
+          "category": "ai",
+          "title": "OpenAI 据报季度收入增至 100 亿美元，调整后营业亏损也扩大",
+          "status": "11 月 10 日美西傍晚媒体据内部文件报道；非公开审计财报",
+          "importance": "高",
+          "body": [
+            "《华尔街日报》援引投资者文件报道，OpenAI 第三季度营收约 100 亿美元，环比增约 50%；调整后营业亏损约 109 亿美元，比上一季多约 8 亿美元。收入增长快于亏损增长，但亏损绝对额仍在扩大。"
+          ],
+          "whyImportant": "收入增长给模型需求提供了证据，但高昂的运营投入限制了可用于内部融资的现金。两组数字应同时纳入模型公司的估值判断。",
+          "investmentImpact": "对模型公司和算力供应商，重点跟踪每单位推理成本、付费收入能否持续、合同的最低采购承诺和现金回收。营业亏损不能直接当作现金消耗。",
+          "tags": [
+            "OpenAI",
+            "营收",
+            "调整后营业亏损",
+            "AI 估值"
+          ],
+          "sources": [
+            {
+              "title": "WSJ｜据内部财务文件报道",
+              "url": "https://www.wsj.com/business/earnings/openai-continues-to-suffer-heavy-losses-as-revenue-rises-to-10-billion-d2a96bbb"
+            },
+            {
+              "title": "Investopedia｜亏损口径",
+              "url": "https://www.investopedia.com/5-things-to-know-stock-market-november-11-2026-12246542"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-11-am-robot",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：暂无合格新增",
+          "status": "未核实足以改变投资判断的新数据或付费部署",
+          "importance": "中",
+          "body": [
+            "本窗口内未核实零样本泛化、跨本体迁移、触觉或力控、训练数据效率、人工干预率与在线率、关键零件成本或付费部署及定点的实质新增。Figure 的夜班岗位早于本窗口，招聘无法量化人工干预；NVIDIA GR00T 2 的官方发布是 11 月 9 日。"
+          ],
+          "whyImportant": "实验指标、内部车队运行和客户产线的付费使用回答的是不同问题。",
+          "investmentImpact": "优先等客户披露单班人工接管次数、连续运行时间、付费台数和续单，以及灵巧手、传感器、减速器与电池的量产成本。",
+          "tags": [
+            "Figure",
+            "NVIDIA",
+            "干预率",
+            "在线率",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜运营岗位原文",
+              "url": "https://job-boards.greenhouse.io/figureai/jobs/4727582006"
+            },
+            {
+              "title": "NVIDIA｜11 月 9 日官方发布",
+              "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-10-pm",
       "date": "2026-11-10",
       "period": "pm",
