@@ -4,6 +4,170 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-10-pm",
+      "date": "2026-11-10",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-10T19:00:00-08:00",
+      "summary": "科技股收跌，10 年期美债拍卖收益率达 5.020%。CoreWeave 收入超预期并上调指引，未来客户预付款仍待到账。AMD 第六代 EPYC 正式供货；Brent 结算回到 90 美元上方，机器人暂无合格新增。",
+      "cards": [
+        {
+          "category": "macro",
+          "title": "宏观 / 市场环境：科技股回落，10 年期美债拍卖收益率破 5%",
+          "status": "11月10日美股收盘及拍卖结果；Fed 尚无新决定",
+          "importance": "高",
+          "body": [
+            "标普 500 跌 0.38%、纳指跌 0.74%、道指跌 0.30%，标普科技板块跌 1.4%，英伟达跌约 5.4%。早报已覆盖 CPI；新增是收盘反应。Reuters 收盘综述报 2 年期美债收益率升约 20 个基点、曲线趋平，美元走强。",
+            "420 亿美元 10 年期美债拍卖最高中标收益率 5.020%，投标倍数 2.46，低于上次的 2.77；本次规模和发行条件与上次不同。"
+          ],
+          "whyImportant": "短端急升与曲线趋平，更符合市场重新定价 Fed 路径。长债投标倍数回落值得跟踪，但拍卖收益率包含利率预期和期限溢价，不能把它直接当作期限溢价。",
+          "investmentImpact": "若通胀黏性与长债供给压力叠加，高估值科技和高杠杆算力租赁商将同时面对估值及融资成本压力。关注 11 月 12 日 30 年期拍卖及 11 月 13 日 PPI。本期未核实新增 PCE、就业、工资、Fed 决议、点阵图或已生效的新财政、关税及监管措施。",
+          "tags": [
+            "纳指",
+            "NVDA",
+            "美债拍卖",
+            "Fed",
+            "美元",
+            "期限溢价"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美股收盘",
+              "url": "https://www.reuters.com/business/sp-500-dow-futures-climb-oil-slide-lifts-sentiment-2026-11-10/"
+            },
+            {
+              "title": "Reuters｜债汇综述",
+              "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-11-10/"
+            },
+            {
+              "title": "TFTC｜10 年期拍卖结果",
+              "url": "https://www.tftc.io/treasury-auctions/10-year-note"
+            },
+            {
+              "title": "美国财政部｜再融资日程",
+              "url": "https://home.treasury.gov/news/press-releases/sb0678/"
+            },
+            {
+              "title": "BLS｜11 月发布日程",
+              "url": "https://www.bls.gov/schedule/2026/11_sched_list.htm"
+            }
+          ],
+          "id": "2026-11-10-pm-1"
+        },
+        {
+          "category": "ai",
+          "title": "AI / 科技：CoreWeave 上调营收指引，预付款将检验融资压力",
+          "status": "11月10日正式财报；客户预付款和业绩指引均为预测",
+          "importance": "高",
+          "body": [
+            "CoreWeave 第三季收入 36.61 亿美元，高于 LSEG 共识约 35.5 亿美元；GAAP 净亏损 7.09 亿美元。全年收入指引从 124 亿–132 亿上调至 130 亿–133 亿美元，资本开支指引由 350 亿–390 亿提高至 370 亿–390 亿美元。Reuters 报股价盘后一度涨约 5%。",
+            "公司披露约 42 亿美元可转债融资及 26 亿美元贷款安排；截至 9 月末，有追索权及无追索权债务账面合计约 468.7 亿美元，现金及现金等价物约 41.2 亿美元，不含受限现金。管理层预计未来三个月收到约 90 亿美元客户预付款和押金，第四季利息支出预计为 10.5 亿–11.5 亿美元。"
+          ],
+          "whyImportant": "收入与指引改善，但建设支出也加快。可转债融资、已签贷款额度和未来预付款是不同来源；预计预付款未等同到账，客户合同积压也不是现有现金。",
+          "investmentImpact": "重点看预付款到账与项目验收能否赶上支出、贷款提款条件及短期再融资成本。盘后上涨反映当时报价，不能确认现金流已经转正，也不应直接外推为 NBIS 同等融资条件。",
+          "tags": [
+            "CRWV",
+            "NBIS",
+            "融资",
+            "资本开支",
+            "客户预付款",
+            "现金流"
+          ],
+          "sources": [
+            {
+              "title": "SEC｜CoreWeave 第三季财报与指引",
+              "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm"
+            },
+            {
+              "title": "Reuters｜旧指引、市场预期与盘后报价",
+              "url": "https://www.reuters.com/business/coreweave-beats-quarterly-revenue-estimates-ai-demand-defies-growing-doubts-2026-11-10/"
+            }
+          ],
+          "id": "2026-11-10-pm-2"
+        },
+        {
+          "category": "semi",
+          "title": "半导体：AMD 宣布第六代 EPYC Venice SP7 正式供货",
+          "status": "11月10日 AMD 官方发布；规格为厂商披露",
+          "importance": "高",
+          "body": [
+            "AMD 宣布基于 Zen 6 的第六代 EPYC SP7 服务器处理器正式供货，最高 256 核，支持 PCIe Gen 6 和 CXL 3.1，面向企业计算与 AI 数据中心。"
+          ],
+          "whyImportant": "这是服务器 CPU 的供货节点；AI 数据中心的竞争同时涉及主机 CPU、内存、I/O 和整机功耗。核心数与厂商测试不能直接代表客户实际成本或整体部署规模。",
+          "investmentImpact": "对 AMD、INTC 关注服务器平台认证、客户出货、功耗和毛利。新品供货不等同于披露新增订单，也不能直接推导 GPU 或 HBM 需求。",
+          "tags": [
+            "AMD",
+            "INTC",
+            "EPYC",
+            "Venice",
+            "服务器CPU"
+          ],
+          "sources": [
+            {
+              "title": "AMD｜官方供货公告",
+              "url": "https://newsroom.amd.com/news/6th-gen-epyc-lead-ai-enterprise-computing/"
+            }
+          ],
+          "id": "2026-11-10-pm-3"
+        },
+        {
+          "category": "macro",
+          "title": "原油收回部分早盘跌幅，Brent 结算重回 90 美元上方",
+          "status": "11月10日原油结算；停火及正常通航仍未核实",
+          "importance": "中",
+          "body": [
+            "Brent 结算 91.49 美元/桶、跌约 1.2%，WTI 结算 86.04 美元/桶、跌约 0.9%，均高于早报盘中低位附近的报价。Reuters 报道，美伊就潜在和解条件仍有明显分歧。"
+          ],
+          "whyImportant": "油价下跌与美债收益率上升并存，表明能源价格缓和未抵消当天通胀与 Fed 预期的影响。",
+          "investmentImpact": "若航运再受阻，油气及运费上涨仍可能推高通胀和科技股折现率。继续观察装船和保费；本期未核实新的可比天然气结算、JGB、期限溢价、信用利差或跨境流量。日本资金回流须结合日债收益率、对冲成本与实际流量验证。",
+          "tags": [
+            "Brent",
+            "WTI",
+            "霍尔木兹",
+            "伊朗",
+            "JGB",
+            "通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜结算及谈判背景",
+              "url": "https://www.reuters.com/business/energy/oil-falls-trump-downplays-prospect-escalation-with-iran-2026-11-10/"
+            }
+          ],
+          "id": "2026-11-10-pm-4"
+        },
+        {
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：焊接预订单未见新部署证据",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "相较早报，本期未核实零样本泛化、跨本体迁移、触觉与力控、训练数据效率、接管率、有效运行时间、部件单位成本或付费部署和设计定点有可比新增。"
+          ],
+          "whyImportant": "预订单能说明客户兴趣，稳定验收和持续运行数据才能检验单位经济性。",
+          "investmentImpact": "继续看实际付费扩单、每小时接管次数、有效工时成本，以及执行器、手、传感器、电池和减速器的成本与寿命。",
+          "tags": [
+            "Physical AI",
+            "接管率",
+            "硬件经济性",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜官方进展",
+              "url": "https://www.figure.ai/news"
+            },
+            {
+              "title": "Physical Intelligence｜官方研究",
+              "url": "https://www.pi.website/"
+            }
+          ],
+          "id": "2026-11-10-pm-5"
+        }
+      ]
+    },
+    {
       "id": "2026-11-10-am",
       "date": "2026-11-10",
       "period": "am",
