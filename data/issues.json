@@ -4,6 +4,207 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-12-am",
+      "date": "2026-11-12",
+      "period": "am",
+      "time": "08:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-12T08:00:00-08:00",
+      "summary": "英伟达确认黄仁勋即刻辞任；Nebius 的营收与资本开支出现背离，部分产能交付推迟。美债复市后 10 年期收益率仍在 5% 附近，今早看 30 年期拍卖。Avride 披露配送规模扩大，单位成本与人工干预率仍待披露。",
+      "cards": [
+        {
+          "id": "2026-11-12-am-market",
+          "category": "macro",
+          "title": "宏观 / 市场环境：初请升至 20 万，美债复市后 10 年期仍近 5%",
+          "status": "劳工部正式数据；债券为早盘报价，Fed 尚无新决定",
+          "importance": "高",
+          "body": [
+            "美国劳工部 11 月 12 日公布，截至 11 月 7 日当周初请失业金为 20 万人，高于上周修订后的 19.1 万和 FactSet 调查预期的 19.5 万；四周均值持平于 19.525 万。Saxo 报美债复市早盘，2 年期约 4.77%，10 年期约 4.99%。Reuters 报纳指早盘走低，英伟达换帅和油价是当时的主要扰动。"
+          ],
+          "whyImportant": "初请单周走高、均值持平，暂不足以确认就业趋势转弱。12 月加息仍是市场定价；长端利率在高位，放大高估值科技和高杠杆算力公司的融资压力。",
+          "investmentImpact": "观察清单：今天美西 10:00 的 250 亿美元 30 年期美债拍卖，先看中标收益率相对拍卖前报价的差，再看长端与信用利差。若财政融资扩大、长债供给增加而承接不足，期限溢价可能上升。11 月 13 日美西 05:30 看 10 月 PPI；本期未核实新的 CPI、PCE、工资、Fed 决议、点阵图或可比信用利差与资金流读数。",
+          "tags": [
+            "初请",
+            "Fed",
+            "美债",
+            "期限溢价",
+            "PPI"
+          ],
+          "sources": [
+            {
+              "title": "美国劳工部｜初请原始公告",
+              "url": "https://www.dol.gov/sites/dolgov/files/OPA/newsreleases/ui-claims/20261694.pdf"
+            },
+            {
+              "title": "MarketWatch｜初请共识",
+              "url": "https://www.marketwatch.com/livecoverage/stock-market-today-nasdaq-sp500-down-nvidia-dive-huang-affair-ouster-dow-flat/card/stocks-set-to-fall-after-resignation-of-nvidia-ceo-and-release-of-latest-jobless-claims-data-l3r75qVSnXvP0kzbmLBE"
+            },
+            {
+              "title": "Saxo｜债券早盘",
+              "url": "https://www.home.saxo/content/articles/macro/market-quick-take---nvidia-stumble-weighs-on-sentiment---12-november-2026-12112026"
+            },
+            {
+              "title": "Reuters｜美股早盘",
+              "url": "https://www.reuters.com/business/nasdaq-futures-fall-nvidia-turmoil-rattles-ai-stocks-2026-11-12/"
+            },
+            {
+              "title": "美国财政部｜拍卖公告",
+              "url": "https://home.treasury.gov/news/press-releases/sb0678"
+            },
+            {
+              "title": "BLS｜数据日历",
+              "url": "https://www.bls.gov/schedule/2026/11_sched.htm"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-12-am-nvda",
+          "category": "semi",
+          "title": "黄仁勋即刻辞任，英伟达 CFO 出任临时 CEO",
+          "status": "董事会正式公告；出口规则变动仍待正式文本",
+          "importance": "高",
+          "body": [
+            "英伟达 11 月 12 日确认，黄仁勋辞去总裁、CEO 及董事职务，即刻生效。Colette Kress 兼任临时 CEO 与 CFO；Harvey C. Jones 出任董事会主席，董事会将遴选正式继任者。公司维持 11 月 17 日美西约 13:20 发布财报的安排。",
+            "出口政策方面，参议员 Warren 和 Coons 的公开信要求有关部门保留出口管制及转运相关记录；Reuters 另据匿名信源报道，部分中国 AI 公司在寻求锁定境外算力。前者是监督动作，后者是媒体报道，均不能当作已生效的新限制。"
+          ],
+          "whyImportant": "治理变化先抬高 NVDA 的不确定性；公司公告未确认路线图、订单或客户融资条件变化。若远程算力访问限制最终落地，还可能改变云商的客户范围和产能利用率。",
+          "investmentImpact": "11 月 17 日重点核对订单、产品交付和客户投资或融资安排。对 AMD、AVGO 及先进封装供应链，等客户确认采购变化；对出口限制，以正式规则文本、生效日和适用范围为准。",
+          "tags": [
+            "NVDA",
+            "AMD",
+            "AVGO",
+            "治理",
+            "出口管制"
+          ],
+          "sources": [
+            {
+              "title": "英伟达｜董事会公告",
+              "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/6af5c3cc3d6332f541088655/"
+            },
+            {
+              "title": "美国参议院｜公开信",
+              "url": "https://www.banking.senate.gov/imo/media/doc/20261111_warren_coons_letter_to_wh_commerce_state_re_nvidia_record_retentionpdf.pdf"
+            },
+            {
+              "title": "Reuters｜境外算力报道",
+              "url": "https://www.reuters.com/world/china/chinese-ai-firms-rush-secure-nvidia-chip-capacity-spy-scandal-stirs-fear-us-2026-11-12/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-12-am-nbis",
+          "category": "ai",
+          "title": "Nebius 季度营收增长 571%，产能延期拖累全年指引",
+          "status": "11 月 12 日公司财报；后续收入、资本开支及融资覆盖为管理层预测",
+          "importance": "高",
+          "body": [
+            "Nebius 第三季集团营收约 9.81 亿美元，同比增 571%。部分第三方产能从今年推迟到 2027 年上半年，2026 年收入预计落在原 30 亿–34 亿美元区间的低端。公司预计 2026 年资本开支约 270 亿美元；2027 年初步预期为营收 120 亿–130 亿美元、资本开支 400 亿–450 亿美元。"
+          ],
+          "whyImportant": "收入确认随产能投运推迟，但建设和融资需求仍高。管理层预计预付款及以现有合同为基础的资产支持融资可覆盖 2027 年资本开支的 75%–85%；这是预测，不能视为现金已到账。",
+          "investmentImpact": "对 NBIS、CRWV 及芯片供应链，分开追踪客户付款、融资关闭及利差、设备交付、通电和验收。用实际上线并产生收入的容量检验需求，不把资本开支直接换算成当季 GPU 收入。",
+          "tags": [
+            "NBIS",
+            "CRWV",
+            "资本开支",
+            "产能延期",
+            "客户预付款"
+          ],
+          "sources": [
+            {
+              "title": "Nebius｜财报公告及股东信",
+              "url": "https://nebius.com/newsroom/nebius-reports-third-quarter-2026-financial-results"
+            },
+            {
+              "title": "Nebius｜股东信",
+              "url": "https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf"
+            },
+            {
+              "title": "Reuters｜产能延期及开支",
+              "url": "https://www.reuters.com/technology/nebius-beats-quarterly-revenue-estimates-strong-ai-demand-2026-11-12/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-12-am-energy",
+          "category": "macro",
+          "title": "原油由跌转升，美伊谈判预期反复",
+          "status": "盘中报价与公开表态；未核实停火或霍尔木兹恢复正常通航",
+          "importance": "中",
+          "body": [
+            "Reuters 报 Brent 与 WTI 在亚洲时段一度均跌逾 1 美元，随后收复跌幅；美西 06:25，Brent 为 93.40 美元/桶，WTI 为 86.54 美元/桶。特朗普称美国并不需要与伊朗达成协议。早盘未核实可与昨晚结算对比的新美国天然气报价。"
+          ],
+          "whyImportant": "外交措辞能迅速改变油价风险溢价；要影响通胀和科技股折现率，仍要看供应扰动是否持续，以及长端收益率是否跟涨。",
+          "investmentImpact": "跟踪霍尔木兹实际通航与保险费；不要用单次油价反弹推断天然气或 Fed 路径。",
+          "tags": [
+            "Brent",
+            "WTI",
+            "霍尔木兹",
+            "伊朗",
+            "能源通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜油价反转及表态",
+              "url": "https://www.reuters.com/business/energy/oil-prices-drop-more-than-1-hopes-iran-ukraine-peace-talks-pressure-markets-2026-11-12/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-12-am-japan",
+          "category": "macro",
+          "title": "日本央行委员反对过早加息，日元逼近 160",
+          "status": "委员讲话及外汇市场报价；无新利率决定或实际干预确认",
+          "importance": "中",
+          "body": [
+            "日本央行委员浅田统一郎在 11 月 12 日讲话中警告过早加息可能削弱增长及基础通胀。Reuters 报美元兑日元盘中一度到 159.945；日本财务省官员提醒市场不要忘记夏季干预。这是口头警告，未核实新的实际干预。"
+          ],
+          "whyImportant": "昨晚的批发通胀意外和今早的谨慎讲话并存，12 月加息仍有不确定性。日元快速反弹可能迫使部分套息仓位平仓；日债收益率持续上行也可能吸引资金回流，影响全球风险资产。",
+          "investmentImpact": "看 JGB 曲线、汇率对冲成本及实际跨境资金流。本期没有证据把日元的盘中变化归因于资金回流。",
+          "tags": [
+            "BOJ",
+            "日元",
+            "JGB",
+            "套息交易"
+          ],
+          "sources": [
+            {
+              "title": "日本央行｜浅田统一郎讲话",
+              "url": "https://www.boj.or.jp/en/about/press/koen_2026/data/ko261112a1.pdf"
+            },
+            {
+              "title": "Reuters｜日元报价与口头警告",
+              "url": "https://www.reuters.com/world/asia-pacific/dollar-near-one-month-high-yen-edges-toward-160-2026-11-12/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-12-am-robot",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：Avride 日均配送超过 6,500 单",
+          "status": "母公司披露实际运营量；未披露付费比例、接管率或单笔成本",
+          "importance": "中",
+          "body": [
+            "Nebius 股东信披露，旗下 Avride 第三季日均配送超过 6,500 单，为去年同期三倍以上；截至季末累计配送超过 80 万单。这是配送机器人运营数据；完全无安全员的 Robotaxi 运营仍是 2027 年上半年计划。"
+          ],
+          "whyImportant": "实际完成的配送量说明业务已在真实场景扩张，但订单量不能说明每笔收入、毛利、在线率或人工接管成本，也不能外推到人形机器人。",
+          "investmentImpact": "优先看付费订单占比、每台日均有效配送、每百单人工接管次数和单笔成本。本期未核实零样本泛化、跨本体迁移、触觉与力控、数据效率、关键部件成本或宇树新量产定点的可比新增。",
+          "tags": [
+            "Avride",
+            "NBIS",
+            "配送机器人",
+            "运营规模",
+            "接管率"
+          ],
+          "sources": [
+            {
+              "title": "Nebius｜股东信 Avride 运营数据",
+              "url": "https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-11-pm",
       "date": "2026-11-11",
       "period": "pm",
