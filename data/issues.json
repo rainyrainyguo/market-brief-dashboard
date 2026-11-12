@@ -4,6 +4,204 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-11-pm",
+      "date": "2026-11-11",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-11T19:00:00-08:00",
+      "summary": "芯片反弹延续到收盘，费城半导体指数涨约 5.7%，但美元走强，长端美债仍待复市检验。日本批发通胀高于预期；原油收高、美国天然气由涨转跌。Meta 确认基础设施负责人交接，均胜电子披露向宇树交付首套控制模块，量产和付费部署仍待验证。",
+      "cards": [
+        {
+          "id": "2026-11-11-pm-market",
+          "category": "macro",
+          "title": "宏观 / 市场环境：芯片领涨，美元同步走强",
+          "status": "11 月 11 日美股收盘及外汇报价；加息仍属市场预期",
+          "importance": "高",
+          "body": [
+            "标普 500 涨 1.31%，纳指综合涨 1.60%，道指涨 0.49%。费城半导体指数涨约 5.7%，成分股全涨；CoreWeave 收涨 24.7%，高于早报所列盘前约 14% 的涨幅。Reuters 报美元指数触及 2025 年 4 月以来最高位，纽约午盘美元兑日元约 159.80。美国国债现券休市，没有可比的新收盘收益率。"
+          ],
+          "whyImportant": "芯片上涨与美元走强并存，说明市场可以同时调高对算力需求的判断和对 Fed 加息的预期。股价普涨不能证明有净资金流入，也不能说明信用利差已收窄。",
+          "investmentImpact": "11 月 12 日美西 10:00 看 250 亿美元 30 年期美债拍卖，比较中标收益率和拍卖前报价。若财政融资需求增加、长债承接偏弱，期限溢价和长端收益率可能抬升，压缩高估值科技股倍数。11 月 13 日美西 05:30 看 10 月 PPI。窗口内未核实新的美国 CPI、PCE、就业或工资数据、Fed 决议或点阵图，也未核实选后新财政、贸易、关税或科技监管措施已生效。",
+          "tags": [
+            "SOX",
+            "CRWV",
+            "美元",
+            "Fed",
+            "美债拍卖",
+            "期限溢价"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美股收盘",
+              "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/"
+            },
+            {
+              "title": "Reuters｜美元综述",
+              "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-11-11/"
+            },
+            {
+              "title": "Reuters 经 MarketScreener 转载｜债汇报价",
+              "url": "https://www.marketscreener.com/news/stocks-gain-as-coreweave-eases-worries-dollar-strengthens-ce785edbde80f62d"
+            },
+            {
+              "title": "美国财政部｜再融资公告",
+              "url": "https://home.treasury.gov/news/press-releases/sb0678"
+            },
+            {
+              "title": "BLS｜数据日历",
+              "url": "https://www.bls.gov/schedule/2026/11_sched.htm"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-11-pm-japan",
+          "category": "macro",
+          "title": "日本 10 月批发通胀升至 7.1%，高于预期",
+          "status": "日本央行初值；12 月加息仍是分析师预期",
+          "importance": "高",
+          "body": [
+            "日本央行 11 月 12 日东京 08:50（美西 11 日 15:50）公布，10 月企业商品价格指数同比涨 7.1%，高于 9 月的 6.8% 和 Reuters 调查预期的 6.5%。石油与煤炭制品同比涨 15.9%，前月为 11.5%。"
+          ],
+          "whyImportant": "企业投入价格升温会增加日本央行继续加息的理由，但批发价格并非居民 CPI；12 月升至 1.50% 是市场预期，尚无新决定。",
+          "investmentImpact": "若日债收益率持续上行，且对冲后持有海外债券的回报优势缩小，日本投资者可能增配本国债券，收紧全球风险资产的资金环境。继续看 JGB 曲线、汇率对冲成本和实际跨境流量；本期未确认资金回流。",
+          "tags": [
+            "BOJ",
+            "日本批发通胀",
+            "JGB",
+            "日元",
+            "跨境资金流"
+          ],
+          "sources": [
+            {
+              "title": "日本央行｜10 月企业商品价格指数",
+              "url": "https://www.boj.or.jp/en/statistics/pi/cgpi_release/cgpi2610.pdf"
+            },
+            {
+              "title": "Reuters｜共识及分项",
+              "url": "https://www.reuters.com/world/asia-pacific/japan-wholesale-inflation-accelerates-keeps-alive-boj-rate-hike-view-2026-11-12/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-11-pm-energy",
+          "category": "macro",
+          "title": "原油收涨，美国天然气由涨转跌",
+          "status": "11 月 11 日期货结算；未核实停火或恢复正常通航",
+          "importance": "中",
+          "body": [
+            "Brent 结算涨 1.39% 至 92.76 美元/桶，WTI 涨 0.57% 至 86.53 美元/桶。NYMEX 美国天然气结束三连涨，结算跌 2.5% 至 3.215 美元/百万英热单位，反转了早报所记的盘中上涨。"
+          ],
+          "whyImportant": "霍尔木兹运输风险仍可能通过油价、运费和通胀预期传到长端利率，压缩科技股估值；美国天然气收跌说明两类能源价格不能合并成同一个通胀信号。",
+          "investmentImpact": "继续看油轮通行、保险成本和供应是否恢复。把原油与天然气的结算分别跟踪，避免用单一能源报价推断 Fed 路径。",
+          "tags": [
+            "Brent",
+            "WTI",
+            "天然气",
+            "霍尔木兹",
+            "通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜原油结算",
+              "url": "https://www.reuters.com/business/energy/oil-rises-two-month-low-hormuz-shipping-attacks-offset-iran-truce-hopes-2026-11-11/"
+            },
+            {
+              "title": "WSJ｜美国天然气结算",
+              "url": "https://www.wsj.com/finance/commodities-futures/european-ttf-gas-rises-as-storage-withdrawals-accelerate-569c8aab"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-11-pm-memory",
+          "category": "semi",
+          "title": "闪迪涨 13.69%、美光涨 11.89%，存储反弹仍待报价验证",
+          "status": "11 月 11 日收盘；未核实公司上调指引",
+          "importance": "高",
+          "body": [
+            "闪迪收报 977.69 美元，涨 13.69%；美光收报 811.30 美元，涨 11.89%。这是早报之后的收盘确认；当日芯片板块普涨。市场关注 AI 基础设施需求，本期未核实闪迪就 NAND 合同价、出货量或毛利率上调指引。"
+          ],
+          "whyImportant": "存储股反弹说明市场重新评估近期的需求担忧，但对 NAND、DRAM 和 HBM 的供需判断需要不同证据。算力租赁商的业绩不能直接推导闪存定价。",
+          "investmentImpact": "对 SNDK、MU、SK 海力士，优先跟踪企业级 SSD 出货与 NAND 合同价，以及 DRAM/HBM 合同价和新增产能兑现节奏。若价格与出货未同步改善，单日涨幅不足以确认利润率拐点。",
+          "tags": [
+            "SNDK",
+            "MU",
+            "SK 海力士",
+            "NAND",
+            "DRAM",
+            "HBM"
+          ],
+          "sources": [
+            {
+              "title": "Yahoo Finance｜闪迪收盘价",
+              "url": "https://uk.finance.yahoo.com/quote/SNDK/"
+            },
+            {
+              "title": "Yahoo Finance｜美光收盘价",
+              "url": "https://finance.yahoo.com/quote/MU/?p=MU"
+            },
+            {
+              "title": "MarketWatch｜闪迪与行业反弹",
+              "url": "https://www.marketwatch.com/story/sandisks-stock-is-soaring-and-these-three-trends-could-send-it-even-higher-b0d7d5ec"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-11-pm-meta",
+          "category": "ai",
+          "title": "Meta 确认基础设施负责人交接",
+          "status": "公司发言人确认人事安排；未披露新资本开支指引",
+          "importance": "中",
+          "body": [
+            "Meta 向 TechCrunch 确认，基础设施负责人兼工程联席主管 Santosh Janardhan 将卸任，由曾在 AWS 任职的 Dave Brown 接任；Janardhan 会参与交接并转任 Meta Compute 顾问。Bloomberg 据内部备忘录报道，卸任预计在 2027 年初。"
+          ],
+          "whyImportant": "交接发生在数据中心扩建阶段。对未来 1–12 个月更有意义的是电力、设备交付和自研芯片部署能否按期推进；人事变动本身不足以推断投资缩减。",
+          "investmentImpact": "跟踪 META 下一次资本开支指引、数据中心投运节点和自研芯片与外购 GPU 的部署节奏，再评估对 NVDA 和供应链的影响。",
+          "tags": [
+            "META",
+            "数据中心",
+            "资本开支",
+            "自研芯片"
+          ],
+          "sources": [
+            {
+              "title": "TechCrunch｜Meta 发言人确认",
+              "url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/"
+            },
+            {
+              "title": "Bloomberg｜内部备忘录",
+              "url": "https://news.bloomberglaw.com/ip-law/metas-head-of-infrastructure-engineering-to-step-down-in-2027"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-11-pm-robot",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：均胜向宇树交付首套机器人控制模块",
+          "status": "供应商公告；未披露付费、验收、定点规模或量产",
+          "importance": "中",
+          "body": [
+            "均胜电子在美西 11 月 11 日 16:59 发布公告，称已于 11 月 10 日向宇树交付首套高性能机器人控制模块，厂商称之为「机器人大脑背包」。这是供应商首次交付的披露；未核实客户验收、付费、批量采购或成本改善。"
+          ],
+          "whyImportant": "首套部件交付比演示更能说明合作进入产品集成阶段，但还不能据此确认量产定点、稳定订单或终端客户部署。",
+          "investmentImpact": "看宇树是否确认验收、批量采购、单位成本和现场运行。零样本泛化、跨本体迁移、触觉与力控、训练数据效率、人工干预率、可用率及付费部署均未核实可比新增。",
+          "tags": [
+            "宇树",
+            "均胜电子",
+            "硬件集成",
+            "量产",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "均胜电子经 PR Newswire 发布｜首套交付",
+              "url": "https://www.prnewswire.com/apac/news-releases/joyson-electronics-delivered-first-high-performance-robotic-brain-backpack-to-unitree-robotics-302937091.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-11-am",
       "date": "2026-11-11",
       "period": "am",
