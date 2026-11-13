@@ -4,6 +4,223 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-13-am",
+      "date": "2026-11-13",
+      "period": "am",
+      "time": "08:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-13T08:00:00-08:00",
+      "summary": "美国 PPI 月涨幅低于预期，但同比加快至 6.5%，10 年期美债仍在 5.1% 上方。全球股票基金净流入主要由欧洲贡献。Cerebras 盘前上涨，Google 推出更低价的 Gemini 4 Hydrogen；机器人暂无可验证的量产或付费部署新增。",
+      "cards": [
+        {
+          "id": "2026-11-13-am-ppi",
+          "category": "macro",
+          "title": "美国 PPI 环比低于预期，同比却加快至 6.5%",
+          "status": "BLS 正式数据；美债为盘中报价，Fed 无新决议",
+          "importance": "高",
+          "body": [
+            "11 月 13 日公布的 10 月最终需求 PPI 环比涨 0.3%，低于 Reuters 调查预期的 0.4%；9 月环比修订为 1.4%。同比涨 6.5%，高于前月 6.3%。剔除食品、能源和贸易服务后环比仍涨 0.5%，同比涨 4.9%。《华尔街日报》报 10 年期美债收益率从数据前的 5.145% 回落至 5.127%，仍高于昨日财政部公布的 5.10%。"
+          ],
+          "whyImportant": "月度意外偏软缓解了加息压力，但同比加快、剔除三项后的月涨幅未降温。单次债券反应不能用来拆分 Fed 路径和期限溢价。",
+          "investmentImpact": "观察 11 月 25 日 10 月 PCE，以及 12 月 8–9 日 FOMC 与点阵图。若通胀不降、财政融资又推高长端供给，科技股仍面临估值压力。本期未核实新的 CPI、工资或就业报告，也没有新 Fed 决议。",
+          "tags": [
+            "PPI",
+            "PCE",
+            "美债",
+            "Fed",
+            "期限溢价"
+          ],
+          "sources": [
+            {
+              "title": "BLS｜10 月 PPI",
+              "url": "https://www.bls.gov/news.release/archives/ppi_11132026.htm"
+            },
+            {
+              "title": "Reuters｜PPI 共识",
+              "url": "https://www.reuters.com/business/us-producer-prices-rise-further-october-2026-11-13/"
+            },
+            {
+              "title": "WSJ｜美债盘中",
+              "url": "https://www.wsj.com/finance/jgb-yields-rise-after-selloff-in-u-s-treasurys-overnight-1eeb83e2"
+            },
+            {
+              "title": "美国财政部｜收益率曲线",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value_month=202611&type=daily_treasury_yield_curve"
+            },
+            {
+              "title": "BEA｜PCE 日程",
+              "url": "https://www.bea.gov/news/schedule/"
+            },
+            {
+              "title": "Fed｜FOMC 日历",
+              "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-13-am-flows",
+          "category": "macro",
+          "title": "股票基金净流入由欧洲领跑，日元一度跌破 160",
+          "status": "周度基金统计与盘中汇率；日本官员仅作口头警告",
+          "importance": "中",
+          "body": [
+            "Reuters 援引 LSEG Lipper：截至 11 月 11 日一周，全球股票基金净流入 509.9 亿美元，其中欧洲 351.3 亿、美国 66 亿；全球债券基金净流出约 5.08 亿美元。美元兑日元一度突破 160，日本财务大臣片山皋月表示准备采取行动；本期未核实新的实际干预。"
+          ],
+          "whyImportant": "全球股票资金回流主要流向欧洲，不能解读为资金普遍回流美股科技。日元急升可能触发套息仓位平仓；若日债收益率持续上升且海外债券对冲后回报优势缩小，日本资金也可能回流。",
+          "investmentImpact": "看美元兑日元、JGB 曲线及日本投资者跨境交易数据；本期未核实新的资金回流或可比信用利差读数。",
+          "tags": [
+            "基金流向",
+            "美元",
+            "日元",
+            "JGB",
+            "套息交易"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜LSEG Lipper 周度基金流",
+              "url": "https://www.reuters.com/business/finance/global-markets-flows-graphic-2026-11-13/"
+            },
+            {
+              "title": "Reuters｜日元与口头警告",
+              "url": "https://www.reuters.com/markets/us/japans-finance-minister-vows-action-yen-breaches-160-threshold-2026-11-13/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-13-am-oil",
+          "category": "macro",
+          "title": "IEA 预计四季度原油转向过剩，霍尔木兹仍有风险",
+          "status": "IEA 供需预测；油气为盘中报价",
+          "importance": "中",
+          "body": [
+            "IEA 11 月 13 日报告称，海湾出口持续恢复，其供需平衡表预计全球原油市场四季度回到供应过剩。Reuters 报美西昨晚 18:42，Brent 期货为 95.41 美元/桶、WTI 为 88.52 美元/桶；美方计划维持对伊朗的封锁，未核实停火。WSJ 报美国天然气期货今早回吐部分涨幅。"
+          ],
+          "whyImportant": "总供应改善可以压低中期油价，但海运中断仍可能通过油价、运费和通胀预期抬高美债收益率，压缩科技估值。美国天然气有独立的天气和库存驱动。",
+          "investmentImpact": "分别看油轮通行和保险费、美国天然气库存及期货结算；不要把供需预测当作通航恢复。",
+          "tags": [
+            "IEA",
+            "Brent",
+            "WTI",
+            "霍尔木兹",
+            "天然气"
+          ],
+          "sources": [
+            {
+              "title": "IEA｜11 月油市报告",
+              "url": "https://www.iea.org/reports/oil-market-report-november-2026"
+            },
+            {
+              "title": "Reuters｜油价与封锁",
+              "url": "https://www.investing.com/news/commodities-news/oil-prices-set-for-second-weekly-decline-as-trump-to-stay-with-iran-blockade-5024008"
+            },
+            {
+              "title": "WSJ｜天然气早盘",
+              "url": "https://www.wsj.com/finance/commodities-futures/u-s-natural-gas-futures-return-some-gains-1b28586d"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-13-am-cbrs",
+          "category": "semi",
+          "title": "Cerebras 盘前涨约 17%，推理收入增长但仍亏损",
+          "status": "盘前报价；财报为昨晚发布、上期未覆盖",
+          "importance": "高",
+          "body": [
+            "Barron’s 报 Cerebras 今晨盘前一度涨约 17%。公司第三季 GAAP 营收 2.108 亿美元，同比增 55%；云与其他服务收入 1.419 亿美元，增 265%，但 GAAP 营业利润率为负 106%。第四季非 GAAP 核心营收指引为 3.10 亿–3.30 亿美元。"
+          ],
+          "whyImportant": "专用推理芯片有实际云收入增长支撑，但高增速与亏损并存，非 GAAP 指标和 GAAP 不能混读。",
+          "investmentImpact": "对 CBRS、NVDA 和 AMD，重点看新增客户实际用量、客户集中度和每单位推理成本；单日涨幅不足以确认份额转移。",
+          "tags": [
+            "CBRS",
+            "NVDA",
+            "AMD",
+            "推理芯片"
+          ],
+          "sources": [
+            {
+              "title": "Cerebras｜财报原文",
+              "url": "https://investors.cerebras.ai/news-releases/news-release-details/cerebras-systems-delivers-record-revenue-third-quarter-2026"
+            },
+            {
+              "title": "Barron’s｜盘前报价",
+              "url": "https://www.barrons.com/articles/cerebras-earnings-stock-price-3bad09cc"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-13-am-china",
+          "category": "semi",
+          "title": "Reuters 梳理逾 30 亿美元涉受限英伟达芯片的中国项目",
+          "status": "媒体据项目记录整理；无新限制生效确认",
+          "importance": "中",
+          "body": [
+            "Reuters 11 月 13 日披露，梳理出逾 30 亿美元的中国算力项目，涉及受美国出口限制的英伟达芯片；样本含规划投资、已授标项目及运营中的设施。"
+          ],
+          "whyImportant": "这为受限算力需求提供了项目层面的新证据。项目总额混合不同阶段和支出，不能当作英伟达收入、已完成出货或已经确认的损失。",
+          "investmentImpact": "观察是否有正式规则覆盖境外远程算力、何时生效、由谁合规；在正式文本出现前，不把收紧预期当作已执行政策。",
+          "tags": [
+            "NVDA",
+            "出口管制",
+            "中国算力"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜项目调查",
+              "url": "https://www.reuters.com/world/china/huang-exit-us-scrutiny-imperil-3-billion-chinese-ai-projects-reliant-nvidia-2026-11-13/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-13-am-google",
+          "category": "ai",
+          "title": "Google 推出 Gemini 4 Hydrogen，按任务切换模型",
+          "status": "Google 11 月 12 日公告；测试结果为厂商披露",
+          "importance": "中",
+          "body": [
+            "Google 宣布 Gemini 4 Hydrogen 开始面向开发者、企业和消费者推出，API 每百万输入和输出 token 分别定价 1.50 和 7.50 美元。Antigravity Orchestrator 可在同一会话切换模型；Google 称一项 Terminal-Bench 4.0 测试接近 Carbon 的成功率，平均少用 24% 配额、快 19%。"
+          ],
+          "whyImportant": "低价模型可承接重复执行，把复杂判断留给更强模型。配额降幅是单项测试结果，不能等同于生产账单降幅。",
+          "investmentImpact": "对 Alphabet 和模型供应商，跟踪每个成功任务的总成本、重试率和延迟；低价可能增加用量，但不能直接推导总算力需求。",
+          "tags": [
+            "GOOGL",
+            "Gemini",
+            "模型路由",
+            "推理价格"
+          ],
+          "sources": [
+            {
+              "title": "Google｜发布、定价与测试",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-13-am-robot",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：未见可验证的新付费部署",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "ASUS 披露 Gallop 在集团工厂的真实工位学习，客户试点计划在 2027 年，目标 2028 年下半年上市；未提供足以比较的接管率、在线率、单位成本或付费部署数据。"
+          ],
+          "whyImportant": "真实工位训练有助于对准任务，但没有持续生产数据，就不能判断可靠性、训练效率或经济性。",
+          "investmentImpact": "继续跟踪每班接管次数、有效工时成本、客户验收与续单。本期未核实零样本泛化、跨本体迁移、触觉与力控、数据效率或关键零件成本的可比突破。",
+          "tags": [
+            "ASUS",
+            "Physical AI",
+            "接管率",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "ASUS｜工位训练与试点计划",
+              "url": "https://press.asus.com/blog/factory-proven-physical-ai-asus-gallop-humanoid-robot/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-12-pm",
       "date": "2026-11-12",
       "period": "pm",
