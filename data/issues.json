@@ -4,6 +4,211 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-12-pm",
+      "date": "2026-11-12",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-12T19:00:00-08:00",
+      "summary": "10 年期美债升至 5.10%，美国 10 月赤字创同期纪录，Brent 收涨 3.3%；科技股回落但芯片股分化。应用材料和思科的指引显示，设备与 AI 网络需求仍强。GXO 扩大人形机器人试点，最多 1,000 台是有条件目标。",
+      "cards": [
+        {
+          "id": "2026-11-12-pm-rates",
+          "category": "macro",
+          "title": "美债 10 年期升破 5%，10 月财政赤字创同期纪录",
+          "status": "官方拍卖及收益率；12 月加息是市场定价",
+          "importance": "高",
+          "body": [
+            "11 月 12 日美国财政部公布，250 亿美元 30 年期国债拍卖最高中标收益率为 5.441%，投标倍数 2.36；中标收益率比发行前交易报价高约 0.4 个基点。财政部当日 2 年、10 年和 30 年期收益率分别为 4.86%、5.10% 和 5.43%，较 11 月 10 日升 13、12 和 8 个基点。10 月财政赤字约 4,040 亿美元，同比增 42%；剔除支付日期错位后约 2,850 亿美元，仍增 49%。Reuters 报美元触及约 19 个月高位，市场已计入 12 月至少加息 25 个基点。"
+          ],
+          "whyImportant": "短端也明显上行，说明不能把长端涨幅全归因于财政供给或期限溢价。赤字持续扩大若带来更多长债发行，而买盘未同步增加，才可能进一步推高期限溢价和科技股折现率。",
+          "investmentImpact": "11 月 13 日美西 05:30 看美国 10 月 PPI。若长端利率和信用利差同时上升，高估值科技股和高杠杆算力商压力更大。本期没有核实新 Fed 决议或点阵图、新 CPI、PCE、工资、信用利差或跨境资金流读数，也未确认选后新关税或科技监管已经生效。",
+          "tags": [
+            "美债",
+            "财政赤字",
+            "期限溢价",
+            "美元",
+            "Fed",
+            "PPI"
+          ],
+          "sources": [
+            {
+              "title": "美国财政部｜30 年期拍卖结果",
+              "url": "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/R_20261112_4.pdf"
+            },
+            {
+              "title": "Helious｜发行前报价比较",
+              "url": "https://helious.io/auctions/30-year-bond"
+            },
+            {
+              "title": "美国财政部｜11 月收益率曲线",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value_month=202611&type=daily_treasury_yield_curve"
+            },
+            {
+              "title": "Reuters｜财政赤字",
+              "url": "https://www.reuters.com/business/us-starts-2027-fiscal-year-with-record-october-budget-deficit-404-billion-2026-11-12/"
+            },
+            {
+              "title": "Reuters｜美元",
+              "url": "https://www.reuters.com/world/asia-pacific/dollar-near-one-month-high-yen-edges-toward-160-2026-11-12/"
+            },
+            {
+              "title": "Reuters｜Fed 市场定价",
+              "url": "https://www.reuters.com/business/nasdaq-futures-fall-nvidia-turmoil-rattles-ai-stocks-2026-11-12/"
+            },
+            {
+              "title": "BLS｜PPI 日历",
+              "url": "https://www.bls.gov/schedule/2026/11_sched.htm"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-12-pm-energy",
+          "category": "macro",
+          "title": "Brent 收涨 3.3%，美国天然气涨 3.9%",
+          "status": "期货结算；部分袭击细节为当事方说法",
+          "importance": "高",
+          "body": [
+            "Brent 结算涨 3.3% 至 95.82 美元/桶，WTI 涨 2.6% 至 88.74 美元/桶，均高于早报盘中价。Reuters 报道沙特能源设施遭袭及霍尔木兹运输受扰；伊朗军方关于四艘油轮遭爆炸的说法未获 Reuters 独立核实。NYMEX 美国天然气结算涨 3.9% 至 3.340 美元/百万英热单位，寒冷天气预期和 LNG 出口需求提供支撑。"
+          ],
+          "whyImportant": "霍尔木兹若持续受阻，油价和运费可能推高通胀预期，进而抬升美债收益率并压缩科技估值。美国天然气同时上涨有自身供需原因，不能全归于中东。",
+          "investmentImpact": "观察实际通航、保险费和可交付供应。日本方面，《华尔街日报》报 10 年期日债一度降约 3 个基点至 2.760%；若日债收益率未来持续上行且对冲后的海外债券回报优势缩小，才可能推动资金回流。现有报价不能证明回流。",
+          "tags": [
+            "Brent",
+            "WTI",
+            "天然气",
+            "霍尔木兹",
+            "JGB"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜油价与袭击核实状态",
+              "url": "https://www.reuters.com/business/energy/oil-prices-drop-more-than-1-hopes-iran-ukraine-peace-talks-pressure-markets-2026-11-12/"
+            },
+            {
+              "title": "WSJ｜美国天然气结算",
+              "url": "https://www.wsj.com/finance/commodities-futures/u-s-natural-gas-futures-pick-up-as-cold-spell-nears-b99c70a2"
+            },
+            {
+              "title": "WSJ｜日债盘中报价",
+              "url": "https://www.wsj.com/finance/jgb-yields-fall-as-hopes-for-accelerated-boj-tightening-eases-3eeccda2"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-12-pm-amat",
+          "category": "semi",
+          "title": "应用材料创季度营收纪录，下季指引中值高于共识",
+          "status": "公司正式财报；指引是预测",
+          "importance": "高",
+          "body": [
+            "应用材料第四财季营收 104.1 亿美元，同比增 53%；调整后每股收益 4.16 美元。下季营收指引 111 亿美元、上下浮动 5 亿美元，高于 LSEG 汇总的 108.9 亿美元共识；调整后每股收益指引为 4.35 美元、上下浮动 0.20 美元。"
+          ],
+          "whyImportant": "这为晶圆制造设备需求提供了供应商实际收入和前瞻数据，但没有直接证明每类存储芯片的售价或利润率会继续上升。",
+          "investmentImpact": "对 AMAT 及设备同业，观察先进制程、DRAM/HBM 和封装设备订单能否转为交付，以及中国收入和出口限制。对 MU、SNDK，仍需分别跟踪 DRAM 与 NAND 合同价、出货和新增产能。",
+          "tags": [
+            "AMAT",
+            "半导体设备",
+            "先进制程",
+            "HBM",
+            "NAND"
+          ],
+          "sources": [
+            {
+              "title": "应用材料｜官方财报",
+              "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-fourth-quarter-and-fiscal-year-2026"
+            },
+            {
+              "title": "Reuters｜LSEG 共识",
+              "url": "https://www.reuters.com/business/applied-materials-forecasts-quarterly-revenue-above-estimates-strong-ai-chip-2026-11-12/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-12-pm-cisco",
+          "category": "ai",
+          "title": "思科上调超大规模云客户 AI 基础设施收入预期至 90 亿美元",
+          "status": "公司正式财报；90 亿美元是全年预测",
+          "importance": "高",
+          "body": [
+            "思科第一财季营收 185 亿美元，同比增 24%，调整后每股收益 1.40 美元。公司上调 2027 财年总营收指引至 748 亿–758 亿美元，并将超大规模云客户 AI 基础设施收入预期提高至 90 亿美元，超过上一财年两倍。"
+          ],
+          "whyImportant": "AI 建设需求也体现在网络设备。90 亿美元是管理层预计的收入，并非当季营收、新签订单金额或已收现金。",
+          "investmentImpact": "对 CSCO 及网络、光互连供应商，跟踪客户部署节奏、订单转收入、毛利和客户集中度，判断算力支出能否持续传到网络环节。",
+          "tags": [
+            "CSCO",
+            "AI 网络",
+            "超大规模云",
+            "光互连"
+          ],
+          "sources": [
+            {
+              "title": "思科｜官方财报及全年指引",
+              "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-reports-first-quarter-earnings.html"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-12-pm-close",
+          "category": "semi",
+          "title": "芯片股收盘分化：英伟达跌约 4.3%，AMD 与博通上涨",
+          "status": "11 月 12 日常规交易收盘；股价不是订单证据",
+          "importance": "中",
+          "body": [
+            "标普 500 跌 0.35%、纳指综合跌 0.39%、道指跌 0.36%。相比早报，新增是收盘表现：NVDA 跌约 4.3%，收复部分盘中跌幅；NBIS 跌 16.8%，AMD 与 AVGO 逆势上涨。Vanda Analytics 数据经 Reuters 报道，开盘半小时散户买入约 1.11 亿美元 NVDA 股票。"
+          ],
+          "whyImportant": "指数小跌掩盖了公司间的分化。散户买入是特定时段和投资者群体的数据，不能推断全市场净流入；竞争对手上涨也不等于客户已转单。",
+          "investmentImpact": "11 月 17 日看英伟达财报中的路线图、交付与客户采购；Nebius 则看延期产能能否按新时间表通电验收。",
+          "tags": [
+            "NVDA",
+            "NBIS",
+            "AMD",
+            "AVGO",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜收盘与个股分化",
+              "url": "https://www.reuters.com/business/nasdaq-futures-fall-nvidia-turmoil-rattles-ai-stocks-2026-11-12/"
+            },
+            {
+              "title": "Reuters 经 MarketScreener 转载｜散户交易统计",
+              "url": "https://uk.marketscreener.com/news/nasdaq-futures-fall-as-nvidia-turmoil-rattles-ai-stocks-ce785ed8da88fe27"
+            },
+            {
+              "title": "英伟达｜财报日期",
+              "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/6af5c3cc3d6332f541088655/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-12-pm-robot",
+          "category": "robot",
+          "title": "GXO 扩大 Apollo 仓库试点，最多 1,000 台仍待验证",
+          "status": "客户公告：签署意向书；无已确认的千台付费订单",
+          "importance": "中",
+          "body": [
+            "GXO 11 月 12 日宣布与 Apptronik 签署意向书，计划从 2027 年起在拣选、箱筐搬运、包装和分拣等真实流程扩大试点。若达到双方约定的生产率、安全和运营指标，双方拟以机器人即服务模式在四年内最多部署 1,000 台，首批计划于 2027 年末在北美部署。"
+          ],
+          "whyImportant": "客户列出了真实工作流程和扩张门槛，比演示更有参考价值。公告未公开指标阈值、付费承诺、已验收数量或硬件单位成本。",
+          "investmentImpact": "看每百次作业人工接管次数、在线率、每小时有效吞吐量和每单成本，再看试点能否转成付费扩单。本期未核实零样本泛化、跨本体迁移、触觉与力控、数据效率或关键零件成本的可比改善。",
+          "tags": [
+            "GXO",
+            "Apptronik",
+            "Apollo",
+            "仓储机器人",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "GXO｜客户官方公告",
+              "url": "https://investors.gxo.com/news-releases/news-release-details/gxo-and-apptronik-expand-partnership-scale-humanoid-deployment"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-12-am",
       "date": "2026-11-12",
       "period": "am",
