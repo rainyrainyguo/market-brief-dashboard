@@ -4,6 +4,204 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-14-am",
+      "date": "2026-11-14",
+      "period": "am",
+      "time": "08:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-14T08:00:00-08:00",
+      "summary": "周末新增的两项主要风险是霍尔木兹航运和中美政策走向：据报道，特朗普可能暂缓对伊朗新一轮打击，但伊方通报新的油轮事故，尚未获独立核实。中美已举行首次贸易理事会会议，未公布新的降税清单；微软确认服务全面恢复，机器人暂无可验证的新增商业指标。",
+      "cards": [
+        {
+          "id": "2026-11-14-am-hormuz",
+          "category": "macro",
+          "title": "美伊局势：据报美方可能暂缓打击，霍尔木兹航运风险未解除",
+          "status": "匿名信源及伊方单方通报；未确认停火或复航",
+          "importance": "高",
+          "body": [
+            "11 月 14 日，Reuters 援引知情人士称，若没有新的挑衅，特朗普可能暂缓对伊朗发动新一轮打击。同日，伊朗海军称一艘油轮在霍尔木兹海峡触雷起火；Reuters 未能独立核实。周六暂无新的可比常规交易结算，不把周五原油和天然气价格当作周末变动。"
+          ],
+          "whyImportant": "即使美方暂缓打击，船东仍要根据实际通航和保险条件决定是否装船。谈判消息与能源供应恢复是两个信号。",
+          "investmentImpact": "看实际通航量、油轮运费、保险费和周日开盘后的 Brent、WTI。若供应受阻推高油价及通胀预期，长端收益率可能给高估值科技股带来压力；海湾 LNG 运输与美国 Henry Hub 天然气价格应分别观察。",
+          "tags": [
+            "伊朗",
+            "霍尔木兹",
+            "Brent",
+            "WTI",
+            "天然气"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美方可能暂缓打击",
+              "url": "https://www.reuters.com/world/middle-east/trump-tells-advisers-he-may-hold-off-iran-attacks-barring-new-provocations-2026-11-14/"
+            },
+            {
+              "title": "Reuters｜伊方油轮事故通报",
+              "url": "https://www.reuters.com/world/middle-east/irans-navy-says-oil-tanker-fire-after-hitting-mine-hormuz-2026-11-14/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-14-am-trade",
+          "category": "macro",
+          "title": "中美贸易理事会首次开会，讨论对等降税",
+          "status": "商务部确认会议；未公布新税率或生效日",
+          "importance": "高",
+          "body": [
+            "中国商务部 11 月 14 日披露，双方 13 日以视频举行首次贸易理事会会议，讨论落实此前成果，包括双方各涉及 300 亿美元的对等降税安排及农产品贸易。Reuters 报道下周预计举行中美元首会晤；会议消息未给出新税率、产品清单或生效日。"
+          ],
+          "whyImportant": "会谈有助于评估贸易摩擦是否缓和。一般商品关税和先进芯片出口许可是两条政策线，不能由其中一条推断另一条也会放宽。",
+          "investmentImpact": "关注会晤后是否有正式税目、生效日和执行文件。若关税实际下调，受影响进口品的成本和价格压力可能缓和；半导体对华收入预期仍取决于出口许可和规则。",
+          "tags": [
+            "中美贸易",
+            "关税",
+            "半导体",
+            "出口管制"
+          ],
+          "sources": [
+            {
+              "title": "中国商务部｜首次会议公告",
+              "url": "https://www.mofcom.gov.cn/syxwfb/art/2026/art_6d9023bbcdd04810a810ef2059ecad2f.html"
+            },
+            {
+              "title": "Reuters｜会晤预期",
+              "url": "https://www.reuters.com/world/china/china-us-discuss-tariffs-farm-trade-first-trade-council-meeting-2026-11-14/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-14-am-chips",
+          "category": "semi",
+          "title": "先进芯片出口：两党参议员要求收紧执行",
+          "status": "议员公开倡议；未核实有新增生效规则",
+          "importance": "高",
+          "body": [
+            "参议员 Lisa Blunt Rochester 和 John Curtis 公开要求美国商务部堵住先进 AI 芯片出口管制漏洞；AP 周六报道也梳理了国会对出口许可审查、芯片追踪和盟友协调的主张。相关信函及立法讨论不等于商务部已改规则。"
+          ],
+          "whyImportant": "中期选举后，跨党派的执法压力值得独立于关税谈判追踪。若许可条件、适用地区或核查要求改变，可能影响英伟达、AMD 等面向中国和经第三地交付的订单。",
+          "investmentImpact": "等 BIS 正式规则、适用范围与生效时间，再调整收入假设。11 月 17 日英伟达财报重点核对公司对受限市场收入、交付及客户融资的表述；本窗口未核实 Anthropic IPO 有新定价。",
+          "tags": [
+            "NVDA",
+            "AMD",
+            "BIS",
+            "中期选举后政策",
+            "Anthropic"
+          ],
+          "sources": [
+            {
+              "title": "美国参议院｜两党议员信函",
+              "url": "https://www.bluntrochester.senate.gov/wp-content/uploads/2026/11/Letter-to-Secretary-Lutnick-Re_-Gaps-in-AI-Chip-Export-Controls_FINAL-PDF.pdf"
+            },
+            {
+              "title": "AP｜出口政策报道",
+              "url": "https://apnews.com/article/nvidia-trump-xi-huang-ai-rivalry-aba7f92a1ec2f0f9e4b4da206d640d61"
+            },
+            {
+              "title": "英伟达｜财报日期",
+              "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/6af5c3cc3d6332f541088655/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-14-am-rates",
+          "category": "macro",
+          "title": "利率与流动性：下周看 Fed 纪要和长债标售",
+          "status": "官方日程；情景分析，非新数据或政策决定",
+          "importance": "中",
+          "body": [
+            "周末没有新的美国 CPI、PPI、PCE、就业、工资数据或 Fed 决议、点阵图；未核实美国赤字、期限溢价、美元、信用利差或资金流有新的可比读数，也未核实日本政府债务政策、JGB、日元或资金回流有新增可比证据。官方日程显示，11 月 18 日发布 10 月 FOMC 纪要、安排 20 年期美债标售；11 月 19 日续发 190 亿美元 10 年期 TIPS；下次 FOMC 会议为 12 月 8–9 日。"
+          ],
+          "whyImportant": "赤字融资若增加长债供给且需求跟不上，投资者可能要求更高期限溢价，推升长端利率。若 JGB 收益率上升并带来资金回流，全球风险资产流动性可能收紧；日元单日波动不足以证明回流。",
+          "investmentImpact": "观察标售需求、实际收益率、美元、USD/JPY 和信用利差是否同向恶化。FOMC 纪要反映上次会议，期货定价也不等于 Fed 承诺；高估值科技和高杠杆算力商对实际融资成本更敏感。",
+          "tags": [
+            "Fed",
+            "美债",
+            "期限溢价",
+            "JGB",
+            "美元",
+            "信用利差",
+            "资金流"
+          ],
+          "sources": [
+            {
+              "title": "Fed｜11 月日程",
+              "url": "https://www.federalreserve.gov/newsevents/2026-November.htm"
+            },
+            {
+              "title": "Fed｜12 月日程",
+              "url": "https://www.federalreserve.gov/newsevents/2026-december.htm"
+            },
+            {
+              "title": "美国财政部｜标售日程",
+              "url": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf"
+            },
+            {
+              "title": "美国财政部｜季度融资说明",
+              "url": "https://home.treasury.gov/news/press-releases/sb0678"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-14-am-microsoft",
+          "category": "ai",
+          "title": "微软确认 Microsoft 365 全面恢复",
+          "status": "公司确认恢复；财务影响未披露",
+          "importance": "中",
+          "body": [
+            "相较晚报的逐步恢复，微软现已确认剩余受影响客户和地区的服务恢复。事件涉及 Outlook、Teams、Copilot，OpenAI 与 Anthropic 的 Microsoft 365 连接也曾受阻。"
+          ],
+          "whyImportant": "故障显示，企业 AI 工作流即使使用不同模型，也可能依赖同一个邮件和协作平台。恢复消除了本次即时中断，但尚无法量化客户损失。",
+          "investmentImpact": "关注微软正式事故报告、服务补偿和企业是否推进跨供应商备援。现无足够依据调整微软或相关 AI 公司的收入预期。",
+          "tags": [
+            "MSFT",
+            "Microsoft 365",
+            "企业 AI",
+            "服务可靠性"
+          ],
+          "sources": [
+            {
+              "title": "AP｜微软确认全面恢复",
+              "url": "https://apnews.com/article/ca395c0f1e51af784b6d70afb6554f6a"
+            },
+            {
+              "title": "THERS｜微软事件通报转录",
+              "url": "https://thersac.icts.thers.ac.jp/hc/en-us/articles/64262985209881-November-13-2026-Microsoft-365-Outage-MO1550821-Restored"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-14-am-robot",
+          "category": "robot",
+          "title": "暂无能改变投资判断的机器人新增指标",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "过去半天未核实新的付费部署、客户定点、上线可靠性或硬件单位成本。近期重新流传的 Figure 03 宝马物流项目和 NEURA/E.ON 合作，原始披露早于本期窗口。"
+          ],
+          "whyImportant": "复传、演示和合作公告不足以证明量产经济性改善，也不能代替客户现场的持续运行数据。",
+          "investmentImpact": "继续跟踪未见任务零样本成功率、跨机型迁移、触觉／力控精细操作、单位任务训练数据、每百次人工接管、在线率、执行器／手／传感器／电池／减速器单位成本，以及有付款或定点证据的订单。",
+          "tags": [
+            "Physical AI",
+            "Figure",
+            "NEURA",
+            "实机可靠性",
+            "硬件成本",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜宝马项目原始披露（对照）",
+              "url": "https://www.figure.ai/news/f-03-at-bmw"
+            },
+            {
+              "title": "NEURA｜公司公告（对照）",
+              "url": "https://neura-robotics.com/news/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-13-pm",
       "date": "2026-11-13",
       "period": "pm",
