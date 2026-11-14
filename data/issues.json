@@ -4,6 +4,193 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-13-pm",
+      "date": "2026-11-13",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-13T19:00:00-08:00",
+      "summary": "10 年期美债收益率升至 5.15%，纳指跌 0.91%，费城半导体指数跌 3.4%，昨日逆势上涨的 AMD 和博通回落。Anthropic 路演认购据报强劲，尚未定价；OpenAI 确认调整机器人团队，实机商业指标仍待验证。",
+      "cards": [
+        {
+          "id": "2026-11-13-pm-rates",
+          "category": "macro",
+          "title": "美债 10 年期升至 5.15%，纳指收跌 0.91%",
+          "status": "财政部日度收益率与美股收盘；市场定价不是 Fed 决议",
+          "importance": "高",
+          "body": [
+            "11 月 13 日，财政部公布 2 年、10 年和 30 年期美债收益率分别为 4.88%、5.15% 和 5.47%，比昨日高 2、5 和 4 个基点。标普 500 跌 0.40%，纳指综合跌 0.91%，道指涨 0.10%；尽管周五回落，纳指全周仍涨 2.27%。相较早报，新增是 10 年期收益率高于数据发布后约 5.127% 的盘中读数。"
+          ],
+          "whyImportant": "低于预期的 PPI 月涨幅没有让长端利率回到昨收以下。长端涨幅超过短端，但这不能单独证明期限溢价上升；财政融资、通胀预期与债券买盘都可能影响长端。",
+          "investmentImpact": "看长端利率和信用利差是否同步上行，再判断高估值科技及高杠杆算力商的压力。本窗口未核实新的 CPI、PCE、就业、工资、Fed 决议、点阵图或已生效的新芯片出口限制；早报周度资金流不能当作当日流量。",
+          "tags": [
+            "纳指",
+            "美债",
+            "期限溢价",
+            "Fed",
+            "信用利差"
+          ],
+          "sources": [
+            {
+              "title": "美国财政部｜日度收益率",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value_month=202611&type=daily_treasury_yield_curve"
+            },
+            {
+              "title": "Reuters｜美股收盘",
+              "url": "https://www.reuters.com/business/nasdaq-futures-dip-nvidia-tumult-keeps-investors-edge-2026-11-13/"
+            },
+            {
+              "title": "WSJ｜PPI 后美债盘中报价",
+              "url": "https://www.wsj.com/finance/jgb-yields-rise-after-selloff-in-u-s-treasurys-overnight-1eeb83e2"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-13-pm-chips",
+          "category": "semi",
+          "title": "芯片股回吐涨幅：AMD 跌 8.8%，博通跌 4.8%",
+          "status": "11 月 13 日常规交易收盘",
+          "importance": "高",
+          "body": [
+            "费城半导体指数收跌 3.4%，AMD 跌 8.8%、博通跌 4.8%，均反转昨日逆势上涨；CoreWeave 和 Nebius 也收跌。"
+          ],
+          "whyImportant": "从昨日押注竞争对手受益，到今日相关标的一起回落，股价变化仍不足以证明客户采购或供应商份额已经变化。",
+          "investmentImpact": "11 月 17 日英伟达财报重点看客户采购、产品交付与融资安排。对 AMD、AVGO 及存储链，等订单、实际出货或合同价验证，不把板块跌幅直接解读为 AI 资本开支下修。",
+          "tags": [
+            "SOX",
+            "AMD",
+            "AVGO",
+            "NVDA",
+            "CRWV",
+            "NBIS"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜芯片与算力公司收盘",
+              "url": "https://www.reuters.com/business/nasdaq-futures-dip-nvidia-tumult-keeps-investors-edge-2026-11-13/"
+            },
+            {
+              "title": "英伟达｜财报日期",
+              "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/6af5c3cc3d6332f541088655/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-13-pm-anthropic",
+          "category": "ai",
+          "title": "Anthropic IPO 据报获约六倍认购，仍待定价",
+          "status": "Reuters 匿名信源；认购需求可变",
+          "importance": "高",
+          "body": [
+            "Reuters 11 月 13 日援引一名知情人士称，截至周四，Anthropic IPO 认购订单约为可售股数的六倍。Reuters 另称，预计 11 月 18 日定价、11 月 19 日开始交易。"
+          ],
+          "whyImportant": "认购兴趣反映投资者愿意参与大型 AI 融资，但订单簿尚未锁定；它不能验证长期收入预测或发行后回报。",
+          "investmentImpact": "观察最终发行价、实际净募资和上市后交易；对芯片和云厂商，只有后续签约、付款与交付才会把融资转成收入。",
+          "tags": [
+            "Anthropic",
+            "IPO",
+            "AI 融资"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜认购报道",
+              "url": "https://www.reuters.com/business/finance/investors-flock-anthropic-ipo-question-durability-ai-lead-2026-11-13/"
+            },
+            {
+              "title": "Reuters｜下周事件",
+              "url": "https://www.reuters.com/business/wall-st-week-ahead-nvidia-results-anthropic-ipo-pose-tests-tumultuous-ai-trade-2026-11-13/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-13-pm-energy",
+          "category": "macro",
+          "title": "Brent 几乎持平，美国天然气回落至 3.230 美元",
+          "status": "11 月 13 日期货结算与天然气库存数据",
+          "importance": "中",
+          "body": [
+            "Brent 结算 95.84 美元/桶，涨 0.02%；WTI 结算 88.56 美元/桶，跌 0.20%。美国天然气期货结算 3.230 美元/百万英热单位，低于昨日的 3.340；截至 11 月 6 日当周，美国天然气库存增加 610 亿立方英尺至 3.862 万亿立方英尺。本期未核实美伊停火或霍尔木兹恢复正常通航。"
+          ],
+          "whyImportant": "油价未延续昨日急涨，但海运风险仍可能经油价、运费和通胀预期传导至长端美债和科技股估值；美国天然气应单独看库存和天气。",
+          "investmentImpact": "继续观察实物装船、运费和保险成本。本窗口未核实新的日本政策决定、可比 JGB 收益率或资金回流证据；若日债收益率持续抬升并吸引日本资金回流，全球风险资产流动性可能收紧。",
+          "tags": [
+            "Brent",
+            "WTI",
+            "天然气",
+            "霍尔木兹",
+            "JGB"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜油价结算",
+              "url": "https://www.reuters.com/business/energy/oil-prices-set-second-weekly-decline-trump-stay-with-iran-blockade-2026-11-13/"
+            },
+            {
+              "title": "FXNews｜天然气结算与库存",
+              "url": "https://fxnews.ai/news/us-natural-gas-december-futures-eia-61bcf-storage-nov13/"
+            },
+            {
+              "title": "EIA｜周度天然气库存数据",
+              "url": "https://www.eia.gov/dnav/ng/NG_STOR_WKLY_S1_W.htm"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-13-pm-microsoft",
+          "category": "ai",
+          "title": "Microsoft 365 大范围故障后逐步恢复",
+          "status": "公司恢复说明经媒体报道；尚无核实的财务损失",
+          "importance": "中",
+          "body": [
+            "11 月 13 日，微软称受前一日开始的故障影响的服务正逐步恢复。故障波及 Outlook、Teams 等，OpenAI 与 Anthropic 的部分 Microsoft 365 连接器也受影响。"
+          ],
+          "whyImportant": "企业 AI 的可用性还取决于邮件、协作与连接器等底层服务；一次故障不能量化客户流失或财务损失。",
+          "investmentImpact": "对 MSFT 和企业 AI 供应商，看最终事故报告、服务补偿及客户是否引入备用方案。",
+          "tags": [
+            "MSFT",
+            "Microsoft 365",
+            "企业 AI",
+            "服务可靠性"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜影响范围",
+              "url": "https://live.euronext.com/en/financial-news/hours-long-microsoft-outage-disrupts-businesses-governments-globally"
+            },
+            {
+              "title": "EL PAÍS｜恢复进展",
+              "url": "https://english.elpais.com/technology/2026-11-13/microsoft-fails-to-restore-services-after-more-than-12-hours-of-global-disruption.html"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-13-pm-robot",
+          "category": "robot",
+          "title": "OpenAI 将机器人研究并入主研究团队",
+          "status": "公司向 Fortune 确认重组；没有新增实机商业指标",
+          "importance": "中",
+          "body": [
+            "OpenAI 向 Fortune 确认，独立机器人团队撤并，研究人员转入主研究团队，应用机器人与硬件团队转入 Applied 部门。Fortune 援引一项 NVIDIA 模拟操作测试：通用模型智能体成功率为 74.8%，对照榜单最佳专用模型为 51.0%；这是仿真结果。"
+          ],
+          "whyImportant": "组织调整显示公司在探索将通用模型与机器人研究结合。单一模拟任务的差距不能外推为跨本体实机泛化、可靠性或成本优势。",
+          "investmentImpact": "看可复现实机成功率、训练数据用量、每百次人工接管、在线率、硬件单位成本及付费部署。本窗口未核实这些指标或触觉与力控有可比新增。",
+          "tags": [
+            "OpenAI",
+            "NVIDIA",
+            "Physical AI",
+            "仿真",
+            "实机验证"
+          ],
+          "sources": [
+            {
+              "title": "Fortune｜公司确认重组及仿真背景",
+              "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-13-am",
       "date": "2026-11-13",
       "period": "am",
