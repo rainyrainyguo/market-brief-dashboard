@@ -4,6 +4,154 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-14-pm",
+      "date": "2026-11-14",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-14T19:00:00-08:00",
+      "summary": "霍尔木兹新增两艘油轮触雷的伊方通报，尚无独立核实；深圳 APEC 会晤有了更具体的日程，但尚无新关税或芯片许可。Anthropic 文件仍显示初步发行区间，未见最终定价；机器人暂无可验证的新增商业指标。",
+      "cards": [
+        {
+          "id": "2026-11-14-pm-hormuz",
+          "category": "macro",
+          "title": "霍尔木兹：伊方再报两艘油轮触雷，尚无独立确认",
+          "status": "伊方单方通报；未确认实物供应损失",
+          "importance": "高",
+          "body": [
+            "相较早报的一艘，Reuters 更新援引伊朗官方媒体称，11 月 14 日当地稍晚又有两艘油轮触雷起火，伊方称当日合计三艘。Reuters 未能独立核实，暂不能由通报推算实际停运与减供。周六没有新的可比油气常规交易结算。"
+          ],
+          "whyImportant": "新增通报提高了周日开盘重新计入航运风险的可能性。即便没有确认减产，保险涨价和船东延迟装船也可能抬高到岸成本。",
+          "investmentImpact": "看可核实的船舶通行、装船量、保险费，以及周日重开后的 Brent、WTI 和 LNG 报价。若运输受阻持续推高油价，可能经通胀预期和长端收益率压低高估值科技股估值；美国 Henry Hub 天然气仍要结合本土库存和天气。",
+          "tags": [
+            "伊朗",
+            "霍尔木兹",
+            "Brent",
+            "WTI",
+            "LNG",
+            "美债"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜油轮通报更新",
+              "url": "https://www.reuters.com/world/middle-east/irans-navy-says-oil-tanker-fire-after-hitting-mine-hormuz-2026-11-14/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-14-pm-apec",
+          "category": "macro",
+          "title": "深圳会晤日程更具体，关税与芯片许可仍待正式文件",
+          "status": "官方会议日程；政策结果未公布",
+          "importance": "高",
+          "body": [
+            "早报只列下周会晤预期。APEC 官方列出深圳领导人会议为 11 月 18–19 日；据 Reuters 引述白宫，美中领导人拟于 11 月 19 日当地时间会面，当日还计划举行美中俄三方会谈。会晤日程不代表已有降税或芯片出口许可变更。"
+          ],
+          "whyImportant": "会晤给风险资产一个可观察的政策窗口。中期选举后的国会监管主张、一般商品关税和先进芯片许可，仍有各自的决策程序。",
+          "investmentImpact": "看会后是否公布税目、生效日和 BIS 执行文件。若关税实际下降，受影响进口品的成本压力可能缓和；NVDA、AMD 等的对华收入仍要按具体产品和许可判断。",
+          "tags": [
+            "APEC",
+            "中美贸易",
+            "关税",
+            "NVDA",
+            "AMD",
+            "出口管制"
+          ],
+          "sources": [
+            {
+              "title": "APEC｜深圳会议官方日程",
+              "url": "https://www.apec.org/press/blogs/2026/apec-economic-leaders-week-2026-why-it-matters"
+            },
+            {
+              "title": "Reuters｜白宫披露会晤安排",
+              "url": "https://www.reuters.com/world/china/trump-meet-putin-xi-china-white-house-says-2026-11-14/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-14-pm-anthropic",
+          "category": "ai",
+          "title": "Anthropic IPO：每股 78 美元仍是初步区间上限",
+          "status": "SEC 初步招股书；未核实最终定价或实际开盘",
+          "importance": "高",
+          "body": [
+            "本期复核 SEC 文件：11 月 10 日的修订招股书列出每股 70–78 美元、合计 8.25 亿股，拟在 Nasdaq 以 ANT 交易。欧洲发行文件列 11 月 18 日拟公布最终发行价、11 月 19 日拟开始交易；截至本期未查到最终定价公告。"
+          ],
+          "whyImportant": "78 美元是区间上限。发行价、分配结果和二级市场开盘价是不同数据；上期报道的路演认购热度也不能锁定开盘表现。",
+          "investmentImpact": "先核对正式发行价和获配结果，再看实际开盘成交价。若获配后开盘即卖，决定是否破发的是首笔可成交价格相对发行价，收盘价和认购倍数都不能替代。对算力链，仍需看到融资转成付费合同和交付。",
+          "tags": [
+            "Anthropic",
+            "ANT",
+            "IPO",
+            "AI 融资",
+            "估值"
+          ],
+          "sources": [
+            {
+              "title": "SEC｜美国初步招股书",
+              "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm"
+            },
+            {
+              "title": "SEC｜欧洲发行文件和拟定日程",
+              "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026073040/anthropicpbc-fwpxeeaprospea.htm"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-14-pm-rates",
+          "category": "macro",
+          "title": "日债标售是下周新增观察点，周末没有新定价",
+          "status": "日本财务省日程；未见实际标售结果",
+          "importance": "中",
+          "body": [
+            "日本财务省日程列出日本当地 11 月 16 日标售 10 年期通胀挂钩国债，11 月 18 日续发 20 年期日债。本窗口未核实新的日本债务政策、JGB、日元或跨境流量读数，也未见新的美国 CPI、PPI、PCE、就业、工资、Fed 决议或点阵图；美国赤字、发债计划、期限溢价、美元和信用利差暂无可比新增。"
+          ],
+          "whyImportant": "日本长债需求若走弱，JGB 收益率可能上行；若较高的本土收益率随后吸引资金回流，全球风险资产流动性可能收紧。美国若有新增长期融资且需求跟不上，也可能经期限溢价推高长端利率。两条链都需要数据验证。",
+          "investmentImpact": "看日债实际中标收益率和需求，再与 USD/JPY、跨境资金流交叉验证。美股复市后看美债实际利率与信用利差是否同步上行；期货定价不是 Fed 决议。",
+          "tags": [
+            "JGB",
+            "日元",
+            "资金流",
+            "美债",
+            "期限溢价",
+            "Fed",
+            "信用利差"
+          ],
+          "sources": [
+            {
+              "title": "日本财务省｜11 月国债标售日程",
+              "url": "https://www.mof.go.jp/english/policy/jgbs/auction/calendar/2611e.htm"
+            },
+            {
+              "title": "Fed｜11 月日程",
+              "url": "https://www.federalreserve.gov/newsevents/2026-November.htm"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-14-pm-robot",
+          "category": "robot",
+          "title": "暂无可验证的新增付费部署或量产指标",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "本窗口未找到足以调整收入或成本判断的新付费部署、客户定点或可比实机数据。"
+          ],
+          "whyImportant": "技术演示与客户长期运行、可重复的任务成功率和单位经济性仍有距离。",
+          "investmentImpact": "继续看未见任务的零样本成功率、跨机型迁移、触觉与力控精细操作、完成同一任务所需训练数据、每百次人工接管、在线率、执行器／手／传感器／电池／减速器单位成本，以及可核对的付费订单。",
+          "tags": [
+            "Physical AI",
+            "零样本泛化",
+            "跨机型迁移",
+            "实机可靠性",
+            "硬件成本",
+            "付费部署"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
       "id": "2026-11-14-am",
       "date": "2026-11-14",
       "period": "am",
