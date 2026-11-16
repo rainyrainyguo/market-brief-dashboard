@@ -4,6 +4,170 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-16-am",
+      "date": "2026-11-16",
+      "period": "am",
+      "time": "08:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-16T08:00:00-08:00",
+      "summary": "亚洲芯片股抛售延续到美股早盘：纳指跌 2.1%，10 年期美债却回落至约 5.11%。BIS 发布覆盖远程算力的临时最终规则，生效以《联邦公报》刊登为准。霍尔木兹周末被追踪的通行量下降，油价仍走低。小马智行与丰田的无人车进入广州商业车队。",
+      "cards": [
+        {
+          "id": "2026-11-16-am-market",
+          "category": "macro",
+          "title": "亚洲芯片股抛售延续到美股，纳指早盘跌 2.1%",
+          "status": "亚洲收盘及美股盘中，非美股收盘",
+          "importance": "高",
+          "body": [
+            "11 月 16 日台湾加权指数收跌 6.03%，台积电跌 5.74%；韩国 KOSPI 跌 3.59%，SK 海力士跌 7.89%，三星电子跌 4.47%。美东 10:15，纳指跌 2.1%、标普 500 跌 1.3%、道指跌 0.6%，英伟达跌 1.7%。AP 同篇报道显示 10 年期美债约 5.11%，低于周五的 5.15%。"
+          ],
+          "whyImportant": "昨晚纳指期货上涨没有延续到现货开局。长债收益率回落时科技仍领跌，单靠利率上升解释不了本轮抛售；AI 盈利、管理层交接与政策不确定性也在影响风险偏好。",
+          "investmentImpact": "看芯片股相对大盘能否企稳、信用利差是否同步走阔，以及 NVDA 财报能否用订单和交付验证需求。SK 海力士的股价跌幅不能直接当作 HBM 合同价或实际需求下调。",
+          "tags": [
+            "纳指",
+            "NVDA",
+            "台积电",
+            "SK海力士",
+            "三星",
+            "美债"
+          ],
+          "sources": [
+            {
+              "title": "AP｜美股早盘与美债",
+              "url": "https://apnews.com/article/stocks-markets-ai-nvidia-oil-us-35786b8f539ec95f16ae0500f71cfcc7"
+            },
+            {
+              "title": "CNA｜台湾收盘",
+              "url": "https://focustaiwan.tw/business/202611160014"
+            },
+            {
+              "title": "The Korea Times｜韩国收盘",
+              "url": "https://www.koreatimes.co.kr/economy/others/20261116/seoul-stocks-dip-over-3-on-tech-losses-amid-lingering-nvidia-jitters"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-16-am-bis",
+          "category": "semi",
+          "title": "美国发布远程算力管制文本，五个目的地新增许可要求",
+          "status": "BIS 已发布文本；生效以《联邦公报》刊登为准",
+          "importance": "高",
+          "body": [
+            "美国商务部 BIS 发布临时最终规则，覆盖向中国等受关注地区有关企业提供大量受控远程算力的特定海外数据中心，并对输往或在新加坡、马来西亚、泰国、印尼和巴西境内转移的特定先进芯片增加许可要求。文本规定于《联邦公报》刊登之日生效；截至本期未核实刊登日期。"
+          ],
+          "whyImportant": "监管从芯片实物交付延伸到部分境外算力服务，可能让 NVDA、AMD 和云商面临更长的许可与客户审核周期。该规则是出口管制，并非新增关税，也不能据此推断所有海外云服务都会受限。",
+          "investmentImpact": "跟踪正式生效时间、产品范围、客户审核和过渡安排；在公司披露前，不把潜在的交付延迟直接当成订单取消。后续中美会晤与其他 AI 扶持政策消息应独立核实。",
+          "tags": [
+            "BIS",
+            "出口管制",
+            "NVDA",
+            "AMD",
+            "云算力"
+          ],
+          "sources": [
+            {
+              "title": "BIS｜公告",
+              "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology"
+            },
+            {
+              "title": "BIS｜规则文本",
+              "url": "https://www.bis.gov/media/documents/rin-0694-ak50.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-16-am-energy",
+          "category": "macro",
+          "title": "霍尔木兹周末通行减慢，周一油价仍下跌",
+          "status": "船舶追踪与盘中报价；未确认新停火",
+          "importance": "高",
+          "body": [
+            "Reuters 援引 Kpler：周末追踪到 5 艘大宗商品船过霍尔木兹，前一周末为 31 艘。11 月 16 日 06:10 美西，Brent 报 94.17 美元/桶（跌 1.74%），WTI 报 87.42（跌 1.29%）。15:52 UTC 的 Henry Hub 近月报价约 3.15 美元/百万英热单位，为盘中快照。未核实新的美伊停火。"
+          ],
+          "whyImportant": "船数不等于实际减供量；油价下跌与市场关注中东出口恢复和供应过剩预期并存。美国天然气有独立的库存、天气和 LNG 出口驱动。",
+          "investmentImpact": "看后续装船、实际出口量、运费和保险。若持续减供扭转油价跌势，再核对通胀预期、长端利率和高估值科技股的折现压力。",
+          "tags": [
+            "霍尔木兹",
+            "伊朗",
+            "Brent",
+            "WTI",
+            "HenryHub",
+            "通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters／Gulf Times｜船舶追踪",
+              "url": "https://www.gulf-times.com/article/731298/business/shipping-slows-through-strait-of-hormuz-after-tanker-attacks"
+            },
+            {
+              "title": "Reuters｜原油盘中价",
+              "url": "https://www.reuters.com/business/energy/oil-prices-fall-expectations-coming-supply-surplus-2026-11-16/"
+            },
+            {
+              "title": "OilPriceAPI｜Henry Hub",
+              "url": "https://www.oilpriceapi.com/live/natural-gas-futures"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-16-am-rates",
+          "category": "macro",
+          "title": "纽约制造业降温，日本 10 年期国债收益率升至 2.885%",
+          "status": "官方区域调查与日债盘中报价；无新央行决议",
+          "importance": "中",
+          "body": [
+            "纽约联储 11 月制造业景气指数下降约 18 点至 7.8，仍为正；雇员人数分项升至 18.1。Reuters 报道，日本 10 年期国债收益率升 3 个基点至 2.885%。未核实较昨晚新的全国 CPI、PPI、PCE、非农或工资读数，也无新 Fed 决议或点阵图；赤字、发债、期限溢价、美元、信用利差及日本资金回流均未核实足以改变判断的新证据。"
+          ],
+          "whyImportant": "地区调查显示增长放缓和用工改善并存，不能代替全国就业或工资数据。日本长债收益率若持续上升并引发资金回流，全球风险资产流动性可能收紧；美国赤字若推动更多长债供给且买盘不足，可能经期限溢价抬高长端利率。",
+          "investmentImpact": "分别看日债标售、USD/JPY 与跨境资金流，以及美债实际收益率和信用利差。单次日债走高不能证明回流；Fed 加息幅度仍是市场定价。",
+          "tags": [
+            "纽约联储",
+            "JGB",
+            "日元",
+            "期限溢价",
+            "Fed",
+            "信用利差"
+          ],
+          "sources": [
+            {
+              "title": "纽约联储｜调查原文",
+              "url": "https://www.newyorkfed.org/medialibrary/media/survey/empire/empire2026/2026_11_empire-state-manufacturing-survey.pdf"
+            },
+            {
+              "title": "Reuters／Business Recorder｜日债",
+              "url": "https://www.brecorder.com/news/amp/40449139"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-16-am-robot",
+          "category": "robot",
+          "title": "小马智行与丰田的 bZ4X 进入广州无人驾驶商业车队",
+          "status": "公司确认商业上线；部署目标与实绩分列",
+          "importance": "中",
+          "body": [
+            "11 月 16 日，小马智行与丰田宣布，第七代 bZ4X Robotaxi 已加入广州全无人驾驶商业车队，乘客可全天通过应用或小程序叫车。约 1,000 辆是两家公司在中国主要城市的规划，未披露本次广州上线数量。"
+          ],
+          "whyImportant": "这是从测试走向面向乘客的实际商业运营，对 PONY、丰田与自动驾驶量产有意义。全天可叫车不能当作车辆在线率、零接管率或盈利指标。",
+          "investmentImpact": "看每车付费订单、远程人工干预、在线率、故障恢复与每公里总成本。未核实人形或工业机器人在零样本泛化、跨本体迁移、触觉／力控、数据效率、硬件降本或新增付费定点上有可比更新。",
+          "tags": [
+            "PONY",
+            "丰田",
+            "Robotaxi",
+            "商业部署",
+            "在线率",
+            "单位成本"
+          ],
+          "sources": [
+            {
+              "title": "小马智行｜公司公告",
+              "url": "https://ir.pony.ai/news-releases/news-release-details/pony-ai-inc-and-toyota-launch-fully-driverless-commercial"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-15-pm",
       "date": "2026-11-15",
       "period": "pm",
