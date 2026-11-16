@@ -4,6 +4,179 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-15-pm",
+      "date": "2026-11-15",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-15T19:00:00-08:00",
+      "summary": "日本三季度实际 GDP 年化下降 0.1%，弱于预期，但日元反应有限。亚盘开局原油小跌、纳指期货上涨，不能据此判定地缘风险解除。SK 海力士宣布五年供应商扶持计划；中国工业与消费数据分化。机器人暂无可验证的新商业指标。",
+      "cards": [
+        {
+          "id": "2026-11-15-pm-japan",
+          "category": "macro",
+          "title": "日本 GDP 意外微缩，美元兑日元约 159.69",
+          "status": "官方初值及亚盘报价；日本央行尚未作新决定",
+          "importance": "高",
+          "body": [
+            "日本内阁府于东京 11 月 16 日公布：三季度实际 GDP 按季基本持平，折合年率下降 0.1%，弱于 Reuters 调查预期的增长 0.3%。美元兑日元在亚盘约 159.69，日元在数据公布后波动有限。"
+          ],
+          "whyImportant": "增长偏弱给加息判断带来约束，但弱日元和能源进口成本可能继续推升物价。GDP 走弱不足以确认日本央行会推迟加息。",
+          "investmentImpact": "看日债标售需求、JGB 收益率和跨境资金流。若日本长债收益率上行并吸引资金回流，全球风险资产流动性可能收紧；目前未核实新的日本债务政策或资金回流证据。",
+          "tags": [
+            "日本GDP",
+            "JGB",
+            "日元",
+            "日本央行",
+            "资金流"
+          ],
+          "sources": [
+            {
+              "title": "日本内阁府｜三季度 GDP 初值",
+              "url": "https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/2026/qe263/pdf/gaiyou2631_e.pdf"
+            },
+            {
+              "title": "Reuters｜日元及市场预期",
+              "url": "https://www.reuters.com/world/middle-east/yen-steady-against-euro-dollar-after-soft-japanese-gdp-data-2026-11-16/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-15-pm-oil",
+          "category": "macro",
+          "title": "周日复市原油下跌，霍尔木兹风险仍在",
+          "status": "已发生：早盘报价；新增油轮通报未独立核实",
+          "importance": "高",
+          "body": [
+            "截至美西 11 月 15 日 17:45，Brent 报 95.37 美元/桶（跌 0.49%），WTI 报 88.33 美元/桶（跌 0.26%），均为盘中价。Reuters 报道交易员关注供应过剩前景；伊朗海军又通报一艘油轮在霍尔木兹以东触雷起火，Reuters 未能独立核实。未核实停火、额外实物减供或同期可比的美国天然气报价。"
+          ],
+          "whyImportant": "早盘油价显示，供应过剩预期暂时压过新增航运消息；这不足以说明航运安全恢复。",
+          "investmentImpact": "若装船持续受阻并推高油价，再看通胀预期和长端收益率是否跟涨，进而评估高估值科技股的折现压力。分开跟踪海湾 LNG 航运和美国 Henry Hub 的库存、天气驱动。",
+          "tags": [
+            "霍尔木兹",
+            "伊朗",
+            "Brent",
+            "WTI",
+            "LNG",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜复市报价及航运通报",
+              "url": "https://www.reuters.com/business/energy/oil-prices-fall-expectations-coming-supply-surplus-2026-11-16/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-15-pm-markets",
+          "category": "macro",
+          "title": "纳指期货回升约 0.5%，美债 10 年期仍约 5.14%",
+          "status": "盘中行情；Fed 概率是期货隐含定价",
+          "importance": "高",
+          "body": [
+            "周日美西晚间、亚洲周一早盘，Reuters 报道纳指期货涨约 0.5%、标普期货涨约 0.3%，日经跌约 0.6%；10 年期美债收益率约 5.14%，美元指数约 103.4。CME FedWatch 的当时定价为 12 月加息 25 个基点约 94%、加息 50 个基点约 6%；后者低于周五约 11.5%。"
+          ],
+          "whyImportant": "期货回升与市场降低对较大幅度加息的押注同时出现，但长端利率仍高，不能据此判定科技股估值压力消失。",
+          "investmentImpact": "观察周一现货能否跟上期货，以及实际收益率、信用利差和资金流是否验证风险偏好改善。赤字融资若增加长债供给而需求不足，期限溢价仍可能抬升。未核实新的美国 CPI、PPI、PCE、就业、工资、Fed 决议或点阵图，也未核实赤字、发债计划、期限溢价、信用利差、资金流或中期选举后的关税及芯片监管有可比新增。",
+          "tags": [
+            "纳指期货",
+            "美元",
+            "美债",
+            "FedWatch",
+            "期限溢价",
+            "信用利差"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜全球市场早盘",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-16/"
+            },
+            {
+              "title": "Reuters｜美债、美元与 FedWatch",
+              "url": "https://www.reuters.com/world/middle-east/yen-steady-against-euro-dollar-after-soft-japanese-gdp-data-2026-11-16/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-15-pm-sk",
+          "category": "semi",
+          "title": "SK 海力士拟投入 1.4 万亿韩元扶持供应商",
+          "status": "公司公布五年计划；非新增量产或订单",
+          "importance": "高",
+          "body": [
+            "SK 海力士称，未来五年拟投入 1.4 万亿韩元（约 10.5 亿美元）支持韩国半导体材料、零部件和设备供应商。另公布与政府共同出资的龙仁测试设施，项目规模 8,746 亿韩元，计划 2027 年 5 月启用。两项金额不简单相加。"
+          ],
+          "whyImportant": "共享测试设施有望缩短材料和设备进入实际产线前的验证周期，降低本土中小供应商的试验门槛；暂不能据此推算先进存储增产。",
+          "investmentImpact": "对 SK 海力士及韩国设备材料链，跟踪测试设施能否按期开启、供应商通过验证和量产采用的速度。对 MU、SNDK 的盈利判断，仍需 HBM、DRAM、NAND 的实际出货、良率或合同价格证据。",
+          "tags": [
+            "SK海力士",
+            "存储",
+            "设备材料",
+            "龙仁",
+            "HBM",
+            "MU",
+            "SNDK"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜SK 海力士计划与时间表",
+              "url": "https://www.reuters.com/world/asia-pacific/sk-hynix-spend-1-billion-over-five-years-support-chip-suppliers-2026-11-16/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-15-pm-china",
+          "category": "macro",
+          "title": "中国 10 月工业增长 4.8%，零售仅增 0.4%",
+          "status": "国家统计局已发布；产出不等于终端需求",
+          "importance": "中",
+          "body": [
+            "中国国家统计局 11 月 16 日发布：10 月规模以上工业增加值同比实际增长 4.8%，社会消费品零售总额同比增 0.4%；1–10 月固定资产投资同比降 8.1%。10 月集成电路产量同比增 21.9%，为数量口径。"
+          ],
+          "whyImportant": "工业和芯片产出强于零售，显示生产与消费恢复不同步。集成电路总产量不能衡量先进 AI 芯片供给或海外设备需求。",
+          "investmentImpact": "消费电子和成熟制程仍看终端销量、渠道库存与芯片单价；先进算力链看具体产品和许可。未核实深圳会晤前有新的关税清单或芯片出口规则生效。",
+          "tags": [
+            "中国工业",
+            "零售",
+            "固定资产投资",
+            "集成电路",
+            "消费电子"
+          ],
+          "sources": [
+            {
+              "title": "中国国家统计局｜10 月主要数据",
+              "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965844.html"
+            },
+            {
+              "title": "中国国家统计局｜工业生产与芯片产量",
+              "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965842.html"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-15-pm-robot",
+          "category": "robot",
+          "title": "暂无可核实的新增付费部署或实机指标",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "过去半天未核实足以调整机器人商业化判断的付费部署、客户定点、可比实机指标或零部件降本披露。"
+          ],
+          "whyImportant": "演示无法替代客户现场的持续表现，也不能单独证明单位成本改善。",
+          "investmentImpact": "继续跟踪未见任务零样本成功率、跨本体迁移、触觉与力控精细操作、单位任务训练数据量、每百次人工接管、在线率与故障恢复；硬件看执行器、灵巧手、传感器、电池和减速器的单位成本，商业化看有证据的付费部署与客户定点。",
+          "tags": [
+            "Physical AI",
+            "零样本泛化",
+            "跨本体迁移",
+            "可靠性",
+            "硬件成本",
+            "付费部署"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
       "id": "2026-11-15-am",
       "date": "2026-11-15",
       "period": "am",
