@@ -4,6 +4,185 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-17-am",
+      "date": "2026-11-17",
+      "period": "am",
+      "time": "08:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-17T08:00:00-08:00",
+      "summary": "美国零售环比增 0.2%，进口价格增 1.1%，工业生产降 0.4%：增长降温与成本压力并存。BIS 远程算力规则预公开文件注明拟于 11 月 19 日刊登；NVDA 财报尚未公布，期权隐含双向波动约 8.5%。机器人暂无可验证新增。",
+      "cards": [
+        {
+          "id": "2026-11-17-am-data",
+          "category": "macro",
+          "title": "美国零售增 0.2%，进口价格增 1.1%，增长与通胀信号分化",
+          "status": "已公布官方数据；不是 Fed 利率决定",
+          "importance": "高",
+          "body": [
+            "11 月 17 日公布的 10 月数据：美国零售和餐饮销售环比增 0.2%，9 月为增 0.8%；这些是名义金额，未扣除价格。进口价格环比增 1.1%，其中非燃料进口价格增 0.8%。工业生产环比降 0.4%，制造业产出却增 0.3%，总产能利用率降至 76.4%。"
+          ],
+          "whyImportant": "零售和工业总量降温，但进口成本仍涨，不能简单判断为需求崩塌或通胀解除。进口价格指数也不是 CPI 或 PCE，不宜一比一外推。",
+          "investmentImpact": "若成本继续传到消费价格，可能强化加息预期，经美债收益率影响高估值科技股；若需求持续走弱，则影响企业盈利。看后续实际消费与 PCE、就业和工资。本窗口无新 CPI、PPI、PCE、非农、工资、Fed 决议或点阵图；期货利率预期仍不等于政策承诺。",
+          "tags": [
+            "零售",
+            "进口价格",
+            "工业生产",
+            "通胀",
+            "Fed",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "美国 Census｜零售原文",
+              "url": "https://www.census.gov/retail/marts/www/marts_current.pdf?release=20261117"
+            },
+            {
+              "title": "美国 BLS｜进口价格",
+              "url": "https://www.bls.gov/news.release/archives/ximpim_11172026.htm"
+            },
+            {
+              "title": "Fed｜工业生产",
+              "url": "https://www.federalreserve.gov/releases/g17/20261117/default.htm"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-17-am-bis",
+          "category": "semi",
+          "title": "BIS 远程算力规则拟于 11 月 19 日刊登",
+          "status": "官方预公开日程；最终刊登及生效仍须核对",
+          "importance": "高",
+          "body": [
+            "相较昨晚未核实刊登日期，现已读到《联邦公报》预公开文件：RIN 0694-AK50 拟于 11 月 19 日刊登，文本规定刊登之日生效。它覆盖部分面向受关注地区企业的海外算力服务，对五个目的地的特定先进芯片增加许可要求，并加强部分代工与封装客户核查。"
+          ],
+          "whyImportant": "芯片厂商之外，数据中心、代工与封装企业也需核对终端客户和用途。条文包含满足报告条件的美国总部企业相关例外，不能把五个目的地的全部交易都当成禁售。",
+          "investmentImpact": "对 NVDA、AMD、TSMC 和云商，分别核对适用产品、最终客户、例外与过渡期，再估计许可和交付影响。11 月 19 日仍需检查正式刊登；这是出口管制，并非新的关税。",
+          "tags": [
+            "BIS",
+            "NVDA",
+            "AMD",
+            "TSMC",
+            "出口管制",
+            "云算力"
+          ],
+          "sources": [
+            {
+              "title": "Federal Register｜预公开规则及刊登日程",
+              "url": "https://public-inspection.federalregister.gov/2026-23529.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-17-am-nvda",
+          "category": "ai",
+          "title": "NVDA 财报前期权隐含双向波动约 8.5%",
+          "status": "期权价格隐含预期；财报未公布",
+          "importance": "高",
+          "body": [
+            "Reuters 11 月 17 日引述 Susquehanna：英伟达期权隐含财报后约 8.5% 的双向股价变动，对应约 3,350 亿美元市值。公司今天盘后披露业绩；本期未取得实际财报，也未核实 Anthropic 最终发行价。"
+          ],
+          "whyImportant": "隐含波动衡量市场为不确定性支付的价格，不能用来判断涨跌方向或保证实际幅度。此时指引、供应和客户融资的解释可能与当季利润同样重要。",
+          "investmentImpact": "核对本季实际与上季指引、下季指引、受限市场收入、供应价格及交付、客户融资和合同约束。存储链要看具体采购和合同价；CRWV、NBIS 要看融资与交付，而非只据 NVDA 单日涨跌调整盈利假设。Microsoft Ignite 主旨演讲在美西 10:00，不能提前把活动预告当成产品发布。",
+          "tags": [
+            "NVDA",
+            "期权",
+            "财报",
+            "MU",
+            "CRWV",
+            "NBIS",
+            "Microsoft Ignite"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜财报期权定价",
+              "url": "https://www.reuters.com/business/nvidia-shares-set-335-billion-swing-after-earnings-options-show-2026-11-17/"
+            },
+            {
+              "title": "NVIDIA｜财报日程",
+              "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/"
+            },
+            {
+              "title": "Microsoft｜Ignite 官方直播日程",
+              "url": "https://news.microsoft.com/events/ignite/2026/live-news/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-17-am-energy",
+          "category": "macro",
+          "title": "原油盘中反弹约 1.4%，未确认停火或减供",
+          "status": "带时间的盘中报价；非结算",
+          "importance": "中",
+          "body": [
+            "美西 11 月 17 日 05:40，Brent 报 93.71 美元／桶（涨约 1.4%），WTI 报 86.97（涨约 1.5%），较昨晚结算反弹。Reuters 指出，出口回升与航运袭击风险仍在拉扯。本期未核实新的美伊停火、已确认的额外实物减供或同期可靠的 Henry Hub 报价，不重复把昨日天然气结算当成今日变化。"
+          ],
+          "whyImportant": "单次反弹不足以确认供需趋势反转。航运消息要用实际装船、出口量和保险费核对。",
+          "investmentImpact": "若战争扰动持续推升油价，观察通胀预期和长端收益率是否跟涨，再判断科技估值压力。美国天然气仍单独看本土库存、天气与 LNG 出口。",
+          "tags": [
+            "伊朗",
+            "霍尔木兹",
+            "Brent",
+            "WTI",
+            "天然气",
+            "美债"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜原油盘中更新",
+              "url": "https://www.reuters.com/business/energy/oil-slips-supply-surplus-outlook-despite-gulf-tensions-2026-11-17/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-17-am-jgb",
+          "category": "macro",
+          "title": "日本长债走弱，20 年期收益率约 3.780%",
+          "status": "日债盘中报价；未证明资金回流",
+          "importance": "中",
+          "body": [
+            "Reuters 11 月 17 日报道，日本 20 年期国债收益率升 2 个基点至约 3.780%，30 年期升 1 个基点至约 4.050%；10 年期收益率则下降。相较昨日，并非整条曲线同向上行。未核实新的日本债务政策或资金回流，也未核实美国赤字、发债、期限溢价、信用利差与当日资金流有可比新增。"
+          ],
+          "whyImportant": "长端需求偏弱可能提高日本长期融资成本。若本土收益率随后吸引日本资金回流，会影响全球风险资产流动性；仅凭日债或汇率变化不能确认。",
+          "investmentImpact": "看长债标售需求、USD/JPY 和跨境资金流。美国若长债供给增加而买盘不足，期限溢价也可能推高长端利率，但需独立验证。美元此前偏强，不能据此推断信用条件全面收紧；中期选举后新的财政、关税或监管措施仍以正式文件为准。",
+          "tags": [
+            "JGB",
+            "日元",
+            "美元",
+            "期限溢价",
+            "资金流",
+            "信用利差"
+          ],
+          "sources": [
+            {
+              "title": "Reuters／Economic Times｜日债",
+              "url": "https://economictimes.indiatimes.com/markets/bonds/jgb-yields-climb-as-buyers-hold-back-on-long-dated-debt/articleshow/135910809.cms"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-17-am-robot",
+          "category": "robot",
+          "title": "暂无可验证的新增机器人商业指标",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "过去半天未核实新的付费部署、客户定点、可比实机可靠性或零部件降本。"
+          ],
+          "whyImportant": "研究活动预告、一般演示和旧项目复传不足以改变收入、部署速度或单位经济性判断。",
+          "investmentImpact": "继续跟踪未见任务零样本成功率、跨本体迁移、触觉／力控精细操作、单位任务训练数据量、每百次人工接管、在线率及故障恢复；硬件看执行器、灵巧手、传感器、电池、减速器成本，商业化看可核对的付费部署和客户定点。",
+          "tags": [
+            "Physical AI",
+            "零样本泛化",
+            "跨本体迁移",
+            "可靠性",
+            "硬件成本",
+            "付费部署"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
       "id": "2026-11-16-pm",
       "date": "2026-11-16",
       "period": "pm",
