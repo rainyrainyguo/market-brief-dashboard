@@ -4,6 +4,208 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-16-pm",
+      "date": "2026-11-16",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-16T19:00:00-08:00",
+      "summary": "纳指收跌 2.49%，费城半导体指数跌约 5%，但 10 年期美债较周五回落。Fed 理事 Barr 点名 AI 循环融资风险；原油和美国天然气均收跌逾 3%。Lambda 披露用共封装光学网络连接逾 1 万颗英伟达 GPU。机器人暂无早报之外的可验证新增。",
+      "cards": [
+        {
+          "id": "2026-11-16-pm-close",
+          "category": "macro",
+          "title": "芯片抛售扩大：纳指收跌 2.49%，费城半导体指数跌约 5%",
+          "status": "已发生：美股收盘和财政部日度收益率",
+          "importance": "高",
+          "body": [
+            "11 月 16 日纳指收跌 2.49%，较早报的盘中跌 2.1% 进一步扩大；标普 500 跌 1.92%，道指跌 1.41%。费城半导体指数跌约 5%，NVDA 跌约 4%，MU 与 INTC 均跌逾 7%；CRWV 跌 6.1%，NBIS 跌 7.6%。财政部日度 2 年／10 年／30 年期收益率为 4.83%／5.12%／5.46%，低于周五的 4.88%／5.15%／5.47%。"
+          ],
+          "whyImportant": "股债分化表明不能用无风险利率上升单独解释抛售。存储、芯片和算力租赁同时走弱，市场在重新评估 AI 估值、融资与订单兑现。",
+          "investmentImpact": "11 月 17 日 NVDA 财报先看收入指引与订单转交付，再看受限市场、供应及客户融资是否改变。MU 的股价跌幅不能直接外推为 HBM、DRAM 或 NAND 合同价下修；CRWV、NBIS 还要看融资条款与客户集中度。",
+          "tags": [
+            "纳指",
+            "SOX",
+            "NVDA",
+            "MU",
+            "CRWV",
+            "NBIS",
+            "美债"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜收盘行情",
+              "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-slide-nvidia-earnings-anthropic-debut-loom-2026-11-16/"
+            },
+            {
+              "title": "MarketWatch｜芯片股收盘",
+              "url": "https://www.marketwatch.com/story/micron-amd-and-other-ai-stocks-fall-as-the-chip-sectors-selloff-intensifies-48e38bdf"
+            },
+            {
+              "title": "美国财政部｜收益率曲线",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-16-pm-fed",
+          "category": "macro",
+          "title": "Fed 点名 AI 循环融资；12 月加息仍是市场定价",
+          "status": "Fed 官员讲话、期货预期及持仓披露；未作利率决定",
+          "importance": "高",
+          "body": [
+            "11 月 16 日，Fed 理事 Barr 指出，AI 数据中心债务增长、循环融资和复杂融资义务值得关注。Fed 主席 Warsh 同日强调 AI 可能提高生产率，但若资本投入回报不佳，也可能压低估值并拖累就业。Reuters 收盘报道引述 CME FedWatch，12 月加息 25 个基点的隐含概率约 95.7%，并非决议或点阵图。Reuters 对三季度 13F 的汇总显示，其跟踪的公用事业和电力股有 212 家基金退出、96 家新建仓；这些是季度持仓变化，不能当作今日资金流。"
+          ],
+          "whyImportant": "客户融资如果依赖供应商投资、担保或再融资，名义订单可能领先于可持续的现金收入。官员指出的是风险机制，并未宣布新的 AI 监管或信贷限制。",
+          "investmentImpact": "继续区分信用利差和美债收益率：若信用利差走阔，即使美债回落，算力商的融资仍可能收紧。若美国赤字融资推高长债供给而买盘不足，期限溢价可能上升；本期未核实新的全国 CPI、PPI、PCE、就业或工资读数，也未核实新的财政或发债决定及足以判断期限溢价的新增数据。",
+          "tags": [
+            "Fed",
+            "FedWatch",
+            "信用利差",
+            "资金流",
+            "期限溢价",
+            "AI融资"
+          ],
+          "sources": [
+            {
+              "title": "Fed｜Barr 讲话",
+              "url": "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm"
+            },
+            {
+              "title": "Fed｜Warsh 讲话",
+              "url": "https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm"
+            },
+            {
+              "title": "Reuters｜FedWatch",
+              "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-slide-nvidia-earnings-anthropic-debut-loom-2026-11-16/"
+            },
+            {
+              "title": "Reuters｜三季度 13F 汇总",
+              "url": "https://www.reuters.com/legal/transactional/investors-cooled-data-center-stocks-third-quarter-filings-show-2026-11-16/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-16-pm-oil",
+          "category": "macro",
+          "title": "油气跌幅较早盘扩大，Brent 收于 92.44 美元",
+          "status": "期货结算；调停继续，未核实停火",
+          "importance": "中",
+          "body": [
+            "Brent 结算 92.44 美元／桶（跌 3.6%），WTI 85.72 美元／桶（跌 3.2%）；NYMEX 天然气结算 3.122 美元／百万英热单位（跌 3.3%）。Reuters 报道，市场关注中东出口回升和潜在过剩；巴基斯坦外长称将继续推动美伊降温，本期未核实停火或霍尔木兹通行恢复正常。"
+          ],
+          "whyImportant": "油价结算低于早报盘中水平，表明供应预期暂时压过航运风险；美国天然气还受到本土产量恢复与天气转暖预期压制。",
+          "investmentImpact": "若后续装船再度减少且油价持续反弹，再验证通胀预期和长端收益率是否跟涨。今日油气下跌没有阻止科技股走弱，不能把能源回落直接视为估值企稳信号。",
+          "tags": [
+            "伊朗",
+            "霍尔木兹",
+            "Brent",
+            "WTI",
+            "天然气",
+            "通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜原油结算",
+              "url": "https://www.reuters.com/business/energy/oil-prices-fall-expectations-coming-supply-surplus-2026-11-16/"
+            },
+            {
+              "title": "WSJ｜天然气结算",
+              "url": "https://www.wsj.com/finance/commodities-futures/u-s-natural-gas-futures-start-week-lower-4a1e94a5"
+            },
+            {
+              "title": "AP｜巴基斯坦调停",
+              "url": "https://apnews.com/article/fff3bfdcebb7ef084f0f29dd04d239ee"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-16-pm-fx",
+          "category": "macro",
+          "title": "美元继续偏强，东京收盘 USD/JPY 约 159.52–159.53",
+          "status": "已发布汇率；未验证资金回流或新贸易政策",
+          "importance": "中",
+          "body": [
+            "WSJ 美元指数收于 98.46，涨 0.12%，连续第五天上涨。日本央行公布的东京 17:00 美元兑日元为 159.52–159.53。相较早报，未核实新的日本债务政策、日债可比读数或资金回流证据；也未核实新的美国关税措施或早报 BIS 远程算力规则已在《联邦公报》刊登。"
+          ],
+          "whyImportant": "美元偏强可能提高美元融资成本，但仅靠美元或日元波动，不能推断日本资本已回流或全球流动性已经收缩。",
+          "investmentImpact": "将 JGB 标售需求、日元与日本跨境流量合看。对受出口管制影响的科技公司，继续区分正式刊登、生效与实际交付；中期选举后有关监管、财政和贸易的表态也与正式决定分开。",
+          "tags": [
+            "美元",
+            "日元",
+            "JGB",
+            "跨境资金",
+            "关税",
+            "BIS"
+          ],
+          "sources": [
+            {
+              "title": "WSJ｜美元指数",
+              "url": "https://www.wsj.com/finance/currencies/singapore-dollar-consolidates-but-may-be-weighed-by-risk-off-sentiment-1a00f31b"
+            },
+            {
+              "title": "日本央行｜东京外汇日报",
+              "url": "https://www.boj.or.jp/statistics/market/forex/fxdaily/fxlist/fx261116.pdf"
+            },
+            {
+              "title": "BIS｜规则原文",
+              "url": "https://www.bis.gov/media/documents/rin-0694-ak50.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-16-pm-cpo",
+          "category": "semi",
+          "title": "Lambda 用共封装光学连接逾 1 万颗英伟达 GPU",
+          "status": "客户与供应商披露已部署；测试结果为公司口径",
+          "importance": "高",
+          "body": [
+            "Lambda 11 月 16 日称，已在魁北克园区用英伟达 Photonics 交换机连接超过 1 万颗 Blackwell Ultra GPU。公司在其测试中称，共封装光学（CPO）与传统可插拔光模块吞吐相同，Pod 级延迟低 10.1%，光学器件温度中位数为 36°C 对 51°C。"
+          ],
+          "whyImportant": "从测试走到万卡规模部署，是 CPO 在 AI 集群内部网络的实际采用信号。单一客户测试不能代表行业平均可靠性或成本，也不等于所有链路会替代可插拔模块。",
+          "investmentImpact": "跟踪其他客户能否复制部署、现场故障率、维护成本及每端口能耗。对 NVDA 是网络产品放量信号；对 AVGO 和光模块链，要看 CPO 与可插拔方案在不同链路中的实际份额。",
+          "tags": [
+            "Lambda",
+            "NVDA",
+            "CPO",
+            "AVGO",
+            "光通信",
+            "Blackwell Ultra"
+          ],
+          "sources": [
+            {
+              "title": "Lambda｜部署与测试",
+              "url": "https://lambda.com/blog/worlds-first-large-scale-deployment-of-nvidia-photonics-switches-with-cpo"
+            },
+            {
+              "title": "NVIDIA｜技术说明",
+              "url": "https://blogs.nvidia.com/blog/lambda-photonics/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-16-pm-robot",
+          "category": "robot",
+          "title": "暂无早报之外可验证的机器人商业进展",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "本窗口未核实早报之外新增的付费部署、客户定点、可比实机表现或零部件降本。"
+          ],
+          "whyImportant": "没有客户现场运行和成本数据，暂不调整商业化速度或单位经济性判断。",
+          "investmentImpact": "继续看未见任务零样本成功率、跨本体迁移、触觉与力控精细操作、单位任务训练数据量、每百次人工接管、在线率与故障恢复，以及执行器、灵巧手、传感器、电池和减速器的单位成本；最后用实际付费部署或客户定点验证。",
+          "tags": [
+            "Physical AI",
+            "零样本泛化",
+            "跨本体迁移",
+            "硬件成本",
+            "付费部署"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
       "id": "2026-11-16-am",
       "date": "2026-11-16",
       "period": "am",
