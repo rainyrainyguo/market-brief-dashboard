@@ -4,6 +4,215 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-18-am",
+      "date": "2026-11-18",
+      "period": "am",
+      "time": "08:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-18T08:06:00-08:00",
+      "summary": "Waller 主张 12 月加息 50 基点，或明确更快的后续加息；这仍是个人立场。英伟达停供中国获许可 Hopper 的细节获确认，Anthropic 今晚定价尚待落地。EIA 商业原油库存增 340 万桶，日本 20 年债标售结果已出。机器人补充核实 GF 的真实巡检数据，并标明其 17 日公告日期。",
+      "cards": [
+        {
+          "id": "2026-11-18-am-fed",
+          "category": "macro",
+          "title": "宏观 / 市场环境：Waller 提出更激进加息，住房许可走弱",
+          "status": "官员个人立场＋已公布住房数据；非新利率决定",
+          "importance": "高",
+          "body": [
+            "11 月 18 日 Waller 在 CNBC 表示，应在 12 月加息 50 基点，或明确传达 2027 年更快加息。美西 05:59 的 WSJ 快照：市场仍约 95% 定价加息 25 基点；2 年美债 4.821%、10 年 5.109%，均高于其前日可比报价。Census 同日公布：10 月新屋开工年化 130.9 万套、环比增 9.9%（误差 ±16.8%，统计上未显著异于零）；建筑许可 129.5 万套、环比降 7.4%。"
+          ],
+          "whyImportant": "分析：官员希望的政策路径与市场定价存在距离；开工反弹也未得到前瞻许可支持。不能把鹰派采访当作 FOMC 决议或新点阵图。",
+          "investmentImpact": "若市场转向更多／更快加息→短端与贴现率上升→高估值科技及高杠杆云商承压；住房走弱则提示需求风险。FOMC 纪要定于今天美西 11:00 公布，本期尚未发生；本窗口未核实新 CPI／PPI／PCE、非农或工资数据。观察利率路径重定价能否扩展到信用利差和实际融资成本。",
+          "tags": [
+            "Fed",
+            "Waller",
+            "美债",
+            "住房",
+            "科技估值",
+            "CRWV",
+            "NBIS"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Waller 采访",
+              "url": "https://www.reuters.com/markets/us/waller-says-cnbc-fed-needs-get-more-aggressive-inflation-response-2026-11-18/"
+            },
+            {
+              "title": "WSJ｜05:59 PT 债市快照",
+              "url": "https://www.wsj.com/finance/jgbs-edge-lower-ahead-of-20-year-auction-91707090"
+            },
+            {
+              "title": "Census｜10 月住宅建设正式报告",
+              "url": "https://www.census.gov/construction/nrc/pdf/newresconst.pdf"
+            },
+            {
+              "title": "Fed｜11 月官方日程",
+              "url": "https://www.federalreserve.gov/newsevents/2026-November.htm"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-18-am-nvda",
+          "category": "semi",
+          "title": "NVDA 中国停供细节获确认，强指引尚未带来全面重估",
+          "status": "今晨报道核实 17 日电话会；非今晨新禁令",
+          "importance": "高",
+          "body": [
+            "Reuters 今晨引述 Kress：上季向中国销售获许可 Hopper 产品 24 亿美元，目前已停止发运，指引不包含这类销售；未解释停供原因或是否永久。另据 Reuters，董事长 Harvey Jones 在电话会明确不会重新聘任黄仁勋为 CEO，已聘请猎头但未给出接任时间。",
+            "美西 07:04 的 Reuters 盘中快照：NVDA 跌 0.3%，CRWV 跌 5.7%、NBIS 跌 2%；纳指涨 0.54%。这是盘中而非收盘。昨晚业绩、毛利率及采购承诺不重复作为新增。"
+          ],
+          "whyImportant": "分析：中国直接销售并非始终为零；停供的具体产品范围与董事会立场，比“回归预期”或泛称“中国风险已计入”更可核对。指数回升也未代表 AI 链全面企稳。",
+          "investmentImpact": "对 NVDA 看新 CEO、产品路线和交付执行；对云商看融资与验收。停供并不证明所有海外间接中国敞口消失，也不能把 24 亿美元简单年化为政策损失。美股个股分化不能仅凭一次快照确定归因或见底。",
+          "tags": [
+            "NVDA",
+            "中国",
+            "Hopper",
+            "公司治理",
+            "CRWV",
+            "NBIS"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜中国 Hopper 停供细节",
+              "url": "https://www.reuters.com/world/china/nvidia-stops-shipping-us-approved-ai-chips-china-2026-11-18/"
+            },
+            {
+              "title": "Reuters｜CEO 接任与董事会立场",
+              "url": "https://www.reuters.com/business/finance/nvidias-numbers-impress-investors-fret-over-ceo-succession-2026-11-18/"
+            },
+            {
+              "title": "Reuters｜美西 07:04 盘中行情",
+              "url": "https://www.reuters.com/business/nasdaq-futures-jump-nvidia-forecast-lifts-ai-trade-ahead-anthropic-pricing-2026-11-18/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-18-am-anthropic",
+          "category": "ai",
+          "title": "Anthropic 今晚定价待落地，散户需求预测不等于资金流入",
+          "status": "发行日程及需求预期；尚未取得最终定价",
+          "importance": "高",
+          "body": [
+            "Reuters 11 月 18 日报道：预计当天稍晚定价、19 日开始交易；承销商为散户预留最多 20% 发行股，Vanda 预测上市日散户净买入约 2.5 亿美元。已读取的 11 月 10 日招股书仍列每股 70–78 美元拟发行区间，本期未核实最终发行价。"
+          ],
+          "whyImportant": "分析：本期新增是进入定价窗口及散户需求估计；估值目标、订单兴趣和预测净买入均不是已完成融资或已发生资金流。",
+          "investmentImpact": "对 AI 板块，实际定价、可交易供给和上市后承接将检验风险偏好；追价不能据此保证首日收益。观察最终招股文件与价格，尤其区分交易所 ANT 股票、杠杆 ETF 和链上合约；后两者不能直接当作股票开盘价。",
+          "tags": [
+            "Anthropic",
+            "ANT",
+            "IPO",
+            "风险偏好",
+            "资金流"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜发行日程与散户需求预测",
+              "url": "https://www.reuters.com/legal/transactional/wall-street-prepares-anthropic-ipo-frenzy-despite-broader-ai-stock-slump-2026-11-18/"
+            },
+            {
+              "title": "Anthropic｜11 月 10 日初步招股书",
+              "url": "https://ipo.anthropic.com/documents/us/prospectus.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-18-am-energy",
+          "category": "macro",
+          "title": "宏观 / 市场环境：EIA 确认累库，战事风险仍未解除",
+          "status": "已公布官方库存；报价为带时间盘中值",
+          "importance": "高",
+          "body": [
+            "EIA 本次周报（截至 11 月 13 日）显示，商业原油库存（不含 SPR）增 340 万桶至 4.178 亿桶，汽油增 520 万桶、馏分油增 160 万桶；此前 API 消息源的原油增 528 万桶不能替代官方值。Reuters 美西 05:10 报 Brent 93.10、WTI 85.54 美元／桶，均为 EIA 发布前报价。WSJ 美西 06:05 报 Henry Hub 期货 3.269 美元／百万英热单位、涨 1.9%。"
+          ],
+          "whyImportant": "分析：官方累库是相较昨晚等待库存的新增验证。伊朗称隔夜袭击科威特美方设施，属交战方说法；本期未确认停火。美国天然气涨势与天气需求预期有关，不能直接归因于中东。",
+          "investmentImpact": "战争→供给／航运风险→油价→通胀→收益率→科技估值，与累库带来的油价压力并存。上述油价早于 EIA，不能写成该数据的市场反应。继续看后续油价、实际装船／保险、天然气库存与天气。",
+          "tags": [
+            "EIA",
+            "伊朗",
+            "科威特",
+            "Brent",
+            "WTI",
+            "天然气",
+            "通胀"
+          ],
+          "sources": [
+            {
+              "title": "EIA｜官方周度库存与供需表",
+              "url": "https://ir.eia.gov/wpsr/overview.pdf"
+            },
+            {
+              "title": "Reuters｜油价与隔夜战事报道",
+              "url": "https://www.reuters.com/business/energy/oil-prices-fall-higher-us-crude-stocks-temper-supply-risks-2026-11-18/"
+            },
+            {
+              "title": "WSJ｜06:05 PT 天然气快照",
+              "url": "https://www.wsj.com/finance/commodities-futures/u-s-natural-gas-futures-gain-on-more-supportive-weather-245b9223"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-18-am-jgb",
+          "category": "macro",
+          "title": "宏观 / 市场环境：日本 20 年债标售落地，美元仍偏强",
+          "status": "官方标售结果＋带时间汇率快照；未证明资金回流",
+          "importance": "中",
+          "body": [
+            "日本财务省 11 月 18 日公布 20 年债标售：竞争性投标 1.914 万亿日元、获配 5,258 亿日元，平均中标收益率 3.756%、边际收益率 3.782%；投标／获配约 3.64 倍（据官方数计算）。Reuters 美西 04:52 报美元指数 103.78、涨 0.2%，USD/JPY 约 159.30。"
+          ],
+          "whyImportant": "分析：这是实际发行吸收情况，不是分析师的未来 JGB 收益率预测；没有同口径历史比较，单次倍数不能直接称为强拍卖或弱拍卖。",
+          "investmentImpact": "日本收益率上升→本土资产吸引力提高→潜在资金回流→全球风险资产流动性承压，仍须资金流验证。美国 20 年债标售在今天美西 10:00，尚未发生；关注财政／发债→期限溢价→长端利率。未核实新美国赤字政策、期限溢价估计、信用利差、实际跨境流量，或中期选举后的新增财政／贸易／关税／监管落地，不将其写成已发生冲击。",
+          "tags": [
+            "JGB",
+            "日元",
+            "美元",
+            "发债",
+            "期限溢价",
+            "流动性"
+          ],
+          "sources": [
+            {
+              "title": "日本财务省｜20 年 JGB 标售正式结果",
+              "url": "https://www.mof.go.jp/english/policy/jgbs/auction/calendar/eresul/eresul20261118.htm"
+            },
+            {
+              "title": "Reuters／Euronext｜全球市场与汇率快照",
+              "url": "https://live.euronext.com/en/financial-news/stocks-slip-investors-mull-nvidia-earnings-anthropic-ipo-test-ai-boom"
+            },
+            {
+              "title": "WSJ｜美国长债标售日程",
+              "url": "https://www.wsj.com/finance/jgbs-edge-lower-ahead-of-20-year-auction-91707090"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-18-am-robot",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：补充核实 GF 实际巡检与扩围",
+          "status": "原公告为 11 月 17 日；不冒充本半天新签约",
+          "importance": "中",
+          "body": [
+            "Boston Dynamics 原公告日期为 11 月 17 日，未列具体发布时间，今晨媒体继续报道，本期补充核实：GF 新加坡两台 Spot 自 4 月以来完成逾 9 万次巡检、行走近 900 公里，公司称任务成功率 99%；合作将扩至美国、德国和新加坡厂区。Atlas 现场测试计划从 2027 年初开始。"
+          ],
+          "whyImportant": "分析：真实工业客户扩大应用，比一般 demo 更能支持部署需求判断；但 99% 任务成功率不等于 uptime、零人工接管或零样本泛化，也不能外推至 Atlas 精细操作。",
+          "investmentImpact": "未披露新增订单金额、付费条款、人工介入率或单位经济性，不能据此上调机器人零部件收入预测。观察 GF 后续重复采购、每百次接管、故障恢复、在线率；同时追踪跨本体迁移、触觉／力控、数据效率及执行器／手／传感器／电池／减速器成本。NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Nabtesco、Harmonic Drive、THK、Nidec、Gemini Robotics、Physical Intelligence 本窗口暂无另行核实的同类实质新增。",
+          "tags": [
+            "GFS",
+            "Boston Dynamics",
+            "Spot",
+            "Atlas",
+            "可靠性",
+            "真实部署"
+          ],
+          "sources": [
+            {
+              "title": "Boston Dynamics｜17 日原始公告与部署指标",
+              "url": "https://bostondynamics.com/news/boston-dynamics-globalfoundries-expand-robotics-collaboration/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-17-pm",
       "date": "2026-11-17",
       "period": "pm",
