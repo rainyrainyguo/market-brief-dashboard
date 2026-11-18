@@ -4,6 +4,210 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-17-pm",
+      "date": "2026-11-17",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-17T19:10:00-08:00",
+      "summary": "英伟达季度收入 1,158 亿美元、下季指引 1,300 亿，但下季毛利率指引降至 71%–72%；供应承诺增至 3,900 亿美元，云客户融资条件值得分开审视。美股现货收跌、美债收益率小幅回落；美伊交火继续，原油涨幅较早盘收窄。微软发布企业模型与权重许可；机器人暂无窗口内可核实的实质新增。",
+      "cards": [
+        {
+          "id": "2026-11-17-pm-nvda",
+          "category": "semi",
+          "title": "NVDA 收入强劲，下季毛利率指引却降至 71%–72%",
+          "status": "已公布业绩；下季数字为公司指引",
+          "importance": "高",
+          "body": [
+            "11 月 17 日盘后，Q3 FY27 收入 1,158 亿美元，环比增 20%、同比增 103%；数据中心收入 1,076 亿美元。GAAP／non-GAAP 毛利率为 74.8%／74.9%。Q4 收入指引 1,300 亿美元 ±3%，且该季多一周；两种口径毛利率均预计 71%–72%。"
+          ],
+          "whyImportant": "相较早报等待财报，现在可同时验证增长与盈利质量：收入扩张并未带来下季毛利率同步上升，不能只看营收标题。",
+          "investmentImpact": "分析：NVDA 与 AI 供应链需求获得实际收入支持，但估值能否修复还取决于降毛利原因、产品组合与利润兑现。指引未计入中国数据中心计算收入，这不代表全部间接中国敞口为零，也不代表新出口规则没有影响。观察 Q4 交付与毛利率兑现。",
+          "tags": [
+            "NVDA",
+            "AI 资本开支",
+            "毛利率",
+            "中国",
+            "财报"
+          ],
+          "sources": [
+            {
+              "title": "NVIDIA｜Q3 FY27 财报与 Q4 指引",
+              "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-17-pm-supply",
+          "category": "semi",
+          "title": "采购承诺增至 3,900 亿美元，存储与封装进入兑现检验",
+          "status": "公司已披露承诺；不是供应商已确认收入",
+          "importance": "高",
+          "body": [
+            "CFO 文件披露，供应承诺由上季 2,790 亿美元升至 3,900 亿美元，增加主要来自多年期存储采购。公司另宣布扩大与 TSMC、Amkor、SPIL、景硕、三星电机及鸿海在晶圆、封装、载板和系统制造上的合作。"
+          ],
+          "whyImportant": "分析：需求支撑从产品发布延伸到长期资源锁定；但采购承诺也增加库存、定价及需求错配风险。",
+          "investmentImpact": "MU、SK hynix、三星存储及封装链值得跟踪合同价格和交货节奏；3,900 亿美元不是全部存储订单，更不是上述企业下一年收入。观察产能是否按时投产、采购能否转成客户付款。",
+          "tags": [
+            "NVDA",
+            "MU",
+            "TSMC",
+            "存储",
+            "先进封装",
+            "载板"
+          ],
+          "sources": [
+            {
+              "title": "NVIDIA／SEC｜Q3 FY27 CFO commentary",
+              "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm"
+            },
+            {
+              "title": "NVIDIA｜供应链扩产合作公告",
+              "url": "https://www.globenewswire.com/news-release/2026/11/17/3405251/0/en/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout.html"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-17-pm-cloud",
+          "category": "ai",
+          "title": "Neocloud 合同附融资、上线和验收条件",
+          "status": "已披露合同条件；并非已取消订单",
+          "importance": "高",
+          "body": [
+            "NVIDIA 披露，对 neocloud 的相关承诺须待客户取得基础设施采购融资、算力部署并投入运营且经 NVIDIA 验收后才生效；条件未及时满足，承诺金额和时间可能变化，部分可能减少或取消。"
+          ],
+          "whyImportant": "分析：已售硬件、附条件算力承诺和最终客户需求属于不同环节。融资能力是 AI 收入兑现链中的实质风险。",
+          "investmentImpact": "对 CRWV、NBIS 等云基础设施投资，逐项核对融资成本、交付验收、利用率和终端客户付款；该文件未证明某一家公司的合同已经失效。高利率／信用收紧→融资难度上升→部署延迟→供应链收入与估值承压。",
+          "tags": [
+            "NVDA",
+            "CRWV",
+            "NBIS",
+            "客户融资",
+            "合同条件"
+          ],
+          "sources": [
+            {
+              "title": "NVIDIA／SEC｜Q3 FY27 CFO commentary",
+              "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-17-pm-microsoft",
+          "category": "ai",
+          "title": "Microsoft Ignite：企业决策模型正式可用，开放受许可权重访问",
+          "status": "官方产品发布；客户使用不等于付费收入",
+          "importance": "中",
+          "body": [
+            "Microsoft-Decision-1.1 正式可用，新增多模态支持；微软称已有超过 4,000 家客户使用。MAI Licensed Weights 将向受信任客户提供微软 AI 模型权重访问。"
+          ],
+          "whyImportant": "分析：企业 AI 的竞争进一步落到任务成本、部署选择与平台分发；权重许可不等于开源。",
+          "investmentImpact": "观察 MSFT 的实际付费采用、Azure 毛利率和每任务成本；不能把 4,000 家使用客户直接转为新增订阅或收入预测。",
+          "tags": [
+            "MSFT",
+            "Ignite",
+            "企业 AI",
+            "模型权重",
+            "商业化"
+          ],
+          "sources": [
+            {
+              "title": "Microsoft｜Ignite 2026 官方主旨发布",
+              "url": "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-17-pm-markets",
+          "category": "macro",
+          "title": "宏观 / 市场环境：股市收跌，长端利率仍高",
+          "status": "已发生收盘与官方日度数据；政策预期另列",
+          "importance": "高",
+          "body": [
+            "11 月 17 日现货收盘：标普 500 跌 1.03%、纳指跌 0.74%、道指跌 1.64%，均在 NVDA 财报前。美国财政部日度曲线：2 年期 4.80%、10 年期 5.10%、30 年期 5.46%；较前日分别降 3、2、0 个基点。 Reuters 引述 CME FedWatch：当日市场定价的 12 月加息 25 基点概率为 95.4%，属于预期而非 Fed 承诺。"
+          ],
+          "whyImportant": "分析：不能将财报前指数跌幅当作财报反应；利率小降也未消除高贴现率约束。本期未另行确认期限溢价、美元、信用利差或跨境资金流的可比新增。",
+          "investmentImpact": "早报已报的零售、进口价格和工业生产不重复计为新数据。本半天未核实新 CPI／PPI／PCE、就业工资、Fed 决议或点阵图，也未核实新的财政赤字／发债政策或中期选举后的关税监管落地。观察 11 月 18 日 FOMC 纪要与长债需求；财政／发债压力→期限溢价→长端利率→科技估值，是待数据验证的链条。日本 JGB／日元无本窗口可核实新增，收益率上行→资金回流→全球流动性收紧也不能仅凭价格推定。",
+          "tags": [
+            "美债",
+            "Fed",
+            "期限溢价",
+            "JGB",
+            "日元",
+            "美元",
+            "信用利差",
+            "资金流",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美国股市收盘",
+              "url": "https://www.reuters.com/business/us-stock-futures-slip-ahead-nvidia-results-fed-speakers-focus-2026-11-17/"
+            },
+            {
+              "title": "美国财政部｜日度国债收益率曲线",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve"
+            },
+            {
+              "title": "Fed｜11 月官方日程（18 日公布纪要）",
+              "url": "https://www.federalreserve.gov/newsevents/2026-November.htm"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-17-pm-energy",
+          "category": "macro",
+          "title": "宏观 / 市场环境：美伊继续交火，油价收涨但低于早盘",
+          "status": "交火据 Reuters 报道；结算价格已发生",
+          "importance": "高",
+          "body": [
+            "Reuters 报道，伊朗无人机袭击巴林美军雷达系统后，美军当日空袭伊朗。Brent 结算 93.14 美元／桶，涨 0.76%；WTI 86.01，涨 0.34%，均低于早报盘中报价。美国 Henry Hub 12 月天然气期货结算 3.208 美元／百万英热单位，涨约 2.8%。"
+          ],
+          "whyImportant": "分析：原油涨幅收窄，不足以断言战争风险解除；本期未确认新的停火协议。天然气当日走势与美国天气需求预期相关，不能直接归因于中东。",
+          "investmentImpact": "战争→运输／供给风险→油价→通胀预期→美债收益率→科技估值，需要逐环观察，不能仅凭交火推出利率必涨。油库存下降仍属报道中的市场预期，等待 EIA 实际数据；另看装船量、航运保险与美国天然气天气和库存。",
+          "tags": [
+            "伊朗",
+            "中东",
+            "Brent",
+            "WTI",
+            "天然气",
+            "通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜交火与原油结算",
+              "url": "https://www.reuters.com/business/energy/oil-slips-supply-surplus-outlook-despite-gulf-tensions-2026-11-17/"
+            },
+            {
+              "title": "WSJ｜美国天然气期货结算",
+              "url": "https://www.wsj.com/finance/commodities-futures/u-s-natural-gas-futures-extend-retreat-985bb896"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-17-pm-robot",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：暂无窗口内实质新增",
+          "status": "无可核实实质更新",
+          "importance": "低",
+          "body": [
+            "截至本期，过去约半天未核实新的付费部署／客户定点、可比泛化或精细操作指标、实机可靠性或关键硬件降本。"
+          ],
+          "whyImportant": "未把窗口外融资、一般演示或旧项目复传当成本半天的新部署信号。",
+          "investmentImpact": "观察清单：zero-shot 成功率、跨本体迁移、触觉／力控精细操作、每任务训练数据量、每百次人工接管、uptime 与故障恢复；硬件看执行器、手、传感器、电池、减速器成本，商业看实际付费部署。对 NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Nabtesco、Harmonic Drive、THK、Nidec、Gemini Robotics 和 Physical Intelligence 暂不据普通 demo 上调收入假设。",
+          "tags": [
+            "Physical AI",
+            "泛化",
+            "数据效率",
+            "可靠性",
+            "硬件成本",
+            "付费部署"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
       "id": "2026-11-17-am",
       "date": "2026-11-17",
       "period": "am",
