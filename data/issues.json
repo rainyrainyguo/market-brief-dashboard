@@ -4,6 +4,191 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-19-am",
+      "date": "2026-11-19",
+      "period": "am",
+      "time": "08:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-19T07:59:00-08:00",
+      "summary": "BIS 远程算力规则已正式刊登、今天生效，更新此前预公开状态。美国初请 20.3 万，费城制造业活动降温但价格指数上升。Anthropic 开盘指示约 99.82 美元仍非实际成交，AI／芯片早盘反弹。植田重申加息方向；原油反弹、EIA 天然气库存增加 20 Bcf。机器人暂无可核实实质新增。",
+      "cards": [
+        {
+          "id": "2026-11-19-am-bis",
+          "category": "semi",
+          "title": "BIS 远程算力规则正式刊登并生效",
+          "status": "已发生政策变化；由预公开推进到正式规则",
+          "importance": "高",
+          "body": [
+            "11 月 19 日《联邦公报》正式刊登 RIN 0694–AK50《Addressing Remote Access to Advanced Semiconductors》，注明当天生效。规则涉及向 D:5 国家组或澳门总部企业提供显著远程算力的海外数据中心，并对部分先进半导体输往印尼、马来西亚、新加坡、泰国、巴西增加许可要求。"
+          ],
+          "whyImportant": "相较 17 日早报的“拟刊登”，法律状态已落地。商业推荐系统及符合报告要求的美国总部／最终母公司相关交易有例外，不能泛化成五国全部芯片禁售。",
+          "investmentImpact": "分析：NVDA、AMD、云商、代工与封装需按产品、终端客户、用途、例外及过渡安排核对许可；远程服务与实体出货分别判断。对海外间接中国需求的影响仍须客户收入与执行数据验证，不能据规则标题直接扣减全部地区营收。这是出口管制，不是新增普遍关税。",
+          "tags": [
+            "BIS",
+            "NVDA",
+            "AMD",
+            "TSMC",
+            "远程算力",
+            "出口管制"
+          ],
+          "sources": [
+            {
+              "title": "Federal Register／GovInfo｜11 月 19 日正式规则",
+              "url": "https://www.govinfo.gov/content/pkg/FR-2026-11-19/pdf/2026-23529.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-19-am-data",
+          "category": "macro",
+          "title": "宏观 / 市场环境：初请仍低，制造业订单弱而价格压力升",
+          "status": "已公布官方数据；调查指数不是通胀率",
+          "importance": "高",
+          "body": [
+            "11 月 19 日官方数据：截至 14 日初请失业金 20.3 万，较修正前周增 1,000；截至 7 日续请 176.3 万，增 7 万。费城 Fed 11 月一般活动指数由 20.9 降至 6.3，新订单 -0.4；投入价格由 43.2 升至 58.2、销售价格由 40.1 升至 47.0，就业指数升至 11.6。"
+          ],
+          "whyImportant": "分析：裁员未明显加速，但再就业与地区制造业需求有压力，价格扩散却增强，增长和通胀信号并不同向。费城调查不代表全国制造业；58.2 也不是价格上涨 58.2%。",
+          "investmentImpact": "若价格压力持续→Fed 紧缩预期／贴现率受支撑→高估值科技承压；若订单弱化扩散→盈利预期承压。续请上升不能直接等同新增裁员。本窗口未核实新 CPI／PPI／PCE、非农工资、新 Fed 利率决定或点阵图；昨晚纪要不重复作为新政策。",
+          "tags": [
+            "初请",
+            "续请",
+            "费城 Fed",
+            "通胀",
+            "就业",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "美国劳工部｜11 月 19 日失业保险周报",
+              "url": "https://www.dol.gov/ui/data.pdf"
+            },
+            {
+              "title": "费城 Fed｜11 月制造业调查原文",
+              "url": "https://www.philadelphiafed.org/surveys-and-data/regional-economic-analysis/mbos-2026-11"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-19-am-anthropic",
+          "category": "ai",
+          "title": "Anthropic 开盘指示约 99.82 美元，AI 链早盘反弹",
+          "status": "开盘指示与带时间盘中行情；非首笔成交或收盘",
+          "importance": "高",
+          "body": [
+            "Reuters 美西 06:50 报 Anthropic 开盘指示 99.82 美元，较 83 美元发行价高约 20%；本期未取得可核实首笔成交。美西 06:56 快照：纳指涨 1.46%、费城半导体指数涨约 4%，NVDA 涨 3.4%、CRWV 涨 7.4%、NBIS 涨 3.8%。昨晚已报的发行定价与股数不重复作为新增。"
+          ],
+          "whyImportant": "分析：新增是定价后风险偏好的市场反应，不是企业现金流或芯片订单已改善。开盘指示可继续变化，也不能与链上合约价格混为一谈。",
+          "investmentImpact": "观察 ANT 最终开盘、成交量、可售供给与首日承接，并看芯片／云商反弹能否持续。市场情绪改善可暂缓估值压缩，但不能替代收入、毛利率和融资条件验证；上述涨幅均为盘中，不据此宣告见底。",
+          "tags": [
+            "Anthropic",
+            "ANT",
+            "NVDA",
+            "SOX",
+            "CRWV",
+            "NBIS",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美西 06:50 开盘指示",
+              "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/"
+            },
+            {
+              "title": "Reuters｜美西 06:56 美股快照",
+              "url": "https://www.reuters.com/business/nasdaq-futures-jump-anthropics-record-ipo-pricing-fuels-hopes-strong-debut-2026-11-19/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-19-am-rates",
+          "category": "macro",
+          "title": "宏观 / 市场环境：植田重申加息，日元仍接近 160",
+          "status": "央行官员表态与市场报价；非新加息或汇市干预",
+          "importance": "中",
+          "body": [
+            "Reuters 报道，植田和男 19 日在国会重申将继续加息，并警惕弱日元加剧通胀。BOJ 官方东京 17:00 报 USD/JPY 159.69–159.71。WSJ 美西 05:57 快照：2 年美债 4.828%、10 年 5.082%，较其前日可比报价上升；今天还有 190 亿美元 10 年 TIPS 标售待观察。"
+          ],
+          "whyImportant": "分析：加息方向表态不等于已经决定 12 月加息，接近 160 也不代表已干预。美债报价是盘中数据，不能与昨晚官方日度曲线机械计算当日涨跌。",
+          "investmentImpact": "日本收益率上行→潜在资金回流／套息调整→全球风险资产流动性，是需资金流验证的链条。美国财政／发债→期限溢价→长端利率→科技估值也需拆解；本半天未核实新的期限溢价估计、信用利差、实际跨境流量、美国赤字政策或日本债务新安排。中期选举后的新财政、贸易、关税与监管措施以正式文件为准，未核实新增落地。",
+          "tags": [
+            "BOJ",
+            "日元",
+            "JGB",
+            "美债",
+            "TIPS",
+            "期限溢价",
+            "资金流"
+          ],
+          "sources": [
+            {
+              "title": "Reuters／MarketScreener｜植田国会表态",
+              "url": "https://uk.marketscreener.com/news/boj-chief-plays-down-soft-consumption-data-signals-near-term-rate-hike-ce785eddde8bf224"
+            },
+            {
+              "title": "BOJ｜11 月 19 日官方汇率",
+              "url": "https://www.boj.or.jp/en/statistics/market/forex/fxdaily/fxlist/fx261119.pdf"
+            },
+            {
+              "title": "WSJ｜05:57 PT 美债与标售快照",
+              "url": "https://www.wsj.com/finance/investing/jgbs-edge-higher-amid-mixed-developments-c690e1af"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-19-am-energy",
+          "category": "macro",
+          "title": "宏观 / 市场环境：原油反弹，天然气实际库存已公布",
+          "status": "盘中油价＋官方库存；袭击说法未独立证实",
+          "importance": "高",
+          "body": [
+            "Reuters 美西 06:16 报 Brent 93.19 美元／桶、涨 1.35%；WTI 12 月合约 84.55、涨约 1.6%。伊朗海军称两艘油轮在霍尔木兹触雷，Reuters 无法独立核实。EIA 今天公布截至 13 日美国天然气库存增 20 Bcf 至 3,882 Bcf，较五年均值高 80 Bcf（2.1%）。"
+          ],
+          "whyImportant": "分析：相较昨晚，新增是油价反弹及天然气实际库存；不能将交战方说法写成已证实减供，也不能把增库直接解释为需求崩塌。天然气与原油的供需机制不同。",
+          "investmentImpact": "战争／航运→油价→通胀→美债收益率→科技估值，仍要逐环核对；本期未确认新停火。天然气看库存偏离预期、天气与 LNG；本期未核实可比的新 Henry Hub 报价，不把昨晚结算当今日价格。油价为盘中，尚非今日结算。",
+          "tags": [
+            "伊朗",
+            "霍尔木兹",
+            "Brent",
+            "WTI",
+            "EIA",
+            "天然气"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜06:16 PT 原油与航运消息",
+              "url": "https://www.reuters.com/business/energy/oil-prices-steady-supply-surplus-softens-sentiment-though-gulf-war-supports-2026-11-19/"
+            },
+            {
+              "title": "EIA｜11 月 19 日天然气库存正式报告",
+              "url": "https://ir.eia.gov/ngs/ngs.html"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-19-am-robot",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：暂无实质新增",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "过去约半天未核实新的付费部署／客户定点、可比 zero-shot 或跨本体迁移指标、触觉／力控精细操作、数据效率、人工接管／在线率改善，或关键硬件成本下降。"
+          ],
+          "whyImportant": "普通 demo、人员任命或旧项目复传不足以改变机器人收入和部署可靠性判断，GF 与 Gemini Robotics 已有信息不重复。",
+          "investmentImpact": "继续观察每百次接管、uptime、故障恢复、每任务训练数据量及真实付费扩围；硬件看执行器、手、传感器、电池、减速器。NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Nabtesco、Harmonic Drive、THK、Nidec、Gemini Robotics、Physical Intelligence 暂无本窗口新增证据支持上调盈利假设。",
+          "tags": [
+            "Physical AI",
+            "泛化",
+            "跨本体迁移",
+            "触觉力控",
+            "数据效率",
+            "可靠性",
+            "硬件成本"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
       "id": "2026-11-18-pm",
       "date": "2026-11-18",
       "period": "pm",
