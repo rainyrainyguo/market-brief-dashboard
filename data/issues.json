@@ -4,6 +4,219 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-18-pm",
+      "date": "2026-11-18",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-18T18:59:00-08:00",
+      "summary": "Fed 纪要披露进一步加息倾向及 AI 融资脆弱性；长端美债收益率却回落，不能把鹰派信号等同于全曲线上行。Anthropic 官方定价 83 美元、发行扩大至 9.8 亿股；NVDA 收跌约 2.9%，芯片未全面转强。Google 发布 Gemini 4 Neon，竞争转向任务成本。原油收跌、天然气涨约 5.1%；机器人暂无早报之外可核实的实质新增。",
+      "cards": [
+        {
+          "id": "2026-11-18-pm-fed",
+          "category": "macro",
+          "title": "宏观 / 市场环境：纪要披露加息倾向与 AI 融资脆弱性",
+          "status": "11 月 18 日公布的 10 月会议纪要；不是新利率决定",
+          "importance": "高",
+          "body": [
+            "今天美西 11:00 发布的 10 月 27–28 日 FOMC 纪要显示，几乎所有与会者认为，若经济按其基准展望发展，进一步加息可能适当；两位与会者认为，若后续通胀数据不利，下次可考虑超过 25 基点。纪要还讨论 AI 债务快速增长、复杂不透明融资、表外租赁与循环融资可能放大投资回报不及预期的损失。"
+          ],
+          "whyImportant": "分析：早报的单个官员采访，现可与会议层面的讨论对照。但纪要反映 10 月信息，不是今天新加息、点阵图或新通胀数据，也不证明金融危机已经发生。",
+          "investmentImpact": "高贴现率压估值，AI 回报不及预期则可能再经杠杆、赎回和再融资放大波动。对 NVDA、CRWV、NBIS 及数据中心信用，看客户现金支付、租赁义务与融资成本；本半天未核实新 CPI／PPI／PCE、就业或工资数据。纪要中的信用利差变化属于当时会议观察期，不能当成今天利差跳升。",
+          "tags": [
+            "Fed",
+            "AI 债务",
+            "循环融资",
+            "信用风险",
+            "NVDA",
+            "CRWV",
+            "NBIS"
+          ],
+          "sources": [
+            {
+              "title": "Fed｜10 月 FOMC 纪要原文",
+              "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm"
+            },
+            {
+              "title": "Fed｜11 月 18 日发布说明",
+              "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-18-pm-anthropic",
+          "category": "ai",
+          "title": "Anthropic 官方定价 83 美元，发行扩大至 9.8 亿股",
+          "status": "公司正式定价；尚未开始公开交易或完成交割",
+          "importance": "高",
+          "body": [
+            "Anthropic 11 月 18 日公告：IPO 每股 83 美元，共 9.8 亿股，其中公司发行 956,351,354 股、老股东出售 23,648,646 股；另授予承销商 30 天内增购最多 1.47 亿股的权利。预计 19 日以 ANT 在纳斯达克开始交易、20 日交割，仍有惯常交割条件。"
+          ],
+          "whyImportant": "相较早报 70–78 美元、8.25 亿股的拟发行方案，价格比区间上限高约 6.4%，股数增约 18.8%；按 83 美元计算，发行总额约 813.4 亿美元，均为据公告计算，不等于公司净募资。",
+          "investmentImpact": "分析：价格与供给同时增加，显示定价需求强，但扩大供给也抬高上市后的承接要求。看实际开盘、流通／可售股份和持续成交，而非只看超额认购。发行价不保证首日盈利，未行使的增购权也不是已完成发行；老股东售股款不归公司。",
+          "tags": [
+            "Anthropic",
+            "ANT",
+            "IPO",
+            "股票供给",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Anthropic｜正式 IPO 定价公告",
+              "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+            },
+            {
+              "title": "Anthropic｜11 月 10 日初步招股书（对比基准）",
+              "url": "https://ipo.anthropic.com/documents/us/prospectus.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-18-pm-close",
+          "category": "semi",
+          "title": "NVDA 收跌约 2.9%，纳指反弹未带动芯片全面转强",
+          "status": "11 月 18 日收盘；不重复昨晚财报数字",
+          "importance": "高",
+          "body": [
+            "Reuters 较晚收盘综述：NVDA 跌约 2.9%；纳指涨 0.42%、标普 500 跌 0.23%、道指跌 1.11%。费城半导体指数小幅收低，AMD 上涨，MU 与 INTC 下跌。相比早报，这是完整交易日结果，不能继续用盘前或盘中涨幅描述财报反应。"
+          ],
+          "whyImportant": "分析：强收入指引与股价重估并非同一件事；板块仍在区分执行、盈利质量及融资风险。纳指上涨不足以证明半导体已整体企稳。",
+          "investmentImpact": "对 NVDA 与存储链继续核对交付、毛利率和合同价格；对云商核对融资及终端利用率。单日分化不足以判定中期见底，也不能将当天跌幅全部归因于某一条消息。",
+          "tags": [
+            "NVDA",
+            "AMD",
+            "MU",
+            "INTC",
+            "SOX",
+            "财报反应"
+          ],
+          "sources": [
+            {
+              "title": "Reuters／MarketScreener｜较晚收盘综述",
+              "url": "https://www.marketscreener.com/news/stocks-slip-with-nvidia-dollar-ticks-higher-ce785edddc89f226"
+            },
+            {
+              "title": "Reuters｜半导体收盘方向",
+              "url": "https://www.reuters.com/business/nasdaq-futures-jump-nvidia-forecast-lifts-ai-trade-ahead-anthropic-pricing-2026-11-18/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-18-pm-rates",
+          "category": "macro",
+          "title": "宏观 / 市场环境：20 年债标售落地，长端收益率回落",
+          "status": "官方标售及日度曲线；非期限溢价直接估计",
+          "importance": "高",
+          "body": [
+            "美国财政部 11 月 18 日售出 160 亿美元 20 年债，最高中标收益率 5.459%，投标倍数 2.63。官方日度曲线：2 年 4.80%、10 年 5.07%、30 年 5.41%，较前日分别持平、降 3 和 5 基点。Reuters 美东 16:49 更新报美元指数 103.79、涨 0.17%。"
+          ],
+          "whyImportant": "分析：鹰派信号没有造成整条曲线同步上行；长债供给被吸收也不等于赤字和融资压力消失。标售收益率与日度恒定期限收益率的时点及口径不同。",
+          "investmentImpact": "财政／发债→期限溢价→长端利率→科技估值，仍需分项验证，不能把收益率变化直接当作期限溢价变化。本半天未核实美国新赤字政策、日债／日元或实际跨境资金流的新增；日本收益率→资金回流→全球流动性收紧，不能仅凭汇率推定。中期选举后的新财政、贸易、关税或监管落地，亦未取得本窗口可确认新增。",
+          "tags": [
+            "美债",
+            "发债",
+            "期限溢价",
+            "美元",
+            "JGB",
+            "日元",
+            "资金流"
+          ],
+          "sources": [
+            {
+              "title": "美国财政部｜20 年债标售正式结果",
+              "url": "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/R_20261118_2.pdf"
+            },
+            {
+              "title": "美国财政部｜日度收益率曲线",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve"
+            },
+            {
+              "title": "Reuters／MarketScreener｜美元晚间快照",
+              "url": "https://www.marketscreener.com/news/stocks-slip-with-nvidia-dollar-ticks-higher-ce785edddc89f226"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-18-pm-neon",
+          "category": "ai",
+          "title": "Google 发布 Gemini 4 Neon，任务成本竞争继续",
+          "status": "官方发布与报价；性能优势须按任务验证",
+          "importance": "中",
+          "body": [
+            "Google 11 月 18 日发布 Gemini 4 Neon，开始向 API、企业及部分付费订阅渠道推出。官方报价每百万输入 token 3 美元、缓存输入 0.15 美元、输出 15 美元，支持 100 万 token 上下文；Google 称默认 high 档在其引用的评测上每任务成本较 Carbon 低 32%。"
+          ],
+          "whyImportant": "分析：竞争不仅是榜单分数，还包括完成整项任务的成本、速度、可靠性与分发。32% 是指定评测条件下的比较，不能外推为所有企业成本下降。",
+          "investmentImpact": "对 GOOGL 看付费采用、推理成本和留存；对模型供应商看定价及差异化，对算力链看需求增长能否抵消单位任务效率提升。不能把 API 售价直接等同于 GPU 成本、毛利率或半导体需求变化。",
+          "tags": [
+            "GOOGL",
+            "Gemini",
+            "推理经济性",
+            "企业 AI",
+            "任务成本"
+          ],
+          "sources": [
+            {
+              "title": "Google｜Gemini 4 Neon 官方发布",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-18-pm-energy",
+          "category": "macro",
+          "title": "宏观 / 市场环境：油价收跌，天然气涨幅扩大至约 5.1%",
+          "status": "11 月 18 日结算；不把早报库存再当新增",
+          "importance": "中",
+          "body": [
+            "Brent 结算 91.95 美元／桶，跌 1.28%；WTI 83.26，跌 3.2%。美国 Henry Hub 天然气期货结算 3.372 美元／百万英热单位，涨约 5.1%，高于早报盘中报价。原油累库数据早报已报，本期新增是后续结算反应。"
+          ],
+          "whyImportant": "分析：原油供给过剩预期与中东航运风险仍并存，本半天未核实新的停火协议或确定新增减供。美国天然气受天气、LNG 需求及产量预期影响，与原油方向分化。",
+          "investmentImpact": "战争→油价→通胀→收益率→科技估值不是每日单向链条：油价下跌可缓和能源通胀压力，却未必消除服务通胀和加息风险。明日天然气库存仍待实际发布；库存预测不是已发生数据。",
+          "tags": [
+            "伊朗",
+            "中东",
+            "Brent",
+            "WTI",
+            "天然气",
+            "通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜原油正式结算",
+              "url": "https://www.reuters.com/business/energy/oil-prices-fall-higher-us-crude-stocks-temper-supply-risks-2026-11-18/"
+            },
+            {
+              "title": "WSJ｜天然气正式结算",
+              "url": "https://www.wsj.com/finance/commodities-futures/u-s-natural-gas-futures-gain-on-more-supportive-weather-245b9223"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-18-pm-robot",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：暂无早报之外实质新增",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "过去约半天未核实新的付费部署／客户定点、可比泛化或精细操作改善、人工接管／在线率数据，或关键硬件降本。早报 GF 巡检数据不重复；未把旧 Gemini Robotics 发布或普通演示当成今天的新投资信号。"
+          ],
+          "whyImportant": "可视化世界生成与一般机器人演示，不自动证明 zero-shot、跨本体迁移、触觉／力控或真实部署可靠性改善。",
+          "investmentImpact": "观察清单：每任务训练数据量、未见任务成功率、每百次人工介入、uptime、故障恢复及实际付费扩围；硬件看执行器、手、传感器、电池、减速器成本。NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Nabtesco、Harmonic Drive、THK、Nidec、Gemini Robotics、Physical Intelligence 暂无本窗口新增证据支持上调盈利假设。",
+          "tags": [
+            "Physical AI",
+            "泛化",
+            "跨本体迁移",
+            "触觉力控",
+            "数据效率",
+            "可靠性",
+            "硬件成本"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
       "id": "2026-11-18-am",
       "date": "2026-11-18",
       "period": "am",
