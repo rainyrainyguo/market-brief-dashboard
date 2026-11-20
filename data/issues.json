@@ -4,6 +4,219 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-20-am",
+      "date": "2026-11-20",
+      "period": "am",
+      "time": "08:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-20T08:05:02-08:00",
+      "summary": "全球避险继续：亚洲股票重挫，10 年美债盘中跌破 5%；美股早盘芯片与云算力仍弱。Anthropic 完成绿鞋，IPO 总募资约 935 亿美元，另有 260 亿美元同步私募，须区分公司所得与公众流通股。美国消费者信心终值回升、Fed 加息概率仍高；日元走强。油价回落但红海威胁与制裁执行升级，机器人暂无窗口内实质新增。",
+      "cards": [
+        {
+          "id": "2026-11-20-am-risk",
+          "category": "macro",
+          "title": "宏观 / 市场环境：亚洲抛售扩散，美债收益率跌破 5%",
+          "status": "已发生市场报价；亚洲及欧洲为带时间快照",
+          "importance": "高",
+          "body": [
+            "Reuters 美东 05:13（美西 02:13）全球市场快照：日经跌约 5%，亚太除日本股票本周累计跌约 8%；美国 10 年美债收益率盘中跌破 5%，美元仍接近 20 个月高位。这里不是美股收盘或最新逐笔行情。"
+          ],
+          "whyImportant": "分析：股票与收益率同时下行，显示单纯降低贴现率未能抵消盈利、融资及风险偏好的压力；不能把美债上涨直接解读成 AI 股票见底。",
+          "investmentImpact": "AI 回报疑虑／仓位调整→权益风险溢价上升→芯片与高融资需求云商承压；避险买债可压低国债收益率，但信用利差可能走向不同。本窗口未取得新的可比信用利差或实际基金资金流，不把价格变动写成已证实的大规模赎回。",
+          "tags": [
+            "全球避险",
+            "亚洲科技",
+            "美债",
+            "美元",
+            "信用利差",
+            "资金流"
+          ],
+          "sources": [
+            {
+              "title": "Reuters／MarketScreener｜05:13 ET 全球市场快照",
+              "url": "https://ca.marketscreener.com/news/stocks-slide-as-ai-selloff-deepens-asia-set-for-worst-week-since-2020-ce785ed3d98aff21"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-20-am-chips",
+          "category": "semi",
+          "title": "芯片和云算力继续走弱，Anthropic 次日承接仍弱",
+          "status": "已发生：09:56 ET 早盘；非今日收盘",
+          "importance": "高",
+          "body": [
+            "Reuters 美东 09:56（美西 06:56）快照：纳指跌 0.51%，标普涨 0.04%、道指涨 0.70%；NVDA 跌 3.7%、SOX 跌约 3%，CRWV／NBIS 各跌约 5%，ANT 跌约 6%。新增是上市次日及今早市场表现，不重报昨晚收盘或 AMD 做空指控。"
+          ],
+          "whyImportant": "分析：大盘部分板块反弹与 AI 链下跌并存，说明压力仍集中于科技估值及资本开支兑现，不能把道指上涨等同于半导体风险消退。",
+          "investmentImpact": "观察 NVDA、AMD、MU、AVGO 和云商能否相对 SOX／纳指企稳，并验证收入、毛利、融资成本与已签订单兑现。上述价格并非同一时刻的最新成交，不据此宣告全天走势或估值底部。",
+          "tags": [
+            "NVDA",
+            "SOX",
+            "AMD",
+            "MU",
+            "AVGO",
+            "CRWV",
+            "NBIS",
+            "ANT"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜09:56 ET 美股早盘",
+              "url": "https://www.reuters.com/legal/transactional/wall-st-futures-slip-anthropic-debut-fails-reassure-ai-investors-2026-11-20/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-20-am-ant",
+          "category": "ai",
+          "title": "Anthropic 绿鞋全额行使，同步私募完成",
+          "status": "已发生：公司正式交割公告；金额均为费用前",
+          "importance": "高",
+          "body": [
+            "Anthropic 20 日公告：承销商全额行使 1.47 亿股绿鞋，IPO 总股数增至 11.27 亿股，价格仍为每股 83 美元；总募资约 935 亿美元，其中公司所得约 916 亿美元，售股股东所得不归公司。",
+            "另以相同单价完成约 3.13253 亿股 Class N 私募、金额约 260 亿美元，买方包括 AMD、AVGO、Google、MU、MSFT、NVDA、TSMC Partners。IPO（含股东售股）与私募合计约 1,195 亿美元，均未扣费用。"
+          ],
+          "whyImportant": "分析：新增是实际交割和绿鞋行使，而非此前发行定价。公司新增融资能力与二级市场股价承接必须分开；私募 Class N 也不能直接并入可自由流通的 Class A 数量。",
+          "investmentImpact": "更多股权资金可缓解现金与算力融资约束，但供应链企业同时投资客户，需继续核对投资现金流、采购承诺、真实需求和收款。投资本身不等于这些公司的新增收入，也不证明资本开支回报已经改善。观察后续可售股份、锁定条款及经营现金消耗。",
+          "tags": [
+            "Anthropic",
+            "ANT",
+            "绿鞋",
+            "流通股",
+            "融资",
+            "AI 供应链"
+          ],
+          "sources": [
+            {
+              "title": "Anthropic｜IPO、全额绿鞋与同步私募交割公告",
+              "url": "https://www.anthropic.com/news/ipo-close"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-20-am-usdata",
+          "category": "macro",
+          "title": "宏观 / 市场环境：消费者信心回升，加息仍是市场主情景",
+          "status": "调查终值已公布；Fed 概率与选后政策判断属预期",
+          "importance": "高",
+          "body": [
+            "密歇根大学 20 日发布 11 月消费者信心终值 51.5，10 月为 48.0；现况 49.4、预期 52.9。调查称选后经济预期改善，但股票持有最多群体的个人财务评价下降。",
+            "Reuters 今早稿引 CME FedWatch，12 月加息概率约 98.2%，属于当时市场定价；并非 Fed 新决定或点阵图。未核实本窗口新美国 CPI／PPI／PCE、非农或工资数据。"
+          ],
+          "whyImportant": "分析：调查信心回升不等于实际消费、就业或收入已经加速；选后不同群体预期变化，也不等于财政、关税或监管政策已经实施。",
+          "investmentImpact": "实际通胀／工资→Fed 路径→融资与贴现率→高估值科技；财政赤字／发债→期限溢价→长端利率，是另一条需独立验证的链。本窗口未核实新赤字或发债政策、期限溢价估计，以及中期选举后新的已落地贸易／关税／数据中心监管措施。观察后续 PCE 与正式政策文件，不把调查情绪写成政策事实。",
+          "tags": [
+            "消费者信心",
+            "Fed 预期",
+            "通胀",
+            "财政",
+            "期限溢价",
+            "中期选举"
+          ],
+          "sources": [
+            {
+              "title": "密歇根大学｜11 月消费者调查终值",
+              "url": "https://www.sca.isr.umich.edu/"
+            },
+            {
+              "title": "Reuters｜今早 FedWatch 市场定价",
+              "url": "https://www.reuters.com/legal/transactional/wall-st-futures-slip-anthropic-debut-fails-reassure-ai-investors-2026-11-20/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-20-am-japan",
+          "category": "macro",
+          "title": "宏观 / 市场环境：日元回升，通胀背景支持继续观察 BOJ",
+          "status": "新增官方汇率；CPI 为补充核实背景，非窗口内首次发布",
+          "importance": "中",
+          "body": [
+            "BOJ 20 日东京 17:00 的 USD/JPY 为 159.19–159.20，较当日 09:00 的 159.71–159.73 回落，即日元升值。报价不等于日本已实施汇市干预。",
+            "补充核实：日本 10 月 CPI 总体同比 2.3%，剔除生鲜 2.2%，剔除生鲜及能源 2.2%。该数据在日本 20 日／美西 19 日下午发布，早于本期半天窗口，明确作为上期未覆盖背景，不冒充今早新数据。"
+          ],
+          "whyImportant": "分析：通胀和日元变化可能影响 BOJ 紧缩定价，但不能仅凭汇率或 CPI 断言下次加息时间与幅度。",
+          "investmentImpact": "日本收益率上行→潜在资金回流／套息调整→全球风险资产流动性；日元升值也可能提高套息持仓平仓压力，需 JGB 与真实跨境流量验证。本窗口未核实可比的新 JGB 收益率、日本债务／新增发债安排或实际资金回流规模。",
+          "tags": [
+            "日本 CPI",
+            "日元",
+            "BOJ",
+            "JGB",
+            "套息交易",
+            "全球流动性"
+          ],
+          "sources": [
+            {
+              "title": "BOJ｜11 月 20 日官方汇率",
+              "url": "https://www.boj.or.jp/statistics/market/forex/fxdaily/fxlist/fx261120.pdf"
+            },
+            {
+              "title": "日本统计局｜10 月全国 CPI",
+              "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-z.htm?mod=article_inline"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-20-am-energy",
+          "category": "macro",
+          "title": "宏观 / 市场环境：油价回落，红海威胁与制裁执行仍在升级",
+          "status": "盘中能源报价；胡塞为条件性威胁，制裁为执行警告",
+          "importance": "高",
+          "body": [
+            "Reuters 美西 06:14 快照：Brent 91.31 美元／桶、跌 0.7%；WTI 12 月合约 82.85、跌 0.4%。胡塞武装 20 日警告：若沙特联军打击荷台达港，将攻击沙特红海港口，并要求相关人员和船只撤离；这是威胁，不能写成港口已停运。",
+            "Reuters 20 日报道，美国财政部官员本周向新加坡、马来西亚政府及金融机构强调伊朗制裁合规，要求审查航运、航空和采购网络。本期核实的是执行警告，并非一项新公布的全面制裁法规。",
+            "WSJ 美东 09:18（美西 06:18）报 NYMEX 12 月天然气 3.287 美元／MMBtu、涨 0.6%；为盘中反弹，非结算。本窗口未确认新的美伊停火落地。"
+          ],
+          "whyImportant": "分析：能源下跌与地缘风险并存，不能据油价推断战事结束。制裁执行强化可能增加银行、航运与贸易结算成本，但尚不能量化为确定减供。",
+          "investmentImpact": "战争／港口与航运风险→油气供应和价格→通胀→美债收益率→科技估值，须逐环核对；天然气另看天气、库存与 LNG。观察实际港口运行、保险／运费、制裁落地及能源价格持续性，不重复昨晚已报的利雅得袭击和库存数据。",
+          "tags": [
+            "美国／伊朗",
+            "红海",
+            "制裁",
+            "Brent",
+            "WTI",
+            "天然气",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜06:14 PT 原油与红海威胁",
+              "url": "https://www.reuters.com/business/energy/oil-prices-edge-higher-houthi-attacks-riyadh-raise-supply-concerns-2026-11-20/"
+            },
+            {
+              "title": "Reuters｜对新加坡、马来西亚的制裁合规警告",
+              "url": "https://www.reuters.com/world/asia-pacific/us-treasury-presses-singapore-malaysia-iran-sanctions-compliance-2026-11-20/"
+            },
+            {
+              "title": "WSJ｜09:18 ET 天然气快照",
+              "url": "https://www.wsj.com/finance/commodities-futures/u-s-natural-gas-futures-edge-up-in-early-trading-2b513864"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-20-am-robot",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：暂无窗口内实质新增",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "过去约半天未核实新的 zero-shot／跨本体迁移、触觉／力控精细操作、robot-data efficiency、人工接管率／uptime 改善、硬件成本下降或真实付费部署／design win。GF／Atlas、Genesis 融资及 INLIF 合作相关搜索结果可追溯至更早公告或转载，不据此填充本期新增。"
+          ],
+          "whyImportant": "演示、融资和框架意向不能替代量产部署、持续运行可靠性或单位经济性验证。",
+          "investmentImpact": "继续观察每百次人工接管、持续运行时间、故障恢复、每任务数据量、实际付费交付与扩围；硬件看执行器、手、传感器、电池和减速器。NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Nabtesco、Harmonic Drive、THK、Nidec、Gemini Robotics、Physical Intelligence 暂无本窗口新增证据支持上调盈利假设。",
+          "tags": [
+            "Physical AI",
+            "泛化",
+            "跨本体",
+            "触觉力控",
+            "数据效率",
+            "可靠性",
+            "硬件成本"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
       "id": "2026-11-19-pm",
       "date": "2026-11-19",
       "period": "pm",
