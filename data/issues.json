@@ -4,6 +4,219 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-19-pm",
+      "date": "2026-11-19",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-19T18:59:02-08:00",
+      "summary": "截至美西 18:59，早盘 AI 反弹未延续：纳指收跌 2.25%，SOX 跌 2.4%；Anthropic 首日收 97.17 美元，较发行价涨 17.07%，但较开盘回落。新增 AMD 做空指控与公司否认、众院对华芯片许可披露。美债日度收益率小降，TIPS 实际收益率仍高；油价收平、天然气回落。机器人无实质新增。",
+      "cards": [
+        {
+          "id": "2026-11-19-pm-close",
+          "category": "ai",
+          "title": "AI 链早盘反弹逆转，芯片与云算力普跌",
+          "status": "已发生：美股正式收盘；原因归因为分析",
+          "importance": "高",
+          "body": [
+            "11 月 19 日纳指收 23,879.20、跌 2.25%；标普 500 收 7,175.83、跌 2.02%，连续第六天下跌。SOX 跌 2.4%；NVDA 跌 3.3%、AMD 跌 7.7%，MU／AVGO 各跌约 2.1%；CRWV 跌 6.1%、NBIS 跌 9.4%。这是对早报盘中反弹的收盘更新。"
+          ],
+          "whyImportant": "分析：AI 发行热度未转化为板块持续承接，模型、芯片与高融资需求云商的风险偏好继续承压。",
+          "investmentImpact": "观察盈利预期、资本开支回报和融资条件能否稳定。今天美债日度收益率下降而科技仍跌，不能仅用利率上行解释；也没有资金流证据证明全由 IPO 抽走流动性导致。",
+          "tags": [
+            "NVDA",
+            "AMD",
+            "MU",
+            "AVGO",
+            "CRWV",
+            "NBIS",
+            "SOX",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters／Investing.com｜11 月 19 日收盘",
+              "url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-19-pm-ant",
+          "category": "ai",
+          "title": "Anthropic 实际首日：发行价上方收盘，开盘买入者承压",
+          "status": "已发生：实际成交与收盘；非早报开盘指示",
+          "importance": "高",
+          "body": [
+            "ANT 实际开盘 111.50 美元，收盘 97.17 美元，较 83 美元发行价上涨 17.07%；按开盘至收盘计算下跌约 12.85%。早报 99.82 美元只是开盘指示，本期以实际成交结果更新。"
+          ],
+          "whyImportant": "分析：发行认购收益与二级市场首日承接是两件事，不能只凭相对发行价上涨判断 AI 估值已经企稳。",
+          "investmentImpact": "未来 1–12 个月仍看收入增长质量、推理毛利、算力承诺及现金消耗；短期观察新增可售供给、成交量和后续承接，首日价格不等于盈利模型获验证。",
+          "tags": [
+            "Anthropic",
+            "ANT",
+            "AI 估值",
+            "IPO"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Anthropic 首日实际成交",
+              "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-19-pm-amd",
+          "category": "semi",
+          "title": "AMD 遭做空报告质疑中国业务，公司否认指控",
+          "status": "报告与做空仓位已披露；底层指控未独立证实",
+          "importance": "高",
+          "body": [
+            "Hunterbrook Media 指称 AMD 固件被美国列名的中国服务器厂商 IEIT 及关联企业采用；关联基金 Hunterbrook Capital 披露做空 AMD。Reuters 无法独立核实报告。AMD 回应称相关说法歪曲其业务与关系，公司遵守美国出口管制并有合规流程。"
+          ],
+          "whyImportant": "分析：新增的是指控、利益冲突披露与公司回应，并非监管机构已经认定违规或开出罚单。",
+          "investmentImpact": "潜在监管调查／许可收紧→可服务客户和收入预期受压→估值风险溢价上升。观察正式监管文件、客户暴露及公司量化说明；不把做空方推论直接写成收入损失。",
+          "tags": [
+            "AMD",
+            "Hunterbrook",
+            "中国业务",
+            "出口管制",
+            "未证实指控"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜做空报告、独立核实限制及 AMD 回应",
+              "url": "https://www.reuters.com/world/china/amd-shares-slide-report-says-china-links-could-invite-us-scrutiny-2026-11-19/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-19-pm-license",
+          "category": "semi",
+          "title": "众院新公开对华 AI 芯片许可资料，获批不等于已出货",
+          "status": "已发生：历史许可资料公开；非今天新增批准",
+          "importance": "高",
+          "body": [
+            "众院外委会主席 Mast 19 日下午公开 NVDA／AMD 对华 AI 芯片许可资料：申请涉及约 340 万颗，BIS 批准超过 87.9 万颗。Reuters 指资料覆盖 2025 年 12 月至 2026 年 5 月，实际已有多少获批芯片运抵中国仍不明确。"
+          ],
+          "whyImportant": "新信息是此前许可记录的公开，而不是监管当天再次放宽。委员会对客户及潜在转运方的指称，也须与正式执法结论区分。",
+          "investmentImpact": "分析：对华业务应逐笔拆分申请、获批、交付与收入确认；不能把批准量直接计为新增营收。披露可能加强政治审查，观察后续正式许可撤销／收紧或听证。早报已讲的远程算力规则生效不重复作为新增。",
+          "tags": [
+            "NVDA",
+            "AMD",
+            "BIS",
+            "众议院",
+            "许可",
+            "政策风险"
+          ],
+          "sources": [
+            {
+              "title": "美国众院外委会｜11 月 19 日原始披露",
+              "url": "https://foreignaffairs.house.gov/news/press-releases/chairman-brian-mast-exercises-legislative-authority-to-publicly-release-ai-chip-license-information-for-china"
+            },
+            {
+              "title": "Reuters｜覆盖期间与实际出货限制",
+              "url": "https://www.reuters.com/world/license-information-ai-chips-sent-china-released-by-us-house-committee-2026-11-19/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-19-pm-rates",
+          "category": "macro",
+          "title": "宏观 / 市场环境：美债小幅回落，实际利率仍制约估值",
+          "status": "官方日度利率与标售已公布；Fed 概率属市场预期",
+          "importance": "高",
+          "body": [
+            "财政部 19 日日度曲线：2 年 4.76%、10 年 5.04%、30 年 5.40%，较 18 日分别下降 4、3、1 个基点。190 亿美元 TIPS 续发行（剩余 9 年 8 个月）最高中标实际收益率 2.903%，投标倍数 2.43。",
+            "Reuters 收盘稿引 CME FedWatch：12 月加息 25 个基点概率约 96.4%。这是当时市场定价，并非 Fed 已决定。本半天未核实新 CPI／PPI／PCE、非农／工资或点阵图；早间初请及费城调查不重复。"
+          ],
+          "whyImportant": "分析：名义利率小降仍未支撑科技股，实际贴现率和盈利／风险溢价需分别观察。标售收益率不是期限溢价，也不能与不同时点、期限的名义收益率直接相减得出精确通胀预期。",
+          "investmentImpact": "财政赤字／发债压力→潜在期限溢价→长端利率→高估值科技折现压力；本期未取得新的期限溢价估计或财政发债政策变更。日本 JGB 收益率上行→潜在资金回流／套息调整→全球流动性，仍需实际资金流验证。本窗口未核实晚于早报的新 BOJ 决定、日本债务安排、可比日元／美元、信用利差或资金流数据；中期选举后的财政、贸易、关税及监管新措施以正式落地文件为准。观察实际利率、信用融资和数据中心政策对资本开支回报的共同影响。",
+          "tags": [
+            "美债",
+            "TIPS",
+            "实际利率",
+            "Fed 预期",
+            "期限溢价",
+            "JGB",
+            "美元",
+            "资金流"
+          ],
+          "sources": [
+            {
+              "title": "美国财政部｜官方日度收益率",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve"
+            },
+            {
+              "title": "TreasuryDirect｜11 月 19 日 TIPS 标售结果",
+              "url": "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/R_20261119_3.pdf"
+            },
+            {
+              "title": "Reuters／Investing.com｜收盘时 FedWatch 定价",
+              "url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-19-pm-energy",
+          "category": "macro",
+          "title": "宏观 / 市场环境：油价反弹消退，中东风险仍未解除",
+          "status": "已发生：期货结算；袭击损失为沙特官方说法",
+          "importance": "高",
+          "body": [
+            "Brent 结算 91.98 美元／桶、涨 0.03%；WTI 83.21、跌 0.06%，早报反弹未保住。沙特民防称利雅得遭袭损坏主权基金总部所在大楼及邻近建筑，无伤亡报告。本窗口未核实新的美伊停火落地。",
+            "美国 NYMEX 天然气结算 3.268 美元／MMBtu、跌 3.1%。早报已报的 EIA 库存数据不重复；天然气价格更新不能直接替代欧洲气价或供气状况判断。"
+          ],
+          "whyImportant": "分析：油价收平与地缘风险可以并存；供需、库存及风险溢价相互抵消，不代表战争已经结束或航运恢复正常。",
+          "investmentImpact": "战争／航运中断→油价→通胀→美债收益率→科技估值，须逐环验证。天然气另看天气、库存和 LNG。观察实际航运／能源设施损失及持续价格反应，不根据交战方未经独立核实的说法推算确定减供。",
+          "tags": [
+            "美国／伊朗",
+            "中东",
+            "Brent",
+            "WTI",
+            "天然气",
+            "通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜原油结算与沙特民防说法",
+              "url": "https://www.reuters.com/business/energy/oil-prices-steady-supply-surplus-softens-sentiment-though-gulf-war-supports-2026-11-19/"
+            },
+            {
+              "title": "WSJ｜15:41 ET 天然气结算",
+              "url": "https://www.wsj.com/articles/european-ttf-gas-rebounds-on-colder-weather-low-storage-0a424432"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-19-pm-robot",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：暂无可核实实质新增",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "过去约半天未核实新的 zero-shot／跨本体迁移、触觉与力控精细操作、机器人数据效率、人工接管率／uptime 改善、硬件成本下降或真实付费部署／design win。检索到的 Rockwell／AGILOX 收购原始公告日期为 18 日，不把今天转载当作新事件。"
+          ],
+          "whyImportant": "普通演示或旧公告复传不足以证明规模部署可靠性和单位经济性改善。",
+          "investmentImpact": "观察每百次人工接管、持续运行时间、故障恢复、每任务数据量与付费扩围；硬件跟踪执行器、手、传感器、电池、减速器。NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Nabtesco、Harmonic Drive、THK、Nidec、Gemini Robotics、Physical Intelligence 暂无本窗口新增证据支持上调盈利假设。",
+          "tags": [
+            "Physical AI",
+            "泛化",
+            "跨本体",
+            "触觉力控",
+            "数据效率",
+            "可靠性",
+            "硬件成本"
+          ],
+          "sources": [
+            {
+              "title": "Rockwell｜原公告日期 11 月 18 日，仅用于日期核验",
+              "url": "https://www.rockwellautomation.com/en-nz/company/news/press-releases/Rockwell-Automation-Signs-Definitive-Agreement-to-Acquire-AGILOX.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-19-am",
       "date": "2026-11-19",
       "period": "am",
