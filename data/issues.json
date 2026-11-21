@@ -4,6 +4,154 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-21-am",
+      "date": "2026-11-21",
+      "period": "am",
+      "time": "08:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-21T08:08:22-08:00",
+      "summary": "本期新增集中于地缘与科技税收：UKMTO 报告阿曼附近两起油轮事件，但是否同船未明；伊朗官员披露卡塔尔会谈，仍无停火落地。欧盟预算新提案纳入数字服务收入，拟议 3% 税率尚未通过，关注 META、GOOG、AMZN。周末比特币反弹不能代替美股企稳信号。半导体公司、美国宏观数据及机器人暂无可核实实质新增，昨晚暴跌与会计调查不重复。",
+      "cards": [
+        {
+          "id": "2026-11-21-am-mideast",
+          "category": "macro",
+          "title": "宏观 / 市场环境：航运事件与外交接触并存，尚无停火",
+          "status": "UKMTO 事件报告＋伊朗官员说法；交战方部分说法有争议",
+          "importance": "高",
+          "body": [
+            "Reuters 21 日报道，UKMTO 报告阿曼 Khasab 附近两起油轮遭不明物体击中的事件；尚不清楚是否涉及同一艘船，无伤亡报告，环境影响未明。伊朗称有船触雷起火，Reuters 无法独立核实，也未能将其对应到 UKMTO 事件。",
+            "Reuters 美西 07:00 新报道援引伊朗副外长称，卡塔尔代表团于德黑兰周五晚间会谈；新增的是官员披露，不是已达协议。美西 07:20 的另一报道中，美军中央司令部否认伊朗关于击伤美 F-16 的说法；本期不将该交战方指控写成已证实战损。"
+          ],
+          "whyImportant": "分析：外交接触没有消除航运风险，也不能把两份事件报告简单累计为两艘船或确定减供；截至核验未确认新停火、全面通航恢复或可量化的供应损失。",
+          "investmentImpact": "战争／航运和保险成本→油气价格→通胀→美债收益率→科技估值，仍需逐环验证。观察后续船舶识别、实际装运、港口与航线运行、调停结果及开市后的油气反应；不把谈判消息直接当作能源风险溢价已经下降。",
+          "tags": [
+            "美国／伊朗",
+            "卡塔尔",
+            "霍尔木兹",
+            "UKMTO",
+            "能源",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜21 日 UKMTO 事件与独立核实限制",
+              "url": "https://www.reuters.com/business/energy/tanker-hit-by-unknown-projectile-near-omans-khasab-ukmto-says-2026-11-21/"
+            },
+            {
+              "title": "Reuters｜07:00 PT 卡塔尔会谈披露",
+              "url": "https://www.reuters.com/world/middle-east/qatari-delegation-visits-tehran-talks-iranian-official-says-2026-11-21/"
+            },
+            {
+              "title": "Reuters｜07:20 PT 美军否认 F-16 战损说法",
+              "url": "https://www.reuters.com/business/aerospace-defense/us-denies-iranian-account-that-missile-damaged-f-16-over-gulf-2026-11-21/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-21-am-digitaltax",
+          "category": "ai",
+          "title": "欧盟新预算提案考虑数字税，平台利润率与贸易摩擦受关注",
+          "status": "21 日正式提出的预算方案；拟议税率，尚未生效",
+          "importance": "高",
+          "body": [
+            "欧洲理事会主席 Costa 21 日公布 2028–2034 年预算新提案，将大型企业数字服务收入列为拟新增财源之一。Reuters 报道，拟对在线广告、数字中介服务及用户数据相关年度净营业额征 3%，门槛涉及欧盟数字业务年营业额 5,000 万欧元及全球营业额超过 7.5 亿欧元。",
+            "方案供 11 月 26–27 日领导人会议讨论；预算及财源仍需各国一致同意。不能写成欧盟已经开始征税，也不是对企业全部全球收入或利润一律征收 3%。"
+          ],
+          "whyImportant": "分析：META、GOOG 的广告和 AMZN 等平台业务面临潜在税负、定价与贸易摩擦风险；具体影响取决于最终税基、适用范围、通过情况和生效安排。",
+          "investmentImpact": "若落地：相关收入税负→费用转嫁／利润率／自由现金流变化→估值；若引发美欧贸易回应，还会影响政策风险溢价。未来 1–12 个月先观察谈判与企业披露，不提前按 3% 全球营收扣减盈利，也不将其等同芯片关税或所有 AI 服务税。",
+          "tags": [
+            "META",
+            "GOOG",
+            "AMZN",
+            "数字税",
+            "欧盟预算",
+            "贸易风险"
+          ],
+          "sources": [
+            {
+              "title": "欧洲理事会｜Costa 21 日预算提案原文",
+              "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/21/multiannual-financial-framework-president-costa-s-proposal/"
+            },
+            {
+              "title": "Reuters｜数字税税基、门槛与谈判状态",
+              "url": "https://www.reuters.com/markets/us/eu-leaders-chair-proposes-new-cuts-eu-2028-2034-budget-draft-suggests-digital-2026-11-21/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-21-am-semi",
+          "category": "semi",
+          "title": "半导体：暂无上期之外可核实的公司实质新增",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "过去约半天未核实 NVDA／AMD 会计或出口调查的新正式结论、公司量化回应、新客户订单／撤单、盈利指引修订，或新的可比存储价格数据。昨晚已报的调查会计焦点、NAND／DRAM 分化、ANT 绿鞋及周五跌幅不重复。"
+          ],
+          "whyImportant": "分析：周末转载或评论增加，不等于调查已经定案或行业盈利预期出现新的可量化变化。未核实新增不代表原有风险解除。",
+          "investmentImpact": "观察正式披露、现金回款、客户融资、真实合约价与库存。NVDA、AMD、MU、SNDK 及云算力公司的判断仍需各自证据；不根据重复标题继续追加收入损失或宣告订单全面取消。",
+          "tags": [
+            "NVDA",
+            "AMD",
+            "MU",
+            "SNDK",
+            "披露",
+            "存储周期"
+          ],
+          "sources": []
+        },
+        {
+          "id": "2026-11-21-am-market",
+          "category": "macro",
+          "title": "宏观 / 市场环境：周末反弹信号有限，宏观数据无实质新增",
+          "status": "比特币为带时间市场报价；其他跟踪项无实质新增",
+          "importance": "中",
+          "body": [
+            "Reuters 美西 07:16 快照：比特币约 60,192.07 美元、涨 2.14%。这是周末持续交易资产的报价，不能替代美股、半导体或信用市场开市后的确认。",
+            "本窗口未核实新美国 CPI／PPI／PCE、就业／工资、Fed 利率决定或点阵图，以及新美国赤字／发债安排。也未取得可比的新油气基准结算、美债期限溢价、JGB、日元／美元、信用利差或实际资金流数据；不将周五数据重新标为今天行情。"
+          ],
+          "whyImportant": "分析：单个高波动资产反弹不证明机构风险敞口已回补、流动性改善或宏观风险消退；昨晚已报的 Cook 讲话与美债曲线无需再次作为新信号。",
+          "investmentImpact": "观察财政／发债→期限溢价→长端利率，以及日本收益率→潜在资金回流／套息调整→全球流动性，两条链都需新数据验证。中期选举后的美国财政、贸易、关税与数据中心监管措施，以正式文件和生效状态为准，不把政治表态算作已执行政策。",
+          "tags": [
+            "风险偏好",
+            "比特币",
+            "Fed",
+            "期限溢价",
+            "JGB",
+            "资金流",
+            "选后政策"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜07:16 PT 比特币快照",
+              "url": "https://www.reuters.com/business/bitcoin-rises-over-2-more-than-60000-2026-11-21/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-21-am-robot",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：暂无窗口内实质新增",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "过去约半天未核实新的 zero-shot generalization、cross-embodiment transfer、触觉／力控精细操作、robot-data efficiency、人工接管率／uptime 改善、关键硬件成本下降或真实付费 deployment／design win。新刊评论、旧论文及融资转载不充作部署进展。"
+          ],
+          "whyImportant": "技术路线的投资价值要由可比指标、实际可靠性和单位经济性支持，普通 demo 或媒体讨论不能替代验证。",
+          "investmentImpact": "继续观察每百次接管、运行时间、故障恢复、每任务数据量及实际付费扩围；硬件看执行器、手、传感器、电池和减速器。NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Nabtesco、Harmonic Drive、THK、Nidec、Gemini Robotics、Physical Intelligence 暂无本窗口新增证据支持上调盈利假设。",
+          "tags": [
+            "Physical AI",
+            "泛化",
+            "跨本体",
+            "触觉力控",
+            "数据效率",
+            "可靠性",
+            "硬件成本"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
       "id": "2026-11-20-pm",
       "date": "2026-11-20",
       "period": "pm",
