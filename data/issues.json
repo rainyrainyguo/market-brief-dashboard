@@ -4,6 +4,239 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-20-pm",
+      "date": "2026-11-20",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-20T18:59:13-08:00",
+      "summary": "英伟达调查新增会计焦点，Reuters 消息人士报道尚不等于违规认定。美股收盘跌幅远超早盘：纳指 -5.28%、SOX -10.7%、NVDA -13.8%；云算力重挫。TrendForce 对 2027 年 NAND 转弱的原始摘要获核实，须与 DRAM 分开。ANT 收 88.30 美元，绿鞋稳定机制值得重新评估。Cook 主张继续加息并关注 AI 融资；美债收益率却下行。油气收涨、对伊朗新制裁正式落地，机器人暂无窗口内实质新增。",
+      "cards": [
+        {
+          "id": "2026-11-20-pm-nvda",
+          "category": "semi",
+          "title": "NVDA 调查新增会计焦点，尚无违规结论",
+          "status": "Reuters 引述两名匿名消息人士；非 SEC 正式结论",
+          "importance": "高",
+          "body": [
+            "Reuters 20 日美东约 14:13 首次报道，SEC 执法人员正在审视英伟达潜在会计问题，援引两名知情人士。此前已知存在调查，今天新增的是会计方向。SEC 拒绝评论；截至报道，英伟达未立即回应。"
+          ],
+          "whyImportant": "分析：这使市场关注从管理层与治理扩展到报表可信度，但调查存在不等于财务造假、收入虚增或必然重述；报道未给出已认定的具体会计错报。",
+          "investmentImpact": "报表与治理不确定性→风险溢价上升／融资与客户信心受压→NVDA 及供应链估值承压。观察公司正式回应、SEC 文件、审计与披露进度、应收及现金回款；不能根据消息人士报道自行扣减已确认收入。",
+          "tags": [
+            "NVDA",
+            "SEC",
+            "会计调查",
+            "治理",
+            "估值风险"
+          ],
+          "sources": [
+            {
+              "title": "Reuters／Investing.com｜调查会计焦点与回应状态",
+              "url": "https://www.investing.com/news/economy-news/exclusiveus-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-5042460"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-20-pm-close",
+          "category": "macro",
+          "title": "宏观 / 市场环境：收盘风险偏好急降，芯片和云商跌幅扩大",
+          "status": "已发生：11 月 20 日正式收盘；非早报盘中行情",
+          "importance": "高",
+          "body": [
+            "纳指收 22,617.73、跌 5.28%；标普 500 收 6,910.42、跌 3.70%；道指收 48,147.33、跌 1.93%。标普连续第七天下跌，标普与道指均较历史收盘高点回落超过 10%。",
+            "SOX 当日跌 10.7%、本周跌 17.1%；NVDA 跌 13.8%，CRWV 跌 12.1%、NBIS 跌 16.1%。META 跌 5.9%、AMZN 跌 3.9%。这些收盘结果更新早报温和得多的跌幅，不代表每家公司基本面同幅恶化。"
+          ],
+          "whyImportant": "分析：压力已跨越 GPU、云融资和大模型估值；强财报与大型 IPO 未能成为风险出清信号。市场价格反映多种冲击，不能全部归因于单一报道。",
+          "investmentImpact": "盈利可信度／资本开支回报／融资约束→风险溢价和持仓调整→AI 链同步下跌。观察现金回款、客户融资、订单转收入和相对强弱；没有新的可比信用利差与实际基金流数据，不把跌幅直接当作确定的机构赎回或产业订单取消。",
+          "tags": [
+            "风险偏好",
+            "SOX",
+            "NVDA",
+            "CRWV",
+            "NBIS",
+            "META",
+            "AMZN"
+          ],
+          "sources": [
+            {
+              "title": "Reuters／StreetInsider｜11 月 20 日完整收盘",
+              "url": "https://www.streetinsider.com/General%2BNews/Nasdaq%2Bfalls%2Bas%2BAnthropic%2Bfails%2Bto%2Brekindle%2BAI%2Boptimism/27378280.html"
+            },
+            {
+              "title": "Reuters｜SOX 单日与周度表现",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-20/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-20-pm-memory",
+          "category": "semi",
+          "title": "存储周期：TrendForce 预计 NAND 提前过剩，DRAM 仍短缺",
+          "status": "20 日研究摘要本期补充核实；机构预测，非已实现价格或公司指引",
+          "importance": "高",
+          "body": [
+            "TrendForce 20 日原始摘要称：中国云商下修企业 SSD 及部分服务器 DRAM 采购，PC／手机容量规格下调；预计 NAND 将更早供过于求、合约价转跌。DRAM 整体需求展望维持，供给扩张使价格涨幅逐季收敛，但仍供不应求。原页未标小时，不断言报告在早报后才发布。"
+          ],
+          "whyImportant": "分析：这直接挑战 NAND 高利润持续性的假设，同时明确 NAND 与 DRAM 不能混为同一周期。公开摘要没有足够信息核实外部转载的精确季度跌幅，不据此引用。",
+          "investmentImpact": "需求下修／容量降规＋供给增长→NAND ASP 与毛利预期压力→SNDK、Kioxia 等估值敏感；MU、SK Hynix、Samsung 需按 NAND、DRAM、HBM 收入和产品结构拆分。预测尚待客户采购、实际合约价、库存、资本开支及长协条款验证，不能把行业预估当成已发生的订单全面取消。",
+          "tags": [
+            "SNDK",
+            "MU",
+            "SK Hynix",
+            "Samsung",
+            "Kioxia",
+            "NAND",
+            "DRAM",
+            "存储周期"
+          ],
+          "sources": [
+            {
+              "title": "TrendForce｜2027 年存储市场展望原始摘要",
+              "url": "https://www.trendforce.com.tw/research/download/RP261120DU"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-20-pm-ant",
+          "category": "ai",
+          "title": "ANT 收 88.30 美元，绿鞋覆盖完成减少一种潜在买盘",
+          "status": "已发生收盘；稳定机制解释来自 Reuters；非保价承诺",
+          "importance": "高",
+          "body": [
+            "ANT 次日收 88.30 美元、跌约 9.1%，仍高于 83 美元发行价。Reuters 报道，承销商全额行使绿鞋，覆盖相关超额配售头寸；这一机制原本也可通过公开市场买股覆盖，从而提供潜在支持。早报已报的募资总额和私募不重复。"
+          ],
+          "whyImportant": "分析：全额行使后，承销商不能再利用尚未覆盖的这部分超额配售头寸进行相应市场回购；这不等于所有买盘消失，更不构成发行价保底。",
+          "investmentImpact": "短期可售供给与自然买盘决定价格承接，不能把“绿鞋完成”机械理解成利好或利空。观察成交、锁定和后续正式披露；长期仍看现金消耗、算力采购与收入质量，发行成功不代表二级市场估值已获验证。",
+          "tags": [
+            "Anthropic",
+            "ANT",
+            "绿鞋",
+            "稳定机制",
+            "流动性"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜ANT 收盘价格",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-20/"
+            },
+            {
+              "title": "Reuters｜绿鞋覆盖与潜在稳定买盘",
+              "url": "https://www.reuters.com/markets/us/anthropics-ipo-bank-closed-position-meant-stabilize-stock-removing-source-2026-11-20/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-20-pm-rates",
+          "category": "macro",
+          "title": "宏观 / 市场环境：Cook 主张继续加息，美债却因避险上涨",
+          "status": "官员个人立场＋官方日度利率；非新 FOMC 决定",
+          "importance": "高",
+          "body": [
+            "Cook 20 日讲话认为当前政策不足以压低通胀，等待可能导致以后需要更大幅加息；Reuters 另报她关注 AI 融资安排日益交织、复杂及不透明。讲话与问答不是新的监管措施或 FOMC 集体决定。",
+            "财政部 20 日日度曲线：2 年 4.63%、10 年 4.92%、30 年 5.31%，较 19 日分别下降 13、12、9 个基点。Reuters 晚间快照：美元指数 103.90、跌约 0.05%，USD/JPY 约 158.6、跌约 0.67%；这些市场报价与 BOJ 东京定时价的时点不同。"
+          ],
+          "whyImportant": "分析：加息倾向与长端收益率下跌可同时成立；避险和增长预期变化可能压低国债收益率，而股票风险溢价仍上升。不能把长端下行当成 Fed 已转鸽，也不能把它直接当作期限溢价的实测变化。",
+          "investmentImpact": "通胀／工资→Fed 路径→融资和估值；财政赤字／发债→期限溢价→长端利率，需分别核验。本窗口未核实新 CPI／PPI／PCE、就业工资、点阵图、赤字发债政策或新的已落地选后贸易／关税／数据中心监管措施。日本收益率→潜在资金回流／套息调整→全球流动性仍是条件链，未取得新 JGB、债务安排或实际回流数据。早报的消费者调查不重复。",
+          "tags": [
+            "Cook",
+            "Fed",
+            "AI 融资",
+            "美债",
+            "美元",
+            "日元",
+            "期限溢价",
+            "JGB"
+          ],
+          "sources": [
+            {
+              "title": "Federal Reserve｜Cook 讲话原文",
+              "url": "https://www.federalreserve.gov/newsevents/speech/cook20261120a.htm"
+            },
+            {
+              "title": "Reuters｜Cook 谈 AI 融资安排",
+              "url": "https://www.reuters.com/business/feds-cook-says-central-bank-watching-ai-industry-financing-2026-11-20/"
+            },
+            {
+              "title": "美国财政部｜11 月官方日度曲线",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value_month=202611&type=daily_treasury_yield_curve"
+            },
+            {
+              "title": "Reuters｜晚间美元与日元快照",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-20/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-20-pm-energy",
+          "category": "macro",
+          "title": "宏观 / 市场环境：油气转为收涨，对伊朗新制裁落地",
+          "status": "正式制裁＋期货结算；未确认新的停火或减供规模",
+          "importance": "高",
+          "body": [
+            "美国财政部 20 日正式制裁四名其称协助收取、转移伊朗石油收入的个人，依据现有行政令实施；不同于早报仅报道亚洲地区合规警告。财政部有关伊朗海运油供应枯竭的说法为美方判断，未作为独立核实的全球减供数量。",
+            "Brent 结算 92.57 美元／桶、涨 0.64%；WTI 12 月合约 83.98、涨 0.93%，更新早报下跌快照。NYMEX 天然气结算 3.411 美元／MMBtu、涨 4.4%，本周涨 5.6%。本窗口未确认新美伊停火落地。"
+          ],
+          "whyImportant": "分析：新制裁可能增加伊朗收款和贸易结算障碍；价格从早盘到结算反转，显示地缘风险与供需预期仍相互拉扯，不能据单日涨跌宣布能源冲击结束。",
+          "investmentImpact": "战争／制裁／航运→油气价格与运输成本→通胀→美债收益率→高估值科技估值，须逐环验证。天然气另看 LNG 出口、天气和库存；观察实际装运、保险及支付渠道，不将受制裁个人数量等同被移除的产量。",
+          "tags": [
+            "美国／伊朗",
+            "制裁",
+            "Brent",
+            "WTI",
+            "天然气",
+            "通胀",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "美国财政部｜11 月 20 日正式制裁公告",
+              "url": "https://home.treasury.gov/news/press-releases/sb0697"
+            },
+            {
+              "title": "Reuters｜四人制裁及资产冻结",
+              "url": "https://www.reuters.com/world/middle-east/us-treasury-sanctions-iranian-trustees-collecting-oil-revenues-2026-11-20/"
+            },
+            {
+              "title": "Reuters／MarketScreener｜原油结算",
+              "url": "https://uk.marketscreener.com/news/oil-prices-gain-as-houthi-attacks-on-riyadh-raise-supply-concerns-ce785ed2d189f422"
+            },
+            {
+              "title": "WSJ｜16:45 ET 天然气结算",
+              "url": "https://www.wsj.com/finance/commodities-futures/u-s-natural-gas-futures-edge-up-in-early-trading-2b513864"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-20-pm-robot",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：暂无窗口内实质新增",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "过去约半天未核实新的 zero-shot／跨本体迁移、触觉与力控精细操作、robot-data efficiency、人工接管率／uptime 改善、硬件成本下降或真实付费部署／design win。今天转载的 Stretch Gen 2 原公告实际为 11 月 3 日，不当作新进展。"
+          ],
+          "whyImportant": "对可靠性和硬件经济性的真实指标有投资价值，但旧公告复传、普通 demo 或未经核实的合作标题不足以改变本期判断。",
+          "investmentImpact": "观察每百次接管、持续运行时间、恢复成功率、每任务训练数据与真实付费扩围；硬件看执行器、手、传感器、电池和减速器。NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Nabtesco、Harmonic Drive、THK、Nidec、Gemini Robotics、Physical Intelligence 暂无本窗口新增证据支持上调盈利假设。",
+          "tags": [
+            "Physical AI",
+            "泛化",
+            "跨本体",
+            "触觉力控",
+            "数据效率",
+            "可靠性",
+            "硬件成本"
+          ],
+          "sources": [
+            {
+              "title": "Boston Dynamics｜11 月 3 日原公告，仅核验日期",
+              "url": "https://bostondynamics.com/news/boston-dynamics-launches-next-generation-stretch-robot"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-20-am",
       "date": "2026-11-20",
       "period": "am",
