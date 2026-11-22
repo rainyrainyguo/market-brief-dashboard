@@ -4,6 +4,114 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-21-pm",
+      "date": "2026-11-21",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-21T18:59:00-08:00",
+      "summary": "本期主要新增是巴林报告工业设施遭袭起火，中东风险继续外溢；尚无可量化能源减供或已确认美军战损，不能直接推定油价、利率已经上涨。AI／科技、半导体与机器人未核实今早之外足以改变投资判断的实质新增；周末转载、普通演示及旧行情不重复。覆盖今早简报后至美西约 19:00，重点观察下次开市的能源、利率与风险偏好。",
+      "cards": [
+        {
+          "id": "2026-11-21-pm-bahrain",
+          "category": "macro",
+          "title": "宏观 / 市场环境：巴林报告工业设施遭袭，能源与估值风险待市场确认",
+          "status": "巴林官方通报；伊朗关于美军基地的说法未获独立确认；市场影响为分析",
+          "importance": "高",
+          "body": [
+            "新增事实：Reuters 21 日 11:15 PT 报道，巴林内政部称伊朗袭击造成一处民用工业设施起火、财产损失，初步未报受伤；未公布设施名称、性质和具体位置。伊朗称打击了巴林境内美军阵地，Reuters 报道时美军中央司令部尚未回应，不能据此确认美军战损。",
+            "本期未核实该事件造成的原油／天然气减供规模，也未取得可比的新油气基准结算、美债收益率／期限溢价、美元、JGB／日元、信用利差或实际资金流数据。周五行情和今早油轮事件不重新当作晚间新增。",
+            "本窗口未核实新的美国 CPI／PPI／PCE、就业／工资、Fed 利率决定／点阵图、美国赤字／发债安排，或中期选举后的财政、贸易、关税与监管措施正式落地。没有新数据，不等于原有风险解除。"
+          ],
+          "whyImportant": "分析：工业设施受损使区域经营与运输风险继续存在；设施未获识别，不能写成炼厂、油气出口设施被毁或确定减供。外交接触也尚不足以确认风险溢价回落。",
+          "investmentImpact": "条件性传导：战争升级→供给／运输和保险成本→油气与通胀预期→美债收益率→高估值科技／半导体估值；各环节尚需新数据。并行观察财政／发债→期限溢价→长端利率，以及日本收益率→资金回流／套息调整→全球风险资产流动性。观察清单：设施识别与停产规模、航运及调停结果、下次开市油气和美债、美元／日元、信用利差与资金流；不把交战方说法或政治表态当作已执行政策。",
+          "tags": [
+            "美国／伊朗",
+            "巴林",
+            "能源",
+            "科技估值",
+            "期限溢价",
+            "JGB",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜21 日 11:15 PT 巴林工业设施与未确认美军基地说法",
+              "url": "https://www.reuters.com/world/middle-east/bahrain-warns-residents-potential-threat-iran-conflict-persists-2026-11-21/"
+            },
+            {
+              "title": "卡塔尔通讯社 QNA｜转述巴林内政部工业设施火灾通报",
+              "url": "https://qna.org.qa/en/news/news-details?date=21%2F11%2F2026&id=bahrains-interior-ministry-fire-breaks-out-at-industrial-facility-following-iranian-attack"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-21-pm-ai",
+          "category": "ai",
+          "title": "AI / 科技：暂无今早之外可核实的实质新增",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "本窗口未核实新的重大模型商业化、云端订单／资本开支量化调整，或足以改变平台盈利判断的正式政策。今早已报的欧盟数字税预算提案没有核实到通过或生效的新进展，不重复计为第二条利空。"
+          ],
+          "whyImportant": "分析：周末评论与转载增加，不能等同新增税负、客户流失或收入兑现。",
+          "investmentImpact": "观察 META、GOOG、AMZN、MSFT 的正式税务影响、付费使用量、现金回报及资本开支指引；政策仍按提案、通过、生效分别判断，不提前扣减盈利。",
+          "tags": [
+            "META",
+            "GOOG",
+            "AMZN",
+            "MSFT",
+            "AI 商业化",
+            "政策状态"
+          ],
+          "sources": []
+        },
+        {
+          "id": "2026-11-21-pm-semi",
+          "category": "semi",
+          "title": "半导体：暂无新的正式调查结论、订单或指引变化",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "本窗口未核实 NVDA／AMD 相关调查的新正式结论、量化公司回应、新订单／撤单、盈利指引修订或可比存储合约价更新。已报会计调查焦点、NAND／DRAM 分化及周五跌幅不重复。"
+          ],
+          "whyImportant": "分析：原有盈利与估值压力仍需追踪；重复标题不能当作新的基本面恶化证据。",
+          "investmentImpact": "观察 NVDA、AMD、MU、SNDK 及云算力公司的正式披露、回款、客户融资、库存和真实合约价格；没有新增证据，不追加收入损失，也不宣告风险消失。",
+          "tags": [
+            "NVDA",
+            "AMD",
+            "MU",
+            "SNDK",
+            "订单",
+            "披露"
+          ],
+          "sources": []
+        },
+        {
+          "id": "2026-11-21-pm-robot",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：暂无窗口内实质新增",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "本窗口未核实新的 zero-shot generalization、cross-embodiment transfer、触觉／力控精细操作、robot-data efficiency、人工接管率／uptime 改善、关键硬件成本下降，或真实付费 deployment／design win。已提前公开的产品与合作被周末再次报道，不算本期新进展。"
+          ],
+          "whyImportant": "技术路线需由可比任务指标、部署可靠性与单位经济性支持，普通 demo 和重复发布不足以上调商业化判断。",
+          "investmentImpact": "观察每百次接管、连续运行时间、故障恢复、每任务数据量、执行器／手／传感器／电池／减速器成本和实际付费扩围。NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Nabtesco、Harmonic Drive、THK、Nidec、Google／Gemini Robotics、Physical Intelligence 暂无本窗口新增证据支持上调盈利假设。",
+          "tags": [
+            "Physical AI",
+            "泛化",
+            "跨本体",
+            "触觉力控",
+            "数据效率",
+            "可靠性",
+            "硬件经济性"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
       "id": "2026-11-21-am",
       "date": "2026-11-21",
       "period": "am",
