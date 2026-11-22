@@ -4,6 +4,151 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-22-am",
+      "date": "2026-11-22",
+      "period": "am",
+      "time": "08:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-22T07:58:01-08:00",
+      "summary": "本期新增以宏观和流动性为主：沪深北交易所宣布融资保证金下限从 100% 降至 80%，11 月 30 日生效，潜在融资空间不等于实际资金流入；巴林更新昨夜袭击伤情，海湾股市周日下跌。Anthropic IPO 流程出现新的知情人士报道，尚非经营或财务指引变化。半导体公司与机器人核心指标暂无窗口内实质新增。覆盖昨晚简报后至美西 11 月 22 日约 08:00。",
+      "cards": [
+        {
+          "id": "2026-11-22-am-china",
+          "category": "macro",
+          "title": "宏观 / 市场环境：中国下调融资保证金下限，关注流动性而非直接上调盈利",
+          "status": "22 日正式公告；11 月 30 日生效；资金流入仍待验证",
+          "importance": "高",
+          "body": [
+            "沪深北交易所 22 日宣布，将融资买入证券的最低保证金比例从 100% 降至 80%，11 月 30 日施行；证券公司可对尚未了结的融资合约按新规相应调整保证金。上交所正式规则同时要求对异常交易从严管控授信与保证金。",
+            "按最低比例简单计算，同样 100 万元保证金对应的融资买入金额上限可由 100 万元增至 125 万元；这是融资能力的算术变化，实际额度仍取决于券商、抵押品与客户条件。本期不把媒体测算的潜在增量当作已发生净流入。"
+          ],
+          "whyImportant": "分析：这是新增的逆周期交易政策，有助于缓解中国科技／半导体股票的融资约束与去杠杆压力，但没有直接改变企业订单、利润或先进芯片出口限制。",
+          "investmentImpact": "保证金要求下降→潜在融资购买力／流动性改善→风险偏好和估值可能修复；若基本面继续恶化，额外杠杆也可能放大波动。观察实施后的融资余额、实际净买入、成交和市场广度，不能仅凭公告推定中国科技股或全球半导体见底。",
+          "tags": [
+            "中国政策",
+            "融资保证金",
+            "科技股",
+            "半导体",
+            "流动性",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "上交所｜沪深北调整说明：100% 降至 80%",
+              "url": "https://www.sse.com.cn/aboutus/mediacenter/hotandd/c/c_20261122_10838649.shtml"
+            },
+            {
+              "title": "上交所｜正式规则及 11 月 30 日生效日期",
+              "url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/trade/specific/margin/c/c_20261122_10838633.shtml"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-22-am-gulf",
+          "category": "macro",
+          "title": "宏观 / 市场环境：巴林伤情更新、海湾股市下跌；美股与利率传导尚待验证",
+          "status": "官方伤情更新＋周日市场数据；能源与全球利率影响为条件性分析",
+          "importance": "高",
+          "body": [
+            "相对昨晚的新增：巴林内政部 22 日称，周六袭击造成两人受伤，一名巴林公民情况稳定、一名巴基斯坦居民情况危急。此前“初步未报受伤”应以此次更新为准；不能据此推定伤者与某一具体设施或美军阵地直接对应。",
+            "Reuters 22 日海湾市场报道：沙特股指跌 2%、卡塔尔跌 1.6%、巴林跌 0.6%。这是当地周日交易的实际反应，不能当作美股、SOX 或全球信用市场已经完成同幅度定价。",
+            "本窗口未核实新的美国 CPI／PPI／PCE、就业／工资、Fed 利率决定／点阵图或美国财政赤字／发债安排；也未取得可比的新原油／天然气基准结算、美债收益率／期限溢价、JGB／日元、美元、信用利差和实际资金流数据。未核实美国中期选举后新的财政、贸易、关税或监管措施正式落地；旧行情和政治表态不算新政策。"
+          ],
+          "whyImportant": "分析：区域风险已反映在当地股票，但尚无新的可量化能源减供或已独立确认美军战损，不能把战争标题直接换算成油价和美债收益率涨幅。",
+          "investmentImpact": "观察战争→运输／保险和供给→油气→通胀及 Fed 预期→美债收益率→高估值科技／半导体估值。另需验证财政／发债→期限溢价→长端利率，以及日本收益率→资金回流／套息调整→全球流动性；日本债务负担不等于资金必然回流。观察清单：实际停产与航运、调停结果、下次开市油气及美债、美元／日元、信用利差与资金流。",
+          "tags": [
+            "美国／伊朗",
+            "巴林",
+            "海湾股市",
+            "油气",
+            "Fed",
+            "期限溢价",
+            "JGB",
+            "资金流"
+          ],
+          "sources": [
+            {
+              "title": "QNA｜22 日转述巴林内政部：两人受伤",
+              "url": "https://qna.org.qa/en/news/news-details?date=22%2F11%2F2026&id=bahrains-interior-ministry-reports-two-injured-in-iranian-attacks"
+            },
+            {
+              "title": "Reuters｜22 日海湾股市交易数据",
+              "url": "https://www.reuters.com/world/middle-east/most-gulf-bourses-retreat-sporadic-attacks-continue-2026-11-22/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-22-am-anthropic",
+          "category": "ai",
+          "title": "AI / 科技：Anthropic IPO 流程新披露，关注信息透明度",
+          "status": "22 日 Reuters 知情人士报道；相关方拒评；并非监管认定",
+          "importance": "中",
+          "body": [
+            "Reuters 22 日 03:03 PT 报道援引知情人士称，Anthropic 要求部分承销商将项目团队限制为四名银行家，并要求部分高级人员接受上市后六个月内不服务相关竞争对手的限制；银行对文件审批时间和预测信息分享提出抱怨。Anthropic、Goldman Sachs、Morgan Stanley 拒绝置评。",
+            "新增是 IPO 流程的信息，未核实到同期新的收入、现金消耗、客户订单或盈利指引；已报上市价格、绿鞋和周五股价不重复。"
+          ],
+          "whyImportant": "分析：报道提示投资者留意信息获取与披露质量，但承销商不满不能直接证明财务造假、IPO 违规或客户需求恶化。",
+          "investmentImpact": "ANT 的估值判断仍应落到正式申报、稀释后股本、现金跑道及经营兑现；IPO 热度或承销议价权不足以证明后续股价有支撑。本期不据匿名流程报道直接调整营收或目标估值。",
+          "tags": [
+            "ANT",
+            "Anthropic",
+            "IPO",
+            "披露质量",
+            "估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜22 日 Anthropic IPO 流程独家报道",
+              "url": "https://www.reuters.com/world/like-spacex-anthropic-ran-an-unusual-ipo-process-chafing-some-bankers-2026-11-22/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-22-am-semi",
+          "category": "semi",
+          "title": "半导体：暂无窗口内新增的公司硬指标",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "本窗口未核实 NVDA／AMD 相关调查的新正式结论、量化公司回应、新订单／撤单、资本开支或盈利指引修订，以及新的可比存储合约价。周末观点稿和本周限制措施的回顾不重复。"
+          ],
+          "whyImportant": "分析：交易政策改善与区域风险变化会影响估值，但不能替代半导体需求和现金回款证据。",
+          "investmentImpact": "观察 NVDA、AMD、MU、SNDK 及云算力公司的正式披露、客户融资、回款、库存与真实合约价格；没有新证据，不追加收入损失，也不宣告风险消退。",
+          "tags": [
+            "NVDA",
+            "AMD",
+            "MU",
+            "SNDK",
+            "订单",
+            "存储周期"
+          ],
+          "sources": []
+        },
+        {
+          "id": "2026-11-22-am-robot",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：暂无窗口内实质新增",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "本窗口未核实新的 zero-shot generalization、cross-embodiment transfer、触觉／力控精细操作、robot-data efficiency、人工接管率／uptime 改善、关键硬件成本下降，或真实付费 deployment／design win。周报与社交媒体再次传播的旧工厂试验、普通 demo 不计为新部署。"
+          ],
+          "whyImportant": "投资信号需要可比任务表现、连续可靠性和单位经济性，单次视频与短时试验不足以支持商业化扩张判断。",
+          "investmentImpact": "观察每百次接管、连续运行时间、故障恢复、每任务数据量、执行器／手／传感器／电池／减速器成本和实际付费扩围。NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Nabtesco、Harmonic Drive、THK、Nidec、Google／Gemini Robotics、Physical Intelligence 暂无本窗口新增证据支持上调盈利假设。",
+          "tags": [
+            "Physical AI",
+            "泛化",
+            "跨本体",
+            "触觉力控",
+            "数据效率",
+            "可靠性",
+            "硬件经济性"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
       "id": "2026-11-21-pm",
       "date": "2026-11-21",
       "period": "pm",
