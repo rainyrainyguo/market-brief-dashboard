@@ -4,6 +4,167 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-22-pm",
+      "date": "2026-11-22",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-22T18:58:52-08:00",
+      "summary": "本期新增：美股期货反弹与亚洲股票下跌并存，市场降低大幅加息押注，但尚非 Fed 转向；原油小跌，地缘风险与需求担忧同时存在。NVDA 合规追问及新的媒体指控延续治理风险，均未形成调查定论。OpenAI 提议共同开发门槛，尚非已执行限制；FFR 自报学校采购，是小规模商业信号，未披露回款与可靠性。覆盖今早简报后至美西 11 月 22 日约 19:00，今早中国保证金政策、巴林伤情和 IPO 流程不重复。",
+      "cards": [
+        {
+          "id": "2026-11-22-pm-market",
+          "category": "macro",
+          "title": "宏观 / 市场环境：期货反弹、亚洲承压；大幅加息押注降温",
+          "status": "早盘市场快照；Fed 概率属于市场预期，不是政策决定",
+          "importance": "高",
+          "body": [
+            "Reuters 亚洲早盘快照显示，纳指 100 期货一度反弹近 3%、标普 500 期货涨约 2%，韩国股市则跌约 4%后获支撑。日本现货市场因假日休市。这些是美西周日晚、亚洲周一早盘的不同市场与时点，不能当作周一美股收盘或 SOX 涨幅。",
+            "Reuters 外汇报道引用的 FedWatch 快照：12 月 8–9 日加息 25bp 概率 88.6%、不变 11.4%，50bp 已未被计价；美元指数约 103.80，美元兑日元约 158.63、涨 0.2%。这是交易定价，不是 Fed 新承诺，也不是已经转为降息预期。",
+            "本窗口未核实新的美国 CPI／PPI／PCE、就业／工资、Fed 决议／点阵图、美国财政赤字／发债安排；未取得可比的新美债收益率／期限溢价、JGB、信用利差与实际资金流数据。也未核实中期选举后新的财政、贸易、关税措施正式生效，不能用采访代替政策文件。"
+          ],
+          "whyImportant": "分析：加息幅度尾部风险下降可能帮助高估值科技短线修复，但跨市场分化与持续加息预期表明，流动性和盈利压力尚未共同改善。",
+          "investmentImpact": "观察加息预期→美债收益率→折现率→科技／半导体估值，需美债和现货确认。财政／发债→期限溢价→长端利率，日本收益率→潜在资金回流／套息调整→全球流动性，也都需要数据；日元走弱本身不能证明日本资金已回流。观察周一现货市场广度、银行与工业股、信用利差、成交与实际资金流，不凭夜盘反弹宣告见底。",
+          "tags": [
+            "风险偏好",
+            "美股期货",
+            "Fed",
+            "美元",
+            "日元",
+            "JGB",
+            "期限溢价"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美股期货与亚洲早盘分化",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-22/"
+            },
+            {
+              "title": "Reuters｜美元、日元及 FedWatch 概率快照",
+              "url": "https://www.reuters.com/world/middle-east/dollar-edges-off-19-month-high-after-market-rout-yen-softens-2026-11-22/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-22-pm-energy",
+          "category": "macro",
+          "title": "宏观 / 市场环境：原油小跌，战争风险尚未压过需求担忧",
+          "status": "18:16 PT 原油报价；胡塞袭击说法仍属交战方声明",
+          "importance": "高",
+          "body": [
+            "Reuters 报道，美西 22 日 18:16，Brent 期货为每桶 92.29 美元、跌 0.30%，WTI 为 83.26 美元、跌 0.18%。报道同时提及胡塞武装周日声称袭击沙特炼厂；本期未核实独立确认的停产或减供规模，不把该声明写成已证实设施损毁。",
+            "未取得可比的新天然气基准报价。油价为带时间盘中快照，并非结算价；WTI 涉及合约滚动时也不能直接与此前到期合约价格比较。"
+          ],
+          "whyImportant": "分析：能源同时受增长／需求担忧和供给中断风险影响，战争升级不保证油价立刻上涨，油价下跌也不证明航运或保险风险消失。",
+          "investmentImpact": "条件性传导仍是战争→油气供给／运费→通胀→美债收益率→科技估值；若需求下修主导油价下跌，还可能伴随盈利预期恶化，不能单独视为科技利好。观察实际装运与停产、油气曲线及通胀预期，区分供应改善和需求走弱。",
+          "tags": [
+            "美国／伊朗",
+            "胡塞武装",
+            "Brent",
+            "WTI",
+            "天然气",
+            "通胀",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜18:16 PT 油价快照及袭击声明",
+              "url": "https://www.reuters.com/business/energy/oil-prices-fall-amid-equity-selloff-though-iran-war-attacks-limit-losses-2026-11-23/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-22-pm-nvda",
+          "category": "semi",
+          "title": "NVDA：政府仍追问合规责任，新的媒体指控尚非调查定论",
+          "status": "官员公开表态＋媒体转述；未有正式调查结论",
+          "importance": "高",
+          "body": [
+            "Reuters 22 日 09:48 PT 报道，Bessent 称政府仍需 NVDA 芯片销售与合规责任的答案，已接触临时管理层、董事及律师；对于黄仁勋是否回归，他要求先厘清责任。新增是追问持续，不能写成监管放行或复职获批。",
+            "Reuters 22 日 17:54 PT 转述 NYT：知悉情报报告的人士称 Alice Huang 曾与中国国安人员保持联系；同篇也强调美国官员尚未认定其从事间谍活动。属于新的媒体指控，不能写成法院认定，也不能据此计算新的受限收入或订单取消。"
+          ],
+          "whyImportant": "分析：NVDA 的治理和出口合规风险溢价可能延续；个人关系指控与公司收入确认、许可证和现金流影响，必须分别核实。",
+          "investmentImpact": "观察正式调查文件、公司回应、许可证及回款，而非仅凭政治支持或媒体指控重估盈利。NVDA 风险可能传至 AMD、云算力和供应链估值，但没有新量化依据支持把同等损失套到所有公司；存储价格和订单本期未核实实质新增。",
+          "tags": [
+            "NVDA",
+            "AMD",
+            "出口合规",
+            "治理",
+            "调查状态",
+            "半导体"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Bessent 22 日追问合规责任",
+              "url": "https://www.reuters.com/world/china/us-seeks-answers-nvidias-sale-chips-china-bessent-says-2026-11-22/"
+            },
+            {
+              "title": "Reuters｜转述 NYT 新指控及美国官员未定论说明",
+              "url": "https://www.reuters.com/technology/alice-huang-touch-with-chinese-spy-agency-during-affair-with-nvidia-ceo-nyt-says-2026-11-23/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-22-pm-ai",
+          "category": "ai",
+          "title": "AI / 科技：OpenAI 提议共同开发门槛，尚非行业限速已落地",
+          "status": "22 日公开研究／安全提案；未形成已执行的行业协议或法规",
+          "importance": "中",
+          "body": [
+            "OpenAI 首席科学家 Jakub Pachocki 22 日发文，建议以 perplexity 等指标建立跨实验室的能力与安全标准，并在监测能力达到具体里程碑前不跨越约定开发门槛。Reuters 15:09 PT 报道 Altman 支持该提议。",
+            "原文也承认跨实验室数据集不同、指标不直接等同实际任务能力，且不能覆盖全部后训练进步。本期未核实行业共同签署、明确执行日期或资本开支削减；不能写成 AI 训练暂停或 GPU 订单已经下调。"
+          ],
+          "whyImportant": "分析：若未来形成实质约束，会影响前沿训练节奏、安全评测成本及竞争格局；现阶段首先是标准与协调议题。",
+          "investmentImpact": "观察参与公司、门槛定义、监测里程碑与执行机制。对 NVDA、云厂商和模型公司，训练、推理和安全投入的影响可能不同，不能从提案直接推出总算力需求下降或立即下修盈利。",
+          "tags": [
+            "OpenAI",
+            "模型能力",
+            "安全标准",
+            "AI 资本开支",
+            "NVDA",
+            "云计算"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI｜Perplexity and Intelligence 原文",
+              "url": "https://openai.com/index/perplexity-and-intelligence/"
+            },
+            {
+              "title": "Reuters｜22 日开发门槛提案及 Altman 支持",
+              "url": "https://www.reuters.com/business/openai-scientist-proposes-industry-ai-limits-tied-model-intelligence-metric-2026-11-22/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-22-pm-robot",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：FFR 自报学校采购，规模与回款待核实",
+          "status": "22 日 16:36 PT 公司公告；客户及付款未独立核实",
+          "importance": "低",
+          "body": [
+            "FFR 22 日公告称，已进入加州一个公立学区采购平台，其职业教育中心购买数台 FX Navi、Aegis EDU 等机器人；另一个学区也购买 Master Mini、Aegis EDU。公告未具名学区，未披露合同金额、完整数量、回款或运行指标。",
+            "公告所称逾 1,000 所学校获得采购渠道，不等于 1,000 所已下单或部署。这是公司披露的初始采购信号，尚不能认定已验证的规模化付费部署。优先跟踪公司的 zero-shot／cross-embodiment、触觉／力控、数据效率、人工接管率／uptime 及硬件成本，本窗口仍无可核实实质新增；普通活动 demo 不纳入。"
+          ],
+          "whyImportant": "分析：教育采购是商业渠道信号，但与工业自主劳动替代不同，采购资格、框架协议、购买、交付、回款和复购应逐层区分。",
+          "investmentImpact": "观察客户确认、金额与回款、实际使用率、维护成本及复购。执行器、手、传感器、电池、减速器成本也需可比数据；NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Nabtesco、Harmonic Drive、THK、Nidec、Google／Gemini Robotics、Physical Intelligence 暂无本窗口新增证据支持上调盈利假设。",
+          "tags": [
+            "FFR",
+            "教育机器人",
+            "采购",
+            "部署可靠性",
+            "数据效率",
+            "硬件经济性"
+          ],
+          "sources": [
+            {
+              "title": "FFR｜22 日 19:36 ET 公司采购进展公告",
+              "url": "https://www.prnewswire.com/news-releases/ff-eai-robotics-ecosystem-inc-ffr-becomes-approved-robotics-supplier-to-top-tier-us-public-school-districts-forms-strategic-partnerships-with-school-districts-and-fulfills-their-robot-orders-302947730.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-22-am",
       "date": "2026-11-22",
       "period": "am",
