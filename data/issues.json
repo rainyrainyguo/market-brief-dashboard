@@ -4,6 +4,224 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-23-am",
+      "date": "2026-11-23",
+      "period": "am",
+      "time": "08:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-23T08:03:32-08:00",
+      "summary": "本期主线从昨晚的期货修复升级为现货 AI／半导体反弹：NVDA 官方宣布黄仁勋即刻复职，但独立与政府调查继续。CRWD 宣布全股票收购 ZS 并发布财报，Amazon 签约购买 Decart 优化技术。宏观上 PMI 放缓但仍扩张，美债收益率及美元反升，市场仍计价加息；油价因供应增加下跌，中东风险未解除。台湾新维护率措施缓解强平压力。机器人暂无可核实窗口内实质新增。覆盖昨晚简报后至美西 11 月 23 日约 08:00，行情均为注明时点的盘中快照。",
+      "cards": [
+        {
+          "id": "2026-11-23-am-nvda",
+          "category": "semi",
+          "title": "NVDA 正式恢复黄仁勋职务，现货 AI 链急涨；调查仍继续",
+          "status": "23 日公司正式公告；盘中行情不等于收盘；复职不等于调查结案",
+          "importance": "高",
+          "body": [
+            "NVDA 23 日官方宣布，黄仁勋即刻恢复总裁、CEO 和董事职务；Harvey Jones 继续任董事长，Kress 继续任 CFO。董事会称在听取美国政府高层意见后，对其复职不构成国家安全风险有信心；这是董事会声明，不是所有监管事项已获免责。",
+            "公告明确独立董事委员会调查将继续至完成，公司继续配合政府调查，并启动首席合规官招聘。相对昨晚“是否回归未定”，正式复职是明确新增，但出口合规、会计和治理问题不能一并视为结案。",
+            "Reuters 美东 09:43／美西 06:43 现货快照：纳指涨 5.87%，NVDA 涨约 28.2%、SOX 涨 12.5%、MU 涨 13.7%、CRWV 涨 25%。这已不同于昨晚期货反弹，仍不是本日收盘价。"
+          ],
+          "whyImportant": "分析：创始人回归可缓解关键人物与客户／融资关系连续性的担忧，风险溢价下降推动 AI 链重估；经营现金流、担保融资和许可证风险仍需要独立证据。",
+          "investmentImpact": "区分领导层不确定性下降与盈利上调。观察 NVDA 正式调查结果、客户回款、融资／担保承诺及许可证；CRWV／NBIS 等反弹不能替代偿债能力改善，MU／SNDK 的盈利仍要看真实合约价、库存与订单。不要把分析师的“风险解除”判断当作官方结论。",
+          "tags": [
+            "NVDA",
+            "MU",
+            "CRWV",
+            "NBIS",
+            "半导体",
+            "治理",
+            "循环融资"
+          ],
+          "sources": [
+            {
+              "title": "NVIDIA｜23 日复职公告及继续调查说明",
+              "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/default.aspx"
+            },
+            {
+              "title": "Reuters｜美东 09:43 现货市场快照",
+              "url": "https://www.reuters.com/business/wall-street-futures-rebound-after-rough-week-ai-linked-shares-2026-11-23/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-23-am-macro",
+          "category": "macro",
+          "title": "宏观 / 市场环境：PMI 放缓但仍扩张，反弹伴随利率与美元上行",
+          "status": "已发布调查数据＋盘中报价；Fed 概率是市场预期",
+          "importance": "高",
+          "body": [
+            "23 日美国 S&P Global 综合 PMI 初值 54.6，低于 10 月 55.9；服务业 54.7、制造业 54.5，均仍高于 50。调查说明增长放缓，不能等同经济已收缩，也不是 CPI／PCE 实际读数。",
+            "WSJ 美东 09:27 快照：10 年美债收益率约 4.980%、2 年约 4.722%。Reuters 更新的市场快照：美元指数约 104.27、美元兑日元约 159.34；FedWatch 完全计价 12 月加息 25bp、1 月再加息概率约 67%，仍未计价 50bp。与昨晚相比，股票修复没有伴随利率或美元同步回落；市场押注不等于 Fed 已决定。",
+            "本窗口未核实新美国 CPI／PPI／PCE、官方就业／工资、Fed 决议／点阵图或财政赤字／发债安排；未取得可比的新期限溢价、JGB、信用利差与实际资金流数据。日本现货休市，日元走弱不能证明日本资金已回流。选后财政、贸易、关税与监管风险仍按正式文件和生效状态判断。"
+          ],
+          "whyImportant": "分析：企业与风险偏好利好可以暂时压过折现率上行，但高估值科技仍承受资金成本约束。PMI 处于扩张区间，也不足以直接支持降息叙事。",
+          "investmentImpact": "观察 PMI／通胀→Fed 预期→美债收益率→科技估值；财政／发债→期限溢价→长端利率，以及日本收益率→资金回流／套息调整→全球流动性，仍需逐环验证。观察实际通胀发布、信用利差、融资成本和真实资金流；不要仅凭股价大涨判断 AI 融资条件已恢复。",
+          "tags": [
+            "PMI",
+            "Fed",
+            "美债",
+            "美元",
+            "日元",
+            "JGB",
+            "期限溢价",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜23 日美国 PMI 初值",
+              "url": "https://www.reuters.com/world/us/us-business-activity-growth-eases-further-november-survey-shows-2026-11-23/"
+            },
+            {
+              "title": "WSJ｜美东 09:27 美债收益率快照",
+              "url": "https://www.wsj.com/articles/german-bund-yields-rise-french-yields-fall-ahead-of-pmi-data-c4d45e93"
+            },
+            {
+              "title": "Reuters｜美元与 FedWatch 更新快照",
+              "url": "https://www.reuters.com/world/middle-east/dollar-edges-off-19-month-high-after-market-rout-yen-softens-2026-11-22/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-23-am-security",
+          "category": "ai",
+          "title": "CRWD 拟以全股票收购 ZS；财报改善与并购稀释需分开判断",
+          "status": "已签署最终协议、尚未交割；业绩为公司正式披露",
+          "importance": "高",
+          "body": [
+            "CRWD／ZS 23 日公告全股票交易，按 20 日 CRWD 收盘价计企业价值约 439 亿美元，每股 ZS 换 1.135 股 CRWD。预计于 CRWD 2028 财年下半年完成，仍需 ZS 股东、监管批准及其他交割条件；不是固定现金收购价。",
+            "CRWD 同日财报：Q3 收入 15.8 亿美元、同比增 28%；期末 ARR 62.6 亿美元、增 27%，净新增 ARR 约 4.192 亿美元，自由现金流约 4.744 亿美元。公司上调全年指引，但本期未完成与卖方一致预期的可比核验，不标成已确认“超预期”。"
+          ],
+          "whyImportant": "分析：终端／身份与零信任网络安全整合，可能强化平台销售与 AI agent 安全竞争，也提高整合、监管和股权稀释的重要性。",
+          "investmentImpact": "分别评估 CRWD 独立增长／现金流和收购后每股回报。ZS 的交易价值随 CRWD 股价变动，协同尚属预测，不能将两家公司 ARR 简单相加当作已实现业绩；观察客户留存、整合成本及对 PANW 等竞争格局的影响。",
+          "tags": [
+            "CRWD",
+            "ZS",
+            "PANW",
+            "网络安全",
+            "并购",
+            "ARR",
+            "自由现金流"
+          ],
+          "sources": [
+            {
+              "title": "CrowdStrike｜收购 Zscaler 最终协议及交易条件",
+              "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-acquire-zscaler-bringing-network-security-and-zero/"
+            },
+            {
+              "title": "CrowdStrike｜Q3 FY2027 正式财报",
+              "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-third-quarter-fiscal-year-2027-financial"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-23-am-amazon",
+          "category": "ai",
+          "title": "Amazon 签约购买 Decart 优化技术，强化 Trainium 与推理效率",
+          "status": "23 日官方签约公告；待常规交割条件与监管批准",
+          "importance": "中",
+          "body": [
+            "Amazon 公告已签约购买 Decart Optimization Stack 专有技术，并引入创始人与研究工程团队，服务自研芯片及 AI 推理优化。公告未披露交易价格，也未给出本次整合可独立核验的成本降幅、客户订单或收入增量；交易尚未完成。"
+          ],
+          "whyImportant": "分析：自研芯片竞争不仅取决于硬件，还取决于软件栈、模型迁移与每任务成本；此次技术与人才交易表明 AWS 继续投入全栈效率。",
+          "investmentImpact": "观察 Trainium 实际客户采用、吞吐／延迟、总拥有成本与 AWS 利润率。效率提升可能降低单位算力成本、也可能扩大使用量，不能直接推断 NVDA 订单等额减少或 Amazon 总资本开支下降。",
+          "tags": [
+            "AMZN",
+            "AWS",
+            "Trainium",
+            "Decart",
+            "推理效率",
+            "NVDA"
+          ],
+          "sources": [
+            {
+              "title": "Amazon｜Decart 技术购买协议与交割限制",
+              "url": "https://www.aboutamazon.com/news/company-news/amazon-decart-ai-optimization"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-23-am-taiwan",
+          "category": "macro",
+          "title": "宏观 / 市场环境：台湾降低担保维持率，缓解强平压力",
+          "status": "23 日正式公告；24 日实施，过渡安排另有规定",
+          "importance": "中",
+          "body": [
+            "台湾证交所公告，信用交易担保维持率最低标准由 130% 降至 120%，11 月 24 日实施；部分既有追缴记录按过渡规则取消、不处分担保品。新规是维护率／追缴安排，不能与今早之前已报的中国融资保证金比例下调混为一谈。"
+          ],
+          "whyImportant": "分析：降低集中补缴与被动卖出压力，有助于台湾半导体供应链股票的交易稳定，但不是新增芯片订单或政府保证价格底部。",
+          "investmentImpact": "维护率放宽→强制去杠杆压力可能减轻→风险偏好和估值修复；观察融资余额、违约／追缴情况、成交和实际买盘。TSM 及供应链盈利仍需客户需求和产能利用率确认。",
+          "tags": [
+            "台湾市场",
+            "TSM",
+            "融资维护率",
+            "强平",
+            "流动性"
+          ],
+          "sources": [
+            {
+              "title": "台湾证交所｜11 月 23 日正式通知 PDF",
+              "url": "https://www.twse.com.tw/staticFiles/news/news/tsecnews/8a8216d6a19afd9c01a2073bb7af0594.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-23-am-energy",
+          "category": "macro",
+          "title": "宏观 / 市场环境：供应增加令油价续跌，伊朗封锁争端未解",
+          "status": "供应进展＋06:36 PT 盘中报价；伊朗威胁属于官员表态",
+          "importance": "高",
+          "body": [
+            "Reuters 美西 06:36 快照：Brent 每桶 90.55 美元、跌 2.18%，WTI 81.82 美元、跌 1.91%；利比亚国家石油公司负责人称 Sharara 输油管道重启、原油开始流入储罐。相对昨晚小跌，新增是供应进展及更低盘中价，仍不是结算价。",
+            "伊朗外交部发言人 23 日称将用所有工具对抗美国海上封锁，并称有关伊朗船舶装油的报道是推测；这不是确认封锁解除、通航恢复或新减供量。本期未取得可比的新天然气基准报价。"
+          ],
+          "whyImportant": "分析：供应恢复可压低油价，但海运、保险和制裁风险仍存，不能把油价下跌视作中东局势已经解决。",
+          "investmentImpact": "战争／运输→油气→通胀→美债收益率→科技估值，需要与实际供应共同判断；本次供应改善有利于降低能源压力，但美债和美元仍可能因增长或风险偏好上行。观察装运、保险、停产和通胀预期，避免单线推导。",
+          "tags": [
+            "美国／伊朗",
+            "利比亚",
+            "Brent",
+            "WTI",
+            "天然气",
+            "通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜06:36 PT 原油报价及 Sharara 管道重启",
+              "url": "https://www.reuters.com/business/energy/oil-prices-fall-amid-equity-selloff-though-iran-war-attacks-limit-losses-2026-11-23/"
+            },
+            {
+              "title": "Reuters｜23 日伊朗对封锁与装油报道表态",
+              "url": "https://www.reuters.com/world/middle-east/iran-says-it-will-use-all-available-tools-confront-us-naval-blockade-2026-11-23/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-23-am-robot",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：暂无可核实的窗口内实质新增",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "本窗口未核实新的 zero-shot generalization、cross-embodiment transfer、触觉／力控精细操作、robot-data efficiency、人工接管率／uptime 改善、关键硬件成本下降或真实付费 deployment／design win。今日再刊的洗衣机器人指标、公司更名及招聘消息，未确认是窗口内新增的可比技术／商业突破，不凑数。"
+          ],
+          "whyImportant": "投资判断需要事件时间、样本和真实部署数据；宣传成功率若没有任务定义、连续运行与接管统计，不能直接代表工业可靠性。",
+          "investmentImpact": "观察每百次接管、连续运行、故障恢复、每任务数据量、执行器／手／传感器／电池／减速器成本及客户付款复购。NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Nabtesco、Harmonic Drive、THK、Nidec、Google／Gemini Robotics、Physical Intelligence 暂无新增机器人硬指标支持上调盈利；NVDA 管理层变化另见首条，不重复计为机器人技术突破。",
+          "tags": [
+            "Physical AI",
+            "泛化",
+            "跨本体",
+            "触觉力控",
+            "数据效率",
+            "可靠性",
+            "硬件经济性"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
       "id": "2026-11-22-pm",
       "date": "2026-11-22",
       "period": "pm",
