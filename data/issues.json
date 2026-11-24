@@ -4,6 +4,231 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-24-am",
+      "date": "2026-11-24",
+      "period": "am",
+      "time": "08:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-24T08:05:00-08:00",
+      "summary": "早报｜覆盖洛杉矶 11/23 约 20:00 至 11/24 08:00，并纳入检索截止时可核实进展。核心变化：AI 反弹今早回吐，新增关税准备报道；ADI 财报与 HPE 利润率争议让市场重新审视盈利兑现。消费者信心明显改善，但不能当作通胀回落或 Fed 转松证据。昨晚已讲的复职、Megaspeed 列名和期权首日交易不重复。",
+      "cards": [
+        {
+          "id": "2026-11-24-am-market",
+          "category": "macro",
+          "title": "宏观 / 市场环境：科技反弹回吐，关税准备报道增加政策风险",
+          "status": "股价为盘中快照；关税为知情人士报道，未确认落地",
+          "importance": "高",
+          "body": [
+            "Reuters 美东 09:54（PST 06:54）报道：标普 500 跌 0.47%、纳斯达克综合指数跌 1.21%；同期报道 NVDA、费城半导体指数均跌约 5.8%。Anthropic 跌至 81.60 美元，低于 83 美元 IPO 价。这些不是收盘价，也不是截至 08:00 的实时行情。",
+            "WSJ 11 月 24 日引述知情人士称，美国准备提高对中国及其他国家的关税，针对海外工业补贴／过剩产能，调查结果最快本周公布，时间可能变化。尚未取得正式税率、产品清单及实施文件，不把报道当作已征税。"
+          ],
+          "whyImportant": "昨日的管理层不确定性缓解未消除盈利、融资和贸易政策风险；今早回撤使高估值 AI 与芯片重新面对这些约束。",
+          "investmentImpact": "分析：若关税落地→硬件及供应链成本／贸易摩擦上升→利润率或通胀压力→贴现率与估值承压。对 NVDA、MU、AMD、MRVL、云算力公司，应分别看终端需求、成本转嫁和融资，不能把板块下跌等同于所有公司的订单恶化。观察正式清单、豁免与生效日。",
+          "tags": [
+            "关税报道",
+            "政策风险",
+            "NVDA",
+            "半导体",
+            "ANT",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜11/24 美股早盘与 AI 股回撤",
+              "url": "https://www.reuters.com/business/wall-st-futures-dip-chip-stocks-cool-after-nvidia-fueled-rally-2026-11-24/"
+            },
+            {
+              "title": "WSJ｜美国准备提高对华及其他国家关税",
+              "url": "https://www.wsj.com/economy/trade/u-s-prepares-to-raise-tariffs-on-china-and-other-countries-37981740"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-24-am-adi",
+          "category": "semi",
+          "title": "ADI 财报：增长并非全靠 AI，下一季利润与库存更值得看",
+          "status": "财报已发布；下一季为公司指引",
+          "importance": "高",
+          "body": [
+            "ADI 11 月 24 日公布：FY2026 Q4 收入 43.7 亿美元；全年收入 152 亿美元，同比增长 38%。公司称全年超过三分之二的增长来自非 AI 中心型市场机会，不能把全部增长归因于数据中心。",
+            "FY2027 Q1 收入指引 44 亿美元±1.5 亿，调整后 EPS 3.82 美元±0.20、调整后营业利润率约 50.5%±1 个百分点。SEC 资产负债表显示库存 20.84 亿美元，去年同期 16.56 亿；这是同比比较，不是环比。"
+          ],
+          "whyImportant": "为模拟芯片、工业和测试设备需求提供了新的基本面证据；数据中心增长与更广泛工业复苏需分开估值。",
+          "investmentImpact": "分析：关注库存消化、收入结构及指引兑现，而非只看全年创纪录。库存绝对额上升不足以证明积压，仍须结合周转和需求。对 ADI／ON／TER 可作为行业观察信号，但不是后三者订单或机器人 design win 的直接证据；本期未核实一致口径市场共识，不写“指引超预期／不及预期”。",
+          "tags": [
+            "ADI",
+            "模拟芯片",
+            "工业",
+            "库存",
+            "指引",
+            "ATE"
+          ],
+          "sources": [
+            {
+              "title": "ADI｜FY2026 Q4 及全年业绩公告",
+              "url": "https://www.analog.com/en/newsroom/press-releases/2026/11-24-26-adi-reports-record-4th-qtr-and-fiscal-2026-financial-results.html"
+            },
+            {
+              "title": "SEC｜ADI 业绩附件及资产负债表",
+              "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000087/adiq426exhibit991.htm"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-24-am-hpe",
+          "category": "ai",
+          "title": "HPE：上调收入展望仍遭卖出，利润率成为 AI 基建估值焦点",
+          "status": "新增为今早市场反应；11/23 财报作为背景",
+          "importance": "高",
+          "body": [
+            "Reuters 今早报道 HPE 盘前跌约 12%；报道将焦点指向利润率压力，不能把这一盘前跌幅当成收盘。公司 11 月 23 日财报提供背景：FY2027 收入增长展望上调至 27%–35%，对应 594 亿–631 亿美元；此前财报不是今早新发布。",
+            "Q4 收入 145 亿美元，同比增长 50%；非 GAAP 毛利率 38.2%，同比提高 180bp、环比下降 220bp。Cloud & AI 收入 113 亿美元、同比增长 68.6%，该分部还包含服务器、存储和金融服务，不能全部等同于 AI GPU 收入。"
+          ],
+          "whyImportant": "收入加速与毛利率环比下降可以同时出现；市场开始更严格地要求 AI 基建增长转化为利润与现金。",
+          "investmentImpact": "分析：产品组合／交付增长→收入放大，但若低毛利业务占比上升→盈利转化低于收入增幅→估值受压。观察 HPE 的利润率和现金兑现，并与 Dell、超微及云算力供应链分开比较；今早股价反应不能单独证明 AI CapEx 已见顶。",
+          "tags": [
+            "HPE",
+            "AI基建",
+            "毛利率",
+            "服务器",
+            "盈利兑现"
+          ],
+          "sources": [
+            {
+              "title": "HPE｜11/23 FY2026 Q4 业绩公告",
+              "url": "https://www.hpe.com/us/en/newsroom/press-release/2026/11/hpe-reports-fiscal-2026-fourth-quarter-results.html"
+            },
+            {
+              "title": "Reuters（MarketScreener转载）｜上调展望仍受利润率担忧压制",
+              "url": "https://ca.marketscreener.com/news/hpe-shares-fall-as-margin-worries-overshadow-raised-outlook-ce7851dbd88ef025"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-24-am-usmacro",
+          "category": "macro",
+          "title": "宏观 / 市场环境：消费者信心跳升，利率方向仍要等通胀验证",
+          "status": "调查数据已发布；Fed 路径为预期",
+          "importance": "高",
+          "body": [
+            "Conference Board 于 11 月 24 日公布，11 月消费者信心升 11.4 点至 103.3，10 月修订值为 91.9；预期分项升至 83.6。认为工作充足与难找的差值改善至 12.4 个百分点。样本期为 11 月 1–17 日，不能代表昨日股价巨震后的全部感受。",
+            "Reuters 周二欧洲／美国盘前时段快照：美债 2 年约 4.6415%、10 年约 4.8919%，美元指数当时回落约 0.4%；这些不是 08:00 实时值。12 月加息仍是期货主要定价，不重复昨晚 Williams 讲话；不同报道快照对 50bp 小概率情景并不一致，不赋予其确定方向。",
+            "本窗口未核实新的 CPI／PPI／PCE、官方就业工资数据或点阵图；PCE 为 11 月 25 日待公布事件。今日 10:00 PST 的五年期美债拍卖尚未发生。本期无新赤字或发债规模变化、期限溢价、信用利差及完整资金流数据，不能据股债波动补写这些结论。"
+          ],
+          "whyImportant": "信心改善支持需求韧性，但调查不是实际消费、就业人数或通胀数据；衰退风险下降与紧缩约束仍可能并存。",
+          "investmentImpact": "分析：信心／需求改善→增长预期支撑盈利，也可能降低宽松必要性；最终由通胀和政策反应决定贴现率。另观察财政／发债→拍卖承接及期限溢价→长端利率；拍卖结果与 PCE 出来前，不将单次利率回落视为科技估值压力解除。中期选举已结束，选后情绪改善也不等于新财政法案落地。",
+          "tags": [
+            "消费者信心",
+            "就业感受",
+            "Fed预期",
+            "PCE待公布",
+            "美债",
+            "美元",
+            "财政与资金流"
+          ],
+          "sources": [
+            {
+              "title": "Conference Board｜11 月消费者信心原始发布",
+              "url": "https://www.conference-board.org/topics/consumer-confidence/"
+            },
+            {
+              "title": "Reuters｜周二利率、美元及政策定价快照",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-24/"
+            },
+            {
+              "title": "Reuters Morning Bid｜11/24 数据与五年期拍卖日程",
+              "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-2026-11-24/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-24-am-energy",
+          "category": "macro",
+          "title": "宏观 / 市场环境：霍尔木兹再报船只遇袭，油气从低位反弹",
+          "status": "船只事件为机构通报转述；油气为盘中报价",
+          "importance": "高",
+          "body": [
+            "UKMTO 周二通报，三艘船周一向东通过霍尔木兹海峡时遭不明弹体击中；Reuters 报道三船继续航行、人员均有交代。袭击方及实际供给损失未获独立确认，不能直接断言伊朗实施或海峡已封锁。",
+            "14:23 UTC（06:23 PST）Brent 约 90.42 美元／桶、涨 1.2%，WTI 81.18 美元／桶、涨 1.26%；是盘中反弹，不是结算。Trading Economics 当日指示报价显示美国天然气回升至约 3.3 美元／MMBtu，非交易所结算，也不代表全球 LNG 同幅变化。"
+          ],
+          "whyImportant": "昨晚油价下跌之后，新增航运事件说明物流风险仍在；船只能够继续航行又限制了可直接认定的供给冲击幅度。",
+          "investmentImpact": "分析：战争／航运风险→油气、保险与运输成本→通胀→美债收益率→科技估值。当前需区分风险溢价反弹与真正停航减供；继续看航运量、炼厂运行及库存，不用原油单日涨跌替代完整通胀判断。",
+          "tags": [
+            "霍尔木兹",
+            "中东",
+            "美伊风险",
+            "Brent",
+            "WTI",
+            "天然气"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜11/24 霍尔木兹船只事件与油价反弹",
+              "url": "https://www.reuters.com/business/energy/oil-holds-near-three-month-low-rising-supply-offsets-hormuz-threat-2026-11-24/"
+            },
+            {
+              "title": "Trading Economics｜美国天然气当日指示报价",
+              "url": "https://tradingeconomics.com/commodity/natural-gas/news/603860"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-24-am-japan",
+          "category": "macro",
+          "title": "宏观 / 市场环境：日本十年期收益率回落，尚无资金回流证据",
+          "status": "市场报价已更新；流动性传导为条件分析",
+          "importance": "中",
+          "body": [
+            "Trading Economics 11 月 24 日的 OTC 银行间报价显示，日本十年期国债收益率约 2.72%，较前一交易日低约 7bp。这不是日本新增财政／债务政策，也不代表央行已改变政策利率。",
+            "未取得同一时点可比的新日元报价或窗口内日本跨境资金流；不重复昨晚美元兑日元数值充当今早更新。"
+          ],
+          "whyImportant": "日债收益率直接影响国内持债与海外配置的相对吸引力，但资本回流还取决于汇率对冲成本及投资者资产负债约束。",
+          "investmentImpact": "分析：若日本收益率重新明显上升→海外配置吸引力下降／资金可能回流→全球风险资产流动性受压；本期收益率回落不支持把这条紧缩链写成正在强化，也不足以反向证明全球流动性改善。观察日债长端、日元、对冲成本及实际跨境流量。",
+          "tags": [
+            "JGB",
+            "日本债务",
+            "日元",
+            "全球流动性"
+          ],
+          "sources": [
+            {
+              "title": "Trading Economics｜日本十年期国债报价与口径",
+              "url": "https://tradingeconomics.com/japan/government-bond-yield"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-24-am-robot",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：暂无窗口内可核实的实质新增",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "未核实窗口内 zero-shot generalization、cross-embodiment transfer、触觉／力控精细操作、robot-data efficiency、人工接管率／uptime、关键硬件成本或真实付费 deployment／design win 的新增可比指标。ADI 财报是行业需求线索，不能算机器人技术突破。",
+            "检索到 WorldLeague 新基准，但 arXiv v1 时间为 11 月 23 日 16:44 UTC（08:44 PST），早于本窗口；其结果来自模拟任务，不是工厂运行、付费部署或真实接管率。不会因今日转载而纳入为今晨突破。"
+          ],
+          "whyImportant": "发布日期、真实部署证据和测试口径比演示热度更关键；“未核实新增”不等于断言行业没有进展。",
+          "investmentImpact": "观察清单：留出任务零样本成功率、跨本体迁移损耗、触觉力控精细任务、每任务数据量、每百次人工接管、连续 uptime、执行器／手／传感器／电池／减速器成本及客户付款复购。NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Nabtesco、Harmonic Drive、THK、Nidec、Google／Gemini Robotics、Physical Intelligence 暂无本期新增硬指标支持上调机器人盈利判断。",
+          "tags": [
+            "Physical AI",
+            "泛化",
+            "跨本体",
+            "触觉力控",
+            "数据效率",
+            "可靠性",
+            "硬件经济性",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "arXiv｜WorldLeague 原文与 v1 时间（仅用于排除窗口外消息）",
+              "url": "https://arxiv.org/abs/2611.30989"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-23-pm",
       "date": "2026-11-23",
       "period": "pm",
