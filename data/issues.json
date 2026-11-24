@@ -4,6 +4,190 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-23-pm",
+      "date": "2026-11-23",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-23T19:00:00-08:00",
+      "summary": "晚报｜覆盖约 07:00–19:00 PST，并对早报去重。主线：AI 风险偏好反弹延续至收盘及亚洲开盘，但 Megaspeed 出口管制和加息定价提醒，治理反转不等于合规、融资及估值风险解除。新增集中于政策与市场状态，机器人暂无合格实质进展。",
+      "cards": [
+        {
+          "id": "2026-11-23-pm-semi",
+          "category": "semi",
+          "title": "Megaspeed 等七家实体列入出口管制名单：复职之外，合规风险继续落地",
+          "status": "最终规则已公开；具体生效日保留核实",
+          "importance": "高",
+          "body": [
+            "BIS 公开最终规则，将马来西亚、新加坡、泰国的七家实体加入 Entity List，包括 Megaspeed International 及相关实体；理由为先进计算产品被转移至未经授权用途／用户的重大风险。涉及这些实体的所有受 EAR 管辖物项须申请许可，审查原则为推定拒绝。",
+            "公开预览文本预定 11 月 25 日正式刊登，生效栏仍写“公开查阅日”占位符；因此确认规则内容，不把预定刊登日直接当作生效日。行政列名也不等于刑事定罪。"
+          ],
+          "whyImportant": "这是早报管理层复职消息之外的新增监管行动；高端 GPU 的客户核验、转售渠道及区域交付仍可能受约束。",
+          "investmentImpact": "分析：许可和尽调收紧→渠道交付及回款不确定性→NVDA 与相关云算力公司的风险折价。新增收入损失取决于此前是否已停供及 EAR 适用范围，不能把七家列名直接换算为损失金额，也不能扩写成所有境外芯片的全面禁令。观察许可细则、客户替代及后续执法。",
+          "tags": [
+            "NVDA",
+            "Megaspeed",
+            "出口管制",
+            "合规",
+            "政策风险"
+          ],
+          "sources": [
+            {
+              "title": "BIS｜Additions to the Entity List（最终规则公开预览）",
+              "url": "https://public-inspection.federalregister.gov/2026-23999.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-23-pm-market",
+          "category": "macro",
+          "title": "宏观 / 市场环境：反弹获得收盘确认，并扩散至亚洲",
+          "status": "美国已收盘；亚洲为盘中快照",
+          "importance": "高",
+          "body": [
+            "周一 NVDA 收涨 31.5%；标普 500 和纳斯达克综合指数分别收涨 4.7%、6.5%。这更新早报的盘中涨幅，不重复复职公告本身。",
+            "周二亚洲早盘、即洛杉矶周一傍晚，日经约涨 4.5%、韩国 KOSPI 涨 7.5%、台湾股市涨 9.1%；这些是报道时盘中值，不是收盘。"
+          ],
+          "whyImportant": "反弹已从单一公司事件扩散至区域科技风险偏好，但价格修复尚不能证明新增 AI 资本开支、订单或盈利兑现。",
+          "investmentImpact": "分析：治理不确定性下降→风险折价收窄→芯片及 AI 资产反弹。未来 1–12 个月仍须看盈利与融资，不能依据一日上涨恢复全部估值假设；亚洲股市上涨也不是日本资金已回流或全球流动性改善的证据。",
+          "tags": [
+            "风险偏好",
+            "NVDA",
+            "美股收盘",
+            "亚洲盘中",
+            "估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜亚洲股票追随美股反弹（11/24 亚洲时段）",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-24/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-23-pm-fed",
+          "category": "macro",
+          "title": "宏观 / 市场环境：Williams 强调通胀仍偏高，反弹伴随加息押注",
+          "status": "官员讲话已发生；利率路径为市场预期",
+          "importance": "高",
+          "body": [
+            "纽约联储 Williams 11 月 23 日讲话称经济强、就业市场稳定，但通胀持续偏高；中东供给冲击和 AI 投资需求是风险。他同时指出 AI 建设放缓可能逆转相关价格压力。讲话代表个人看法，不是新的 FOMC 决议或点阵图。",
+            "亚洲早盘美债 10 年期约 4.94%、2 年期约 4.69%；市场几乎完全计入 12 月加息，50bp 情景约占 5%。美元指数约 104.32，美元兑日元约 159.06。上述为报道快照／期货隐含预期，不是已加息；不与早报不同时间报价拼成日涨跌。",
+            "本窗口未核实新的 CPI／PPI／PCE、就业工资数据、点阵图、赤字／发债政策变化，或可比 JGB、期限溢价、信用利差与资金流数据。美国中期选举已过；本期未核实新增的选后财政、关税或监管法案落地，出口管制另见首条。"
+          ],
+          "whyImportant": "股价反弹与贴现率风险可以同时上升。Williams 的表态增加了政策背景，却没有给出可当作已决定的加息幅度。",
+          "investmentImpact": "分析：股市回升→金融条件放松／增长担忧减轻→紧缩预期→美元与利率压力→高估值科技折现承压。另持续观察财政／发债→期限溢价→长端利率，以及日本收益率→资金回流→全球风险资产流动性；本期没有足够数据断言这两条链已强化。",
+          "tags": [
+            "Fed",
+            "加息预期",
+            "美债",
+            "美元",
+            "日元",
+            "通胀",
+            "财政与流动性"
+          ],
+          "sources": [
+            {
+              "title": "纽约联储｜Williams：The Economic Mixdown（11/23）",
+              "url": "https://www.newyorkfed.org/newsevents/speeches/2026/wil261123"
+            },
+            {
+              "title": "Reuters｜美元与 Fed 加息押注（11/24 亚洲时段）",
+              "url": "https://www.reuters.com/business/dollar-climbs-renewed-ai-euphoria-fuels-fed-hike-bets-2026-11-24/"
+            },
+            {
+              "title": "Reuters｜亚洲市场利率快照",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-24/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-23-pm-energy",
+          "category": "macro",
+          "title": "宏观 / 市场环境：油价结算跌幅扩大，不能据此判定中东风险解除",
+          "status": "原油为结算价；天然气仅有非结算指示报价",
+          "importance": "高",
+          "body": [
+            "周一 Brent 结算 89.37 美元／桶，跌 3.46%；WTI 80.17 美元／桶，跌 3.88%。新增是结算确认，早报已经讲过的利比亚管道复流不再作为新事件重复。",
+            "未核实窗口内新的美伊停火协议或航运风险解除。Trading Economics 报告美国天然气当日下跌逾 6%、与转暖预期有关；但未取得同口径交易所结算核验，不列其报价为正式收盘，不能外推欧洲或亚洲 LNG 同步下跌。"
+          ],
+          "whyImportant": "油价回落有利于边际通胀压力缓和，但天然气、成品油与运输保险的地区差异，可能使终端成本下降滞后。",
+          "investmentImpact": "分析：若战争升级→油气及运输成本上升→通胀预期→美债收益率→科技估值承压；当前油价回落仅部分缓和该链条。继续观察实际航运、炼厂运行及能源价格持续性，不以单日结算推导 Fed 必然转向宽松。",
+          "tags": [
+            "中东",
+            "美伊",
+            "Brent",
+            "WTI",
+            "天然气",
+            "通胀传导"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜11/23 原油结算与供应风险",
+              "url": "https://www.reuters.com/business/energy/oil-prices-fall-amid-equity-selloff-though-iran-war-attacks-limit-losses-2026-11-23/"
+            },
+            {
+              "title": "Trading Economics｜美国天然气下跌（指示报价，非交易所结算）",
+              "url": "https://tradingeconomics.com/commodity/natural-gas/news/496891"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-23-pm-ai",
+          "category": "ai",
+          "title": "Anthropic 期权首日交投活跃：新增对冲工具，未显示单向看多",
+          "status": "已发生；成交量为日内统计",
+          "importance": "中",
+          "body": [
+            "Anthropic 新上市期权周一开始交易；据 Reuters 引述 Mercury Alerts，截至美东 15:00（PST 12:00）约成交 50 万张。看涨与看跌成交约 1:1，买卖双方接近平衡，不能把总成交量视为新增多头资金。"
+          ],
+          "whyImportant": "AI 纯标的增加了事件对冲与波动交易工具；这是市场结构变化，尚不是收入、利润或模型能力的新证据。",
+          "investmentImpact": "分析：期权扩大风险表达渠道，可能放大短期股价波动，但不自动提高长期合理估值。观察后续未平仓量、隐含波动、财报兑现及对冲需求，避免用期权热度代替客户付费与现金流。",
+          "tags": [
+            "Anthropic",
+            "ANT",
+            "期权",
+            "AI估值",
+            "市场结构"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Anthropic options debut with brisk volume（11/23）",
+              "url": "https://www.reuters.com/business/anthropic-options-debut-with-brisk-volume-2026-11-23/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-23-pm-robot",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：本窗口无可核实的实质新增",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "未核实窗口内 zero-shot generalization、cross-embodiment transfer、触觉／力控精细操作、robot-data efficiency、人工接管率／uptime、硬件经济性或真实付费 deployment／design win 的新增可比指标。检索中再出现的 Figure–Nscale 算力合作，原公告为 9 月 3 日，不计入本期新闻。"
+          ],
+          "whyImportant": "普通 demo、招聘及旧合作再刊不足以证明可靠性、单位经济性或客户采用拐点；“未核实新增”不等于断言行业没有进展。",
+          "investmentImpact": "观察清单：每百次人工接管、连续运行与故障恢复、跨任务／跨本体留出测试、每任务数据量、执行器／手／传感器／电池／减速器成本，以及客户付款复购。NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Nabtesco、Harmonic Drive、THK、Nidec、Google／Gemini Robotics、Physical Intelligence 暂无本期新增硬指标支持上调机器人盈利判断。",
+          "tags": [
+            "Physical AI",
+            "泛化",
+            "跨本体",
+            "触觉力控",
+            "数据效率",
+            "可靠性",
+            "硬件经济性",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Figure｜原合作公告（9/3，仅用于排除旧闻）",
+              "url": "https://www.figure.ai/news/figure-and-nscale-sign-strategic-partnership"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-23-am",
       "date": "2026-11-23",
       "period": "am",
