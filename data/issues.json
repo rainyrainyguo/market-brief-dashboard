@@ -4,6 +4,232 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-24-pm",
+      "date": "2026-11-24",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-24T19:07:00-08:00",
+      "summary": "晚报｜覆盖 11 月 24 日约 08:00–19:00 PST，与早报去重。主线：关税与估值担忧压制收盘及亚洲科技股，但 Dell 盘后订单、收入和指引提供 AI 基建仍在兑现的反向证据；HP 显示存储涨价正向下游利润传导。美债拍卖完成，明早 PCE／GDP 尚未公布。机器人暂无窗口内合格实质新增。",
+      "cards": [
+        {
+          "id": "2026-11-24-pm-market",
+          "category": "macro",
+          "title": "宏观 / 市场环境：半导体收跌 7.9%，关税消息仍属准备阶段",
+          "status": "美国为收盘；亚洲为盘中；关税尚非已实施政策",
+          "importance": "高",
+          "body": [
+            "周二收盘：标普 500 跌 0.50%、纳斯达克综合指数跌 1.48%、道指涨 0.85%；NVDA 跌约 5.9%、费城半导体指数跌 7.9%。Anthropic 收于 81.90 美元，低于 83 美元发行价。新增为收盘确认，替换早报盘中值。",
+            "洛杉矶傍晚对应周三亚洲早盘，Reuters 报道韩国与台湾股市一度分别跌 5.3%、5.1%，日经一度跌 2.9%；这些是盘中极值，不能当收盘。",
+            "继早报 WSJ 消息后，Reuters 引述三名知情人士称，针对 16 个贸易伙伴过剩产能的调查结果即将公布，新税可能叠加既有税率；一名消息人士称会尊重部分已签贸易协议的税率上限。未核实正式税表、生效日或豁免，不能将报道写成已加税。"
+          ],
+          "whyImportant": "科技与传统板块明显分化；管理层事件带来的反弹，尚不足以覆盖融资、盈利兑现和选后贸易政策的不确定性。",
+          "investmentImpact": "分析：若关税落地→供应链成本／通胀与报复风险→利润率或贴现率压力→高估值科技及芯片承压。收盘下跌不是订单全面恶化的证据，须与盘后 Dell 财报一起看；观察正式产品范围、税率上限和豁免。",
+          "tags": [
+            "半导体",
+            "NVDA",
+            "ANT",
+            "关税报道",
+            "选后政策",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜11/24 美股收盘",
+              "url": "https://www.reuters.com/business/wall-st-futures-dip-chip-stocks-cool-after-nvidia-fueled-rally-2026-11-24/"
+            },
+            {
+              "title": "Reuters｜11/25 亚洲早盘（洛杉矶 11/24 傍晚）",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-25/"
+            },
+            {
+              "title": "Reuters｜过剩产能调查及关税准备，消息人士报道",
+              "url": "https://www.reuters.com/world/us/trump-administration-set-unveil-new-tariffs-after-probe-on-excess-factory-2026-11-24/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-24-pm-dell",
+          "category": "ai",
+          "title": "Dell 盘后财报：AI 服务器订单与收入上调，为基建需求提供硬证据",
+          "status": "财报与订单已披露；全年数字为公司指引",
+          "importance": "高",
+          "body": [
+            "Dell FY2027 Q3 收入 549 亿美元、同比增长 103%，非 GAAP EPS 9.45 美元；AI 优化服务器收入 220 亿美元、同比增长 291%。当季 AI 订单 602 亿美元，期末积压订单 1,323 亿美元。",
+            "全年收入指引从 1,920 亿上调至 2,020 亿美元，AI 服务器收入从 740 亿上调至 780 亿，非 GAAP EPS 从 25.50 上调至 29.68 美元。公司称订单经过客户质量及资金、土地、电力可得性审核；这是管理层陈述，不是独立担保。",
+            "当季经营现金流 45 亿美元。Reuters 报道股价盘后曾涨约 5%，属于报道快照；积压订单不是已确认收入，也不代表全部款项已收回。"
+          ],
+          "whyImportant": "相比单纯情绪反弹，这次新增的是设备交付、订单及财务兑现；它削弱了“AI 基建需求已全面塌陷”的简单判断，但不能证明所有客户融资安全。",
+          "investmentImpact": "分析：服务器交付增长→GPU、存储、网络需求支撑，对 NVDA 及相关供应链有参考意义；仍应观察订单集中度、取消／延期、利润率和现金转化。不能用 Dell 的成功替代对 CRWV、NBIS 等客户信用及融资结构的逐家判断。",
+          "tags": [
+            "DELL",
+            "AI服务器",
+            "订单",
+            "CapEx",
+            "NVDA",
+            "现金流"
+          ],
+          "sources": [
+            {
+              "title": "Dell｜FY2027 Q3 业绩及全年指引原文",
+              "url": "https://investors.delltechnologies.com/sec-filings/all-sec-filings/content/0001571996-26-000050/exhibit991earnings8kq3fy27.htm"
+            },
+            {
+              "title": "Reuters｜Dell 上调展望及盘后反应",
+              "url": "https://www.reuters.com/business/dell-lifts-annual-forecasts-after-record-quarter-surging-ai-server-demand-2026-11-24/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-24-pm-memory",
+          "category": "semi",
+          "title": "HP：存储成本已接近 PC 物料成本四成，涨价开始挤压下游",
+          "status": "财报已发布；成本占比为高管电话会陈述",
+          "importance": "高",
+          "body": [
+            "HP Inc.（HPQ，非 HPE）Q4 收入 160 亿美元、同比增长 9.3%，GAAP 营业利润率从去年同期 6.6%降至 5.3%。",
+            "据 CRN 对当日电话会的报道，HP CFO 称内存和存储已接近 PC 物料成本的 40%，此前年初为 15%–18%；预计 FY2027 成本继续增加，但增速放缓。Reuters 同时报 Dell 预计存储芯片短缺延续至 2027 年；后者是公司预期，不是已发生的全年供需结果。"
+          ],
+          "whyImportant": "这是存储上游定价与下游单位经济性之间的新证据：上游价格强，并不意味着整条科技产业链利润同步受益。",
+          "investmentImpact": "分析：内存／存储涨价→PC 成本增加→提价、配置调整或整机利润承压，也可能反过来抑制需求。对 MU、SNDK、SK Hynix 属价格支撑线索；不能由 PC 物料占比直接推出 HBM／DRAM／NAND 各自涨幅、毛利率或周期顶部。观察终端销量、容量配置、合同价和扩产兑现。",
+          "tags": [
+            "HPQ",
+            "MU",
+            "SNDK",
+            "SK Hynix",
+            "存储周期",
+            "成本传导"
+          ],
+          "sources": [
+            {
+              "title": "HP｜FY2026 Q4 业绩原文",
+              "url": "https://investor.hp.com/news-events/news/news-details/2026/HP-Inc--Reports-Fiscal-2026-Full-Year-and-Fourth-Quarter-Results-Announces-Dividend-Increase/default.aspx"
+            },
+            {
+              "title": "CRN｜HP 电话会：内存及存储成本占比",
+              "url": "https://www.crn.com/news/computing/2026/hp-s-ai-pc-memory-new-ceo-updates-big-takeaways-from-q4-results"
+            },
+            {
+              "title": "Reuters｜Dell、HP 的存储成本与短缺表态",
+              "url": "https://www.reuters.com/business/dell-lifts-annual-forecasts-after-record-quarter-surging-ai-server-demand-2026-11-24/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-24-pm-rates",
+          "category": "macro",
+          "title": "宏观 / 市场环境：五年期拍卖完成，长端利率压力并未明显解除",
+          "status": "拍卖与日度收益率已发生；Fed 路径为期货预期",
+          "importance": "高",
+          "body": [
+            "美国财政部五年期拍卖规模 700 亿美元，最高中标收益率 4.719%、投标倍数 2.37。Dow Jones 报道同期市场收益率 4.717%，相差约 0.2bp；间接投标人占比 54.3%，上次为 60%。指标有强有弱，不等同于发债失败或外国资金全面撤退。",
+            "财政部 11/24 日度 par yield：2 年 4.63%、10 年 4.91%、30 年 5.30%；较前一交易日分别不变、下降 1bp、上升 1bp。它们是同口径日度估计，不与早报盘中报价混算。共同社纽约 17:00 ET 报价美元兑日元 159.20–159.30，日元较前日走弱约 0.24；不是傍晚实时值。",
+            "Reuters 收盘报道所引期货定价：12 月加息概率约 97%，1 月进一步加息约 66%；均不是 Fed 决议。本窗口没有新增 CPI／PPI／PCE、官方就业工资或点阵图；BEA 确认 11/25 05:30 PST 公布 10 月个人收入与支出／PCE及三季度 GDP 第二次估计。",
+            "未核实新增美国赤字／发债规模政策、日本债务政策、窗口内可比 JGB 收益率，以及期限溢价、信用利差或跨境资金流新数据。早报消费者信心与日债报价不再当新消息重复。"
+          ],
+          "whyImportant": "拍卖完成更新了早报的待观察事件，但几乎横盘的美债曲线没有给出明显宽松信号；明早数据仍可能重定价增长和加息路径。",
+          "investmentImpact": "分析：财政／发债→承接需求及期限溢价→长端利率→科技估值；本次拍卖不足以单独认定期限溢价上升。日本收益率若上升→可能吸引资金回流→全球风险流动性承压，但仅凭日元走弱不能断言这条链已发生。关注 PCE、实际工资／需求、长端与信用利差是否同步变化。",
+          "tags": [
+            "美债拍卖",
+            "期限溢价",
+            "财政",
+            "Fed预期",
+            "PCE待公布",
+            "日元",
+            "JGB",
+            "资金流"
+          ],
+          "sources": [
+            {
+              "title": "美国财政部｜11/24 五年期拍卖结果",
+              "url": "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/R_20261124_3.pdf"
+            },
+            {
+              "title": "美国财政部｜11 月每日收益率曲线",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value_month=202611&type=daily_treasury_yield_curve"
+            },
+            {
+              "title": "Dow Jones／MarketScreener｜拍卖同期市场比较",
+              "url": "https://www.marketscreener.com/news/u-s-treasury-auction-of-5-year-note-shows-slightly-soft-demand-ce7851dbdd8df521"
+            },
+            {
+              "title": "共同社／神户新闻｜纽约 17:00 日元报价",
+              "url": "https://www.kobe-np.co.jp/news/zenkoku/compact/202611/0021070477.shtml"
+            },
+            {
+              "title": "Reuters｜收盘及 Fed 期货定价",
+              "url": "https://www.reuters.com/business/wall-st-futures-dip-chip-stocks-cool-after-nvidia-fueled-rally-2026-11-24/"
+            },
+            {
+              "title": "BEA｜官方发布日程",
+              "url": "https://www.bea.gov/news/schedule/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-24-pm-energy",
+          "category": "macro",
+          "title": "宏观 / 市场环境：原油结算上涨逾 2%，红海新增条件性威胁",
+          "status": "油价为结算；攻击表态与威胁须分别看待",
+          "importance": "高",
+          "body": [
+            "Brent 周二结算 91.40 美元／桶、涨 2.27%；WTI 82.05 美元／桶、涨 2.35%。新增为结算，替换早报盘中反弹值。伊朗革命卫队据国媒称在霍尔木兹附近针对一艘走“未经授权”路线的集装箱船采取行动；属于其自身声称，不等于独立确认损害或通道全面中断。",
+            "洛杉矶 18:42 的 Reuters 报道，胡塞武装称若沙特攻击荷台达港，将打击吉达及沙特其他红海港口。这是条件性威胁，不是已发生的港口袭击，也不是美伊新停火协议。",
+            "美国天然气未取得本窗口可靠、同合约的交易所结算核验，不把连续合约换月造成的跳价作为真实日涨幅；早报约 3.3 美元的指示报价不冒充晚间更新。"
+          ],
+          "whyImportant": "原油从低位反弹且航运威胁扩大，提醒市场区分供给过剩预期与真实运输风险；战争风险尚不能由单日油价走势判定解除。",
+          "investmentImpact": "分析：战争／港口与海峡风险→原油、运费及保险→通胀→美债收益率→高估值科技折现承压。只有威胁转化为停航、减供或炼厂损失，才可进一步估计实物冲击；观察实际船流和油气、成品油价差，勿将条件性威胁直接折算为供应损失。",
+          "tags": [
+            "美伊",
+            "中东",
+            "红海",
+            "霍尔木兹",
+            "原油",
+            "天然气",
+            "通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜11/24 原油结算及霍尔木兹事件",
+              "url": "https://www.reuters.com/business/energy/oil-holds-near-three-month-low-rising-supply-offsets-hormuz-threat-2026-11-24/"
+            },
+            {
+              "title": "Reuters｜胡塞武装对沙特红海港口的条件性威胁",
+              "url": "https://www.reuters.com/world/middle-east/yemens-houthis-threaten-target-jeddah-other-saudi-red-sea-ports-2026-11-25/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-24-pm-robot",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：暂无窗口内合格实质新增",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "未核实本窗口新的零样本泛化、跨本体迁移、触觉／力控精细操作、robot-data efficiency、人工接管率／uptime、关键硬件单位成本或真实付费 deployment／design win 的可比改善。GR00T 2 及相关 CoRL 指标的原公告为 11 月 9 日，不因再刊计入本期。"
+          ],
+          "whyImportant": "实验成功率、产品宣传和真实工业可靠性需要分开；没有新增可比指标时，不用 demo 或旧研究填充投资结论。",
+          "investmentImpact": "观察清单：留出任务成功率、跨本体迁移损耗、每任务数据量、每百次人工接管、连续运行与恢复、执行器／手／传感器／电池／减速器成本、客户付款及复购。对 NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Nabtesco、Harmonic Drive、THK、Nidec、Google／Gemini Robotics、Physical Intelligence，暂无本期新增机器人硬指标支持调整盈利判断。",
+          "tags": [
+            "Physical AI",
+            "泛化",
+            "跨本体",
+            "触觉力控",
+            "数据效率",
+            "可靠性",
+            "硬件经济性",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "NVIDIA｜11/9 CoRL 原公告（仅用于排除旧闻）",
+              "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-24-am",
       "date": "2026-11-24",
       "period": "am",
