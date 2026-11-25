@@ -4,6 +4,236 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-25-am",
+      "date": "2026-11-25",
+      "period": "am",
+      "time": "08:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-25T08:10:00-08:00",
+      "summary": "早报｜覆盖 11 月 24 日 19:00 至 25 日约 08:10 PST，与昨晚去重。宏观主导：PCE、GDP 与初请已经公布；USTR 将关税调查推进至正式认定及征求意见阶段，尚非新税生效。科技股盘中继续承压，债券短暂反弹不能当作 Fed 转向。中东出现新的袭击声称，机器人暂无达到投资信号门槛的实质新增。",
+      "cards": [
+        {
+          "id": "2026-11-25-am-data",
+          "category": "macro",
+          "title": "宏观 / 市场环境：核心 PCE 同比 3.3%，强增长与低初请约束宽松空间",
+          "status": "官方数据已公布；投资传导为分析",
+          "importance": "高",
+          "body": [
+            "BEA 今晨 05:30 PST 公布：10 月 PCE 与核心 PCE 均环比上涨 0.3%，同比分别上涨 3.8%、3.3%；实际消费小幅下降不足 0.1%，近乎停滞。这是本期新数据，替代昨晚的待公布状态。",
+            "三季度实际 GDP 第二次估计为年化增长 4.3%，高于首次估计的 3.4%，上修主要涉及投资与消费；这是过去一个季度的修订，不能替代 10 月消费的最新边际信号。",
+            "劳工部公布截至 11 月 21 日当周季调初请失业金 18.9 万，较上周修订值减少 1.3 万。初请低不等于招聘全面强劲；本窗口没有新的非农就业、工资、CPI、PPI 或 Fed 点阵图。"
+          ],
+          "whyImportant": "通胀仍高、GDP 上修和裁员指标偏低，同时实际消费停滞，构成增长与通胀的拉扯，不能单用一个数字推断即将降息。",
+          "investmentImpact": "分析：黏性通胀／增长韧性→政策利率下调空间受限→高估值科技折现率压力；实际消费疲弱又可能压低增长预期。须把名义消费、实际消费以及季度 GDP 修订分开，观察利率与盈利预期的净变化。",
+          "tags": [
+            "PCE",
+            "GDP",
+            "初请失业金",
+            "Fed",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "BEA｜10 月个人收入与支出／PCE",
+              "url": "https://bea.gov/news/2026/personal-income-and-outlays-october-2026"
+            },
+            {
+              "title": "BEA｜三季度 GDP 第二次估计",
+              "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026"
+            },
+            {
+              "title": "美国劳工部｜11/25 初请失业金报告",
+              "url": "https://www.dol.gov/ui/data.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-25-am-tariff",
+          "category": "macro",
+          "title": "宏观 / 市场环境：USTR 正式提出关税方案，不能把拟议税率全数叠加到芯片",
+          "status": "调查认定已发布；关税为拟议措施，尚待意见及听证",
+          "importance": "高",
+          "body": [
+            "昨晚的知情人士报道已有官方进展：USTR 对 14 个经济体作出产能问题调查认定并提出行动方案；墨西哥、挪威尚未作出认定。此次不是 16 个经济体同时开始征收新税。",
+            "拟议方案涉及对中国最高 20% 的税率，计算需扣除相关强迫劳动 301 税率，并有分组税率及豁免；对日本、韩国、台湾、欧盟等最高 15% 的方案也需扣除 MFN 和现有相关 301 税，不能简单理解成统一额外加 15%／20%。",
+            "台湾拟议通知另列：若磋商及承诺不令人满意，考虑最高 25% 的替代方案；对已受 232 关税覆盖的半导体物项拟予豁免。具体仍看税号、适用条件和最终文本，不能推导为所有 GPU／DRAM 一律豁免或一律加税。",
+            "意见及听证出席申请截至 2027 年 1 月 5 日，听证拟于 1 月 25 日开始；税率、生效与最终豁免仍需跟踪。这是选后贸易政策的新步骤，不是已经实施的税负。"
+          ],
+          "whyImportant": "风险从媒体预告进入可核对的正式程序，但净额计算、替代税率和产品豁免会显著改变企业实际成本，行业不能按标题税率一刀切估值。",
+          "investmentImpact": "分析：关税若落地→进口及设备成本、供应链调整／报复风险→利润率和通胀→利率及科技估值。重点核对 NVDA 供应链、台韩存储与代工、日系设备的具体税号和客户承担方式；当前不能量化统一盈利损失。",
+          "tags": [
+            "USTR",
+            "301关税",
+            "232关税",
+            "半导体",
+            "供应链",
+            "选后政策"
+          ],
+          "sources": [
+            {
+              "title": "USTR｜14 项调查认定及拟议行动",
+              "url": "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural"
+            },
+            {
+              "title": "USTR｜台湾拟议通知：净税率、替代方案及豁免",
+              "url": "https://ustr.gov/sites/default/files/files/Press/Releases/2026/Taiwan%20FRN.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-25-am-market",
+          "category": "ai",
+          "title": "AI / 科技：纳指盘中跌逾 4%，Dell 利好未抵消风险偏好恶化",
+          "status": "盘中快照，不是收盘或 08:10 实时报价",
+          "importance": "高",
+          "body": [
+            "Reuters 06:53 PST 快照：标普 500 跌 2.86%，纳斯达克综合指数跌 4.15%；NVDA 跌约 8.6%，费城半导体指数跌约 5.8%。这些是今晨新增盘中反应，不与昨晚收盘混用。",
+            "Dell 跌约 5.4%，HPQ 涨约 10%。Dell 昨晚已披露的订单和指引不重讲；新增信号是股价反应出现分化，AI 基建财报利好仍遭整体市场压力覆盖。"
+          ],
+          "whyImportant": "关税不确定性、通胀与 AI 融资担忧共同影响风险偏好；盘中跌幅本身不能证明设备订单已恶化，也不能将全部跌幅归因于单一宏观消息。",
+          "investmentImpact": "分析：区分订单兑现与估值压缩，跟踪 NVDA／服务器供应链的盈利修订、客户融资和现金回收；波动加大时，强财报也可能无法立即稳定股价。",
+          "tags": [
+            "NVDA",
+            "DELL",
+            "HPQ",
+            "AI基建",
+            "半导体",
+            "盘中",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜11/25 美股盘中及科技股反应",
+              "url": "https://www.reuters.com/business/nasdaq-futures-slide-over-2-fresh-us-tariff-concerns-inflation-data-focus-2026-11-25/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-25-am-rates",
+          "category": "macro",
+          "title": "宏观 / 市场环境：美债短暂反弹，尚不能确认融资环境放松",
+          "status": "盘中报道；Fed 路径与资金传导不是政策事实",
+          "importance": "高",
+          "body": [
+            "Dow Jones 07:21 PST 报道，数据后 2 年期收益率一度下降 7.1bp 至 4.598%，10 年期下降 6.2bp 至 4.839%，随后回到数据前附近。它们是短暂盘中低点，不能当作持续降息交易或与昨日日度 par yield 直接计算变化。",
+            "Reuters 今晨报道美元指数约 103.97、涨 0.12%，美元兑日元约 159.2；属于报道快照。未取得可复核的最新 Fed 逐次会议概率，不把昨晚 97%／66% 加息定价冒充今晨更新。",
+            "七年期 440 亿美元美债拍卖在今晨 10:00 PST 才进行，本期尚无结果。本窗口未核实新增美国赤字／发债规模政策、期限溢价、信用利差、资金流、日本债务政策或可比 JGB 收益率变化。"
+          ],
+          "whyImportant": "避险买债与政策宽松是两回事；收益率盘中回落、美元及日元报价均不能单独证明资金回流或全球流动性已经改善。",
+          "investmentImpact": "分析：财政／发债→承接需求及期限溢价→长端利率→科技估值；等待拍卖与可比期限溢价数据。日本收益率若上升→可能吸引资金回流→全球风险资产流动性承压，但目前缺少本窗口直接证据。观察长端利率、美元、信用利差是否共同确认风险变化。",
+          "tags": [
+            "美债",
+            "期限溢价",
+            "财政发债",
+            "Fed预期",
+            "美元",
+            "JGB",
+            "日元",
+            "信用利差",
+            "资金流"
+          ],
+          "sources": [
+            {
+              "title": "Dow Jones／WSJ｜11/25 美债盘中反应",
+              "url": "https://www.wsj.com/finance/investing/u-s-treasury-yields-fall-ahead-of-pce-inflation-data-dfeb7995"
+            },
+            {
+              "title": "Reuters｜11/25 汇市与政策预期",
+              "url": "https://www.reuters.com/world/africa/dollar-takes-breather-ahead-us-data-fed-path-aussie-jumps-cpi-2026-11-25/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-25-am-nvda",
+          "category": "semi",
+          "title": "半导体：新披露 AI 服务器抵押文件，关注融资与出口合规证据边界",
+          "status": "Reuters 新调查报道；底层为历史文件，非新发货确认",
+          "importance": "高",
+          "body": [
+            "Reuters 于洛杉矶昨晚 22:13 报道，其查阅的中国抵押登记文件涉及与 Alice Huang 家族及关联人士有关的企业，列示最多 764 台／套 AI 服务器及模块，资产值约 2.7 亿美元，另有约 3,100 万美元网络设备。",
+            "这是新披露的历史融资文件；资产登记金额不是本期新增采购或 NVDA 新收入。文件本身不能确定是否涉及受管制芯片，也不能证明相关设备何时、如何进入中国。"
+          ],
+          "whyImportant": "新增可查线索位于设备、抵押品与融资链，值得持续尽调；仍不足以由关联关系直接认定违法或估计出口限制导致的收入损失。",
+          "investmentImpact": "分析：若后续监管核实违规→客户／中介融资与交付受限→相关供应链风险上升；目前为条件分析。观察可确认的芯片型号、交易对手、监管行动与抵押资产质量，避免把登记估值计作新增需求。",
+          "tags": [
+            "NVDA",
+            "AI服务器",
+            "融资",
+            "抵押品",
+            "出口管制"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Alice Huang 关联企业 AI 设备登记调查",
+              "url": "https://www.reuters.com/business/finance/alice-huang-linked-firms-listed-270-million-ai-servers-china-records-show-2026-11-25/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-25-am-energy",
+          "category": "macro",
+          "title": "宏观 / 市场环境：胡塞新增袭击声称，原油盘中继续上涨",
+          "status": "袭击为武装组织声称；油价为盘中；天然气数据待公布",
+          "importance": "高",
+          "body": [
+            "相比昨晚条件性威胁，新增为胡塞武装声称袭击沙特拉斯坦努拉炼厂及利雅得金融区；尚不能据其表态认定炼厂损害、实际减供或航道全面中断，也不是已核实的美伊新停火／升级协议。",
+            "Reuters 06:48 PST 快照：Brent 93.06 美元／桶、涨 1.82%；WTI 82.97 美元／桶、涨 1.12%，均非今日结算。",
+            "EIA 因假期将天然气库存报告安排在今日 09:00 PST，本期尚未公布；没有核实同合约新报价，不用连续合约换月跳点或旧库存数据充当更新。"
+          ],
+          "whyImportant": "风险从威胁推进到袭击声称，仍须经过实际损害与船流核验才能估计供应冲击；油价上涨会增加通胀与风险偏好的拉扯。",
+          "investmentImpact": "分析：战争／炼厂与航运风险→原油、运费及保险→通胀→美债收益率→高估值科技估值；避险需求又可能短期压低美债收益率，方向不能只由油价决定。观察真实停运、减供、成品油价差及天然气库存。",
+          "tags": [
+            "中东",
+            "美伊",
+            "胡塞",
+            "原油",
+            "天然气",
+            "通胀",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters／MarketScreener｜11/25 原油及袭击声称",
+              "url": "https://www.marketscreener.com/news/oil-slips-over-1-as-supply-glut-prospect-offsets-middle-east-disruption-fears-ce7851dbdf80ff2c"
+            },
+            {
+              "title": "EIA｜天然气库存报告假期日程",
+              "url": "https://ir.eia.gov/ngs/schedule.html"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-25-am-robot",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：暂无符合门槛的实质新增",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "未核实本窗口零样本泛化、跨本体迁移、触觉／力控精细操作、机器人数据效率、人工接管率／uptime、关键硬件成本或真实付费 deployment／design win 的可比改善。",
+            "XPeng 新公告披露 IRON 触觉硬件和后续训练计划，但未提供足以判断上述指标改善的可比结果或付费证据；其汽车 VLA 训练效率表述也不能当成机器人数据效率，未计入本期投资信号。"
+          ],
+          "whyImportant": "硬件规格、演示与训练计划，尚不足以证明可泛化、稳定运行且经济可行的真实部署。",
+          "investmentImpact": "观察清单：留出任务成功率、跨本体迁移损耗、每任务数据量、每百次人工接管、连续运行与恢复、执行器／手／传感器／电池／减速器成本、客户付款及复购。对 NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Nabtesco、Harmonic Drive、THK、Nidec、Google／Gemini Robotics、Physical Intelligence，暂无本期新增机器人硬指标支持调整盈利判断。",
+          "tags": [
+            "Physical AI",
+            "泛化",
+            "跨本体",
+            "触觉力控",
+            "数据效率",
+            "可靠性",
+            "硬件经济性",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "XPeng｜11/25 IRON 等公告（用于核对及排除无指标演示）",
+              "url": "https://www.xpeng.com/news/01a212b0d830a1e838d68a02a2110174"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-24-pm",
       "date": "2026-11-24",
       "period": "pm",
