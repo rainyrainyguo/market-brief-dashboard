@@ -4,6 +4,235 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-26-am",
+      "date": "2026-11-26",
+      "period": "am",
+      "time": "08:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-26T07:59:00-08:00",
+      "summary": "早报｜覆盖 11 月 25 日约 19:09 至 26 日约 07:59 PST，与昨晚去重。重点新增：霍尔木兹油轮遇险说法推动油价；FT 报道 NVDA 暂停东南亚四国相关服务器发运；荷兰反对 MATCH Act；英国央行正式警示 AI 融资传染。美国现货市场感恩节休市，期货反弹不能当作美股收盘或信用风险解除。机器人暂无窗口内合格实质新增。",
+      "cards": [
+        {
+          "id": "2026-11-26-am-energy",
+          "category": "macro",
+          "title": "宏观 / 市场环境：霍尔木兹新增油轮遇险消息，油价继续上行",
+          "status": "伊朗说法与航运通报须区分；报价为盘中，非结算",
+          "importance": "高",
+          "body": [
+            "伊朗革命卫队称，两艘油轮在阿曼 Khasab 港以北触雷、爆炸起火。UKMTO 另通报迪拜以西约 50 海里一艘油轮附近发生不明物体引发的爆炸；两者地点、致因及船只身份尚不能直接对应，不视为独立证实伊朗所称两船触雷。",
+            "Reuters 06:25 PST 快照：Brent 96.25 美元／桶、涨 1.73%；WTI 84.78、涨 1.31%。WTI 今日因感恩节没有结算价，不能将此写为今日收盘。昨晚沙特炼厂、原油和天然气库存不再重复；天然气未取得本窗口可靠、明确合约的新报价。"
+          ],
+          "whyImportant": "新增风险直接涉及海峡运输，可能通过船东避险、运费和保险影响供应；但遇险说法不等于全海峡已完全封锁或已确认损失多少原油。",
+          "investmentImpact": "分析：战争／航运风险→原油与运保成本→通胀→Fed 路径及美债收益率→科技估值；避险买债可能短期抵消收益率上行。观察实际船流、船只核验及停航，而非把伊朗表态直接折算为减供；11/29 OPEC+ 决策仍是待观察事件。",
+          "tags": [
+            "美伊",
+            "霍尔木兹",
+            "原油",
+            "天然气",
+            "通胀",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜伊朗说法与 UKMTO 通报的差异",
+              "url": "https://www.reuters.com/world/middle-east/irans-revolutionary-guards-say-two-oil-tankers-hit-sea-mines-near-omans-khasab-2026-11-26/"
+            },
+            {
+              "title": "Reuters｜11/26 原油盘中及 WTI 假期安排",
+              "url": "https://www.reuters.com/business/energy/oil-rises-supply-concerns-iran-claims-mine-strikes-ships-2026-11-26/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-26-am-nvda",
+          "category": "semi",
+          "title": "NVDA：FT 报道暂停东南亚四国服务器发运，风险从转售线索推进到交付",
+          "status": "FT 引述知情人士；公司尚未即时确认，暂停期限不明",
+          "importance": "高",
+          "body": [
+            "FT 于洛杉矶昨晚约 21:00 报道，NVDA 要求制造伙伴停止向马来西亚、新加坡、泰国、印尼发运含其芯片的服务器；Dell、Supermicro 已向相关买家通知不能发货。",
+            "Reuters 转述称，不清楚这是否只是处理新出口合规要求期间的临时暂停；NVDA、Dell、Supermicro 未即时回应。相比昨晚卖家寻找替代买家的报道，新增是发运受阻的具体地区与环节，不是今天再次颁布新法。"
+          ],
+          "whyImportant": "订单、积压订单与收入确认之间出现更具体的合规／交付约束；影响可能先体现为时点推迟、资金占用及客户融资，而非全球需求同时消失。",
+          "investmentImpact": "分析：许可证／合规审查→发货延后→服务器交付、回款和项目利用率承压，涉及 NVDA、DELL、SMCI 及亚洲算力客户。尚无可核实的受影响金额、取消量或恢复日期，不据此重算全球收入缺口；观察许可证、豁免、恢复发运及合规客户能否承接。",
+          "tags": [
+            "NVDA",
+            "DELL",
+            "SMCI",
+            "东南亚",
+            "出口管制",
+            "交付",
+            "现金流"
+          ],
+          "sources": [
+            {
+              "title": "FT｜东南亚服务器发运暂停原报道",
+              "url": "https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370"
+            },
+            {
+              "title": "Reuters｜转述、暂停期限与公司回应状态",
+              "url": "https://www.reuters.com/world/asia-pacific/nvidia-halts-chip-shipments-southeast-asia-ft-reports-2026-11-26/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-26-am-trade",
+          "category": "semi",
+          "title": "ASML／贸易政策：荷兰反对 MATCH Act，中国保留反制权；均非新禁令已落地",
+          "status": "官员表态已发生；美国法案尚在协商，反制尚非实施",
+          "importance": "高",
+          "body": [
+            "荷兰贸易大臣在议会表示，若 MATCH Act 获通过，将要求美国不要执行，并与欧盟、德国、法国共同反对该提案。法案拟推动盟友加强对华设备限制，否则面临美国单方面限制；目前仍讨论纳入国防政策法案，不能写成已对 ASML 开始实施。",
+            "中国商务部 11/26 正式反对美方产能 301 拟议措施，称保留采取必要措施的权利；同时表示双方经贸团队就安排延期保持沟通，并希望尽快落实 300 亿美元对等降税安排。表态不是新反制税表或新延期协议已经生效。"
+          ],
+          "whyImportant": "选后政策风险不仅取决于美国提案，也取决于盟友配合、最终执行及中方回应；设备厂商面对的法律与销售边界尚未定案。",
+          "investmentImpact": "分析：设备限制若强化→ASML 及日美设备商客户投资／服务收入和中国替代路径改变；政策分歧与报复风险→订单可见度及估值折价。关注最终条款、服务／零部件范围、豁免和执行日期，勿把政治表态计作已损失订单。",
+          "tags": [
+            "ASML",
+            "MATCH Act",
+            "出口管制",
+            "关税拟议",
+            "中美",
+            "选后政策"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜荷兰反对 MATCH Act 的最新表态",
+              "url": "https://www.reuters.com/business/dutch-minister-says-us-chip-curbs-bill-would-hurt-europe-2026-11-26/"
+            },
+            {
+              "title": "中国商务部｜11/26 新闻发布会原文",
+              "url": "https://www.mofcom.gov.cn/xwfbzt/2026/swbzklxxwfbh2026n11y26r/index.html"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-26-am-credit",
+          "category": "ai",
+          "title": "AI / 科技：英国央行警示复杂融资传染，风险评估不等于已发生系统性危机",
+          "status": "央行报告已发布；融资全年规模含预测，风险为条件判断",
+          "importance": "高",
+          "body": [
+            "英国央行新《金融稳定报告》认为，AI 融资正从股权扩展到债券、私募信贷及更复杂结构，循环关系和不透明性提高跨机构传染可能。报告预计 hyperscaler 2026 年发债超过 3,050 亿美元、约占全球投资级发行 8%，不是截至今晨全部已发行金额。",
+            "报告同时强调，近期跨市场溢出仍有限、英国金融系统保持韧性；部分估值指标仍偏高，前瞻估值则依赖强盈利增长预期。没有宣布 AI 融资一律停止，也没有确认某公司已违约。"
+          ],
+          "whyImportant": "这是央行对信用结构与风险集中度的新正式评估，进一步说明只看 CapEx 或订单增长，可能漏掉最终风险由谁承担。",
+          "investmentImpact": "分析：盈利兑现不及预期／抵押品折价→再融资及保证金压力→减仓或项目延期→芯片、服务器需求与估值。对 CRWV、NBIS、NVDA 及其融资链，应观察债务追索、客户集中、现金回收、抵押折扣和信用利差；昨晚 CRWV 拟议贷款不因该报告变成已交割或失败。",
+          "tags": [
+            "AI循环融资",
+            "英国央行",
+            "私募信贷",
+            "CRWV",
+            "NBIS",
+            "NVDA",
+            "风险传染"
+          ],
+          "sources": [
+            {
+              "title": "英国央行｜11 月金融稳定报告原文",
+              "url": "https://www.bankofengland.co.uk/-/media/boe/files/financial-stability-report/2026/financial-stability-report-november-2026.pdf"
+            },
+            {
+              "title": "英国央行｜11/26 发布的金融政策委员会记录",
+              "url": "https://www.bankofengland.co.uk/financial-policy-committee-record/2026/november-2026"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-26-am-japan",
+          "category": "macro",
+          "title": "宏观 / 市场环境：日本央行利息支出超过国债利息收入，正常化的财政成本更清晰",
+          "status": "半年财报已发布；不是本期突然出现的现金流危机或新加息",
+          "importance": "中",
+          "body": [
+            "日本央行新公布截至 9/30 的半年报：超额准备金付息约 1.907 万亿日元，高于所持日本国债利息收入约 1.427 万亿；净利润仍为正，约 1.553 万亿日元。数据覆盖 4–9 月，不能当作昨夜单日支出。",
+            "日银 11/26 17:00 JST（洛杉矶 00:00）美元兑日元为 159.16–18，是明确时点的官方参考报价，不是此刻实时价。未取得可靠可比的本窗口 JGB 变动与跨境资金流。"
+          ],
+          "whyImportant": "短端付息随政策利率重定价，存量国债收益调整较慢，能压缩央行收益及向政府移交利润的空间；不能将此等同日本政府违约或日银必须停止加息。",
+          "investmentImpact": "分析：正常化→准备金付息／财政融资成本增加→财政与长端期限溢价的权衡更重要；若日债回报提高并引发资金回流→全球风险资产流动性可能承压，但本期没有证明回流已发生。观察 JGB 曲线、政府发债承接、日元及真实资金流，不用央行会计利润推断下一次利率决议。",
+          "tags": [
+            "日本央行",
+            "JGB",
+            "日元",
+            "财政",
+            "期限溢价",
+            "全球流动性"
+          ],
+          "sources": [
+            {
+              "title": "日本央行｜2026 上半财年财务报表",
+              "url": "https://www.boj.or.jp/en/about/account/zai2611a.pdf"
+            },
+            {
+              "title": "日本央行｜11/26 官方汇率时点",
+              "url": "https://www.boj.or.jp/statistics/market/forex/fxdaily/fxlist/fx261126.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-26-am-market",
+          "category": "macro",
+          "title": "宏观 / 市场环境：假期期货回升，缺少美国现货及信用市场确认",
+          "status": "期货与欧洲盘中快照；美国现货休市",
+          "importance": "中",
+          "body": [
+            "Reuters 今日报道标普 500、纳指期货均涨约 0.7%，欧洲股市盘中回升近 2%；这不是美国现货新收盘，也不代表 NVDA 已出现可确认的常规交易反弹。",
+            "本窗口没有新的美国 CPI／PPI／PCE、非农工资或 Fed 点阵图可报告；昨日宏观数据、褐皮书、美债拍卖及评级观察不重讲。未核实新增美国赤字／发债规模政策、可比期限溢价、全市场信用利差或资金流数据，不能用休市和少量报价宣布融资环境改善。"
+          ],
+          "whyImportant": "风险偏好出现修复，但现货、信用及成交深度缺少同步确认，假期价格对新闻可能更敏感。",
+          "investmentImpact": "分析：反弹若缺乏信用利差收窄与盈利／交付改善，可能主要是仓位调整；风险溢价与无风险利率须分开。下一观察点为恢复交易后的半导体相对强弱、发运后续、融资真实成交及长端利率，不延用旧概率冒充新 Fed 定价。",
+          "tags": [
+            "感恩节",
+            "期货",
+            "风险偏好",
+            "Fed",
+            "美债",
+            "信用利差",
+            "资金流"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜11/26 全球市场及假期期货",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-26/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-26-am-robot",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：暂无窗口内合格实质新增",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "未核实本窗口零样本泛化、跨本体迁移、触觉／力控、机器人数据效率、人工接管率／uptime、整机硬件经济性或真实付费 deployment／design win 的可比新增。",
+            "ST 今日文章回顾展会驱动与感知演示，未给出足以外推整机成本、续航或可靠性改善的可比数据；RoboSense 今日新闻分发对应的财报原公告日期为 11/25，不将再分发当本窗口新业绩。"
+          ],
+          "whyImportant": "单器件演示、销售分类及新闻发布时间，不能替代可比系统指标与客户实际付款证据。",
+          "investmentImpact": "观察清单：留出任务成功率、跨本体迁移损耗、每任务数据量、每百次人工接管、连续运行与恢复、执行器／手／传感器／电池／减速器成本、客户付款及复购。对 NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Nabtesco、Harmonic Drive、THK、Nidec、Google／Gemini Robotics、Physical Intelligence，暂无本期新增机器人硬指标支持调整盈利判断。",
+          "tags": [
+            "Physical AI",
+            "泛化",
+            "跨本体",
+            "触觉力控",
+            "数据效率",
+            "可靠性",
+            "硬件经济性",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "ST｜11/26 展会回顾，用于核对证据边界",
+              "url": "https://blog.st.com/physical-ai-electronica-2026/"
+            },
+            {
+              "title": "RoboSense｜11/25 财报原公告，用于排除再分发",
+              "url": "https://www.robosense.ai/en/news-show-2005"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-25-pm",
       "date": "2026-11-25",
       "period": "pm",
