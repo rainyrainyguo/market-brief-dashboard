@@ -4,6 +4,327 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-25-pm",
+      "date": "2026-11-25",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-25T19:09:00-08:00",
+      "summary": "晚报｜覆盖 11 月 25 日约 08:10–19:09 PST，与早报去重。主线：美股大幅收复早盘跌幅，但 NVDA 的治理风险进入信用评级观察；CoreWeave 拟议抵押贷款显示融资继续且价格明显分层。美债长端下行并不等于 AI 信用风险解除；褐皮书、韩日政策及中东实物风险仍约束宽松想象。机器人暂无窗口内合格实质新增。",
+      "cards": [
+        {
+          "id": "2026-11-25-pm-market",
+          "category": "macro",
+          "title": "宏观 / 市场环境：纳指收跌 0.62%，明显收复早盘跌幅，尚非风险解除",
+          "status": "美国收盘已确认；亚洲为早盘快照",
+          "importance": "高",
+          "body": [
+            "周三收盘：标普 500 跌 0.25%，纳斯达克综合指数跌 0.62%，道指涨 0.33%；NVDA 跌 3.91%，收于 149.30 美元。新增为收盘确认，替换早报纳指跌逾 4% 的盘中值。",
+            "Reuters 洛杉矶傍晚发布的亚洲早盘报道：日经涨约 1.6%、韩国主要股指涨约 1.9%，均不是亚洲收盘。美国股市周四感恩节休市、周五提前收市，假期交易深度下降。",
+            "早报已列明的 USTR 关税方案仍处拟议程序，本期不把同一公告再次当新加税；未核实其已开始征收。"
+          ],
+          "whyImportant": "尾盘承接显示早盘恐慌有所缓解，但科技与传统板块仍分化；一天反弹不能证明 AI 资本开支、客户信用或政策风险见底。",
+          "investmentImpact": "分析：关税／监管不确定性与融资压力→盈利预期和风险溢价→科技估值。观察反弹能否伴随信用利差收窄、订单现金回收及盈利预期稳定；假期低流动性可能放大报价，不能仅凭期货或亚洲早盘宣布趋势反转。",
+          "tags": [
+            "美股收盘",
+            "NVDA",
+            "风险偏好",
+            "关税拟议",
+            "选后政策",
+            "假期流动性"
+          ],
+          "sources": [
+            {
+              "title": "Reuters／MarketScreener｜11/25 美股收盘",
+              "url": "https://www.marketscreener.com/news/nasdaq-s-p-500-end-down-but-well-off-lows-as-investors-buy-bargains-ce7851d8da81ff22"
+            },
+            {
+              "title": "Reuters｜11/26 亚洲早盘（洛杉矶 11/25 傍晚）",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-26/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-25-pm-nvda",
+          "category": "semi",
+          "title": "NVDA：S&P 列入负面信用观察，Moody’s 维持评级，治理风险未随 CEO 回归消失",
+          "status": "评级观察已发生；尚非正式降级或违约",
+          "importance": "高",
+          "body": [
+            "S&P 将 NVDA 的 AA 发行人及高级无担保债评级列入 CreditWatch Negative，理由是管理、董事会独立性及关键人物风险；若治理缺陷未获解决，未来约 90 天可能降级，基准设想最多一档，除非业务前景或声誉进一步受损。",
+            "Moody’s 当日下午表态：黄仁勋复任降低近期领导层和战略方向的不确定性，但未完全消除治理与监管问题；Aa1 评级及稳定展望保持不变。两家机构的判断不同，不能合并写成“评级机构已一致降级”。"
+          ],
+          "whyImportant": "新增风险从股价及新闻争议进入债权人的正式评估；同时，评级机构分歧提醒市场区分治理折价与经营、资产负债表风险。",
+          "investmentImpact": "分析：治理／监管不确定性→债券信用溢价及股权风险溢价可能上升→估值与融资成本承压。并不代表 NVDA 已缺乏现金或必须立即融资；观察董事会整改、监管披露、评级后续与实际债券利差，不能由负面观察推导收入损失。",
+          "tags": [
+            "NVDA",
+            "S&P",
+            "Moody’s",
+            "信用评级",
+            "治理",
+            "关键人物风险"
+          ],
+          "sources": [
+            {
+              "title": "S&P｜AA 评级负面观察原公告",
+              "url": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3667832"
+            },
+            {
+              "title": "Newsquawk｜S&P 公告要点及 90 天评估条件",
+              "url": "https://www.newsquawk.com/headlines/sp-places-nvidias-nvda-aa-ratings-on-creditwatch-negative"
+            },
+            {
+              "title": "Reuters｜Moody’s 维持 Aa1 及稳定展望",
+              "url": "https://www.reuters.com/business/moodys-says-nvidias-huang-reinstatement-eases-uncertainty-ratings-unchanged-2026-11-25/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-25-pm-crwv",
+          "category": "ai",
+          "title": "AI 融资：CoreWeave 据报筹备 45 亿美元 Meta 关联贷款，不能当作已融资到账",
+          "status": "Bloomberg 引述知情人士；规模、时间与价格仍可能变化",
+          "importance": "高",
+          "body": [
+            "Bloomberg 报道 Morgan Stanley、MUFG 筹备最快下周出售 45 亿美元贷款，以供 Meta 使用的 GPU 作抵押，支持 CoreWeave 在佐治亚州 Dalton 的数据中心；资金拟放入托管账户分批提取，贷款逐步摊还。",
+            "初步收益率讨论约 7%–7.5%，预计因 Meta 合约支持获得投资级评级；同期 CoreWeave 2031 年到期、票息 9% 的公司债据 Trace 交易收益率约 18%。前者是拟议交易条件，后者是二级市场报价，风险结构不同，不是无风险套利。",
+            "细节仍待最终确定；CoreWeave 与 Morgan Stanley 拒绝置评，MUFG、Meta 未即时回应。意向认购不等于交割、现金到账，也不等于 Meta 对 CoreWeave 全部债务提供担保。"
+          ],
+          "whyImportant": "市场没有停止给 AI 融资，而是在按客户信用、抵押品和现金流隔离程度重新定价；公司整体信用与特定项目融资可能明显分层。",
+          "investmentImpact": "分析：若交易顺利完成→GPU 采购及建设资金获得支撑；若推迟或显著提价→融资约束可能向交付和芯片需求传导。观察最终评级、抵押折扣、追索权、摊还／取消条款和真实交割；不要用项目贷款预期收益率替代 CRWV 整体资本成本。",
+          "tags": [
+            "CRWV",
+            "META",
+            "AI循环融资",
+            "GPU抵押",
+            "信用分层",
+            "CapEx"
+          ],
+          "sources": [
+            {
+              "title": "Bloomberg／The Business Times｜CoreWeave 拟议贷款及债券报价",
+              "url": "https://www.businesstimes.com.sg/companies-markets/coreweaves-banks-sell-us4-5-billion-meta-tied-loan-next-week"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-25-pm-export",
+          "category": "semi",
+          "title": "半导体：CNBC 报道部分 GPU 卖家寻新买家，出口限制开始出现转售线索",
+          "status": "采访报道；转售意向非成交统计，旧政策非本期新法",
+          "importance": "高",
+          "body": [
+            "CNBC 11/25 引述 GPU Mart 负责人及两名知情人士称，限制中国关联客户远程使用先进 GPU 后，市场出现异常多的转售供应，并有为数千颗 B300 寻找买家的拟议交易。NVDA 拒绝置评。",
+            "新增为卖家寻求替代客户的报道，不是今天再次出台出口规则；也不是已确认的数千颗成交、订单取消总额、清仓折扣或 GPU 租金全面下跌。"
+          ],
+          "whyImportant": "相比政策标题，这是需求受限后设备可能重新配置的渠道线索；关键在于其他合规客户能否及时吸收供给。",
+          "investmentImpact": "分析：远程访问受限→部分项目融资／使用计划受阻→GPU 转售或延后部署→设备价格、云租赁利用率与客户现金流风险。若合规需求接盘，可能主要是地区与客户重分配；目前不能直接认定 NVDA 全球订单崩塌或量化收入缺口。",
+          "tags": [
+            "NVDA",
+            "B300",
+            "出口管制",
+            "远程算力",
+            "GPU转售",
+            "利用率"
+          ],
+          "sources": [
+            {
+              "title": "CNBC｜GPU 卖家寻求新买家原报道",
+              "url": "https://www.cnbc.com/2026/11/25/nvidia-china-ai-chip-remote-access.html"
+            },
+            {
+              "title": "CNBC／SyncAI｜可读取的报道摘录",
+              "url": "https://syncai.news/article/nvidia-sellers-seek-new-buyers-as-u-s-curbs-china-ai-chip-access-sources-tell-cn-fb8a33"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-25-pm-rates",
+          "category": "macro",
+          "title": "宏观 / 市场环境：长端收益率下降，但褐皮书工资与成本信号仍偏黏",
+          "status": "官方日度收益率、调查及拍卖已发生；Fed 概率为市场预期",
+          "importance": "高",
+          "body": [
+            "财政部 11/25 同口径日度 par yield：2 年 4.61%、10 年 4.85%、30 年 5.24%，较 11/24 分别下降 2bp、6bp、6bp。它们是日度曲线估计，不与早报瞬时低点混算。",
+            "七年期 440 亿美元拍卖完成：最高中标收益率 4.708%，Dow Jones 所引同期 when-issued 为 4.699%，尾差约 0.9bp；投标倍数 2.43，上次 2.46，间接投标人占比 58.2%，上次 57.8%。需求略软而非发债失败，间接投标人也不等同全部外国资金。",
+            "Fed 新褐皮书：8 个地区轻微至温和增长、4 个无变化，就业小幅增加，工资福利增速从 modest 升至 moderate；能源、运费、关税等成本压力延续，部分企业难以完全转嫁。材料截至 11/16，属于企业访谈汇总，不是新非农数据、点阵图或 Fed 政策承诺。",
+            "Reuters 傍晚报道期货仍隐含 12 月加息 25bp 概率约 98%；另一汇市快照美元指数约 103.7、美元兑日元约 159.06，均非实时收盘。早报 PCE／GDP／初请不重讲；本窗口未核实新增 CPI、PPI、PCE、非农工资统计、财政赤字／发债规模政策或可比的全市场信用利差、资金流与期限溢价数据。"
+          ],
+          "whyImportant": "国债利率下降与企业信用紧张可以同时发生；褐皮书显示投入成本与工资压力仍在，不能把避险买债解释为 Fed 已转向降息。",
+          "investmentImpact": "分析：避险／增长担忧→国债收益率下降，能缓和无风险贴现率；信用溢价上升又可能抵消企业融资利好。财政／发债→承接需求及期限溢价→长端利率→科技估值，但本次拍卖不能单独证明期限溢价方向。观察无风险利率与 CRWV、NVDA 等信用定价是否背离。",
+          "tags": [
+            "美债",
+            "拍卖",
+            "褐皮书",
+            "工资",
+            "Fed预期",
+            "美元",
+            "财政",
+            "期限溢价",
+            "资金流"
+          ],
+          "sources": [
+            {
+              "title": "美国财政部｜11 月每日收益率曲线",
+              "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value_month=202611&type=daily_treasury_yield_curve"
+            },
+            {
+              "title": "Dow Jones／WSJ｜七年期拍卖结果与同期市场比较",
+              "url": "https://www.wsj.com/finance/long-term-jgb-yields-fall-amid-chip-stock-selloffs-ab4ead3e"
+            },
+            {
+              "title": "Fed｜11 月褐皮书全国摘要",
+              "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202611-summary.htm"
+            },
+            {
+              "title": "Reuters｜傍晚亚洲市场与 Fed 定价",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-26/"
+            },
+            {
+              "title": "Reuters｜傍晚美元与日元快照",
+              "url": "https://www.reuters.com/world/africa/dollar-steady-sliding-yields-temper-safe-haven-bid-2026-11-26/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-25-pm-asia",
+          "category": "macro",
+          "title": "宏观 / 市场环境：韩国实际加息，日本田村提出更快加息的条件",
+          "status": "韩国为央行决议；日本为委员个人主张",
+          "importance": "高",
+          "body": [
+            "洛杉矶 11/25 傍晚对应亚洲 11/26 上午：韩国央行将基准利率从 3.00%上调至 3.25%，5 票赞成、2 票主张不变；将 2027 年增长预测从 2.9%上调至 4.1%，强调半导体出口和投资支撑。这是央行预测，不是已实现的全年增长。",
+            "日本央行田村直树在新讲话中称，金融条件仍宽松，应尽快接近中性利率；若物价上偏，应迅速应对，包括加快加息。他维持中性利率最可能约 2%的个人看法；这不是日银已加息、集体终点利率或时间表。",
+            "本窗口未取得与讲话同步、可靠可比的 JGB 变动及日本跨境资金流，不把昨日日本拍卖／收盘数据冒充今晚反应。"
+          ],
+          "whyImportant": "AI 与半导体需求强可以同时推高增长和紧缩压力，亚洲政策并非随美股反弹就普遍转松；日本路径尤其关系全球融资条件。",
+          "investmentImpact": "分析：日本利率若更快上升→日元融资成本／汇率风险上升、可能吸引资金回流→全球风险资产流动性承压，但资金回流尚未由本期数据证实。韩国加息反映政策权衡，不能单独推出 SK Hynix 存储需求转弱；观察韩日汇率、曲线及资金流的实际反应。",
+          "tags": [
+            "韩国央行",
+            "SK Hynix",
+            "半导体周期",
+            "日本央行",
+            "JGB",
+            "日元",
+            "全球流动性"
+          ],
+          "sources": [
+            {
+              "title": "韩国央行｜11/26 政策决定（洛杉矶 11/25 傍晚）",
+              "url": "https://www.bok.or.kr/eng/bbs/E0000634/view.do?depth=400069&menuNo=400069&nttId=11067086&oldMenuNo=400007&programType=newsDataEng&relate=Y"
+            },
+            {
+              "title": "日本央行｜田村直树 11/26 讲话原文",
+              "url": "https://www.boj.or.jp/en/about/press/koen_2026/data/ko261126a1.pdf"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-25-pm-energy",
+          "category": "macro",
+          "title": "宏观 / 市场环境：原油结算继续上涨，袭击出现额外佐证；天然气库存已公布",
+          "status": "油气为明确合约结算；损害／减供规模仍未确定",
+          "importance": "高",
+          "body": [
+            "Brent 周三结算 94.61 美元／桶、涨 3.5%；WTI 83.68 美元／桶、涨 2%。美国原油库存当周增加约 110 万桶，低于 Reuters 调查预期 150 万桶；库存增加是事实，预期值不是额外供应变化。",
+            "相比早报仅列胡塞声称，Reuters 后续报道卫星影像显示拉斯坦努拉浓烟，并获知情人士确认炼厂遭袭；沙特联军称拦截当地 4 架无人机，另确认吉赞港轻微损害、无人伤亡。吉达港遭袭尚未即时确认；炼厂实际产能损失及停运时长仍未核实。",
+            "EIA 09:00 PST 公布截至 11/20 当周天然气库存减少 24 Bcf 至 3,858 Bcf，仍高于五年均值 80 Bcf。Dow Jones 报道 12 月合约到期结算 3.269 美元／MMBtu、跌 1.6%；1 月合约 3.658、跌 0.1%。两合约价格差不是日涨幅，不能用换月制造上涨。"
+          ],
+          "whyImportant": "战争风险已有更多实物佐证，但仍不能把炼厂名义产能视作已损失供给；天然气首次提款与库存仍高于均值也需同时看。",
+          "investmentImpact": "分析：袭击／运输风险→油价与保险运费→通胀→政策利率预期及科技估值；避险买债可能短期令长端反向下降。观察沙特实际停运与出口、成品油价差、11/29 OPEC+ 决策和天气；本期没有核实新的美伊停火协议，不预估未经确认的供应损失。",
+          "tags": [
+            "美伊",
+            "中东",
+            "沙特",
+            "原油",
+            "天然气",
+            "库存",
+            "通胀"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜11/25 原油结算及库存",
+              "url": "https://www.reuters.com/business/energy/oil-prices-fall-supply-glut-concerns-offset-middle-east-disruption-fears-2026-11-25/"
+            },
+            {
+              "title": "Reuters｜炼厂影像及沙特港口后续核验",
+              "url": "https://www.reuters.com/world/middle-east/yemens-houthis-say-they-attacked-saudi-oil-refinery-riyadh-financial-district-2026-11-25/"
+            },
+            {
+              "title": "EIA｜11/25 天然气库存原报告",
+              "url": "https://ir.eia.gov/ngs/ngs.html"
+            },
+            {
+              "title": "Dow Jones／WSJ｜12 月到期及 1 月天然气结算",
+              "url": "https://www.wsj.com/finance/commodities-futures/u-s-natural-gas-steady-as-december-contract-set-to-expire-9d411e92"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-25-pm-space",
+          "category": "ai",
+          "title": "AI / 科技：SpaceX 获轨道数据中心许可，授权规模不能计作近期芯片订单",
+          "status": "FCC 授权已发生；大规模部署与经济性尚待兑现",
+          "importance": "中",
+          "body": [
+            "FCC 批准 SpaceX 的 Starmind 轨道数据中心计划，授权上限为 100 万颗卫星。许可里程碑为最迟 2033 年开始部署、2035 年达到上限的 10%、2038 年达到 50%；这些是许可期限，不是未来一年采购指引。"
+          ],
+          "whyImportant": "为太空计算消除一项监管门槛，但授权数量不等于已生产、已发射、客户需求或融资承诺。",
+          "investmentImpact": "分析：属于航天／算力的新选择权；未来 1–12 个月更应看试验、资金、单星算力及发射／散热／维护成本，而不是把 100 万颗直接换算为 NVDA 收入或认定地面数据中心将被替代。",
+          "tags": [
+            "SpaceX",
+            "Starmind",
+            "FCC",
+            "轨道算力",
+            "AI基建"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜FCC 授权及部署里程碑",
+              "url": "https://www.reuters.com/business/media-telecom/us-authorizes-spacex-deploy-1-million-satellites-data-centers-space-2026-11-25/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-25-pm-robot",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：暂无窗口内合格实质新增",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "未核实本窗口零样本泛化、跨本体迁移、触觉／力控、机器人数据效率、人工接管率／uptime、硬件成本或真实付费部署的新增可比改善。",
+            "今天再刊的 Gemini Robotics 2.5、GlobalFoundries／Atlas、UR／Inbolt，原公告分别为 11/10、11/17、11/24，均在本窗口之前；不把再刊、旧指标或普通 demo 当本期投资信号。"
+          ],
+          "whyImportant": "公告时间与再报道时间不同；工业试验成功率、可售产品和稳定付费部署也不能混为一谈。",
+          "investmentImpact": "观察清单：留出任务成功率、跨本体迁移损耗、每任务数据量、每百次人工接管、连续运行和恢复、执行器／手／传感器／电池／减速器单位成本、付款及复购。对 NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Nabtesco、Harmonic Drive、THK、Nidec、Google／Gemini Robotics、Physical Intelligence，暂无本期新增机器人硬指标支持调整盈利判断。",
+          "tags": [
+            "Physical AI",
+            "泛化",
+            "跨本体",
+            "触觉力控",
+            "数据效率",
+            "可靠性",
+            "硬件经济性",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Google DeepMind｜11/10 原公告，仅用于排除再刊",
+              "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+            },
+            {
+              "title": "GlobalFoundries｜11/17 原公告，仅用于排除再刊",
+              "url": "https://gf.com/news-and-events/news/boston-dynamics-and-globalfoundries-expand-robotics-collaboration/"
+            },
+            {
+              "title": "Universal Robots｜11/24 原公告，仅用于核对日期",
+              "url": "https://www.universal-robots.com/news-and-media/news-center/universal-robots-and-inbolt-make-ai-powered-3d-vision-guidance-easier-to-deploy-and-scale-with-native-gen-7-robot-integration/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-25-am",
       "date": "2026-11-25",
       "period": "am",
