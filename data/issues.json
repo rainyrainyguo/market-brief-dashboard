@@ -4,6 +4,161 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-26-pm",
+      "date": "2026-11-26",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-26T19:04:00-08:00",
+      "summary": "晚报｜覆盖 11/26 约 07:59–19:04 PST，与早报去重。新增重点是东京 CPI 的能源与内生通胀分化、Brent 结算，以及亚洲早盘风险偏好回升。美国感恩节休市，期货上涨不能替代现货、信用及资金流确认。AI／半导体暂无新的公司确认足以调整盈利判断；机器人暂无合格实质新增。",
+      "cards": [
+        {
+          "id": "2026-11-26-pm-japan",
+          "category": "macro",
+          "title": "宏观 / 市场环境：东京核心 CPI 升至 2.9%，剔除能源后反而放缓",
+          "status": "数据已公布；加息仍是预期",
+          "importance": "高",
+          "body": [
+            "日本 11/27 08:30 JST（洛杉矶 11/26 15:30）公布：东京 11 月不含生鲜食品 CPI 同比 2.9%，高于 10 月 2.6%，但低于 Reuters 调查预期 3.0%；再剔除能源后为 2.5%，低于前月 2.6%。这是东京先行速報，不是日本全国 CPI。",
+            "能源补贴退出影响读数，不能据核心标题断言内生通胀全面加速。Reuters 调查中多数经济学家仍预计日银 12 月加息；本期没有新利率决议，也未核实 CPI 后可比 JGB 变动或实际跨境回流。"
+          ],
+          "whyImportant": "持续高于目标的通胀支持正常化讨论，但能源与基础价格分化，使加息幅度和时点仍需工资、服务价格及全国数据验证。",
+          "investmentImpact": "分析：若日银进一步加息／JGB 收益率提高→日元融资成本上升、日债相对吸引力增加→资金回流或套息减仓→全球科技与半导体流动性承压；这是条件链条，本期没有证明回流已经发生。高政府债务还使利息负担对收益率更敏感，不能由单月 CPI 推断债务危机。",
+          "tags": [
+            "东京CPI",
+            "日本央行",
+            "JGB",
+            "日元",
+            "全球流动性"
+          ],
+          "sources": [
+            {
+              "title": "日本统计局｜11 月东京 CPI 原始表",
+              "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/kubu.pdf"
+            },
+            {
+              "title": "Reuters｜预期差、能源影响及日银预期",
+              "url": "https://www.reuters.com/markets/asia/core-inflation-japans-capital-accelerates-november-2026-11-26/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-26-pm-oil",
+          "category": "macro",
+          "title": "宏观 / 市场环境：Brent 结算 96.57 美元，航运风险尚未解除",
+          "status": "Brent 为结算；WTI 为盘中；战损说法未获新增独立核实",
+          "importance": "高",
+          "body": [
+            "相较早报盘中报价，新增 Brent 结算价 96.57 美元／桶，较前日增加 1.96 美元。Reuters 原文的百分比与价格变动不一致，本期仅采用价格及美元变动。",
+            "WTI 10:21 PST 快照为 84.84 美元、增加 1.39 美元，感恩节没有当日结算，不当作晚间实时价。未取得天然气同合约可靠新报价。早报所述两油轮触雷仍属伊朗说法，本窗口没有新增独立核实，不重复当成新战损。"
+          ],
+          "whyImportant": "价格更新显示能源风险溢价仍在，但不足以量化实际减供；海峡船流、保险、运费与停航比重复战事标题更接近供给影响。",
+          "investmentImpact": "分析：战争／航运受阻→油价与运保成本→通胀预期→Fed 路径及美债收益率→高估值科技折现压力；避险买债也可能短期压低收益率。观察船只核验、实际通行与 11/29 OPEC+ 决策，不能将供应传闻视为已兑现产量损失。",
+          "tags": [
+            "美伊",
+            "中东",
+            "原油",
+            "天然气",
+            "通胀",
+            "科技估值"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜11/26 原油结算与假期报价口径",
+              "url": "https://www.reuters.com/business/energy/oil-rises-supply-concerns-iran-claims-mine-strikes-ships-2026-11-26/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-26-pm-markets",
+          "category": "macro",
+          "title": "宏观 / 市场环境：亚洲早盘与美股期货回升，紧缩预期仍高",
+          "status": "盘中快照与市场隐含概率；不是收盘或 Fed 决议",
+          "importance": "高",
+          "body": [
+            "Reuters 11/27 亚洲早盘报道（洛杉矶 11/26 晚间）：标普期货约涨 0.8%、纳指期货约涨 1%，日经约涨 0.7%、韩国股市约涨 2%；美元指数约 103.8。均是报道时点快照，美国周四现货仍休市。",
+            "该报道所述市场定价为：Fed 12 月加息 25bp 概率约 99%，属于隐含预期，不能写成已加息。本窗口没有新增美国 CPI／PPI／PCE、就业工资或点阵图；未核实新的美国赤字／发债规模政策、可比美债收益率与期限溢价、信用利差或资金流。"
+          ],
+          "whyImportant": "风险偏好回升与紧缩定价可以同时存在。假期交易深度有限，期货反弹不足以证明 AI 融资、现货半导体或信用风险已经改善。",
+          "investmentImpact": "分析：财政赤字／发债压力若增大→期限溢价及长端利率上升→长久期科技估值承压；须区分政策利率预期与期限溢价。本窗口未核实中期选举后新财政、贸易、关税或监管措施正式落地。观察恢复交易后的长端利率、半导体相对强弱、信用利差及真实资金流，再判断反弹可持续性。",
+          "tags": [
+            "风险偏好",
+            "Fed预期",
+            "美元",
+            "美债",
+            "期限溢价",
+            "财政发债",
+            "信用利差",
+            "选后政策"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜11/27 亚洲早盘、美元与 Fed 定价",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-27/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-26-pm-ai-semi",
+          "category": "semi",
+          "title": "AI / 科技与半导体：暂无足以调整盈利判断的新确认",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "WSJ 在本窗口新增采访报道 NVDA 暂停向东南亚发运；这为早报线索增加媒体佐证，但仍不是公司正式确认。本期不重复四国名单及早报的 MATCH Act、英国央行 AI 融资报告。",
+            "未核实新的受影响收入金额、订单取消量、恢复发运日期或已成交融资，不能把同一交付风险的新报道算成第二次政策打击。"
+          ],
+          "whyImportant": "媒体佐证增强线索可信度，量化盈利影响仍需要公司披露、许可证及实际交付证据。",
+          "investmentImpact": "分析／观察：NVDA、DELL、SMCI 的交付与回款，ASML 等设备公司的最终管制条款，以及 CRWV、NBIS 的融资成交和客户付款；在金额、期限和现金流未明确前，不由重复标题重算全球 AI 需求或收入缺口。",
+          "tags": [
+            "AI",
+            "NVDA",
+            "DELL",
+            "SMCI",
+            "ASML",
+            "CRWV",
+            "NBIS",
+            "出口管制"
+          ],
+          "sources": [
+            {
+              "title": "WSJ｜新增采访佐证，尚非公司确认",
+              "url": "https://www.wsj.com/tech/nvidia-tells-partners-to-pause-shipments-to-southeast-asia-5b791cb0"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-26-pm-robot",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：暂无窗口内合格实质新增",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "未核实窗口内零样本泛化、跨本体迁移、触觉／力控、数据效率、人工接管率／uptime、硬件经济性或真实付费 deployment／design win 的可比新增。",
+            "SOLVE 论文 arXiv 原提交日期为 11/25；不因 11/26 推荐或报道将其算成本期新突破，也不以普通 demo 填补栏目。"
+          ],
+          "whyImportant": "投资判断需要可比系统指标、长期运行与客户付款证据；论文推荐日期和演示曝光不等于商业可靠性改善。",
+          "investmentImpact": "观察清单：留出任务成功率与零样本边界、跨本体迁移损耗、触觉／力控精细操作、每任务数据量、每百次人工接管、连续运行与恢复、执行器／手／传感器／电池／减速器成本、客户付款和复购。对 NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Nabtesco、Harmonic Drive、THK、Nidec、Google／Gemini Robotics、Physical Intelligence，暂无本期新增硬指标支持调整机器人盈利判断。",
+          "tags": [
+            "Physical AI",
+            "泛化",
+            "跨本体",
+            "触觉力控",
+            "数据效率",
+            "可靠性",
+            "硬件经济性",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "arXiv｜SOLVE 原提交日期，用于排除旧研究再传播",
+              "url": "https://arxiv.org/abs/2611.34750"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-26-am",
       "date": "2026-11-26",
       "period": "am",
