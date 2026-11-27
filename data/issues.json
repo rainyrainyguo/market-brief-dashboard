@@ -4,6 +4,195 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-27-am",
+      "date": "2026-11-27",
+      "period": "am",
+      "time": "08:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-27T07:58:00-08:00",
+      "summary": "早报｜覆盖 11/26 19:04 至 11/27 07:58 PST，与昨晚去重。主要新增：美债十年期回到 4.90% 附近，科技反弹仍受利率约束；Bloomberg 报道上海 GB300 抵押文件线索；新加坡、印尼回应芯片限制但未确认恢复发运。美股已恢复现货交易，半导体上涨而 NVDA 落后。原油高位，机器人暂无窗口内合格实质新增。",
+      "cards": [
+        {
+          "id": "2026-11-27-am-rates",
+          "category": "macro",
+          "title": "宏观 / 市场环境：十年美债收益率上行，反弹仍面对折现率压力",
+          "status": "收益率为盘中；Fed 路径为市场预期",
+          "importance": "高",
+          "body": [
+            "Reuters 欧洲交易时段报道：美国十年期国债收益率上升约 5bp 至 4.90%；美元日内大致持平。相较昨晚缺少可比美债新报价，本期出现风险资产反弹与美债价格回落并存。",
+            "12 月 Fed 加息的市场隐含概率仍约 99%，并非本期新决议；不重复昨晚东京 CPI。本窗口未核实新的美国 CPI／PPI／PCE、就业工资、点阵图、赤字／发债政策、期限溢价或全市场信用利差与资金流。"
+          ],
+          "whyImportant": "股市回升没有带来无风险利率下降；高估值科技需要更强盈利兑现才能抵消折现率压力。十年收益率变动不能直接等同于期限溢价变动。",
+          "investmentImpact": "分析：财政／发债压力若增加→期限溢价→长端利率→科技估值；本期未确认新的供给政策冲击。日本加息／JGB 收益率上行若引发日元融资收缩或资金回流，也可能影响全球流动性，但未核实本窗口 JGB、日元和实际回流的新证据。选后 AI 监管及关税风险仍须以正式条款和生效日期判断，不将担忧算成新政策。",
+          "tags": [
+            "美债",
+            "Fed预期",
+            "美元",
+            "期限溢价",
+            "财政发债",
+            "JGB",
+            "日元",
+            "选后政策"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜11/27 全球市场及十年美债",
+              "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-27/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-27-am-nvda",
+          "category": "semi",
+          "title": "NVDA：上海 GB300 机柜抵押文件成为新的出口合规线索",
+          "status": "Bloomberg 文件调查；流转路径、许可及责任尚未厘清",
+          "importance": "高",
+          "body": [
+            "Bloomberg 11/27 11:45 UTC（03:45 PST）报道，上海项目的监管／贷款文件列有 GB300 NVL72 机柜序列号；Shanghai Shuoyao 以相关硬件作抵押获得 9,600 万元人民币贷款。记者将序列号与 Gigabyte 保修资料对应。",
+            "Gigabyte 未披露原买家及出售时间，表示遵守适用法律；NVDA 未回应本报道。Bloomberg 明确称没有证据证明 Megaspeed 本身把硬件转运到该站点，Megaspeed 否认不当行为。不能把机柜文件直接当作 NVDA 已被裁定违法或全球收入损失。"
+          ],
+          "whyImportant": "相较此前发运暂停报道，新增是可追踪设备与融资文件，合规风险进一步涉及硬件去向、交易链和抵押品。仍不能由单个机柜外推项目全部装机量。",
+          "investmentImpact": "分析：调查／终端核验趋严→许可证与发运延迟→NVDA、服务器伙伴及算力客户回款和利用率承压；受限硬件的转售及抵押价值也可能受影响。观察执法文件、原始买家、许可证明、公司回应与受影响金额，避免将关联关系等同于违规责任。",
+          "tags": [
+            "NVDA",
+            "Blackwell",
+            "GB300",
+            "Gigabyte",
+            "出口合规",
+            "抵押融资"
+          ],
+          "sources": [
+            {
+              "title": "Bloomberg｜原调查发布时间及机柜文件",
+              "url": "https://news.bloomberglaw.com/private-equity/nvidia-blackwell-chips-turn-up-at-china-site-tied-to-alice-huang"
+            },
+            {
+              "title": "The Edge｜Bloomberg 调查全文转载",
+              "url": "https://theedgemalaysia.com/node/827709"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-27-am-access",
+          "category": "semi",
+          "title": "新加坡、印尼寻求合规芯片通道，尚非恢复发运或取得豁免",
+          "status": "官方表态已发生；谈判、审批和恢复发运未完成",
+          "importance": "高",
+          "body": [
+            "新加坡 11/27 官方对话实录：副总理颜金勇表示，政府尚未确认媒体所述暂停发运，正联系企业评估影响，并与美国讨论维持高端芯片获取；同时研究加强监测、防止非法转运。",
+            "印尼部长当日表示，将协调国内立场、加强客户及算力用途审查、与美方澄清许可证实施；该部尚未收到相关企业的直接正式停运通知。新增是两国政府的回应和应对路径，不是今天再次颁布美国限制，也不是已获出口许可证。"
+          ],
+          "whyImportant": "监管回应显示合规客户通道仍在交涉，但政策意向、许可获批、实际发货和收入确认之间存在距离。",
+          "investmentImpact": "分析：终端客户／工作负载核验→审批与交付周期→DELL、SMCI、NVDA 及区域数据中心现金流。分别跟踪美国总部客户与本地客户、许可证进度和实际签收；不能将沟通表态计为订单恢复，也不能将所有东南亚算力需求归零。",
+          "tags": [
+            "新加坡",
+            "印尼",
+            "NVDA",
+            "DELL",
+            "SMCI",
+            "许可证",
+            "客户审查"
+          ],
+          "sources": [
+            {
+              "title": "新加坡政府｜11/27 颜金勇对话实录",
+              "url": "https://www.meti.gov.sg/newsroom/transcript-of-dialogue-by-dpm-gan-at-the-sph-asia-future-summit-2026/"
+            },
+            {
+              "title": "ANTARA｜印尼部长三项应对及通知状态",
+              "url": "https://en.antaranews.com/amp/news/445911/indonesia-prepares-3-measures-to-address-us-ai-chip-export-controls"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-27-am-energy",
+          "category": "macro",
+          "title": "宏观 / 市场环境：原油维持高位，WTI 涨幅须跨假期比较",
+          "status": "盘中报价；新增战损与 OPEC+ 决策不能预先确认",
+          "importance": "高",
+          "body": [
+            "Reuters 12:39 UTC（04:39 PST）快照：Brent 96.60 美元／桶，较周四增加 0.03 美元；WTI 85.14，较周三增加 1.46 美元。WTI 周四无结算，不能把这项跨假期涨幅写成单独周五涨幅。",
+            "海峡航运及沙特设施风险仍支撑价格；本期未核实足以量化新增减供的独立战损证据，不把旧攻击重复算作新升级。11/29 OPEC+ 决策仍待公布；天然气未取得明确同合约、同口径的新报价，不用换月跳变凑涨跌。"
+          ],
+          "whyImportant": "高油价持续时间会影响通胀和企业成本，即使单日变动不大，也不能据此认定地缘风险已消失。",
+          "investmentImpact": "分析：战争／航运风险→油价与运保成本→通胀→Fed 路径及美债收益率→科技估值；避险买债可能阶段性反向影响利率。观察真实船流、保险、设施恢复及 OPEC+ 正式决定，区分风险溢价与实际供给损失。",
+          "tags": [
+            "美伊",
+            "中东",
+            "原油",
+            "天然气",
+            "通胀",
+            "OPEC+"
+          ],
+          "sources": [
+            {
+              "title": "Reuters／Euronext｜12:39 UTC 原油报价与 WTI 比较基准",
+              "url": "https://live.euronext.com/en/financial-news/oil-track-snap-three-week-losing-streak-over-supply-fears"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-27-am-market",
+          "category": "ai",
+          "title": "AI / 科技：现货反弹得到确认，但 NVDA 与半导体板块分化",
+          "status": "09:43 ET 盘中快照；不是今日收盘",
+          "importance": "中",
+          "body": [
+            "Reuters 09:43 ET（06:43 PST）记录：标普 500 涨 0.74%、纳指综合涨 0.87%；报道中 SOX 涨约 1.3%，MU、MRVL 各涨逾 2%，NVDA 反跌约 1.3%。相较昨晚仅有期货，本期新增美国现货交易确认。",
+            "周五为感恩节后缩短交易日、成交偏薄；不能将板块反弹当作 NVDA 合规风险解除，也不能把指数盘中涨幅写成全日收盘。"
+          ],
+          "whyImportant": "资金风险偏好有所修复，但个股表现分化说明公司风险并未被板块上涨完全覆盖；这也不是新的 CapEx、存储合约价或盈利指引。",
+          "investmentImpact": "分析／观察：MU、MRVL、SNDK、LITE、DELL 与 NVDA 的相对强弱，恢复正常交易深度后的成交、信用利差和交付证据。反弹能否持续，要看盈利与现金流兑现，不能只由假期价格推断 AI 投资周期已经重新加速。",
+          "tags": [
+            "AI",
+            "SOX",
+            "MU",
+            "MRVL",
+            "NVDA",
+            "SNDK",
+            "LITE",
+            "DELL",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜美股恢复交易后的盘中表现",
+              "url": "https://www.reuters.com/business/wall-st-futures-surge-investors-return-holiday-2026-11-27/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-27-am-robot",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：暂无窗口内合格实质新增",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "未核实本窗口零样本泛化、跨本体迁移、触觉／力控、数据效率、人工接管率／uptime、硬件经济性或真实付费 deployment／design win 的可比新增。",
+            "今日转载的 ROBOTERA 中国邮政 45 台测试部署，原公告时间为 11/26 06:19 ET，早于本窗口；不将再传播算作今天新增订单或付费商业部署。"
+          ],
+          "whyImportant": "测试规模和厂商披露的阶段性效率，仍需与长期可靠性、人工接管、客户付款及完整成本分开评估。",
+          "investmentImpact": "观察清单：留出任务成功率、跨本体迁移损耗、触觉／力控精细操作、每任务数据量、每百次人工接管、连续运行与恢复、执行器／手／传感器／电池／减速器成本、付款及复购。继续跟踪 NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Nabtesco、Harmonic Drive、THK、Nidec、Google／Gemini Robotics、Physical Intelligence；暂无本期硬指标支持调整机器人盈利判断。",
+          "tags": [
+            "Physical AI",
+            "泛化",
+            "跨本体",
+            "触觉力控",
+            "数据效率",
+            "可靠性",
+            "硬件经济性",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "ROBOTERA｜原公告时间，用于排除旧闻再传播",
+              "url": "https://www.prnewswire.com/news-releases/robotera-puts-45-humanoid-robots-into-large-scale-fleet-operations-at-china-post-302951216.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-26-pm",
       "date": "2026-11-26",
       "period": "pm",
