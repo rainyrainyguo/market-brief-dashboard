@@ -4,6 +4,164 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-28-am",
+      "date": "2026-11-28",
+      "period": "am",
+      "time": "08:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-28T08:06:00-08:00",
+      "summary": "早报｜覆盖 11/27 18:58 至 11/28 08:06 PST，与昨晚去重。最值得跟踪的是马斯克所称 Google 追加租赁 SpaceX 算力的意向，尚非签约；黑五线上消费数据高于原预测；台湾地方选举结果公布，但不能直接折算为芯片供给变化。周末未核实新的宏观政策／报价或机器人硬指标，不重播昨晚收盘、商船事件和苹果反诉。",
+      "cards": [
+        {
+          "id": "2026-11-28-am-compute",
+          "category": "ai",
+          "title": "AI / 科技：马斯克称 Google 有意追加 SpaceX 算力，尚非新增合同",
+          "status": "马斯克公开表态；Google 未确认，数量、价格与交付未知",
+          "importance": "高",
+          "body": [
+            "Reuters 11/28 09:18 UTC（01:18 PST）报道，马斯克在 X 表示 Google 有意租赁更多 SpaceX 计算能力，未给细节；Google、SpaceX 未即时回应 Reuters 的置评请求。",
+            "报道提及既有协议每月 9.2 亿美元、从今年 10 月至 2029 年 6 月，为今年 6 月已公布的安排，不能将其算成本窗口新订单。新增只有追加租赁意向，没有新 GPU 数量、合同金额或上线日期。"
+          ],
+          "whyImportant": "这提供了大型模型公司继续寻求外部算力的需求线索，但租赁现有设备、提高利用率与追加购卡／建设新机房是不同环节。",
+          "investmentImpact": "分析：若意向落为有保障付款的新合同→算力利用率／回款可见度提高→才可能支持追加服务器、网络和电力投资，涉及 GOOGL、SPCX、NVDA 及算力供应链。先看是否签约、使用何种集群、交付与付款条件；不能据此上调全球 CapEx，也不能假设 CRWV／NBIS 同步获单。",
+          "tags": [
+            "GOOGL",
+            "SPCX",
+            "NVDA",
+            "AI算力",
+            "租赁意向",
+            "CapEx",
+            "现金流"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜马斯克表态与既有合同边界",
+              "url": "https://www.reuters.com/business/media-telecom/musk-says-google-is-interested-renting-more-computing-capacity-spacex-2026-11-28/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-28-am-retail",
+          "category": "macro",
+          "title": "宏观 / 市场环境：黑五线上支出 131 亿美元，高于原预测",
+          "status": "第三方销售统计已公布；Cyber Monday 为预测",
+          "importance": "中",
+          "body": [
+            "Reuters 11/28 14:07 UTC（06:07 PST）援引 Adobe Analytics：美国黑五线上支出 131 亿美元，同比约增 11%，超过约 129 亿美元预测；电子、游戏等品类表现较强。",
+            "Adobe 对 Cyber Monday 151 亿美元、同比增 6.2% 的数字仍是预测，不是已发生销售。线上名义支出不能直接当作全体消费的实际数量增长，也不是新 CPI／PCE 数据。"
+          ],
+          "whyImportant": "消费韧性为电商和消费电子需求提供支持，但折扣、渠道迁移、价格与产品组合都会影响销售额，不能直接推出零售商利润率同步改善。",
+          "investmentImpact": "分析：对 AMZN 及消费电子供应链是需求观察信号；需结合销量、客单价、退货和促销成本验证盈利。若后续更广泛需求与通胀持续强劲→Fed 宽松空间受限→长端利率及科技估值承压；单日购物数据不足以改变利率判断，也不能外推 AI 服务器或存储合约价。",
+          "tags": [
+            "黑五",
+            "消费",
+            "AMZN",
+            "消费电子",
+            "通胀",
+            "Fed预期"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜Adobe 黑五统计与周一预测",
+              "url": "https://www.reuters.com/business/retail-consumer/black-friday-online-shopping-rises-131-billion-us-adobe-analytics-data-shows-2026-11-28/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-28-am-taiwan",
+          "category": "semi",
+          "title": "半导体／地缘政治：台湾地方选举结果公布，暂无直接供给变化",
+          "status": "地方选举结果；不是总统选举或新的芯片政策",
+          "importance": "中",
+          "body": [
+            "Reuters 11/28 更新报道，台湾六大城市由民进党、国民党各获三席，民进党收复台中，国民党保住台北。竞选主要围绕交通、环境等地方议题，不能把结果直接理解为新的两岸协议或军事行动。",
+            "本窗口未核实 TSMC 因选举调整产能、出货或客户政策；NVDA 上海设备文件、东南亚暂停发运线索也未核实新增公司确认、执法结论或恢复日期，不重复此前报道。"
+          ],
+          "whyImportant": "政治变化可能影响中长期风险溢价，但地方席位结果到半导体现金流之间缺少直接传导证据。",
+          "investmentImpact": "分析／观察：两岸后续官方表态、真实军事及航运变化、电力和物流，再判断是否影响 TSMC、台湾供应链及全球客户；没有实物供给证据前，不由选举结果推断断供、涨价或估值折价已变化。",
+          "tags": [
+            "TSMC",
+            "台湾",
+            "地方选举",
+            "地缘风险",
+            "半导体供应链"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜台湾地方选举结果与议题范围",
+              "url": "https://www.reuters.com/world/china/taiwan-votes-key-local-elections-china-looks-2026-11-28/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-28-am-environment",
+          "category": "macro",
+          "title": "宏观 / 市场环境：周末无合格新增政策或市场报价",
+          "status": "无实质更新",
+          "importance": "中",
+          "body": [
+            "本窗口未核实新增美国—伊朗／中东军事进展足以改变供应判断；昨晚已讲的商船事件与油价结算不重播。OPEC+ 11/29 会议仍是待观察事项，媒体关于维持产量的预期不是正式决议；未取得油气同合约可靠新报价。",
+            "未核实新增美国 CPI／PPI／PCE、就业工资、Fed 决议／点阵图、财政赤字／发债政策、期限溢价、信用利差或实际资金流；美债、美元、日本 JGB／日元也无可报告的本窗口同口径新变化。未确认美国选后新增财政、贸易、关税或监管措施正式落地。"
+          ],
+          "whyImportant": "休市期间的旧报价和周末转载，不能当作融资条件或风险偏好又变化了一轮；缺少新增信息也不代表既有风险消失。",
+          "investmentImpact": "条件观察链：战争→能源与运保成本→通胀→美债／Fed→科技估值；财政发债→期限溢价→长端利率；日本收益率→资金回流／日元融资成本→全球风险流动性。待正式政策、可比价格及真实资金流验证，不把传闻或旧数据写成已兑现冲击。",
+          "tags": [
+            "美伊",
+            "原油",
+            "天然气",
+            "美债",
+            "期限溢价",
+            "财政",
+            "JGB",
+            "日元",
+            "Fed",
+            "信用利差",
+            "资金流",
+            "选后政策"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜OPEC+ 会前报道，仅作待决事项跟踪",
+              "url": "https://www.reuters.com/business/energy/opec-may-roll-over-current-oil-output-targets-sunday-meeting-sources-say-2026-11-26/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-28-am-robot",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：暂无窗口内合格实质新增",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "未核实窗口内零样本泛化、跨本体迁移、触觉／力控精细操作、机器人数据效率、人工接管率／uptime、硬件经济性或真实付费 deployment／design win 的可比新增。",
+            "普通演示、平台接口接入、合作意向及旧论文再报道不足以证明指标改善；不将同一机器人计划的周末转载计作新增订单。以下官方页面是跟踪入口，不是本期新闻证据。"
+          ],
+          "whyImportant": "从能展示任务到可以稳定付费运行，需要可比成功率、接管、停机和完整成本证据。",
+          "investmentImpact": "观察清单：留出任务成功率、跨本体迁移损耗、触觉／力控测试、每任务数据量、每百次人工接管、连续运行与恢复、执行器／手／传感器／电池／减速器成本、付款及复购。继续跟踪 NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Nabtesco、Harmonic Drive、THK、Nidec、Google／Gemini Robotics、Physical Intelligence；暂无本期新增硬指标支持调整机器人盈利判断。",
+          "tags": [
+            "Physical AI",
+            "泛化",
+            "跨本体",
+            "触觉力控",
+            "数据效率",
+            "可靠性",
+            "硬件经济性",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "Physical Intelligence｜官方研究跟踪入口",
+              "url": "https://www.pi.website/blog"
+            },
+            {
+              "title": "NVIDIA｜官方公告跟踪入口",
+              "url": "https://nvidianews.nvidia.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-27-pm",
       "date": "2026-11-27",
       "period": "pm",
