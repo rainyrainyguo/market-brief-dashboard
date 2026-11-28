@@ -4,6 +4,174 @@
   "archiveNote": "历史正文迁移自原 Dashboard；期次时间沿用原记录（约 PT）。",
   "issues": [
     {
+      "id": "2026-11-27-pm",
+      "date": "2026-11-27",
+      "period": "pm",
+      "time": "19:00",
+      "timezone": "America/Los_Angeles",
+      "updatedAt": "2026-11-27T18:58:00-08:00",
+      "summary": "晚报｜覆盖 11/27 07:58–18:58 PST，与早报去重。新增重点：美债十年期进一步升至约 4.94%，半导体反弹扩大至收盘；美军正式披露击瘫一艘商船，Brent 却回落结算；OpenAI 对苹果提起反诉。NVDA 上海设备线索与东南亚政府回应不重讲。机器人暂无窗口内合格硬指标或付费部署新增。",
+      "cards": [
+        {
+          "id": "2026-11-27-pm-rates",
+          "category": "macro",
+          "title": "宏观 / 市场环境：十年美债约 4.94%，股市反弹未解除利率压力",
+          "status": "市场报价已发生；就业、Fed 与听证为前瞻观察",
+          "importance": "高",
+          "body": [
+            "AP 收盘报道的十年美债收益率约 4.94%，高于周三尾盘 4.85%；相较早报约 4.90% 的盘中读数进一步抬升。这里跨越感恩节，不当作周五单日上涨 9bp，也不将收益率变动直接等同于期限溢价。",
+            "本窗口未核实新的美国 CPI／PPI／PCE、就业工资、点阵图、财政赤字／发债政策、可比信用利差或实际资金流；美元与日本 JGB／日元也未取得足以报告新增变化的可靠同口径数据。"
+          ],
+          "whyImportant": "高估值科技同时面对风险偏好修复与无风险利率上升，价格反弹没有自动改善借款成本和估值折现率。",
+          "investmentImpact": "分析／观察：财政发债若增加→期限溢价→长端利率→科技估值；日本收益率若引发回流／日元融资收缩→全球风险流动性，均需数据验证。下周就业是后续 Fed 定价测试，尚未公布；参院官网列 12/3 10:00 ET（07:00 PST）黄仁勋出口管制听证，作为已安排的观察事项，不冒充本期新政策。选后监管、关税须以正式条款及生效时间判断。",
+          "tags": [
+            "美债",
+            "期限溢价",
+            "财政发债",
+            "Fed",
+            "就业",
+            "JGB",
+            "日元",
+            "选后政策"
+          ],
+          "sources": [
+            {
+              "title": "AP｜收盘报道及美债跨假期比较",
+              "url": "https://apnews.com/article/stock-markets-tariffs-ai-profits-energy-c7ef10c1dbc5fa09668bd4fe0729c613"
+            },
+            {
+              "title": "美国参院银行委员会｜12/3 听证安排，前瞻观察",
+              "url": "https://www.banking.senate.gov/hearings/protecting-americas-ai-advantage-oversight-of-us-export-controls"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-27-pm-close",
+          "category": "semi",
+          "title": "AI / 半导体：SOX 收涨约 4.7%，NVDA 转正但仍落后",
+          "status": "正式收盘更新；不是新增盈利指引或订单",
+          "importance": "高",
+          "body": [
+            "相较早报盘中，收盘新增：标普 500 涨 1.60%、纳指综合涨 2.31%；SOX 约涨 4.7%，MU 涨 7.6%、MRVL 涨 7.3%、SNDK 涨近 16%。NVDA 从盘中下跌转为收涨约 0.8%，仍明显落后板块。",
+            "AP 报道 Anthropic 收涨约 11% 至 91.88 美元，高于 83 美元 IPO 价。以上是感恩节后缩短交易日的收盘表现；不把反弹直接归因于新的基本面利好或已证实的机构净流入。"
+          ],
+          "whyImportant": "反弹由盘中扩大至收盘，风险偏好修复得到更强价格确认；但存储、连接芯片和 NVDA 分化仍在，不能把行业整体上涨等同于个股合规风险解除。",
+          "investmentImpact": "分析：超跌、空头回补或仓位追赶可能参与行情，但缺少可验证资金流，不能确认主因。观察正常交易深度恢复后，MU／SNDK 的价格与库存、MRVL 订单、NVDA 实际交付和融资成交；本期未核实新增 CapEx、存储合约价或盈利指引，不能由涨幅宣布周期重新加速。",
+          "tags": [
+            "SOX",
+            "MU",
+            "MRVL",
+            "SNDK",
+            "NVDA",
+            "Anthropic",
+            "风险偏好"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜11/27 美股及半导体收盘",
+              "url": "https://www.reuters.com/business/wall-st-futures-surge-investors-return-holiday-2026-11-27/"
+            },
+            {
+              "title": "AP｜Anthropic 收盘与 IPO 价比较",
+              "url": "https://apnews.com/article/stock-markets-tariffs-ai-profits-energy-c7ef10c1dbc5fa09668bd4fe0729c613"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-27-pm-energy",
+          "category": "macro",
+          "title": "宏观 / 市场环境：美军披露击瘫商船，原油仍回落结算",
+          "status": "军事行动为美军正式说法；油价为结算，减供规模未确认",
+          "importance": "高",
+          "body": [
+            "CENTCOM 11/27 公告称，11/26 在阿曼湾以弹药击中 Pacific Archer 船尾、使推进系统失效，船员未受伤；美军称其从 Bandar Abbas 离港后无视警告、试图突破封锁。新增是今日正式披露，不是行动今天才发生，也不是早报油轮触雷传闻的新独立证实。",
+            "Brent 周五结算 95.44 美元／桶，跌 1.13 美元；WTI 83.08，较周三跌 0.60 美元，周四无结算。Brent 本周仍涨约 3%。本窗口未核实天然气同合约可靠新结算，不把换月连续合约跳变写成真实单日涨幅。"
+          ],
+          "whyImportant": "封锁执行风险获得更具体的官方信息，但原油没有持续追高；单次商船拦截不能直接折算成损失多少原油或海峡完全停航。",
+          "investmentImpact": "分析：军事／航运风险→运保与能源成本→通胀→Fed／美债收益率→科技估值；油价回落只能缓解当日价格压力，不能证明战争风险消失。观察船流、运输保险、实际供应与 11/29 OPEC+ 正式决定；避险买债可能阶段性抵消利率上行。",
+          "tags": [
+            "美伊",
+            "中东",
+            "霍尔木兹",
+            "原油",
+            "天然气",
+            "通胀",
+            "OPEC+"
+          ],
+          "sources": [
+            {
+              "title": "CENTCOM／DVIDS｜11/27 官方公告及事件日期",
+              "url": "https://www.dvidshub.net/news/580348/us-forces-disable-commercial-vessel-during-blockade-enforcement-against-iran"
+            },
+            {
+              "title": "Reuters／Euronext｜11/27 原油结算及比较口径",
+              "url": "https://live.euronext.com/en/financial-news/oil-notches-first-weekly-gain-november-supply-fears"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-27-pm-apple",
+          "category": "ai",
+          "title": "AI / 科技：OpenAI 反诉苹果，硬件竞争延伸到人才与供应商",
+          "status": "反诉已提交；指控未获裁定，苹果否认",
+          "importance": "中",
+          "body": [
+            "Reuters 11/27 18:28 UTC（10:28 PST）报道，OpenAI 当日在加州联邦法院提出反诉，指控苹果获取其商业秘密，并阻碍硬件供应商参与 OpenAI 未来设备。苹果否认利用回聘员工获取 OpenAI 机密，也否认压制 AI 设备制造竞争。",
+            "本期新增是反诉及双方回应，不是设备已上市、供应商已停供或法院认定侵权；没有可核实的产品收入、上市延期或供应链损失金额。"
+          ],
+          "whyImportant": "AI 消费硬件竞争不仅取决于模型能力，还涉及设计人才、供应商合作和知识产权边界。诉讼可能影响执行时间与成本，当前不能量化。",
+          "investmentImpact": "分析：若供应链限制或禁令实际落地→设备研发／量产延期→AAPL 与潜在 AI 终端供应链预期调整；目前只是条件风险。观察法院命令、供应商实际行为和产品时间表，不据双方诉讼主张重估苹果盈利或 OpenAI 硬件市场份额。",
+          "tags": [
+            "AAPL",
+            "OpenAI",
+            "AI硬件",
+            "商业秘密",
+            "供应链",
+            "诉讼"
+          ],
+          "sources": [
+            {
+              "title": "Reuters｜反诉及苹果回应",
+              "url": "https://www.reuters.com/technology/openai-countersues-apple-stealing-trade-secrets-ft-reports-2026-11-27/"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-27-pm-robot",
+          "category": "robot",
+          "title": "Physical AI / 机器人投资信号：暂无合格硬指标或付费部署新增",
+          "status": "无实质更新",
+          "importance": "低",
+          "body": [
+            "未核实本窗口零样本泛化、跨本体迁移、触觉／力控、数据效率、人工接管率／uptime、整机硬件经济性或真实付费 deployment／design win 的可比新增。",
+            "今日 GXO 机器人扩张报道所依托的公司部署公告日期为 11/18，不当作本期新订单；NEURA 11/27 公告为与 Aragón 政府及 Costa Group 签署训练设施合作备忘录，尚不能证明泛化改善或客户付费部署，且未标出足以划定本窗口的发布时间。"
+          ],
+          "whyImportant": "训练设施意向和旧计划再传播，不能替代系统性能、稳定运行、成本及客户验收证据。",
+          "investmentImpact": "观察清单：留出任务成功率、跨本体迁移损耗、触觉／力控精细操作、每任务数据量、每百次人工接管、连续运行与恢复、执行器／手／传感器／电池／减速器成本、付款及复购。继续跟踪 NVDA、ON、ADI、TER、TSLA、Unitree、Figure、Nabtesco、Harmonic Drive、THK、Nidec、Google／Gemini Robotics、Physical Intelligence；暂无本期新增硬指标支持调整盈利判断。",
+          "tags": [
+            "Physical AI",
+            "泛化",
+            "跨本体",
+            "触觉力控",
+            "数据效率",
+            "可靠性",
+            "硬件经济性",
+            "付费部署"
+          ],
+          "sources": [
+            {
+              "title": "GXO｜11/18 原公告，排除旧计划再传播",
+              "url": "https://gxo.com/news_article/adaptive-technology-deployment-us/"
+            },
+            {
+              "title": "NEURA｜合作备忘录原公告，核对证据边界",
+              "url": "https://neura-robotics.com/neura-robotics-aragon-government-costa-group-physical-ai/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-27-am",
       "date": "2026-11-27",
       "period": "am",
